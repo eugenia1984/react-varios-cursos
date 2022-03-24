@@ -2,20 +2,10 @@
 
 En este curso aprendí los fundamentos básicos de **React** desde cero y paso a paso con *Víctor Robles*. Instalación, Componentes, JSX y más.
 
-## Lo que aprendí:
 
-- Instalar React
+---
 
-- Trabajo básico con las plantillas de React
-
-- Lo básico de JSX
-
-- Saber utilizar los componentes de React JS
-
-- Conocer las bases de este framework de Facebook
-
-
-## ¿Hay requisitos para realizar el curso?
+## :star:  ¿Hay requisitos para realizar el curso?
 
 - Saber utilizar un sistema operativo
 
@@ -26,7 +16,9 @@ En este curso aprendí los fundamentos básicos de **React** desde cero y paso a
 - NO es necesario saber nada de React, ni de ningún otro framework
 
 
-## ¿Para quién es este curso?
+---
+
+## :star:  ¿Para quién es este curso?
 
 - Desarrolladores web
 
@@ -37,3 +29,113 @@ En este curso aprendí los fundamentos básicos de **React** desde cero y paso a
 - Estudiantes de ingeniería
 
 - Apasionados por la programación
+
+---
+
+
+## :star: Lo que aprendí:
+
+### 1 - Instalar React
+
+Librería creada por Facebook, para desarrollar interfaces de usuarios completamente dinçamicas, reactivas y asíncronas con el servidor.
+
+Primero hay que descargar NOdeJS y tenerlo instalado.
+
+En Mac y Lunix se abre la terminal, en Windows el sistema; para actualizar npm (el gestor de paquetes de Node que nos sirve para bajarnos las dependencias, las librerías y paquetes de JavaScript).
+
+```
+npm install -g npm@latest
+```
+
+**-g** para decir que es una actualización global
+
+Para saber la version:
+
+```
+npm --version
+```
+
+Veo que tengo la **8.5.5**
+
+Para limpiar la cache de Node:
+
+```
+npm cache clean --force
+```
+
+Para limpiar consola:
+
+```cls``` en windows o ```clear``` para linux o mac
+
+Para instalar React vamos a utilizar un paquete **create react app**, es un modulo de nodejs. Es un interprete de consola, que ya incluye Web Pack y un Live Reload. También un scarfolding (una estructura básica).
+
+```
+npm install -g create-react-app
+```
+
+Tengo que ir al directorio donde voy a estar trabajando. Primero me asegura tener instalado la version 14 o más de NodeJS Y luego creo el proyecto con el comando:
+
+```
+create-react-app nombre_del_proyecto
+```
+
+Tener en cuenta que el nombre del proyecto no puede empezar con UpperCamelCase, ni camelCase, debe estar todo en minuscula.
+
+Y se nos crea todo el proyecto.
+
+También nos da unos comandos:
+
+Inside that directory, you can run several commands:
+
+``` npm start ``` ->    Starts the development server.
+
+``` npm run build ``` ->   Bundles the app into static files for production.
+
+```  npm test ``` ->     Starts the test runner.
+
+```  npm run eject``` ->    Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+``` cd aprendiendoreact ```
+
+``` npm start```
+
+Una vez creado el proyecto si quiero utilizar camelCase o UpperCamelCase, le cambio el nombre
+
+En windows para ver los directorios es con ```dir```, en Linux y Mac es con ```ls```
+
+asi veo el listado y entro al directorio dle proyecto recien creado
+
+```
+cd aprendiendoreact
+```
+Y lo inicializo con ```npm start```
+
+En consola veo
+
+```
+Starting the development server...
+Compiled successfully!
+You can now view aprendiendoreact in the browser.
+
+Local:            http://localhost:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+```
+
+Me va a abrir mi navegador web en ***http://localhost:3000/***
+
+
+### 2 - Estructura del proyecto 
+### 3 - Trabajo básico con las plantillas de React
+
+### 4 - Lo básico de JSX
+
+### 5 - Saber utilizar los componentes de React JS
+
+### 6 - Conocer las bases de este framework de Facebook
+
+### 7 - Ejercicio con JSX y más 
