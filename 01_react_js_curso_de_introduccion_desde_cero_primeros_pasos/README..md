@@ -153,16 +153,75 @@ Me va a abrir mi navegador web en ***http://localhost:3000/***
 - **node_modules**
 
 
-
 ---
 
-### 3 - Trabajo básico con las plantillas de React
+### 3 - Trabajo básico con las plantillas de React y lo básico de JSX
 
+Con **JSX** se pueden utilizar etiquetas de html con JavaScript; puedo agregar variables de JavaScript dentro de una etiqueta de html, sus funciones, todo. Lo que si NO se debe utilizar el punto y coma al final de la declaración como se hace con JavaScript.
 
----
+Ejemplo de como utilizar una variable:
 
-### 4 - Lo básico de JSX
+```JavaScript
+import logo from './logo.svg';  //importo la imagen del logo
 
+function App() {
+  // aca puedo definir todas las variables que necesite
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Ejemplo de como utilizar una funcion y variables, en este caso las variables van entre llaves, pero sin el $ delante:
+
+```JavaScript
+// Aca puedo tener funciones, dentro de la funcion puedo tener más de un renglon con etiquetas de html, como aca que tengo h2 y h3 siempre que las tenga dentro de un DIV
+function HolaMundo(nombre, edad) {
+  var presentacion = <div>
+         <h2>Hola, soy {nombre} </h2>
+         <h3>Tengo {edad} años </h3>
+        </div>;
+  return presentacion      
+}
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          {HolaMundo(Eugenia, 37)}
+        </p>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+
+También para dejar más explícito que es JSX puedo usar paréntesis, por ejemplo:
+
+```JavaScript
+function HolaMundo(nombre, edad) {
+  var presentacion = (
+    <div>
+      <h2>Hola, soy {nombre} </h2>
+      <h3>Tengo {edad} años </h3>
+    </div>
+  );
+  return presentacion      
+}
+```
+
+Previene de inyecciones de código.
+
+Es como un lenguaje de plantillas, me permite imprimir variables.
 
 ---
 ### 5 - Saber utilizar los componentes de React JS
