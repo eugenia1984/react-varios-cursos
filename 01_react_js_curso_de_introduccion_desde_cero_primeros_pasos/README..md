@@ -128,14 +128,52 @@ To create a production build, use npm run build.
 
 Me va a abrir mi navegador web en ***http://localhost:3000/***
 
+- Recordar siempre dejar abierta la consola con el npm start, porque de esta forma le levanta el servidor local y puedo ver el proyecto.
+
+---
+
+:tv: -> [En el directorio aprendiendoreact esta la primer practica](https://github.com/eugenia1984/react-con-Udemy/tree/main/01_react_js_curso_de_introduccion_desde_cero_primeros_pasos/aprendiendoreact)
+
+---
 
 ### 2 - Estructura del proyecto 
+
+- **README.md** con un poco de documentación
+
+- **package.json** es el archivo de configuración del proyecto.
+
+- **package-lock.json** al instalar las dependencias
+
+- **.gitignore** que archivos no quiero subir al repositorio del github, como el node-modules
+
+- **src** con: **logo.svg** (el logo de React), **index.js** (cargar e importar todo lo principal de React, la hoja de estilos, los componentes, la librerñia, y renderiza el componente que ca en el div con id root), **index.css** (la hoja de estilos), **app.test.js** (un fichero para hacer testing),**app.js** (es un componente, es todo lo que se ve, el que se carga en el index.js)
+
+- **public** con: **index.html** (donde esta el div con id root que renderizo), **favicon.ico** (el icono que se ve en el browser), **logo192.png** (logo de react), **logo512.png** (logo de react), **manifest.json**, **robots.txt**
+
+- **node_modules**
+
+
+
+---
+
 ### 3 - Trabajo básico con las plantillas de React
+
+
+---
 
 ### 4 - Lo básico de JSX
 
+
+---
 ### 5 - Saber utilizar los componentes de React JS
+
+---
 
 ### 6 - Conocer las bases de este framework de Facebook
 
+
+---
+
 ### 7 - Ejercicio con JSX y más 
+
+---
