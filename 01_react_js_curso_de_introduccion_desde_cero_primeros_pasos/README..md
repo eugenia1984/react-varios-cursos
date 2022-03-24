@@ -226,6 +226,14 @@ Es como un lenguaje de plantillas, me permite imprimir variables.
 ---
 ### 5 - Saber utilizar los componentes de React JS
 
+¿Qué es un componente ? Es un pedazo de pantalla, la parte lógica que controla una parte de la pantalla, puedo tener varios componentes en una misma pantalla, puedo tner uno para el NavBar, otro para el footer, etc. Es una parte lógica de la aplicación la cual se va inscrustando en la pantalla. Todos los componentes hacen una pantalla completa.
+
+Un componente recibe parametros, propiedades, procesa una lógica, hace una funcionalidad.
+
+Da soporte a una vista
+
+Tenemos el componente **app.js**
+
 ---
 
 ### 6 - Conocer las bases de este framework de Facebook
