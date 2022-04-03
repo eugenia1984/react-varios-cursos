@@ -1,4 +1,44 @@
+ENGLISH
+
+# React with Udemy
+
+Here I will gather the courses made in *Udemy* of **React**
+
+---
+
+## What will they find?
+
+[React JS Course - Introduction course from scratch and first steps](https://github.com/eugenia1984/react-con-Udemy/tree/main/01_react_js_course_de_introduction_from_zero_first_steps)
+
+---
+
+## Stack of technologies?  🛠️
+
+**HTML5** , **CSS3**, **JavaScript** & **React**.
+
+
+---
+ 
+
+
+## Please: 🎁
+
+* Share this proyect with others 📢
+* Invite a beer 🍺 or a coffee ☕  to someone of the team. 
+* Thanks a lot 🤓.
+
+
+---
+
+## Notes
+
+I appreciate your interest in this Project ⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta) 
+
+---
+
+
 SPANISH
+
 
 # React con Udemy
 
@@ -9,6 +49,30 @@ Aca juntare los cursos realizados en *Udemy* de **React**
 ## ¿ Qué van a encontrar ?
 
 [Curso React JS - curso introduccción desde cero y primeros pasos](https://github.com/eugenia1984/react-con-Udemy/tree/main/01_react_js_curso_de_introduccion_desde_cero_primeros_pasos)
+
+---
+
+
+## Tecnologías 🛠️
+
+**HTML5**, **CSS3**,  **JavaScript** & **React**
+
+
+
+
+
+## Por favor: 🎁
+
+* Comparte este proyecto con otros 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
+* Muchas gracias 🤓.
+
+---
+
+## Notas
+
+Agradezco su interés en este proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
+
 
 ---
 
