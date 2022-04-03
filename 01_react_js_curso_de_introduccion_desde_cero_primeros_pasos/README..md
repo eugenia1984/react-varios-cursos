@@ -228,11 +228,96 @@ Es como un lenguaje de plantillas, me permite imprimir variables.
 
 ¿Qué es un componente ? Es un pedazo de pantalla, la parte lógica que controla una parte de la pantalla, puedo tener varios componentes en una misma pantalla, puedo tner uno para el NavBar, otro para el footer, etc. Es una parte lógica de la aplicación la cual se va inscrustando en la pantalla. Todos los componentes hacen una pantalla completa.
 
-Un componente recibe parametros, propiedades, procesa una lógica, hace una funcionalidad.
+Un componente recibe parámetros, propiedades, procesa una lógica, hace una funcionalidad.
 
 Da soporte a una vista
 
 Tenemos el componente **app.js**
+
+#### ¿ Cómo crear componentes en React ?
+
+Está el componente **App.js** que es el que viene por defecto dentro del directorio **src**. 
+
+Se pueden hacer todos los componentes mezclados (html, css y js) o se los puede ir ordenando por carpetas, en el tutorial recomiendan tener :
+
+**src** -> **components** y **assets**.
+
+Y dentro de assets tener **images** y **css**. 
+
+-> Entonces muevo los archivos: *App.css* y *index.css* dentro de esta nueva carpeta **css**. Ahora voy a tener que ajustar las rutas donde se cargan los archivos. Entonces en **App.js** : 
+```JavaScript 
+import './assets/css/App.css';
+```
+
+Y en **index.js**:
+```JavaScript
+import './assets/css/index.css';
+```
+
+-> el archivo *logo.svg* va dentro de la carpeta **images**. Y también ajusto la ruta en **App.js**:
+```JavaScript
+import logo from './assets/images/logo.svg';
+```
+
+-> De ahora en más los **componentes** los voy a ir cargando desde **components**. Y es muy sencillo, directamente dentro de mi directorio **components** creo el archivo .js. El nombre se debe poner en UppercamelCase. En este caso voy a crear:
+
+**MiComponente.js**
+
+Y dentro:
+
+```JavaScript
+// primero importo React, para tener dicho módulo
+import React from 'React';
+```
+
+
+```JavaScript
+// debo definir una clase dentro, en este caso la llamo como mi archivo MiComponente y hago que e¡herede de React.Component
+class MiComponente extends React.Component {
+  // el método RENDER es el que se va a encargar de mostrar información en pantalla, la vista que ve el usuario
+   render() {
+     // siempre debe tener un RETURN y entre los () va mi JSX
+    return (
+      <h1>Hola, soy el componente llamado: MiComponente</h1>
+    );
+  }
+}
+//Ahora debo EXPORTARLO para poder utilizarlo dentro de cualquier vista o componente de la aplicación y trabajar con el
+export default MiComponente;
+```
+
+-> Felicitaciones! Quedo creado el primer componente :)
+
+Ahora para mostrarlo o utilizarlo hay que ir a**App.js** e importarlo:
+
+```JavaScript
+import MiComponente from './components/MiComponente';
+```
+
+En JSX no puedo usar **calss** porque es una sintaxis mezclada entre HTML y JS, entonces debo utilizar **className**, porque sino **class** se me confunde con la **clase** creada en el archivo .js.
+
+-> Entonces en **App.js** dentro de la función **App()** voy a renderizar mi componente dentro del **section** con **className ="componentes"**.
+
+Y ... ¿cómo llamo a mi componente ? ``` <MiComponente />```
+
+
+```JavaScript
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Hola, bienvenidos a la primer práctica de REACT.
+        </p>
+      </header>
+      <section className="componentes">
+        <miComponente />
+      </section>
+    </div>
+  );
+}
+```
 
 ---
 
