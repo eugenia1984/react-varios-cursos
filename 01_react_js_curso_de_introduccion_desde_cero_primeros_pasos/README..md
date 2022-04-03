@@ -312,20 +312,137 @@ function App() {
         </p>
       </header>
       <section className="componentes">
-        <miComponente />
+        <MiComponente />
       </section>
     </div>
   );
 }
 ```
 
+-> Como ya tengo creado mi primer componente, ahora lo puedo utilizar / llamar todas las veces que lo necesito, por se se reutiliza.
+
+-> Si le paso propiedades, entonces cada componente va a tener una funcionalidad, es un objeto que va a ejecutar un metodo y va a tener su funcionalidad.
+
+
+
+
 ---
 
 ### 6 - Conocer las bases de este framework de Facebook
 
+#### Formas de crear un componente:
 
----
+- importando desde react y extendiendo React.Component
 
-### 7 - Ejercicio con JSX y más 
+```JavaScript
+import React from 'react';
+
+class MiComponente extends React.Component {
+
+}
+```
+
+- Usando desestructuración:
+
+```JavaScript
+import React, {Component} from 'react';
+
+class MiComponente extends Component {
+
+}
+```
+
+#### No puedo retornar más de un Nodo en la clase de mi componente
+
+- Tener dos etiquetas html dentro de la clase del componente, dentro dle *return* -> **el return solo puede tener una sola etiqueta html**, no puede devolver dos nodos de html, lo que si puedo tener es una etqieuta padre que englobe a otras dos eqtiquetas hijas.
+
+
+```JavaScript
+class MiComponente extends Component {
+  render() {
+    return (
+      // esto NO se puede hacer
+      <h1>Hola, soy el componente llamado: MiComponente</h1>
+      <h2> Estoy probando el componente </h2>
+    );
+  }
+}
+```
+
+
+```JavaScript
+class MiComponente extends Component {
+  render() {
+    return (
+      // esto SI se puede hacer, solo devuelve la etiqueta DIV, es un solo nodo (dentro si tnego mas etiquetas hijas)
+      <div className="mi-componnnte">
+        <h1>Hola, soy el componente llamado: MiComponente</h1>
+        <h2> Estoy probando el componente </h2>
+      </div>
+    );
+  }
+}
+```
+
+Otro modo, y mejor, de solucionarlo es creando un **React.Fragment**, que es un template, va a ser como una etqiqueta vacía donde puedo tener el codigo de HTML o de JSX.
+
+```JavaScript
+class MiComponente extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <h1>Hola, soy el componente llamado: MiComponente</h1>
+        <h2>Estoy probando el componente con React.Fragment</h2>
+      </React.Fragment>
+      
+    );
+  }
+}
+```
+
+Estos **Fragment** NO crean etiquetas extras, crea el código tal cual.
+
+
+#### Trabajando con variables
+
+```JavaScript
+class MiComponente extends Component {
+  render() {
+    //Siempre declaro mis variables fuera del return, antes del mismo
+    // en este caso mi variable RECETA es un object JSON
+    let receta = {
+      nombre: 'pizza',
+      ingredientes: ['tomate', 'queso', 'jamon cocido'],
+      calorias: 400
+    };
+    // dentro del return voy a mostrar mi objeto pizza
+    return (
+      <React.Fragment>
+        <h1>Hola, soy el componente llamado: MiComponente</h1>
+        <h2>Estoy probando el componente con React.Fragment</h2>
+        <hr/>
+        <h2>Muestro mi objeto:</h2>
+        <p>  {`Receta: ${receta.nombre}`} </p>
+        <p> Ingredientes :</p>
+        <ol> 
+          {
+            receta.ingredientes.map( (ingrediente, i) => {
+              return (
+                <li key={i}> {ingrediente}</li>
+              )
+            })
+          }
+        </ol>
+        <p>{`calorias: ${receta.calorias}`} </p> 
+      </React.Fragment>
+      
+    );
+  }
+}
+```
+
+¿ Para qué utilicé la *key* dentro del ```<li>``` para los elementos de los ingredientes de la pizza ?
+
+Para localizar cada elemento del DOm. Esto se puede guardar en el state y se puede modificar en la vista.
 
 ---

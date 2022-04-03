@@ -14,7 +14,7 @@ function App() {
         </p>
       </header>
       <section className="componentes">
-        <miComponente />
+        <MiComponente />
       </section>
     </div>
   );
