@@ -30,6 +30,31 @@ Se me va a abrir en **http://localhost:3000** y tambien me muestra la direccion 
 
 En la carpeta **src** solo dejo el archivo **index.js** y lo modifico para que me quede asi:
 
+```JavaScript
+import React from 'react';
+import ReactDOM from 'react-dom/client'
+
+
+const myFirsElement = <h1>Hello React!</h1>
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(myFirsElement)
+```
+
+---
+
+## React render HTML
+
+Dentro de la carpeta **public** tengo el archivo **index.html** con ```  <div id="root"></div>````
+
+Este **div** con **id** **root** es el que voy a estar renderizzando, en **src**>**index.js**, con:
+
+```JavaScript
+import React from 'react';
+import ReactDOM from 'react-dom/client'
+
+ReactDOM.render(<p>Hello</p>, document.getElementById('root'));
+```
 
 ---
 ---
