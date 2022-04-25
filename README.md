@@ -14,6 +14,8 @@ Here I will gather the courses made in *Udemy* of **React**
 
 - 3 - [w3schools React](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_react_con_w3schools)
 
+- 4 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba)
+
 ---
 
 ## Stack of technologies?  🛠️
@@ -58,6 +60,9 @@ Aca juntare los cursos realizados en *Udemy* de **React**
 - 2 - [Tutorial: Introducción a React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
 
 - 3 - [w3schools React](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_react_con_w3schools)
+
+- 4 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba)
+
 
 ---
 
