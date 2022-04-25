@@ -24,6 +24,12 @@ Para crear una app cpn **create react app**:
 Se me va a abrir en **http://localhost:3000** y tambien me muestra la direccion IP
 
 
+---
+
+## Modificando la aplicacion
+
+En la carpeta **src** solo dejo el archivo **index.js** y lo modifico para que me quede asi:
+
 
 ---
 ---
