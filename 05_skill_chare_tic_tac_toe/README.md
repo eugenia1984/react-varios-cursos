@@ -124,4 +124,4 @@ ReactDOM.render(
 
 ## ¿ Donde ver la app?
 
-Está dentro de la carpeta [tic-tac-toe]
+Está dentro de la carpeta [tic-tac-toe](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_skill_chare_tic_tac_toe/tic-tac-toe)
