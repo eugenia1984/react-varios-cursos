@@ -1,5 +1,24 @@
 # Tic Tac Toe: A playfull Intro to React (SKILL SHARE) 
 
+
+¿Queres aprender React de forma divertida?
+
+En esta clase, aprenderás os conceptos claves de React mientras contruyes un juego de Tic Tac Toe.
+
+mientras construimos un juego completamente funcional, nos sumergimos en algunos conceptos básicos de React, como:
+
+- Dividir la aplicaicón  o juego en partes pequeñas, en componentes.
+
+- Como estructurar su logica y cómo conectar estos componentes con **props** y **callbacks**
+
+- Como lidiar con el cambio, qué es el **estado**, qué alamcenar en él y cómo definirlo
+
+- Como agregar **interacción** y cómo funciona el **renderizado** en React
+
+También dibujaremos algunas imágenes básicas mediante codificación de SVG.
+
+Es un curso introductorio, no requiere conocimiento previo de React, pero se requiere algunas habilidades básicas de **HTML**, **CSS** y **JavaScript**
+
 ---
 
 ## Algunos conceptos
