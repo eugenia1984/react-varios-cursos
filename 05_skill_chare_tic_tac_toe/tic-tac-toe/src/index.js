@@ -10,26 +10,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-/*
-function TicTacToe() {
-  return <div>Hello from React!</div>;
-}
-
-function Square() {
-  return <div>Square</div>;
-}
-
-function Circle() {
-  return <div>Circle</div>;
-}
-
-function Cross() {
-  return <div>Cross</div>;
-}
-
-ReactDOM.render(
-  <TicTacToe />,
-  document.getElementById('app')
-)
-*/
