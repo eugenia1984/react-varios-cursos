@@ -54,7 +54,7 @@ En el curso lo hace en CodePen y el **Pen Settings** > **JavaSCript** > **Add Ex
 
 ---
 
-Vamos a ver el primer componente
+### Vamos a ver el primer componente
 
 Y aunque te sorprenda, ocmo dijimos un **componente** es una funcion:
 
@@ -62,6 +62,11 @@ Y aunque te sorprenda, ocmo dijimos un **componente** es una funcion:
 function TicTacToe() {
   return <div>Hello from React!</div>;
 }
+
+ReactDOM.render(
+  <TicTacToe />,
+  document.getElementById('app')
+)
 ```
 
 Un componente es una función especial que está retornando que se ve como HTML, peor no es HTMl porque estamos dentro de JavaScript, entonces ¿como funciona?
@@ -88,7 +93,31 @@ Es como tener una función que todavía no la invocamos, todavía no dijimos don
 
 En el div con id app vamos a inyectar el codigo (se puede usar el id que se quiera, en general se suele usar root).
 
-ReactDOm es una bibilioteca de utilidades simple, cuyo propósito es buscar el HTML, encontrar el id y reemplazar su contenido por nuestro componente.
+**ReactDOM** es una bibilioteca de utilidades simple, cuyo propósito es buscar el HTML, encontrar el id y reemplazar su contenido por nuestro componente.
+
+Solo falta ahora crear las nuevas funciones para los componentes antes mencionados, por ahora van a ser unos componentes muy simples, solo veremos un div con el nombre del componente, pero como todavía no están conectados al **componente raiz** ni los vamos a ver. pero este es el esqueleto de nuestra aplicación y vamos a ir conectando los componentes al componente raiz.
 
 
+```JavaScript
+function TicTacToe() {
+  return <div>Hello from React!</div>;
+}
+
+function Square() {
+  return <div>Square</div>;
+}
+
+function Circle() {
+  return <div>Circle</div>;
+}
+
+function Cross() {
+  return <div>Cross</div>;
+}
+
+ReactDOM.render(
+  <TicTacToe />,
+  document.getElementById('app')
+)
+```
 ---
