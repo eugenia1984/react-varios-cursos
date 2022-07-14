@@ -188,6 +188,41 @@ En React se puede pasar una propiedad de la misma forma que se establecería un 
 <Square position="0"/>
 ```
 
+Otro modo de pasar un valor es el usando **{}**, a este modo se lo llama **binding**, es un modo mucho más fuerte de pasar propiedades a los componentes hijos. Porque con las llaves estamos abriendo una ventana para poder utilizar JavaScript
+
+```JSX
+<Square position={0}/>
+```
+
+En este momento no utilizamos todo su potencial, solo le estamos pasando un numero, pero podria tener una variable, hacer cálculos matemáticos, pasar una función, etc.
+
+Hay una difernecia entre pasar valores en **" "** o en **{}**, si se pasa un número entre comillas va a ser interpretado como un String, en cambio si lo pasamos entre {} se interpreta como un Number.
+
+Las **propiedades** los los **componentes** de React se pasan como **atributos** del **componente funcional**.
+
+Pero en vez de que el atributo sea una position, el **primer atributo** va a ser un objeto generico para todas las otras propiedades del componente. Esto puede ser confuso en componentes que solo tienen una propiedad, asi que hay que tener en cuenta que **el primer atributo va a ser un objeto** que por el momento tiene un atributo (position). Entonces podemos agarrar todo el objeto **props** y referirnos al atributo de posicion del objeto props o podemos descomponerlo este objeto props de inmediato en la funcion.
+
+```JavaScript
+function Square({ position }) {
+  return <div className="square">Square</div>;
+}
+```
+
+¿ Y ahora como lo usamos ?
+
+Básicamente lo que queremos hacer es en lugar de mostrar "Square" queremos mostrar el número de posición dentro de este componente.
+
+¿ Cómo podemos hacerlo ?
+
+Queremos utilizar una variable de JavaScript dentro de JSX. Podemos haer de nuevo lo que hicimos recién de pasar una variable como propiedad, podemos usar binding, utilizando {}:
+
+```JavaScript
+function Square({ position }) {
+  return <div className="square">{position}</div>;
+}
+```
+
+
 ---
 ## ¿ Donde ver la app?
 
