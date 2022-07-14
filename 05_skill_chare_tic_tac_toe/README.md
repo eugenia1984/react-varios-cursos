@@ -1,11 +1,11 @@
 # Tic Tac Toe: A playfull Intro to React (SKILL SHARE) 
 
 
-¿Queres aprender React de forma divertida?
+## ¿ Queres aprender React de forma divertida?
 
 En esta clase, aprenderás os conceptos claves de React mientras contruyes un juego de Tic Tac Toe.
 
-mientras construimos un juego completamente funcional, nos sumergimos en algunos conceptos básicos de React, como:
+Mientras construimos un juego completamente funcional, nos sumergimos en algunos conceptos básicos de React, como:
 
 - Dividir la aplicaicón  o juego en partes pequeñas, en componentes.
 
@@ -21,17 +21,18 @@ Es un curso introductorio, no requiere conocimiento previo de React, pero se req
 
 ---
 
-## Algunos conceptos
+## Componente
 
 
 
-- **COMPONENTE**: un componente es como una función por dos motivos...
+Nn **componente** es como una función por dos motivos...
 
 ... deberemos romper la aplicacion en pequeños componentes que tengan significado
 
 ... para evitar repetir el codigo, se crea una vez y se llama en varios lugares
 
-Vamos a necesitar elcomponente principal, el **root** para inyectarlo en el HTML, que contenga a toda al app.
+
+->> Vamos a necesitar el componente principal, el **root** para inyectarlo en el HTML, que contenga a toda al app.
 
 ---
 
