@@ -16,6 +16,8 @@ Here I will gather the courses made in *Udemy* of **React**
 
 - 4 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba)
 
+- 5 - [Tic Tac Toe: A playful intro to React - SKILL SHARE](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_skill_chare_tic_tac_toe)
+
 ---
 
 ## Stack of technologies?  🛠️
@@ -63,7 +65,7 @@ Aca juntare los cursos realizados en *Udemy* de **React**
 
 - 4 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba)
 
-
+- 5 - [Tic Tac Toe: A playful intro to React - SKILL SHARE](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_skill_chare_tic_tac_toe)
 ---
 
 
