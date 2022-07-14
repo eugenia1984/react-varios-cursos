@@ -121,3 +121,7 @@ ReactDOM.render(
 )
 ```
 ---
+
+## ¿ Donde ver la app?
+
+Está dentro de la carpeta [tic-tac-toe]
