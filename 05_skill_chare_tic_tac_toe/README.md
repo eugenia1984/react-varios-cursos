@@ -88,7 +88,7 @@ Es como tener una función que todavía no la invocamos, todavía no dijimos don
 ```HTML
 <h1>Hello World!</h1>
 <p>This is some text</p>
-<div is="app"></div>
+<div id="app"></div>
 ```
 
 En el div con id app vamos a inyectar el codigo (se puede usar el id que se quiera, en general se suele usar root).
