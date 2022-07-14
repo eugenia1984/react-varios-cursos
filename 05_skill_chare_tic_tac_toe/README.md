@@ -120,8 +120,75 @@ ReactDOM.render(
   document.getElementById('app')
 )
 ```
+
 ---
 
+### ¿ Como incrustro componentes dentro de otros ?
+
+Como cada componente es una funcion, se la puede invocar como una función, pero en Reac van entre ```< />``` para tener el componente **Square** dentro de **TicTacToe**:
+
+```JavaScript
+import './App.css';
+
+function TicTacToe() {
+  return (
+    <div>
+      <Square />
+    </div>
+  );
+}
+
+function Square() {
+  return <div>Square</div>;
+}
+
+function Circle() {
+  return <div>Circle</div>;
+}
+
+function Cross() {
+  return <div>Cross</div>;
+}
+
+
+function App() {
+  return (
+    <div className="App">
+        { TicTacToe() }
+    </div>
+  );
+}
+
+export default App;
+```
+
+---
+
+Recordemos que **class** es una palabra reservada, entonces al utilizar JSX para las clases de CSS utilizaremos **className**
+
+---
+## Props
+
+Ahora tenemos los 9 cuadrados en 3 x 3 gracias a CSS con su FlexBox y Grid.
+
+Pero ahora...¿ como sabemos cuál es cada cuadrado? 
+
+Todos lucen iguales.
+
+Para diferenciarlos a cada uno le podemos dar una identificación única. En React podemos configurar instancias pasando **props** a ellos.
+
+Una  **prop** es como un atributo del **componente funcional**.
+
+Entonces vamos a establecer un atributo de posición para cada una de las instancias del componente Square.
+
+
+En React se puede pasar una propiedad de la misma forma que se establecería un atributo para una etiqueta HTML. En esta caso vamos a tener el atributo **position** y comoenzamos desde el **0**:
+
+```JSX
+<Square position="0"/>
+```
+
+---
 ## ¿ Donde ver la app?
 
 Está dentro de la carpeta [tic-tac-toe](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_skill_chare_tic_tac_toe/tic-tac-toe)

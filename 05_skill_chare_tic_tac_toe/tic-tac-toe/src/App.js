@@ -1,11 +1,23 @@
 import './App.css';
 
 function TicTacToe() {
-  return <div>Hello from React!</div>;
+  return (
+    <div className="grid">
+      <Square position="0"/>
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+    </div>
+  );
 }
 
 function Square() {
-  return <div>Square</div>;
+  return <div className="square">Square</div>;
 }
 
 function Circle() {
@@ -20,15 +32,7 @@ function Cross() {
 function App() {
   return (
     <div className="App">
-      <header className="App-header"> 
         { TicTacToe() }
-        { Square() }
-        { Circle() }
-        { Cross() }
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
     </div>
   );
 }
