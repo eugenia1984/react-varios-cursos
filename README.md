@@ -12,7 +12,9 @@ Here I will gather the courses made of **React**
 
 - 2 - [Tutorial: Introduction to React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
 
-- 3 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba)
+- 3 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba)
+
+- 4 - [React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
 
 ---
@@ -58,8 +60,10 @@ Aca juntare los cursos realizados en *Udemy* de **React**
 
 - 2 - [Tutorial: Introducción a React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
 
-- 3 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba)
+- 3 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba)
 
+
+- 4 - [React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
 ---
 
