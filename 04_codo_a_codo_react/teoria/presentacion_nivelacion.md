@@ -8,6 +8,8 @@
 
 - React 
 
+- Node.js
+
 - Git y GitHub
 
 ---
@@ -16,7 +18,7 @@
 
 React Js es una Biblioteca para desarrollo web, por lo tanto, debemos contar con conocimientos mínimos sobre los lenguajes que el navegador web interpreta (HTM, CSS, Js).
 
-# :star: HTML:
+# :star: HTML <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
 
 HTML es un lenguaje de etiquetas, con el cual podremos armar la estructura para nuestras páginas web. 
 
@@ -71,7 +73,7 @@ Hoy en día, los lenguajes de scripting suponen un tercio de los lenguajes de pr
 
 ---
 
-## :star: CSS
+## :star: CSS <img src="https://img.icons8.com/color/48/FFFFFF/css3.png"/>
 
 CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.
 
@@ -131,42 +133,8 @@ DOM Tree - ejemplo:
 
 ---
 
-## :star: Git
 
-```git --version``` para ver la version de git que tengo instalada
-
-
-Comandos de la terminal (Linux):
-
-```pwd``` para ver el path en el que estoy (veo el directorio actual)
-
-```ls``` para listar las cosas dentro del directorio
-
-```ls -l``` para saber si son archivos o un directorio, la **d** indica es un directorio , la **l** es el link
-
-```ls -lh``` para ver el peso del archivo
-
-```ls -la``` para mostrar los archivos ocultos
-
-```clear``` para limpiar la pantalla, también con ```ctl+l```
-
-```cd nombre_directorio``` para entrar al directorio
-
-```cd ..``` para volver atras
-
-```exit``` para salir de git
-
-```mkdir nombre-directorio``` para crear el directorio/ la carpeta
-
-```touch README.md``` para crear cualquier tipo de archivo
-
-```rm nombre-archivo``` para eliminar el archivo
-
-```rm -r nombre-directorio``` para eliminar el directorio
-
----
-
-## React
+## :star: React <img src="https://img.icons8.com/ultraviolet/34/FA5252/react--v1.png"/>
 
 ¿Cómo llega React a la performance que tanta fama le trae?
 
@@ -201,5 +169,67 @@ Virtual DOM         Real DOM
  / \    \              \    \
  x  x   x              x     x
 ```
+
+---
+
+
+## :star: Node.js <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
+
+Node.js, es un entorno en tiempo de ejecución multiplataforma para la capa del servidor (en el lado del servidor) basado en JavaScript.
+
+Node.js es un entorno controlado por eventos diseñado para crear aplicaciones escalables, permitiéndote establecer y gestionar múltiples conexiones al mismo tiempo. Gracias a esta característica, no tienes que preocuparte con el bloqueo de procesos, debido a que no hay bloqueos.
+
+##  Características principales de Node.js
+
+Node.js se ha hecho popular en los últimos años gracias a las siguientes características:
+
+**Velocidad**: Node.js está construido sobre el motor de JavaScript V8 de Google Chrome, por eso su biblioteca es muy rápida en la ejecución de código.
+
+**Sin búfer**: Las aplicaciones de Node.js generan los datos en trozos (chunks), nunca los almacenan en búfer.
+
+**Asíncrono y controlado por eventos**: Como hemos dicho anteriormente, las APIs de la biblioteca de Node.js son asíncronas, sin bloqueo. Un servidor basado en Node.js no espera que una API devuelva datos. El servidor pasa a la siguiente API después de llamarla, y un mecanismo de notificación de eventos ayuda al servidor a obtener una respuesta de la llamada a la API anterior.
+
+##  Arquitectura de Node.js y su funcionamiento
+
+Node.js utiliza la arquitectura «Single Threaded Event Loop» para manejar múltiples clientes al mismo tiempo. Para entender en qué se diferencia de otros tiempos de ejecución, tenemos que entender
+cómo se manejan los clientes concurrentes multihilo en lenguajes como Java.
+
+En un modelo de solicitud-respuesta multihilo, varios clientes envían una solicitud y el servidor procesa cada una de ellas antes de devolver la respuesta. Sin embargo, se utilizan múltiples hilos para procesar las llamadas concurrentes. Estos hilos se definen en un pool de hilos, y cada vez que llega una petición, se asigna un hilo individual para manejarla.
+
+---
+
+
+## :star: Git <img src="https://img.icons8.com/color/48/000000/git.png"/>
+
+```git --version``` para ver la version de git que tengo instalada
+
+
+Comandos de la terminal (Linux):
+
+```pwd``` para ver el path en el que estoy (veo el directorio actual)
+
+```ls``` para listar las cosas dentro del directorio
+
+```ls -l``` para saber si son archivos o un directorio, la **d** indica es un directorio , la **l** es el link
+
+```ls -lh``` para ver el peso del archivo
+
+```ls -la``` para mostrar los archivos ocultos
+
+```clear``` para limpiar la pantalla, también con ```ctl+l```
+
+```cd nombre_directorio``` para entrar al directorio
+
+```cd ..``` para volver atras
+
+```exit``` para salir de git
+
+```mkdir nombre-directorio``` para crear el directorio/ la carpeta
+
+```touch README.md``` para crear cualquier tipo de archivo
+
+```rm nombre-archivo``` para eliminar el archivo
+
+```rm -r nombre-directorio``` para eliminar el directorio
 
 ---
