@@ -28,40 +28,44 @@ HTML es un lenguaje de etiquetas, con el cual podremos armar la estructura para 
 
 Todo lo que se ve en Internet está programado con un código interno, y cuando ingresas a una web, a tu navegador le llega este código, y lo traduce de forma visual para que veas lo que el creador de la web ha diseñado que puedas ver. Este código es el que decide la estructura de una página web, colocando sus diferentes elementos en los puntos correspondientes, y un fallo dentro del mismo hará que no se vea bien.
 
-Estos códigos se les llama lenguajes de programación, y el lenguaje que se utiliza en la World Wide Web, el ecosistema de páginas de Internet, es el HTML. Su nombre son las siglas de HyperText Markup Language, que significa literalmente Lenguaje de marcado de hipertexto. Es el estándar con el que están programadas todas las webs.
+Estos códigos se les llama lenguajes de programación, y el lenguaje que se utiliza en la **World Wide Web**, el ecosistema de páginas de Internet, es el HTML. Su nombre son las siglas de **HyperText Markup Language**, que significa literalmente **Lenguaje de marcado de hipertexto**. Es el estándar con el que están programadas todas las webs.
 
 
-Pero Internet evoluciona, y el contenido que se sube a las webs también cambia con los años, lo que quiere decir que estos lenguajes pueden quedar obsoletos y necesitan ser actualizados. En 1999 se lanzó el estándar HTML4, y como imaginas, las páginas web ahora no tienen nada que ver con lo que eran entonces en cuanto a sus contenidos, y por eso desde hace unos años se está implementando el nuevo estándar HTML5.
+Pero Internet evoluciona, y el contenido que se sube a las webs también cambia con los años, lo que quiere decir que estos lenguajes pueden quedar obsoletos y necesitan ser actualizados. En 1999 se lanzó el estándar HTML4, y como imaginas, las páginas web ahora no tienen nada que ver con lo que eran entonces en cuanto a sus contenidos, y por eso desde hace unos años se está implementando el nuevo estándar **HTML5**.
 
 Por lo tanto, el HTML5 es la última versión del estándar HTML que se utiliza para crear las páginas web que estás visitando, e incorpora algunas novedades interesantes. Una de las notables, es darle cobertura a la reproducción de contenido multimedia, de forma que ya no tengas que ir a recursos de terceros como el obsoleto Flash Player.
+
 
 ##  ¿Qué cambia en HTML5?
 
 Este nuevo estándar no tiene una cantidad asombrosa de novedades, pero las que tiene son absolutamente revolucionarias. La más
-destacada es la posibilidad de añadir archivos multimedia a la web, como vídeos o audios, y que estos no tengas que insertarlos utilizando otros plug-ins. Todo está incluido dentro del código.
+destacada es la **posibilidad de añadir archivos multimedia a la web**, como **vídeos** o **audios**, y que estos no tengas que insertarlos utilizando otros plug-ins. Todo está incluido dentro del código.
 
-También se han añadido etiquetas que permiten crear animaciones en 2D, con una etiqueta de canvas y una API que permiten que puedas dibujar elementos en dos dimensiones y animarlos en la web. También se pueden añadir eventos para el teclado, ratón o mandos, que permiten poder utilizarlos para interactuar con una página.
+También se han añadido etiquetas que permiten **crear animaciones en 2D**, con una etiqueta de **canvas** y una **API** que permiten que puedas dibujar elementos en dos dimensiones y animarlos en la web. También se pueden añadir **eventos para el teclado**, **ratón** o comandos, que permiten poder utilizarlos para interactuar con una página.
 
-Relacionado con lo anterior, también se pueden programar aplicaciones web en HTML5, lo que quiere decir que las páginas pueden ser apps, y no necesitarás instalar una app independiente en el PC o móvil, ya que podrás usarlo igual desde el navegador. También se pueden crear videojuegos con este método, lo que se complementa con poder utilizar teclado, ratón o mando.
+Relacionado con lo anterior, también se pueden** programar aplicaciones web** en HTML5, lo que quiere decir que **las páginas pueden ser apps**, y no necesitarás instalar una app independiente en el PC o móvil, ya que podrás usarlo igual desde el navegador. También se pueden crear videojuegos con este método, lo que se complementa con poder utilizar teclado, ratón o mando.
 
-También se han añadido opciones de geolocalización, de forma que una web puede detectar la ubicación de los usuarios que acceden a ella. Con ello, se pueden ofrecer opciones de idiomas dependiendo del país desde el que entras, o la posibilidad de derivarte a la página específica de un país.
+También se han añadido opciones de **geolocalización**, de forma que una web puede detectar la ubicación de los usuarios que acceden a ella. Con ello, se pueden ofrecer opciones de idiomas dependiendo del país desde el que entras, o la posibilidad de derivarte a la página específica de un país.
+
 
 
 ##  Metadatos del Documento
 
-Los Metadatos son elementos HTML que muestran información sobre la propia página web que los contiene.
+Los Metadatos son **elementos HTML que muestran información sobre la propia página web que los contiene**.
 
-Son usados por los buscadores para definir la información principal de nuestra web (temática, descripción), por lo que será muy importante que lo tengamos correctamente configurados.
+Son usados por los buscadores para definir la información principal de nuestra web (temática, descripción), por lo que será muy importante que lo tengamos correctamente configurados, es decir, **ayudan al SEO**.
+
 
 Estos elementos meta se encontrarán en el head del código de la web.
 
-```<title>```: define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página.
+- ```<title>```: define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página.
 
-```<link>```: utilizada para enlazar JavaScript y CSS externos.
+- ```<link>```: utilizada para enlazar JavaScript y CSS externos.
 
-```<meta>```: con esta etiqueta definimos la codificación que tendrá nuestro archivo, los mismos pueden ser: ```UTF-8```
+- ```<meta>```: con esta etiqueta definimos la codificación que tendrá nuestro archivo, los mismos pueden ser: ```UTF-8```
 
-```ANSI```: es el formato estándar de codificación de archivos utilizados en el Bloc de notas
+- ```ANSI```: es el formato estándar de codificación de archivos utilizados en el Bloc de notas
+
 
 ### ¿Qué son los lenguajes de scripting?
 
@@ -84,11 +88,13 @@ Se les denomina hojas de estilo «en cascada» porque puedes tener varias hojas 
 Para muchas personas una simple plantilla de blog es suficiente. Sin embargo, cuando quieras personalizar la apariencia de un sitio necesitarás implementar CSS que, en conjunto con un buen CMS, te
 ayudará a potenciar el alcance de tu contenido.
 
+
 ### ¿Para qué sirve CSS?
 
 Con CSS puedes crear reglas para decirle a tu sitio web cómo quieres mostrar la información y puedes guardar los comandos para elementos de estilo (como fuentes, colores, tamaños, etc.) separados de los que configuran el contenido.
 
 A través de esta herramienta puedes crear formatos específicos útiles para comunicar tus ideas y crear experiencias agradables para los usuarios del sitio web.
+
 
 ## Diferencia entre HTML y CSS
 
@@ -100,6 +106,7 @@ Estas instrucciones representan todos los enlaces (o hipertextos) que vinculan l
 Para hacer más eficiente el uso de HTML, se han diseñado otros lenguajes computacionales para facilitar la gestión de los datos relacionados con el diseño visual de las plataformas. CSS es uno de los lenguajes más importantes utilizados para ordenar las instrucciones referentes a la apariencia de un sitio y presentar los contenidos de una página de forma atractiva.
 
 De este modo, HTML se emplea para estructurar el contenido de un sitio, mientras que CSS se usa para estructurar su presentación.
+
 
 ## DOM
 
@@ -181,6 +188,7 @@ Node.js, es un entorno en tiempo de ejecución multiplataforma para la capa del 
 
 Node.js es un entorno controlado por eventos diseñado para crear aplicaciones escalables, permitiéndote establecer y gestionar múltiples conexiones al mismo tiempo. Gracias a esta característica, no tienes que preocuparte con el bloqueo de procesos, debido a que no hay bloqueos.
 
+
 ##  Características principales de Node.js
 
 Node.js se ha hecho popular en los últimos años gracias a las siguientes características:
@@ -191,6 +199,7 @@ Node.js se ha hecho popular en los últimos años gracias a las siguientes carac
 
 **Asíncrono y controlado por eventos**: Como hemos dicho anteriormente, las APIs de la biblioteca de Node.js son asíncronas, sin bloqueo. Un servidor basado en Node.js no espera que una API devuelva datos. El servidor pasa a la siguiente API después de llamarla, y un mecanismo de notificación de eventos ayuda al servidor a obtener una respuesta de la llamada a la API anterior.
 
+
 ##  Arquitectura de Node.js y su funcionamiento
 
 Node.js utiliza la arquitectura «Single Threaded Event Loop» para manejar múltiples clientes al mismo tiempo. Para entender en qué se diferencia de otros tiempos de ejecución, tenemos que entender
@@ -198,11 +207,13 @@ cómo se manejan los clientes concurrentes multihilo en lenguajes como Java.
 
 En un modelo de solicitud-respuesta multihilo, varios clientes envían una solicitud y el servidor procesa cada una de ellas antes de devolver la respuesta. Sin embargo, se utilizan múltiples hilos para procesar las llamadas concurrentes. Estos hilos se definen en un pool de hilos, y cada vez que llega una petición, se asigna un hilo individual para manejarla.
 
+
 **Node.js arquitectura**
 ```
 Incoming     Event  --->  Event  ----> Worker
 Request  --> Queue <----  Loop  <----  Thead pool
 ```
+
 
 ## ¿Es Node.js un lenguaje de programación?
 
@@ -217,6 +228,7 @@ En resumen, Node.js no es un lenguaje de programación ni un marco de trabajo; e
 ---
 
 ## :star: Visual Studio Code <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
+
 
 Visual Studio Code. Es un editor de código fuente desarrollado por Microsoft para Windows , Linux y macOS . Incluye soporte para depuración , control de Git integrado, resaltado de sintaxis , finalización de código inteligente , fragmentos de código y refactorización de código . También es personalizable, de modo que los usuarios pueden cambiar el tema del editor, los métodos abreviados de teclado y las preferencias. Es gratuito y de código abierto.
 
