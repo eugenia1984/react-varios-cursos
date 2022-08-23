@@ -18,7 +18,7 @@
 
 ## Nivelación HTML, CSS, JS
 
-React Js es una Biblioteca para desarrollo web, por lo tanto, debemos contar con conocimientos mínimos sobre los lenguajes que el navegador web interpreta (HTM, CSS, Js).
+React Js es una Biblioteca para desarrollo web, por lo tanto, debemos contar con conocimientos mínimos sobre los lenguajes que el navegador web interpreta (HTM, CSS, JS).
 
 # :star: HTML <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
 
