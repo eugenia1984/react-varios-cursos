@@ -2,7 +2,7 @@
 
 ---
 
-# Temas:
+# :book: Temas:
 
 - Condicionales (if - else , operador ternario, switch)
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 1. Condicionales
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Condicionales
 
 
 IF es una estructura de control utilizada para tomar decisiones. Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión y primero se evalúa una expresión, si da resultado positivo se realizan las acciones relacionadas con el caso positivo.
@@ -93,7 +93,9 @@ if (credito >= precio) {
 
 Este ejemplo comprueba si tiene crédito para realizar una supuesta compra. Para ello analizamos si el crédito es mayor o igual que el precio del artículo, si es así informo de la compra, introduzco el artículo en el carrito y resto el precio al crédito acumulado. Si el precio del artículo es superior al dinero disponible informo de la situación y mando al navegador a la página donde se muestra su carrito de la compra.
 
-## Expresiones condicionales
+---
+
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Expresiones condicionales
 
 La expresión a evaluar se coloca siempre entre paréntesis y está compuesta por variables que se combinan entre si mediante operadores condicionales. Recordamos que los operadores condicionales relacionaban dos variables y devolvían siempre un resultado boleano. Por ejemplo un operador condicional es el operador "es igual" (==), que devuelve true en caso de que los dos operandos sean iguales o false en caso de que sean distintos.
 
@@ -106,7 +108,10 @@ En este ejemplo utilizamos en operador condicional "es mayor" (>). En este caso,
 
 Las expresiones condicionales se pueden combinar con las expresiones lógicas para crear expresiones más complejas. Recordamos que las expresiones lógicas son las que tienen como operandos a los boleanos y que devuelvan otro valor boleano.
 
-## Son los operadores negación lógica, Y lógico y O lógico.
+
+---
+
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Los operadores negación lógica, Y lógico y O lógico.
 
 ```JavaScript
 if (bateria < 0.5 && redElectrica == 0)
@@ -117,7 +122,9 @@ Lo que hacemos es comprobar si la batería de nuestra supuesta notebook es menor
 
 La estructura if es de las más utilizadas en lenguajes de programación, para tomar decisiones en función de la evaluación de una sentencia.
 
-## Sentencias IF anidadas
+---
+
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Sentencias IF anidadas
 
 Para hacer estructuras condicionales más complejas podemos anidar sentencias IF, es decir, colocar estructuras IF dentro de otras estructuras IF. Con un solo IF podemos evaluar y realizar una acción u otra según dos posibilidades, pero si tenemos más posibilidades que evaluar podemos anidar IF’s y crear el flujo de código necesario para decidir correctamente.
 
@@ -144,7 +151,9 @@ Las llaves son en este caso opcionales, y sólo ejecutan una sentencia para cada
 
 Mantener el código bien estructurado y escrito de una manera comprensible es muy importante.
 
-## Operador IF Ternario
+---
+
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Operador IF Ternario
 
 Este operador es un claro ejemplo de ahorro de líneas y caracteres al escribir los scripts. .
 
@@ -164,7 +173,7 @@ Este ejemplo analiza si la hora actual es menor que 12. Si es así, es antes del
 
 ---
 
-##  Estructura Switch
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>   Estructura Switch
 
 
 Las estructuras de control son la manera con la que se puede dominar el flujo de los programas, para hacer cosas distintas en función de los estados de las variables.
@@ -228,7 +237,7 @@ El ejemplo es relativamente sencillo, solamente puede tener una pequeña dificul
 
 ---
 
-## Bucle for
+##  <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>   Bucle for
 
 
 El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute. La sintaxis del bucle for se muestra a continuación.
@@ -287,7 +296,7 @@ En este caso decrementamos en una unidad la variable i en cada iteración, comen
 
 ---
 
-## Bucle while
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Bucle while
 
 
 Estos bucles se utilizan cuando queremos repetir la ejecución de unas sentencias un número indefinido de veces, siempre que se cumpla una condición. 
@@ -318,7 +327,7 @@ Este es un ejemplo de lo más sencillo que se puede hacer con un bucle while. Lo
  
 ---
 
-## Bucle DO...WHILE
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Bucle DO...WHILE
 
 El bucle do...while es la última de las estructuras para implementar repeticiones de las que dispone en Javascript y es una variación del bucle while visto anteriormente. Se utiliza generalmente cuando no sabemos cuantas veces se habrá de ejecutar el bucle, igual que el bucle WHILE, con la diferencia de que sabemos seguro que el bucle por lo menos se ejecutará una vez.
 
@@ -369,7 +378,7 @@ while (suma < 1000){
 
 ---
 
-## Break y continue
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Break y continue
 
 
 Existen dos instrucciones que se pueden usar en de las distintas estructuras de control y principalmente en los bucles, que te servirán para controlar dos tipos de situaciones. Son las instrucciones break y continue.:
@@ -435,7 +444,7 @@ for (i=0;i<=1000;i++){
 
 ---
 
-## Bucles anidados
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  Bucles anidados
 
 
 Anidar un bucle consiste en ingresar ese bucle dentro de otro. La anidación de bucles es necesaria para hacer determinados procesamientos un poco más complejos que los que hemos visto en los ejemplos anteriores.
