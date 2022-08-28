@@ -4,9 +4,13 @@
 
 # Temas:
 
--Condicionales (if - else , operador ternario, switch)
+- Condicionales (if - else , operador ternario, switch)
 
--Bucles: While y For - For in - For of
+- Condicionales anidados
+
+- Break y Continue
+
+- Bucles: While y For - For in - For of
 
 ---
 
