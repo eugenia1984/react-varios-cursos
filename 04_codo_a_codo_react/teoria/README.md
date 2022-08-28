@@ -19,6 +19,8 @@
 
 ```
 -Condicionales (if - else , operador ternario, switch)
+-Condicionales anidados
+-Break y Continue
 -Bucles: While y For - For in - For of
 ```
 
