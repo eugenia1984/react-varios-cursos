@@ -38,7 +38,7 @@
 
 ## Contenido que hay en TEORIA
 
-### [Unidad 1 * Presentacion y Nivelacion](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/presentacion_nivelacion.md)
+### [Unidad 1 * JS avanzado - Presentacion y Nivelacion](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/presentacion_nivelacion.md)
 
 ```
 -Presentación cursada / instalación herramientas/ nivelación html,css,js
@@ -48,7 +48,16 @@
 - Visual Studio Code
 ```
 
-### [Unidad 1 * JS Avanzado](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/js_avanzado.md)
+
+### [Unidad 2 * JS Avanzado 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/js-avanzado-2.md)
+
+```
+-Condicionales (if - else , operador ternario, switch)
+-Condicionales anidados
+-Break y Continue
+-Bucles: While y For - For in - For of
+```
+
 
 ```
 -Variables - Tipos de Datos - Objeto Math 
@@ -69,11 +78,5 @@
 -Promises
 ```
 
-### [Unidad 2 * JS Avanzado 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/js-avanzado-2.md)
-
-```
--Condicionales (if - else , operador ternario, switch)
--Bucles: While y For - For in - For of
-```
 
 ---
