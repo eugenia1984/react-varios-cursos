@@ -69,4 +69,11 @@
 -Promises
 ```
 
+### [Unidad 2 * JS Avanzado 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/js-avanzado-2.md)
+
+```
+-Condicionales (if - else , operador ternario, switch)
+-Bucles: While y For - For in - For of
+```
+
 ---
