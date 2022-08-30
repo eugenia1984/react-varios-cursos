@@ -24,6 +24,7 @@
 -Bucles: While y For - For in - For of
 ```
 
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Repaso de JS visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/repaso_js)
 
 ```
 -Variables - Tipos de Datos - Objeto Math 
