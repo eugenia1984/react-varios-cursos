@@ -24,6 +24,22 @@
 -Bucles: While y For - For in - For of
 ```
 
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/>  [Unidad 3 * JS Avanzado 3](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad3.md)
+```
+- Arrays
+- Funciones
+- Arrows functions
+- Scope
+- Objetos en Javascript
+- Callbacks
+- Objeto String
+- Objeto Math
+- Reduce
+- Map
+- DOM
+- Eventos
+```
+
 ### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Repaso de JS visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/repaso_js)
 
 ```
