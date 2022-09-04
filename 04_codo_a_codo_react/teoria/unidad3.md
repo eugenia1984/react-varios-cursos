@@ -856,37 +856,121 @@ console.log(x);
 
 ---
 
-# :star: Objetos en Javascript
+## :star: Objetos en Javascript
 
+### Programación Orientada a Objetos
 
-```JavaScript
+La programación orientada a objetos es un paradigma de programación que utiliza la abstracción para crear modelos basados ​​en el mundo real. Utiliza diversas técnicas de paradigmas previamente establecidas, incluyendo la modularidad, polimorfismo y encapsulamiento. Hoy en día, muchos lenguajes de programación (como Java, JavaScript, C#, C++, Python, PHP, Ruby y más) soportan programación orientada a objetos (POO).
+
+La programación orientada a objetos puede considerarse como el diseño de software a través de un conjunto de objetos que cooperan, a diferencia de un punto de vista tradicional en el que un programa puede considerarse como un conjunto de funciones, o simplemente como una lista de instrucciones para la computadora. En la programación orientada a objetos, cada objeto es capaz de recibir mensajes, procesar datos y enviar mensajes a otros objetos. Cada objeto puede verse como una pequeña máquina independiente con un papel o responsabilidad definida.
+
+POO pretende promover una mayor flexibilidad y facilidad de mantenimiento en la programación y es muy popular en la ingeniería de software a gran escala. Gracias a su fuerte énfasis en la modularidad, el código orientado a objetos está concebido para ser más fácil de desarrollar y más fácil de entender posteriormente, prestándose a un análisis más directo, a una mayor codificación y comprensión de situaciones y procedimientos complejos que otros métodos de programación menos modulares.
+
+### Objetos
+
+Los Objetos son aquellos que tienen propiedades y comportamientos, también serán sustantivos. Pueden ser físicos o conceptuales.
+
+Las Propiedades también pueden llamarse atributos y estos también serán sustantivos. Algunos atributos o propiedades son nombre, tamaño, forma, estado, etc. Son todas las características del objeto.
+
+Los Comportamientos serán todas las operaciones que el objeto puede hacer, suelen ser verbos o sustantivos y verbo. Algunos ejemplos pueden ser que el usuario pueda hacer ```login()``` y ```logout()```, ```hacerreporte()```.
+
+Ejemplo:
+
+```
+Objeto: Perro
+
+Propiedades: + nombre, + color, + raza, + altura.
+Comportamientos: + ladrar, + comer, + dormir, + correr.
+
+Objeto #1 llamado “Pancho”:
+
+tributo_1: color = marrón
+atributo_2: tamannio = pequenio
+atributo_3: raza = chiguagua
+
+metodo_1: ladrar
+metodo_2: comer
+metodo_3: dormir
+
+Objeto #2 llamado "Carlos"
+
+atributo_1: color = blanco
+atributo_2: tamannio = grande
+atributo_3: raza = hunky siberiano
+
+metodo_1: ladrar
+metodo_2: comer
+metodo_3: dormir
 ```
 
-```JavaScript
+### Objetos Literales en JavaScript
+
+Vamos a empezar a trabajar con objetos, veremos cómo declararlos, cuáles son sus ventajas, cómo asignarles atributos y cómo trabajar con ellos dentro de las funciones.
+
+Los objetos se definen delimitados mediante llaves {}
+
+Un atributo se compone de una clave (key) y un valor (value), que se separan entre sí por dos puntos “”:"". Los valores pueden ser de tipo string, número, booleano, etc. Cada atributo está separado del siguiente por una coma. Un objeto puede tener todos los atributos que sean necesarios.
+
+Escribir el nombre de un objeto separado por un punto del nombre de un atributo, nos permite acceder al valor de dicho atributo para ese objeto. Un objeto también se puede pasar como atributo en una función.
+
+Las últimas versiones de JavaScript nos permiten desglosar el objeto para acceder únicamente al atributo que nos interesa. Esto se consigue encerrando el nombre del atributo entre llaves { }.
+
+Ejemplo de creación de un Objeto:
+
+### Sintaxis
+
+```
+var nombreObjeto (
+ atributo1: "valorString",
+ atributo2: "valorString",
+ atributo3: valornumerico,
+ atributo4: valorBoleano
+)
 ```
 
-```JavaScript
-```
+Codigo:
 
 ```JavaScript
+var usuario {
+ nombre: "carlos",
+ apellido: "sanchez",
+ edad: 25,
+ programador: true
+}
 ```
 
+### Llamado de Atributos
 
-```JavaScript
+como vimos en el ejemplo anterior, pudimos crear un objeto con sus respectivos atributos, para luego llamar a cada atributo en particular solo queda realizarlo de la siguiente manera:
+
+Sintaxis
+
+```
+nombreobjeto.atributo;
 ```
 
-```JavaScript
+Codigo:
+
+```
+console.log(usuario.nombre);
+console.log(usuario.apellido);
+console.log(usuario.edad);
+console.log(usuario.programador);
 ```
 
-```JavaScript
-```
-
-```JavaScript
-```
 ---
 
 # :star: Callbacks
 
+
+```JavaScript
+```
+
+```JavaScript
+```
+
+```JavaScript
+```
 --- 
 
 # :star: Objeto String
