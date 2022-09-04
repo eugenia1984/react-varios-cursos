@@ -1482,23 +1482,96 @@ valorAnterior = 16, valorActual = 4, indice = 4
 
 # :star: Map
 
+map llama a la función callback provista una vez por elemento de un array, en orden, y construye un nuevo array con los resultados. callback se invoca sólo para los índices del array que tienen valores asignados; no se invoca en los índices que han sido borrados o a los que no se ha asignado valor.
 
+ 
+
+callback es llamada con tres argumentos: el valor del elemento, el índice del elemento, y el objeto array que se está recorriendo.
+
+Si se indica un parámetro thisArg a un map, se usará como valor de this en la función callback. En otro caso, se pasará undefined como su valor this. El valor de this observable por el callback se determina de acuerdo a las reglas habituales para determinar el valor this visto por una función.
+
+**map no modifica el array original en el que es llamado (aunque callback, si es llamada, puede modificarlo)**.
+
+El rango de elementos procesado por map es establecido antes de la primera invocación del callback. Los elementos que sean agregados al array después de que la llamada a map comience no serán visitados por el callback. Si los elementos existentes del array son modificados o eliminados, su valor pasado al callback será el valor en el momento que el map lo visita; los elementos que son eliminados no son visitados.
+
+ 
+#### Ejemplos
+
+Procesar un array de números aplicándoles la raíz cuadrada
+
+El siguiente código itera sobre un array de números, aplicándoles la raíz cuadrada a cada uno de sus elementos, produciendo un nuevo array a partir del inicial.
 
 ```JavaScript
-
+var numeros= [1, 4, 9];
+var raices = numeros.map(Math.sqrt);  // raices tiene [1, 2, 3]
+// numeros aún mantiene [1, 4, 9]
 ```
+
+Usando map para dar un nuevo formato a los objetos de un array
+
+El siguiente código toma un array de objetos y crea un nuevo array que contiene los nuevos objetos formateados.
+
+```JavaScript 
+var kvArray = [{clave:1, valor:10},
+ {clave:2, valor:20},
+ {clave:3, valor: 30}
+ ];
+
+var reformattedArray = kvArray.map(function(obj){
+ var rObj = {};
+ rObj[obj.clave] = obj.valor;
+ return rObj;
+});
+
+// reformattedArray es ahora [{1:10}, {2:20}, {3:30}],
+// kvArray sigue siendo:
+// [{clave:1, valor:10},
+// {clave:2, valor:20},
+// {clave:3, valor: 30}]
+```
+
+####  Mapear un array de números usando una función con un argumento
+
+El siguiente código muestra cómo trabaja map cuando se utiliza una función que requiere de un argumento. El argumento será asignado automáticamente a cada elemento del arreglo conforme map itera el arreglo original.
 
 ```JavaScript
+var numeros = [1, 4, 9];
 
+var dobles = numeros.map(function(num) {
+ return num * 2;
+});
+
+// dobles es ahora [2, 8, 18]
+// numeros sigue siendo [1, 4, 9]
 ```
+
+#### Usando map de forma genérica
+
+Este ejemplo muestra como usar map en String para obtener un arreglo de bytes en codifcación ASCII representando el valor de los caracteres:
 
 ```JavaScript
-
+var map = Array.prototype.map;
+var valores = map.call('Hello World', function(char) { return char.charCodeAt(0); });
+// valores ahora tiene [72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]
 ```
+
 --- 
 
 # :star: DOM
 
+
+
+```JavaScript
+
+```
+
+```JavaScript
+
+```
+
+```JavaScript
+
+```
 --- 
 
 # :star: Eventos
