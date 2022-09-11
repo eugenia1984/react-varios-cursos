@@ -38,7 +38,11 @@
 
 ## :book: Contenido que hay en TEORIA
 
-## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> Unidad 1 , 2 y 3
+
+---
+---
+
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> JS AVANZADO : Unidad 1 , 2 y 3
 
 ```
 - Variables - Tipos de Datos - Objeto Math 
@@ -58,6 +62,8 @@
 - Template literals
 - Promises
 ```
+
+---
 
 ### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1 * JS avanzado - Presentacion y Nivelacion](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/presentacion_nivelacion.md)
 
@@ -96,4 +102,35 @@
 ```
 
 ### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Repaso de JS visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/repaso_js)
+
+---
+---
+
+## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> ENTORNO REACT : Unidad 1
+
+```
+- Performance de react
+- Npm
+- Dependencias
+- Terminal línea de comandos CLI
+- Instalacion de Node Js
+- Instalacion de React
+- Sugar-sintax
+- Funcionamiento general webpack
+- Transpiling
+- jsx
+```
+
+---
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1 * Entorno React](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_entorno_react.md)
+
+```
+- Performance de React
+- NPM
+- Dependencies
+- CLI
+- Instalación de React
+```
+
 ---
