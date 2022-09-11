@@ -132,11 +132,70 @@ Creo que vale la pena referir que existen otras herramientas y gestores de paque
 
 ## :star: 3. Dependencies
 
+### NPM - Conceptos básicos sobre dependencias
+
+A alto nivel, NPM no es muy diferente de otros gestores de paquetes de otros lenguajes de programación. Los paquetes dependen de otros paquetes, y estos expresan estas dependencias con rangos de versiones. NPM utiliza el esquema semver (o Semantic Versioning) para expresar esos rangos. Lo importante a destacar aquí es que estos paquetes pueden depender de un rango de versiones de dependencias, en lugar de una versión específica de una dependencia o paquete en si.
+
+Esto es bastante importante para cualquier ecosistema, ya que bloquear una libreria a un rango específico de dependencias puede causar problemas relativamente importantes. No obstante, en NPM esto es un poco menos de problema si lo comparamos a otros sistemas de paquetes como composer en PHP.
+
+En definitiva, normalmente es bastante seguro para el creador de una librería el limitar las dependencias de una versión específica sin afectar al comportamiento del resto de librerías o aplicaciones conectadas. La parte así un poco compleja es la de determinar cuando hacer esto es una práctica segura y cuando no, y aquí es donde noto (y la mayoría de desarrolladores con las que colaboro está de acuerdo) que la mayor parte de la gente no acaba de pillarlo (y yo al principio me incluyo).
+
+### Duplicación de dependencias en el arbol de dependencias
+
+Si no lo habías descubierto ya, al contrario que otros gestores de paquetes, NPM instala un árbol de dependencias. Esto quiere decir, que cada paquete instalado obtiene su propio set de dependencias, en lugar de forzar a todos los paquetes a compartir el mismo set canónico de dependencias. Obviamente, prácticamente cualquier gestor de paquetes en existencia tiene que modelar un árbol de dependencias en algún punto de su desarrollo para su correcto funcionamiento, ya que es así como los programadores expresamos las dependencias entre diferentes paquetes.
+
+Por ejemplo, consideramos dos paquetes, foo y bar. Cada uno de ellos tiene su propio set de dependencias, que se puede expresar como un árbol:
+
+``` 
+foo
+-- hola ^0.1.2
+-- mundo ^1.0.
+bar
+-- hola ^0.2.2
+-- chau ^ 3.5.1
+```
+
+Imagina que una aplicación que depende tanto de foo como de bar. Claramente, las dependencias de mundo y chau carecen de ningún tipo de relación, por lo que la manera en la que NPM las almacena y organiza no es algo muy interesante para lo que queremos tratar en este artículo. No obstante, si consideramos el caso de hola, tanto foo como bar requieren versiones que entran en conflicto.
+
+La mayoría de paquetes ( incluyendo RubyGems, pip, Cabal...) sencillamente se detendrían aquí, dando algún tipo de error de versión de conflictos y ya te apañarás que seguro que te divierte arreglar esto. Esto ocurre porque en la mayoría de gestores de paquetes, tan solo puede existir una única versión de cualquier paquete. En ese sentido, la responsabilidad de cualquier gestor de paquetes es la de averiguar que set de paquetes y que versiones de cada uno de estos paquetes pueden utilizarse para satisfacer todas las necesidades de todos los paquetes simultáneamente.
+
+Por lo contrario, NPM tiene un trabajo algo más sencillo. Para NPM no hay problema en instalar diferentes versiones del mismo paquete porque cada paquete tiene su propio árbol de dependencias. En el ejemplo que hemos puesto arriba, el listado de directorios de los paquetes tendría este aspecto.
+
+```
+node_modules/
+├── foo/
+│ └── node_modules/
+│ ├── hola/
+│ └── mundo/
+└── bar/
+└── node_modules/
+├── hola/
+└── chau/
+```
+ 
+Como podemos observar, la estructura del directorio se parece mucho al árbol de dependencias original. El diagrama que mostramos arriba no es más que una simplificación. En la práctica, esto se traduce a que cada dependencia transitiva tendrá su propio directorio node_modules dentro de sí misma y as i sucesivamente.
+
+Como pueden imaginar, la estructura del directorio se complicar a medida que las dependencias entre paquetes aumenten (Además, desde la versión 3 de npm que se realizan ciertas optimizaciones para tratar de compartir dependencias cuando se puedan, pero por el momento vamos a ignorar esto porque no es necesario saberlo ni estudiarlo para entender el modelo de NPM).
+
+Esta forma de estructurar las dependencias la verdad que es bastante simple ¿no les parece? El efecto inmediato que podemos ver es que cada paquete tiene su propio "sandbox", que funciona muy bien para librerias , sobretodo funcionales.
+
+A simple vista, podríamos decir que este sistema obviamente es mejor que cualquier alternativa de gestión de paquetes plana, siempre y cuando la ejecución de dichos programas soporte la carga de los módulos necesarios en este esquema (por ejemplo, que dos modulos diferentes con una misma dependencia pero en versiones diferentes no tenga que utilizar una variable global.
+
+El mayor inconveniente es el aumento muy significativo del tamaño del código, ya que replicamos una y otra vez diferentes versiones de diferentes paquetes dentro de nuestro árbol de dependencias una y otra y otra vez. Un código que ocupa más y tiene más tamaño a menudo lleva aparejado una pérdida en el rendimiento de tu aplicación. Los programas más largos sencillamente no caben en la caché de una CPU tan fácilmente, y solamente por tener que paginar en cache un programa puede hacer que las cosas vayan bastante más lentas.
+
+Hay que entender esto como una solución de compromiso. Estás sacrificando algo  de rendimiento, no mantenimiento de código ni el hecho de que tu código sea mejor o peor.
+
+
+
 ---
 
 
 ## :star: 4. CLI
 
+
+###
+
+###
 ---
 
 
