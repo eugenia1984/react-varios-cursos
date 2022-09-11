@@ -358,9 +358,43 @@ Modificadores:
 ## :star: 5. Instalación de React
 
 
-###
+### Instalación de Node JS
 
-###
+Para instalar React JS debemos tener instalado nodejs, dejamos el link para la instalación (recuerda siempre descargar la versión LTS):
 
-###
+[https://nodejs.org/es/](https://nodejs.org/es/)
+
+### Pasos para instalar React JS
+
+1. Levantamos la ventana de Comando Git Bash y ejecutamos las siguientes instrucciones o comandos.
+
+```node --version``` -verificamos la instalación
+
+```npm --version``` -verificamos que se haya instalado correctamente el gestor de dependencias de Javascript
+
+2. Importante antes de crear un proyecto, debemos posicionarnos en la carpeta en la cual vamos a trabajar, recuerden organizar sus carpetas y proyectos.
+
+3. Una vez posicionados en el lugar indicado ejecutar las siguientes líneas de comando:
+
+```npx create-react-app miaplicacion``` miaplicacion se reemplaza por el nombre que le querramos poner, no usar mayusculas, ni dejar espacios en blancos si hay mas de una palabra separar con -
+
+-Con este comando iniciamos la instalación de un proyecto con React JS.
+
+-Este proceso suele tardar algunos minutos, una vez terminada la instalación, deberemos ingresar a nuestra carpeta con los siguientes comandos
+
+```cd miaplicacion```
+
+Ingresamos al directorio de la aplicación
+
+4. Nos aseguramos estar dentro de la carpeta raíz del proyecto y ahí ejecutar la siguiente línea de comandos
+
+```npm start```
+
+5. Finalmente, iniciamos la compilación del proyecto para visualizarlo en un navegador web
+
+-Les recordamos que también podemos ejecutar la terminal de línea de comandos desde Visual Estudio Code
+
+-Recomendamos también utilizar la terminal bash en visual studio en lugar del predeterminado power shell
+
+
 ---
