@@ -40,3 +40,21 @@ En **node_modules** están todos y en el **package.json** voy a tener el detalle
 Dentro del **package.json** tengo el **script** donde puedo poner mis propios comandos.
 
 ---
+
+### webpack
+
+Es un empaquetador de modulos, trabaja como compilador, vincula todos los elementos del proyecto para el elemento definitivo. Gestiona las dependencias, la ejecucion de tareas. Carga y usa modulos de todo tipo.
+
+Task runner, procesa los archivos para poder mostrarlos en el navegador.
+
+No es sencillo configurar webpack.
+
+Nos sirve como servidor y como compiladorÇ
+
+---
+
+### Babel
+
+Es un traspilador, transcribe le codigo posterior a ES6, para que sea compatible con los navegadores viejitos.
+
+---
