@@ -84,7 +84,7 @@ No podemos utilizar **class** por ser palabra reservada (en JS es clase), por lo
 [https://tailwindcss.com/docs/guides/create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
 
 1. Para instalarlo:
-``
+```
 npm install -D tailwindcss postcss autoprefixer
 ```
 
