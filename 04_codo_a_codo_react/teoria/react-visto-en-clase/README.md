@@ -49,7 +49,7 @@ Task runner, procesa los archivos para poder mostrarlos en el navegador.
 
 No es sencillo configurar webpack.
 
-Nos sirve como servidor y como compiladorÇ
+Nos sirve como servidor y como compilador.
 
 ---
 
@@ -58,3 +58,95 @@ Nos sirve como servidor y como compiladorÇ
 Es un traspilador, transcribe le codigo posterior a ES6, para que sea compatible con los navegadores viejitos.
 
 ---
+
+### JSX
+
+JavaScript XML
+
+Las etiquetas deben tener todas sus cierre, por eso la imagen es ```<img />```
+
+No podemos utilizar **class** por ser palabra reservada (en JS es clase), por lo que usamos **className**, lo mismo con el atributo **for** que en JS es para el bucle por lo que hay un **htmlFor**.
+
+---
+
+### Frameworks para CSS
+
+- Bootstrap React
+
+- Tailwind React
+
+- Material UI
+
+- Styled Components (de todas es el más complejo)
+
+#### Tailwind
+
+[https://tailwindcss.com/docs/guides/create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
+
+1. Para instalarlo:
+``
+npm install -D tailwindcss postcss autoprefixer
+```
+
+2. Para inciializarlo:
+```
+npx tailwindcss init -p
+```
+
+**tailwind.config.js** ashi me puedo crear mis clases para usarlas en tailwind.
+
+3. Configure your template paths
+
+Add the paths to all of your template files in your tailwind.config.js file.
+
+```
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+4. Add the Tailwind directives to your CSS
+
+Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+
+index.css:
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+5. Start your build process
+
+Run your build process with npm run start.
+
+Terminal
+```
+npm run start
+```
+
+6. Start using Tailwind in your project
+
+Start using Tailwind’s utility classes to style your content.
+
+App.js
+```JSX
+export default function App() {
+  return (
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  )
+}
+```
+
+---
+---
+
