@@ -147,6 +147,19 @@ export default function App() {
 }
 ```
 
+
+Como las clases me van a quedar muy larga con Tailwind, las voy guardando en variables:
+```JSX
+export default function App() {
+const hello = "text-3xl font-bold underline";
+
+  return (
+    <h1 className={hello}>
+      Hello world!
+    </h1>
+  )
+}
+```
 ---
 ---
 
