@@ -10,6 +10,12 @@
 
 - React Developers Tools by React
 
+## VSC
+
+Vamos a utilizar Visual Studio Code para las practicas.
+
+También se puede practicar en CodePen.
+
 ---
 
 ##
