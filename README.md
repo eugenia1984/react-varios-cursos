@@ -1,6 +1,6 @@
 ENGLISH
 
-# React 
+# :star: React 
 
 Here I will gather the courses made of **React**
 
@@ -16,6 +16,7 @@ Here I will gather the courses made of **React**
 
 - 4 - [React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
+- 5 - [ReactJS Essential Training](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training)
 
 ---
 
@@ -64,6 +65,8 @@ Aca juntare los cursos realizados en *Udemy* de **React**
 
 
 - 4 - [React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
+
+- 5 - [ReactJS Essential Training](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training)
 
 ---
 
