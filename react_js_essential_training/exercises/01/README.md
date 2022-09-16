@@ -238,7 +238,7 @@ Pero...al renderizarlo tenemos un error, BABEL nos va a ayudar a solucionarlo.
 
 Lo que sucede es que JSX no es soportado por los navegadores.
 
-Entonces si vamos a https://babeljs.io/[ ](https://babeljs.io/) y vamos a TRy it out, y ahi podemos copiar el codigo:
+Entonces si vamos a [https://babeljs.io/](https://babeljs.io/) y vamos a TRy it out, y ahi podemos copiar el codigo:
 
 ```JSX
 ReactDOM.render(

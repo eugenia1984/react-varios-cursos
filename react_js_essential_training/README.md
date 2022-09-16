@@ -32,7 +32,7 @@ Dentro de **exercises**
 5 - Trabajando con la sintaxis de JSX
 ```
 
-- En la [**carpeta 02**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/02: Componentes 
+- En la [**carpeta 02**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/02): Componentes 
 ```
 1 - Creando componentes
 2 - Agregando propiedades a los componentes
@@ -51,6 +51,14 @@ Dentro de **exercises**
 4 - Trabajando con useEffect
 5 - Entendiendo la dependencia array
 6 - Incorporando useReducer
+```
+
+- En la [**carpeta 04**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/04): Manejando formularios en Rect
+```
+1 - Trabajando con componentes sin controlar
+2 - Creando elementos controlados de formulario
+3 - Construyendo un Custom Hook
+4 - Eligiendo una libreria
 ```
 
 - En [**my-app**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la alicación creada en REact con Create React App.

@@ -1,9 +1,11 @@
-import "./App.css";
+import './App.css';
 import { useRef } from "react";
 
 function App() {
   const txtTitle = useRef();
-  const hexColor = useRef();
+  const hexColor =useRef();
+
+  console.log(txtTitle);
 
   const submit = (e) => {
     e.preventDefault();
@@ -13,14 +15,18 @@ function App() {
     txtTitle.current.value = "";
     hexColor.current.value = "";
   };
+
   return (
     <form onSubmit={submit}>
-      <input
+      <input  
         ref={txtTitle}
         type="text"
         placeholder="color title..."
       />
-      <input ref={hexColor} type="color" />
+      <input  
+        ref={hexColor}
+        type="color"
+      />
       <button>ADD</button>
     </form>
   );
