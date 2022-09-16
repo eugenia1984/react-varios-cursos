@@ -53,12 +53,21 @@ Dentro de **exercises**
 6 - Incorporando useReducer
 ```
 
-- En la [**carpeta 04**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/04): Manejando formularios en Rect
+- En la [**carpeta 04**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/04): Manejando formularios en React
 ```
 1 - Trabajando con componentes sin controlar
 2 - Creando elementos controlados de formulario
 3 - Construyendo un Custom Hook
 4 - Eligiendo una libreria
+```
+
+- En la [**carpeta 05**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/05): React Asincrono
+```
+1 - Mostrando fechas con Hooks
+2 - Mostrando fechas con API
+3 - Manejando loading states
+4 - Fetching data with GraphQL
+5 - Trabajando con render props
 ```
 
 - En [**my-app**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la alicación creada en REact con Create React App.

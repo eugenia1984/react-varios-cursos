@@ -381,6 +381,8 @@ function App() {
 export default App;
 ```
 
+-> Se puede ver el codigo en **App-5.js**
+
 ---
 
 ## :star: 6 - Incorporando useReducer
@@ -394,7 +396,7 @@ Vamos a usar el valor de la constante checked para manejar el estado del checkbo
 Ahora en mi boton voy a querer mostrar la variable, para reflejar el cambio usando un ternario
 
 
-por ahora me queda asi:
+Por ahora me queda asi:
 ```JSX
 import './App.css';
 import { useState } from "react";
@@ -453,5 +455,6 @@ function App() {
 export default App;
 ```
 
+-> Se puede ver el codigo en **App-6.js**
 
 ---

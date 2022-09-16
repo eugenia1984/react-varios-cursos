@@ -1,4 +1,4 @@
-# :star2: Manejando formularios en Rect :star2:
+# :star2: Manejando formularios en React :star2:
 
 ---
 
