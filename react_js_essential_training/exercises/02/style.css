@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+/* Resert */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#root {
+  font-family: 'Raleway', sans-serif;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  line-height: 1.8;
+}
+
+li { padding-bottom: 12px;}
