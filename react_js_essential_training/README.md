@@ -91,3 +91,7 @@ Dentro de **exercises**
 - En [**my-app**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la alicación creada en REact con Create React App.
 
 ---
+
+- [El certificado de LinkedIn](https://github.com/eugenia1984/react-varios-cursos/blob/main/react_js_essential_training/reactjs_essential%20_training.pdf)
+
+---
