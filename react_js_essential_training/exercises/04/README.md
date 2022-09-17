@@ -70,7 +70,7 @@ Con useRef no se va a renderizar, por mas que haya un cambio.
 
 Manejamos fuera del estado.
 
--> Se puede ver el codigo en **App-1.js**
+-> Se puede ver el codigo en **App-1.js** en **exercises** / **04**
 
 ---
 
@@ -128,7 +128,7 @@ function App() {
 export default App;
 ```
 
--> Se puede ver el codigo en **App-2.js**
+-> Se puede ver el codigo en **App-2.js** en **exercises** / **04**
 
 ---
 
@@ -193,6 +193,8 @@ function App() {
 
 export default App;
 ```
+
+-> Se puede ver en **App-3.js** en **exercises** / **04**
 
 ---
 
