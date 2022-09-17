@@ -1,14 +1,6 @@
 import './App.css';
 import { useState, useEffect} from "react";
 
-function GitHubUser({name}) {
-  return(
-    <div>
-      <h1>{name}</h1>
-    </div>
-  )
-}
-
 function App() {
   const [ data, setData ] = useState(null);
   useEffect(() => {
@@ -16,13 +8,7 @@ function App() {
   ).then( response => response.json())
   .then(setData)
   }, []);
-  if(data) 
-    return (
-      <GitHubUser 
-        name={data.name}
-      />
-    )
-
+  if(data) return <pre>{JSON.stringify(data, null, 2)}</pre>
 
   return (
     <h1>Data</h1>

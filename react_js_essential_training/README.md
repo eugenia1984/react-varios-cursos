@@ -61,10 +61,10 @@ Dentro de **exercises**
 4 - Eligiendo una libreria
 ```
 
-- En la [**carpeta 05**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/05): React Asincrono
+- En la [**carpeta 05**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/05): React Asincronismo
 ```
-1 - Mostrando fechas con Hooks
-2 - Mostrando fechas con API
+1 - Mostrando información con Hooks
+2 - Mostrando información con API
 3 - Manejando loading states
 4 - Fetching data with GraphQL
 5 - Trabajando con render props
