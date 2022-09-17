@@ -70,12 +70,22 @@ Dentro de **exercises**
 5 - Trabajando con render props
 ```
 
-- En la [**carpeta 06**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/05): React Router
+- En la [**carpeta 06**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/06): React Router
 ``` 
 1 - Instalando React Router
 2 - Configurando el router
 3 - Incorporando el link a un componente
 4 - Nesting links con React Router v6
+```
+
+
+- En la [**carpeta 06**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/07): React Testing and Deployment
+``` 
+1 - Usando Create React App como una plataforma de Testing
+2 - Testing funciones chicas con Jest
+3 - Introduciendonos a React Testing Libary
+4 - Testing eventos con REact Testing Library
+5 - Deployando en Netlify
 ```
 
 - En [**my-app**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la alicación creada en REact con Create React App.
