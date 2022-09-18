@@ -227,9 +227,11 @@ Hay que entender esto como una solución de compromiso. Estás sacrificando algo
 
 ### ¿ Qué son las CLI ?
 
-Las CLI son comandos que ejecutamos en nuestra terminal para hacer algo. Si quieres una definición:
+Las **CLI** son **comandos que ejecutamos en nuestra terminal para hacer algo**. 
 
-Una interfaz de línea de comandos procesa los comandos de un programa de computadora en forma de líneas de texto. El programa que maneja la interfaz se llama intérprete de línea de comandos o procesador de línea de comandos. Los sistemas operativos implementan una interfaz de línea de comandos en un shell para el acceso interactivo a las funciones o servicios del sistema operativo
+Si quieres una definición:
+
+**Una interfaz de línea de comandos procesa los comandos de un programa de computadora en forma de líneas de texto**. El programa que maneja la interfaz se llama intérprete de línea de comandos o procesador de línea de comandos. Los sistemas operativos implementan una interfaz de línea de comandos en un shell para el acceso interactivo a las funciones o servicios del sistema operativo
 
 ### ¿ Por qué son necesarias las CLI ?
 
