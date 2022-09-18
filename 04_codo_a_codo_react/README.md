@@ -135,6 +135,16 @@
 
 ---
 
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 2 * Entorno React (2)](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_entorno_react_2.md)
+
+```
+- Azucar sintactico
+- Babel + Node.js
+- JSX
+```
+
+---
+
 ## [React visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
 
 ---
