@@ -231,54 +231,72 @@ Las **CLI** son **comandos que ejecutamos en nuestra terminal para hacer algo**.
 
 Si quieres una definición:
 
-**Una interfaz de línea de comandos procesa los comandos de un programa de computadora en forma de líneas de texto**. El programa que maneja la interfaz se llama intérprete de línea de comandos o procesador de línea de comandos. Los sistemas operativos implementan una interfaz de línea de comandos en un shell para el acceso interactivo a las funciones o servicios del sistema operativo
+**Una interfaz de línea de comandos procesa los comandos de un programa de computadora en forma de líneas de texto**. El programa que maneja la interfaz se llama **intérprete de línea de comandos** o **procesador de línea de comandos**. Los sistemas operativos implementan una interfaz de línea de comandos en un shell para el acceso interactivo a las funciones o servicios del sistema operativo
+
 
 ### ¿ Por qué son necesarias las CLI ?
 
-En el mundo moderno de las GUI (interfaces gráficas de usuario), podría preguntarse ¿por qué deberíamos conocer las CLI? ¿No se usaron en los 80? Estoy de acuerdo contigo en un 💯 por ciento. Están desactualizadas, pero muchas aplicaciones antiguas todavía usan CLI. El terminal / símbolo del sistema generalmente tiene más permisos y acceso en comparación con las aplicaciones GUI de forma predeterminada. Es una mala experiencia de usuario permitir 100 permisos para ejecutar una aplicación. Además, la gente bromea sobre ello como el "mejor amigo" de un desarrollador (que no sea Google).
+En el mundo moderno de las **GUI** (**interfaces gráficas de usuario**), podría preguntarse ¿por qué deberíamos conocer las CLI? ¿No se usaron en los 80? Estoy de acuerdo contigo en un 💯 por ciento. Están desactualizadas, pero muchas aplicaciones antiguas todavía usan CLI.
+
+El terminal / símbolo del sistema generalmente tiene más permisos y acceso en comparación con las aplicaciones GUI de forma predeterminada. 
+
+Es una mala experiencia de usuario permitir 100 permisos para ejecutar una aplicación. Además, la gente bromea sobre ello como el "mejor amigo" de un desarrollador (que no sea Google).
+
+
 
 ### Git Bash
 
-En esencia, Git es un conjunto de programas de utilidades de líneas de comandos que están diseñados para ejecutarse en un entorno de líneas de comandos de estilo Unix. Los sistemas operativos modernos como Linux y macOS incluyen terminales de líneas de comandos Unix integrados. Esto convierte a Linux y a macOS en sistemas operativos complementarios cuando se trabaja con Git. En cambio, Microsoft Windows utiliza el símbolo del sistema de Windows, un entorno de terminal que no es Unix.
+En esencia, **Git es un conjunto de programas de utilidades de líneas de comandos que están diseñados para ejecutarse en un entorno de líneas de comandos de estilo Unix**. Los sistemas operativos modernos como **Linux** y **macOS** incluyen **terminales de líneas de comandos Unix integrados**. Esto convierte a Linux y a macOS en sistemas operativos complementarios cuando se trabaja con Git. En cambio, **Microsoft Windows utiliza el símbolo del sistema de Windows, un entorno de terminal que no es Unix**.
 
-En entornos de Windows, Git normalmente se incluye en un paquete como parte de aplicaciones de interfaz gráfica de usuario de nivel superior. Las interfaces gráficas de usuario para Git podrían intentar abstraer y ocultar los lenguajes primitivos del sistema de control de versiones subyacente. Esto puede ser una ayuda excepcional para que los principiantes en Git contribuyan rápidamente a un proyecto. Una vez que los requisitos de colaboración de un proyecto aumentan con otros miembros del equipo, es fundamental ser consciente de cómo funcionan los métodos de Git de verdad sin procesar. En ese momento, puede ser beneficioso disponer de una versión de interfaz gráfica de usuario para las herramientas de líneas de comandos. Se ofrece Git Bash para proporcionar una experiencia de Git en el terminal.
+En entornos de Windows, Git normalmente se incluye en un paquete como parte de aplicaciones de interfaz gráfica de usuario de nivel superior. Las interfaces gráficas de usuario para Git podrían intentar abstraer y ocultar los lenguajes primitivos del sistema de control de versiones subyacente. Esto puede ser una ayuda excepcional para que los principiantes en Git contribuyan rápidamente a un proyecto. Una vez que los requisitos de colaboración de un proyecto aumentan con otros miembros del equipo, es fundamental ser consciente de cómo funcionan los métodos de Git de verdad sin procesar. En ese momento, puede ser beneficioso disponer de una versión de interfaz gráfica de usuario para las herramientas de líneas de comandos. **Se ofrece Git Bash para proporcionar una experiencia de Git en el terminal**.
+
 
 ### ¿ Qué es Git Bash ?
 
-Git Bash es una aplicación para entornos de Microsoft Windows que ofrece una capa de emulación para una experiencia de líneas de comandos de Git. Bash es el acrónimo en inglés de Bourne Again Shell. Una shell es una aplicación de terminal que se utiliza como interfaz con un sistema operativo mediante comandos escritos. Bash es una shell predeterminada popular en Linux y macOS. Git Bash es un paquete que instala Bash, algunas utilidades comunes de bash y Git en un sistema operativo Windows.
+**Git Bash** es una **aplicación para entornos de Microsoft Windows que ofrece una capa de emulación para una experiencia de líneas de comandos de Git**. Bash es el acrónimo en inglés de **Bourne Again Shell**. 
+
+Una **shell** es **una aplicación de terminal que se utiliza como interfaz con un sistema operativo mediante comandos escritos**. 
+
+**Bash es una shell predeterminada popular en Linux y macOS**. 
+
+**Git Bash es un paquete que instala Bash, algunas utilidades comunes de bash y Git en un sistema operativo Windows**.
+
+
 
 ### Linux NO es difícil
 
-A veces parece que el uso de terminal es muy dificil, pero para nada lo es, de hecho, es mucho más difícil programar en Windows que programar en Linux (y es por eso que Windows tiene a WSL ) esto es porque con Linux tenemos todo a la mano, es un sistema operativo más dev-friendly, Windows está más pensado para el usuario final, es por eso que nos toca virtualizar todo ahí, y que de repente algo no funciona.
+A veces parece que el uso de terminal es muy dificil, pero para nada lo es, de hecho, **es mucho más difícil programar en Windows que programar en Linux (y es por eso que Windows tiene a WSL ) esto es porque con Linux tenemos todo a la mano, es un sistema operativo más dev-friendly, Windows está más pensado para el usuario final, es por eso que nos toca virtualizar todo ahí, y que de repente algo no funciona**.
 
-Otra cosa cursiosa es que de hecho sí puedes invocar demonios en la terminal “literalmente”. En el mundo de la terminal, hay algunos procesos especiales a los que se les conoce como “demonios”, básicamente son procesos que se están ejecutando en el background o en la misma terminal.
+Otra cosa curiosa es que de hecho sí puedes invocar demonios en la terminal “literalmente”. En el mundo de la terminal, hay algunos procesos especiales a los que se les conoce como **demonios**, básicamente son **procesos que se están ejecutando en el background o en la misma terminal**.
 
-¿Alguna vez has usado Nodemon mientras trabajabas con Node.js? Bueno, Nodemon es un demonio, su propio nombre lo dice “No… demon”, y es básicamente un demonio porque cuando lo ejecutas se queda aparando la terminal, es decir, se queda corriendo un proceso.
+**¿Alguna vez has usado Nodemon mientras trabajabas con Node.js?** Bueno, Nodemon es un demonio, su propio nombre lo dice **No… demon**, y es básicamente un demonio porque **cuando lo ejecutas se queda aparando la terminal, es decir, se queda corriendo un proceso**.
 
-De hecho, como dato curioso, la terminal y todos los comandos que pones ahí son básicamente un lenguaje de programación llamado “Bash”, sí, puedes programar en Bash usando la terminal. Saber usar la terminal es una de las principales habilidades que debe tener un programador para ser un profesional.
+De hecho, como dato curioso, la terminal y todos los comandos que pones ahí son básicamente un lenguaje de programación llamado **Bash**, sí, puedes programar en Bash usando la terminal. 
+
+-> Saber usar la terminal es una de las principales habilidades que debe tener un programador para ser un profesional.
+
+
 
 ### Comandos Básicos:
 
-- Comando ```man```: Desplega una descripcion del comando indicado (uso, parametros y argumentos).
+- Comando ```man``` 
 
-Sintaxis: 
-```man <comando>```
+-> Def. : Desplega una descripcion del comando indicado (uso, parametros y argumentos).
 
-Ejemplos: 
-```man cd``` muestra la ayuda referente al comando **cd**
+-> Sintaxis:  ```man <comando>```
+
+-> Ejemplos: ```man cd``` muestra la ayuda referente al comando **cd**
 
 
-- Comando ```ls``` Crea una lista las capetas y archivos que hay en el directorio seleccionado
+- Comando ```ls``` 
 
-Sintaxis: 
-```ls <ruta> -<modificadores> <parametros>```
+-> Def. : Crea una lista las capetas y archivos que hay en el directorio seleccionado
 
-Ejemplos: 
-```ls -lh ``` ver objetos en el directorio actual estructurados de manera ordenada
+-> Sintaxis:  ```ls <ruta> -<modificadores> <parametros>```
 
-```ls usr/bin | wc -l ``` cuenta cantidad de objetos en el directorio “usr/bin”
+-> Ejemplos:  ```ls -lh ``` ver objetos en el directorio actual estructurados de manera ordenada. ```ls usr/bin | wc -l ``` cuenta cantidad de objetos en el directorio “usr/bin”
 
-Modificadores:
+->Modificadores:
 
 -```l``` lista las capetas y archivos con su información básica
 
@@ -288,102 +306,95 @@ Modificadores:
 
 ->ver más con el comando ```–help```
 
-- Comando ```pwd```: Muestra el directorio en el que se ejecuta el comando, util en los casos en los que el "Prompt" no indica la ruta.
+- Comando ```pwd```
 
--Sintaxis: 
-```pwd```
+-> Def: Muestra el directorio en el que se ejecuta el comando, util en los casos en los que el "Prompt" no indica la ruta.
 
--Modificadores: Este comando no tiene modificadores
+-> Sintaxis:  ```pwd```
 
-- Comando ```cd```: Navega por los directorios del sistema.
+-> Modificadores: Este comando no tiene modificadores
 
--Sintaxis: 
-```cd <ruta>```
+- Comando ```cd```
 
--Ejemplos:
-```cd ..```retrocede un directorio.
-```cd ~```se mueve al directorio "home".
+-> Def : Navega por los directorios del sistema.
 
--Modificadores: ver mas con el comando ```--help```
+-> Sintaxis: ```cd <ruta>```
 
-- Comando ```mkdir```: Crear una carpeta si no existe.
+-> Ejemplos: ```cd ..```retrocede un directorio. ```cd ~```se mueve al directorio "home".
 
--Sintaxis: 
-```mkdir -<modificadores> <nombre_carpeta>```
+-> Modificadores: ver mas con el comando ```--help```
 
--Ejemplos:
-```mkdir uauario``` *crea carpeta llamada "usuario"
+- Comando ```mkdir```: 
 
--Modificadores: ver mas con el comando ```--help```
+-> Def.: Crear una carpeta si no existe.
 
-- Comando ```touch```: Crea un archivo si no existe, de lo contrario cambia la fecha de modificación (el argumento "{1, 2, 3}.txt" crea varios archivos de texto).
+-> Sintaxis: ```mkdir -<modificadores> <nombre_carpeta>```
 
--Sintaxis: 
-```touch -<modificadores> <nombre_archivo>```
+->Ejemplos: ```mkdir uauario``` *crea carpeta llamada "usuario"
 
--Ejemplos:
-```touch uauario.txt```crea un archivo de texto llamado "usuario"
+-> Modificadores: ver mas con el comando ```--help```
 
--Modificadores: ver mas con el comando ```--help```
+- Comando ```touch```
 
-- Comando ```mv```: Mueve y/o renombra el archivo indicado alojandolo en una ruta destino.
+-> Def : Crea un archivo si no existe, de lo contrario cambia la fecha de modificación (el argumento "{1, 2, 3}.txt" crea varios archivos de texto).
 
--Sintaxis: 
-```mv [ruta/archivo_origen] [ruta/archivo_destino]```
+->Sintaxis: ```touch -<modificadores> <nombre_archivo>```
 
--Ejemplos:
-```mv archivo.txt C:/``` mueve el archivo archivo.txt desde la ruta actual a la ubicacion "C:/"
+->Ejemplos: ```touch uauario.txt```crea un archivo de texto llamado "usuario"
 
-```mv archivo.txt nuevo.txt``` renombra el archivo sin moverlo.
+-> Modificadores: ver mas con el comando ```--help```
 
--Modificadores: ver más con el comando ```--help```
+- Comando ```mv```
 
-- Comando ```cp```: Crea una copia del archivo indicado alojandolo en una ruta destino.
+-> Def.: Mueve y/o renombra el archivo indicado alojandolo en una ruta destino.
 
--Sintaxis: 
-```cp [ruta/archivo] [ruta/archivo_destino]```
+-> Sintaxis: ```mv [ruta/archivo_origen] [ruta/archivo_destino]```
 
--Ejemplos:
+-> Ejemplos: ```mv archivo.txt C:/``` mueve el archivo archivo.txt desde la ruta actual a la ubicacion "C:/".  ```mv archivo.txt nuevo.txt``` renombra el archivo sin moverlo.
 
-```cp archivo.txt C:/``` crea una copia del archivo archivo.txt que se encuentra en la ruta actual a la ubicación "C:/"
+-> Modificadores: ver más con el comando ```--help```
 
--Modificadores: ver mas con el comando ```--help```
+- Comando ```cp```
 
-- Comando ```rm```: Elimina el archivo indicado
+-> Def.: Crea una copia del archivo indicado alojandolo en una ruta destino.
 
--Sintaxis:
-```rm -[modificadores] [nombre_archivo]```
-```rm -rf [directorio]```
+-> Sintaxis: ```cp [ruta/archivo] [ruta/archivo_destino]```
 
--Ejemplos:
-```mv c:/archivo.txt``` elimina el archivo "archivo.txt" ubicado en "C:/"
-```rm -rf ejercicio``` elimina un directorio/carpeta "ejercicio" recursivamente.
+-> Ejemplos: ```cp archivo.txt C:/``` crea una copia del archivo archivo.txt que se encuentra en la ruta actual a la ubicación "C:/"
 
--Modificadores:
--```r```: remover directorio y contenido de manera recursiva.
--```f```: ignora archivos no existentes y argumentos, no pregunta.
+-> Modificadores: ver mas con el comando ```--help```
 
--ver mas con el comando ```--help```
+- Comando ```rm```
 
-- Comando ```open```: Abrir el archivo indicado, en windows se utiliza "start"
+-> Def.: Elimina el archivo indicado
 
--Sintaxis: 
-```open -[modificadores] [ruta_archivo]```
+-> Sintaxis: ```rm -[modificadores] [nombre_archivo]```. ```rm -rf [directorio]```
 
--Ejemplos:
-```open archivo.txt``` abre el archivo archivo.txt utilizando el programa por defecto.
+-> Ejemplos: ```mv c:/archivo.txt``` elimina el archivo "archivo.txt" ubicado en "C:/" // ```rm -rf ejercicio``` elimina un directorio/carpeta "ejercicio" recursivamente.
 
--Modificadores: ver más con el comando ```--help```
+-> Modificadores: -```r```: remover directorio y contenido de manera recursiva. // -```f```: ignora archivos no existentes y argumentos, no pregunta.
 
-- Comando ```cat```: Imprimir todo el contenido de un archivo en pantalla.
+->ver mas con el comando ```--help```
 
--Sintaxis: 
-```cat -[modificadores] [ruta_archivo]```
+- Comando ```open```
 
--Ejemplos:
-```cat -v C:/archivo.txt``` imprime el contenido del archivo "archivo.txt" en la ubicacion "c:/" mostrando los caracteres no imprimibles.
+-> Def.: Abrir el archivo indicado, en windows se utiliza "start"
 
--Modificadores: ver más con el comando ```--help```
+-> Sintaxis: ```open -[modificadores] [ruta_archivo]```
+
+-> Ejemplos: ```open archivo.txt``` abre el archivo archivo.txt utilizando el programa por defecto.
+
+-> Modificadores: ver más con el comando ```--help```
+
+- Comando ```cat```
+
+-> Def. : Imprimir todo el contenido de un archivo en pantalla.
+
+-> Sintaxis: ```cat -[modificadores] [ruta_archivo]```
+
+-> Ejemplos: ```cat -v C:/archivo.txt``` imprime el contenido del archivo "archivo.txt" en la ubicacion "c:/" mostrando los caracteres no imprimibles.
+
+-> Modificadores: ver más con el comando ```--help```
 
 
 ---
@@ -394,7 +405,7 @@ Modificadores:
 
 ### Instalación de Node JS
 
-Para instalar React JS debemos tener instalado nodejs, dejamos el link para la instalación (recuerda siempre descargar la versión LTS):
+- Para instalar React JS debemos tener instalado **nodejs**, dejamos el link para la instalación (recuerda siempre descargar la versión LTS):
 
 [https://nodejs.org/es/](https://nodejs.org/es/)
 
@@ -406,23 +417,17 @@ Para instalar React JS debemos tener instalado nodejs, dejamos el link para la i
 
 ```npm --version``` -verificamos que se haya instalado correctamente el gestor de dependencias de Javascript
 
-2. Importante antes de crear un proyecto, debemos posicionarnos en la carpeta en la cual vamos a trabajar, recuerden organizar sus carpetas y proyectos.
+2. Importante antes de crear un proyecto, debemos **posicionarnos en la carpeta en la cual vamos a trabajar**, recuerden organizar sus carpetas y proyectos.
 
 3. Una vez posicionados en el lugar indicado ejecutar las siguientes líneas de comando:
 
-```npx create-react-app miaplicacion``` miaplicacion se reemplaza por el nombre que le querramos poner, no usar mayusculas, ni dejar espacios en blancos si hay mas de una palabra separar con -
+```npx create-react-app miaplicacion``` **miaplicacion** se reemplaza por el nombre que le querramos poner, no usar mayusculas, ni dejar espacios en blancos si hay mas de una palabra separar con -
 
 -Con este comando iniciamos la instalación de un proyecto con React JS.
 
--Este proceso suele tardar algunos minutos, una vez terminada la instalación, deberemos ingresar a nuestra carpeta con los siguientes comandos
+-Este proceso suele tardar algunos minutos, una vez terminada la instalación, deberemos **ingresar a nuestra carpeta** con los siguientes comandos: ```cd miaplicacion```. Ingresamos al directorio de la aplicación
 
-```cd miaplicacion```
-
-Ingresamos al directorio de la aplicación
-
-4. Nos aseguramos estar dentro de la carpeta raíz del proyecto y ahí ejecutar la siguiente línea de comandos
-
-```npm start```
+4. Nos aseguramos estar dentro de la carpeta raíz del proyecto y ahí ejecutar la siguiente línea de comandos: ```npm start```
 
 5. Finalmente, iniciamos la compilación del proyecto para visualizarlo en un navegador web
 
