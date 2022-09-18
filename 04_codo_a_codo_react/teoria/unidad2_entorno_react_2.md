@@ -213,13 +213,95 @@ Si vas a programar con React es casi obligatorio que utilices Webpack, pues es l
 ## :star: Babel + Node.js
 
 
-```JavaScript
+Babel es un **compilador** (o **transpilador**) para JavaScript. Básicamente **permite transformar código escrito con las últimas y novedosas características de JavaScript y transformarlo en un código que sea entendido por navegadores más antiguos**.
 
+### ¿Por qué es necesario transformar el código JavaScript?
+
+JavaScript es un lenguaje que no para de evolucionar y que cada año agrega nuevas características a su estándar. El estándar de JavaScript, conocido como ECMAScript.
+
+**ECMAScript** (o abreviado **ES**) es la **especificación en la que se basa JavaScript**. 
+
+ES nace de la organización **ECMA International**, cuyo objetivo es **desarrollar estándares y reportes técnicos para facilitar el uso de tecnologías de la información**. Esta organización se constituye de varios equipos siendo el **TC39** el equipo encargado de revisar, proponer y definir las características que el estándar tendrá cada año. 
+
+Lamentablemente **la velocidad de actualización del estándar no es la misma que la velocidad de adopción de los navegadores**, es decir, los navegadores no siempre pueden implementar las nuevas características en sus engine, ni tampoco hacerlo retrocompatible con versiones más antiguas. Además, tampoco es posible asegurar que todos los usuarios estén utilizando navegadores modernos o de última generación lo que imposibilita tener la seguridad de que podamos hacer uso de las nuevas características del lenguaje en todas partes.
+
+
+### ¿Qué ventajas tiene el utilizar las nuevas características propuestas por ECMA?
+
+Las nuevas características y "habilidades" que JavaScript provee cada año son sobre todo ventajas para ti como desarrollador, ya que **te proporciona de herramientas más poderosas y expresivas para implementar soluciones a problemas complejos**. 
+
+Algunas de las características se han ido agregando con los años son:
+
+- Funciones flechas (arrow functions)
+
+-  Plantillas Literales (Template Literals)
+
+-  Map y Set
+
+-  Let y Const
+
+-  Clases
+
+-  Encadenamiento Opcional (Optional Chaining)
+
+-  Operador Fusión Nula (Nullish Coalescing)
+
+-  Métodos Privados (ES2021)
+-  
+-  Operador de Asignación Local (ES2021)
+
+### ¿Cómo puedo usar las nuevas versiones de JavaScript?
+
+Ya que no todos los navegadores pueden interpretar o entender las nuevas características del lenguaje que estás o quieres usar es necesario buscar algunas soluciones, una de ellas es el uso de **polyfills** o **librerías que implementan con código "antiguo" el mismo comportamiento que lo que intentas expresar con características nuevas**, un ejemplo de esto es el polyfill para usar Object.keys. Pero si necesitas usar algo más que un par de operadores entonces entra en juego más requerimientos y aquí es donde Babel hace su aparición. **Babel permite transformar código de versiones nuevas de ES (ECMA2015+) a versiones retrocompatibles de JavaScript**, esto lo realiza mediante:
+
+-  Transformaciones de sintaxis
+
+-  Polyfills
+
+-  Transformaciones de código fuente (codemods)
+
+Babel es entonces una herramienta que **lee tu código (archivo por archivo) y genera nuevo código que puedes usar en navegadores antiguos (o como entrada para algún bundler como webpack, rollup, etc)**.
+
+Babel es casi omnipresente, utilizado por el 99.9% de los equipos que desarrolla software utilizando JavaScript, además Babel se alinea directamente a las discusiones del TC39 proveyendo así implementaciones de propuestas que aún ni siquiera son aceptadas por el comité, lo que te permite tener dichas funcionalidades mucho antes incluso que los navegadores.
+
+### ¿Cómo funciona Babel?
+
+Revisaremos de forma breve como babel funciona convirtiendo tu código de una versión a otra.
+
+Considera este pequeño trozo de código JavaScript:
+
+```JavaScript
+const sum = (a, b) => a + b
 ```
 
+Ahora considera que por alguna razón necesitas que este se ejecute en un navegador antiguo, entonces deberás transformarlo a:
 ```JavaScript
+'use strict';
 
+function sum(a,b) {
+  return a + b;
+}
 ```
+
+#### ¿Cómo se logra esto?
+
+Es un proceso que se ejecuta en al menos 3 procesos:
+
+- **Parsing** : Babel toma el código fuente, lo lee y lo convierte en una representación abstracta conocida como AST (Abstract Syntax Tree). Esta es una representación donde cada nodo del árbol representa una estructura del código fuente. Babel utiliza Babylon para este trabajo.
+
+- **Transformación**: En esta etapa Babel trabaja sobre el AST generado en el proceso anterior y lo manipula para generar un nuevo AST que represente el código necesario para el soporte seleccionado. Este paso es realizado por una serie de "plugins" que permiten ejecutar varias transformaciones de forma sencilla y atómica. Aquí cada plugin toma el AST generado por el previo para aplicar una pequeña transformación.
+
+- **Generación de código**: En esta etapa, babel toma el AST generado y crea/escribe el código compatible, es decir, crea ese trozo de código soportado por navegadores más antiguos.
+
+```JavaScript
+'use strict';
+
+function sum(a,b) {
+  return a + b;
+}
+```
+
+
 ---
 
 ## :star: JSX
