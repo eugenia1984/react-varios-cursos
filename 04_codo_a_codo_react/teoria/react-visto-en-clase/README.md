@@ -177,20 +177,20 @@ Elementos que vinculan el DOm con el codigo, con las cosas que  hacemos, ya que 
 
 ```
 src
-  assets
-    fonts
-    images
-  components
-    NavBar
-  pages
-  App.cs
-  App.js
-  index.css
-  index.js
-  .gitignore
-  package-lock.json
-  package.json
-  READEM.md
+    assets
+        fonts
+        images
+    components
+        NavBar
+    pages
+    App.cs
+    App.js
+    index.css
+    index.js
+    .gitignore
+    package-lock.json
+    package.json
+    READEM.md
 ```
 
 ---
