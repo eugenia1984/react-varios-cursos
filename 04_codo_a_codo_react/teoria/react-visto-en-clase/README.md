@@ -182,8 +182,8 @@ src
         images
     components
         NavBar 
-            Logo.js
-            Menu.js
+            Logo.jsx
+            Pages.jsx
     pages
     App.cs
     App.js
