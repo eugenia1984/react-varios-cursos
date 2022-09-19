@@ -2,7 +2,7 @@
 
 ---
 
-## Clase 14/09
+## :star: Clase 14/09
 
 React es **reactivo**
 
@@ -160,6 +160,38 @@ const hello = "text-3xl font-bold underline";
   )
 }
 ```
+
 ---
 ---
 
+## :star: Clase 19/09
+
+Dentro del componente le podemos pasar props para utilizar esa información
+
+### Hooks
+
+Elementos que vinculan el DOm con el codigo, con las cosas que  hacemos, ya que al trabajar con el virtual DOm le tenemos que avisar al DOM.
+
+
+### Estructura de mi proyecto
+
+```
+src
+  assets
+    fonts
+    images
+  components
+    NavBar
+  pages
+  App.cs
+  App.js
+  index.css
+  index.js
+  .gitignore
+  package-lock.json
+  package.json
+  READEM.md
+```
+
+---
+---
