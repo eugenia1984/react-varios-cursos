@@ -181,7 +181,9 @@ src
         fonts
         images
     components
-        NavBar
+        NavBar 
+            Logo.js
+            Menu.js
     pages
     App.cs
     App.js
@@ -190,7 +192,7 @@ src
     .gitignore
     package-lock.json
     package.json
-    READEM.md
+    README.md
 ```
 
 ---
