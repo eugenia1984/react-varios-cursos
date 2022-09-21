@@ -197,3 +197,20 @@ src
 
 ---
 ---
+
+## :star: Clase 21/09
+
+- useEffect es un hook que trabaja con tareas secundarias en nuestra pagina.
+
+Por ejemplo va a ir escuchando para ver cuando recibimos los datos y ahi los renderiza.
+
+```JSX
+useEffect(()=> {
+  setInterval(() => {
+    setValor(valor+1);
+  })
+}, [])
+```
+
+---
+---
