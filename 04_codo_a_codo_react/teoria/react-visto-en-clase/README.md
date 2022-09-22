@@ -206,11 +206,18 @@ Por ejemplo va a ir escuchando para ver cuando recibimos los datos y ahi los ren
 
 ```JSX
 useEffect(()=> {
-  setInterval(() => {
+  if(!iniciado) {
+    return;
+  }
+  
+  setTimeOut(() => {
     setValor(valor+1);
   })
-}, [])
+}, [iniciado, valor])
 ```
+
+Si usariamos setInterval, como tiene un tiempo de espera se nos van a ir acumulando y nos va a ir sumando mal, por eso usamos SetTimeOut, que se ejecuta una sola vez, pero con el useEffect lo vamos a ir modificando cada vez que varie.
+
 
 ---
 ---
