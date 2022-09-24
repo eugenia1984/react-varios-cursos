@@ -64,3 +64,43 @@
 
 
 ---
+
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_entorno_react.md)
+
+```
+- Performance de React
+- NPM
+- Dependencies
+- CLI
+- Instalación de React
+```
+
+---
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_entorno_react_2.md)
+
+```
+- Azucar sintactico - clases
+- Let y Const
+- ES6: Template Strings
+- ES7: Elevación de potencia
+- Webpack
+- Babel + Node.js
+- JSX
+```
+
+---
+
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Componentes * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_componentes.md)
+
+Temas:
+```
+- Introduccion
+- Diseño modular
+- Propiedades en React
+- Tipos de Componentes
+```
+
+---
