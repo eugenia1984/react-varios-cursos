@@ -174,10 +174,6 @@ Temas:
 
 ### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> Componentes * Unidad 1
 
----
-
-## [React visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
-
 Temas:
 ```
 - Introduccion
@@ -185,5 +181,11 @@ Temas:
 - Propiedades en React
 - Tipos de Componentes
 ```
+
+---
+
+## [React visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
+
+
 
 ---
