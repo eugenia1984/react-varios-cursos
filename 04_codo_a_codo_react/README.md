@@ -36,11 +36,10 @@
 - Go
 
 ---
+---
 
 ## :book: Contenido que hay en TEORIA
 
-
----
 ---
 
 ##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> JS AVANZADO : Unidad 1 , 2 y 3
@@ -182,6 +181,7 @@ Temas:
 - Tipos de Componentes
 ```
 
+---
 ---
 
 ## [React visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
