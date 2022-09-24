@@ -1,8 +1,9 @@
-# :star: Codo a Codo * React <img src="https://img.icons8.com/officel/24/000000/react.png"/>
+# :star: Codo a Codo * React <img src="https://img.icons8.com/officel/32/000000/react.png"/>
 
 ---
 
 ## <img src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/32/000000/external-agenda-job-amp-resume-xnimrodx-lineal-xnimrodx.png"/> Temario
+
 
 - Presentación cursada / instalación herramientas/ nivelación html,css,js
 
@@ -42,8 +43,9 @@
 ---
 ---
 
-## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> JS AVANZADO : Unidad 1 , 2 y 3
+##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> JS AVANZADO : Unidad 1 , 2 y 3
 
+Temas
 ```
 - Variables - Tipos de Datos - Objeto Math 
 - Operadores Relacionales y de Comparación 
@@ -65,8 +67,9 @@
 
 ---
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1 * JS avanzado - Presentacion y Nivelacion](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/presentacion_nivelacion.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [JS avanzado * Unidad 1 - Presentacion y Nivelacion](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/presentacion_nivelacion.md)
 
+Temas:
 ```
 - Presentación cursada / instalación herramientas/ nivelación html,css,js
 - Nivelación (conceptos JS) / Git + Github
@@ -76,7 +79,7 @@
 ```
 
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 2 * JS Avanzado 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/js-avanzado-2.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [JS Avanzado * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/js-avanzado-2.md)
 
 ```
 - Condicionales (if - else , operador ternario, switch)
@@ -85,7 +88,9 @@
 - Bucles: While y For - For in - For of
 ```
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 3 * JS Avanzado 3](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad3.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [JS Avanzado * Unidad 3](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad3.md)
+
+Temas:
 ```
 - Arrays
 - Funciones
@@ -106,8 +111,9 @@
 ---
 ---
 
-## <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> ENTORNO REACT : Unidad 1
+##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> > ENTORNO REACT : Unidad 1 y 2
 
+Temas:
 ```
 - Performance de react
 - Npm
@@ -123,7 +129,7 @@
 
 ---
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1 * Entorno React](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_entorno_react.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_entorno_react.md)
 
 ```
 - Performance de React
@@ -135,7 +141,7 @@
 
 ---
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 2 * Entorno React (2)](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_entorno_react_2.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_entorno_react_2.md)
 
 ```
 - Azucar sintactico - clases
@@ -149,6 +155,35 @@
 
 ---
 
+##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> COMPONENTES:  Unidad 1
+
+Temas:
+```
+- Introducción a componentes
+- Diseño modular
+- Propiedades en react
+- Tipos de componentes
+- Children
+- Anatomía de un componente
+- Estado, statate-hook
+- Ciclo de vida del componente
+- Use Effect
+```
+
+---
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> Componentes * Unidad 1
+
+---
+
 ## [React visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
+
+Temas:
+```
+- Introduccion
+- Diseño modular
+- Propiedades en React
+- Tipos de Componentes
+```
 
 ---
