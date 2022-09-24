@@ -109,9 +109,9 @@ Temas:
 ### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Repaso de JS visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/repaso_js)
 
 ---
----
 
-##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> > ENTORNO REACT : Unidad 1 y 2
+
+##  <img src="https://img.icons8.com/officel/32/000000/react.png"/>  ENTORNO REACT : Unidad 1 y 2
 
 Temas:
 ```
@@ -129,7 +129,7 @@ Temas:
 
 ---
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_entorno_react.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_entorno_react.md)
 
 ```
 - Performance de React
