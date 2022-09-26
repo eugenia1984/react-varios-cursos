@@ -1,6 +1,7 @@
 # <img src="https://img.icons8.com/office/40/000000/react.png"/> React 
 
 ---
+---
 
 ## :star: Clase 14/09
 
@@ -220,7 +221,41 @@ Si usariamos setInterval, como tiene un tiempo de espera se nos van a ir acumula
 
 
 ---
+---
 
 ## :star: Clase 26/9
 
+---
+
+## React Bootstrap
+
+- Web : [https://react-bootstrap.github.io/](https://react-bootstrap.github.io/)
+
+- Instalar: ```npm install react-bootstrap bootstrap``` de este modo vamos a tener tanto **react-bootstrap** como **bootstrap**
+
+
+
+```JSX
+import { useState } from "react";
+
+export const useState = () = {
+  const [state, setState] = useState();
+  const clase = "d-flex border border-2 bg-light p-2 round justify-between align-item-center"
+  
+  return(
+    <div className={clase}>
+      <h1>El useState:</h1>
+      <h3>{ state }</h3>
+      <button className="btn btn-outline-primary">
+        Haceme click
+      </button>
+    </div>
+  );
+}
+```
+
+
+
+
+---
 ---
