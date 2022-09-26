@@ -233,20 +233,30 @@ Si usariamos setInterval, como tiene un tiempo de espera se nos van a ir acumula
 
 - Instalar: ```npm install react-bootstrap bootstrap``` de este modo vamos a tener tanto **react-bootstrap** como **bootstrap**
 
+---
 
+## Hook useState, useEffect, useRef
 
+UseState.jsx
 ```JSX
 import { useState } from "react";
 
 export const useState = () = {
-  const [state, setState] = useState();
-  const clase = "d-flex border border-2 bg-light p-2 round justify-between align-item-center"
+  const [state, setState] = useState(0);
+  const clase = "d-flex border border-2 bg-light p-2 round justify-between align-item-center";
   
-  return(
+  function changeState() {
+    setState(state + 1);
+  }
+  
+  return (
     <div className={clase}>
       <h1>El useState:</h1>
       <h3>{ state }</h3>
-      <button className="btn btn-outline-primary">
+      <button 
+        className="btn btn-outline-primary"
+        onClick={changeState}
+      >
         Haceme click
       </button>
     </div>
@@ -254,8 +264,47 @@ export const useState = () = {
 }
 ```
 
+-> eventos sinteticos, no son las funciones de evento del DOm, son no reales que luego React los vincula con los del DOM.
 
+-> Con el **useState** siempre debo aclarar que valor inicial tiene. Y luego en cada click del boton, con el changeState lo voy a ir cambiando con el **setState**.
 
+UseEffect.jsx:
+```
+import { useState } from "react";
+import { useEffect } from "react";
+
+export const UseEffect = ( { clase }) => {
+  
+  const [valores, setValores] = useState({})
+  
+  useEffect(() => {
+    fetch("https://api.coingecko.com/api/v3/coins/bitboin")
+      .then(respuesta => respuesta.json())
+      .then(datos => 
+          setValores({
+            ars: datos.market_data.current_price.ars,
+            usd: datos.market_data.current_price.usd
+          })
+       }) 
+    .catch(err=> conosle.log("Hubo un error"))
+  }, [valores])
+
+  return (
+    <div>
+      <h2>Precio del Bitcoin:</h2>
+      <h3>{valores.ars && valores.ars} ARS - {valores.usd && valores.usd}</h3>
+      <button
+        className="btn"
+        
+      >
+        Actualizar
+      </button>
+    <div>
+  )
+}
+```
+
+-> El **fetch** trabaja de modo asincrono, va a hacer la peticiony cuando este responde, voy a tener una **promesa pendiente**, por eso luego tnego el **then**
 
 ---
 ---
