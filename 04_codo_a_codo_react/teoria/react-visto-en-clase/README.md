@@ -220,4 +220,7 @@ Si usariamos setInterval, como tiene un tiempo de espera se nos van a ir acumula
 
 
 ---
+
+## :star: Clase 26/9
+
 ---
