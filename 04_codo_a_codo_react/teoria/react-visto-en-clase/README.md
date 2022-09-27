@@ -304,7 +304,42 @@ export const UseEffect = ( { clase }) => {
 }
 ```
 
--> El **fetch** trabaja de modo asincrono, va a hacer la peticiony cuando este responde, voy a tener una **promesa pendiente**, por eso luego tnego el **then**
+-> El **fetch** trabaja de modo asincrono, va a hacer la peticiony cuando este responde, voy a tener una **promesa pendiente**, por eso luego tengo el **then**
+
+
+
+UseRef.jsx:
+```JSX
+import { useRef } from "react";
+
+export const UseRef = () => {
+
+  const valorRef = useRef(5);
+  const datosRef = useRef();
+  
+  const handlerCLick = () {
+    valor.current = valorRef.current + 10;
+    console.log("valor ref.current: ", valorRef.current)
+  }
+
+  return (
+    <div
+      clasName={ clase }
+      ref={ datosRef }
+    >
+      <h1>useRef:</h1>
+      <h2>{valorRef.current.getBoundlingReact()} </h2>
+      <button
+        onCLick={handlerClick}
+      >Click Me</button>
+    </div>
+  )
+
+}
+
+```
+
+-> getBoundlingReact()  es como una referencia a donde esta un elemento, ya que no estamos trabjanaod con JS puro y no tneemos el document.getElementById.
 
 ---
 ---
