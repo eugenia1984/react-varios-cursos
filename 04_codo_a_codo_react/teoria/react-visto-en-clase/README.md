@@ -339,7 +339,17 @@ export const UseRef = () => {
 
 ```
 
--> getBoundlingReact()  es como una referencia a donde esta un elemento, ya que no estamos trabjanaod con JS puro y no tneemos el document.getElementById.
+-> getBoundlingReact()  es como una referencia a donde esta un elemento, ya que no estamos trabjanaod con JS puro y no tenemos el document.getElementById.
+
+---
+
+-> useLayoutEffect si esta junto a useEffect, se va a ejecutar antes el useLeyoutEffect
+
+---
+
+## onClickCapture
+
+
 
 ---
 ---
