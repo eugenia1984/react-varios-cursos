@@ -269,7 +269,7 @@ export const useState = () = {
 -> Con el **useState** siempre debo aclarar que valor inicial tiene. Y luego en cada click del boton, con el changeState lo voy a ir cambiando con el **setState**.
 
 UseEffect.jsx:
-```
+```JSX
 import { useState } from "react";
 import { useEffect } from "react";
 
