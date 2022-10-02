@@ -182,6 +182,18 @@ Temas:
 ```
 
 ---
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Componentes * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_componentes.md)
+
+Temas:
+```
+- Childres
+- Introduccion hooks
+- Ciclo de visa
+- useEffect
+```
+
+---
 ---
 
 ## [React visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
