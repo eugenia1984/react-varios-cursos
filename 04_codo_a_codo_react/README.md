@@ -187,9 +187,9 @@ Temas:
 
 Temas:
 ```
-- Childres
+- Childrens
 - Introduccion hooks
-- Ciclo de visa
+- Ciclo de vida
 - useEffect
 ```
 
