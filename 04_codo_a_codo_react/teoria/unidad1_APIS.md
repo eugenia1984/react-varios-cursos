@@ -68,6 +68,21 @@ La API de MercadoLibre es una poderosa herramienta con la se pueden integrar en 
 
 ## :star: 2  - Flujo de comunicación
 
+### Flujo de comunicación entre usuarios, frontend y backend
+
+La **representación del lado del servidor** se refiere a **la capacidad de una aplicación para mostrar la página web en el servidor en lugar de mostrarla en el navegador**. Cuando el JavaScript de un sitio web se procesa en el servidor del sitio web, se envía una página completamente procesada al cliente y el paquete de JavaScript del cliente se activa y permite que funcione el marco de la aplicación de una sola página.
+
+![Server Side Rendering](https://user-images.githubusercontent.com/72580574/196042120-ca60ed3d-875e-4bab-afc6-34bd47bd801d.png)
+
+
+### SPA (aplicación de una sola página)
+
+Una **SPA (aplicación de una sola página)** es una **implementación de aplicación web que carga solo un único documento web y luego actualiza el contenido del cuerpo de ese documento único a través de las API de JavaScript, como XMLHttpRequest o fetch y se muestra contenido diferente**.
+
+Por lo tanto, esto permite a los usuarios usar sitios web sin cargar páginas completamente nuevas desde el servidor, lo que puede generar mejoras en el rendimiento y una experiencia más dinámica.
+
+![SPA](https://user-images.githubusercontent.com/72580574/196042231-c6fa02f1-cf25-43dc-9279-7f8cf4c53bb5.png)
+
 ---
 
 ## :star: 3 - Api Rest
