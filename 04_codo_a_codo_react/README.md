@@ -228,7 +228,7 @@ Temas:
 - Configuración de navegabilidad entre componentes 
 ```
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Asincronia * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_APIS.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [APIS * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_APIS.md)
 
 ```
 - 1 Qué es una api.
