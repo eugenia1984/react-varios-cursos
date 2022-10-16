@@ -213,6 +213,30 @@ Temas:
 - Promesas
 ```
 
+
+---
+
+## <img src="https://img.icons8.com/officel/32/000000/react.png"/> APIS : Unidad 1
+
+Temas:
+
+```
+-  Concepto de API
+- Paradigma de intercambio de datos
+- Consumo de recursos via llamados a APIs 
+- Organización de APP 
+- Configuración de navegabilidad entre componentes 
+```
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Asincronia * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_APIS.md)
+
+```
+- 1 Qué es una api.
+- 2 Flujo de comunicación.
+- 3 Api Rest.
+- 4 Fectch.
+```
+
 ---
 ---
 
