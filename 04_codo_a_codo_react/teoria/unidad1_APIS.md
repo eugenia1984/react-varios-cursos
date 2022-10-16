@@ -93,41 +93,43 @@ Las API REST proporcionan una forma flexible y ligera de integrar aplicaciones y
 
 ### ¿Qué es una API REST?
 
-Una API, o interfaz de programación de aplicaciones, es un conjunto de reglas que determinan cómo las aplicaciones o los dispositivos pueden conectarse y comunicarse entre sí. Una API REST es una API que se ajusta a los principios de diseño de REST, un estilo de arquitectura también denominado transferencia de estado representacional. Por este motivo, las API REST son a veces denominadas API RESTful.
+Una **API**, o **Interfaz de Programación de Aplicaciones**, es **un conjunto de reglas que determinan cómo las aplicaciones o los dispositivos pueden conectarse y comunicarse entre sí**. Una **API REST** es una **API que se ajusta a los principios de diseño de REST, un estilo de arquitectura también denominado transferencia de estado representacional**. Por este motivo, las API REST son a veces denominadas **API RESTful**.
 
-REST, definido por primera vez en el año 2000 por el científico de la computación Dr. Roy Fielding en su tesis doctoral, proporciona un nivel relativamente alto de flexibilidad y libertad para los desarrolladores. Dicha flexibilidad es solo una razón por la que las API REST han surgido como un método común para conectar componentes y aplicaciones en una arquitectura de microservicios.
+**REST**, definido por primera vez en el año 2000 por el científico de la computación Dr. Roy Fielding en su tesis doctoral, proporciona un nivel relativamente alto de flexibilidad y libertad para los desarrolladores. Dicha flexibilidad es solo una razón por la que las API REST han surgido como un método común para conectar componentes y aplicaciones en una arquitectura de microservicios.
+
 
 ###  Principios de diseño de REST
 
-En el nivel más básico, una API es un mecanismo que permite a una aplicación o servicio acceder a un recurso dentro de otra aplicación o servicio. La aplicación o servicio que realiza el acceso se denomina cliente y la aplicación o servicio que contiene el recurso se denomina servidor.
+En el nivel más básico, una API **es un mecanismo que permite a una aplicación o servicio acceder a un recurso dentro de otra aplicación o servicio**. La aplicación o servicio que realiza el acceso se denomina **cliente** y la aplicación o servicio que contiene el recurso se denomina **servidor**.
 
-Algunas API, como SOAP o XML-RPC, imponen una estructura estricta a los desarrolladores. Sin embargo, las API REST se pueden desarrollar mediante el uso de prácticamente cualquier lenguaje de programación y son compatibles con una variedad de formatos de datos. El único requisito es que se ajusten a los siguientes seis principios de diseño de REST, también conocidos como restricciones de arquitectura:
+Algunas API, como **SOAP** o **XML-RPC**, imponen una estructura estricta a los desarrolladores. Sin embargo, las API REST se pueden desarrollar mediante el uso de prácticamente cualquier lenguaje de programación y son compatibles con una variedad de formatos de datos. El único requisito es que se ajusten a los siguientes seis principios de diseño de REST, también conocidos como **restricciones de arquitectura**:
 
-Interfaz uniforme: Todas las solicitudes de API para el mismo recurso deben ser iguales, independientemente de la procedencia de la solicitud. La API REST debe asegurarse de que el mismo dato, como el nombre o la dirección de e-mail de un usuario, pertenezca a un único identificador uniforme de recurso (URI). Los recursos no deben ser demasiado grandes, sin embargo, deben contener toda la información que el cliente pueda necesitar.
+1. **Interfaz uniforme**: Todas las solicitudes de API para el mismo recurso deben ser iguales, independientemente de la procedencia de la solicitud. La API REST debe asegurarse de que el mismo dato, como el nombre o la dirección de e-mail de un usuario, pertenezca a un único identificador uniforme de recurso (URI). Los recursos no deben ser demasiado grandes, sin embargo, deben contener toda la información que el cliente pueda necesitar.
 
-Separación entre cliente y servidor: En el diseño de API REST, las aplicaciones de cliente y de servidor deben ser completamente independientes entre sí. La única información que la aplicación de cliente debe conocer es el URI del recurso solicitado. No puede interactuar con la aplicación de servidor de ninguna otra forma. Del mismo modo, una aplicación de servidor no debe modificar la aplicación de cliente más allá de entregarle los datos solicitados vía HTTP.
+2. **Separación entre cliente y servidor**: En el diseño de API REST, las aplicaciones de cliente y de servidor deben ser completamente independientes entre sí. La única información que la aplicación de cliente debe conocer es el URI del recurso solicitado. No puede interactuar con la aplicación de servidor de ninguna otra forma. Del mismo modo, una aplicación de servidor no debe modificar la aplicación de cliente más allá de entregarle los datos solicitados vía HTTP.
 
-Sin estado. Las API REST son sin estado, lo que significa que cada solicitud debe incluir toda la información necesaria para procesarla. En otras palabras, las API REST no requieren ninguna sesión en el lado del servidor. Las aplicaciones de servidor no pueden almacenar ningún dato relacionado con una solicitud de cliente.
+3. **Sin estado**. Las API REST son sin estado, lo que significa que cada solicitud debe incluir toda la información necesaria para procesarla. En otras palabras, las API REST no requieren ninguna sesión en el lado del servidor. Las aplicaciones de servidor no pueden almacenar ningún dato relacionado con una solicitud de cliente.
 
-Capacidad de almacenamiento en memoria caché. Siempre que sea posible, los recursos deben poder almacenarse en la memoria caché en el lado del cliente o el servidor. Las respuestas de servidor también necesitan contener información de si el almacenamiento en memoria caché está permitido para el recurso entregado. El objetivo es mejorar el rendimiento en el lado del cliente, al mismo tiempo que aumenta la escalabilidad en el lado del servidor.
+4. **Capacidad de almacenamiento en memoria caché**. Siempre que sea posible, los recursos deben poder almacenarse en la memoria caché en el lado del cliente o el servidor. Las respuestas de servidor también necesitan contener información de si el almacenamiento en memoria caché está permitido para el recurso entregado. El objetivo es mejorar el rendimiento en el lado del cliente, al mismo tiempo que aumenta la escalabilidad en el lado del servidor.
 
-Arquitectura de sistema de capas. En las API REST, las llamadas y respuestas pasan por diferentes capas. Como regla general, no debe suponer que las aplicaciones de cliente y de servidor se conectan directamente entre sí. Puede haber una serie de intermediarios diferentes en el bucle de comunicación. Las API REST deben diseñarse para que ni el cliente ni el servidor puedan notar si se comunican con la aplicación final o con un intermediario.
+5. **Arquitectura de sistema de capas**. En las API REST, las llamadas y respuestas pasan por diferentes capas. Como regla general, no debe suponer que las aplicaciones de cliente y de servidor se conectan directamente entre sí. Puede haber una serie de intermediarios diferentes en el bucle de comunicación. Las API REST deben diseñarse para que ni el cliente ni el servidor puedan notar si se comunican con la aplicación final o con un intermediario.
+
 
 ### Funcionamiento de las API REST
 
-Las API REST se comunican a través de solicitudes HTTP para realizar funciones estándar de base de datos, como crear, leer, actualizar y suprimir registros (también conocidos como CRUD) dentro de un recurso. Por ejemplo, una API REST utilizará una solicitud GET para recuperar un registro, una solicitud POST para crearlo, una solicitud PUT para actualizarlo y una solicitud DELETE para suprimirlo. Todos los métodos HTTP se pueden utilizar en llamadas API. Una API REST bien diseñada es similar a un sitio web que se ejecuta en un navegador web con funcionalidad HTTP incorporada.
+Las API REST se comunican a través de **solicitudes HTTP** para realizar funciones estándar de **base de datos**, como crear, leer, actualizar y suprimir registros (también conocidos como **CRUD**) dentro de un recurso. Por ejemplo, una API REST utilizará una **solicitud GET para recuperar un registro**, **una solicitud POST para crearlo**, **una solicitud PUT para actualizarlo** y **una solicitud DELETE para suprimirlo**. Todos los métodos HTTP se pueden utilizar en llamadas API. Una API REST bien diseñada es similar a un sitio web que se ejecuta en un navegador web con funcionalidad HTTP incorporada.
 
-El estado de un recurso en un instante específico, o en una indicación de fecha y hora, se conoce como la representación de recursos. Esta información se puede entregar a un cliente en prácticamente cualquier formato, entre ellos JavaScript Object Notation (JSON), HTML, XLT, Python, PHP o un texto sin formato. JSON es popular debido a que es legible tanto por los seres humanos como por las máquinas y debido a que es independiente de un lenguaje de programación.
+El estado de un recurso en un instante específico, o en una indicación de fecha y hora, se conoce como la **representación de recursos**. Esta información se puede entregar a un cliente en prácticamente cualquier formato, entre ellos **JavaScript Object Notation (JSON)**, **HTML**, **XLT**, **Python**, **PHP** o un **texto sin formato**. JSON es popular debido a que es legible tanto por los seres humanos como por las máquinas y debido a que es independiente de un lenguaje de programación.
 
-Las cabeceras y parámetros de solicitud también son importantes en las llamadas de API REST, puesto que incluyen información de identificador importante, como metadatos, autorizaciones, identificadores de recursos uniformes (URI), almacenamiento en memoria caché, cookies y más. Las cabeceras de solicitud y las cabeceras de respuesta, junto con los códigos de estado HTTP convencionales, se utilizan en las API REST bien diseñadas.
+Las **cabeceras** y **parámetros de solicitud** también son importantes en las llamadas de API REST, puesto que **incluyen información de identificador importante, como metadatos, autorizaciones, identificadores de recursos uniformes (URI), almacenamiento en memoria caché, cookies y más**. Las cabeceras de solicitud y las cabeceras de respuesta, junto con los códigos de estado HTTP convencionales, se utilizan en las API REST bien diseñadas.
 
 ---
 
-## :star: 4 - Fectch
+## :star: 4 - Fetch
 
 ###  Peticiones HTTP con fetch
 
-Fetch es el nombre de una nueva API para Javascript con la cuál podemos realizar peticiones HTTP asíncronas utilizando promesas y de forma que el código sea un poco más sencillo y menos verbose. La forma de realizar una petición es muy sencilla, básicamente se trata de llamar a fetch y pasarle por parámetro la URL de la petición a realizar:
+**Fetch** es el nombre de **una nueva API para Javascript con la cuál podemos realizar peticiones HTTP asíncronas utilizando promesas y de forma que el código sea un poco más sencillo y menos verbosos**. La forma de realizar una petición es muy sencilla, básicamente se trata de **llamar a fetch y pasarle por parámetro la URL de la petición a realizar**:
 
  
 ```JavaScript
@@ -137,7 +139,11 @@ const request = fetch("/robots.txt");
 request.then(function(response) { ... });
 ```
 
-El fetch() devolverá una que será aceptada cuando reciba una respuesta y sólo será rechazada si hay un fallo de red o si por alguna razón no se pudo completar la petición. El modo más habitual de manejar las promesas es utilizando .then(). Esto se suele reescribir de la siguiente forma, que queda mucho más simple:
+El fetch() devolverá una que será aceptada cuando reciba una respuesta y sólo será rechazada si hay un fallo de red o si por alguna razón no se pudo completar la petición. 
+
+El modo más habitual de manejar las promesas es utilizando **.then()**. 
+
+Esto se suele reescribir de la siguiente forma, que queda mucho más simple:
 
 ```JavaScript
 fetch("/robots.txt")
@@ -146,7 +152,7 @@ fetch("/robots.txt")
 });
 ```
 
-Al método .then() se le pasa una función callback donde su parámetro response es el objeto de respuesta de la petición que hemos realizado. En su interior realizaremos la lógica que queramos hacer con la respuesta a nuestra petición. A la función fetch(url, options) se le pasa por parámetro la url de la petición y, de forma opcional, un objeto options con opciones de la petición HTTP.
+Al método .then() se le pasa una **función callback** donde su **parámetro response** es el objeto de respuesta de la petición que hemos realizado. En su interior realizaremos la lógica que queramos hacer con la respuesta a nuestra petición. A la función **fetch(url, options)** se le pasa por parámetro la url de la petición y, de forma opcional, un objeto options con opciones de la petición HTTP.
 
 Vamos a examinar un código donde veamos un poco mejor como hacer la petición con fetch:
 
