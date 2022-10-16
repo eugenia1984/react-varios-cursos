@@ -125,4 +125,68 @@ Las cabeceras y parámetros de solicitud también son importantes en las llamada
 
 ## :star: 4 - Fectch
 
+###  Peticiones HTTP con fetch
+
+Fetch es el nombre de una nueva API para Javascript con la cuál podemos realizar peticiones HTTP asíncronas utilizando promesas y de forma que el código sea un poco más sencillo y menos verbose. La forma de realizar una petición es muy sencilla, básicamente se trata de llamar a fetch y pasarle por parámetro la URL de la petición a realizar:
+
+ 
+```JavaScript
+// Realizamos la petición y guardamos la promesa
+const request = fetch("/robots.txt");
+// Si es resuelta, entonces ejecuta esta función...
+request.then(function(response) { ... });
+```
+
+El fetch() devolverá una que será aceptada cuando reciba una respuesta y sólo será rechazada si hay un fallo de red o si por alguna razón no se pudo completar la petición. El modo más habitual de manejar las promesas es utilizando .then(). Esto se suele reescribir de la siguiente forma, que queda mucho más simple:
+
+```JavaScript
+fetch("/robots.txt")
+  .then(function(response) {
+    /** Código que procesa la respuesta **/
+});
+```
+
+Al método .then() se le pasa una función callback donde su parámetro response es el objeto de respuesta de la petición que hemos realizado. En su interior realizaremos la lógica que queramos hacer con la respuesta a nuestra petición. A la función fetch(url, options) se le pasa por parámetro la url de la petición y, de forma opcional, un objeto options con opciones de la petición HTTP.
+
+Vamos a examinar un código donde veamos un poco mejor como hacer la petición con fetch:
+
+```JSvaScript
+// Opciones de la petición (valores por defecto)
+const options = {
+  method: "GET"
+};
+
+// Petición HTTP
+fetch("/robots.txt", options)
+  .then(response => response.text())
+  .then(data => {
+    /** Procesar los datos **/
+});
+````
+
+Un poco más adelante, veremos cómo trabajar con la respuesta response, pero vamos a centrarnos ahora en el parámetro opcional options de la petición HTTP. En este objeto podemos definir varios detalles:
+
+- **method**: Método HTTP de la petición. Por defecto, GET. Otras opciones: HEAD, POST, etc...
+
+- **body**: Cuerpo de la petición HTTP. Puede ser de varios tipos: String, FormData, Blob, etc...
+
+- **headers**: Cabeceras HTTP. Por defecto, {}.
+
+- **Credentials**: Modo de credenciales. Por defecto, omit. Otras opciones: same-origin e include.
+
+Lo primero, y más habitual, suele ser indicar el método HTTP a realizar en la petición. Por defecto, se realizará un GET, pero podemos cambiarlos a HEAD, POST, PUT o cualquier otro tipo de método. En segundo lugar, podemos indicar objetos para enviar en el body de la petición, así como modificar las cabeceras en el campo headers:
+
+
+```JavaScript
+const options = {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify(jsonData)
+};
+```
+
+Por último, el campo credentials permite modificar el modo en el que se realiza la petición. Por defecto, el valor omit hace que no se incluyan credenciales en la petición, pero es posible indicar los valores same-origin, que incluye las credenciales si estamos sobre el mismo dominio, o include que incluye las credenciales incluso en peticiones a otros dominios.
+
 ---
