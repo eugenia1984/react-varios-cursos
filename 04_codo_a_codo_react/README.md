@@ -216,7 +216,7 @@ Temas:
 
 ---
 
-## <img src="https://img.icons8.com/officel/32/000000/react.png"/> APIS : Unidad 1
+## <img src="https://img.icons8.com/officel/32/000000/react.png"/> APIS : Unidad 1 y 2
 
 Temas:
 
@@ -235,6 +235,16 @@ Temas:
 - 2 Flujo de comunicación.
 - 3 Api Rest.
 - 4 Fectch.
+```
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [API * Unidad 2 ](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_APIS.md)
+
+```
+- 1 - ¿Qué es React Router?
+- 2 - Instalación
+- 3 - Configuración de React-Router
+- 4 - Tipos de rutas
+- 5 - UseParams
 ```
 
 ---
