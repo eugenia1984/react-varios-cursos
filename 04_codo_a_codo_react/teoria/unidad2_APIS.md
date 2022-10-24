@@ -172,6 +172,124 @@ export default Layout;
 
 ## :star:  4 - Tipos de rutas
 
+### Rutas Anidadas
+
+Las rutas anidadas **nos permiten tener persistencia de componentes** es decir nosotros **necesitamos que la navbar persista en todas nuestras vistas para lograr esto, la ruta que renderiza el componente Layout debe envolver a todas las rutas restantes de la siguiente manera**:
+
+ 
+```JSX
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+
+const Router = () => {
+ const Home = () => <h1>Home</h1>;
+ const Pets = () => <h1>Pet List</h1>;
+ // const Layout = () => <h1>Layout</h1>;
+ return (
+  <>
+   <BrowserRouter>
+    <Routes>
+     <Route path="/" element={<Layout />}>
+     <Route path="home" element={<Home />}></Route>
+     <Route path="pets" element={<Pets />}></Route>
+     </Route>
+    </Routes>
+   </BrowserRouter>
+  </>
+ );
+};
+
+export default Router;
+```
+
+De esta forma **Route Layout paso a ser el componente padre de todas las rutas restantes**, puedes imaginas esto como bloques de lego, paso a ser la base de las demás rutas, y podemos ir agregando bloques a esta base tanto como queramos, es decir que nuestras rutas hijas podrían seguir anidando y persistiendo en la interfaz del usuario.
+
+Es importante resaltar que **este componente Layout no sabe en donde debe renderizar el componente del Route hijo que corresponda con la URL actual, para esto React Router nos proporciona el componente**:
+
+*Este componente solamente renderiza en el componente padre la siguiente coincidencia en las rutas*.
+
+ 
+```JSX
+import { Link, Outlet } from "react-router-dom";
+
+const Layout = () => {
+ return (
+  <>
+   <nav style={{ display: "flex", justifyContent: "space-around" }}>
+    <Link to="/home">Home</Link>
+    <Link to="/pets">Pets</Link>
+   </nav>
+   <Outlet />
+  </>
+ );
+};
+
+export default Layout;
+```
+
+### Ruta index
+
+Seguro notaste que podemos dirigirnos a la ruta “/home“ y a la ruta “/pets” sin embargo, mientras permanecemos en la ruta raíz “/” Outlet no renderiza nada, podemos agregar una ruta hija que se renderice por defecto de la siguiente manera:
+
+ 
+```JSX
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+
+const Router = () => {
+ const Home = () => <h1>Home</h1>;
+ const Pets = () => <h1>Pet List</h1>;
+ // const Layout = () => <h1>Layout</h1>;
+ return (
+  <>
+   <BrowserRouter>
+    <Routes>
+     <Route path="/" element={<Layout />}>
+     **<Route index element={<Home />}></Route>**
+     <Route path="pets" element={<Pets />}></Route>
+    </Route>
+   </Routes>
+  </BrowserRouter>
+ </>
+ );
+};
+
+export default Router;
+```
+
+De esta forma cuando estemos posicionados en la ruta “/” Outlet tomara el valor del element de la ruta index para renderizarlo en el componente padre.
+
+ 
+
+### Ruta 404
+
+Ahora imagina que nuestro usuario ingresa una URL desconocida… Lo que sucederá es que no se renderizara nada, ya que no existe ninguna ruta correspondiente, podemos configurar una ruta global que se muestre en caso de no haber coincidencias de la siguiente manera:
+
+ 
+```JSX
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+
+const Router = () => {
+ const Home = () => <h1>Home</h1>;
+ const Pets = () => <h1>Pet List</h1>;
+ // const Layout = () => <h1>Layout</h1>;
+ return (
+  <>
+   <BrowserRouter>
+    <Routes>
+     <Route path="/" element={<Layout />}>
+     <Route index element={<Home />}></Route>
+     <Route path="pets" element={<Pets />}></Route>
+     **<Route path="*" element={<h1>404</h1>}></Route>**
+     </Route>
+    </Routes>
+   </BrowserRouter>
+  </>
+ );
+};
+
+export default Router;
 ---
 
 ## :star:  5 - UseParams
