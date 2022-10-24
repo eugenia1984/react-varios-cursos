@@ -62,6 +62,30 @@ Este componente cuanta con algunas propiedades
 
 ## :star: 2 - Instalación
 
+Por defecto, React no viene con un sistema integrado de navegación, ya que debe mantener sus dependencias al mínimo porque no todos los proyectos necesitan routing, la misma se maneja con una dependencia aparte.
+
+Tenemos varias formar de instalar, pero de las cuales utilizaremos el siguiente comando:
+
+```npm install react-router-dom```
+
+### Importar
+
+- Una vez instalado debemos importar el modulo
+
+```JSX
+import React from "react";
+import { BRowserRouter, Switch, Route } from "react-router-dom";
+```
+
+- Una vez realizada la importación se necesita realizar varias cosas:
+
+1. Envolver la aplicación en un BrowserRouter
+
+2. Crear un Switch, en el cual se proyectarán las vistas navegadas
+
+3. Crear las rutas (Route´s) de las distintas secciones para navegar
+
+
 ---
 
 ## :star: 3 - Configuración de React-Router
