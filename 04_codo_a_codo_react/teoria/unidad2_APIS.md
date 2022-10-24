@@ -74,7 +74,7 @@ Tenemos varias formar de instalar, pero de las cuales utilizaremos el siguiente 
 
 ```JSX
 import React from "react";
-import { BRowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 ```
 
 - Una vez realizada la importación se necesita realizar varias cosas:
@@ -89,6 +89,84 @@ import { BRowserRouter, Switch, Route } from "react-router-dom";
 ---
 
 ## :star: 3 - Configuración de React-Router
+
+Comencemos a **configurar nuestro Router**, para eso genera el siguiente archivo dentro de la carpeta ```src/Router.js``` este archivo sustituirá al archivo ```App.js``` en el ```index.js``` de nuestra aplicación, en él haremos la configuración y la gestión de nuestras rutas:
+
+Primero si queremos proveer a toda nuestra aplicación de rutas tenemos que posicionar al componente ```BrowserRouter``` como el componente padre de todas nuestras rutas es decir este debe envolverlas de la siguiente manera:
+
+ 
+```JSX
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+const Router = () => {
+  const Home = () => <h1>Home</h1>;
+  const Pets = () => <h1>Pet List</h1>;
+  const Layout = () => <h1>Layout</h1>;
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+};
+
+export default Router;
+```
+ 
+
+Como se habrá notado agregamos el **componente Routes** antes de nuestra primera ruta, esto se debe a que **Routes genera un árbol de rutas a partir de su props.children** es decir que **cada Route es un elemento hijo de Routes** y esto es así, ya que en el momento en que cambiamos la URL en nuestra aplicación, Routes busca en todos sus children Routes para encontrar la mejor coincidencia y renderizar esa rama en la interfaz del usuario.
+
+```JSX
+//src > Router.js
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+const Router = () => {
+  const Home = () => <h1>Home</h1>;
+  const Pets = () => <h1>Pet List</h1>;
+  const Layout = () => <h1>Layout</h1>;
+  return (
+  <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}></Route>
+        <Route path="home" element={<Home />}></Route>
+        <Route path="pets" element={<Pets />}></Route>
+      </Routes>
+    </BrowserRouter>
+  </>
+);
+};
+
+export default Router;
+```
+ 
+
+Dentro de nuestro Router podemos generar todas las rutas que queramos solo necesitamos hacer uso del **componente Route** agregarle al menos dos **propiedades path y element**, de esta manera si el path coincide con la URL del navegador renderizara el valor de element.
+
+Perfecto hasta este punto ya tenemos nuestro Router con una configuración básica, podemos dirigirnos a cada una de las rutas que configuramos y obtendremos una vista especifica. Continuemos con el desarrollo de nuestro **componente Layout**, tener una **navbar** no solo nos facilitará el desarrollo también provee a nuestros usuarios de los enlaces disponibles dentro de nuestra aplicación, para ello React Router nos proporciona el siguiente componente:
+
+```<Link />``` Este componente recibe en su propiedad **to** el ```path de la ruta a la cual nos queremos dirigir dentro de nuestra aplicación```. Es importante hacer uso de este, ya que además de permitirnos crear los enlaces de navegación este no recarga nuestra aplicación, característica fundamental de una SPA.
+
+```JSX
+import { Link } from "react-router-dom";
+  const Layout = () => {
+    return (
+      <>
+        <nav style={{ display: "flex", justifyContent: "space-around" }}>
+          <Link to="/home">Home</Link>
+          <Link to="/pets">Pets</Link>
+        </nav>
+      </>
+    );
+};
+
+export default Layout;
+```
+
 
 ---
 
