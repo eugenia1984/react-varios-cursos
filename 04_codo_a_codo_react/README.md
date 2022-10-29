@@ -292,6 +292,8 @@ Temas:
 
 - [Iteraciones de objetos](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/5-iteraciones-objetos.js)
 
+- [Operadores](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/6-operadores.js)
+
 ---
 
 ### React visto en clase
