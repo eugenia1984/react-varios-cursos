@@ -288,6 +288,8 @@ Temas:
 
 - [Modificacion de objetos](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/3-modificacion-objetos.js)
 
+- [Iteraciones arrays](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/4-iteraciones-array.js)
+
 ---
 
 ### React visto en clase
