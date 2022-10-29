@@ -276,8 +276,14 @@ Temas:
 ---
 ---
 
-## [React visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
+## Ejercicios y praticas de las clases
 
+### Repaso de JavaScript
 
+- [1er repaso de JavaScript: variables, arrays, object, funciones, Math](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
+
+---
+
+### React visto en clase
 
 ---
