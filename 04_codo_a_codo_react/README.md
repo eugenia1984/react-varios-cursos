@@ -247,6 +247,32 @@ Temas:
 - 5 - UseParams
 ```
 
+
+---
+
+## <img src="https://img.icons8.com/officel/32/000000/react.png"/> EVENTOS: Unidad 1
+
+Temas:
+
+```
+- Introducción. Concepto de eventos
+- Sistema de Eventos en React JS
+- Diseño de componentes orientados a eventos
+- Organización de los eventos, creación de interacciones persistentes entre componentes
+- Desarrollo de implementaciones. Profundizacion acerca de renderizado condicional y sus implicancias, diagnóstico y solución de problemas en el rendering.
+```
+
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> EVENTOS * Unidad 1
+
+Temas:
+
+```
+- 1 - Flujo de eventos
+- 2 - Eventos en react
+- 3 - Eventos Sinteticos
+```
+
 ---
 ---
 
