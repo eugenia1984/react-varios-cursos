@@ -104,3 +104,41 @@ console.log(Number(j)); // 1
 const k = false;
 console.log(Number(k)); // 0
 
+const l = 20;
+
+if(l === 19) console.log("da 19");
+if(l === 20) console.log("da 20");
+if(l === 21) console.log("da 21");
+// da 20
+
+l === 19 && console.log("che da 19");
+l === 20 && console.log("che da 20");
+l === 21 && console.log("che da 21");
+// che da 20
+
+const val1 = null;
+const val2 = undefined;
+const val3 = NaN;
+const val4 = 1;
+const val5 = 2;
+
+// Operador OR
+// Es mas esctricto, no toma el NaN
+const valOR = val1 || val2 || val3 || val4 || val5;
+console.log("valor de valOR: ", valOR); // 1
+
+// Operador Nullish Coalescing
+// no es tan estricto, almacena el NaN
+const valNC = val1 ?? val2 ?? val3 ?? val4 ?? val5;
+console.log("valor de valNC: ", valNC); // NaN
+
+console.log(typeof val1); // object <- null
+console.log(Boolean(val1)); // false
+console.log(typeof val2); // undefined
+console.log(Boolean(val2)); // false
+console.log(typeof val3); // number <- NaN
+console.log(Boolean(val3)); // false
+console.log(typeof val4); // number
+console.log(Boolean(val4)); // true
+console.log(typeof val5); // number
+console.log(Boolean(val5)); // true
