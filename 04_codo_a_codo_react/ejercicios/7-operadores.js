@@ -13,7 +13,7 @@ if(c) {
 } else {
   console.log(b);
 }
-// Operador ternatio simplificado
+// Operador ternario simplificado
 c ? console.log(a) : console.log(b);
 // si ? true : false
 // si ? if : else
@@ -31,7 +31,7 @@ const d = nro => nro;
 const array = [1, 2, 3, 4, 5, 6, 3, 4, 5, 3, 2, 3, 5, 6, 5, 6];
 
 /******* forEach ******/
-// por cada elemento dle array voy a hacer algo
+// por cada elemento del array voy a hacer algo
 // quiero que mi arrayFe tenga el cuadrado de cada elemento de array
 let arrayFE = [];
 array.forEach(valor => arrayFE.push(valor ** 2));
