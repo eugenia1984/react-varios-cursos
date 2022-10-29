@@ -285,7 +285,9 @@ Temas:
 - [Desestructuracion de objetos y arrays](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/1-desestructuracion.js)
 
 - [Modificacion de arrays: destructuring, apread operator, push, slice, splice](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/2-modificacion-arrays.js)
-- 
+
+- [Modificacion de objetos](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/3-modificacion-objetos.js)
+
 ---
 
 ### React visto en clase
