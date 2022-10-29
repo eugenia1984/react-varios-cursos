@@ -290,6 +290,8 @@ Temas:
 
 - [Iteraciones arrays](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/4-iteraciones-array.js)
 
+- [Iteraciones de objetos](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/5-iteraciones-objetos.js)
+
 ---
 
 ### React visto en clase
