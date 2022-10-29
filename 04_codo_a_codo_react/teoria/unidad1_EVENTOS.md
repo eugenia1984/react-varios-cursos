@@ -236,4 +236,71 @@ En ambos casos, el argumento e que representa el evento de React va a ser pasado
 
 ## :star: 3 -  Eventos Sinteticos
 
+ Ya hemos visto cómo escribimos código parecido a HTML con JSX que se transforma en código HTML de verdad tras pasar por React. De una manera parecida, **en React tenemos un sistema de eventos sintéticos que usaremos como si fueran normales**. Aunque están diseñados para que pasen por eventos regulares, igual que JSX pasa por etiquetas HTML normales, cabe destacar que **son una capa que nos proporciona React y que no son eventos reales del DOM, y por eso se llaman sintéticos**.
+
+Las funciones escuchadoras (**listeners**) de React se declaran de forma parecida a aquellos que no recomendábamos (en línea). Esto no es una contradicción: recordemos que en React escribimos interfaces declarativas, y esto es solo una sintaxis comprensible para asignar comportamiento. No deben declarar funciones escuchadoras así fuera de React.
+
+**Cuando escuchamos un evento, declaramos una función escuchadora (listener) que se ejecutará cuando se reciba un evento de cierto tipo**. Esto es así tanto para eventos del DOM como para eventos sintéticos de React, sólo cambiaremos cómo asignamos la función al tipo de evento.
+
+#### Vamos a ver un ejemplo. 
+ 
+- Queremos escuchar un evento de click desde un botón que declaramos con JSX. Escribiremos el botón ``` (<button>texto</button>)``` y en un atributo ```onClick```, añadiremos la función "escuchadora", que será la reacción. Quedará así:
+
+ ```JSX
+const alertButton =
+ <button onClick={ /* aquí va la función */ }>
+  Pedir más información
+ </button>;
+```
+ 
+Podríamos escribir directamente la función escuchadora como una ^^arrow function^^ ahí, pero no quedaría legible. ^^Preferiremos declararla fuera y la pasaremos (sin llamarla) al atributo de JSX^^:
+
+ ```JSX
+const onClickListener = event => {
+ alert("Para más información, acuda a recepción.");
+};
+
+const alertButton = (
+ <button onClick={onClickListener}>Pedir más información</button>
+);
+``` 
+
+-> Ya está. Cuando hagamos clic en el botón, React se encargará de escuchar el evento y de ejecutar la función.
+
+- Naturalmente, hay más atributos para escuchar eventos a parte de onClick. Los nombres de los atributos tendrán la forma **onEventoEscuchado**, con cada palabra del nombre del evento que se escucha escrita con mayúsculas iniciales. Es decir, escucharemos el evento focus rellenando el atributo **onFocus**, el evento mouseover rellenando el atributo **onMouseOver**, y así sucesivamente. Pueden consultar el listado completo de atributos soportados, pero a continuación vamos a listar los más usados, como ya hicimos en la sesión de eventos:
+
+### Escuchadores de eventos de ratón:
+
+- **onClick**: botón izquierdo del ratón
+
+- **onMouseOver**: pasar el ratón sobre un elemento
+
+- **onMouseOut**: sacar el ratón del elemento
+
+### Escuchadores de eventos de teclado:
+
+- **onKeyPress**: pulsar una tecla
+
+### Escuchadores de eventos sobre elementos:
+
+- **onFocus**: poner el foco (seleccionar) en un elemento, por ejemplo un <input>
+
+- **onBlur**: quitar el foco de un elemento
+
+- **onChange**: al cambiar el contenido de un <input> , <textarea> o <select> (no es necesario quitar el foco del input para que se considere un cambio, al contrario que en el DOM)
+
+### Escuchadores de eventos de formularios:
+
+- **onSubmit**: pulsar el botón submit del formulario
+
+- **onReset**: pulsar el botón reset del formulario
+
+React no puede controlar los eventos de la ventana, así que los siguientes eventos sintéticos no existen (sí existen sus correspondientes eventos de DOM):
+
+### Escuchadores de eventos de la ventana
+
+- **onResize**: se ha cambiado el tamaño de la ventana
+
+- **onScroll**: se ha hecho scroll en la ventana o un elemento
+ 
 ---
