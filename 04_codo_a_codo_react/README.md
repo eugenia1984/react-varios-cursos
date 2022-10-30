@@ -296,7 +296,7 @@ Temas:
 
 - [Operadores avanzados : operador ternario simplificado y metodos de arrays -forEach, find, filter y map- ](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/7-operadores.js)
 
-- [Eventos del DOM](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/ejercicios/eventos)
+- [Eventos del DOM, Local Storage, Session Storage](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/ejercicios/eventos)
 
 - [ JSON.stringify y  JSON.parse](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/json.js)
 
