@@ -135,86 +135,181 @@ Con ``` git log --oneline``` -> veo los commits mas resumidos en una sola linea 
 
 - [guia para git](https://www.atlassian.com/es/git)
 
+---
+
+## DOM
+
+```
+"text"  <li> <li>   "text"
+<h1>      <ul>      <title> <meta>
+    <body>            <head>    
+           <html>
+       <document>
+```
+
+Al modificar algo en el DOm y trabajar todo con JavaScript vailla, es muy costoso, porque se va a renderizar el 100% del DOm, tanto lo que cambio como lo que no cambio.
+
+-> Para esto React trae la solucion y trabaja con el **virtual DOM** (**vDOM**) es una copia del DOM y solo renderiza lo que se ha modificado. Va a necesitar ciertas cosas para que el cambio sea aprovado y renderizado en pantalla (para loq ue nos van a ayudar los **hooks**).
+
+### React * JSX 
+
+- Todo lo que sea JavaScript debe estar entre {}
+
+- Las clases son **className**
+
+Un mini ejemplo en codigo:
+
+```JSX
+import "./styles.css";
+import { useState } from "react";
+
+export default function App() {
+
+  const [banderita, setBanderita] = useState(false);
+  const palo = "palo";
+
+  return (
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      <h2>Start editing to see some magic happen!</h2>
+      {palo === "palo"
+        ? "palo"
+        :"no palo"}
+    </div>
+  );
+}
+```
+
+-> estamos usando el **hook** : **useState**
+
+-> estamos utilizando variables de JavaSCript : **palo**
+
+-> dentro del return tenemos un **renderizado condicional** utilizando el **ternario ismplificado** de JavaScript
+
+
+----> Creamos un **componente**:
+
+```JSX
+const Contador = () => {
+  return (
+    <>
+      <div>
+        <p>Hola</p>
+      </div>
+    </>
+  );
+};
+```
+
 
 ---
 ---
 
 ## :star: Clase 14/09
 
-React es **reactivo**
+- React es **reactivo**, va a usar estados para hacer cambios en el DOM, utilizando el virtual DOM. Cada vez que el usuario interactue, haga click en un boton, se va a modificar la UI.
 
-**Reconciliación** cuando unifica el VIRTUAL DOM al DOM.
+- **Reconciliación** (React Fiber) cuando unifica el VIRTUAL DOM al DOM.
 
-**Flujo de datos unidireccional** del componente padre al componente hijo.
+- **Flujo de datos unidireccional** la informacion se propaga del componente padre al componente hijo.
 
-**Proceso** -> **Subproceso** -> **Treads** -> **Fiber** (un subproceso más avanzado)
+```
+componente padre
+ |
+ v
+compoennte hijo
+```
 
----
+- **Proceso** -> **Subproceso** -> **Treads** -> **Fiber** 
 
-```<div className="container">Pepe</div>```
+-> Proceso: la unidad mas pequeña en asignacion de recurso dle sistema operativo
 
+-> Subproceso: la parte mas pequeña de programacion del sistema operativo
 
-```react.creeateElement('div', {className: 'container'}, 'Pepe')```
+-> Treads: los hilos de procesamiento (las secuencias encadenadas)
 
----
-
-## npm
-
-Node Package Manager, es un manejador de paquetes (son librerias) que terceros las crean, por eso hay que ver con que se trabaja.
-
-Comandos:
-
-```npm i nombre_paquete``` ò ```npm install nombre_paquete``` para instalar
-
-```npm un nombre_paquetew``` ó ```npm uninstall nombre_paquete``` para desinstalar
-
-```npm init``` para crear un nuevo paquete
-
-```npm update nombre_paquete``` para actualizarlo (aca hay que teer cuidado que no se nos rompa todo
-
-En **node_modules** están todos y en el **package.json** voy a tener el detalle de las librerias y las versiones utilizadas.
-
-Dentro del **package.json** tengo el **script** donde puedo poner mis propios comandos.
+-> Fiber: un subproceso más avanzado que se encarga de la reconciliacion
 
 ---
 
-### webpack
+Esto que tendriamos en "HTML":
+```
+<div className="container">Pepe</div>
+```
 
-Es un empaquetador de modulos, trabaja como compilador, vincula todos los elementos del proyecto para el elemento definitivo. Gestiona las dependencias, la ejecucion de tareas. Carga y usa modulos de todo tipo.
+En nuestro JavaScript seria:
+```JavaScript
+document.createElement("div");
+```
 
-Task runner, procesa los archivos para poder mostrarlos en el navegador.
+React para renderizarlo no usa el document.createElement, sino:
+```JSX
+react.creeateElement('div', {className: 'container'}, 'Pepe')
+```
 
-No es sencillo configurar webpack.
-
-Nos sirve como servidor y como compilador.
+---> es decir me va a crear un **div** que va a tener de propiedad el atributo **className** con el valor **container** (esta entre {} porque se pasa como un objeto con key-value) y dentro va a tener **Pepe** como texto.
 
 ---
 
-### Babel
+## <img src="https://img.icons8.com/color/480/000000/npm.png"/> npm
 
-Es un traspilador, transcribe le codigo posterior a ES6, para que sea compatible con los navegadores viejitos.
+- **Node Package Manager**, es un manejador de paquetes (son librerias) que terceros las crean, por eso hay que ver con que se trabaja.
+
+- Comandos:
+
+```npm i nombre_paquete``` ò ```npm install nombre_paquete``` -> para instalar
+
+```npm un nombre_paquetew``` ó ```npm uninstall nombre_paquete``` -> para desinstalar
+
+```npm init``` ó ``` npm init -y``` -> para crear un nuevo paquete
+
+```npm update nombre_paquete``` -> para actualizarlo (aca hay que teer cuidado que no se nos rompa todo.
+
+- En **node_modules** están todos y en el **package.json** voy a tener el detalle de las librerias y las versiones utilizadas.
+
+- Dentro del **package.json** tengo el **script** donde puedo poner mis propios comandos.
+
+- La pagina es [https://www.npmjs.com/](https://www.npmjs.com/)
+
+---
+
+### <img src="https://img.icons8.com/dusk/64/000000/webpack.png"/> webpack
+
+- Es un **empaquetador de modulos**, trabaja como **compilador**, vincula todos los elementos del proyecto para el proyecto definitivo. Gestiona las dependencias, la ejecucion de tareas. Carga y usa modulos de todo tipo. Gestiona dependencias. Trabaja como servidor para renderizar la aplicacion en el browser.
+
+- Task runner, procesa los archivos para poder mostrarlos en el navegador.
+
+- No es sencillo configurar webpack.
+
+- Nos sirve como servidor y como compilador.
+
+---
+
+### <img src="https://img.icons8.com/dusk/64/000000/babel.png"/> Babel
+
+- Es un **traspilador**, transcribe le codigo posterior a ES6 (ECMA script 2015), para que sea compatible con los navegadores viejitos.
 
 ---
 
 ### JSX
 
-JavaScript XML
+- JavaScript XML
 
-Las etiquetas deben tener todas sus cierre, por eso la imagen es ```<img />```
+- Las etiquetas deben tener todas sus cierre, por eso la imagen es ```<img />```
 
-No podemos utilizar **class** por ser palabra reservada (en JS es clase), por lo que usamos **className**, lo mismo con el atributo **for** que en JS es para el bucle por lo que hay un **htmlFor**.
+- No podemos utilizar **class** por ser palabra reservada (en JS es clase), por lo que usamos **className**, lo mismo con el atributo **for** que en JS es para el bucle por lo que hay un **htmlFor**.
 
 ---
 
 ### Frameworks para CSS
 
-- Bootstrap React
+- <img src="https://img.icons8.com/color/480/000000/bootstrap.png"/> [Bootstrap React](https://react-bootstrap.github.io/)
 
-- Tailwind React
+- <img src="https://img.icons8.com/color/40/000000/tailwind_css.png"/> [Tailwind React](https://tailwindcss.com/docs/guides/create-react-app)
 
-- Material UI
+- <img src="https://img.icons8.com/color/40/000000/material-ui.png"/> [Material UI](https://mui.com/)
 
-- Styled Components (de todas es el más complejo)
+- <img src="https://img.icons8.com/emoji/40/000000/artist-palette.png"/> [Styled Components](https://styled-components.com/) (de todas es el más complejo)
 
 #### Tailwind
 
@@ -225,12 +320,12 @@ No podemos utilizar **class** por ser palabra reservada (en JS es clase), por lo
 npm install -D tailwindcss postcss autoprefixer
 ```
 
-2. Para inciializarlo:
+2. Para inicializarlo:
 ```
 npx tailwindcss init -p
 ```
 
-**tailwind.config.js** ashi me puedo crear mis clases para usarlas en tailwind.
+**tailwind.config.js** ahi me puedo crear mis clases para usarlas en tailwind.
 
 3. Configure your template paths
 
@@ -297,6 +392,24 @@ const hello = "text-3xl font-bold underline";
   )
 }
 ```
+
+-> Lo mismo puedo hacer con **Bootrstrap**:
+```JSX
+import "./styles.css";
+
+export default function App() {
+  const hello = "text-center my-5 bg-success p-2 text-dark bg-opacity-10";
+  return (
+    <>
+      <div>
+        <h1 className={hello}>Holis</h1>
+      </div>
+    </>
+  );
+}
+```
+
+-> Se puede ver [en este sandbox](https://codesandbox.io/s/primer-practica-codo-a-codo-oftwie)
 
 ---
 ---
