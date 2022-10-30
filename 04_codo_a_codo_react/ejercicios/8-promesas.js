@@ -80,7 +80,7 @@ async function dameMiPokemon(poke) {
     const imagen = document.createElement("img")
     imagen.src = sprites;
     imagen.width = 300;
-    imagen.alt="pokemon";
+    imagen.alt=${poke};
     document.getElementById("pokemones3").append(imagen);
   } catch(error) {
     console.log("Hubo un error: ", error);
