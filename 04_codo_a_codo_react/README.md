@@ -298,6 +298,8 @@ Temas:
 
 - [Eventos del DOM](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/ejercicios/eventos)
 
+- [ JSON.stringify y  JSON.parse](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/json.js)
+
 ---
 
 ### React visto en clase
