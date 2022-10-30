@@ -251,7 +251,7 @@ react.creeateElement('div', {className: 'container'}, 'Pepe')
 
 ---
 
-## <img src="https://img.icons8.com/color/480/000000/npm.png"/> npm
+## <img src="https://img.icons8.com/color/40/000000/npm.png"/> npm
 
 - **Node Package Manager**, es un manejador de paquetes (son librerias) que terceros las crean, por eso hay que ver con que se trabaja.
 
@@ -273,7 +273,7 @@ react.creeateElement('div', {className: 'container'}, 'Pepe')
 
 ---
 
-### <img src="https://img.icons8.com/dusk/64/000000/webpack.png"/> webpack
+### <img src="https://img.icons8.com/dusk/40/000000/webpack.png"/> webpack
 
 - Es un **empaquetador de modulos**, trabaja como **compilador**, vincula todos los elementos del proyecto para el proyecto definitivo. Gestiona las dependencias, la ejecucion de tareas. Carga y usa modulos de todo tipo. Gestiona dependencias. Trabaja como servidor para renderizar la aplicacion en el browser.
 
@@ -285,7 +285,7 @@ react.creeateElement('div', {className: 'container'}, 'Pepe')
 
 ---
 
-### <img src="https://img.icons8.com/dusk/64/000000/babel.png"/> Babel
+### <img src="https://img.icons8.com/dusk/40/000000/babel.png"/> Babel
 
 - Es un **traspilador**, transcribe le codigo posterior a ES6 (ECMA script 2015), para que sea compatible con los navegadores viejitos.
 
@@ -303,7 +303,7 @@ react.creeateElement('div', {className: 'container'}, 'Pepe')
 
 ### Frameworks para CSS
 
-- <img src="https://img.icons8.com/color/480/000000/bootstrap.png"/> [Bootstrap React](https://react-bootstrap.github.io/)
+- <img src="https://img.icons8.com/color/40/000000/bootstrap.png"/> [Bootstrap React](https://react-bootstrap.github.io/)
 
 - <img src="https://img.icons8.com/color/40/000000/tailwind_css.png"/> [Tailwind React](https://tailwindcss.com/docs/guides/create-react-app)
 
@@ -410,6 +410,146 @@ export default function App() {
 ```
 
 -> Se puede ver [en este sandbox](https://codesandbox.io/s/primer-practica-codo-a-codo-oftwie)
+
+Armamos un menu:
+```JSX
+import "./styles.css";
+
+export default function App() {
+  const hello = "text-center my-5 bg-success p-2 text-dark bg-opacity-10";
+  const menu = [
+    "Inicio", 
+    "Servicios", 
+    "Nosotros", 
+    "Contacto"
+  ]
+  
+  return (
+    <>
+      <div className="container">
+        <h1 className={hello}>Primer practica de React</h1>
+      </div>
+      <nav>
+        <ul className="row">
+          { menu.map(item => 
+            <li 
+              key={item} 
+              className="col-3" 
+            >
+              {item}
+            </li>
+          )}
+        </ul> 
+      </nav>   
+    </>
+  );
+}
+```
+
+Pero nuestro return nos queda muy largo, es mejor comenzar a componetizar.
+
+Mi estructura queda asi:
+```
+>public
+>src
+    >components
+        Menu.jsx
+    App.js
+    index.js
+    styles.css
+package.json
+```
+
+App.js:
+```JSX
+import { Menu } from "./components/Menu";
+import "./styles.css";
+
+export default function App() {
+  const hello = "text-center my-5 bg-success p-2 text-dark bg-opacity-10";
+  
+  return (
+    <>
+      <div className="container">
+        <h1 className={hello}>Primer practica de React</h1>
+      </div>
+      <Menu />
+    </>
+  );
+}
+
+```
+
+Menu.jsx:
+```JSX
+export const Menu = () => {
+  const menu = ["Inicio", "Servicios", "Nosotros", "Contacto"];
+
+  return (
+    <nav>
+      <ul className="row">
+        {menu.map((item) => (
+          <li key={item} className="col-3">
+            {item}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+};
+```
+
+---> Ahora vamos a pasar **porps** y a trabajar con un **boton** y un **evento**
+App.js:
+```JSX
+import { Menu } from "./components/Menu";
+import "./styles.css";
+
+export default function App() {
+  const hello = "text-center my-5 bg-success p-2 text-dark bg-opacity-10";
+  const numero = 0;
+  function clickHandler() {
+    console.log(numero);
+  }
+
+  return (
+    <div className="container">
+      <div className="container">
+        <h1 className={hello}>Primer practica de React</h1>
+      </div>
+      <Menu nuevaOpcion="Productos" />
+      <div className="d-grid gap-2 my-3 mx-3">
+        <button className="btn btn-primary" onClick={clickHandler}>
+          Soy un boton
+        </button>
+      </div>
+    </div>
+  );
+}
+```
+
+Menu.js:
+```JSX
+export const Menu = ({ nuevaOpcion }) => {
+  const menu = ["Inicio", "Servicios", "Nosotros", "Contacto"];
+  console.log(nuevaOpcion);
+  const cols = "col-sm-12 col-md-2 text-center nav-item";
+
+  return (
+    <nav>
+      <ul className="row nav">
+        {menu.map((item) => (
+          <li key={item} className={cols}>
+            {item}
+          </li>
+        ))}
+        <li className={cols}>{nuevaOpcion}</li>
+      </ul>
+    </nav>
+  );
+};
+
+```
 
 ---
 ---
