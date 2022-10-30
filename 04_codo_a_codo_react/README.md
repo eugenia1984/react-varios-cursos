@@ -300,7 +300,7 @@ Temas:
 
 - [ JSON.stringify y  JSON.parse](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/json.js)
 
-- [Promesas: setTimeout, setinterval, Promises: .then(), .catch() y .finally() / .fetch()](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/8-promesas.js)
+- [Promesas: setTimeout, setinterval, Promises: .then(), .catch() y .finally() / .fetch() .then() / async - await](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/8-promesas.js)
 
 ---
 
