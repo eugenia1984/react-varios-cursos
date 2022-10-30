@@ -308,4 +308,6 @@ Temas:
 
 - [Lo que fuimos viendo de teoria en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/react-visto-en-clase)
 
+- [primera practica con SandBox](https://codesandbox.io/s/primer-practica-codo-a-codo-oftwie)
+
 ---
