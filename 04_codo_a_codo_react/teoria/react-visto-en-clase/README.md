@@ -34,6 +34,13 @@
 ---
 ---
 
+## :star: Clase 12/09
+
+-> Cuando tenemos **Node.js** y queremos inicializar un proyecto, hacemos: ``` npm init -y``` o sin el -y vamos a ir respondiendo las preguntas para completar el package.json con: name, version, descripcion, main, script, keywords, author, etc.
+
+---
+---
+
 ## :star: Clase 14/09
 
 React es **reactivo**
