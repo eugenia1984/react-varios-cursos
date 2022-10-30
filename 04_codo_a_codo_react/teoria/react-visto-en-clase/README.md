@@ -38,6 +38,104 @@
 
 -> Cuando tenemos **Node.js** y queremos inicializar un proyecto, hacemos: ``` npm init -y``` o sin el -y vamos a ir respondiendo las preguntas para completar el package.json con: name, version, descripcion, main, script, keywords, author, etc.
 
+### git
+
+- Trabaja con todos los sistemas operativos.
+
+- Cada uno trabaja en su **rama**, hace un **push** y se pide el **pull request** para poder hacer el **merge** y fusionar ramas.
+
+- Ofrece flexibilidad al momento de trabjar en equipo
+
+### github
+
+- Ahora es de Microsoft
+
+- Es la manera de poder tneer nuestro codigo local alojado en un servidor web y poder compartir el codigo.
+
+- Junto con **git** tenemos **git bash** para poder usar git desde la terminal
+
+- Algunos comandos:
+
+
+1. Para configurar el usuario y el email:
+
+```gt confirg --global user.name "aca va el nombre"``` -> configuro el usuario
+
+```git config --global user.email example@example.com``` -> configuro el e-mail
+
+
+2. Para ver el usuario y el email configurado:
+
+```git config user.name``` -> para ver el nombre de usuario
+
+```git config user.email``` -> para ver el e-mial del usuario
+
+
+### Repositorios en GitHub
+
+-> Tenemos el README.md que va a tener la presentacion del repositorio/proyecto
+
+-> Tenemos el .gitignore que va a tener la lista de los archivos que no se van a subir a github. Por ejemplo: *node_modules*
+
+-> Se puede elegir una licencia.
+
+-> Si no agrego README.md, ni el .gitignore ni elijo licencia, me va a dar los comandos para poder cargar en el mismo archivos locales, y asi vincular ambos proyectos.
+
+Entonces en **mis archivos locales**:
+
+``` git init``` -> para inciializar git
+
+``` git add .``` -> para agregar todos los archivos al stage area
+
+```git commit -m "aca el mensaje" ```
+
+```git remote add origin https://github.com/.....``` -> para relacionarlo (vincularlo) con el repositorio de github
+
+``` git branch -m main``` -> para renombrar a la rama principal como main (para no tener master)
+
+``` git push -u origin main``` -> para recordar el origen asi luego en las proximas veces solo hacemos ```git push```
+
+Ahora si voy a github y actualizo el browser voy a ver lo que recien commitee.
+
+-> Con ```git add -am "mensaje"``` voy a hacer dos pasos en uno hago el add y el commit y solo commmitea lo que fue modificado, con lo que ya existia, si cree algun archivo nuevo no me lo va a subir (en este caso usar el ```git add .```).
+
+```git atatus ``` -> para ver el estado de proyecto, vemos si falta agregar algun archivo, si tenemos algun archivo modificado, si eliminamos algo, etc.
+
+### log
+
+Con ```git log``` -> veo mis commits, con ```tecla espacio``` voy pasando de commit en commit, con ```q``` salimos.
+
+Con ``` git log --oneline``` -> veo los commits mas resumidos en una sola linea y muestra el comienzo del hash.
+
+```git checkout nro-de-hash``` -> y asi puedo "viajar en el tiempo" y volver a donde estaba con ese commit
+
+```git reset --hard HEAD-2 ``` -> con el 2 me vuelvo 2 commits atras, pero OJO porque esto es irreversible, una vez que volvi atras voy a perder lo que hice.
+
+### ramas (branch)
+
+```git branch -m main``` -> para modificar el nombre de una rama
+
+``` git branch``` para ver las ramas locales
+
+```git branch -a``` para ver todas las ramas, tanto las locales como las remotas.
+
+```git branch nuva-rama``` -> para crear una nueva rama ```nueva-rama``` es el nombre
+
+```git checkout nueva-rama``` -> para irme a la rama nueva-rama
+
+```git checkout -b nueva-rama-2``` -> creo una nueva rama y ya me posiciono en ella
+
+```git branch -d nueva-rama``` -> para borrar la rama
+
+### merge
+
+``` git merge otrarama``` -> para acer el merge, debo estar en la rama a la que le voy a querer sumar la otrarama, y otrarama seria el nombre de la rama que quiero sumarle.
+
+---
+
+- [guia para git](https://www.atlassian.com/es/git)
+
+
 ---
 ---
 
