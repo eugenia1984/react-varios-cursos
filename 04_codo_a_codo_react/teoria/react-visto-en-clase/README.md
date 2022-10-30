@@ -7,12 +7,23 @@
 
 - Para poder utilizar React debemos tener **node** , **npm** y **npx**.
 
-- Para inicializar el proyecto: ```npx create-react-app my-app``` ó ```npm create-react-app my-app```
+- Para inicializar el proyecto: ```npx create-react-app my-app``` ó ```npm create-react-app my-app```. Voy al directorio y con ```npm start```
 
 -> En el caso de que lo inicialicemos con **vite**: ``` yarn create vite my-pp```, hay que elegir si usamos React y si es solo con JavaScript o con TypeScript. Se crea muchisimo mas rapido. Se utiliza ```yarn``` (para instalar los paquetes) y luego ```yarn dev``` (para inicilizar el proyecto)
 
 ```my-app``` va a ser el nombre que le ponga a mi proyecto, como ejemplo use my-app
 
+
+---
+---
+
+## :star: Clase 7/09
+
+- Volvemos a hacer dos proyectos, uno con npm y otro con yarn.
+
+-> create-react-app con npm trabaja en el puerto 3000. El index.html esta dentro de public. Es una SPA, toda la **App.js** se renderiza desde el div con id **root** (que lo llama en el **index.js**).
+
+-> Vite tiene cosas en TS y ademas tiene vite.config.js. El index.html esta dentro de src. En public solo tiene un .svg que es un favicon.
 
 ---
 ---
