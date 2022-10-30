@@ -25,6 +25,12 @@
 
 -> Vite tiene cosas en TS y ademas tiene vite.config.js. El index.html esta dentro de src. En public solo tiene un .svg que es un favicon.
 
+-> ``` ctrl + c  ``` para terminar la terminal y frenar mi aplicacion que se renderiza en el browser
+
+-> ``` npm run build ``` para el deploy. Voy a ver una nueva carpeta **build**. En yarn es ```yarn build``` y la carpeta se va a lalmar **dist** (vamos a tener un archivo .js que esta todo minificado). EL tema es que se desactivo JavaScript ahi no se va a ver nada (en cambio con Next si se sigue viendo). -> **React no trabaja sin JavaSCript**. -> Lo puedo deployar, llendo a **Netlify**, y me arrastro la carpeta **build** o **dist**, tambien con el githubpage.
+
+-> En definitiva se termina pasando todo a JavaScript para que sea interpretado en los navegadores.
+
 ---
 ---
 
