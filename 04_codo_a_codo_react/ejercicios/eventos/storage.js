@@ -16,8 +16,12 @@ boton.addEventListener("click", function(evento) {
 });
 
 const nombreGuardado = sessionStorage.getItem("nombrecin");
-const apellidoGuardado = sessionStorage.getItem("apellidito");
+const apellidoGuardado = localStorage.getItem("apellidito");
 
 if(apellidoGuardado) {
   email.value = `${apellidoGuardado.toLocaleLowerCase()}@gmail.com`;
+}
+
+if(nombreGuardado) {
+  nombre.value = nombreGuardado;
 }
