@@ -300,6 +300,8 @@ Temas:
 
 - [ JSON.stringify y  JSON.parse](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/json.js)
 
+- [Promesas: setTimeout, setinterval](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/ejercicios/8-promesas.js)
+
 ---
 
 ### React visto en clase
