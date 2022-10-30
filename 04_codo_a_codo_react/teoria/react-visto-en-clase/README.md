@@ -83,7 +83,7 @@
 
 Entonces en **mis archivos locales**:
 
-``` git init``` -> para inciializar git
+``` git init``` -> para inicializar git
 
 ``` git add .``` -> para agregar todos los archivos al stage area
 
@@ -548,8 +548,10 @@ export const Menu = ({ nuevaOpcion }) => {
     </nav>
   );
 };
-
 ```
+
+![como va quedando el componente](https://user-images.githubusercontent.com/72580574/198898552-be5f7127-00c0-4d6a-9c62-7ab58c4c1291.png)
+
 
 ---
 ---
