@@ -3,6 +3,20 @@
 ---
 ---
 
+## :star: Clase 5/09
+
+- Para poder utilizar React debemos tener **node** , **npm** y **npx**.
+
+- Para inicializar el proyecto: ```npx create-react-app my-app``` ó ```npm create-react-app my-app```
+
+-> En el caso de que lo inicialicemos con **vite**: ``` yarn create vite my-pp```, hay que elegir si usamos React y si es solo con JavaScript o con TypeScript. Se crea muchisimo mas rapido. Se utiliza ```yarn``` (para instalar los paquetes) y luego ```yarn dev``` (para inicilizar el proyecto)
+
+```my-app``` va a ser el nombre que le ponga a mi proyecto, como ejemplo use my-app
+
+
+---
+---
+
 ## :star: Clase 14/09
 
 React es **reactivo**
