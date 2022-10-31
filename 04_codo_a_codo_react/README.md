@@ -311,3 +311,9 @@ Temas:
 - [primera practica con SandBox](https://codesandbox.io/s/primer-practica-codo-a-codo-oftwie)
 
 ---
+
+## Practicas realizadas
+
+- [ToDo List](https://codesandbox.io/s/to-do-list-u31swd)
+
+---
