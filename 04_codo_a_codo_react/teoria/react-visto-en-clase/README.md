@@ -558,11 +558,13 @@ export const Menu = ({ nuevaOpcion }) => {
 
 ## :star: Clase 19/09
 
-Dentro del componente le podemos pasar props para utilizar esa información
+-> Los **componentes** son partes de la **UI** y se pueden reutilizar.
+
+-> Dentro del componente le podemos pasar **props** para utilizar esa información, para poder ir modificarlos
 
 ### Hooks
 
-Elementos que vinculan el DOm con el codigo, con las cosas que  hacemos, ya que al trabajar con el virtual DOm le tenemos que avisar al DOM.
+Elementos que vinculan el DOM con el codigo, con las cosas que  hacemos, ya que al trabajar con el virtual DOM le tenemos que avisar al DOM, mediante estos elementos intermediarios (los hooks).
 
 
 ### Estructura de mi proyecto
@@ -587,6 +589,72 @@ src
     README.md
 ```
 
+-> Seguimos componentizando el proyectito:
+
+Menu.jsx:
+```JSX
+export const Menu = ({ nuevaOpcion }) => {
+  const menu = ["Inicio", "Servicios", "Nosotros", "Contacto"];
+  console.log(nuevaOpcion);
+  const cols = "col-sm-12 col-md-2 text-center nav-item";
+
+  return (
+    <nav>
+      <ul className="row nav">
+        {menu.map((item) => (
+          <li key={item} className={cols}>
+            {item}
+          </li>
+        ))}
+        <li className={cols}>{nuevaOpcion}</li>
+      </ul>
+    </nav>
+  );
+};
+```
+
+Title.jsx
+```JSX
+export const Title = ({ text }) => {
+  
+  const hello = "text-center my-5 bg-success p-2 text-dark bg-opacity-10";
+
+  return (
+    <div className="container">
+        <h1 className={hello}>{text}</h1>
+    </div>
+  );
+};
+```
+
+App.js:
+```JSX
+import { Menu } from "./components/Menu";
+import { Title } from "./components/Title";
+import "./styles.css";
+
+export default function App() {
+  const numero = 0
+  function handleClick() {
+    console.log(numero);
+  }
+
+  return (
+    <div className="container">
+      <Title text="Primer practica de React"/>
+      <Menu nuevaOpcion="Productos" />
+      <div className="d-grid gap-2 my-3 mx-3">
+        <button 
+          className="btn btn-primary" 
+          onClick={handleClick}>
+          Soy un boton
+        </button>
+      </div>
+    </div>
+  );
+}
+
+```
 ---
 ---
 
