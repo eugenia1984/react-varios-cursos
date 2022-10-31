@@ -667,6 +667,24 @@ Y ahora paso todo el menu a Pages, para tener el NavBar con solo dos componentes
 ![image](https://user-images.githubusercontent.com/72580574/199073048-c155e1a6-dbd9-4a78-a9c8-0148412c173e.png)
 
 
+Para no tneer tanto import de Css lo que puedo hace es tener in **index.js**:
+```JavaScript
+export { Css } from "./Css";
+export { Image } from "./Image"; 
+export { Pages } from "./Pages";
+```
+
+Y en base a ese poder importar todo junto, ejemplo en **NavBar.jsx**:
+```JSX
+import { Image, Pages } from "./index";
+```
+
+---
+
+## React-Router-Dom
+
+- Para manejar las rutas de mi proyecto y mantenemos a los links en mi app, siendo una SPA.
+
 ---
 ---
 
