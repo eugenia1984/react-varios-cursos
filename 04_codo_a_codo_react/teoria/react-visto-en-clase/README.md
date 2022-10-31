@@ -589,11 +589,11 @@ src
     README.md
 ```
 
--> Seguimos componentizando el proyectito:
+-> Seguimos componentizando el proyectito, cambio Menu a NavBar:
 
-Menu.jsx:
+NavBar.jsx:
 ```JSX
-export const Menu = ({ nuevaOpcion }) => {
+export const NavBar = ({ nuevaOpcion }) => {
   const menu = ["Inicio", "Servicios", "Nosotros", "Contacto"];
   console.log(nuevaOpcion);
   const cols = "col-sm-12 col-md-2 text-center nav-item";
@@ -629,7 +629,7 @@ export const Title = ({ text }) => {
 
 App.js:
 ```JSX
-import { Menu } from "./components/Menu";
+import { Menu } from "./components/NavBar/Menu";
 import { Title } from "./components/Title";
 import "./styles.css";
 
@@ -653,8 +653,16 @@ export default function App() {
     </div>
   );
 }
-
 ```
+
+Y en el NavBar voy a agregar un logo que voy a tener en un nuevo componente, y me va quedando asi:
+
+![image](https://user-images.githubusercontent.com/72580574/199069367-deaa0abf-53ce-4dc2-832b-12c23332391c.png)
+
+
+
+
+
 ---
 ---
 
