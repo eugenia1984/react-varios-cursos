@@ -660,7 +660,11 @@ Y en el NavBar voy a agregar un logo que voy a tener en un nuevo componente, y m
 ![image](https://user-images.githubusercontent.com/72580574/199069367-deaa0abf-53ce-4dc2-832b-12c23332391c.png)
 
 
+Y ahora paso todo el menu a Pages, para tener el NavBar con solo dos componentes, me va quedando asi:
+![image](https://user-images.githubusercontent.com/72580574/199070670-93d586e1-c80c-4401-93db-4ef6953e4152.png)
 
+-> Otro modo de utilizar el CSS, guardando las clases como un objeto de JavaScript:
+![image](https://user-images.githubusercontent.com/72580574/199073048-c155e1a6-dbd9-4a78-a9c8-0148412c173e.png)
 
 
 ---
