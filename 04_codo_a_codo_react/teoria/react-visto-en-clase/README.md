@@ -50,7 +50,7 @@
 
 - Ahora es de Microsoft
 
-- Es la manera de poder tneer nuestro codigo local alojado en un servidor web y poder compartir el codigo.
+- Es la manera de poder tener nuestro codigo local alojado en un servidor web y poder compartir el codigo.
 
 - Junto con **git** tenemos **git bash** para poder usar git desde la terminal
 
