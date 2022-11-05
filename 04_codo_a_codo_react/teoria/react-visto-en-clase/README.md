@@ -685,6 +685,48 @@ import { Image, Pages } from "./index";
 
 - Para manejar las rutas de mi proyecto y mantenemos a los links en mi app, siendo una SPA.
 
+Voy a donde tengo mi menu y agrego un componente **Link**:
+
+![image](https://user-images.githubusercontent.com/72580574/200137400-93572760-50c3-4210-92d6-6bee83282d1d.png)
+
+Y me voy a mi **App.js** para poder utilizar en rutameinto de **react-router-dom**
+
+-> Me importo ```import  { BrowserRouter, Route, Routes } from "react-router-dom";```
+
+-> Dentro de **components** > **pages** me creo **Home.js**:
+
+![image](https://user-images.githubusercontent.com/72580574/200137790-2d97b6bd-0ed4-4dc5-afe5-81a957fe39af.png)
+
+Para poder hacer un enrutameinto con react-router-dom
+
+-> Ahora mi HOME v a aser el BOTON:
+
+-> En el **Route** aclaro que el el path **/** me renderice mi componente **Home**
+
+![image](https://user-images.githubusercontent.com/72580574/200137847-699912b5-feee-40d1-9a28-c6cd2454e0cb.png)
+
+Creo rapido el componente de **Servicios** para poder enrutarlo y renderizarlo:
+![image](https://user-images.githubusercontent.com/72580574/200137983-f290b2a0-b17c-4a62-b07d-b1e6f48f5926.png)
+
+Y para poder hacer que todos los lins del NavBar me vayan redirigiendo me voy a ir creando los demas componentes:
+
+About (es el nosotoros):
+![image](https://user-images.githubusercontent.com/72580574/200138132-a13d9c4d-a83a-4d75-b05a-ad277a6cd39e.png)
+
+Entonces en mi App.js ya tengo todos los paths con los componentes a renderizar:
+
+![image](https://user-images.githubusercontent.com/72580574/200138326-6a8f4b36-8589-4b6b-8f17-926dba2167c4.png)
+
+Y tambien agrego que si me ponen cualquier URL mal que me vaya de nuevo a Home:
+```JSX
+  <Route path="*" element={<Home />} />
+ ``` 
+
+Y me vuelvo a mi NavBar en Pages (donde tengo los links del menu):
+
+1. Cambio **li** por **Link**
+
+
 ---
 ---
 
