@@ -47,6 +47,9 @@ En la carpeta [01_setup](https://github.com/eugenia1984/react-varios-cursos/tree
 
 En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/02_mini-proyecto)  hay un segundo ejercicio de practica, esta vez en vez de solo renderizar una etiqueta ```<h>``` se despliega una lista.
 
+### Tercer miniproyecto
+
+En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto) la tercer practica con una NavBar de Botstrap vamos a crear el primer componente que sera el NavBar.
 ---
 
 ## :book: ¿ Por qué React ?
@@ -55,7 +58,7 @@ En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 
 Nos permite hacer componentes, asi podemos tener una con la barra navegadora, y si tengo muchas páginas que la utilizan lo puedo guardar en un componente para poder reutilizarlo, asi el código se hace más amntenible y flexible.
 
-Hay un pequeño ejemplo en la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/03_mini-proyecto).
+Hay un pequeño ejemplo en la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto).
 
 2. Porque es **declarativo**.
 
