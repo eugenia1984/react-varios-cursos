@@ -1,6 +1,6 @@
 ## Primer mini-proyecto
 
-En esta carpeta [setup](https://github.com/eugenia1984/React-con-Scrimba/tree/main/setup) pueden ver el primer mini proyecto, un simple mensaje mostrado en una pagina con React.
+En esta carpeta [setup](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/01_setup) pueden ver el primer mini proyecto, un simple mensaje mostrado en una pagina con React.
 
 ---
 
