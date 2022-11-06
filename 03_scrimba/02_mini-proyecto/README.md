@@ -44,4 +44,7 @@ Y queda asi:
 
 :tv: -> [Aca lo pueden ver en SandBox](https://codesandbox.io/s/mini-proyecto2-ujpmko)
 
+![image](https://user-images.githubusercontent.com/72580574/200194024-3cbcc75d-df4f-4e15-8ffa-46be7b967702.png)
+
+
 ---
