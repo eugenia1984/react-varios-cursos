@@ -45,7 +45,7 @@ En la carpeta [01_setup](https://github.com/eugenia1984/react-varios-cursos/tree
 
 ### Segundo miniproyecto
 
-En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/02_mini-proyecto)  hay un segundo ejercicio de practica, esta vez en vez de solo renderizar una etiqueta ```<h>``` se despliega una lista.
+En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/02_mini-proyecto)  hay un segundo ejercicio de practica, esta vez en vez de solo renderizar una etiqueta ```<h>``` se despliega una lista.
 
 ---
 
