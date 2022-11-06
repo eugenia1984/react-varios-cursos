@@ -131,7 +131,7 @@ ReactDOM.render(
 
 ---
 
-##:book: Drag and Drop en Netlify
+## :book: Drag and Drop en Netlify
 
 1. Hacerse una cuenta en **Netlify**, se puede conectar con el email y con github
 
@@ -141,7 +141,7 @@ ReactDOM.render(
 
 ---
 
-### Saludos CDNs
+### :book: Saludos CDNs
 
 Dejaremos de utilizar Scrim y lo haremos con React, ya no vamos a tener los links al CND ni el JavaSCript con el type text/babel.
 
@@ -155,10 +155,39 @@ Vamos a agregar las dependencias que necesitamos:
 
 -> No voy a tneer mas las variables globales como  ReactDOM -> voy a tener ahora que importar todo:
 ```JSX
-import REact from "react";
+import React from "react";
+import ReactDOM from "react-dom";
+
+const navBar = (
+  <nav>
+    <h1>Bob´s bistro</h1>
+    <ul>
+      <li>Menu</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+)
+
+ReactDOM.render(
+  navbar, 
+  document.getElementById("root")
+);
 ```
 Pero en la version de 17 en adelante ya no necesitamos importar React, se usa nativamente con JSX.
 
+-> Si usamos la version **18** de React vamos a tener que cambiar lo de ReactDOM.render por **createRoot **:
+
+index.js:
+```JSX
+import { createRoot } from "react-dom/client";
+import App from "./App";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(<App />);
+```
 
 ---
 
