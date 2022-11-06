@@ -55,7 +55,7 @@ En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 
 Nos permite hacer componentes, asi podemos tener una con la barra navegadora, y si tengo muchas páginas que la utilizan lo puedo guardar en un componente para poder reutilizarlo, asi el código se hace más amntenible y flexible.
 
-Hay un pequeño ejemplo en la carpeta [03_mini-proyecto]https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/03_mini-proyecto).
+Hay un pequeño ejemplo en la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/03_mini-proyecto).
 
 2. Porque es **declarativo**.
 
