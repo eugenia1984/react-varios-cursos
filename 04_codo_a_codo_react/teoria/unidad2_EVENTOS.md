@@ -376,15 +376,14 @@ Su potencia viene dada por **su capacidad de despliegue continuo**. **Todos los 
 
 ![image](https://user-images.githubusercontent.com/72580574/200183931-4e0e7796-372b-4449-a9e0-f37152b1c014.png)
 
+![image](https://user-images.githubusercontent.com/72580574/200183973-957aab6e-e3ec-402d-83a2-24af03ac2e6f.png)
+
+![image](https://user-images.githubusercontent.com/72580574/200183981-9ad792ba-051c-4f18-b7d3-5123a35b26d1.png)
 
 
+10. Una vez terminado el proceso, accedemos al link “permanlink” para ver nuestro proyecto
 
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/72580574/200184000-c8004c26-94e3-4040-addd-5eabe1926ebc.png)
 
 
 
