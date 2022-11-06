@@ -1,3 +1,13 @@
+## Cuarto proyecto * Pagina estática con REact
+
+---
+
+### Vamos a crear esta pagina en REact
+
+![image](https://user-images.githubusercontent.com/72580574/200199764-24888020-8fc7-4d71-9aef-0134d79d83d9.png)
+
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
