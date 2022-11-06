@@ -1,6 +1,6 @@
 ## Segundo mini-proyecto
 
-En esta carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/02_mini-proyecto) pueden ver el segundo mini proyecto, un lista mostrada en una pagina con React.
+En esta carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/02_mini-proyecto) pueden ver el segundo mini proyecto, un lista mostrada en una pagina con React.
 
 
 ---
