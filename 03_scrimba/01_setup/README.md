@@ -31,4 +31,8 @@ En esta carpeta [setup](https://github.com/eugenia1984/react-varios-cursos/tree/
 ReactDOM.render(<h1>Hola!!</h1>, document.getElementById("root"))
 ```
 
+-> Entonces me queda asi:
+![image](https://user-images.githubusercontent.com/72580574/200191998-abc60fff-8a8b-4e3c-b495-ee7f2b60aff8.png)
+
+
 ---
