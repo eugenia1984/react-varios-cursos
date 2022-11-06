@@ -250,7 +250,7 @@ Temas:
 
 ---
 
-## <img src="https://img.icons8.com/officel/32/000000/react.png"/> EVENTOS: Unidad 1
+## <img src="https://img.icons8.com/officel/32/000000/react.png"/> EVENTOS: Unidad 1 y 2
 
 Temas:
 
