@@ -69,6 +69,8 @@ Temas que se ven:
 - componentes
 
 - aplicar CSS
+
+-> :computer: [aca se puede ver en codigo]
 ---
 
 ## :book: ¿ Por qué React ?
