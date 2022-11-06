@@ -35,4 +35,10 @@ ReactDOM.render(
 );
 ```
 
+Y queda asi:
+
+![image](https://user-images.githubusercontent.com/72580574/200192470-5887a19a-8b07-4c4a-b14f-c15975863c9c.png)
+
+
+
 ---
