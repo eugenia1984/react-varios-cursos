@@ -29,10 +29,17 @@ function Navbar() {
   )
 }
 
+function MainContent() {
+  return (
+    <h1>Hola, estoy aprendiendo React!</h1>
+  )
+}
+
 // Aca voy a renderizar mi componente Navbar en el div con id root
 ReactDOM.render(
   <div>
     <Navbar />
+    <MainContent />
   </div>,
   document.getElementById("root")
 )

@@ -1,4 +1,4 @@
-## star: Tercer mini proyecto
+## :star: Tercer mini proyecto
 ---
 
 ### Componentes
@@ -49,3 +49,39 @@ ReactDOM.render(
 ```
 
 -> *Nota* veamos que en vez de **class** usamos **className** (esto es propio de **JSX**).
+
+---
+
+### Desafio
+
+- Crear tu propio componente de React que se llame **MainContent**, y que retorne un simple **h1** que diga **Hola, estoy aprendiendo React!**
+
+- Luego de crearlo renderizalo debajo de la Navbar.
+
+1. Creo el componente funcional:
+```JSX
+function MainContent() {
+  return (
+    <h1>Hola, estoy aprendiendo React!</h1>
+  )
+}
+```
+
+2. Lo renderizo:
+```JSX
+ReactDOM.render(
+  <div>
+    <Navbar />
+    <MainContent />
+  </div>,
+  document.getElementById("root")
+)
+```
+
+---
+
+- En mis componentes funcionales siempre voy a teneer:
+
+...La funcion que tendra como nombre el de mi componente
+
+...el return que me va a dar que se va a renderizar. Si tengo más de una etiqueta que renderizar, debo recordar que cuento siempre con una etiqueta padre (o fragmento) que engloba a todas, porque siempre debo retornar un solo div, adentro puedo tener muchos divs hijos, nietos, etc, pero siempre un solo div padre.
