@@ -7,28 +7,24 @@ En este curso aprendí los fundamentos básicos de **React** desde cero y paso a
 
 ## :star:  ¿Hay requisitos para realizar el curso?
 
+```
 - Saber utilizar un sistema operativo
-
 - Tener un editor de código instalado
-
 - Saber HTML y JavaScript básico
-
-- NO es necesario saber nada de React, ni de ningún otro framework
-
+- No es necesario saber nada de React, ni de ningún otro framework
+```
 
 ---
 
 ## :star:  ¿Para quién es este curso?
 
+```
 - Desarrolladores web
-
 - Estudiantes de informática
-
 - Estudiantes de ciclos formativos
-
 - Estudiantes de ingeniería
-
 - Apasionados por la programación
+```
 
 ---
 
@@ -128,11 +124,42 @@ To create a production build, use npm run build.
 
 Me va a abrir mi navegador web en ***http://localhost:3000/***
 
+
+
 - Recordar siempre dejar abierta la consola con el npm start, porque de esta forma le levanta el servidor local y puedo ver el proyecto.
 
 ---
 
 :tv: -> [En el directorio aprendiendoreact esta la primer practica](https://github.com/eugenia1984/react-con-Udemy/tree/main/01_react_js_curso_de_introduccion_desde_cero_primeros_pasos/aprendiendoreact)
+
+-> Le hacemos algunos cambios en el **App.js** y nos queda:
+
+```JSX
+import logo from "./assets/images/logo.svg";
+import "./assets/css/App.css";
+
+import MiComponente from "./components/MiComponente";
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>Hola, bienvenidos a la primer práctica de REACT.</p>
+      </header>
+      <section className="componentes">
+        <MiComponente />
+      </section>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Que en el nvegador se va a ver asi:
+
+image.png
 
 ---
 

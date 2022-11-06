@@ -1,6 +1,6 @@
 ENGLISH
 
-# <img src="https://img.icons8.com/bubbles/30/null/react.png"/> React 
+# <img src="https://img.icons8.com/bubbles/50/null/react.png"/> React 
 
 Here I will gather the courses made of **React**
 
@@ -8,7 +8,7 @@ Here I will gather the courses made of **React**
 
 ### <img src="https://img.icons8.com/external-others-zufarizal-robiyanto/30/null/external-lup-mutualiz-ui-essential-others-zufarizal-robiyanto.png"/> What will you find?
 
-- [1 - React JS Course - Introduction course from scratch and first steps](https://github.com/eugenia1984/react-varios-cursos/tree/main/01_react_js_course_de_introduction_from_zero_first_steps), where I create the first application, very simple, using React.Fragment and calling a pizza variable that is an object, of which I show its key - value.
+- [1 - React JS Course - Introduction course from scratch and first steps](https://github.com/eugenia1984/react-varios-cursos/tree/main/01_react_js_curso_de_introduccion_desde_cero_primeros_pasos), where I create the first application, very simple, using React.Fragment and calling a pizza variable that is an object, of which I show its key - value.
 
 - [2 - Tutorial: Introduction to React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
 
@@ -22,11 +22,11 @@ Here I will gather the courses made of **React**
 
 ## Stack of technologies?  🛠️
 
--<img src="https://img.icons8.com/color/48/null/html-5--v1.png"/> **HTML5** 
+-<img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
 
--<img src="https://img.icons8.com/color/48/null/css3.png"/>**CSS3**
+-<img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
 
--<img src="https://img.icons8.com/color/48/null/javascript--v1.png"/>**JavaScript** 
+-<img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
 
 -<img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
 
@@ -54,7 +54,7 @@ I appreciate your interest in this Project ⌨️ with ❤️ by [María Eugenia
 SPANISH
 
 
-# React con Udemy
+# <img src="https://img.icons8.com/bubbles/50/null/react.png"/>  React con Udemy y LinkedIn Learning
 
 Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 
@@ -80,11 +80,11 @@ Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 ## Tecnologías 🛠️
 
 
--<img src="https://img.icons8.com/color/48/null/html-5--v1.png"/> **HTML5** 
+-<img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
 
--<img src="https://img.icons8.com/color/48/null/css3.png"/>**CSS3**
+-<img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
 
--<img src="https://img.icons8.com/color/48/null/javascript--v1.png"/>**JavaScript** 
+-<img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
 
 -<img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
 
