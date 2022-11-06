@@ -1,28 +1,34 @@
 ENGLISH
 
-# :star: React 
+# <img src="https://img.icons8.com/bubbles/30/null/react.png"/> React 
 
 Here I will gather the courses made of **React**
 
 ---
 
-## What will they find?
+### <img src="https://img.icons8.com/external-others-zufarizal-robiyanto/30/null/external-lup-mutualiz-ui-essential-others-zufarizal-robiyanto.png"/> What will you find?
 
-- 1 - [React JS Course - Introduction course from scratch and first steps](https://github.com/eugenia1984/react-varios-cursos/tree/main/01_react_js_course_de_introduction_from_zero_first_steps), where I create the first application, very simple, using React.Fragment and calling a pizza variable that is an object, of which I show its key - value.
+- [1 - React JS Course - Introduction course from scratch and first steps](https://github.com/eugenia1984/react-varios-cursos/tree/main/01_react_js_course_de_introduction_from_zero_first_steps), where I create the first application, very simple, using React.Fragment and calling a pizza variable that is an object, of which I show its key - value.
 
-- 2 - [Tutorial: Introduction to React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
+- [2 - Tutorial: Introduction to React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
 
-- 3 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba)
+- [3 - React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba)
 
-- 4 - [React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
+- [4 - React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
-- 5 - [ReactJS Essential Training - LinkeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training)
+- [5 - ReactJS Essential Training - LinkeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training)
 
 ---
 
 ## Stack of technologies?  🛠️
 
-**HTML5** , **CSS3**, **JavaScript** & **React**.
+-<img src="https://img.icons8.com/color/48/null/html-5--v1.png"/> **HTML5** 
+
+-<img src="https://img.icons8.com/color/48/null/css3.png"/>**CSS3**
+
+-<img src="https://img.icons8.com/color/48/null/javascript--v1.png"/>**JavaScript** 
+
+-<img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
 
 
 ---
@@ -50,30 +56,38 @@ SPANISH
 
 # React con Udemy
 
-Aca juntare los cursos realizados en *Udemy* de **React**
+Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 
 ---
 
-## ¿ Qué van a encontrar ?
+## <img src="https://img.icons8.com/external-others-zufarizal-robiyanto/30/null/external-lup-mutualiz-ui-essential-others-zufarizal-robiyanto.png"/> ¿ Qué van a encontrar ?
 
-- 1 - [Curso React JS - curso introduccción desde cero y primeros pasos](https://github.com/eugenia1984/react-varios-cursos/tree/main/01_react_js_curso_de_introduccion_desde_cero_primeros_pasos), donde creo la primer aplicación, muy simple, utilizando React.Fragment y llamando a una variable pizza que es un objeto, del cual muestro sus key - value.
-
-
-- 2 - [Tutorial: Introducción a React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
-
-- 3 - [React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba)
+- [1 - Curso React JS - curso introduccción desde cero y primeros pasos](https://github.com/eugenia1984/react-varios-cursos/tree/main/01_react_js_curso_de_introduccion_desde_cero_primeros_pasos), donde creo la primer aplicación, muy simple, utilizando React.Fragment y llamando a una variable pizza que es un objeto, del cual muestro sus key - value.
 
 
-- 4 - [React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
+- [2 - Tutorial: Introducción a React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react)
 
-- 5 - [ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training)
+- [3 - React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba)
+
+
+- [4 - React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
+
+- [5 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training)
 
 ---
 
 
 ## Tecnologías 🛠️
 
-**HTML5**, **CSS3**,  **JavaScript** & **React**
+
+-<img src="https://img.icons8.com/color/48/null/html-5--v1.png"/> **HTML5** 
+
+-<img src="https://img.icons8.com/color/48/null/css3.png"/>**CSS3**
+
+-<img src="https://img.icons8.com/color/48/null/javascript--v1.png"/>**JavaScript** 
+
+-<img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
+
 
 
 
