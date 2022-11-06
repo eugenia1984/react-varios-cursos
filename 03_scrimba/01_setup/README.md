@@ -25,7 +25,7 @@ En esta carpeta [setup](https://github.com/eugenia1984/react-varios-cursos/tree/
 <div id="root"></div>
 ```
 
-- En el archivo JavaScript, utilizo la variable global **ReactDOM** y el método **render**, entre los **()** primero escribo en etiquetas html que quiero renderizar en el DOM, y luego con **document.getElementoById** indico donde lo voy a renderizar, es algo similar al node.append(child):
+- En el archivo JavaScript, utilizo la variable global **ReactDOM** y el método **render**, entre los **()** primero escribo en etiquetas html que quiero renderizar en el DOM, y luego con **document.getElementoById** indico donde lo voy a renderizar, tambien podria usar **document.querySelector(#id)**, es algo similar al node.append(child):
 
 ```JavaScript
 ReactDOM.render(<h1>Hola!!</h1>, document.getElementById("root"))
