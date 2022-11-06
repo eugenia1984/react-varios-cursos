@@ -159,7 +159,7 @@ export default App;
 
 Que en el nvegador se va a ver asi:
 
-image.png
+![image](https://user-images.githubusercontent.com/72580574/200187161-996e4899-0ef2-4b6e-a9f4-6e1addf4fe77.png)
 
 ---
 
@@ -177,7 +177,9 @@ image.png
 
 - **public** con: **index.html** (donde esta el div con id root que renderizo), **favicon.ico** (el icono que se ve en el browser), **logo192.png** (logo de react), **logo512.png** (logo de react), **manifest.json**, **robots.txt**
 
-- **node_modules**
+- **node_modules** donde voy a tener todas las librerias de react instaladas
+
+![image](https://user-images.githubusercontent.com/72580574/200187193-82942982-c4cf-41bd-bb7b-bcfd7431a550.png)
 
 
 ---
@@ -430,6 +432,9 @@ class MiComponente extends Component {
 Estos **Fragment** NO crean etiquetas extras, crea el código tal cual.
 
 
+![image](https://user-images.githubusercontent.com/72580574/200187275-6aece765-232e-42fe-9327-9c354f083d84.png)
+
+
 #### Trabajando con variables
 
 ```JavaScript
@@ -471,5 +476,9 @@ class MiComponente extends Component {
 ¿ Para qué utilicé la *key* dentro del ```<li>``` para los elementos de los ingredientes de la pizza ?
 
 Para localizar cada elemento del DOm. Esto se puede guardar en el state y se puede modificar en la vista.
+
+
+![image](https://user-images.githubusercontent.com/72580574/200187284-6cd6cf74-3d9e-476d-9cca-e9ab74c5cbb7.png)
+
 
 ---
