@@ -71,6 +71,7 @@ Temas que se ven:
 - aplicar CSS
 
 -> :computer: [aca se puede ver en codigo -> **04_pagina_estatica_en_react**](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react)
+
 ---
 
 ## :book: ¿ Por qué React ?
