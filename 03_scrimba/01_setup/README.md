@@ -39,4 +39,9 @@ ReactDOM.render(<h1>Hola!!</h1>, document.getElementById("root"))
 
 :tv: -> [Aca lo pueden ver desde un SandBox](https://codesandbox.io/s/mini-proyecto1-4mjh8q)
 
+
+Asi es el codigo:
+![image](https://user-images.githubusercontent.com/72580574/200194257-4bf68dfc-ac78-4aa2-bbde-43213642cfaa.png)
+
+
 ---
