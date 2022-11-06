@@ -85,3 +85,9 @@ ReactDOM.render(
 ...La funcion que tendra como nombre el de mi componente
 
 ...el return que me va a dar que se va a renderizar. Si tengo más de una etiqueta que renderizar, debo recordar que cuento siempre con una etiqueta padre (o fragmento) que engloba a todas, porque siempre debo retornar un solo div, adentro puedo tener muchos divs hijos, nietos, etc, pero siempre un solo div padre.
+
+---
+
+:tv: -> [Aca pueden ver el proyecto en Scrimba](https://codesandbox.io/s/mini-proyecto3-u68pou)
+
+---

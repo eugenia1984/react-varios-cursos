@@ -61,7 +61,24 @@ Nos permite hacer componentes, asi podemos tener una con la barra navegadora, y 
 
 Hay un pequeño ejemplo en la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto).
 
-2. Porque es **declarativo**.
+2. Porque es **declarativo**. Es decir se dice que debe hacerse. El opuesto es ser **imperativo**, cuando decimos cómo debe ser hecho (asi se hace con vanilla JavaScript).
+
+Con React **declarativo**:
+```JSX
+ReactDOM.render(<h1 className="header">Hola</h1>, document.getElementById("root"))
+```
+
+Con vanilla JavaScript **imperativo**:
+```JavaScript
+const h1 = document.createElement("h1");
+// Le voy a dar el texto que renderizara
+h1.textContext = "Este es un modo imperativo de programar";
+// le voy a asignar una clase
+h2.classname = "header";
+// lo appendeo al div de id root
+document.getElementById("root").append(h1);
+````
+
 
 ---
 
