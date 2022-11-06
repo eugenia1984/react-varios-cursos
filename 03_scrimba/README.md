@@ -51,6 +51,24 @@ En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 
 En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto) la tercer practica con una NavBar de Bootstrap vamos a crear el primer componente que sera el NavBar y luego crearemos nuestro segundo componente funcional.
 
+### Primer proyecto * Página estática en React
+
+En este Figma está [el diseño para ver](https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0%3A4). 
+
+![image](https://user-images.githubusercontent.com/72580574/200196250-ec76c280-a6f6-4b79-ba73-92dac7779299.png)
+
+
+En una página estática, como las que se hacen con HTML y CSS, pero empezando a usar React, para así poder aprender la sintaxis básica y el vocabulario de React.
+
+Se aprende a cómo pensar en React, porque se modifica el modo de crear aplicaciones.
+
+Temas que se ven:
+
+- JSX
+
+- componentes
+
+- aplicar CSS
 ---
 
 ## :book: ¿ Por qué React ?
@@ -176,7 +194,7 @@ ReactDOM.render(
 ```
 Pero en la version de 17 en adelante ya no necesitamos importar React, se usa nativamente con JSX.
 
--> Si usamos la version **18** de React vamos a tener que cambiar lo de ReactDOM.render por **createRoot **:
+-> Si usamos la version **18** de React vamos a tener que cambiar lo de ReactDOM.render por **createRoot**:
 
 index.js:
 ```JSX
@@ -191,24 +209,71 @@ root.render(<App />);
 
 ---
 
-## :star: Primer proyecto * Página estática en React
+## :book: Usamos .append() en vez de ReactDOM.render()
 
-En este Figma está [el diseño para ver](https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0%3A4). 
+- Challenge:
 
-![image](https://user-images.githubusercontent.com/72580574/200196250-ec76c280-a6f6-4b79-ba73-92dac7779299.png)
+Ver como usar .append() JSX en el div con id root, en vez de ReactDOM.
 
+Los pasos a seguir:
 
-En una página estática, como las que se hacen con HTML y CSS, pero empezando a usar React, para así poder aprender la sintaxis básica y el vocabulario de React.
+1. Crear una pagina en JSC con al menos 4 elementos y guardarlo en variable.
 
-Se aprende a cómo pensar en React, porque se modifica el modo de crear aplicaciones.
+2. Seleccionar el div con id root y utilizar .append() para apendear el JSX
 
-Temas que se ven:
+3. Tratar de adivinar que va a mostrar el browser antes de renderizarlo
 
-- JSX
+4. Tratar de explicar que se renderizo en el browser
 
-- componentes
+-> Lo vemos en codigo:
 
-- aplicar CSS
+```JSX
+import React from "react";
 
+const page = (
+  <div>
+    <h1>Mi increible websie de React</h1>
+    <h2>Estas son las raones por las que amo React</h2>
+    <ol>
+      <li>Codigo componible</li>
+      <li>Es declarativo</li>
+      <li>Es mantenido activamente</li>
+    </ol>
+  </div>
+)
+
+document.getElementById("root").append(page)
+```
+
+-> Vamos [object Object] en el navegador. Vamos a modificarlo:
+
+```JSX
+document.getElementById("root").append(JSON.stringify(page))
+```
+-> Tenemos un objeto JavaScript. Ahora otamos que recien cuando utilizamos **ReactDOM.render()** es que React tome este objeto y lo va a transformar para poder renderizarlos en la UI, lo cambia a elementos del DOm que el navegador lo puede entender.
+
+-> Seguimos modificando el codigo:
+
+```JSX
+import React from "react";
+import ReactDOM from "react-dom";
+
+const page = (
+  <div>
+    <h1>Mi increible websie de React</h1>
+    <h2>Estas son las raones por las que amo React</h2>
+    <ol>
+      <li>Codigo componible</li>
+      <li>Es declarativo</li>
+      <li>Es mantenido activamente</li>
+    </ol>
+  </div>
+)
+
+ReactDOM.render(
+  page, 
+  document.getElementById("root")
+)
+```
 
 ---
