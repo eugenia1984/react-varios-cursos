@@ -1,11 +1,11 @@
-# :book: Scrimba * React
+# <img src="https://img.icons8.com/clouds/100/null/react.png"/> Scrimba * React
 
 Todo el curso lo podés ver acá: [https://scrimba.com/learn/learnreact](https://scrimba.com/learn/learnreact), es de **Bob Ziroll**
 
 ---
 
 
-## ¿ Como setear React de modo simple y correcto ?
+## :book: ¿ Como setear React de modo simple y correcto ?
 
 - El **modo simple**
 
@@ -19,7 +19,7 @@ React y ReactDOM están disponibles por CDN
 ```
 
 
-La opción minificada:
+- La **opción minificada**:
 
 ```
 <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
@@ -37,25 +37,27 @@ Y también vamos a agregar **JSX** con **babel**:
 
 ---
 
-## Primer mini-proyecto
+## <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
+
+### Primer mini-proyecto
 
 En la carpeta [01_setup](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/01_setup) pueden ver el primer mini proyecto, un simple mensaje mostrado en una pagina con React.
 
-## Segundo miniproyecto
+### Segundo miniproyecto
 
 En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/02_mini-proyecto)  hay un segundo ejercicio de practica, esta vez en vez de solo renderizar una etiqueta ```<h>``` se despliega una lista.
 
 ---
 
-## ¿ Por qué React ?
+## :book: ¿ Por qué React ?
 
-1) Porque nos permite hacer **codigo componible**, es decir usamos pequeñas partes para crear algo más grande, como cuando somos chicos y usamos los Legos.
+1. Porque nos permite hacer **codigo componible**, es decir usamos pequeñas partes para crear algo más grande, como cuando somos chicos y usamos los Legos.
 
 Nos permite hacer componentes, asi podemos tener una con la barra navegadora, y si tengo muchas páginas que la utilizan lo puedo guardar en un componente para poder reutilizarlo, asi el código se hace más amntenible y flexible.
 
 Hay un pequeño ejemplo en la carpeta [03_mini-proyecto]https://github.com/eugenia1984/react-varios-cursos/tree/main/04_scrimba/03_mini-proyecto).
 
-2) Porque es **declarativo**.
+2. Porque es **declarativo**.
 
 ---
 
