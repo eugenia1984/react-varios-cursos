@@ -1,2 +1,2 @@
-ReactDOM.render(<h1>Hola!!</h1>, document.getElementById("root"))
+ReactDOM.render(<h2>from React!</h2>, document.getElementById("root"));
 
