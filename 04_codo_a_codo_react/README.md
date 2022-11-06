@@ -273,6 +273,17 @@ Temas:
 - 3 - Eventos Sinteticos
 ```
 
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [EVENTOS * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_EVENTOS.md)
+
+Temas:
+
+```
+- 1 - principios de diseño en react
+- 2- renderizado condicional
+- 3 - deploy en netlify
+```
+
+
 ---
 ---
 
