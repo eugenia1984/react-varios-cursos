@@ -49,13 +49,13 @@ En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 
 ### Tercer miniproyecto
 
-En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto) la tercer practica con una NavBar de Botstrap vamos a crear el primer componente que sera el NavBar.
+En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto) la tercer practica con una NavBar de Bootstrap vamos a crear el primer componente que sera el NavBar.
 
 ---
 
 ## :book: ¿ Por qué React ?
 
-1. Porque nos permite hacer **codigo componible**, es decir usamos pequeñas partes para crear algo más grande, como cuando somos chicos y usamos los Legos.
+1. Porque nos permite hacer **codigo componible**, es decir **usamos pequeñas partes para crear algo más grande**, como cuando somos chicos y usamos los Legos.
 
 Nos permite hacer componentes, asi podemos tener una con la barra navegadora, y si tengo muchas páginas que la utilizan lo puedo guardar en un componente para poder reutilizarlo, asi el código se hace más amntenible y flexible.
 
