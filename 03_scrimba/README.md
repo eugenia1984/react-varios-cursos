@@ -104,5 +104,51 @@ Temas que se ven:
 
 ---
 
+## :book: JSX
 
+- **JSX** -> **JavaScript XML** se parece mucho a HTML con JavaScript.
 
+- Tiene el beneficio de poder utilizar HTML, pero con algunas diferencias...
+
+... en vez de utilizar **class** ahora utilizaremos **className**.
+
+Lo vemos con un codigo de ejemplo:
+```JSX
+const element = <h1 className="header">Esto es JSX</h1>;
+console.log(element);
+/*
+{
+  type:"h1", 
+  key: null, 
+  ref: null, 
+  props: {
+    classname: "header", 
+    children: "Esto es JSX"}
+  }, 
+  _owner: null, 
+  store: {}
+ }
+*/
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+-> Si vemos **React** esta creando un **object** de JavaScript, y vemos que dentro tiene el objeto **propr** (propiedades). Con estos objetos React los interpreta y los renderiza en la UI. Si tuviera un return con un div padre y los hijos en  el children tendria nuevos object que seria cada una de las etiquetas hijas
+
+- Siempre debemos renderizar **un solo elemento padre**, no podemos tener dos etiquetas hermanas, debemos tener un padre que englobe todo, si no tneemos un padre usamos un **div** o sino un **fragment**(```<> </>```). Hijos puedo tener tantos como necesite.
+
+-> Podriamos guardar todo en una variable, lo que si me voy a tener que ayudar con los ():
+```JSX
+const page = (
+  <div>
+    <h1 className="header">Esto es JSX</h1>
+    <p>Esto es un parrafo.</p>
+  </div>
+)
+
+ReactDOM.render(
+  page, 
+  document.getElementById("root")
+);
+```
+
+---
