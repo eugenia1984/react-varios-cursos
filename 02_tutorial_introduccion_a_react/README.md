@@ -1156,6 +1156,9 @@ Si clickeamos en cualquier paso de la historia del juego, el tablero tic-tac-toe
 ---
 
 ### Concluyendo
+  
+  ![image](https://user-images.githubusercontent.com/72580574/200189812-19b08c38-b992-4fb4-9d37-89315b2f88e4.png)
+
 
 ¡Felicitaciones! Has creado un juego de tic-tac-toe que:
 
