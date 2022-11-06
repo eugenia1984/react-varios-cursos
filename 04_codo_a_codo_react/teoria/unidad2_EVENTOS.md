@@ -223,7 +223,7 @@ render() {
 }
 ```
 
-####If-Else en una línea con operador condicional
+#### If-Else en una línea con operador condicional
 
 Otro método para el renderizado condicional de elementos en una línea es usar el operador condicional ```condición ? true : false ```de JavaScript.
 
@@ -323,5 +323,70 @@ El devolver null desde el método render de un componente no influye en la activ
 ---
 
 ### :star: 3 - Deploy en netlify
+
+![image de netlify](https://user-images.githubusercontent.com/72580574/200183706-bec988d4-c535-406b-a991-e45af0050017.png)
+
+**Netlify** es una plataforma que nace para automatizar proyectos webs estáticos. Aúna las tareas de integración continua y despliegue de infraestructura web en un solo flujo de ejecución.
+
+El desarrollo web se caracteriza por, entre otras cosas, **el cambio continuo en los diseños**. Constantemente se añaden nuevos elementos o se modifican los ya añadidos. Es muy importante poder ver en todo momento qué aspecto tiene o ha tenido nuestra web.
+
+Otra de las claves es la **gestión de la infraestructura**. No sólo vale centrarse en el diseño de la web, si no que también esta **debe prepararse para ser ejecutada en un entorno de producción determinado**. Esta tarea aparentemente sencilla, a menudo se convierte en un proceso tedioso: debemos contratar un **hosting donde alojar la web, registrar un nombre de dominio y finalmente subir los archivos, normalmente a través de FTP**.
+
+Con Netlify el proceso de despliegue se convierte en algo muy sencillo: **únicamente hay que enlazar la herramienta a un repositorio Git donde se encuentren los archivos que componen la página web y crear un deploy que provocará que la aplicación se compile y se despliegue automáticamente en una determinada URL**.
+
+Su potencia viene dada por **su capacidad de despliegue continuo**. **Todos los cambios que se hayan realizado en la aplicación web constituyen versiones desplegadas de la misma, a las que se puede tener acceso en cualquier momento**. Si la versión actual de la web no nos convence, podemos dejarla en un estado en el que se encontraba anteriormente.
+
+### Despliegue continuo
+
+1. Tras tener listo el código en el repositorio correspondiente (github), creamos una cuenta gratuita en Netlify para poder tener acceso a sus herramientas y hacer un despliegue continuo de nuestro proyecto. Existen distintos planes de pago con distintas características que se pueden consultar aquí. En nuestro caso escogemos el gratuito, ya que se adapta de manera holgada al objetivo del tutorial.
+
+2. Siguiendo con el desarrollo, crear la cuenta es tan fácil como registrarnos con nuestra cuenta de GitHub, GitLab, Bitbucket o con nuestro correo. Debemos dar permisos a Netlify para acceder a nuestra cuenta GitHub e introducir el nombre de usuario y el tipo de proyecto que se va a desplegar: un portfolio, una tienda virtual, un blog, etc.
+
+
+3.
+![image](https://user-images.githubusercontent.com/72580574/200183846-06e5635c-614e-405e-a716-2e9bd0e217a3.png)
+
+4. Luego debemos dar la autorización a netlify:
+![image](https://user-images.githubusercontent.com/72580574/200183857-c94a66da-fbf4-430f-98fe-63a5502ac0c4.png)
+
+
+5. Seguimos con otras configuraciones del tipo de cuenta:
+![image](https://user-images.githubusercontent.com/72580574/200183865-be226fa9-5761-4c48-a9da-9af804af89ed.png)
+
+
+6.  Luego nos pide que importemos un proyecto (recomendamos el proyecto que vienen trabajando en github), para poder vincularlo:
+![image](https://user-images.githubusercontent.com/72580574/200183874-1204f99b-5e3b-48c6-b1a0-c04781ca703a.png)
+
+
+7. Luego nos va pidiendo una serie de pasos para vincular nuestra cuenta de netlify con los repositorios de github:
+![image](https://user-images.githubusercontent.com/72580574/200183889-01769a85-3b6e-49f8-ab7d-27880d3f8cc1.png)
+
+![image](https://user-images.githubusercontent.com/72580574/200183894-13fb10fd-7e1d-4623-a9c9-bcf964130e37.png)
+
+![image](https://user-images.githubusercontent.com/72580574/200183902-d6faef4d-6832-4c5d-a6c2-fa35da2401a8.png)
+
+![image](https://user-images.githubusercontent.com/72580574/200183912-e4c32f28-06ea-4272-ad53-2f9162f603d2.png)
+
+
+8. Elegimos la rama en la cual esta nuestro proyecto y seleccionamos “Deploy Site”:
+
+![image](https://user-images.githubusercontent.com/72580574/200183921-dff2a1a4-ff07-4a8c-adb8-0ffed6931356.png)
+
+9. Esperamos unos minutos hasta que haga el proceso:
+
+![image](https://user-images.githubusercontent.com/72580574/200183931-4e0e7796-372b-4449-a9e0-f37152b1c014.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
