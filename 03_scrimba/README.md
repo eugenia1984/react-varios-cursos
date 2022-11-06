@@ -82,28 +82,6 @@ document.getElementById("root").append(h1);
 
 ---
 
-## :star: Primer proyecto * Página estática en React
-
-En este Figma está [el diseño para ver](https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0%3A4). 
-
-![image](https://user-images.githubusercontent.com/72580574/200196250-ec76c280-a6f6-4b79-ba73-92dac7779299.png)
-
-
-En una página estática, como las que se hacen con HTML y CSS, pero empezando a usar React, para así poder aprender la sintaxis básica y el vocabulario de React.
-
-Se aprende a cómo pensar en React, porque se modifica el modo de crear aplicaciones.
-
-Temas que se ven:
-
-- JSX
-
-- componentes
-
-- aplicar CSS
-
-
----
-
 ## :book: JSX
 
 - **JSX** -> **JavaScript XML** se parece mucho a HTML con JavaScript.
@@ -150,5 +128,58 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
+
+---
+
+##:book: Drag and Drop en Netlify
+
+1. Hacerse una cuenta en **Netlify**, se puede conectar con el email y con github
+
+2. Vamos a [Netlify Drop](https://app.netlify.com/drop?utm_source=scrimba&utm_medium=referral&utm_campaign=learnreact) y simplemente hacemos el drag & drop de todos los archivos (los tenemos que tener a todos dentro de una sola carpeta).
+
+3. Vamos a ir al dashboard y tendremos el link del proyecto, y lo podremos compartir con todos para que lo vean.
+
+---
+
+### Saludos CDNs
+
+Dejaremos de utilizar Scrim y lo haremos con React, ya no vamos a tener los links al CND ni el JavaSCript con el type text/babel.
+
+Vamos a agregar las dependencias que necesitamos:
+
+- react
+
+- react-dom
+
+-> Estas dependencias va a ser similar a las dependencias de Node.js
+
+-> No voy a tneer mas las variables globales como  ReactDOM -> voy a tener ahora que importar todo:
+```JSX
+import REact from "react";
+```
+Pero en la version de 17 en adelante ya no necesitamos importar React, se usa nativamente con JSX.
+
+
+---
+
+## :star: Primer proyecto * Página estática en React
+
+En este Figma está [el diseño para ver](https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0%3A4). 
+
+![image](https://user-images.githubusercontent.com/72580574/200196250-ec76c280-a6f6-4b79-ba73-92dac7779299.png)
+
+
+En una página estática, como las que se hacen con HTML y CSS, pero empezando a usar React, para así poder aprender la sintaxis básica y el vocabulario de React.
+
+Se aprende a cómo pensar en React, porque se modifica el modo de crear aplicaciones.
+
+Temas que se ven:
+
+- JSX
+
+- componentes
+
+- aplicar CSS
+
 
 ---
