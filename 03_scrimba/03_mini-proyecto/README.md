@@ -1,9 +1,9 @@
-## Tercer mini proyecto
+## star: Tercer mini proyecto
 ---
 
 ### Componentes
 
-Vamos a comenzar a ver el comcepto de **componente**.
+Vamos a comenzar a ver el concepto de **componente**.
 
 En **index.js** voy a crearlo:
 
@@ -39,6 +39,7 @@ function Navbar() {
   )
 }
 
+// Y lo renderizo en el div con ir root
 ReactDOM.render(
   <div>
     <Navbar />
