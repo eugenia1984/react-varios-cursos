@@ -10,7 +10,6 @@ Todo el curso lo podés ver acá: [https://scrimba.com/learn/learnreact](https:/
 - El **modo simple**
 
 En la documentación de React vemos cómo incluir React en el proyecto [https://reactjs.org/docs/cdn-links.html](https://reactjs.org/docs/cdn-links.html):
-![image](https://user-images.githubusercontent.com/72580574/200199825-af4ee3c9-5b4e-4a5e-93e5-eac5df7a29f5.png)
 
 
 React y ReactDOM están disponibles por CDN

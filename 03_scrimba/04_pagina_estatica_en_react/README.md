@@ -1,14 +1,50 @@
-## Cuarto proyecto * Pagina estática con REact
+## :star: Cuarto proyecto * Pagina estática con REact
 
 ---
 
-### Vamos a crear esta pagina en REact
+### Vamos a crear esta pagina en React
 
 ![image](https://user-images.githubusercontent.com/72580574/200199764-24888020-8fc7-4d71-9aef-0134d79d83d9.png)
 
 
 ---
-# Getting Started with Create React App
+---
+
+### Mini quiz
+
+1. ¿Por que necesitamos importart "React" de "react" en nuestros archivos ?
+
+Porque "React" es lo que define JSX
+
+2. Si voy a consologear "page" en el index.js que se va a ver
+
+El objto JavaScript. Son los elementos REact que se van a renderizar en el DOM real.
+
+3.  ¿Qué esta mal en este codigo?
+
+```JSX
+const page = (
+ <h1>Hello</h1>
+ <p>Esta es my pagina web</p>
+) 
+```
+
+Tenemos dos elementos que retornamos y solo debemos tener un elemento padre, lo podemos envolver todo dentro de un div padre o utilizar fragment.
+
+4. ¿Que significa que sea "declarativo" a diferencia de "imperativo"?
+
+Declarativo significa que le decimos a la computadora que hacer. 
+
+Imperativo debo decirle que hacer en cada paso.
+
+5. ¿Que significa que sea codigo componible?
+
+Puedo crear pequeños pedazos de la UI y ponerlo en un componente, y luego juntar todos estos componentes para hacer la pagina web.
+
+---
+---
+
+#### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
