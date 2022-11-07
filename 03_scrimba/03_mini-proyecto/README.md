@@ -88,6 +88,6 @@ ReactDOM.render(
 
 ---
 
-:tv: -> [Aca pueden ver el proyecto en Scrimba](https://codesandbox.io/s/mini-proyecto3-u68pou)
+:tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto3-u68pou)
 
 ---
