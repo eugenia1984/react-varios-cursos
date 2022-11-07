@@ -39,23 +39,31 @@ Y también vamos a agregar **JSX** con **babel**:
 
 ## <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
-### Primer mini-proyecto
+### 1er mini-proyecto
 
 En la carpeta [01_setup](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/01_setup) pueden ver el primer mini proyecto, un simple mensaje mostrado en una pagina con React.
 
 :tv: -> [Aca lo pueden ver desde un SandBox.io](https://codesandbox.io/s/mini-proyecto1-4mjh8q)
 
-### Segundo miniproyecto
+
+### 2do miniproyecto
 
 En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/02_mini-proyecto)  hay un segundo ejercicio de practica, esta vez en vez de solo renderizar una etiqueta ```<h>``` se despliega una lista.
 
 :tv: -> [Aca lo pueden ver en SandBox.io](https://codesandbox.io/s/mini-proyecto2-ujpmko)
 
-### Tercer miniproyecto
+
+### 3er miniproyecto
 
 En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto) la tercer practica con una NavBar de Bootstrap vamos a crear el primer componente que sera el NavBar y luego crearemos nuestro segundo componente funcional.
 
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto3-u68pou)
+
+
+### 4to Miniproyecto
+
+:tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
+
 
 ### Primer proyecto * Página estática en React
 
