@@ -1,4 +1,4 @@
-## :star: Cuarto proyecto * Pagina estática con REact
+## :star: Cuarto proyecto * Pagina estática con React
 
 ---
 
@@ -6,11 +6,19 @@
 
 ![image](https://user-images.githubusercontent.com/72580574/200199764-24888020-8fc7-4d71-9aef-0134d79d83d9.png)
 
+:tv: [En este Sandbox.io esta el codigo](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
 
 ---
 ---
 
-### Mini quiz
+### :book: Componentes Padres / Hijos
+
+
+![image](https://user-images.githubusercontent.com/72580574/200211268-0bcd2901-8001-4c40-8c00-b5fa6cbf278d.png)
+
+---
+
+### :book: Mini quiz
 
 1. ¿Por que necesitamos importart "React" de "react" en nuestros archivos ?
 
