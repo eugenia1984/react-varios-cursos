@@ -15,21 +15,21 @@ Va a tener un rectangulo (Header/Nav) que va a tener a la izquierda el icono y l
 
 ```
 <div.container>
- <nav>
-  <img />
-  <h3></h3>
-  <h4></h4>
- </nav>
- <main>
-  <h1></h1>
-  <ul>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-  </ul>
- </main>
+  <nav>
+     <img />
+     <h3></h3>
+     <h4></h4>
+  </nav>
+  <main>
+     <h1></h1>
+     <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+     </ul>
+  </main>
 </div>
 ```
 
