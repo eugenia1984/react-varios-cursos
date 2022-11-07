@@ -72,8 +72,6 @@ Hago una mini homePage, con **Header** (logo con una lista que es el menu), **Li
 
 ### 1er proyecto: Página estática en React
 
-En este Figma está [el diseño para ver](https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0%3A4). 
-
 ![image](https://user-images.githubusercontent.com/72580574/200196250-ec76c280-a6f6-4b79-ba73-92dac7779299.png)
 
 
@@ -83,11 +81,11 @@ Se aprende a cómo pensar en React, porque se modifica el modo de crear aplicaci
 
 Temas que se ven:
 
+```
 - JSX
-
 - componentes
-
 - aplicar CSS
+```
 
 -> :computer: [aca se puede ver en codigo -> **04_pagina_estatica_en_react**](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react)
 
