@@ -39,7 +39,7 @@ Y también vamos a agregar **JSX** con **babel**:
 
 ## <img src="https://img.icons8.com/dusk/50/null/untested.png"/> MiniProyectos y Proyectos
 
-###  MiniProyectos
+###  <img src="https://img.icons8.com/dusk/30/null/untested.png"/> MiniProyectos
 
 #### 1er mini-proyecto
 
@@ -68,7 +68,7 @@ Hago una mini homePage, con **Header** (logo con una lista que es el menu), **Li
 
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
 
-### Proyectos
+###  <img src="https://img.icons8.com/dusk/30/null/untested.png"/>  Proyectos
 
 ### 1er proyecto: Página estática en React
 
