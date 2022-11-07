@@ -22,6 +22,14 @@ Aca se ve el ejemplo del componente padre **App** y del componente hijo **Header
 
 ---
 
+### :book: Estilizando con clases
+
+En vez de utilizar **class** usamos **className** y lo hacemos como siempre en la hoja de estilos de CSS:
+
+![image](https://user-images.githubusercontent.com/72580574/200212466-727713c1-5333-47d9-ba04-457a7dbd0e54.png)
+
+---
+
 ### :book: Mini quiz
 
 1. ¿Por que necesitamos importart "React" de "react" en nuestros archivos ?
