@@ -13,7 +13,7 @@
 
 ### :book: Componentes Padres / Hijos
 
-Aca se ve el ejemplo del componente padre **App** y del componente hijo *+Header**
+Aca se ve el ejemplo del componente padre **App** y del componente hijo **Header**
 
 ![image](https://user-images.githubusercontent.com/72580574/200211268-0bcd2901-8001-4c40-8c00-b5fa6cbf278d.png)
 
