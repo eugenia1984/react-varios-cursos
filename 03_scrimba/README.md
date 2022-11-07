@@ -62,7 +62,7 @@ En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 
 ### 4to Miniproyecto
 
-Hago una mini homePage, con **Header** (logo ocn una lista que es el menu), **List** y **Footer**, trabajando separando en componentes y estilando con CSS.
+Hago una mini homePage, con **Header** (logo con una lista que es el menu), **List** y **Footer**, trabajando separando en componentes y estilando con CSS.
 
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
 
