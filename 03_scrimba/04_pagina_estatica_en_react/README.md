@@ -7,6 +7,33 @@
 ![image](https://user-images.githubusercontent.com/72580574/200199764-24888020-8fc7-4d71-9aef-0134d79d83d9.png)
 
 
+- En este Figma está [el diseño para ver](https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0%3A4). 
+
+- ¿Como es el layout ?
+
+Va a tener un rectangulo (Header/Nav) que va a tener a la izquierda el icono y logo y a la derecha el nombre. Luego esta el segundo rectangulo(Main)  que tendra el titulo (```h1```) y la lista desordenada(```ul```). Entocnes seria algo asi:
+
+```
+<div.container>
+ <nav>
+  <img />
+  <h3></h3>
+  <h4></h4>
+ </nav>
+ <main>
+  <h1></h1>
+  <ul>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+  </ul>
+ </main>
+</div>
+```
+
+-> Esto pasandolo a React veo que voy a tener dos componentes: Nav y Main.
 
 ---
 ---
