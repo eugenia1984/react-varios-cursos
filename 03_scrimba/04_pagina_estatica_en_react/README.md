@@ -6,15 +6,19 @@
 
 ![image](https://user-images.githubusercontent.com/72580574/200199764-24888020-8fc7-4d71-9aef-0134d79d83d9.png)
 
-:tv: [En este Sandbox.io esta el codigo](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
+
 
 ---
 ---
 
 ### :book: Componentes Padres / Hijos
 
+Aca se ve el ejemplo del componente padre **App** y del componente hijo *+Header**
 
 ![image](https://user-images.githubusercontent.com/72580574/200211268-0bcd2901-8001-4c40-8c00-b5fa6cbf278d.png)
+
+
+:tv: [En este Sandbox.io esta el codigo](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
 
 ---
 
