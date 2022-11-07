@@ -41,6 +41,39 @@ Imperativo debo decirle que hacer en cada paso.
 
 Puedo crear pequeños pedazos de la UI y ponerlo en un componente, y luego juntar todos estos componentes para hacer la pagina web.
 
+6. ¿ Que es un componente de React?
+
+Una funcion que devuelve elementos de REact, los objetos que se crean en JSX, se convierten luego a elementos reales del DOm, son las UI. Puede ser reutilizado, las veces que se necesiten.
+
+7. ¿Que esta mal en este codigo?
+
+```JSX
+function myComponent() {
+ return(
+  <small>I´m tiny text!</small>
+ )
+}
+```
+
+Se escriben **PascalCase** la primer letra debe estar en mayuscula, y liego cada primer letra de la palabra debe estar en mayuscula.
+
+8. ¿ Que esta mal con este codigo?
+```JSX
+function Header() {
+ return (
+  <header>
+   <nav>
+    <img src="./react-logo.png" width="40px" />
+   </nav>
+  </header>
+ )
+}
+
+ReactDOM.render(Header(), document.getElementById("root"))
+```
+
+En ReactDOM.render en vez de llamarla como la funcion se debe llamar como un componente: ```<Header />```
+
 ---
 ---
 
