@@ -90,7 +90,7 @@ Temas que se ven:
 -> :computer: [aca se puede ver en codigo -> **04_pagina_estatica_en_react**](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react/04-mini-proyecto)
 
 
-### 2do proyecto: CLone de las experiencias de airbnb
+### 2do proyecto: Clone de las experiencias de airbnb
 
 ![image](https://user-images.githubusercontent.com/72580574/200696130-a2a9bec3-6564-443f-8557-fd207560766b.png)
 
