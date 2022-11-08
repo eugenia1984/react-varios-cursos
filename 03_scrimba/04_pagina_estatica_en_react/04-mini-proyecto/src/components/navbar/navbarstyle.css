@@ -11,6 +11,13 @@ nav {
   height: 90px;
   padding: 30px 25px;
 }
+@media screen and (max-width: 560px) {
+  nav {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}
 
 nav > .nav-logo-text,
 nav > .nav-title {
@@ -22,6 +29,11 @@ nav > .nav-logo-text {
   color: var(--tx-blue);
   font-size: 22px;
 }
+@media screen and (max-width: 560px) {
+  nav > .nav-logo-text {
+    margin-right: 0px;
+  }
+}
 
 nav > .nav-title {
   color: var(--tx-white);
@@ -31,4 +43,12 @@ nav > .nav-title {
 nav > .nav-icon {
   height: 30px;
   margin-right: 7px;
+}
+
+@media screen and (max-width: 560px) {
+  nav > .nav-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+  }
 }
