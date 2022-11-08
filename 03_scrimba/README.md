@@ -85,7 +85,7 @@ Temas que se ven:
 - aplicar CSS
 ```
 
--> :computer: [aca se puede ver en codigo -> **04_pagina_estatica_en_react**](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react)
+-> :computer: [aca se puede ver en codigo -> **04_pagina_estatica_en_react**](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react/04-mini-proyecto)
 
 ---
 
