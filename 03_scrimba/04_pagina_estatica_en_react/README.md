@@ -136,6 +136,14 @@ ReactDOM.render(Header(), document.getElementById("root"))
 
 En ReactDOM.render en vez de llamarla como la funcion se debe llamar como un componente: ```<Header />```
 
+
+---
+
+## :star: Asi quedo
+
+![image](https://user-images.githubusercontent.com/72580574/200693576-02d63563-22d5-4a19-91f6-f3e88ce157bb.png)
+
+
 ---
 ---
 
