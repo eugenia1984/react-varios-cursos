@@ -90,7 +90,7 @@ Puedo crear pequeños pedazos de la UI y ponerlo en un componente, y luego junta
 
 6. ¿ Que es un componente de React?
 
-Una funcion que devuelve elementos de REact, los objetos que se crean en JSX, se convierten luego a elementos reales del DOm, son las UI. Puede ser reutilizado, las veces que se necesiten.
+Una funcion que devuelve elementos de React, los objetos que se crean en JSX, se convierten luego a elementos reales del DOm, son las UI. Puede ser reutilizado, las veces que se necesiten.
 
 7. ¿Que esta mal en este codigo?
 

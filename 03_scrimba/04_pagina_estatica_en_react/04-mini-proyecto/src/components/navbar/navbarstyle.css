@@ -1,0 +1,34 @@
+:root {
+  --bg-dark: #12222A;
+  --tx-blue: #61DAFB;
+  --tx-white: #DEEBF8;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-dark);
+  height: 90px;
+  padding: 30px 25px;
+}
+
+nav > .nav-logo-text,
+nav > .nav-title {
+  margin: 0;
+}
+
+nav > .nav-logo-text {
+  margin-right: auto;
+  color: var(--tx-blue);
+  font-size: 22px;
+}
+
+nav > .nav-title {
+  color: var(--tx-white);
+  font-weight: 600;
+}
+
+nav > .nav-icon {
+  height: 30px;
+  margin-right: 7px;
+}

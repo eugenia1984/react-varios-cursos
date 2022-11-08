@@ -1,0 +1,32 @@
+:root {
+  --bg-gray: #282D35;
+  --txt-white-2: #ffffff;
+  --li-blue: #61DAFB;
+}
+
+main {
+  background-color: var(--bg-gray);
+  padding: 57px 27px;
+  color: var(--txt-white-2);
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-facts > li {
+  line-height: 22px;
+  padding-block: 10px;
+}
+
+.main-facts > li::marker {
+  font-size: 1.4rem;
+  color: var( --li-blue);
+}
