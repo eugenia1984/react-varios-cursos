@@ -19,7 +19,7 @@
 
 ![image](https://user-images.githubusercontent.com/72580574/201666594-73292e1b-6a60-47e3-a504-6f7641e342d2.png)
 
-on infraestructuras y sistemas de software gestionadas por proveedores expertos y puestas a disposición de los usuarios a través de internet. Como consecuencia, se proporcionan unos servicios que el usuario no tiene que gestionar, sólo usar y pagar exclusivamente por el tiempo de uso. Debe quedar claro que los servicios que ofrece la nube no están instalados en tu ordenador y ni siquiera en la infraestructura de la compañía.
+Son infraestructuras y sistemas de software gestionadas por proveedores expertos y puestas a disposición de los usuarios a través de internet. Como consecuencia, se proporcionan unos servicios que el usuario no tiene que gestionar, sólo usar y pagar exclusivamente por el tiempo de uso. Debe quedar claro que los servicios que ofrece la nube no están instalados en tu ordenador y ni siquiera en la infraestructura de la compañía.
 
 Dicho de otro modo, cloud computing son los servicios que se ofrecen a través del ecosistema y la conectividad de internet. No solo permite el acceso remoto a los recursos de almacenamiento de archivos, servidores virtuales, escritorios remotos, procesamiento y otros recursos informáticos, por lo que se ha convertido en una alternativa vital para la operación de las empresas.
 
@@ -78,6 +78,32 @@ Hemos recopilado en un pequeño párrafo los principales beneficios de implantar
 ---
 
 ## :star:  2 - ¿Qué es firebase?
+
+Firebase se trata de una plataforma móvil creada por Google, cuya principal función es desarrollar y facilitar la creación de apps de elevada calidad de una forma rápida, con el fin de que se pueda aumentar la base de usuarios. La plataforma está subida en la nube y está disponible para diferente plataformas como iOS, Android y web. Contiene diversas funciones para que cualquier desarrollador pueda combinar y adaptar la plataforma a medida de sus necesidades.
+
+![image](https://user-images.githubusercontent.com/72580574/201667151-df5dc25f-266a-4775-82a2-adf5776cbae9.png)
+
+Firebase se inició cuando Google la compró en 2014, y seguidamente la fue mejorando mediante la compra del equipo de Divshot.
+
+### Principales características de Firebase
+
+- **Desarrollo**: Firebase permite la creación de mejores apps, minimizando el tiempo de optimización y desarrollo, mediante diferentes funciones, entre las que destacan la detección de errores y de testeo, que supone poder dar un salto de calidad a la app. Poder almacenar todo en la nube, testear la app o poder configurarla de manera remota, son características destacables de la plataforma.
+
+- **Analitica**: Tener un control máximo del rendimiento de la app mediante métricas analíticas, todo desde un único panel y de forma gratuita, es una de las ventajas que ofrece Firebase respecto a la analítica web. Los datos analíticos que facilita Firebase, facilita la toma de decisiones basadas y fundamentadas en datos reales.
+
+![image](https://user-images.githubusercontent.com/72580574/201667302-7e21bb2f-e2be-48a4-8b49-b149eb3f922b.png)
+
+- **Poder de crecimiento**: Permite gestionar de manera fácil todos los usuarios de las aplicaciones, con el añadido de que se pueden captar nuevos usuarios, mediante invitaciones o notificaciones.
+
+- **Monetización**: Mediante AdMob, Firebase permite que puedas ganar dinero.
+
+- **Rapidez**: Implementar Firebase puede ser fácil y rápido, gracias a su API que es muy intuitiva, sostenida en un solo SDK. Con Firebase puedes centrar tus esfuerzos en resolver los problemas de tus clientes y así poder evitar la pérdida de tiempo en la creación de una infraestructura compleja.
+
+- **Agilidad**: Firebase ofrece apps multiplataforma con una APIs integradas a SDK individuales para iOS, Android y Javascript, de tal forma que se puede gestionar diferentes apps sin necesidad de salir de la propia plataforma.
+
+A la hora de gestionar y aprender a usar la plataforma, Firebase ofrece documentación diversa de muy buena calidad, mediante ejemplos, tutoriales y documentación complementaria sobre todos sus usos.
+
+![image](https://user-images.githubusercontent.com/72580574/201667457-ebbd5e8a-2f8c-4741-b843-e7c6ceed5f6c.png)
 
 ---
 
