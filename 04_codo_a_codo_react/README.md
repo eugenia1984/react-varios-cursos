@@ -250,7 +250,7 @@ Temas:
 
 ---
 
-## <img src="https://img.icons8.com/officel/32/000000/react.png"/> EVENTOS: Unidad 1 y 2
+## <img src="https://img.icons8.com/officel/32/000000/react.png"/> EVENTOS: Unidad 1, 2 y 3
 
 Temas:
 
@@ -278,11 +278,21 @@ Temas:
 Temas:
 
 ```
-- 1 - principios de diseño en react
-- 2- renderizado condicional
-- 3 - deploy en netlify
+- 1 - Principios de diseño en react
+- 2 - Renderizado condicional
+- 3 - Deploy en netlify
 ```
 
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [EVENTOS * Unidad 3](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad3_EVENTOS.md)
+
+Temas:
+
+```
+- 1 - Servicios en la nube
+- 2 - ¿Qué es firebase?
+- 3 - Funciones firebase
+- 4 - ¿Qué es Firestore?
+```
 
 ---
 ---
