@@ -109,6 +109,105 @@ A la hora de gestionar y aprender a usar la plataforma, Firebase ofrece document
 
 ## :star:  3 - Funciones firebase
 
+Firebase dispone de diferentes funcionalidades, que se pueden dividir básicamente en 3 grupos: Desarrollo (Develop), Crecimiento (Grow) y Monetización (Earn), a los que hay que sumar la Analítica (Analytics).
+
+### DESARROLLO
+
+El primer grupo de funciones es conocido como Desarrollo o Develop en Firebase. Como su nombre indica, incluye los servicios necesarios para el desarrollo de un proyecto de aplicación móvil o web. Estos contribuyen a que el proceso sea más rápido, puesto que se dejan determinadas actividades a mano de Firebase, mientras que otras permiten optimizar diversos aspectos para conseguir la calidad deseada.
+
+### REALTIME DATABASE
+
+Una de las herramientas más destacadas y esenciales de Firebase son las bases de datos en tiempo real. Estas se alojan en la nube, son No SQL y almacenan los datos como JSON. Permiten alojar y disponer de los datos e información de la aplicación en tiempo real, manteniéndolos actualizados aunque el usuario no realice ninguna acción.
+
+Firebase envía automáticamente eventos a las aplicaciones cuando los datos cambian, almacenando los datos nuevos en el disco. Aunque no hubiera conexión por parte de un usuario, sus datos estarían disponibles para el resto y los cambios realizados se sincronizarían una vez restablecida la conexión.
+
+### AUTENTICACIÓN DE USUARIOS
+
+La identificación de los usuarios de una app es necesaria en la mayoría de los casos si estos quieren acceder a todas sus características.
+
+Firebase ofrece un sistema de autenticación que permite tanto el registro propiamente dicho (mediante email y contraseña) como el acceso utilizando perfiles de otras plataformas externas (por ejemplo, de Facebook, Google o Twitter), una alternativa muy cómoda para usuarios reacios a completar el proceso.
+
+Así, este tipo de tareas se ven simplificadas, considerando también que desde aquí se gestionan los accesos y se consigue una mayor seguridad y protección de los datos. Se debe mencionar que Firebase puede guardar en la nube los datos de inicio de sesión con total seguridad, evitando que una persona tenga que identificarse cada vez que abra la aplicación.
+
+### ALMACENAMIENTO EN LA NUBE
+
+Firebase cuenta con un sistema de almacenamiento, donde los desarrolladores pueden guardar los ficheros de sus aplicaciones (y vinculándolos con referencias a un árbol de ficheros para mejorar el rendimiento de la app) y sincronizarlos. Al igual que la mayoría de herramientas de Firebase, es personalizable mediante determinadas reglas.
+
+Este almacenamiento es de gran ayuda para tratar archivos de los usuarios (por ejemplo, fotografías que hayan subido), que se pueden servir de forma más rápida y fácil. También hace la descarga de referencias a ficheros más segura.
+
+### CRASH REPORTING
+
+Para mantener y mejorar la calidad de la app, hay que prestar especial atención a los fallos, por lo que los seguimientos de errores (y también del rendimiento general de la app) son clave para poder actuar y solucionarlos.
+
+Por ello, Firebase ofrece Crash Reporting, que detecta y ayuda a solucionar los problemas de la app, consiguiendo un informe de errores muy detallado (con datos como el dispositivo o la situación en la que se da la excepción) y organizado, puesto que los agrupa por similitud y los clasifica por gravedad.
+
+### TEST LAB
+
+El Laboratorio de pruebas permite testear la app en dispositivos Android virtuales basados en los parámetros que configuremos. De esta forma, es mucho más sencillo detectar posibles errores antes de lanzar la aplicación.
+
+### REMOTE CONFIG.
+
+La configuración remota sirve para modificar ciertas funciones, aspectos o incluso la apariencia de la aplicación sin que sea necesario publicar una actualización de la misma. De esta forma, no se requiere ningún tipo de acción por parte del usuario y se trata de cambios mucho más dinámicos.
+
+Existen diversos parámetros que permiten personalizar al detalle estos cambios, considerando factores como la ubicación o idioma del usuario, su dispositivo de acceso, etc.
+
+### CLOUD MESSAGING
+
+Su utilidad es el envío de notificaciones y mensajes a diversos usuarios en tiempo real y a través de varias plataformas.
+
+### HOSTING
+
+Firebase también ofrece un servidor para alojar las apps de manera rápida y sencilla, esto es, un hosting estático y seguro. Proporciona certificados de seguridad SSL y HTTP2 de forma automática y gratuita para cada dominio, reafirmando la seguridad en la navegación. Funciona situándolas en el CDN (Content Delivery Network) de Firebase, una red que recibe los archivos subidos y permite entregar el contenido.
+
+### CRECIMIENTO
+
+El segundo bloque está enfocado al proceso de crecimiento de la aplicación, que contempla tanto la gestión de aquellos que ya son usuarios de la misma, como herramientas para la captación de nuevas audiencias.
+
+### NOTIFICATIONS
+
+Las notificaciones son parte esencial de muchas aplicaciones para informar al usuario de eventos, que pueden ir desde un mensaje recibido hasta una información relevante según el tipo de usuario. Con esta herramienta, se pueden diseñar y enviar las notificaciones push en el momento preciso, con la posibilidad, además, de segmentarlas y personalizarlas (por ejemplo, en base al usuario, su idioma o el tipo de dispositivo que utiliza).
+
+Este servicio es gratuito, seguro y sin límites, pero además cuenta con la posibilidad de vinculación a Analytics. Con ello, se pueden conseguir datos y estadísticas sobre las notificaciones enviadas y extraer conclusiones de gran valor.
+
+### APP INDEXING
+
+App Indexing posibilita la integración de la aplicación en los resultados arrojados por el buscador de Google, con el cual está vinculado Firebase. De este modo, las búsquedas sobre contenido relacionado pueden mostrar la app indexada como resultado, impulsando el tráfico orgánico y dando a conocer el proyecto.
+
+Si quien accede a este resultado ya ha instalado la aplicación, esta se podría abrir para mostrarle directamente el contenido que desee. De no haber descargado la app, se podría sugerir al usuario la instalación.
+
+### DYNAMIC LINKS
+
+Se trata de links “inteligentes”, que permiten redirigir al usuario a zonas o contenidos concretos de la aplicación en función del objetivo que se quiera conseguir y de la personalización que se otorgue a diversos parámetros de esta URL. Así, el funcionamiento de estos enlaces se dirige como queramos y procurando una experiencia agradable para el usuario en diversas plataformas.
+
+Son de especial utilidad para dirigir contenidos a ciertos segmentos de usuarios, ya sean actuales o potenciales, en cuyo caso podrán recibir una recomendación de instalar nuestra app.
+
+### INVITES
+
+Mediante Invites, los usuarios tienen la posibilidad de invitar a sus contactos a utilizar la app o de compartir contenidos específicos con ellos. Esto se realiza por diferentes medios, como e-mails o SMS. Es interesante la posibilidad de cuantificar las invitaciones enviadas y la repercusión de las mismas.
+
+### ADWORDS
+
+Con AdWords y la posibilidad de realizar campañas de publicidad online, es más sencillo dar a conocer la aplicación, impactando a usuarios potenciales para activar el crecimiento.
+
+### MONETIZACIÓN
+
+La monetización en Firebase es la tercera pata contemplada. En este caso, la búsqueda de ganancias viene ligada a la publicidad que se puede insertar en las aplicaciones, consiguiendo que los usuarios de las mismas reciban anuncios relevantes en función de la segmentación que se le haya dado a la campaña.
+
+Para integrar estos anuncios en la app, Firebase cuenta con AdMob, muy interesante para rentabilizar la aplicación.
+
+### ANALÍTICA
+
+El análisis de datos y resultados es clave para la toma de decisiones coherentes y fundamentadas para el proyecto y la estrategia de marketing asociada. Con Firebase Analytics, puedes controlar diversos parámetros y obtener mediciones variadas desde un mismo panel de manera gratuita. Es compatible con iOS, Android, C++ y Unity y, entre otras funciones, permite:
+
+ 
+
+Obtener mediciones y análisis de los eventos que tienen lugar en la aplicación. Se reciben informes ilimitados con hasta 25 atributos.
+
+Comprobar el rendimiento de eventos, notificaciones y campañas publicitarias en redes, basándose en el comportamiento de lo usuarios.
+
+Conocer al usuario con información segmentada. Por ejemplo, se pueden obtener datos estadísticos de idioma, dispositivo de acceso, edad, género, ubicación, etc. También se consiguen insights de uso y fidelidad hacia la app.
+
+
 ---
 
 ## :star: 4 - ¿Qué es Firestore?
