@@ -36,6 +36,7 @@ Y también vamos a agregar **JSX** con **babel**:
 
 
 ---
+---
 
 ## <img src="https://img.icons8.com/dusk/50/null/untested.png"/> MiniProyectos y Proyectos
 
@@ -103,7 +104,11 @@ Temas que se ven:
 
 -> [Aca se puede ver el diseño en Figma](https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=0%3A1&t=7dq2BK8ToYT7D9wQ-0)
 
--> [Aca pueden ver el proyecto en codigo](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb)
+-> [Aca pueden ver el la teoria](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb)
+
+-> [Aca pueden ver el proyecto en codigo](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb/05-mini-proyecto)
+
+---
 ---
 
 ## :book: ¿ Por qué React ?
