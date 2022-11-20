@@ -69,6 +69,7 @@ Hago una mini homePage, con **Header** (logo con una lista que es el menu), **Li
 
 ###  <img src="https://img.icons8.com/dusk/30/null/untested.png"/>  Proyectos
 
+
 ### 1er proyecto: Página estática en React
 
 ![image](https://user-images.githubusercontent.com/72580574/200196250-ec76c280-a6f6-4b79-ba73-92dac7779299.png)
@@ -88,7 +89,7 @@ Temas que se ven:
 
 -> :computer: [aca pueden ver la teoria](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react)
 
--> :computer: [aca se puede ver en codigo -> **04_pagina_estatica_en_react**](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react/04-mini-proyecto)
+-> :computer: [aca se puede ver en codigo](https://github.com/eugenia1984/scrimba-project1)
 
 
 ### 2do proyecto: Clone de las experiencias de airbnb
