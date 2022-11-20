@@ -206,6 +206,38 @@ class roomB
 
 ---
 
-## :star 3 - Crear Base de datos en firebase
+## :star: 3 - Crear Base de datos en firebase
+
+### Pasos para crear una Base de datos en Firebase
+
+1. Deberemos crear un proyecto
+![image](https://user-images.githubusercontent.com/72580574/202920177-dfc085e3-7a27-484b-a22d-b53a6be496db.png)
+
+
+2.  Nos da la opción de activar Google Analytics
+![image](https://user-images.githubusercontent.com/72580574/202920196-475bef93-70b9-4057-b748-4216724f37d0.png)
+
+
+3. Seleccionamos la cuenta y hacemos click en crear proyecto
+![image](https://user-images.githubusercontent.com/72580574/202920200-845b7329-4f78-4d7c-8889-17b88e775506.png)
+
+4.  En el panel podemos acceder a las opciones, cloud Firestore
+![image](https://user-images.githubusercontent.com/72580574/202920209-f794efd1-66e6-46a5-b667-52576a6ab2b8.png)
+
+5.  Seleccionamos la opción crear base de datos
+![image](https://user-images.githubusercontent.com/72580574/202920212-58412eb0-f0f9-47dc-999e-5ba3e13bc57b.png)
+
+6. Elegimos la opción modo de prueba
+![image](https://user-images.githubusercontent.com/72580574/202920220-0f023e27-c0cc-4134-819d-5464a1c22dff.png)
+
+7. Seleccionamos la zona mas próxima de los servidores
+![image](https://user-images.githubusercontent.com/72580574/202920226-3fa181f3-6e7b-4dc3-ada9-5661d57d8af0.png)
+
+8. Tenemos listo nuestra base de datos para poder trabajar
+![image](https://user-images.githubusercontent.com/72580574/202920240-dad95fd1-5782-45a0-bb13-933656ba4bda.png)
+
+
+
+
 
 ---
