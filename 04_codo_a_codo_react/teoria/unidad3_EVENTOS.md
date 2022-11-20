@@ -212,4 +212,6 @@ Conocer al usuario con información segmentada. Por ejemplo, se pueden obtener d
 
 ## :star: 4 - ¿Qué es Firestore?
 
+-> Esta en la proxima unidad: Arquitectura: unidad 1
+
 ---
