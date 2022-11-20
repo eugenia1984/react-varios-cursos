@@ -87,9 +87,9 @@ Temas que se ven:
 - aplicar CSS
 ```
 
--> :computer: [aca pueden ver la teoria](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/04_pagina_estatica_en_react)
+-> :computer: [aca pueden ver la teoria](https://github.com/eugenia1984/scrimba-project1)
 
--> :computer: [aca se puede ver en codigo](https://github.com/eugenia1984/scrimba-project1)
+-> :computer: [aca se puede ver deployado](https://scrimba-proyect1.netlify.app/)
 
 
 ### 2do proyecto: Clone de las experiencias de airbnb
