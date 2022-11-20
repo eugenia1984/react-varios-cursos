@@ -1,12 +1,25 @@
-# :star2: APIS * Unidad 3
+# :star2: ARQUITECTURA * Unidad 1
 
 ---
 
 ##:book: Temas
 
 ```
-- 1 - Servicios en la nube
-- 2 - ¿Qué es firebase?
-- 3 - Funciones firebase
-- 4 - ¿Qué es Firestore?
+- 1 - ¿Qué es firestore?
+- 2 - Estructura de firestore
+- 3 - Crear Base de datos en firebase
 ```
+
+---
+
+## :star: 1 - ¿Qué es firestore?
+
+---
+
+## :star  2 - Estructura de firestore
+
+---
+
+## :star 3 - Crear Base de datos en firebase
+
+---
