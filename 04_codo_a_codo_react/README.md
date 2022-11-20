@@ -295,6 +295,27 @@ Temas:
 ```
 
 ---
+
+##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> ARQUITECTURA:  Unidad 1 
+
+Temas:
+```
+- ¿Qué es firestore?
+- Estructura de firestore
+- Crear Base de datos en firebase
+```
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> Unidad 1
+
+
+Temas:
+```
+- ¿Qué es firestore?
+- Estructura de firestore
+- Crear Base de datos en firebase
+```
+
+---
 ---
 
 ## Ejercicios y praticas de las clases
