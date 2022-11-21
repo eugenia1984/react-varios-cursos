@@ -260,4 +260,14 @@ Si no pasamos la pregunta ¿ como hacemos para que solo renderice punchline?
 
 ->  [Lo pueden ver en este SandBox](https://codesandbox.io/s/jokes-challenge-dykeox)
 
+
+![image](https://user-images.githubusercontent.com/72580574/203125409-ebf9dd04-7b50-4991-80a3-99623494d62b.png)
+
+
+## Renderizado condicional
+
+![image](https://user-images.githubusercontent.com/72580574/203125477-1dd0c30d-1e48-4448-a00c-69806291726e.png)
+
+```{setup && <p> Setup: {setup} </p>}``` -> Si tengo la **prop** **setup** entonces voy a mostrarla, si no tengo la propr, va a ser ***falsy** y no se muestra.
+
 ---
