@@ -258,6 +258,6 @@ console.log(name); // Mr. cat
 
 Si no pasamos la pregunta ¿ como hacemos para que solo renderice punchline?
 
-->  [Lo pueden ver en este SandBox]()
+->  [Lo pueden ver en este SandBox](https://codesandbox.io/s/jokes-challenge-dykeox)
 
 ---
