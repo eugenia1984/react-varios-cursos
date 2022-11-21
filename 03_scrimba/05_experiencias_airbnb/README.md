@@ -283,3 +283,32 @@ Y las muestro con un poco de renderizado condicional
 ![image](https://user-images.githubusercontent.com/72580574/203128401-16f43a93-20f3-4978-8136-70a4036740e7.png)
 
 ---
+
+## :star: Array.map
+
+Vamos a repasar el metodo, ya que se usa mucho en React para recorrer un array y poder renderizar la información en componentes.
+
+Vamos a hacer 3 desafíos:
+
+- Desafio 1: dado un array de numeros, retornar un array de cada numero al cuadrado.
+
+```JavaScript
+const nums = [1, 2, 3, 4, 5];
+const squares = nums.map( num => num.num);
+```
+
+- Desafio 2: dado un array de Strings, devolver un array donde la primera letra de cada String sea mayuscula.
+
+```JavaScript
+const names= ["alice", "bob", "charlie", "daniel"];
+const capitalized = names.map( (name) => return name[0].toUpperCase() + name.slice(1));
+```
+
+- Desafio 3: dado un array de Strings, devolver un array the Strings que transforme a cada una de las String originales y las envuelva en etiquetas ```<p>``` de HTML.
+
+```JavaScript
+const pokemon = ["Bulbasaur", "charmander", "Squirtle"];
+const paragraphs = pokemon.map( (mon) => `<p>{mon}</p>`);
+
+```
+---
