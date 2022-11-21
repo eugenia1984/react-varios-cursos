@@ -107,7 +107,7 @@ Temas que se ven:
 
 -> [Aca pueden ver el la teoria](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb)
 
--> [Aca pueden ver el proyecto en codigo](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb/05-mini-proyecto)
+-> [Aca pueden ver el proyecto en codigo](https://github.com/eugenia1984/scrimba-project2)
 
 ---
 ---
