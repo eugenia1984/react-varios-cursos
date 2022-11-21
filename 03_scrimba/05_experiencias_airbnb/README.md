@@ -68,3 +68,24 @@ Y si nos centramos en el navbar del lado izquierdo tambien podmeos pensar el men
 
 
 ---
+
+## :star: JavaScript dentro de JSX
+
+- Simplement agregamos ```{}``` para encerrar el codigo de JavaScript.
+
+Lo vemos con un ejemplo en codigo:
+
+```JSX
+import React from "react";
+import ReactDom from "react-dom";
+
+function App() {
+  const firstName= "Joe",
+  const lastName= "Doe";
+  
+  return (
+    <h1>Holle {firstName} {lastName}!</h1>
+  );
+}
+```
+---
