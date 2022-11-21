@@ -252,11 +252,13 @@ console.log(name); // Mr. cat
 
 - ```App``` debe renderizar 4 - 5  componentes ```<Joke />``` (estos components deben estar definidos en su propio archivo). Cada Joke debe recibir una propiedad ```setup``` y ```punchline``` y renderizarlas como a vos te parezca
 
-- Extra: Algunas Joke son solo punchline sin setup, por ejemplo:
+- Extra 1: Algunas Joke son solo punchline sin setup, por ejemplo:
 
 "It´s hard to explain puns to kleptomaniacs because they always take things literally".
 
 Si no pasamos la pregunta ¿ como hacemos para que solo renderice punchline?
+
+- Extra 2: ¿Como le pasamos una prop que no es un String? Por ejemplo, pensemos que queremos que cada componente Joke reciba las props **upvotes** y **downvotes** que son numeros, como una prop pero en **un array the comentarios**, y un boolean **isPun**
 
 ->  [Lo pueden ver en este SandBox](https://codesandbox.io/s/jokes-challenge-dykeox)
 
@@ -264,10 +266,15 @@ Si no pasamos la pregunta ¿ como hacemos para que solo renderice punchline?
 ![image](https://user-images.githubusercontent.com/72580574/203125409-ebf9dd04-7b50-4991-80a3-99623494d62b.png)
 
 
-## Renderizado condicional
+## Extra 1 :  Renderizado condicional con && (AND)
 
 ![image](https://user-images.githubusercontent.com/72580574/203125477-1dd0c30d-1e48-4448-a00c-69806291726e.png)
 
 ```{setup && <p> Setup: {setup} </p>}``` -> Si tengo la **prop** **setup** entonces voy a mostrarla, si no tengo la propr, va a ser ***falsy** y no se muestra.
+
+
+##  Extra 2: props que son otro tipo de datos además de String
+
+![image](https://user-images.githubusercontent.com/72580574/203127944-db836d38-ba11-4400-9b23-53f5bae5a13f.png)
 
 ---
