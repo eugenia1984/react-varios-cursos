@@ -141,3 +141,9 @@ function App() {
 ```
 
 ---
+
+## :star: Creamos un componente card
+
+[Aca se puede ver el codigo completo](https://codesandbox.io/s/cats-vor2ho)
+
+---
