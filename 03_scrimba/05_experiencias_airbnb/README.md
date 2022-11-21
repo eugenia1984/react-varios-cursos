@@ -225,7 +225,24 @@ function Navbar(props) {
 
 5. ¿ Que tipo de dato es la prop cuando la recibe el componente?
 
-Es un **objeto** por eso para acceder a las propiedades del **prop** usamos **dot notation**, por ejemplo *prop
+Es un **objeto** por eso para acceder a las propiedades del **prop** usamos **dot notation**, por ejemplo *prop.name*
+
+---
+
+## :star: Desestructuración
+
+```JavaScript
+const person = {
+  img: "./image/cat.jpg",
+  name: "Mr. cat",
+  phone: "(000) 111 - 2222",
+  email: "cat@cat.com"
+}
+
+const { image: img, name, phone, email } = person;
+console.log(image); // "./image/cat.jpg"
+console.log(name); // Mr. cat
+```
 
 ---
 ---
