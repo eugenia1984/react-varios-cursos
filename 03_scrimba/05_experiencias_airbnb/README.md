@@ -71,21 +71,73 @@ Y si nos centramos en el navbar del lado izquierdo tambien podmeos pensar el men
 
 ## :star: JavaScript dentro de JSX
 
-- Simplement agregamos ```{}``` para encerrar el codigo de JavaScript.
+- Simplement agregamos ```{}``` para encerrar el codigo de JavaScript. Y puedo pasar todo, no solo constantes,/variables, sino un objeto, una función, todo lo que sea JavaScript
 
 Lo vemos con un ejemplo en codigo:
 
 ```JSX
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
 
 function App() {
   const firstName= "Joe",
   const lastName= "Doe";
+  const date = new Date();
   
   return (
-    <h1>Holle {firstName} {lastName}!</h1>
+    <div>
+      <h1>Hello {firstName} {lastName}!</h1>
+      <p>It´s currently about {date.getHours % 12} o´clock.</p>
+    </div>
   );
 }
 ```
+
+Pero para que sea más legible es recomendable hacer todo el JavaScript antes del return, por lo que podria ser asi:
+
+```JSX
+import React from "react";
+import ReactDOM from "react-dom";
+
+function App() {
+  const firstName= "Joe",
+  const lastName= "Doe";
+  const hours = new Date().getHours % 12;
+  
+  return (
+    <div>
+      <h1>Hello {firstName} {lastName}!</h1>
+      <p>It´s currently about {hours} o´clock.</p>
+    </div>
+  );
+}
+```
+
+-> Asi tengo al principio la **logica** y luego en el **return** voy a tener **lo que renderiza**
+
+-> Vemos otro ejemplo que dependiendo el horario va a mostrar distinto saludo:
+
+```JSX
+import React from "react";
+import ReactDOM from "react-dom";
+
+function App() {
+  const  date = new Date();
+  const hours = date.getHours();
+  let timeOfDay;
+  
+  if (hours < 12) {
+    timeOfDay = "morning";
+  } else if (hours >= 12 && hours < 17) {
+    timeOfDay = "afternoon";
+  } else {
+    timeOfDay = "night";
+  }
+  
+  return (
+     <h1>Good {timeOfDay} !</h1>
+  );
+}
+```
+
 ---
