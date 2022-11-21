@@ -146,4 +146,21 @@ function App() {
 
 [Aca se puede ver el codigo completo](https://codesandbox.io/s/cats-vor2ho)
 
+![image](https://user-images.githubusercontent.com/72580574/203112994-7463b888-6d30-4010-9b53-0ef369351d65.png)
+
+![image](https://user-images.githubusercontent.com/72580574/203113039-d07a33dd-5361-41a9-923c-ec238477dce3.png)
+
+
+Por props voy a pasarle la información a renderizar:
+
+- imagen
+
+- nombre
+
+- telefono
+
+- email
+
+---
+
 ---
