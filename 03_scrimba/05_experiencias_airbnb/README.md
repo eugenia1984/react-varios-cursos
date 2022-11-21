@@ -25,7 +25,7 @@
 
 - En React no se harcodea, sino quqe se utilizan las **props** (**propiedades**)
 
-### Entendamos el concepto básico de las props
+### :star: Entendamos el concepto básico de las props
 
 -Si tenemos un ```<a >``` necesitamos el atributo **href**. Si tenemos ```<img > ``` necesitamso el atributo **src**.Si tenemos un ```<input ``` necesitamos el atributo **type**. Por lo que vemos, hay ciertas etiquetas las cuales necesitan ciertos atributos.
 
@@ -48,6 +48,23 @@ function addTwoNumbersTogether(a, b) {
 
 -Las **props** se pueden pensar como estos **parametros** en las **funciones**. Pasamos información adicional para poder **reutilizar**.
 
+
+### Veamos un segundo ejemplo para seguir con props
+
+![image](https://user-images.githubusercontent.com/72580574/203089487-20e8da20-f601-4e9f-adc1-3d3ed708c354.png)
+
+
+En YouTube podmeos ver que hay muchas cards reutilizables que tiene la imagen del video que ocupa la mitad superior del cuadrado, luego tiene el titulo en negrita, y algunos otros datos; todas tienen la misma estructura.
+
+Un desarrollador diseño un solo componente y lo hizo reutilizable, para poder renderizar cada una de las tarjetitas.
+
+Y si volvemos a ver la estructura podemos darnos cuentas que tenemos un **cuadrado padre** (el de las categorías) y **cuadrados hijos** (cada tarjeta que se muestra dentro de las categorias).
+
+![image](https://user-images.githubusercontent.com/72580574/203089758-e292a8b7-a961-4ced-8b03-acc108ba19bc.png)
+
+Y si nos centramos en el navbar del lado izquierdo tambien podmeos pensar el menu como algo reutilizable que recibe props y va randerizando la imagen y el texto de cada opción:
+
+![image](https://user-images.githubusercontent.com/72580574/203090132-202e37e2-db08-4f4f-af14-e8cc545574c1.png)
 
 
 ---
