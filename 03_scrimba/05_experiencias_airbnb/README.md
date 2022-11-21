@@ -188,9 +188,18 @@ Tengo que cambiarlo a:
 
 1. ¿En que nos ayudan las props?
 
+Como los parametros que le pasamos a una funcion, las props pasadas a un componente nos ayudan a hacer ese componente más reutilizable.
+
+
 2. ¿Como se pasan las props a un componente?
 
-3. ¿ Puedo pasar una prop custom (ej.: `blablabla={true}`) a un elemento nativo dle DOM (ej. <div blablabla={true}>)? ¿Por que?
+Similar a como tenemos los atributos en las etiquetas de HTML. 
+
+
+3. ¿ Puedo pasar una prop custom (ej.: `blablabla={true}`) a un elemento nativo dle DOM (ej. `<div blablabla={true}>`)? ¿Por que?
+
+No, orque utilizamos JSX que retorna un objeto, y eventualmente van a ser parte del DOM, el cual tiene solo atributos de HTML que cumplen con el standard de HTML5.
+
 
 4. ¿Como recibo la prop en este componente ?
 ```JSX
@@ -203,7 +212,20 @@ function Navbar() {
 }
 ```
 
+```JSX
+function Navbar(props) {
+  return (
+    <header>
+      ...
+    </header>
+  )
+}
+```
+
+
 5. ¿ Que tipo de dato es la prop cuando la recibe el componente?
+
+Es un **objeto** por eso para acceder a las propiedades del **prop** usamos **dot notation**, por ejemplo *prop
 
 ---
 ---
