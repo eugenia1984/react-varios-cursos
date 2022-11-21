@@ -161,6 +161,25 @@ Por props voy a pasarle la información a renderizar:
 
 - email
 
----
+-> Al estar pasandolo como ``` ({ img, name, phone, email })``` estoy **desestructurando**. 
 
+-> Otro modo sería: ``` (props)```, en este caso, al no esta desestructurado en vez de usar:
+```JSX
+<img
+   className="cat-photo"
+   src={img}
+   alt="cat"
+/>
+```
+  
+Tengo que cambiarlo a:
+```JSX
+<img
+   className="cat-photo"
+   src={props.img}
+   alt="cat"
+/>
+```
+
+---
 ---
