@@ -245,4 +245,19 @@ console.log(name); // Mr. cat
 ```
 
 ---
+
+## :star: Challenge
+
+- Renderizar el componente ```<App />```, que debe estar en su propio archivo
+
+- ```App``` debe renderizar 4 - 5  componentes ```<Joke />``` (estos components deben estar definidos en su propio archivo). Cada Joke debe recibir una propiedad ```setup``` y ```punchline``` y renderizarlas como a vos te parezca
+
+- Extra: Algunas Joke son solo punchline sin setup, por ejemplo:
+
+"It´s hard to explain puns to kleptomaniacs because they always take things literally".
+
+Si no pasamos la pregunta ¿ como hacemos para que solo renderice punchline?
+
+->  [Lo pueden ver en este SandBox]()
+
 ---
