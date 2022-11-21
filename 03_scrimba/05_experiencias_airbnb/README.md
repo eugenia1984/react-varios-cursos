@@ -198,7 +198,7 @@ Similar a como tenemos los atributos en las etiquetas de HTML.
 
 3. ¿ Puedo pasar una prop custom (ej.: `blablabla={true}`) a un elemento nativo dle DOM (ej. `<div blablabla={true}>`)? ¿Por que?
 
-No, orque utilizamos JSX que retorna un objeto, y eventualmente van a ser parte del DOM, el cual tiene solo atributos de HTML que cumplen con el standard de HTML5.
+No, porque utilizamos JSX que retorna un objeto, y eventualmente van a ser parte del DOM, el cual tiene solo atributos de HTML que cumplen con el standard de HTML5.
 
 
 4. ¿Como recibo la prop en este componente ?
