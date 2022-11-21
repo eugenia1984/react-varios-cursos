@@ -182,4 +182,28 @@ Tengo que cambiarlo a:
 ```
 
 ---
+
+## :star: Mini quiz
+
+
+1. ¿En que nos ayudan las props?
+
+2. ¿Como se pasan las props a un componente?
+
+3. ¿ Puedo pasar una prop custom (ej.: `blablabla={true}`) a un elemento nativo dle DOM (ej. <div blablabla={true}>)? ¿Por que?
+
+4. ¿Como recibo la prop en este componente ?
+```JSX
+function Navbar() {
+  return (
+    <header>
+      ...
+    </header>
+  )
+}
+```
+
+5. ¿ Que tipo de dato es la prop cuando la recibe el componente?
+
+---
 ---
