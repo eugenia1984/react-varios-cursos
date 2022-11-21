@@ -277,4 +277,9 @@ Si no pasamos la pregunta ¿ como hacemos para que solo renderice punchline?
 
 ![image](https://user-images.githubusercontent.com/72580574/203127944-db836d38-ba11-4400-9b23-53f5bae5a13f.png)
 
+
+Y las muestro con un poco de renderizado condicional
+
+![image](https://user-images.githubusercontent.com/72580574/203128401-16f43a93-20f3-4978-8136-70a4036740e7.png)
+
 ---
