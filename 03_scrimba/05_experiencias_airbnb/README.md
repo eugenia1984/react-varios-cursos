@@ -382,7 +382,7 @@ Hace el codigo más sostenible, no tenemos que andar cambiandolo, se actualiza s
 1. Me creo **data.js**, con un array de objetos (cada objeto es una de las experiencias):
 
 ```JavaScript
-export default [
+const data = [
   {
     id: 1,
     title: "Life Lessons with Katie Zaferes",
@@ -423,6 +423,8 @@ export default [
     openSpots: 3,  
   }
 ];
+
+export default data;
 ```
 
 2. Para ver que la importe bien, simplemente lo muestro por consola:
