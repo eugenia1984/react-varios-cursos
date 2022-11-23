@@ -44,7 +44,7 @@ Renderizar tarjetas con datos de contacto de gatos que se crean dinamicamente po
 
 Renderizamos diferentes cards que reciben la información dinámicamente mediante **props** de su componente padre. Y le sumamos el **renderizadoc ondicional** con **&**. Además de pasar datos de tipo **String** como props pasamos datos de tipo **boolean** y **Number**.
 
-:tv: -> [Aca pueden ver el proyecto en Sandbox.io] (https://codesandbox.io/s/jokes-challenge-dykeox)
+:tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/jokes-challenge-dykeox)
 
 
 
