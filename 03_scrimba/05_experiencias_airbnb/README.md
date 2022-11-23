@@ -309,6 +309,24 @@ const capitalized = names.map( (name) => return name[0].toUpperCase() + name.sli
 ```JavaScript
 const pokemon = ["Bulbasaur", "charmander", "Squirtle"];
 const paragraphs = pokemon.map( (mon) => `<p>{mon}</p>`);
-
 ```
+
 ---
+
+## :star: React renderiza arrays
+
+En la realidad no se renderiza un simple String, sino objetos, es un poco más complejo, veamoslo con un ejemplo de código:
+
+````JSX
+export default function App() {
+  const colors = [ "Red", "Green", "Yellow", "Blue", "Indogo"];
+  
+  return (
+    <div>
+     {colors.map( (element, index) => <h3 key ={index} > element </h3>)}
+    </div>
+  )
+}
+```
+
+De esste modo vamos a poder cambiar el ejercicio que hicimos de JOkes, creando un array de elementos JSX y renderizarlo, sin tener que pasarlo en cada componente.
