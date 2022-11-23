@@ -29,7 +29,7 @@ En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 
 ### 4to Miniproyecto : home page
 
-En [05_experiencias_airbnb](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb) Hago una mini homePage, con **Header** (logo con una lista que es el menu), **List** y **Footer**, trabajando separando en componentes y estilando con CSS.
+Hago una mini homePage, con **Header** (logo con una lista que es el menu), **List** y **Footer**, trabajando separando en componentes y estilando con CSS.
 
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
 
@@ -44,7 +44,7 @@ En [05_experiencias_airbnb](https://github.com/eugenia1984/react-varios-cursos/t
 
 ### 6to miniproyecto : cards con chistes
 
-Renderizamos diferentes cards que reciben la información dinámicamente mediante **props** de su componente padre. Y le sumamos el **renderizado condicional** con **&&**. Además de pasar datos de tipo **String** como props pasamos datos de tipo **boolean** y **Number**.
+En [05_experiencias_airbnb](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb) renderizamos diferentes cards que reciben la información dinámicamente mediante **props** de su componente padre. Y le sumamos el **renderizado condicional** con **&&**. Además de pasar datos de tipo **String** como props pasamos datos de tipo **boolean** y **Number**.
 
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/jokes-challenge-dykeox)
 
