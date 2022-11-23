@@ -21,7 +21,7 @@ En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 :tv: -> [Aca lo pueden ver en SandBox.io](https://codesandbox.io/s/mini-proyecto2-ujpmko)
 
 
-#### 3er miniproyecto : Navbar
+### 3er miniproyecto : Navbar
 
 En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto) la tercer practica con una NavBar de Bootstrap vamos a crear el primer componente que sera el NavBar y luego crearemos nuestro segundo componente funcional.
 
