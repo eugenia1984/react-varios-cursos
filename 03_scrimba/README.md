@@ -5,10 +5,7 @@ Todo el curso lo podés ver acá: [https://scrimba.com/learn/learnreact](https:/
 
 ---
 
-## <img src="https://img.icons8.com/dusk/50/null/untested.png"/> MiniProyectos y Proyectos
-
-
-###  <img src="https://img.icons8.com/dusk/40/null/untested.png"/> MiniProyectos
+##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> MiniProyectos
 
 ### 1er mini-proyecto
 
@@ -36,7 +33,7 @@ Hago una mini homePage, con **Header** (logo con una lista que es el menu), **Li
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
 
 
-##  <img src="https://img.icons8.com/dusk/40/null/untested.png"/>  Proyectos
+##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
 
 ### 1er proyecto: Página estática en React
