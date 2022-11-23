@@ -358,3 +358,21 @@ Como React trabaja con el virtual DOM, para poder identificar a cada uno de los 
 :tv: -> [Aca esta el SandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
 
 ---
+
+## :star: Mini quiz
+
+1. ¿Que hace el metodo de los array .map()?
+
+Refiriendos a JavaScript, recibe una función como parámetros y el resultado de esa callback va a ser puesto en el mismo index del nuevo array que va a devolver.  Va itinerando item por item del array, y los va a ir modificando y mostrando en un nuevo array, asi no modifica el original.
+
+2. ¿Para que utilizamos el método .map() en React?
+
+Tomamos un array de data, lo mapeamos y lo transformamos en un elemento JSX para poder mostrarlo.
+
+3. ¿Porque es mejor utilizar .map() que crear un componente manual y tipearle los datos ?
+
+Porque lo hace dinamico, de este modo se pueden agregar cuando elementos querramos y no vamos a tener que ir compiando y pegando el elemento y completarle las propiedades, si ya tenemos el .map() va a tener un nuevo elemento y lo renderiza.
+
+Hace el codigo más sostenible, no tenemos que andar cambiandolo, se actualiza solo.
+
+---
