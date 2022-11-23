@@ -88,7 +88,7 @@ Dentro de **exercises**
 5 - Deployando en Netlify
 ```
 
-- En [**my-app**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la alicación creada en REact con Create React App.
+- En [**my-app**](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada en React con Create React App.
 
 ---
 
