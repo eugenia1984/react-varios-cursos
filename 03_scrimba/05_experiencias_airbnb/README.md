@@ -337,6 +337,12 @@ De este modo vamos a poder cambiar el ejercicio que hicimos de JOkes, creando un
 
 Ahora vamos a modificar el mino-proyecto de Jokes para poder mapear componentes.
 
+
+Vamos a crear **JokesData.js** para simular el llamado a una API, y asi poder mostrar la información con el método **.map()**
+
+![image](https://user-images.githubusercontent.com/72580574/203642955-868ee618-4292-48dc-863d-c7a9d19bacf2.png)
+
+
 :tv: -> [Aca esta el SandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
 
 ---
