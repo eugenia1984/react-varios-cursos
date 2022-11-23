@@ -48,6 +48,12 @@ En [05_experiencias_airbnb](https://github.com/eugenia1984/react-varios-cursos/t
 
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/jokes-challenge-dykeox)
 
+### :star: 7mo moniproyecto: cards de chistes, mapeando un array de objetos
+
+En [05_experiencias_airbnb](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb) al ejercicio anterior le vamos a sumar el renderizado por medio de un **.map()** de un array de objetos, simulando el llamado a una API, para lo que creamos el archivo JokesData.js que es un array de objetos con keys: setup y punchline.. 
+
+:tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
+
 
 
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
