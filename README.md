@@ -16,7 +16,7 @@ Here I will gather the courses made of **React**
 
 - [4 - React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
-- [5 - ReactJS Essential Training - LinkeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in [my-app](https://github.com/ eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
+- [5 - ReactJS Essential Training - LinkeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
 
 ---
 
@@ -52,7 +52,7 @@ I appreciate your interest in this Project ⌨️ with ❤️ by [María Eugenia
 ---
 
 
-SPANISH
+( ESPAÑOL )
 
 
 # <img src="https://img.icons8.com/bubbles/50/null/react.png"/>  React con Udemy y LinkedIn Learning
