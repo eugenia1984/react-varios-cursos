@@ -317,7 +317,7 @@ const paragraphs = pokemon.map( (mon) => `<p>{mon}</p>`);
 
 En la realidad no se renderiza un simple String, sino objetos, es un poco más complejo, veamoslo con un ejemplo de código:
 
-````JSX
+```JSX
 export default function App() {
   const colors = [ "Red", "Green", "Yellow", "Blue", "Indogo"];
   
@@ -329,4 +329,12 @@ export default function App() {
 }
 ```
 
-De esste modo vamos a poder cambiar el ejercicio que hicimos de JOkes, creando un array de elementos JSX y renderizarlo, sin tener que pasarlo en cada componente.
+De este modo vamos a poder cambiar el ejercicio que hicimos de JOkes, creando un array de elementos JSX y renderizarlo, sin tener que pasarlo en cada componente.
+
+---
+
+## :star: Mapeando componentes
+
+Ahora vamos a modificar el mino-proyecto de Jokes para poder mapear componentes.
+
+---
