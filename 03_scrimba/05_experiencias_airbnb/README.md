@@ -348,7 +348,7 @@ La importamos para poder utilizarla en nuestra App.js:
 import JokesData from "./JokesData";
 ```
 
-Me creo la constante **jokeElements** , la cual voy a hacerle el **map** a mi **JokesData** y me va a devolver cada uno de los componentes **Joke** con su **setup** y **pounchline**.
+Me creo la constante **jokeElements** , la cual voy a hacerle el **map** a mi **JokesData** y me va a devolver cada uno de los componentes **Joke** con su **setup** y **punchline**.
 
 Como React trabaja con el virtual DOM, para poder identificar a cada uno de los componenes Joke debo identificarlos conla **key** que debe ser única, por eso le asigno el valor del **index**
 
