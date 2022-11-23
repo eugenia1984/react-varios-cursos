@@ -21,16 +21,31 @@ En la carpeta [02_mini-proyecto](https://github.com/eugenia1984/react-varios-cur
 :tv: -> [Aca lo pueden ver en SandBox.io](https://codesandbox.io/s/mini-proyecto2-ujpmko)
 
 
-#### 3er miniproyecto
+#### 3er miniproyecto : Navbar
 
 En la carpeta [03_mini-proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/03_mini-proyecto) la tercer practica con una NavBar de Bootstrap vamos a crear el primer componente que sera el NavBar y luego crearemos nuestro segundo componente funcional.
 
 
-### 4to Miniproyecto
+### 4to Miniproyecto : home page
 
 Hago una mini homePage, con **Header** (logo con una lista que es el menu), **List** y **Footer**, trabajando separando en componentes y estilando con CSS.
 
 :tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/mini-proyecto4-rm4z2q)
+
+
+### 5to miniproyecto : cards con datos de gatos
+
+Renderizar tarjetas con datos de contacto de gatos que se crean dinamicamente por las **props** que reciben de su componente padre. También desestructuramos las props.
+
+:tv: -> [Aca pueden ver el proyecto en Sandbox.io](https://codesandbox.io/s/cats-vor2ho)
+
+
+### 6to miniproyecto : cards con chistes
+
+Renderizamos diferentes cards que reciben la información dinámicamente mediante **props** de su componente padre. Y le sumamos el **renderizadoc ondicional** con **&**. Además de pasar datos de tipo **String** como props pasamos datos de tipo **boolean** y **Number**.
+
+:tv: -> [Aca pueden ver el proyecto en Sandbox.io] (https://codesandbox.io/s/jokes-challenge-dykeox)
+
 
 
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
