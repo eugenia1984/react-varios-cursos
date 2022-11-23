@@ -337,4 +337,6 @@ De este modo vamos a poder cambiar el ejercicio que hicimos de JOkes, creando un
 
 Ahora vamos a modificar el mino-proyecto de Jokes para poder mapear componentes.
 
+:tv: -> [Aca esta el SandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
+
 ---
