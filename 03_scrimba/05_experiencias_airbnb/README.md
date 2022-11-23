@@ -343,6 +343,18 @@ Vamos a crear **JokesData.js** para simular el llamado a una API, y asi poder mo
 ![image](https://user-images.githubusercontent.com/72580574/203642955-868ee618-4292-48dc-863d-c7a9d19bacf2.png)
 
 
+La importamos para poder utilizarla en nuestra App.js: 
+```JSX
+import JokesData from "./JokesData";
+```
+
+Me creo la constante **jokeElements** , la cual voy a hacerle el **map** a mi **JokesData** y me va a devolver cada uno de los componentes **Joke** con su **setup** y **pounchline**.
+
+Como React trabaja con el virtual DOM, para poder identificar a cada uno de los componenes Joke debo identificarlos conla **key** que debe ser única, por eso le asigno el valor del **index**
+
+![image](https://user-images.githubusercontent.com/72580574/203643954-876a01e1-21af-4788-bfde-8a94912b1a6c.png)
+
+
 :tv: -> [Aca esta el SandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
 
 ---
