@@ -8,6 +8,8 @@
 
 -> [Aca pueden ver el proyecto en codigo](https://github.com/eugenia1984/scrimba-project2)
 
+-> [Aca lo pueden ver ya deployado](https://airbnb-project2-scrimba.netlify.app/)
+
 ---
 
 ## :book: Temas que se ven:
