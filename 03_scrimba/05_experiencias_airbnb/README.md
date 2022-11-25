@@ -453,5 +453,23 @@ Para ello agrego en el componente ```<Cards />``` : **openSpots = { item.openSpo
 
 Y asi solo se me va a ser el SOLD OUT el que tega 0 lugares
 
+Y además vamos a poner el texto dinamicamente y ver que si no esta SOLD OUT, pero si es ONLINE, también mostramos ese badge.
+
+```JSX
+function Card( { id , coverImg, coverImgAlt, rating, reviewCount, location, title, price, openSpots}) {
+
+  let badgeText
+  if(openSpots === 0) {
+    badgeText = "SOLD OUT";
+  } else if (location === "Online") {
+    badgeText="ONLINE";
+  }
+ 
+  return (
+    <div key={ id } className="card">
+      {openSpots === 0 && <div className="card-badge">{badgeText} </div>}
+      {location === "Online" && <div className="card-badge">{badgeText} </div>}
+   ```
+
 ---
 
