@@ -440,3 +440,18 @@ Cada vez que utilizamos un **map** para recorrer un array de objetos y con la in
 -> Deben tener una **prop** nombrada **key** y debe ser **única**, en general se utiliza el **id**.
 
 ---
+
+## :star: Renderizado condicional en el proyecto clone de Airbnb
+
+Vamos a aplicar el renderizado condicional, utilizando el valor que tenga la key **openSports**  en mi array de objetos de experiencias.
+
+Para ello agrego en el componente ```<Cards />``` : **openSpots = { item.openSpots }** para que lo reciba cada ```<Card />```.
+
+```JSX
+{openSpots === 0 && <div className="card-badge">SOLD OUT </div>}
+```
+
+Y asi solo se me va a ser el SOLD OUT el que tega 0 lugares
+
+---
+
