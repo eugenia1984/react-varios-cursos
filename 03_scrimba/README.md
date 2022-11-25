@@ -78,7 +78,7 @@ Temas que se ven:
 
 -> :computer: [aca pueden ver la teoria](https://github.com/eugenia1984/scrimba-project1)
 
--> :computer: [aca se puede ver deployado](https://scrimba-proyect1.netlify.app/)
+-> :computer: [aca se puede ver deployado](https://airbnb-project2-scrimba.netlify.app/)
 
 
 ### 2do proyecto: Clone de las experiencias de airbnb
