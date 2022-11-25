@@ -473,3 +473,21 @@ function Card( { id , coverImg, coverImgAlt, rating, reviewCount, location, titl
 
 ---
 
+## :star: Pasando un objeto ocmo una propiedad
+
+En nuestro componente ```<Card />``` notamos que nos quedaron muchas propiedades para pasarle:
+
+![image](https://user-images.githubusercontent.com/72580574/204060596-843529c4-ea86-4599-ae85-f2adb4ffb966.png)
+
+Por lo que podemos cambiar y pasarle directamente todo el **objeto** **item** con cada una de sus key-values.
+
+De modo que nos queda más conciso:
+![image](https://user-images.githubusercontent.com/72580574/204060668-89c14c76-154a-411f-8ca5-c21db28c9497.png)
+
+
+Lo que si nunca olvidarse que debe tener el **key**.
+
+Y como paso too el **ITEM** voy a tener que hacer una desestructuración para poder utilizar las porps que necesito:
+
+![image](https://user-images.githubusercontent.com/72580574/204061070-4f7b277c-e409-4f8f-a248-dfecabff31a2.png)
+
