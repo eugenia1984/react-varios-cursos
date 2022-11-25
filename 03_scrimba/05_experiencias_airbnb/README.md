@@ -431,3 +431,10 @@ export default data;
 
 ![image](https://user-images.githubusercontent.com/72580574/203652810-2f12a0e6-7bef-4dc3-9748-50ffdfcb9721.png)
 
+---
+
+## :star: Key
+
+Cada vez que utilizamos un **map** para recorrer un array de objetos y con la información del mismo renderizar componentes de React, cada uno debe tener su **key** unica e irrepetible, asi React puede ir comparando el virtual DOm y cuando nota un cambio lo va a mostrar en el DOM.
+
+---
