@@ -437,4 +437,6 @@ export default data;
 
 Cada vez que utilizamos un **map** para recorrer un array de objetos y con la información del mismo renderizar componentes de React, cada uno debe tener su **key** unica e irrepetible, asi React puede ir comparando el virtual DOm y cuando nota un cambio lo va a mostrar en el DOM.
 
+-> Deben tener una **prop** nombrada **key** y debe ser **única**, en general se utiliza el **id**.
+
 ---
