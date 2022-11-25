@@ -491,3 +491,9 @@ Y como paso too el **ITEM** voy a tener que hacer una desestructuración para po
 
 ![image](https://user-images.githubusercontent.com/72580574/204061070-4f7b277c-e409-4f8f-a248-dfecabff31a2.png)
 
+Otro modo era usando el **spread operator**:
+![image](https://user-images.githubusercontent.com/72580574/204061251-1c611422-a99f-4bcc-aad8-e76b95798cd6.png)
+
+Y se va a estar enviand directamente cada una de las **props** por lo que en el componente Card no voy a tener que volver a desestructurar.
+
+---
