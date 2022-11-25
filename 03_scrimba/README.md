@@ -2,6 +2,7 @@
 
 Todo el curso lo podés ver acá: [https://scrimba.com/learn/learnreact](https://scrimba.com/learn/learnreact), es de **Bob Ziroll**
 
+En este [link](https://github.com/eugenia1984/react-varios-cursos/blob/main/03_scrimba/teoria.md) podés ver un poco de la teoría que se vio la principio.
 
 ---
 
