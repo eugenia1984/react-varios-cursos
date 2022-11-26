@@ -21,6 +21,10 @@ La creación de ramas es una función disponible en la mayoría de los **sistema
 ![image](https://user-images.githubusercontent.com/72580574/204103890-3efadf29-cedd-49e3-85bb-bce8d0418d36.png)
 
 
+---
+
+## :star: 2 - Git avanzado
+
 ### Funcionamiento
 
 Una rama representa una línea independiente de desarrollo. 
@@ -44,10 +48,6 @@ El comando ```git branch``` te permite crear, enumerar, cambiar el nombre y elim
 - Si se desea cambiar el nombre de una rama, se puede utilizar la opción **-m**, es importante mencionar que cambia el nombre de la rama sobre la cual se está trabajando -> ```git branch -m nombreRama```
 
 - Para listar todas las ramas en el repositorio remoto se puede utilizar el comando -> ```git branch -a```
-
----
-
-## :star: 2 - Git avanzado
 
 ---
 
