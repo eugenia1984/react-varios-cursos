@@ -296,13 +296,16 @@ Temas:
 
 ---
 
-##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> ARQUITECTURA:  Unidad 1 
+##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> ARQUITECTURA:  Unidad 1 y 2 
 
 Temas:
 ```
 - ¿Qué es firestore?
 - Estructura de firestore
 - Crear Base de datos en firebase
+- Flujo de trabajo
+- Git avanzado
+- Git Flow
 ```
 
 ### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_ARQUITECTURA.md)
@@ -315,6 +318,15 @@ Temas:
 - Crear Base de datos en firebase
 ```
 
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_ARQUITECTURA.md)
+
+
+Temas:
+```
+- Flujo de trabajo
+- Git avanzado
+- Git Flow
+```
 ---
 ---
 
