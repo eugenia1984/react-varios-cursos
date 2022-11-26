@@ -53,4 +53,14 @@ El comando ```git branch``` te permite crear, enumerar, cambiar el nombre y elim
 
 ## :star: 3 - Git Flow
 
+Gitflow **es un flujo de trabajo de Git heredado que fue en origen una estrategia innovadora y revolucionaria para gestionar ramas de Git** . Gitflow ha perdido popularidad en beneficio de los flujos de trabajo basados en troncos, que ahora se consideran prácticas recomendadas para el desarrollo continuo de software y las prácticas de DevOps. Además, puede ser difícil utilizar Gitflow con CI/CD. Esta entrada presenta el uso de Gitflow con fines de historial.
+
+### ¿Qué es Gitflow?
+
+Gitflow **es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales**. Fue Vincent Driessen en nvie quien lo publicó por primera vez y quien lo popularizó. **En comparación con el desarrollo basado en troncos, Gitflow tiene diversas ramas de más duración y mayores confirmaciones**. Según este modelo, **los desarrolladores crean una rama de función y retrasan su fusión con la rama principal del tronco hasta que la función está completa**. Estas ramas de función de larga duración requieren más colaboración para la fusión y tienen mayor riesgo de desviarse de la rama troncal. También pueden introducir actualizaciones conflictivas.
+
+Gitflow puede utilizarse en proyectos que tienen un ciclo de publicación programado, así como para la práctica recomendada de DevOps de entrega continua. Este flujo de trabajo no añade ningún concepto o comando nuevo, aparte de los que se necesitan para el flujo de trabajo de ramas de función. Lo que hace es asignar funciones muy específicas a las distintas ramas y definir cómo y cuándo deben estas interactuar. Además de las ramas de función, utiliza ramas individuales para preparar, mantener y registrar publicaciones. Por supuesto, también puedes aprovechar todas las ventajas que aporta el flujo de trabajo de ramas de función: solicitudes de incorporación de cambios, experimentos aislados y una colaboración más eficaz.
+
+ 
+
 ---
