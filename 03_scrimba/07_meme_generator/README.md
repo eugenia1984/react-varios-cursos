@@ -59,5 +59,74 @@ Por ahora tengo un componente ```<Meme />```
 
 ---
 
+## Event Listeners
+
+Lo que diferencia a una aplicación web de una web estática es **la posibilidad de interactuar del usuario con la pantalla** esto lo hacemos mediante los **EventListeneers**.
+
+Con JavaScript vanilla lo haciamos mediante:
+
+```Javascript
+.addEventlistener("click", function() {});
+```
+
+Otro modo es directamente en el HTML dentro de un boton;
+
+```
+<button onclick="myFunction()">Click Me</button>
+```
+
+Con React lo vamos a hacer de un modo parecido a el HTML
 
 
+### Ejemplo con codigo:
+
+![image](https://user-images.githubusercontent.com/72580574/205113021-f3cd8ef5-b20b-4184-a167-2758b94405dc.png)
+
+```JSX
+export default functionApp() {
+  function handleClick() {
+    console.log("I was clicked");
+  }
+  
+  return (
+    <div className="container">
+      <img src="https://picsum.photos/640/360" alt="random picture" />
+      <button onClick={ handleClick } >Click me</button>
+    </div>
+  )
+}
+```
+
+Tener en cuante que ahora dentro de la etiqueta de **button** el evento es **onClick** en camelCase.
+
+Y en este caso como estamos con JSX al pasar a la función con el evento no ponemos los (), sino se va a estar llamando al cargarse el componente, en vez de cuando se haga el click.
+
+-> [Aca se puede ver en la documentación de React todos estos eventos sintéticos]([)](https://reactjs.org/docs/events.html#mouse-events) : onClick, onContextMenu, onDoubleClick, onDrag, onDragEnd, onDragEnter, onDragExit, onDragLeave, onDragOver,  onDragStart, onDrop, onMouseDown, onMouseEnter, onMouseLeave, onMouseMove, onMouseOut,  onMouseOver y onMouseUp.
+
+
+Y ahora vamos a agregar otro evento, asi cuando pasamos con el mouse por la imagen esta se oscurece.
+
+```JSX
+export default functionApp() {
+  function handleClick() {
+    console.log("I was clicked");
+  }
+  
+  function handleOnMouseOver() {
+    console.log("Mouse Over")
+  }
+  
+  return (
+    <div className="container">
+      <img 
+        src="https://picsum.photos/640/360" 
+        alt="random picture" 
+        onMouseOver={ handleOnMouseOver }
+       />
+      <button onClick={ handleClick } >Click me</button>
+    </div>
+  )
+}
+```
+
+---
