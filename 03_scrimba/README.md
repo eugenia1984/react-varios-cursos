@@ -107,7 +107,7 @@ Temas que se ven:
 
 ### :star: 3er proyecto: Generador de memes (web interactiva)
 
-Este es el ejemplpo de como va a quedar:
+Este es el ejemplo de como va a quedar:
 ![image](https://user-images.githubusercontent.com/72580574/205065437-9adcaefb-5d24-467b-9218-c6f0451c8d7f.png)
 
 
