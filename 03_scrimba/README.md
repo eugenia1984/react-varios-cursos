@@ -69,7 +69,7 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 ### 10mo Mini proyecto: agregar items
 
-En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) sigo con los EventListeners. Ahora haciendo click en el boton vamos a agregar items. 
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) sigo con los EventListeners. Ahora haciendo click en el boton vamos a agregar items. Utilice el EventListener **onClick** y el hook **useState**.
 
 :tv: -> [Lo podes ver desde este sandbox](https://codesandbox.io/s/sad-rgb-nx9vb9)
 
