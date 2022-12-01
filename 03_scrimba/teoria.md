@@ -242,3 +242,11 @@ ReactDOM.render(
 ```
 
 ---
+
+## :book: Static Webs Apps vs. Dinamic Web Apps
+
+- **Static Web Apps**: son solo de lectura, no se puede cambiar la información. Ejemplos: blogs, noticias, recetas.
+
+- **Dinamic Web Apps**: read-write (se puede cambiar la información), muy interactivas, muestran tu información (son personalizadas acorde al uruario). Ejemplos: aplicación de un banco, Airbnb, etc.
+
+---
