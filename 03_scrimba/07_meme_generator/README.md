@@ -160,3 +160,12 @@ Haciendo click en el boton vamos a agregar items. Para esto vimos el concepto de
 
 
 :tv: -> [Lo podes ver desde este sandbox](https://codesandbox.io/s/sad-rgb-nx9vb9)
+
+---
+
+## Props vs. State 
+
+- **Props**: son las **propiedades** que pasamos a un componente para que funcione correctamente, similar a como una función recibe parámetros "desde arriba". El componente que recive esas props no puede modificarlas (son inmutables).
+
+
+---
