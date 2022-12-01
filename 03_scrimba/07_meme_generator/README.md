@@ -213,6 +213,20 @@ Lo que nos falta mejorar es que de YES haciendo click pasa a NO, pero si volvemo
 
 ![image](https://user-images.githubusercontent.com/72580574/205149425-d16ed4d5-8b98-44b8-872b-6a44b67ff545.png)
 
+-> Pero es mejor modificar el estado con una **callback function**, etnocnes las funciones para sumar y restar las vamos a modificar asi:
+
+```JSX
+function add() {
+    setCount(prevCount => prevCount + 1)
+  }
+
+  function subtract(){
+    setCount(prevCount => prevCount -1)
+  }
+  ```
+  
+  **prevCount** ->  va a ser el valor previo. Esto se hace siempre que el nuevo valor dependa del valor anterior modificado, siempre lo haremos mediante una **CallBack**.
+  
 
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/damp-mountain-pzmv2h)
 
