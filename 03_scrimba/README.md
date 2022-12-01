@@ -67,6 +67,11 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 :tv: -> [Lo podes ver en este sandbox](https://codesandbox.io/s/adoring-wood-f0knvl)
 
+### 10mo Mini proyecto: agregar items
+
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) sigo con los EventListeners. Ahora haciendo click en el boton vamos a agregar items. 
+
+:tv: -> [Lo podes ver desde este sandbox](https://codesandbox.io/s/sad-rgb-nx9vb9)
 
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
