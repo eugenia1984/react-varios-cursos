@@ -105,7 +105,7 @@ Temas que se ven:
 
 
 
-### :star: 3er proyecto: Generador de memes
+### :star: 3er proyecto: Generador de memes (web interactiva)
 
 ---
 ---
