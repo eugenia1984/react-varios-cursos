@@ -310,3 +310,16 @@ Y lo mejoro con un ternario y utilizanod una **callback** ya que necesito saber 
 
 
 ---
+
+##:star: Volviendo al mini proyecto de Agregar items
+
+Ahora que vi useState lo implemento y utilizo la desestructuración
+
+![image](https://user-images.githubusercontent.com/72580574/205164147-c863a72f-479e-4a9e-815d-1e739c78a63b.png)
+
+Y ahora voy a utilizar una función callback para poder utilizar el estado previo y modificar el nuevo:
+
+![image](https://user-images.githubusercontent.com/72580574/205165431-d51dc074-e595-492f-af00-065a19d0a254.png)
+
+
+---
