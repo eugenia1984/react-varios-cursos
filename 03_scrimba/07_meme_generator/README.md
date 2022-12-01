@@ -211,6 +211,6 @@ Lo que nos falta mejorar es que de YES haciendo click pasa a NO, pero si volvemo
 
 - Hacemos otro mini proyecto, un contador que sume y reste, para ahora si poder modificar más de una vez el estado.
 
-:tv: -> Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io
+:tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/damp-mountain-pzmv2h)
 
 ---
