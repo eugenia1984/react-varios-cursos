@@ -1,4 +1,4 @@
-# :star: 3er proyecto: Generador de memes (web interactiva)
+# :star2: 3er proyecto: Generador de memes (web interactiva)
 
 ---
 
@@ -59,7 +59,7 @@ Por ahora tengo un componente ```<Meme />```
 
 ---
 
-## Event Listeners
+## :star: Event Listeners
 
 Lo que diferencia a una aplicación web de una web estática es **la posibilidad de interactuar del usuario con la pantalla** esto lo hacemos mediante los **EventListeneers**.
 
@@ -152,7 +152,7 @@ Por ahora lo importamos a ese JSON y haemos que al hacer click en el boton por c
 
 ---
 
-### Mini proyecto: agregar items
+### :star: Mini proyecto: agregar items
 
 Haciendo click en el boton vamos a agregar items. Para esto vimos el concepto de **estados**, al tener un cambio de estado React va a volver a renderizar el componente y modifica la UI. Use **useState** 
 
@@ -193,4 +193,13 @@ Cada vez que queremos que un componente reciba un valor y lo mantenga, inclusive
 
 Inmutable es que no cambia, las **props** son inmutables, no debemos modificar los parametros que recibimos como props. Los **States** si son mutables, simpre declaramos los **states** porque los queremos modificar.
 
+---
+
+## :star: useState
+
+En React no funciona declarar una variable y modificar el valor y que React automaticamente re renderice y modifique la UI.
+
+React no esta monitoreando si nuestras variables se modifican. Para esto tenemos el hook **useState**.
+
+:tv: -> acá se puede ver otro mini proyecto para utilizar useState
 ---
