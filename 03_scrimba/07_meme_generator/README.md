@@ -248,4 +248,58 @@ function add() {
 
 ## :star: Volviendo al generador de memes
 
-Vamos a crear un estado e ir modificandolo para que nos vaya guardando las url de las imagenes. Y de este modo se pueda mostrar la imagen debate del boton.
+Vamos a crear un estado e ir modificandolo para que nos vaya guardando las url de las imagenes. Y de este modo se pueda mostrar la imagen debajo del boton.
+
+
+```JSX
+import React, { useState } from "react";
+import "./MemeStyles.css";
+import { memesData } from "../../memesData.js";
+
+function Meme( { text } ) {
+  const [ memeImage, setMemeImage ] = useState("");
+
+  function getMemeImage() {
+    const memesArray = memesData.data.memes;
+    const randomNumber = Math.floor(Math.random() * memesArray.length);
+    const { url } = memesArray[randomNumber];
+    setMemeImage( url)
+  }
+
+  return (
+    <main>
+      <div className="form">
+        <input 
+          type="text"
+          placeholder="Top text"
+          className="form-input" 
+        />
+        <input 
+          type="text"
+          placeholder="Bottom text"
+          className="form-input"  
+        />
+        <button 
+          className="form-button"
+          onClick={ getMemeImage }> 
+          { text} 
+        </button>
+      </div>
+      <img src={memeImage} alt="meme" className="meme-img"/>
+    </main>
+  );
+}
+
+export default Meme;
+```
+
+Agrego la etiqueta **img** para poder mostrar la imagen y al hacer click en el boton invoco a **gerMemeImage()** que ahora si va a ir seteando el nuevo estado gracias a **useState**.
+
+
+---
+
+## :star: Volviendo a nuestro mini proyecto del SI - NO
+
+Voy a modificarlo con unos condicionales if - else para que siempre se vaya cambiando de YES a NO y viceversa al ir clickeando.
+
+---
