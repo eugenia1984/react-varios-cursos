@@ -81,9 +81,9 @@ Temas que se ven:
 - aplicar CSS
 ```
 
--> :book: [aca pueden ver la teoria](https://github.com/eugenia1984/scrimba-project1)
+:book: -> [aca pueden ver la teoria](https://github.com/eugenia1984/scrimba-project1)
 
--> :computer: [aca se puede ver deployado](https://airbnb-project2-scrimba.netlify.app/)
+:computer: -> [aca se puede ver deployado](https://airbnb-project2-scrimba.netlify.app/)
 
 
 ### :star: 2do proyecto: Clone de las experiencias de airbnb
@@ -97,11 +97,11 @@ Temas que se ven:
 - crear componentes desde un array de datos
 ```
 
--> :tv:  [Aca se puede ver el diseño en Figma](https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=0%3A1&t=7dq2BK8ToYT7D9wQ-0)
+:tv: -> [Aca se puede ver el diseño en Figma](https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=0%3A1&t=7dq2BK8ToYT7D9wQ-0)
 
--> :book: [Aca pueden ver la teoria](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb)
+:book: ->  [Aca pueden ver la teoria](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/05_experiencias_airbnb)
 
--> [Aca pueden ver el proyecto en codigo](https://github.com/eugenia1984/scrimba-project2)
+:computer: -> [Aca pueden ver el proyecto en codigo](https://github.com/eugenia1984/scrimba-project2)
 
 
 
@@ -121,9 +121,9 @@ Temas que se ven:
 - Side effects
 ```
 
--> :tv: [link al diseño en Figma](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0%3A1&t=d6jKjjGA1qYGBk71-0)
+:tv: -> [link al diseño en Figma](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0%3A1&t=d6jKjjGA1qYGBk71-0)
 
--> :book:  [Aca pueden ver la teoria que se repaso para hacer el proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator)
+:book: -> [Aca pueden ver la teoria que se repaso para hacer el proyecto](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator)
 
 ---
 ---
