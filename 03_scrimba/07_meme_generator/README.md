@@ -245,3 +245,7 @@ function add() {
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/damp-mountain-pzmv2h)
 
 ---
+
+## :star: Volviendo al generador de memes
+
+Vamos a crear un estado e ir modificandolo para que nos vaya guardando las url de las imagenes. Y de este modo se pueda mostrar la imagen debate del boton.
