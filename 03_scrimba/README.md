@@ -61,6 +61,13 @@ En [05_experiencias_airbnb](https://github.com/eugenia1984/react-varios-cursos/t
 En [06_mini-proyecto-travel-journal](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/06_mini-proyecto-travel-journal) pueden ver la teoría.
 
 
+### 9no miniproyecto
+
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) se puede ver la teoría del EventListener con la práctica de los eventos **onClick** y **onMouseOver** haciendo que al pasar el mouse sobre la imagen se vea más oscura y al hacer click en el boton se muestre un mensaje por consola.
+
+:tv: -> [Lo podes ver en este sandbox](https://codesandbox.io/s/adoring-wood-f0knvl)
+
+
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
 
