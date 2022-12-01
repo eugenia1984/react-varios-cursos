@@ -326,7 +326,10 @@ Y ahora voy a utilizar una función callback para poder utilizar el estado previ
 
 ## :star: Estados complejos con objetos
 
-- Realicé otro mini proyecto, de mostrar una card utilizando los datos de un objeto.
+- Realicé otro mini proyecto, de mostrar una card utilizando los datos de un objeto, para simplificar el llamado a las key de los objetos utilizo **desestructuración** y también **spread operator**
+
+![image](https://user-images.githubusercontent.com/72580574/205172136-db52733a-a82c-4e0b-bd1c-5e8345adbc6d.png)
+
 
 :tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
 
