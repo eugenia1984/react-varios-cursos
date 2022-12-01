@@ -29,10 +29,12 @@
 - Me aseguro que sea mobile first:
 
 MOOBIL:
+
 ![image](https://user-images.githubusercontent.com/72580574/205089127-c843f6e3-3420-421d-96c9-f0eccd9b0a3e.png)
 
 
 TABLET / DESKTOP:
+
 ![image](https://user-images.githubusercontent.com/72580574/205089255-fe9a3640-4a86-4a35-8eed-5b49ad12fee5.png)
 
 
