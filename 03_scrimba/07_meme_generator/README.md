@@ -193,6 +193,20 @@ Cada vez que queremos que un componente reciba un valor y lo mantenga, inclusive
 
 Inmutable es que no cambia, las **props** son inmutables, no debemos modificar los parametros que recibimos como props. Los **States** si son mutables, simpre declaramos los **states** porque los queremos modificar.
 
+5. Tenes dos opciones para pasar dentro de un **state** **setter** (por ejemplo: setCount) ¿Qué son ?
+
+-Opción A: pasar el nuevo valor del estado (por ejemplo setCount(42) y cada vez que se invoque se a settear en 42, queda fijo)
+
+-Opción B: una función callback que retornará el nuevo valor del estado, va a ser variable.
+
+6. ¿Cuándo queremos pasar la primera opción (de la respuesta anterior) a una función que settea el estado?
+
+Cada vez que quiera modificar el estado y no me importe el valor previo del estado para determinar el nuevo valor.
+
+7. ¿Cuándo quiero pasar la segunda opción (de la respuesta anterior) a una función que settea el estado?
+
+Cada vez que quiera modificar el estado y si me importe el valor previo del estado para determinar el nuevo valor.
+
 ---
 
 ## :star: useState
