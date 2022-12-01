@@ -133,6 +133,7 @@ export default functionApp() {
 
 ## Volviendo al generador de memes...
 
-En realidad no es necesario tener el boton dentro dle form, porque sino cada vez que se haga click en el botón se va a volver a renderizar la app, asi que hacemos esa modificación.
+En realidad no es necesario tener el boton dentro dle form, porque sino cada vez que se haga click en el botón se va a volver a renderizar la app, asi que hacemos esa modificación. Simplemente cambiamos la etiqueta de **form** por **div** y nos vamos a importar memeData.js que es un simil JSOn que nos armamos para traer algunas imagenes de memes, sin tener que estar llamando a la API.
+
 
 
