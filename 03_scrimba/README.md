@@ -80,6 +80,11 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/damp-mountain-pzmv2h)
 
+### 12do Mini Proyecto: Yes / No question
+
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) practicando el hook **useStatate**, los **operadores ternarios** y una función **callback*** para modificar el estado teneindo en cuenta el estado previo, modifico la respuesta a una pregunta al hacer click: Yes -> No -> Yes -> No ...
+
+:tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/vigorous-moore-hez2zv)
 
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
