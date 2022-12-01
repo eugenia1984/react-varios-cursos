@@ -163,10 +163,34 @@ Haciendo click en el boton vamos a agregar items. Para esto vimos el concepto de
 
 ---
 
-## Props vs. State 
+## :star: Props vs. State 
 
 - **Props**: son las **propiedades** que pasamos a un componente para que funcione correctamente, similar a como una función recibe parámetros "desde arriba". El componente que recive esas props no puede modificarlas (son inmutables).
 
 - **State**: refiere al valor que es manejado por el componente, similar a as variables que se declaran dentro de una función. Cada vez que un valor se modifica debe ser guardado / mostrado, se va a estar utilizando el estado.
+
+---
+
+## :star: Mini quiz
+
+1. ¿Cómo describís el concepto de **state** (estado)?
+
+Los valores que un componente va a mantener entre los ciclos de renderizado.
+
+Es la forma que tiene React de recordar los valores guardados en un componente. Es similar a cuando declaramos variables en un componente, con algunas cosas más.
+
+2. ¿ Cuándo vamos a utilizar una **props** en vez de un **state**?
+
+Cada vez que tenemos que pasar información a un componente para que ese componente muestre eso de forma de texto o a veces se use para configurar el componente.
+
+Siempre que se pase **data** a un componente.
+
+3. ¿Cuándo vamos a utilizar un **State** en vez de una **props**?
+
+Cada vez que queremos que un componente reciba un valor y lo mantenga, inclusive cuando React re-renderiza el componente.
+
+4. ¿Qué significa **inmutable**? ¿ Las **props** son inmutables? ¿Los **States** son inmutables?
+
+Inmutable es que no cambia, las **props** son inmutables, no debemos modificar los parametros que recibimos como props. Los **States** si son mutables, simpre declaramos los **states** porque los queremos modificar.
 
 ---
