@@ -101,7 +101,7 @@ Tener en cuante que ahora dentro de la etiqueta de **button** el evento es **onC
 
 Y en este caso como estamos con JSX al pasar a la función con el evento no ponemos los (), sino se va a estar llamando al cargarse el componente, en vez de cuando se haga el click.
 
--> [Aca se puede ver en la documentación de React todos estos eventos sintéticos]([)](https://reactjs.org/docs/events.html#mouse-events) : onClick, onContextMenu, onDoubleClick, onDrag, onDragEnd, onDragEnter, onDragExit, onDragLeave, onDragOver,  onDragStart, onDrop, onMouseDown, onMouseEnter, onMouseLeave, onMouseMove, onMouseOut,  onMouseOver y onMouseUp.
+-> [Aca se puede ver en la documentación de React todos estos eventos sintéticos](https://reactjs.org/docs/events.html#mouse-events) : onClick, onContextMenu, onDoubleClick, onDrag, onDragEnd, onDragEnter, onDragExit, onDragLeave, onDragOver,  onDragStart, onDrop, onMouseDown, onMouseEnter, onMouseLeave, onMouseMove, onMouseOut,  onMouseOver y onMouseUp.
 
 
 Y ahora vamos a agregar otro evento, asi cuando pasamos con el mouse por la imagen esta se oscurece.
@@ -128,6 +128,8 @@ export default functionApp() {
   )
 }
 ```
+
+Practique con los eventos **onClick** y **onMouseOver** haciendo que al pasar el mouse sobre la imagen se vea más oscura y al hacer click en el boton se muestre un mensaje por consola.
 
 Entonces a mi me quedo: 
 
