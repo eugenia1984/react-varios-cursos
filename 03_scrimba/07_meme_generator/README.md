@@ -149,3 +149,11 @@ Por ahora lo importamos a ese JSON y haemos que al hacer click en el boton por c
 
 ![image](https://user-images.githubusercontent.com/72580574/205126041-adadf4cf-52c2-463b-92cf-2e97b944bb07.png)
 
+
+---
+
+### Mini proyecto: agregar items
+
+Haciendo click en el boton vamos a agregar items 
+
+:tv: -> [Lo podes ver desde este sandbox](https://codesandbox.io/s/sad-rgb-nx9vb9)
