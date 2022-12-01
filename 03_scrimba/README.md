@@ -86,6 +86,13 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/vigorous-moore-hez2zv)
 
+
+### 13er Mini Proyecto: Card con datos de un objeto
+
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) se muestra una card utilizando los datos de un objeto, para simplificar el llamado a las key de los objetos utilizo **desestructuración** y también **spread operator**
+
+:tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
+
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
 
