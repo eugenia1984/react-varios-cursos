@@ -129,6 +129,13 @@ export default functionApp() {
 }
 ```
 
+Entonces a mi me quedo: 
+
+![image](https://user-images.githubusercontent.com/72580574/205127468-6143e14a-3e6d-4916-97de-b2b3393eab4e.png)
+
+
+:tv: -> [Lo podes ver en este sandbox](https://codesandbox.io/s/adoring-wood-f0knvl)
+
 ---
 
 ## Volviendo al generador de memes...
