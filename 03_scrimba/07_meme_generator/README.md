@@ -22,9 +22,9 @@
 
 ---
 
-## <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-command-line-computer-science-flaticons-lineal-color-flat-icons.png"/> Comenzamos a armarlo
+## <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/null/external-command-line-computer-science-flaticons-lineal-color-flat-icons.png"/> Comenzamos a armarlo
 
-###  <img src="https://img.icons8.com/clouds/30/null/head-profile.png"/> Header
+###  <img src="https://img.icons8.com/clouds/35/null/head-profile.png"/> Header
 
 - Me aseguro que sea mobile first:
 
@@ -48,5 +48,5 @@ Asi es esta parte del código:
 
 ---
 
-## <img src="https://img.icons8.com/external-others-zufarizal-robiyanto/30/null/external-lup-mutualiz-ui-essential-others-zufarizal-robiyanto.png"/> Search Bar (Form)
+## <img src="https://img.icons8.com/external-others-zufarizal-robiyanto/35/null/external-lup-mutualiz-ui-essential-others-zufarizal-robiyanto.png"/> Search Bar (Form)
 
