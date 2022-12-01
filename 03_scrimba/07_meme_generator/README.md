@@ -302,4 +302,7 @@ Agrego la etiqueta **img** para poder mostrar la imagen y al hacer click en el b
 
 Voy a modificarlo con unos condicionales if - else para que siempre se vaya cambiando de YES a NO y viceversa al ir clickeando.
 
+![image](https://user-images.githubusercontent.com/72580574/205155614-23d692d1-5c27-4b24-8792-08eef0b151ee.png)
+
+
 ---
