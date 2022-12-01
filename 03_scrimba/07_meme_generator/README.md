@@ -154,6 +154,9 @@ Por ahora lo importamos a ese JSON y haemos que al hacer click en el boton por c
 
 ### Mini proyecto: agregar items
 
-Haciendo click en el boton vamos a agregar items 
+Haciendo click en el boton vamos a agregar items. Para esto vimos el concepto de **estados**, al tener un cambio de estado React va a volver a renderizar el componente y modifica la UI. Use **useState** 
+
+![image](https://user-images.githubusercontent.com/72580574/205133820-ce6404b9-fdac-4886-8c97-326aa596c1b0.png)
+
 
 :tv: -> [Lo podes ver desde este sandbox](https://codesandbox.io/s/sad-rgb-nx9vb9)
