@@ -304,5 +304,9 @@ Voy a modificarlo con unos condicionales if - else para que siempre se vaya camb
 
 ![image](https://user-images.githubusercontent.com/72580574/205155614-23d692d1-5c27-4b24-8792-08eef0b151ee.png)
 
+Y lo mejoro con un ternario y utilizanod una **callback** ya que necesito saber cual es el **Estado previo**:
+
+![image](https://user-images.githubusercontent.com/72580574/205156721-587c287b-77da-470d-ab36-dd38f91b6f20.png)
+
 
 ---
