@@ -19,3 +19,30 @@
 ```
 
 :tv: -> [link al diseño en Figma](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0%3A1&t=d6jKjjGA1qYGBk71-0)
+
+---
+
+## Comenzamos a armarlo
+
+### Header
+
+- Me aseguro que sea mobile first:
+
+MOOBIL:
+![image](https://user-images.githubusercontent.com/72580574/205089127-c843f6e3-3420-421d-96c9-f0eccd9b0a3e.png)
+
+
+TABLET / DESKTOP:
+![image](https://user-images.githubusercontent.com/72580574/205089255-fe9a3640-4a86-4a35-8eed-5b49ad12fee5.png)
+
+
+Para esto modifique el CSS haciendo que **React Couse - Project 3** sea de **position: absolute** pero que esté fijo hacia el borde derecho de la aplicación.
+
+Y además en vez de tener un solo componente ```<Header />``` lo arme en base a otros tres componentes hijos, para poder pasar desde ```<Header>``` **props** a los componentes hijos.
+
+Asi es esta parte del código:
+
+![image](https://user-images.githubusercontent.com/72580574/205090082-bc9000f3-1151-4389-b166-7bddc37c6fbe.png)
+
+---
+
