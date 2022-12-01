@@ -209,7 +209,10 @@ Lo que nos falta mejorar es que de YES haciendo click pasa a NO, pero si volvemo
 
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/vigorous-moore-hez2zv)
 
-- Hacemos otro mini proyecto, un contador que sume y reste, para ahora si poder modificar más de una vez el estado.
+- Hacemos otro mini proyecto, un **contador** que **sume** y **reste**, para ahora si poder modificar más de una vez el estado.
+
+![image](https://user-images.githubusercontent.com/72580574/205149425-d16ed4d5-8b98-44b8-872b-6a44b67ff545.png)
+
 
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/damp-mountain-pzmv2h)
 
