@@ -167,5 +167,6 @@ Haciendo click en el boton vamos a agregar items. Para esto vimos el concepto de
 
 - **Props**: son las **propiedades** que pasamos a un componente para que funcione correctamente, similar a como una función recibe parámetros "desde arriba". El componente que recive esas props no puede modificarlas (son inmutables).
 
+- **State**: refiere al valor que es manejado por el componente, similar a as variables que se declaran dentro de una función. Cada vez que un valor se modifica debe ser guardado / mostrado, se va a estar utilizando el estado.
 
 ---
