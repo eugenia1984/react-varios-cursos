@@ -73,6 +73,14 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 :tv: -> [Lo podes ver desde este sandbox](https://codesandbox.io/s/sad-rgb-nx9vb9)
 
+
+### 11ro Mini proyecto: contador 
+
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) practicando el hook **useStatate** arme un contador que sume y reste, para poder modificar más de una vez el estado.
+
+:tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/damp-mountain-pzmv2h)
+
+
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
 
