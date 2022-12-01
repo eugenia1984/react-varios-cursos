@@ -64,7 +64,7 @@ En [06_mini-proyecto-travel-journal](https://github.com/eugenia1984/react-varios
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
 
-### 1er proyecto: Página estática en React
+### :star: 1er proyecto: Página estática en React
 
 ![image](https://user-images.githubusercontent.com/72580574/200196250-ec76c280-a6f6-4b79-ba73-92dac7779299.png)
 
@@ -86,7 +86,7 @@ Temas que se ven:
 -> :computer: [aca se puede ver deployado](https://airbnb-project2-scrimba.netlify.app/)
 
 
-### 2do proyecto: Clone de las experiencias de airbnb
+### :star: 2do proyecto: Clone de las experiencias de airbnb
 
 ![image](https://user-images.githubusercontent.com/72580574/200696130-a2a9bec3-6564-443f-8557-fd207560766b.png)
 
@@ -105,7 +105,7 @@ Temas que se ven:
 
 
 
-### 3er proyecto: Generador de memes
+### :star: 3er proyecto: Generador de memes
 
 ---
 ---
