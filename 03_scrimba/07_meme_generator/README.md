@@ -130,3 +130,9 @@ export default functionApp() {
 ```
 
 ---
+
+## Volviendo al generador de memes...
+
+En realidad no es necesario tener el boton dentro dle form, porque sino cada vez que se haga click en el botón se va a volver a renderizar la app, asi que hacemos esa modificación.
+
+
