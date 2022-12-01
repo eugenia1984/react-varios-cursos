@@ -28,7 +28,7 @@
 
 - Me aseguro que sea mobile first:
 
-MOOBIL:
+MOBIL:
 
 ![image](https://user-images.githubusercontent.com/72580574/205089127-c843f6e3-3420-421d-96c9-f0eccd9b0a3e.png)
 
