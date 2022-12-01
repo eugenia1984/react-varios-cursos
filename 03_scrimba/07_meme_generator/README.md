@@ -328,6 +328,6 @@ Y ahora voy a utilizar una función callback para poder utilizar el estado previ
 
 - Realicé otro mini proyecto, de mostrar una card utilizando los datos de un objeto.
 
-:tv: ->  Acá se puede ver este otro mini proyecto en codigo con SandBox.io
+:tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
 
 ---
