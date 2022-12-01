@@ -207,6 +207,10 @@ React no esta monitoreando si nuestras variables se modifican. Para esto tenemos
 
 Lo que nos falta mejorar es que de YES haciendo click pasa a NO, pero si volvemos a hacer click va a quedar fijo en NO, no se nos va a volver a cambiar.
 
-:tv: -> [acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/vigorous-moore-hez2zv)
+:tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/vigorous-moore-hez2zv)
+
+- Hacemos otro mini proyecto, un contador que sume y reste, para ahora si poder modificar más de una vez el estado.
+
+:tv: -> Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io
 
 ---
