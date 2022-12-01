@@ -50,3 +50,13 @@ Asi es esta parte del código:
 
 ## <img src="https://img.icons8.com/external-others-zufarizal-robiyanto/35/null/external-lup-mutualiz-ui-essential-others-zufarizal-robiyanto.png"/> Search Bar (Form)
 
+![image](https://user-images.githubusercontent.com/72580574/205110287-3bc39166-caa1-4611-a77f-34f0a9720aaa.png)
+
+Por ahora tengo un componente ```<Meme />```
+
+![image](https://user-images.githubusercontent.com/72580574/205110436-e6d95787-2a4d-472b-a569-840bee2f8bab.png)
+
+---
+
+
+
