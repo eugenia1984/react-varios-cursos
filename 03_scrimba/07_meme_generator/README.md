@@ -341,12 +341,6 @@ Volvienod al mini proyecto dle contador vamos a pasar el contador a un *componen
 
 ![image](https://user-images.githubusercontent.com/72580574/205353854-b8952abc-0d0b-44b5-a2a1-e41a361e85ed.png)
 
-Al hacer click en la estrella el estado isFavourite va cambiando entre true y false entonces se va mostrando la estrella completa o vacía.
-
-El estado lo tengo en el componente padre y se lo paso al componente hijo mediante props.
-
-
-![image](https://user-images.githubusercontent.com/72580574/205362425-d98dd5fb-24e2-44fc-b05c-0fe5053dc7ed.png)
 
 ---
 
@@ -354,8 +348,14 @@ El estado lo tengo en el componente padre y se lo paso al componente hijo median
 
 Vamos a setear el **state** de un **componente hijo** desde el del padre.
 
-![image](https://user-images.githubusercontent.com/72580574/205362382-186f7ef1-99f5-4c84-9b3f-56f03b619fbc.png)
+![image](https://user-images.githubusercontent.com/72580574/205362425-d98dd5fb-24e2-44fc-b05c-0fe5053dc7ed.png)
 
+Al hacer click en la estrella el estado isFavourite va cambiando entre true y false entonces se va mostrando la estrella completa o vacía.
+
+El estado lo tengo en el componente padre y se lo paso al componente hijo mediante props.
+
+
+![image](https://user-images.githubusercontent.com/72580574/205362382-186f7ef1-99f5-4c84-9b3f-56f03b619fbc.png)
 
 
 :tv: -> [Aca esta en CodeSandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
@@ -364,4 +364,23 @@ Vamos a setear el **state** de un **componente hijo** desde el del padre.
 
 ## :star: Pasando data
 
+- Desde un **componente padre** a los **componentes hijos**: Van de **aariba hacia abajo** desde el componente padre a los hijos / nietos/ bisnietos, etc.
+
 ![image](https://user-images.githubusercontent.com/72580574/205362713-b0b875a8-2d57-4f64-b7b9-993ff6858ee0.png)
+
+
+- ¿Cómo pasamos información entre **componentes hermanos**?
+
+![image](https://user-images.githubusercontent.com/72580574/205362972-2f667042-8c96-4bd4-83a7-022460cfd4a2.png)
+
+Lo que tenemos que hacer es pasar el **state** al **componente padre** que que pase mediante **props** a los **componentes hijos**.
+
+![image](https://user-images.githubusercontent.com/72580574/205363364-c64ae0be-cdae-4672-a28a-8a9a3f0c77d7.png)
+
+- Mientras la app s ehaga más compleja vamos a necesitar que el estado esté en el nivel superior y vaya pasandolo como en cascada, pero se hace muy engorroso si hay muchos hijos /nietos/bisnietos, en ese caso tenemos el**context** y **Redux**
+ 
+![image](https://user-images.githubusercontent.com/72580574/205363413-de4710db-e0a3-40fa-951e-7bca50935dce.png)
+
+---
+
+
