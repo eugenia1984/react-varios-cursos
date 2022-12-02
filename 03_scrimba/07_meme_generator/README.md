@@ -2,7 +2,6 @@
 
 ---
 
-## Este es el ejemplo de como va a quedar:
 
 ![image](https://user-images.githubusercontent.com/72580574/205065437-9adcaefb-5d24-467b-9218-c6f0451c8d7f.png)
 
@@ -140,7 +139,7 @@ Entonces a mi me quedo:
 
 ---
 
-## Volviendo al generador de memes...
+## :star: Volviendo al generador de memes...
 
 En realidad no es necesario tener el boton dentro dle form, porque sino cada vez que se haga click en el botón se va a volver a renderizar la app, asi que hacemos esa modificación. Simplemente cambiamos la etiqueta de **form** por **div** y nos vamos a importar memeData.js que es un simil JSON que nos armamos para traer algunas imagenes de memes, sin tener que estar llamando a la API.
 
