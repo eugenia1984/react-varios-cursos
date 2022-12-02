@@ -431,3 +431,13 @@ Realicé algunos challenge de código para practicar lo aprendido hasta ahora.
 
 ![image](https://user-images.githubusercontent.com/72580574/205367481-17f858ae-800b-4799-9d17-95e4d2412847.png)
 
+- Parte 2:
+
+1- Estilos dinámicos con estilos en línea. Voy a utlizar **Style** en línea para lo que voy a tener que igualarlo a {} para indicar que empiezo con JavaScript, y dentro voy a tener que pasar un **object**, para no tneer dos grupos de {} me lo separo en una constante, y al ser un objeto tengo que usar camelCase en la key que es como el atributo de CSS, y en vez de = uso los : como en el object.
+
+![image](https://user-images.githubusercontent.com/72580574/205368265-85d10cea-bf05-4021-8b8e-38efd45cdfa8.png)
+
+2- El beneficio es que al ser un valor mediante JavaScript es dinámico, se puede cambiar, asi puedo utilizar el valor true / false de boxes.js y cambiar dinamicamente el color dependiendo de si está on:true ú on:false. Asi se hace en las apps con el **dark / light mode**.
+
+---
+
