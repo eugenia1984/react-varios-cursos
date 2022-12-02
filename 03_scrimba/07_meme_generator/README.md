@@ -417,7 +417,7 @@ export default function Body(props) {
 ---
 
 
-## <img src="https://img.icons8.com/material-outlined/40/null/imac-medal.png"/> Codign challenge
+## <img src="https://img.icons8.com/material-outlined/40/null/imac-medal.png"/> Coding challenge
 
 Realicé algunos challenge de código para practicar lo aprendido hasta ahora.
 
