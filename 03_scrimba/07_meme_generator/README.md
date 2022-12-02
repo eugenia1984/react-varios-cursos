@@ -422,3 +422,8 @@ export default function Body(props) {
 Realicé algunos challenge de código para practicar lo aprendido hasta ahora.
 
 :tv: -> [Boxes](https://codesandbox.io/s/confident-jasper-6qsm6v)
+
+1- Inicializar un estado con el valor por default del array de boxes.js
+
+2- Mapear sobre el estadod el array y mostrar cada uno como un cuadrado vacío (bordes negros y color transparente). Por ahora no usamos la propiedad **on**.
+
