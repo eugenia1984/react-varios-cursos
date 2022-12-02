@@ -361,3 +361,7 @@ Vamos a setear el **state** de un **componente hijo** desde el del padre.
 :tv: -> [Aca esta en CodeSandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
 
 ---
+
+## :star: Pasando data
+
+![image](https://user-images.githubusercontent.com/72580574/205362713-b0b875a8-2d57-4f64-b7b9-993ff6858ee0.png)
