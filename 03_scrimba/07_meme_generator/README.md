@@ -439,5 +439,23 @@ Realicé algunos challenge de código para practicar lo aprendido hasta ahora.
 
 2- El beneficio es que al ser un valor mediante JavaScript es dinámico, se puede cambiar, asi puedo utilizar el valor true / false de boxes.js y cambiar dinamicamente el color dependiendo de si está on:true ú on:false. Asi se hace en las apps con el **dark / light mode**.
 
+3- En el componente ```<Main />``` agrego la props **darkMode** para que tenga los valores **true** / **false** y asi poder cambiar el valor del color de fondo. 
+
+Si tiene false el fondo es gris claro:
+
+![image](https://user-images.githubusercontent.com/72580574/205369490-7317269a-51ed-47ef-a047-7273021f0dda.png)
+
+Si tiene true el fondo es negro:
+
+![image](https://user-images.githubusercontent.com/72580574/205369812-132e5df8-e198-48a0-95c7-c3aaab311037.png)
+
+- Parte 3:
+
+1- Crear un componente separado llamado **Box** 
+
+2- Pasar al componente Box la propr **on** con el valor que tiene la key del mismo nombre en boxes.js
+
+3- En el componente Box aplicar el estilo dinámico para determinar el color de fondo, si está on que sea **#222** si no está off que no tenga.
+
 ---
 
