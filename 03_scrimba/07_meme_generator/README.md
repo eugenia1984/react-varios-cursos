@@ -423,7 +423,11 @@ Realicé algunos challenge de código para practicar lo aprendido hasta ahora.
 
 :tv: -> [Boxes](https://codesandbox.io/s/confident-jasper-6qsm6v)
 
+- Parte 1:
+
 1- Inicializar un estado con el valor por default del array de boxes.js
 
 2- Mapear sobre el estadod el array y mostrar cada uno como un cuadrado vacío (bordes negros y color transparente). Por ahora no usamos la propiedad **on**.
+
+![image](https://user-images.githubusercontent.com/72580574/205367481-17f858ae-800b-4799-9d17-95e4d2412847.png)
 
