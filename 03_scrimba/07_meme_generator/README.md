@@ -334,3 +334,12 @@ Y ahora voy a utilizar una función callback para poder utilizar el estado previ
 :tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
 
 ---
+
+## :star: Pasando states como props
+
+Volvienod al mini proyecto dle contador vamos a pasar el contador a un *componente** y le vamos a pasar el **State** como una **prop**, el codigo nos queda así:
+
+![image](https://user-images.githubusercontent.com/72580574/205353854-b8952abc-0d0b-44b5-a2a1-e41a361e85ed.png)
+
+
+---
