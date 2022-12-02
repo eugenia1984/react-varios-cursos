@@ -466,5 +466,25 @@ Si tiene true el fondo es negro:
 
 ![image](https://user-images.githubusercontent.com/72580574/205373201-293a9628-d56e-444d-9ae7-4830515822e1.png)
 
+
+## local state
+
+
+Por el momento tenemos en App (mi caso **Main**) el array con la data de on: true/false que se pasa a los componentes hijos ```<Box />``` por **props** para determinar el valor de fondo.
+
+![image](https://user-images.githubusercontent.com/72580574/205373514-25151e3d-3f4f-4414-9a77-53d5c827999c.png)
+
+-> ¿ Cómo los modificamos ? 
+
+Tenemos dos formas:
+
+- Se pueden inicializar nuevos estados en cada uno de los componentes  (mi caso **Main**) el array con la data de on: true/false que se pasa a los componentes hijos ```<Box />```. El beneficio es la simplifidad y que cada Box se puede actualizar su estado de forma individual.
+
+![image](https://user-images.githubusercontent.com/72580574/205373831-20e53ae4-e2af-4fb7-bda2-f74cf5cae1f0.png)
+
+- Parte 4: hacemos este modo en el challenge. En vez de setearlo con la props **on** y su valor, vamos a setearlo con su propio estado.
+
+
+
 ---
 
