@@ -310,7 +310,7 @@ Y lo mejoro con un ternario y utilizanod una **callback** ya que necesito saber 
 
 ---
 
-##:star: Volviendo al mini proyecto de Agregar items
+## :star: Volviendo al mini proyecto de Agregar items
 
 Ahora que vi useState lo implemento y utilizo la desestructuración
 
