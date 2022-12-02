@@ -484,6 +484,12 @@ Tenemos dos formas:
 
 - Parte 4: hacemos este modo en el challenge. En vez de setearlo con la props **on** y su valor, vamos a setearlo con su propio estado.
 
+![image](https://user-images.githubusercontent.com/72580574/205376909-78bfa637-ba44-48e8-975d-3d03ce7b9aca.png)
+
+
+Y ahora cada box maneja su propio estado, cada vez que le hacemos click cambia entre on: true / false.
+
+![image](https://user-images.githubusercontent.com/72580574/205376978-2757e205-0fc4-4403-adf4-a1a9c9414fe0.png)
 
 
 ---
