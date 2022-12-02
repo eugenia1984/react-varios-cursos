@@ -522,5 +522,13 @@ export default function Box({ on, id, handleClick }) {
 ![image](https://user-images.githubusercontent.com/72580574/205381454-733508cb-a922-464d-86bc-4c94c9e9f382.png)
 
 
+Ahora lo modificamos a hacerlo de un modo más declarativo.
+
+Directamente utilizo un map para que me devuelva un nuevo array de square y con un operador ternario veo que si el id es el mismo del que hago click cambio la propiedad de on por el opuesto y si no es el mismo id paso el mismo.
+
+![image](https://user-images.githubusercontent.com/72580574/205382487-7be6ddf2-4e62-4644-9eb8-b6608921f15b.png)
+
+
+
 ---
 
