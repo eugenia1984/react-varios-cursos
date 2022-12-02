@@ -460,7 +460,7 @@ Si tiene true el fondo es negro:
 
 -> Saco de App el darkMode
 
--> En el componente ```<Main />``` agrego: ```<Box key={square.id} on={square.on} />````
+-> En el componente ```<Main />``` agrego: ```<Box key={square.id} on={square.on} />```
 
 -> En el componente ```<Box />``` seteo el color de fondo.
 
