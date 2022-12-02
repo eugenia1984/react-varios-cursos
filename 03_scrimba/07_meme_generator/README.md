@@ -457,5 +457,14 @@ Si tiene true el fondo es negro:
 
 3- En el componente Box aplicar el estilo dinámico para determinar el color de fondo, si está on que sea **#222** si no está off que no tenga.
 
+
+-> Saco de App el darkMode
+
+-> En el componente ```<Main />``` agrego: ```<Box key={square.id} on={square.on} />````
+
+-> En el componente ```<Box />``` seteo el color de fondo.
+
+![image](https://user-images.githubusercontent.com/72580574/205373201-293a9628-d56e-444d-9ae7-4830515822e1.png)
+
 ---
 
