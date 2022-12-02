@@ -499,7 +499,27 @@ Y ahora cada box maneja su propio estado, cada vez que le hacemos click cambia e
 
 -> Es el modo que se usa en React.
 
-- Parte 4: creamos esta función toggle().
+- Parte 5: creamos esta función toggle().
+
+
+Box.jsx:
+```JSX
+export default function Box({ on, id, handleClick }) {
+  const styles = {
+    backgroundColor: on ? "#222" : "transparent"
+  };
+
+  return (
+    <div
+      style={styles}
+      className="box"
+      onClick={() => handleClick(id)}
+    />
+  );
+}
+```
+
+![image](https://user-images.githubusercontent.com/72580574/205381454-733508cb-a922-464d-86bc-4c94c9e9f382.png)
 
 
 ---
