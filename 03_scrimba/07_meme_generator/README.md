@@ -478,7 +478,7 @@ Por el momento tenemos en App (mi caso **Main**) el array con la data de on: tru
 
 Tenemos dos formas:
 
-- Se pueden inicializar nuevos estados en cada uno de los componentes  (mi caso **Main**) el array con la data de on: true/false que se pasa a los componentes hijos ```<Box />```. El beneficio es la simplifidad y que cada Box se puede actualizar su estado de forma individual.
+- **1er forma** Se pueden inicializar nuevos estados en cada uno de los componentes  (mi caso **Main**) el array con la data de on: true/false que se pasa a los componentes hijos ```<Box />```. El beneficio es la simplifidad y que cada Box se puede actualizar su estado de forma individual.
 
 ![image](https://user-images.githubusercontent.com/72580574/205373831-20e53ae4-e2af-4fb7-bda2-f74cf5cae1f0.png)
 
@@ -490,6 +490,16 @@ Tenemos dos formas:
 Y ahora cada box maneja su propio estado, cada vez que le hacemos click cambia entre on: true / false.
 
 ![image](https://user-images.githubusercontent.com/72580574/205376978-2757e205-0fc4-4403-adf4-a1a9c9414fe0.png)
+
+-> De este modo vamos a tener un problema porque tenemos un estado en **App** y otro estado en **Box**, por lo que **vamos a tener dos fuentes de verdad**, lo cual no se puede en React. esta rpimera forma se la llama **derived state**.
+
+- **2da forma**: usamos el estado de la **App** en ella creamos la funcion y se la pasamos a cada **Box** asi cuando en el **Box** hay un cambio va a llegar a **App**
+
+![image](https://user-images.githubusercontent.com/72580574/205377681-2426b6c4-21e2-4f53-9f54-e78a92d7d172.png)
+
+-> Es el modo que se usa en React.
+
+- Parte 4: creamos esta función toggle().
 
 
 ---
