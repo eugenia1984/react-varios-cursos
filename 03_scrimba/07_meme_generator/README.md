@@ -341,5 +341,23 @@ Volvienod al mini proyecto dle contador vamos a pasar el contador a un *componen
 
 ![image](https://user-images.githubusercontent.com/72580574/205353854-b8952abc-0d0b-44b5-a2a1-e41a361e85ed.png)
 
+Al hacer click en la estrella el estado isFavourite va cambiando entre true y false entonces se va mostrando la estrella completa o vacía.
+
+El estado lo tengo en el componente padre y se lo paso al componente hijo mediante props.
+
+
+![image](https://user-images.githubusercontent.com/72580574/205362425-d98dd5fb-24e2-44fc-b05c-0fe5053dc7ed.png)
+
+---
+
+## :star: Volviendo a la card con los datos desde un objeto
+
+Vamos a setear el **state** de un **componente hijo** desde el del padre.
+
+![image](https://user-images.githubusercontent.com/72580574/205362382-186f7ef1-99f5-4c84-9b3f-56f03b619fbc.png)
+
+
+
+:tv: -> [Aca esta en CodeSandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
 
 ---
