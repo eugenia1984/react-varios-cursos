@@ -380,6 +380,40 @@ Lo que tenemos que hacer es pasar el **state** al **componente padre** que que p
  
 ![image](https://user-images.githubusercontent.com/72580574/205363413-de4710db-e0a3-40fa-951e-7bca50935dce.png)
 
+
+- Lo vemos con un ejemplo en codigo:
+
+![image](https://user-images.githubusercontent.com/72580574/205364039-eb27f4ba-0622-47ad-936b-622ec689f5a4.png)
+
+![image](https://user-images.githubusercontent.com/72580574/205364136-58c8fa86-1a17-4fc9-b5dd-f8f7eb2a0b61.png)
+
+
+Header.js:
+```JSX
+import React from "react"
+
+export default function Header(props) {
+    return (
+        <header>
+            <p>Current user: {props.user}</p>
+        </header>
+    )
+}
+```
+
+Body.js:
+```JSX
+import React from "react"
+
+export default function Body(props) {
+    return (
+        <section>
+            <h1>Welcome back, {props.user}!</h1>
+        </section>
+    )
+}
+```
+
 ---
 
 
