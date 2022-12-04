@@ -544,5 +544,9 @@ Directamente utilizo un map para que me devuelva un nuevo array de square y con 
 
  - Ahora volviendo al **conditional rendering** punchline solo debe mostrarse si es true.
  
+ 
+ ![image](https://user-images.githubusercontent.com/72580574/205498698-5e79bb96-c97d-45ce-a304-8580e2ea3e94.png)
+
+
 ---
 
