@@ -709,7 +709,7 @@ const [formData, setFormData ] = useState(
  
  En cada **input** debo agregar un **name** para poder indentificarlos, por buena practica le pongo el mismo nombre que la key del objeto, entonces:
  
- ```name="firstName"```` y  ```name="lastName"````
+ ```name="firstName" ``` y  ```name="lastName" ```
  
  Tengo que ver el estado previo de los valores en los name de mis input, para solo actualizar el que se modifica.
  
@@ -762,7 +762,7 @@ value={formData.eMail}
 ![image](https://user-images.githubusercontent.com/72580574/205511419-d1e14922-759b-4adf-829d-b4ecd0517f5b.png)
 
 
-### TextArea
+### TEXTAREA
 
 - Ahora vamos a ver los **textareas**, vemos que son distintos que los input, en HTML los input son una sola etiqueta y los textArea son dos etiquetas (de apertura y cierre).
 
@@ -770,5 +770,42 @@ value={formData.eMail}
 
 ![image](https://user-images.githubusercontent.com/72580574/205511690-16a5370d-bdcc-4227-9f78-0f1df59a332d.png)
 
+### CHECKBOX
+
+- Son un **input** con el **type** de  **checkbox**, la diferencia es que no son un **String** sino que tiene un **valor boolean (true/false)**.
+
+Entonces voy a tener que inicializarlo con este valor boolean:
+
+```JSX
+const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    eMail: "",
+    comments: "",
+    isFiendly: true
+  });
+  ```
+
+- Ahora en ve de ver el **value** necesito ver el **checked** en mi **handleCheck**
+
+
+### LABELS
+
+En el HTML los ```<label >``` tienen la propiedad **for**, pero ahora al estar en JSX, **for** es una palabra reservada de JavaScript, por lo que usamos **htmlFor**
+
+![image](https://user-images.githubusercontent.com/72580574/205512203-7a818935-c734-4162-89f3-a16c909ab85c.png)
+
+- Y volvemos al **handleChange** para adaptaro y que tambien pueda ver los cambios en el input de tipo checkbox.
+
+- Desestructuramos: 
+```JSX 
+const { name, value, type, checked } = event.target
+```
+
+Y lo usamos:
+
+![image](https://user-images.githubusercontent.com/72580574/205512406-83e80d00-23d7-46c6-917b-494ebb92b0a4.png)
+
+![image](https://user-images.githubusercontent.com/72580574/205512439-dd07f250-0388-4877-b05c-5865aafff89b.png)
 
 ---
