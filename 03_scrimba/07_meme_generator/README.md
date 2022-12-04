@@ -216,7 +216,7 @@ Si quiero decidir si renderizar o no algo. Si la condición es verdadera se rend
 
 10. ¿Cuando usamos el **operador ternario**?
 
-Para decidir qeu renderizar entre dos cosas, en base a la condición.
+Para decidir que renderizar entre dos cosas, en base a la condición.
 
 11. ¿Qué pasa si hay que decidir entre más de dos opciones para mostrar ?
 
@@ -733,5 +733,42 @@ const [formData, setFormData ] = useState(
 
 
 :tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/xenodochial-boyd-9sbouq)
+
+---
+
+## :star: Componentes: uncontrolled / controlled
+
+La **única fuente de verdad** es el **state** del componente, siempre debe haber sólo una.
+
+Para eso en cada uno de los **input** la vamos a agregar **value**:
+
+En el input de First Name:
+```JSX
+value={formData.firstName}
+```
+
+En el input de Last Name:
+```JSX
+value={formData.lastName}
+```
+
+En el input del e-mial:
+```JSX
+value={formData.eMail}
+```
+
+- De este modo el **state** se maneja con **react** en vez de con el form, de este modo no tenemos el warning de tener componentes uncontrolled.
+
+![image](https://user-images.githubusercontent.com/72580574/205511419-d1e14922-759b-4adf-829d-b4ecd0517f5b.png)
+
+
+### TextArea
+
+- Ahora vamos a ver los **textareas**, vemos que son distintos que los input, en HTML los input son una sola etiqueta y los textArea son dos etiquetas (de apertura y cierre).
+
+- En React se modificaron y los **textarea** son **etiquetas autocerrables**.
+
+![image](https://user-images.githubusercontent.com/72580574/205511690-16a5370d-bdcc-4227-9f78-0f1df59a332d.png)
+
 
 ---
