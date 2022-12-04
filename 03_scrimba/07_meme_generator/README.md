@@ -206,6 +206,40 @@ Cada vez que quiera modificar el estado y no me importe el valor previo del esta
 
 Cada vez que quiera modificar el estado y si me importe el valor previo del estado para determinar el nuevo valor.
 
+8. ¿ Que es **conditional rendering**?
+
+Una forma de determinar si una cosa debe ser renderizada o no, dependiendo de una condición, o a veces renderizar una cosa u otra dependiendo de la condición.
+
+9. ¿Cuándo usamos **&&**?
+
+Si quiero decidir si renderizar o no algo. Si la condición es verdadera se renderiza loq ue está a la derecha del &&.
+
+10. ¿Cuando usamos el **operador ternario**?
+
+Para decidir qeu renderizar entre dos cosas, en base a la condición.
+
+11. ¿Qué pasa si hay que decidir entre más de dos opciones para mostrar ?
+
+Una condición regular con if- else if ó un switch, en este caso deberán estar fuera del **Retunr**, en cambio paa los **&&** o el **ternadrio** deben estar dentro del **return**.
+
+
+Ejemplo:
+```JSX
+function App() {
+    let someVar
+    if () {
+        someVar = <SomeJSXOne />
+    } else if() {
+        someVar = <SomeJSXTwo />
+    } else {
+        someVar = <SomeJSXThree />
+    }
+    return (
+        <div>{someVar}</div>
+    )
+}
+```
+
 ---
 
 ## :star: useState
@@ -556,6 +590,14 @@ Se muestra la etiqueta ```<h1>``` sólo si hay mensajes sin leer.
 
 ![image](https://user-images.githubusercontent.com/72580574/205507288-266179eb-8bbd-4a2d-88dc-231da2127f4e.png)
 
+Y también modifico el mensaje de tenes un mensaje a tenes X mensajes sin leer, dependiendo de si tiene 1 o más mensajes sin leer.
+
+![image](https://user-images.githubusercontent.com/72580574/205508824-cdc1b3ba-5f67-4c71-9da9-652563a47139.png)
+
+También puedo aplicar un ternario para que muestre mensaje o mensajes
+
+![image](https://user-images.githubusercontent.com/72580574/205508943-9b9466f7-6c0e-4a06-a185-9993ac2eea7b.png)
+
 
 :tv: -> [Codigo y demo en CodeSandBox.io](https://codesandbox.io/s/youthful-engelbart-d616uf)
 
@@ -569,3 +611,21 @@ Volvienod al mini challenge de los chistes mapeados con el array, vemos que al h
 
 
 :tv: -> [COdeSandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
+
+---
+---
+
+##  <img src="https://img.icons8.com/color/40/null/fill-in-form.png"/> FORMS
+
+
+![image](https://user-images.githubusercontent.com/72580574/205509279-95b598ca-1777-4119-b4ca-36d00839fd62.png)
+
+- Con JavaScript vanilla al hacer click en Submit agarro la **data** y la envío.
+
+![image](https://user-images.githubusercontent.com/72580574/205509286-838a9a62-67a6-43e1-9178-33d3d6e2b5cd.png)
+
+- En React en vez de esperar a que se complete todo el formulario, creamos **State** y vamos a ir viendolos constantemente, en cada input que completemos y en cada modificación.
+
+:book: -> [Documentación de FORM en React](https://reactjs.org/docs/forms.html)
+
+---
