@@ -843,4 +843,97 @@ Para ello colocamos UPDATE, el nombre de la tabla, SET junto al nombre del campo
 
 ## :star:  7 -  Trabajar con varias tablas
 
+
+Trabajar con varias tablas (joins)
+
+Constraints o restricciones
+
+Para asegurar la integridad de los datos almacenados en nuestras tablas, podemos crear restricciones, algunos los hemos utilizado sin querer o simplemente desconocemos que lo que hicimos fue una restricción. Estas restricciones las podemos implementar al momento de crear las tablas o modificarlas.
+
+Los principales tipos de restricciones que existen son:
+
+-PRIMARY KEY
+
+-UNIQUE
+
+-FOREING KEY
+
+PRIMARY KEY
+
+Es la más común de todas debido a que cada una de nuestras tablas debe ser completamente relacional y para lograr esto siempre debe existir una llave primaria dentro de cada tabla que identifique cada fila como única.
+
+Existen ciertos requerimientos para la creación de una llave primaria:
+
+-La columna utilizada en una restricción PRIMARY KEY, no puede aceptar NULL
+
+-No pueden repetir los valores en la columna, debe ser único
+
+-Solamente puede existir una restricción de tipo PRIMARY KEY por cada tabla
+
+UNIQUE
+
+Este tipo de restricción es muy parecida a PRIMARY KEY, las diferencias son las siguientes:
+
+-También genera un índice automáticamente.
+
+-La tabla puede tener más de una restricción UNIQUE
+
+-Si puede aceptar NULL, pero solo una fila puede contenerlo ya que como su nombre lo indica, es de tipo UNIQUE o único.
+
+FOREIGN KEY
+
+Se forma de una columna o la combinación de varias columnas de una tabla que sirve como enlace hacia otra tabla donde en esta última, dicho enlace son la o las columnas que forman la PRIMARY KEY. Las columnas involucradas como llave foránea deben tener el mismo tipo de datos que la llave primaria de la tabla relacionada. Una llave foránea no cra un índice automáticamente, por lo que se recomienda generar uno para incrementar el rendimiento de la consulta
+
+Requerimientos para la restricción FOREIGN KEY:
+
+-Los valores ingresados en la columna de la llave foránea, debe existir en la tabla a la que se hace referencia en la columna de la llave primaria
+
+-Solo se pueden hacer referencia a las llaves primarias de tablas que se encuentren dentro de la misma base de datos
+
+-Solo puede hacer referencia a columnas de restricciones PRIMARY KEY o UNIQUE
+
+Para entrar en tema e ir aplicando los nuevos conceptos tengamos como referencia la siguiente tabla de empleados ya que hasta ahora hemos trabajado con una sola tabla, pero en general, se trabaja con varias tablas.
+
+![image](https://user-images.githubusercontent.com/72580574/205501738-ec0656fd-6721-4dbe-80e1-2aa5d5a310af.png)
+
+
+Por ejemplo, los datos de nuestra tabla “empleados” podrían separarse en 2 tablas, unos empleados y otra "departamentos", de este modo, evitamos almacenar tantas veces los nombres de los departamentos en la tabla "empleados”, así como también cometer errores de escritura al momento de ingresar el dato concreto
+
+Ahora con esta nueva división deberemos pensar en dos conceptos para los campos, clave primaria y clave foránea, ya que con identificar las mismas podremos crear las relaciones de las tablas y para ello debemos utilizar los JOINS.
+
+
+![image](https://user-images.githubusercontent.com/72580574/205501745-7a28e502-b0e5-485d-b291-a7ffc3455435.png)
+
+
+Joins
+
+Joins significa uniones y tal como su significado nos indica, nos permite hacer uniones entre tablas y los resultados de las consultas a las mismas lo cual nos va a permitir proveer ciertas flexibilidades adicionales además su sintaxis es mucho más utilizada, también ganamos una mayor performance.
+
+INNER JOIN: En esta sentencia solo se muestran los registros que coinciden tanto en la tabla A como la tabla B
+
+![image](https://user-images.githubusercontent.com/72580574/205501752-95557dea-0220-496f-b811-049c0b918a04.png)
+ 
+ 
+LEFT JOING – RIGHT JOIN: Estos tipos de JOINS no excluyen resultados de alguna de las dos tablas, si hubiese campos que no coinciden podríamos incluirlos en el resultado mediante LEFT o RIGHT JOIN.
+
+![image](https://user-images.githubusercontent.com/72580574/205501763-fc37d895-2b5c-4954-8a25-282365e4f7aa.png)
+
+![image](https://user-images.githubusercontent.com/72580574/205501782-ea99a173-65a2-458b-91d0-646d09a321a2.png)
+
+
+
+
+Ejemplo:
+
+SELECT nombre, apellido FROM empleados INNER JOIN departamentos
+
+Si bien ya pudimos cruzar ambas tablas, aún nos falta aclarar dónde esta ese cruce, para ello deberemos hacerlo mediante la clave primaria (PK) de una tabla con la clave foránea (FK) de la tabla relacionada
+
+La sintaxis del join no utiliza el WHERE, sino que requiere la palabra ON. Es ahí en donde indicaremos el filtro a tener en cuenta para realizar el cruce.
+
+Ejemplo
+
+SELECT nombre, apellido FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.codigo
+
+ 
 ---
