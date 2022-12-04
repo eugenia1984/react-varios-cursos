@@ -371,8 +371,13 @@ Tipos de datos MySQL
 Datos numéricos (enteros y decimales)
 Datos alfanuméricos (char, varchar, text, blob)
 Datos de fecha y hora ( date, datetime, time, year)
-Atributos de los campos
-- 6 - Componentes SQL
+Atributos de los campos ( NULL, NOT NULL, DEFAULT, PRIMARY KEY Y AUTO_INCREMENT, UNIQUE)
+- 6 :
+Componentes SQL
+Comandos
+Operadores
+Funciones
+Consultas
 - 7 -  Trabajar con varias tablas
 ```
 
