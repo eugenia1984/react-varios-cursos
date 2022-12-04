@@ -560,3 +560,12 @@ Se muestra la etiqueta ```<h1>``` sólo si hay mensajes sin leer.
 :tv: -> [Codigo y demo en CodeSandBox.io](https://codesandbox.io/s/youthful-engelbart-d616uf)
 
 ---
+
+## :star: Conditional Rendering : ternary
+
+Volvienod al mini challenge de los chistes mapeados con el array, vemos que al hacer click en el boton siempre dice Show Punchline y en realidad debería ir cambiando entre : **Show Punchline** y **Hide Punchline** dependiendo de si el punchline se muestra o no.
+
+![image](https://user-images.githubusercontent.com/72580574/205507695-b87efb2a-6d75-4071-a2a3-4bc6b9d868a0.png)
+
+
+:tv: -> [COdeSandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
