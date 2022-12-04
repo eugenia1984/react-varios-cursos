@@ -35,7 +35,9 @@ Comandos
 Operadores
 Funciones
 Consultas
-- 7 -  Trabajar con varias tablas
+- 7 :
+Constraints o restricciones
+Joins
 ```
 
 ---
@@ -713,7 +715,7 @@ Las funciones se usan dentro de una clausula SELECT en grupos de registros para 
 
 ## Consultas
 
-Consultas: sentencia SELECT
+### Sentencia SELECT
 
 La sentencia SELECT “selecciona” los campos que conformaran la consulta, es decir, que establece los campos que se visualizaran o compondrán la consulta.
 
@@ -723,9 +725,13 @@ Si se desea seleccionar todos los campos de una tabla, se puede utilizar el aste
 
 Ejemplos:
 
+```SQL
 SELECT * FROM alumnos2021;
+```
 
+```SQL
 SELECT Nombre, Apellido FROM alumnos2021;
+```
 
 Una sentencia SELECT no puede escribirse sin las clausula FROM.
 
@@ -733,7 +739,7 @@ Una clausula es una extensión de un mandato que complementa a una sentencia o i
 
 En este caso, la cláusula FROM permite indicar en que tablas o en qué consultas (queries) se encuentran los campos especificados en las sentencias SELECT.
 
-Clausula WHERE
+### Clausula WHERE
 
 La cláusula WHERE es opcional, y permite seleccionar qué registros aparecerán en la consulta (si no se especifica aparecerán todos los registros).
 
@@ -741,81 +747,102 @@ Para indicar este conjunto de registros se hace uso de criterios o condiciones, 
 
 Ejemplo:
 
+```SQL
 SELECT * FROM alumnos2021 WHERE Nombre = ‘marcos’;
-
+```
 El ejemplo anterior selecciona todos los campos de la tabla alumnos2021, pero los registros de todos los alumnos que se llamen ‘marcos’.
 
 Ejemplo:
 
+```SQL
 SELECT * FROM alumnos2021 WHERE Nombre = ‘marcos’ OR Nombre = ‘juan’;
+```
 
 El ejemplo anterior selecciona todos los campos de la tabla alumnos2021, pero los registros de todos los alumnos que se llamen ‘marcos’ o ‘juan’;
 
 Ejemplo:
 
+```SQL
 SELECT * FROM alumnos2021 WHERE Edad >=18;
+```
 
 El ejemplo anterior selecciona todos los campos de la tabla alumnos2021, pero los registros que la edad sea mayor o igual a 18.
 
 Ejemplo:
 
+```SQL
 SELECT * FROM alumnos2021 WHERE Edad>=18 AND Edad<=45
+```
 Selecciona todos los alumnos con edades comprendidas entre los 18 y los 45 años.
 
-Ordenar los registros.
+### Ordenar los registros : ORDER BY
 
 Se puede especificar el orden en que se desean recuperar los registros de las tablas mediante la cláusula ORDER BY.
 
 Ejemplo:
 
+```SQL
 SELECT nombre FROM alumnos2021 ORDER BY nombre;
+```
 
 También se pueden ordenar los registros por más de un campo.
 
+```SQL
 SELECT Nombre, edad FROM alumnos2021 ORDER BY nombre;
+```
 
 Y se puede especificar el orden de los registros, ascendente mediante la cláusula (ASC-se toma este valor por defecto) o descendente (DESC)
 
+```SQL
 SELECT nombre, edad FROM alumnos2021 ORDER BY nombre DESC;
-
+```
  
 
-Operador LIKE
+### Operador LIKE
 
 Se utiliza para comparar
 
+```SQL
 SELECT * FROM alumno2021 WHERE Nombre LIKE 'al%'
+```
+
 Selecciona los alumnos cuyo nombre comience con los caracteres 'al'.
 
-
+```SQL
 SELECT * FROM alumnos2021 WHERE apellidos LIKE ‘%ez';
+```
 Selecciona los alumnos cuyos apellidos terminen con los caracteres 'ez'.
 
-
+```SQL
 SELECT * FROM alumnos2021 WHERE apellidos LIKE ‘%zamo%'
+```
 Selecciona los alumnos cuyos apellidos contengan, en cualquier posición, los caracteres 'zamo'.
 
-Eliminar Registros específicos
+### Eliminar Registros específicos: DELETE
 
 Para eliminar los registros de una tabla usamos el comando DELETE
 
+```SQL
 DELETE FROM alumnos2021;
+```
 
 La ejecución del comando indicado en la línea anterior borra TODOS los registros de la tabla.
 
 Si queremos eliminar uno o varios registros debemos indicar cuál o cuáles, para ello utilizamos el comando DELETE junto con la cláusula WHERE con la cual establecemos la condición que deben cumplir los registros a borrar. Por ejemplo, queremos eliminar aquel registro cuyo nombre de alumno es 'Leonardo':
 
+```SQL
 DELETE FROM alumnos2021 WHERE nombre='marcos';
-
+```
 Si solicitamos el borrado de un registro que no existe, es decir, ningún registro cumple con la condición especificada, no se borrarán registros.
 
-Actualizar registros específicos
+### Actualizar registros específicos
 
 Para modificar uno o varios datos de uno o varios registros utilizamos UPDATE (actualizar).
 
 Por ejemplo, en nuestra tabla alumnos2021, queremos cambiar los valores de todas las comisiones, por "2180":
-
+```SQL
 UPDATE usuarios SET comision='2180';
+```
 
 Utilizamos UPDATE junto al nombre de la tabla y SET junto con el campo a modificar y su nuevo valor.
 
@@ -827,7 +854,9 @@ Por ejemplo, queremos cambiar el valor correspondiente a la clave de nuestro usu
 
 'marcos', queremos como nueva comisión '2164', necesitamos una condición WHERE que afecte solamente a este registro:
 
+```SQL
 UPDATE alumnos2021 set comisión='2164' WHERE nombre='marcos';
+```
 
 Si no encuentra registros que cumplan con la condición del WHERE, ningún registro es afectado.
 
@@ -835,7 +864,9 @@ Las condiciones no son obligatorias, pero si omitimos la cláusula "where", la a
 
 También se puede actualizar varios campos en una sola instrucción:
 
+```SQL
 UPDATE alumnos2021 SET nombre='miguel', comisión='2168' WHERE nombre='marcos';
+```
 
 Para ello colocamos UPDATE, el nombre de la tabla, SET junto al nombre del campo y el nuevo valor y separado por coma, el otro nombre del campo con su nuevo valor.
 
@@ -844,21 +875,22 @@ Para ello colocamos UPDATE, el nombre de la tabla, SET junto al nombre del campo
 ## :star:  7 -  Trabajar con varias tablas
 
 
-Trabajar con varias tablas (joins)
+### Trabajar con varias tablas (joins)
 
-Constraints o restricciones
+
+### Constraints o restricciones
 
 Para asegurar la integridad de los datos almacenados en nuestras tablas, podemos crear restricciones, algunos los hemos utilizado sin querer o simplemente desconocemos que lo que hicimos fue una restricción. Estas restricciones las podemos implementar al momento de crear las tablas o modificarlas.
 
 Los principales tipos de restricciones que existen son:
 
--PRIMARY KEY
+- PRIMARY KEY
 
--UNIQUE
+- UNIQUE
 
--FOREING KEY
+- FOREING KEY
 
-PRIMARY KEY
+### PRIMARY KEY
 
 Es la más común de todas debido a que cada una de nuestras tablas debe ser completamente relacional y para lograr esto siempre debe existir una llave primaria dentro de cada tabla que identifique cada fila como única.
 
@@ -870,7 +902,7 @@ Existen ciertos requerimientos para la creación de una llave primaria:
 
 -Solamente puede existir una restricción de tipo PRIMARY KEY por cada tabla
 
-UNIQUE
+### UNIQUE
 
 Este tipo de restricción es muy parecida a PRIMARY KEY, las diferencias son las siguientes:
 
@@ -880,17 +912,17 @@ Este tipo de restricción es muy parecida a PRIMARY KEY, las diferencias son las
 
 -Si puede aceptar NULL, pero solo una fila puede contenerlo ya que como su nombre lo indica, es de tipo UNIQUE o único.
 
-FOREIGN KEY
+### FOREIGN KEY
 
 Se forma de una columna o la combinación de varias columnas de una tabla que sirve como enlace hacia otra tabla donde en esta última, dicho enlace son la o las columnas que forman la PRIMARY KEY. Las columnas involucradas como llave foránea deben tener el mismo tipo de datos que la llave primaria de la tabla relacionada. Una llave foránea no cra un índice automáticamente, por lo que se recomienda generar uno para incrementar el rendimiento de la consulta
 
-Requerimientos para la restricción FOREIGN KEY:
+#### Requerimientos para la restricción FOREIGN KEY:
 
--Los valores ingresados en la columna de la llave foránea, debe existir en la tabla a la que se hace referencia en la columna de la llave primaria
+- Los valores ingresados en la columna de la llave foránea, debe existir en la tabla a la que se hace referencia en la columna de la llave primaria
 
--Solo se pueden hacer referencia a las llaves primarias de tablas que se encuentren dentro de la misma base de datos
+- Solo se pueden hacer referencia a las llaves primarias de tablas que se encuentren dentro de la misma base de datos
 
--Solo puede hacer referencia a columnas de restricciones PRIMARY KEY o UNIQUE
+- Solo puede hacer referencia a columnas de restricciones PRIMARY KEY o UNIQUE
 
 Para entrar en tema e ir aplicando los nuevos conceptos tengamos como referencia la siguiente tabla de empleados ya que hasta ahora hemos trabajado con una sola tabla, pero en general, se trabaja con varias tablas.
 
@@ -905,16 +937,16 @@ Ahora con esta nueva división deberemos pensar en dos conceptos para los campos
 ![image](https://user-images.githubusercontent.com/72580574/205501745-7a28e502-b0e5-485d-b291-a7ffc3455435.png)
 
 
-Joins
+## Joins
 
 Joins significa uniones y tal como su significado nos indica, nos permite hacer uniones entre tablas y los resultados de las consultas a las mismas lo cual nos va a permitir proveer ciertas flexibilidades adicionales además su sintaxis es mucho más utilizada, también ganamos una mayor performance.
 
-INNER JOIN: En esta sentencia solo se muestran los registros que coinciden tanto en la tabla A como la tabla B
+- **INNER JOIN**: En esta sentencia solo se muestran los registros que coinciden tanto en la tabla A como la tabla B
 
 ![image](https://user-images.githubusercontent.com/72580574/205501752-95557dea-0220-496f-b811-049c0b918a04.png)
  
  
-LEFT JOING – RIGHT JOIN: Estos tipos de JOINS no excluyen resultados de alguna de las dos tablas, si hubiese campos que no coinciden podríamos incluirlos en el resultado mediante LEFT o RIGHT JOIN.
+- **LEFT JOING** – RIGHT JOIN: Estos tipos de JOINS no excluyen resultados de alguna de las dos tablas, si hubiese campos que no coinciden podríamos incluirlos en el resultado mediante LEFT o RIGHT JOIN.
 
 ![image](https://user-images.githubusercontent.com/72580574/205501763-fc37d895-2b5c-4954-8a25-282365e4f7aa.png)
 
@@ -925,7 +957,9 @@ LEFT JOING – RIGHT JOIN: Estos tipos de JOINS no excluyen resultados de alguna
 
 Ejemplo:
 
+```SQL
 SELECT nombre, apellido FROM empleados INNER JOIN departamentos
+```
 
 Si bien ya pudimos cruzar ambas tablas, aún nos falta aclarar dónde esta ese cruce, para ello deberemos hacerlo mediante la clave primaria (PK) de una tabla con la clave foránea (FK) de la tabla relacionada
 
@@ -933,7 +967,8 @@ La sintaxis del join no utiliza el WHERE, sino que requiere la palabra ON. Es ah
 
 Ejemplo
 
+```SQL
 SELECT nombre, apellido FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.codigo
-
+```
  
 ---
