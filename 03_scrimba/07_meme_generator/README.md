@@ -628,4 +628,9 @@ Volvienod al mini challenge de los chistes mapeados con el array, vemos que al h
 
 :book: -> [Documentación de FORM en React](https://reactjs.org/docs/forms.html)
 
+
+- Practicamos con un solo input
+
+:tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/xenodochial-boyd-9sbouq)
+
 ---
