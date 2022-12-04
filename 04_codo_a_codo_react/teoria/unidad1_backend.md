@@ -23,7 +23,12 @@ Usos
 Modelo entidad relación
 Cardinalidad
 Diagrama Físico (tablas, campos y registros)
-- 5 - Tipos de datos MySQL
+- 5 :
+Tipos de datos MySQL
+Datos numéricos (enteros y decimales)
+Datos alfanuméricos (char, varchar, text, blob)
+Datos de fecha y hora ( date, datetime, time, year)
+Atributos de los campos ( NULL, NOT NULL, DEFAULT, PRIMARY KEY Y AUTO_INCREMENT, UNIQUE)
 - 6 - Componentes SQL
 - 7 -  Trabajar con varias tablas
 ```
@@ -268,6 +273,275 @@ Un **registro** es cada una de las filas de la tabla, y está formado por el dat
 
 ## :star: 5 - Tipos de datos MySQL
 
+Cada vez que tengamos que crear una tabla que sirva para almacenar datos de una aplicación Web, debemos poner a prueba nuestra capacidad para definir los tipos de datos que con mayor eficiencia puedan almacenar cada dato que necesitemos guardar.
+
+Los campos de las tablas MySQL nos dan la posibilidad de elegir entre distintos tipos de datos:
+
+- Numéricos
+
+- Alfanuméricos
+
+- Fechas y horas
+
+Puede ser muy obvio poder distinguir a cuál de los tres grupos corresponderá, por ejemplo, un campo que guarde la "edad" de una persona.
+
+Pero dentro de los distintos tipos de datos numéricos, ¿Cuál será la mejor opción?
+
+Un número entero, pero, ¿Cuál de los distintos tipos de enteros disponibles?
+
+¿Qué tipo de dato permitirá consumir menor espacio físico de almacenamiento y brindará la posibilidad de almacenar la cantidad de datos que se espera almacenar en ese campo? (dos dígitos, o máximo tres, en el caso de la edad).
+
+Esas son preguntas que sólo podremos responder a partir del conocimiento de los distintos tipos de datos.
+
+## 1 - Datos numéricos
+
+La diferencia entre uno y otro tipo de dato es simplemente el rango de valores que puede contener.
+
+Dentro de los datos numéricos, podemos distinguir dos grandes ramas: enteros y decimales.
+
+###  1 - 1 ) NUMÉRICOS ENTEROS
+
+Comencemos por conocer las opciones que tenemos para almacenar datos que sean numéricos enteros (edades, cantidades, magnitudes sin decimales); poseemos una variedad de opciones:
+
+![image](https://user-images.githubusercontent.com/72580574/205500226-b166784d-33b4-4724-b0c4-d89297ad730a.png)
+
+
+#### VALORES SIN SIGNO
+
+Ahora bien: existe la posibilidad de duplicar el límite de valor máximo positivo de cada tipo de dato, si eliminamos la posibilidad de almacenar valores negativos.
+
+ 
+
+Pensemos en los ejemplos anteriores: la edad no tiene sentido que sea negativa, entonces, si eliminamos la posibilidad de que ese campo almacene valores negativos, duplicaríamos el limite positivo de almacenamiento, y el campo de tipo TINYINT que normalmente permitía almacenar valores del -128 al 127, ahora dejará almacenar valores desde el 0 hasta el 255.
+
+Esto puede ser útil para almacenar precios, cantidades de objetos o magnitudes que no puedan ser negativas, etc.
+
+![image](https://user-images.githubusercontent.com/72580574/205500245-ab045bc7-9625-4054-9cb0-c62abb9a6ae6.png)
+
+
+
+
+###  1 - 2 ) NUMÉRICOS CON DECIMALES
+
+Dejemos los enteros y pasemos ahora a analizar los valores numéricos con decimales.
+
+Estos tipos de datos son necesarios para almacenar precios, salarios, importes de cuentas bancarias, etc. que no son enteros.
+
+Tenemos que tener en cuenta que si bien estos tipos de datos se llaman "de coma flotante", por ser la coma el separador entre la parte entera y la parte decimal, en realidad MySQL los almacena usando un punto como separador.
+
+En esta categoría, disponemos de tres tipos de datos: FLOAT, DOUBLE y DECIMAL.
+
+La estructura con la que podemos declarar un campo FLOAT implica definir dos valores: la longitud total (incluyendo los decimales y la coma), y cuántos de estos dígitos son la parte decimal. Por ejemplo:
+
+FLOAT (6.2)
+
+Esta definición permitirá almacenar como mínimo el valor -999.99 y como máximo 999.99 (el signo menos no cuenta, pero el punto decimal sí, por eso son seis dígitos en total, y de ellos dos son los decimales).
+
+La cantidad de decimales (el segundo número entre los paréntesis) debe estar entre 0 y 24, ya que ése es el rango de precisión simple.
+
+En cambio, en el tipo de dato DOUBLE, al ser de doble precisión, sólo permite que la cantidad de decimales se defina entre 25 y 53.
+
+Debido a que los cálculos entre campos en MySQL se realizan con doble precisión (la utilizada por DOUBLE) usar FLOAT, que es de simple precisión, puede traer problemas de redondeo y pérdida de los decimales restantes.
+
+Por último, DECIMAL es ideal para almacenar valores monetarios, donde se requiera menor longitud, pero la "máxima exactitud" (sin redondeos).
+
+Este tipo de dato le asigna un ancho fijo a la cifra que almacenará.
+
+El máximo de dígitos totales para este tipo de dato es de 64, de los cuales 30 es el número de decimales máximo permitido. Más que suficientes para almacenar precios, salarios y monedas.
+
+El formato en el que se definen en el phpMyAdmin es idéntico para los tres: primero la longitud total, luego, una coma y, por último, la cantidad de decimales.
+
+##  2 -  Datos alfanuméricos
+
+Para almacenar datos alfanuméricos (cadenas de caracteres) en MySQL poseemos los siguientes tipos de datos:
+
+### 2 - 1 )  CHAR
+
+Comencemos por el tipo de dato alfanumérico más simple: CHAR (character, o caracter).
+
+Este tipo de dato permite almacenar textos breves, de hasta 255 caracteres de longitud como máximo en caracteres que le definamos, aunque no lo utilicemos.
+
+Por ejemplo, si definiéramos un campo "nombre" de 14 caracteres como CHAR, reservará (y consumirá en disco) este espacio.
+
+![image](https://user-images.githubusercontent.com/72580574/205500325-7bc256a1-4469-472d-a2c1-888d0bb63373.png)
+
+
+Por lo tanto, no es eficiente cuando la longitud del dato que se almacenará en un campo es desconocida a priori (típicamente, datos ingresados por el usuario en un formulario, como su nombre, domicilio, etc.)
+
+¿En qué casos usarlo, entonces? Cuando el contenido de ese campo será completado por nosotros, programadores, al agregarse un registro y, por lo tanto, estamos seguros de que la longitud siempre será la misma.
+
+Pensemos en un formulario con botones de radio para elegir el "sexo"; independientemente de lo que muestren las etiquetas visibles para el usuario, podríamos almacenar un solo carácter M o F (masculino o femenino) y, en consecuencia, el ancho del campo CHAR podría ser de un digito, y sería suficiente. Lo mismo sucede con códigos que identifiquen provincias, países, estados civiles, etc.
+
+### 2 - 2 ) VARCHAR 
+
+Complementariamente, el tipo de dato VARCHAR (character varying, o caracteres variables) es útil cuando la longitud del dato es desconocida, cuando depende de la información que el usuario escribe en campos o áreas de texto de un formulario.
+
+La longitud máxima permitida era de 255 caracteres hasta MySQL 5.0.3. pero desde esta versión cambio a un máximo de 65.535 caracteres.
+
+Este tipo de dato tiene la particularidad de que cada registro puede tener una longitud diferente, que dependerá de su contenido; si en su registro el campo "nombre" (supongamos que hubiera sido definido con un ancho máximo de 20 caracteres) contiene solamente el texto: "Pepe", consumirá sólo cinco caracteres, cuatro para las cuatro letras, y uno más que indicará cuántas letras se utilizaron.
+
+Si luego, en otro registro, se ingresa un nombre de 15 caracteres, consumirá 16 caracteres (siempre uno más que la longitud del texto, mientras la longitud no supere los 255 caracteres; si no los supera, serán dos los bytes necesarios para indicar la longitud).
+
+Por lo tanto, será más eficiente para almacenar registros cuyos valores tengan longitudes variables, ya que si bien "gasta" uno o dos caracteres por registro para declarar la longitud, esto le permite ahorrar muchos otros caracteres que no serían utilizados.
+
+En cambio, en el caso de datos de longitud siempre constante, sería un desperdicio gastar un carácter por registro para almacenar la longitud, y por eso convendría utilizar CHAR en esos casos.
+
+![image](https://user-images.githubusercontent.com/72580574/205500354-cf4380a7-7084-436e-b453-cc1d339256de.png)
+
+
+### 2 - 3 ) TEXT
+
+Antes de la versión 5.0.3. de MySQL, este campo era el utilizado "por excelencia" para descripciones de productos, comentarios, textos de noticia, y cualquier otro texto largo.
+
+Pero, a parir de la posibilidad de utilizar VARCHAR para longitudes de hasta 65.535 caracteres, es de esperar que se utilice cada vez menos este tipo de campo.
+
+La principal desventaja de TEXT es que no puede indexarse fácilmente (a diferencia de VARCHAR).
+
+Tampoco se le puede asignar un valor predeterminado a un campo TEXT (un valor por omisión que se complete automáticamente si no se ha proporcionado un valor al insertar un registro).
+
+Sólo deberíamos utilizarlo para textos realmente muy largos, como los que mencionamos al comienzo de este párrafo
+
+### 2 - 4 ) BLOB 
+
+
+Es un campo que guarda información en formato binario y se utiliza cuando desde PHP se almacena en la base de datos el contenido de un archivo binario (típicamente, una imagen o un archivo comprimido ZIP) leyéndolo byte a byte, y se requiere almacenar todo su contenido para luego reconstruir el archivo y servidor al navegador otra vez, sin necesidad de almacenar la imagen o el ZIP en un disco, sino que sus bytes quedan guardados en un campo de una tabla de la base de datos.
+
+El tamaño máximo que almacena es de 65.535 bytes.
+
+De todos modos, y como lo hemos mencionado en este ejemplo, respecto al tipo de dato para una imagen, usualmente no se guarda "la imagen" (sus bytes, el contenido del archivo) en la base de datos porque, un sitio grande, se vuelve muy pesada y lenta la base de datos, sino que almacena sólo la URL que lleva hasta la imagen.
+
+De esa forma, para mostrar la imagen simplemente se lee ese campo URL y se completa una etiqueta img con esa URL, y esto es suficiente para que el navegador muestre la imagen. Entonces, con un VARCHAR alcanza para almacenar la URL de una imagen.
+
+El campo BLOB es para almacenar directamente "la imagen" (o un archivo comprimido, o cualquier otro archivo binario), no su ruta.
+
+#### TINYBLOB, MEDIUMBLOB Y LONGBLOB
+
+Similares al BLOB, sólo cambia la longitud máxima:
+
+- **TINYBLOB**: es de 255 bytes
+
+- **MEDIUMBLOB**: es de 16.777.215 bytes, y
+
+- **LONGBLOB**: es de 4 Gb (o lo máximo que permita manipular el sistema operativo).
+
+
+## 3 - Datos de fecha y hora
+
+En MySQL, poseemos varias opciones para almacenar datos referidos a fechas y horas.
+
+Veamos las diferencias entre uno y otro, y sus usos principales, así podemos elegir el tipo de dato apropiado en cada caso.
+
+### 3 - 1 ) DATE
+
+
+El tipo de dato DATE nos permite almacenar fechas en el formato: AAAA-MM-DD (los cuatro primeros dígitos para el año, los dos siguientes para el mes, y los últimos dos para el día).
+
+Atención:
+
+En los países de habla hispana estamos acostumbrados a ordenar las fechas en Día, Mes y Año, pero para MySQL es exactamente al revés.
+
+Tengamos en cuenta que esto nos obligará a realizar algunas maniobras de reordenamiento utilizando funciones de manejo de caracteres.
+
+Si bien al leer un campo DATE siempre nos entrega los datos separados por guiones, al momento de insertar un dato nos permite hacerlo tanto en formato de número continuo (por ejemplo, 201512319, como utilizando cualquier carácter separador (2015-12-31 o cualquier otro carácter que separe los tres grupos).
+
+El rango de fechas que permite manejar desde el 1000-01-01 hasta el 9999-12-31.
+
+Es decir, que no nos será útil si trabajamos con una línea de tiempo que se remonta antes del año 1000, (¿alguna aplicación relacionada con la historia?), pero si nos resultara útil para datos de un pasado cercano y un futuro muy largo por delante, ya que llega casi hasta el año 10.000.
+
+### 3 - 2 ) DATETIME
+
+Un campo definido como DATETIME nos permitirá almacenar información acerca de un instante de tiempo, pero no sólo la fecha sino también su horario, en el formato:
+
+AAAA-MM-DD HH:MM:SS
+
+Siendo la parte de la fecha de un rango similar al del tipo DATE (desde el 1000-01-01 00:00:00 al 9999-12-31 23:59:59), y la parte del horario, de 00:00:00 a 23:59:59.
+
+### 3 - 3 ) TIME
+
+Este tipo de cambio permite almacenar horas, minutos y segundos, en el formato HH:MM:SS, y su rango permitido va desde -839:59:59 hasta 839:59:59 (unos 35 días hacia atrás y hacia adelante de la fecha actual). Esto lo hace ideal para calcular tiempos transcurridos entre dos momentos cercanos.
+
+### 3 - 4 ) TIMESTAMP
+
+Un campo que tenga definido el tipo de dato TIMESTAMP sirve para almacenar una fecha y un horario, de manera similar a DATETIME, pero su formato y rango de valores serán diferentes.
+
+El formato de un campo TIMESTAMP puede variar entre tres opciones:
+
+AAAA-MM-DD HH:MM:SS
+
+AAAA-MM-DD
+
+AA-MM-DD
+
+Es decir, la longitud posible puede ser de 14, 8 o 6 dígitos, según qué información proporcionemos.
+
+El rango de fechas que maneja este campo va desde el 1970-01-01 hasta el año 2037.
+
+Además, posee la particularidad de que podemos definir que su valor se mantenga actualizado automáticamente, cada vez que se inserte o que se actualice un registro.
+
+De esa manera, conservaremos siempre en ese campo la fecha y hora de la última actualización de ese dato, que es ideal para llevar el control sin necesidad de programar nada.
+
+### 3 - 5 ) YEAR
+
+En caso de definir un campo como YEAR, podremos almacenar un año, tanto utilizando dos como cuatro dígitos.
+
+En caso de hacerlo en dos dígitos, el rango posible se extenderá desde 70 hasta 99 (del 70 hasta el 99 se entenderá que corresponden al rango de años entre 1970 y 1999, y del 00 al 69 se entenderá que se refiere a los años 2000 a 2069); en caso de proporcionar los cuatro dígitos, el rango posible se ampliará, yendo desde 1901 hasta 2155.
+
+Una posibilidad extra, ajena a MySQL pero relativa a las fechas y horarios, es generar un valor de timestamp con la función time de PHP (repito, no estamos hablando de MySQL, no nos confundamos a causa de tantos nombres similares).
+
+A ese valor, lo podemos almacenar en un campo INT de 10 dígitos.
+
+De esa forma, será muy simple ordenar los valores de ese campo (supongamos que es la fecha de una noticia) y luego podremos mostrar la fecha transformando ese valor de timestamp en algo legible mediante funciones de manejo de fecha propias de PHP.
+
+
+##  Atributos de los campos
+
+Ya hemos visto los diferentes tipos de datos que es posible utilizar al definir un campo en una tabla, pero estos tipos de datos pueden poseer ciertos modificadores o "atributos" que se pueden especificar al crear el campo, y que nos brindan la posibilidad de controlar con mayor exactitud qué se podrá almacenar en ese campo, cómo lo almacenaremos y otros detalles.
+
+Aunque algunos de estos atributos ya los hemos utilizado intuitivamente al pasar en algunos de los ejemplos anteriores, a continuación, vamos a analizar más en detalle.
+
+### ¿NULL O NOT NULL?
+
+Algunas veces tendremos la necesidad de tener que agregar registros sin que los valores de todos sus campos sean completados, es decir, dejando algunos campos vacíos (al menos provisoriamente).
+
+Por ejemplo, en un sistema de comercio electrónico, podría ser que el precio, o la descripción completa de un producto, o la cantidad de unidades en depósito, o la imagen del producto, no estén disponibles en el momento en que, como programadores, comencemos a trabajar con la base de datos.
+
+Todos esos campos, nos conviene que sean definidos como NULL (nulos), para que podamos ir agregando registros con los datos básicos de los productos (su nombre, código, etc.) aunque todavía la gente del área comercial no haya definido el precio, ni el área de marketing haya terminado las descripciones, ni los diseñadores hayan subido las fotos (es típica esta división de tareas en empresas grandes, y hay que tenerla presente, porque afecta la declaración de campos de nuestras tablas).
+
+Si definimos esos campos que no son imprescindibles de llenar de entrada como NULL (simplemente marcando la casilla de verificación a la altura de la columna NULL, en el phpMyAdmin), el campo queda preparado para que, si no es que proporcionado un valor, quede vacío pero igual nos permita completar la inserción de un registro completo.
+
+Por omisión, si no marcamos ninguna casilla, todos los campos son NOT NULL, es decir, es obligatorio ingresar algún valor en cada campo para poder cargar un nuevo registro en la tabla.
+
+### VALOR PREDETERMINADO (DEFAULT)
+
+Muchas veces necesitamos agilizar la carga de datos mediante un valor por defecto (default).
+
+Por ejemplo, pensemos en un sistema de pedidos, donde, al llegar el pedido a la base de datos, su estado sea "recibido", sin necesidad de que el sistema envíe ningún valor, sólo por agregar el registro, ese registro debería contener en el campo "estado" el valor de "recibido".
+
+Este es un típico caso de valor predeterminado o por default.
+
+### PRIMARY KEY Y AUTO_INCREMENT
+
+Siempre, en toda la tabla, uno de los campos (por convención, el primero, y también por convención usualmente llamado id –por "identificador"-), debe ser de definido como clave primario o Primary Key.
+
+Esto impedirá que se le inserten valores repetidos y que se deje nulo su valor.
+
+Habitualmente, se especifica que el campo elegido para clave primaria sea numérico, de tipo entero (en cualquiera de sus variantes, según la cantidad de elementos que se identificarán) y se le asigna otro atributo típico, que es Auto_Increment, es decir, que no nos preocupamos por darle valor a ese campo: al agregar un registro, MySQL se ocupa de incrementar en uno el valor de la clave primaria del último registro agregado, y se lo asigna al nuevo registro.
+
+Este campo no suele tener ninguna relación con el contenido de la tabla, su objetivo es simplemente identificar cada registro de forma única, irrepetible.
+
+Clave primaria con auto_increment campo en MySQL
+
+Podemos definir un sólo campo como clave primaria, o dos o más campos combinados.
+
+En caso de haber definido dos o más campos para que juntos formen el valor único de una clave primaria, diremos que se trata de una clave primaria "combinada" o "compuesta".
+
+## UNIQUE
+
+Si especificamos que el valor de un campo sea Unique, estaremos obligando a que su valor no pueda repetirse en más de un registro, pero no por eso el campo se considerará clave primaria de cada registro.
+
+Esto es útil para un campo que guarde, por ejemplo, número de documentos de identidad, la casilla de correo electrónico usada para identificar el acceso de un usuario, un nombre de usuario, o cualquier otro dato que no debamos permitir que se repita.
+
+Los intentos por agregar un nuevo registro que contenga un valor ya existente en ese campo, serán rechazados.
 
 ---
 
