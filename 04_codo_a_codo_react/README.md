@@ -366,7 +366,12 @@ Usos
 Modelo entidad relación
 Cardinalidad
 Diagrama Físico (tablas, campos y registros)
-- 5 - Tipos de datos MySQL
+- 5 :
+Tipos de datos MySQL
+Datos numéricos (enteros y decimales)
+Datos alfanuméricos (char, varchar, text, blob)
+Datos de fecha y hora ( date, datetime, time, year)
+Atributos de los campos
 - 6 - Componentes SQL
 - 7 -  Trabajar con varias tablas
 ```
