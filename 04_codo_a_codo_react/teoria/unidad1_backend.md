@@ -5,44 +5,47 @@
 ## :book:  Temas:
 
 ```
-- 1 :
-¿Que es una base de datos? 
-Ventajas y desventajas de una Base de Datos. 
-¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
-Tipo de bases de datos
-Tipos de Clientes de Base de datos
-¿Qué es el software de base de datos?
-¿Qué es un sistema de administración de base de datos (DBMS)?
-- 2 :
-¿Qué es MySQL?
-Características
-- 3 :
-¿Qué es SQL?
-Usos
-- 4 :
-Modelo entidad relación
-Cardinalidad
-Diagrama Físico (tablas, campos y registros)
-- 5 :
-Tipos de datos MySQL
-Datos numéricos (enteros y decimales)
-Datos alfanuméricos (char, varchar, text, blob)
-Datos de fecha y hora ( date, datetime, time, year)
-Atributos de los campos ( NULL, NOT NULL, DEFAULT, PRIMARY KEY Y AUTO_INCREMENT, UNIQUE)
-- 6 :
-Componentes SQL
-Comandos
-Operadores
-Funciones
-Consultas
-- 7 :
-Constraints o restricciones
-Joins
+- 1 : Base de datos
+1.1- Que es una base de datos
+1.2 - Ventajas y desventajas de una Base de Datos. 
+1.3 - ¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
+1.4 - Tipo de bases de datos
+1.5 - Tipos de Clientes de Base de datos
+1.6 - ¿Qué es el software de base de datos?
+1.7 - ¿Qué es un sistema de administración de base de datos (DBMS)?
+- 2 : MySQL
+2.1 - ¿Qué es MySQL?
+2.2 - Características
+- 3 : SQL
+3.1 -¿Qué es SQL?
+3.2 - Usos
+- 4 : Modelo entidad relación
+4.1 - Modelo entidad relación
+4.2 - Cardinalidad
+4. 3 - Diagrama Físico (tablas, campos y registros)
+- 5 : Tipos de datos MySQL
+5.1 - Tipos de datos MySQL
+5.2 - Datos numéricos (enteros y decimales)
+5.3 - Datos alfanuméricos (char, varchar, text, blob)
+5.4 - Datos de fecha y hora ( date, datetime, time, year)
+5.5 - Atributos de los campos ( NULL, NOT NULL, DEFAULT, PRIMARY KEY Y AUTO_INCREMENT, UNIQUE)
+- 6 : SQL
+6.1 - Componentes SQL
+6.2 - Comandos
+6.3 - Operadores
+6.4 - Funciones
+6.5 - Consultas
+- 7 : Varias Tablas
+7.1 - Trabajar con varias tablas
+7.2 - Constraints o restricciones
+7. 3 Joins
 ```
 
 ---
 
-## :star: 1 - Que es una base de datos
+## :star2: 1- Base de datos
+
+## :star: 1.1 - ¿Que es una base de datos?
 
 Una base de datos es **una colección organizada de información estructurada, o datos, típicamente almacenados en un sistema de computadora**. Una base de datos es usualmente controlada por un sistema de gestión de base de datos (**DBMS**). En conjunto, los datos y el DBMS, junto con las aplicaciones que están asociados con ellos, se conocen como un **sistema de base de datos**, que a menudo se reducen a solo base de datos.
 
@@ -63,7 +66,7 @@ Algunos ejemplos posibles de bases de datos a lo largo de la historia son:
 Los datos dentro de los tipos más comunes de bases de datos en funcionamiento hoy en día se modelan típicamente en **filas** y **columnas** en una serie de **tablas** para que el procesamiento y la consulta de datos sean eficientes. Luego se puede **acceder(READ)**,  **administrar**, **modificar**, **actualizar(UPDATE)**, **controlar** y **organizar** fácilmente los datos. La mayoría de las bases de datos utilizan lenguaje de **consulta estructurado (SQL)** para escribir y consultar datos.
 
 
-## Ventajas de las bases de datos
+## :star: 1.2 - Ventajas de las bases de datos
 
 1. **Control sobre la redundancia de datos**: Los sistemas de ficheros almacenan varias copias de los mismos datos en ficheros distintos. Esto hace que se desperdicie espacio de almacenamiento, además de provocar la falta de consistencia de datos.
 
@@ -98,7 +101,7 @@ Sin embargo, los SGBD separan las descripciones de los datos de las aplicaciones
 
 En este caso, todo el trabajo realizado sobre los datos desde que se hizo la última copia de seguridad se pierde y se tiene que volver a realizar. Sin embargo, los SGBD actuales funcionan de modo que se minimiza la cantidad de trabajo perdido cuando se produce un fallo.
 
-## Desventajas de las bases de datos
+## :star: 1.2 - Desventajas de las bases de datos
 
 1. **Complejidad**: Los SGBD son conjuntos de programas que pueden llegar a ser complejos con una gran funcionalidad. Es preciso comprender muy bien esta funcionalidad para poder realizar un buen uso de ellos.
 
@@ -109,7 +112,7 @@ En este caso, todo el trabajo realizado sobre los datos desde que se hizo la úl
 3. **Vulnerable a los fallos**: El hecho de que todo esté centralizado en el SGBD hace que el sistema sea más vulnerable ante los fallos que puedan producirse. Es por ello que deben tenerse copias de seguridad (Backup).
 
 
-## ¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
+## :star: 1.3 - ¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
 
 ![image](https://user-images.githubusercontent.com/72580574/205499410-5bddf534-68cb-435e-8bb5-1659c798b491.png)
 
@@ -124,7 +127,7 @@ Las bases de datos y las hojas de cálculo (como Microsoft Excel) son dos formas
 Las hojas de cálculo se diseñaron originalmente para un usuario, y sus características lo reflejan. Son muy buenas para un solo usuario o un pequeño número de usuarios que no necesitan manipular una gran cantidad de datos complicados. Las bases de datos, por otro lado, están diseñadas para contener colecciones mucho más grandes de información organizada, cantidades masivas en ocasiones. Las bases de datos permiten a múltiples usuarios al mismo tiempo acceder y consultar los datos de forma rápida y segura utilizando una lógica y un lenguaje altamente complejos.
 
  
-## Tipo de bases de datos
+## :star: 1.4 - Tipo de bases de datos
 
 Hay muchos tipos diferentes de bases de datos. La mejor base de datos para una organización específica depende de cómo la organización pretende utilizar los datos.
 
@@ -142,7 +145,7 @@ Hay muchos tipos diferentes de bases de datos. La mejor base de datos para una o
 
 - **Bases de datos OLTP**: Una base de datos OLTP es una base de datos analítica y rápida diseñada para un gran número de transacciones realizadas por múltiples usuarios.
 
-## Tipos de Clientes de Base de datos
+## :star: 1.5 -  Tipos de Clientes de Base de datos
 
 - **Cliente CLI (Command Line Interface)**: Es un cliente que interactúa con la base de datos mediante el uso de la consola:
 
@@ -155,13 +158,13 @@ Hay muchos tipos diferentes de bases de datos. La mejor base de datos para una o
 - **Cliente Web**: Es un cliente que interactúa con la base de datos a través de una página web mediante el uso de un navegador. Por ejemplo: phpMyAdmin
 
 
-## ¿Qué es el software de base de datos?
+## :star: 1.6 - ¿Qué es el software de base de datos?
 
 El software de base de datos se utiliza para crear, editar y mantener archivos y registros de bases de datos, lo que facilita la creación de archivos y registros, la entrada de datos, la edición de datos, las actualizaciones y los informes. El software también se encarga del almacenamiento de datos, las copias de seguridad y los informes, el control de acceso múltiple y la seguridad. La sólida seguridad de las bases de datos es especialmente importante hoy en día, ya que el robo de información se vuelve más frecuente. En ocasiones, el software de base de datos también se denomina "sistema de administración de bases de datos" (DBMS).
 
 El software de base de datos simplifica la gestión de la información al permitirles a los usuarios almacenar datos en una forma estructurada y luego, acceder a ellos. Por lo general, tiene una interfaz gráfica para ayudar a crear y administrar los datos y, en algunos casos, los usuarios pueden crear sus propias bases de datos mediante el software de base de datos.
 
-## ¿Qué es un sistema de administración de base de datos (DBMS)?
+## :star: 1.7 - ¿Qué es un sistema de administración de base de datos (DBMS)?
 
 Una base de datos generalmente requiere un programa completo de software de base de datos, que se conoce como sistema de administración de bases de datos (DBMS). Un DBMS sirve como una interfaz entre la base de datos y sus usuarios o programas finales, lo que permite a los usuarios recuperar, actualizar y administrar cómo se organiza y optimiza la información. Un DBMS también facilita la supervisión y el control de las bases de datos, lo que permite una variedad de operaciones administrativas, como la supervisión del rendimiento, el ajuste, las copias de seguridad y la recuperación.
 
@@ -180,14 +183,16 @@ La base de datos independiente está lista para proporcionar un impulso signific
 
 ---
 
-## :star:  2 - ¿Qué es MySQL?
+## :star2:  MySQL
+
+### :star: 2.1 - ¿Qué es MySQL?
 
 ![image](https://user-images.githubusercontent.com/72580574/205499739-41991e48-3615-4532-a9cc-afd4a74e9435.png)
 
 
 MySQL es un sistema de gestión de bases de datos relacionales de código abierto basado en SQL. Fue diseñado y optimizado para aplicaciones web y puede ejecutarse en cualquier plataforma. A medida que surgían nuevos y diferentes requisitos con Internet, MySQL se convirtió en la plataforma elegida por los desarrolladores web y las aplicaciones basadas en la web. Debido a que está diseñada para procesar millones de consultas y miles de transacciones, MySQL es una opción popular para las empresas de comercio electrónico que necesitan administrar múltiples transferencias de dinero. La flexibilidad bajo demanda es la característica principal de MySQL.
 
-## Características
+## :star: 2.2 - Características
 
 Veamos cuáles son algunas de las principales características de MySQL que han hecho que se convierta en uno de los sistemas de bases de datos que más se utilizan en todo el mundo.
 
@@ -207,13 +212,15 @@ Veamos cuáles son algunas de las principales características de MySQL que han 
 
 ---
 
-## :star:  3 - ¿Qué es SQL?
+## :star2:  3 - SQL
 
-### ¿Qué es el lenguaje de consulta estructurado (SQL)?
+### :star: 3.1 - ¿Qué es SQL?
+
+##### ¿Qué es el lenguaje de consulta estructurado (SQL)?
 
 SQL (Structured Query Language) es un lenguaje de programación usado por casi todas las bases de datos relacionales para consultar, manipular y definir datos, y para proporcionar control de acceso. SQL se desarrolló por primera vez en IBM en la década de 1970 con Oracle como uno de los principales contribuyentes, lo que llevó a la implementación del estándar ANSI de SQL. SQL ha generado muchas extensiones por parte de compañías como IBM, Oracle y Microsoft. Aunque SQL todavía se usa ampliamente en la actualidad, comienzan a aparecer nuevos lenguajes de programación.
 
-### Usos
+### :star: 3.2 - Usos
 
 SQL es utilizado habitualmente no solo por los administradores de bases de datos, sino también por los desarrolladores que escriben scripts de integración de datos y por los analistas de datos que desean configurar y ejecutar consultas analíticas.
 
@@ -224,7 +231,9 @@ Los usos de SQL incluyen la modificación de las estructuras de tablas e índice
 
 ---
 
-## :star:  4 - Modelo entidad relación
+## :star2:  4 - Modelo entidad relación
+
+### :star: 4.1 - Modelo entidad relación
 
 El modelo entidad relación es un concepto para diseñar Base de datos que posteriormente serán implementadas a través de un SGBD (MySql). Este modelo se representa a través de diagramas y está formado por varios elementos, de los cuales el principal es la entidad. El tipo de diagrama utilizado para realizar el modelado Entidad-Relación es el DER (Diagrama Entidad Relación), el cual pertenece al lenguaje de modelado universal (UML: Universal Modeling Languaje)
 
@@ -240,7 +249,7 @@ En una base de datos compleja pueden existir entidades relacionadas entre sí po
 
 El modelo Entidad-Relación es de hecho uno de los más importantes a la hora de diseñar e implementar una base de datos con éxito. Mediante este modelo se relacionan una o varias entidades por sus atributos, que pueden ser comunes o no a varias de ellas.
 
-### Cardinalidad 
+### :star: 4.2 - Cardinalidad 
 
 Las relaciones tienen una característica denominada cardinalidad, la cual indica el sentido y la cantidad de “relaciones” existentes entre una entidad y otra. Estas pueden ser de los siguientes tipos:
 
@@ -260,7 +269,7 @@ El siguiente diagrama permite entender de forma rápida y sencilla todas las tab
 
 ![image](https://user-images.githubusercontent.com/72580574/205500038-28c7ebdb-e6df-44c5-b88e-3e9f24c08863.png)
 
-## Diagrama Físico (tablas, campos y registros)
+## :star: 4.3 - Diagrama Físico (tablas, campos y registros)
 
 
 Una tabla es una colección de datos con la misma estructura. Si se disponen los datos en una columna, esa columna siempre tiene el mismo tipo de datos, por ejemplo, un número de documento, un nombre, etc.
@@ -278,7 +287,9 @@ Un **registro** es cada una de las filas de la tabla, y está formado por el dat
 
 ---
 
-## :star: 5 - Tipos de datos MySQL
+## :star2: 5 - Tipos de datos MySQL
+
+### :star: 5.1 - Tipos de datos MySQL
 
 Cada vez que tengamos que crear una tabla que sirva para almacenar datos de una aplicación Web, debemos poner a prueba nuestra capacidad para definir los tipos de datos que con mayor eficiencia puedan almacenar cada dato que necesitemos guardar.
 
@@ -300,13 +311,13 @@ Un número entero, pero, ¿Cuál de los distintos tipos de enteros disponibles?
 
 Esas son preguntas que sólo podremos responder a partir del conocimiento de los distintos tipos de datos.
 
-## 1 - Datos numéricos
+## 5.2 - Datos numéricos
 
 La diferencia entre uno y otro tipo de dato es simplemente el rango de valores que puede contener.
 
 Dentro de los datos numéricos, podemos distinguir dos grandes ramas: enteros y decimales.
 
-###  1 - 1 ) NUMÉRICOS ENTEROS
+###  5.2.1 ) NUMÉRICOS ENTEROS
 
 Comencemos por conocer las opciones que tenemos para almacenar datos que sean numéricos enteros (edades, cantidades, magnitudes sin decimales); poseemos una variedad de opciones:
 
@@ -328,7 +339,7 @@ Esto puede ser útil para almacenar precios, cantidades de objetos o magnitudes 
 
 
 
-###  1 - 2 ) NUMÉRICOS CON DECIMALES
+###  5.2.2 ) NUMÉRICOS CON DECIMALES
 
 Dejemos los enteros y pasemos ahora a analizar los valores numéricos con decimales.
 
@@ -358,11 +369,11 @@ El máximo de dígitos totales para este tipo de dato es de 64, de los cuales 30
 
 El formato en el que se definen en el phpMyAdmin es idéntico para los tres: primero la longitud total, luego, una coma y, por último, la cantidad de decimales.
 
-##  2 -  Datos alfanuméricos
+## :star: 5.3 -  Datos alfanuméricos
 
 Para almacenar datos alfanuméricos (cadenas de caracteres) en MySQL poseemos los siguientes tipos de datos:
 
-### 2 - 1 )  CHAR
+### 5.3.1 )  CHAR
 
 Comencemos por el tipo de dato alfanumérico más simple: CHAR (character, o caracter).
 
@@ -379,7 +390,7 @@ Por lo tanto, no es eficiente cuando la longitud del dato que se almacenará en 
 
 Pensemos en un formulario con botones de radio para elegir el "sexo"; independientemente de lo que muestren las etiquetas visibles para el usuario, podríamos almacenar un solo carácter M o F (masculino o femenino) y, en consecuencia, el ancho del campo CHAR podría ser de un digito, y sería suficiente. Lo mismo sucede con códigos que identifiquen provincias, países, estados civiles, etc.
 
-### 2 - 2 ) VARCHAR 
+### 5.3.2 ) VARCHAR 
 
 Complementariamente, el tipo de dato VARCHAR (character varying, o caracteres variables) es útil cuando la longitud del dato es desconocida, cuando depende de la información que el usuario escribe en campos o áreas de texto de un formulario.
 
@@ -396,7 +407,7 @@ En cambio, en el caso de datos de longitud siempre constante, sería un desperdi
 ![image](https://user-images.githubusercontent.com/72580574/205500354-cf4380a7-7084-436e-b453-cc1d339256de.png)
 
 
-### 2 - 3 ) TEXT
+### 5.3.3 ) TEXT
 
 Antes de la versión 5.0.3. de MySQL, este campo era el utilizado "por excelencia" para descripciones de productos, comentarios, textos de noticia, y cualquier otro texto largo.
 
@@ -408,7 +419,7 @@ Tampoco se le puede asignar un valor predeterminado a un campo TEXT (un valor po
 
 Sólo deberíamos utilizarlo para textos realmente muy largos, como los que mencionamos al comienzo de este párrafo
 
-### 2 - 4 ) BLOB 
+### 5.3.4 ) BLOB 
 
 
 Es un campo que guarda información en formato binario y se utiliza cuando desde PHP se almacena en la base de datos el contenido de un archivo binario (típicamente, una imagen o un archivo comprimido ZIP) leyéndolo byte a byte, y se requiere almacenar todo su contenido para luego reconstruir el archivo y servidor al navegador otra vez, sin necesidad de almacenar la imagen o el ZIP en un disco, sino que sus bytes quedan guardados en un campo de una tabla de la base de datos.
@@ -432,13 +443,13 @@ Similares al BLOB, sólo cambia la longitud máxima:
 - **LONGBLOB**: es de 4 Gb (o lo máximo que permita manipular el sistema operativo).
 
 
-## 3 - Datos de fecha y hora
+## :star: 5.4 - Datos de fecha y hora
 
 En MySQL, poseemos varias opciones para almacenar datos referidos a fechas y horas.
 
 Veamos las diferencias entre uno y otro, y sus usos principales, así podemos elegir el tipo de dato apropiado en cada caso.
 
-### 3 - 1 ) DATE
+### 5.4.1 ) DATE
 
 
 El tipo de dato DATE nos permite almacenar fechas en el formato: AAAA-MM-DD (los cuatro primeros dígitos para el año, los dos siguientes para el mes, y los últimos dos para el día).
@@ -455,7 +466,7 @@ El rango de fechas que permite manejar desde el 1000-01-01 hasta el 9999-12-31.
 
 Es decir, que no nos será útil si trabajamos con una línea de tiempo que se remonta antes del año 1000, (¿alguna aplicación relacionada con la historia?), pero si nos resultara útil para datos de un pasado cercano y un futuro muy largo por delante, ya que llega casi hasta el año 10.000.
 
-### 3 - 2 ) DATETIME
+### 5.4.2 ) DATETIME
 
 Un campo definido como DATETIME nos permitirá almacenar información acerca de un instante de tiempo, pero no sólo la fecha sino también su horario, en el formato:
 
@@ -463,11 +474,11 @@ AAAA-MM-DD HH:MM:SS
 
 Siendo la parte de la fecha de un rango similar al del tipo DATE (desde el 1000-01-01 00:00:00 al 9999-12-31 23:59:59), y la parte del horario, de 00:00:00 a 23:59:59.
 
-### 3 - 3 ) TIME
+### 5.4.3 ) TIME
 
 Este tipo de cambio permite almacenar horas, minutos y segundos, en el formato HH:MM:SS, y su rango permitido va desde -839:59:59 hasta 839:59:59 (unos 35 días hacia atrás y hacia adelante de la fecha actual). Esto lo hace ideal para calcular tiempos transcurridos entre dos momentos cercanos.
 
-### 3 - 4 ) TIMESTAMP
+### 5.4.4 ) TIMESTAMP
 
 Un campo que tenga definido el tipo de dato TIMESTAMP sirve para almacenar una fecha y un horario, de manera similar a DATETIME, pero su formato y rango de valores serán diferentes.
 
@@ -487,7 +498,7 @@ Además, posee la particularidad de que podemos definir que su valor se mantenga
 
 De esa manera, conservaremos siempre en ese campo la fecha y hora de la última actualización de ese dato, que es ideal para llevar el control sin necesidad de programar nada.
 
-### 3 - 5 ) YEAR
+### 5.4.5 ) YEAR
 
 En caso de definir un campo como YEAR, podremos almacenar un año, tanto utilizando dos como cuatro dígitos.
 
@@ -500,7 +511,7 @@ A ese valor, lo podemos almacenar en un campo INT de 10 dígitos.
 De esa forma, será muy simple ordenar los valores de ese campo (supongamos que es la fecha de una noticia) y luego podremos mostrar la fecha transformando ese valor de timestamp en algo legible mediante funciones de manejo de fecha propias de PHP.
 
 
-##  Atributos de los campos
+## :star: 5.5 -  Atributos de los campos
 
 Ya hemos visto los diferentes tipos de datos que es posible utilizar al definir un campo en una tabla, pero estos tipos de datos pueden poseer ciertos modificadores o "atributos" que se pueden especificar al crear el campo, y que nos brindan la posibilidad de controlar con mayor exactitud qué se podrá almacenar en ese campo, cómo lo almacenaremos y otros detalles.
 
@@ -552,14 +563,14 @@ Los intentos por agregar un nuevo registro que contenga un valor ya existente en
 
 ---
 
-## :star:  6 - Componentes SQL
+## :star2:  6 - Componentes SQL
 
-## Componentes SQL
+## :star: 6.1 - Componentes SQL
 
 El lenguaje de consulta estructurado (SQL) está compuesto por comandos, clausulas, operadores y funciones de agregado. Estos elementos se combinan en las instrucciones para crear, actualizar y manipular las bases de datos.
 
 
-## Comandos
+## :star: 6.2  - Comandos
 
 Los principales tipos de comandos SQL son los siguientes:
 
@@ -677,7 +688,7 @@ Las clausulas son condiciones de modificación utilizadas para definir los datos
 | ORDER BY | Utilizada para ordenar los registros seleccionados de acuerdo con un orden específico. |
 | GROUP BY | Utilizada para separar los registros seleccionados en grupos específicos. |
 
-## Operadores
+## :star: 6.3 - Operadores
 
 ### Operadores lógicos
 
@@ -700,7 +711,7 @@ Las clausulas son condiciones de modificación utilizadas para definir los datos
 | LIKE | Comparación |
 | IN | Especificar |
 
-## Funciones
+## :star: 6.4 - Funciones
 
 Las funciones se usan dentro de una clausula SELECT en grupos de registros para devolver un único valor que se aplica a un grupo de registros
 
@@ -713,7 +724,7 @@ Las funciones se usan dentro de una clausula SELECT en grupos de registros para 
 | MIN | Utilizada para devolver el valor más bajo de un campo especifico |
 
 
-## Consultas
+## :star: 6.5 - onsultas
 
 ### Sentencia SELECT
 
@@ -872,13 +883,13 @@ Para ello colocamos UPDATE, el nombre de la tabla, SET junto al nombre del campo
 
 ---
 
-## :star:  7 -  Trabajar con varias tablas
+## :star2:  7 -  Trabajar con varias tablas
 
 
-### Trabajar con varias tablas (joins)
+### :star: 7.1 - Trabajar con varias tablas (joins)
 
 
-### Constraints o restricciones
+### :star 7.2 -  Constraints o restricciones
 
 Para asegurar la integridad de los datos almacenados en nuestras tablas, podemos crear restricciones, algunos los hemos utilizado sin querer o simplemente desconocemos que lo que hicimos fue una restricción. Estas restricciones las podemos implementar al momento de crear las tablas o modificarlas.
 
@@ -937,7 +948,7 @@ Ahora con esta nueva división deberemos pensar en dos conceptos para los campos
 ![image](https://user-images.githubusercontent.com/72580574/205501745-7a28e502-b0e5-485d-b291-a7ffc3455435.png)
 
 
-## Joins
+##  :star: 7.3Joins
 
 Joins significa uniones y tal como su significado nos indica, nos permite hacer uniones entre tablas y los resultados de las consultas a las mismas lo cual nos va a permitir proveer ciertas flexibilidades adicionales además su sintaxis es mucho más utilizada, también ganamos una mayor performance.
 
