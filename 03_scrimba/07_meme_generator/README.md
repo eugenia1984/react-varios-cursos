@@ -727,6 +727,10 @@ const [formData, setFormData ] = useState(
  
  ![image](https://user-images.githubusercontent.com/72580574/205510983-6e61325e-f00a-4b5d-a10f-175b4bb6706c.png)
 
+- Mini challenge: agregar un input de tipo email.
+
+![image](https://user-images.githubusercontent.com/72580574/205511132-1f572461-2a58-4435-a0ac-32ecfe8881b0.png)
+
 
 :tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/xenodochial-boyd-9sbouq)
 
