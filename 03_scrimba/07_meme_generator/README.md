@@ -539,5 +539,10 @@ Directamente utilizo un map para que me devuelva un nuevo array de square y con 
 
 - Agrego un botòn que cambia el valor entre true y false
 
+![image](https://user-images.githubusercontent.com/72580574/205498409-c43e6899-c5d1-4eb9-bec5-b22e9045fd96.png)
+
+
+ - Ahora volviendo al **conditional rendering** punchline solo debe mostrarse si es true.
+ 
 ---
 
