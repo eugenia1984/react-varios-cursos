@@ -16,7 +16,9 @@ Tipos de Clientes de Base de datos
 - 2 :
 ¿Qué es MySQL?
 Características
-- 3 - ¿Qué es SQL?
+- 3 :
+¿Qué es SQL?
+Usos
 - 4 - Modelo entidad relación
 - 5 - Tipos de datos MySQL
 - 6 - Componentes SQL
@@ -191,6 +193,18 @@ Veamos cuáles son algunas de las principales características de MySQL que han 
 ---
 
 ## :star:  3 - ¿Qué es SQL?
+
+### ¿Qué es el lenguaje de consulta estructurado (SQL)?
+
+SQL (Structured Query Language) es un lenguaje de programación usado por casi todas las bases de datos relacionales para consultar, manipular y definir datos, y para proporcionar control de acceso. SQL se desarrolló por primera vez en IBM en la década de 1970 con Oracle como uno de los principales contribuyentes, lo que llevó a la implementación del estándar ANSI de SQL. SQL ha generado muchas extensiones por parte de compañías como IBM, Oracle y Microsoft. Aunque SQL todavía se usa ampliamente en la actualidad, comienzan a aparecer nuevos lenguajes de programación.
+
+### Usos
+
+SQL es utilizado habitualmente no solo por los administradores de bases de datos, sino también por los desarrolladores que escriben scripts de integración de datos y por los analistas de datos que desean configurar y ejecutar consultas analíticas.
+
+Los usos de SQL incluyen la modificación de las estructuras de tablas e índices de las bases de datos; la adición, actualización y eliminación de filas de datos; y la recuperación de subconjuntos de información de una base de datos para el procesamiento de transacciones y aplicaciones. Las consultas y otras operaciones SQL adoptan la forma de comandos escritos en forma de sentencias: las sentencias SQL más utilizadas son select, add, insert, update, delete, create, alter y truncate.
+
+![image](https://user-images.githubusercontent.com/72580574/205499893-fe0beda6-957d-431e-830a-c7f2b6de3c94.png)
 
 
 ---
