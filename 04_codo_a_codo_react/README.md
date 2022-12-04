@@ -313,12 +313,23 @@ Temas:
 
 Temas:
 ```
-- ¿Qué es firestore?
-- Estructura de firestore
-- Crear Base de datos en firebase
+- 1 : Firestore
+1.1 - ¿Qué es firestore?
+1.2 - Configuración de Firestore en un proyecto JavaScriptv
+1.3  - Caracteristicas
+- 2: Estructura de firestore
+2.1 - Modelo de datos de Cloud Firestore
+2.2 - Documentos
+2.3 - Colecciones
+2.4 - Referencias
+2.5 - Datos jerárquicos
+2.6 -  Subcolecciones
+- 3 : Crear Base de datos en firebase
+3.1 - Pasos para crear una Base de datos en Firebase
+
 ```
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_ARQUITECTURA.md)
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_ARQUITECTURA.md)
 
 
 Temas:
