@@ -5,7 +5,14 @@
 ## :book:  Temas:
 
 ```
-- 1 - ¿Que es una base de datos? Ventajas y desventajas de una Base de Datos. ¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
+- 1 :
+¿Que es una base de datos? 
+Ventajas y desventajas de una Base de Datos. 
+¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
+Tipo de bases de datos
+Tipos de Clientes de Base de datos
+¿Qué es el software de base de datos?
+¿Qué es un sistema de administración de base de datos (DBMS)?
 - 2 - ¿Qué es MySQL?
 - 3 - ¿Qué es SQL?
 - 4 - Modelo entidad relación
@@ -81,6 +88,71 @@ En este caso, todo el trabajo realizado sobre los datos desde que se hizo la úl
 2. **Coste del equipamiento adicional**: Tanto el SGBD, como la propia base de datos, pueden hacer que sea necesario adquirir más espacio de almacenamiento. Además, para alcanzar las prestaciones deseadas, es posible que sea necesario adquirir una máquina más grande o una máquina que se dedique solamente al SGBD. Todo esto hará que la implantación de un sistema de bases de datos sea más cara.
 
 3. **Vulnerable a los fallos**: El hecho de que todo esté centralizado en el SGBD hace que el sistema sea más vulnerable ante los fallos que puedan producirse. Es por ello que deben tenerse copias de seguridad (Backup).
+
+
+## ¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
+
+![image](https://user-images.githubusercontent.com/72580574/205499410-5bddf534-68cb-435e-8bb5-1659c798b491.png)
+
+Las bases de datos y las hojas de cálculo (como Microsoft Excel) son dos formas convenientes de almacenar información. Las principales diferencias entre las dos son:
+
+- Cómo se almacenan y manipulan los datos
+
+- Quién puede acceder a los datos
+
+- Cuántos datos se pueden almacenar
+
+Las hojas de cálculo se diseñaron originalmente para un usuario, y sus características lo reflejan. Son muy buenas para un solo usuario o un pequeño número de usuarios que no necesitan manipular una gran cantidad de datos complicados. Las bases de datos, por otro lado, están diseñadas para contener colecciones mucho más grandes de información organizada, cantidades masivas en ocasiones. Las bases de datos permiten a múltiples usuarios al mismo tiempo acceder y consultar los datos de forma rápida y segura utilizando una lógica y un lenguaje altamente complejos.
+
+ 
+## Tipo de bases de datos
+
+Hay muchos tipos diferentes de bases de datos. La mejor base de datos para una organización específica depende de cómo la organización pretende utilizar los datos.
+
+- **Bases de datos relacionales**: Las bases de datos relacionales se popularizaron en los años ochenta. Los elementos de una base de datos relacional se organizan como un conjunto de tablas con columnas y filas. La tecnología de base de datos relacional proporciona la manera más eficiente y flexible de acceder a información estructurada.
+
+- **Bases de datos orientadas a objetos**: La información en una base de datos orientada a objetos se representa en forma de objetos, como en la programación orientada a objetos.
+
+- **Bases de datos distribuidas**: Una base de datos distribuida consta de dos o más archivos ubicados en diferentes sitios. La base de datos puede almacenarse en múltiples computadoras, ubicadas en la misma ubicación física o dispersas en diferentes redes.
+
+- **Almacenes de datos**: Un almacén de datos es un tipo de base de datos diseñada específicamente para consultas y análisis rápidos, y funciona como un depósito central de datos.
+
+- **Bases de datos NoSQL**: Una NoSQL, o una base de datos no relacional, permite que los datos no estructurados y semiestructurados se almacenen y manipulen, a diferencia de una base de datos relacional, que define cómo deben componerse todos los datos insertados en la base de datos. Las bases de datos NoSQL se hicieron populares a medida que las aplicaciones web se hacían más comunes y más complejas.
+
+- **Bases de datos orientadas a grafos**: Una base de datos orientada a grafos almacena datos en términos de entidades y las relaciones entre entidades.
+
+- **Bases de datos OLTP**: Una base de datos OLTP es una base de datos analítica y rápida diseñada para un gran número de transacciones realizadas por múltiples usuarios.
+
+## Tipos de Clientes de Base de datos
+
+- **Cliente CLI (Command Line Interface)**: Es un cliente que interactúa con la base de datos mediante el uso de la consola:
+
+![image](https://user-images.githubusercontent.com/72580574/205499560-9e5b9c2f-7461-4c0e-a45c-285a7955cd7c.png)
+
+- **Cliente GUI (graphical user interface)**: Es un cliente que interactúa con la base de datos mediante el uso de una aplicación gráfica. Por ejemplo: workbench.
+
+![image](https://user-images.githubusercontent.com/72580574/205499577-639d74ce-f20c-4119-ad3d-20e221f2d0a2.png)
+
+- **Cliente Web**: Es un cliente que interactúa con la base de datos a través de una página web mediante el uso de un navegador. Por ejemplo: phpMyAdmin
+
+
+## ¿Qué es el software de base de datos?
+
+El software de base de datos se utiliza para crear, editar y mantener archivos y registros de bases de datos, lo que facilita la creación de archivos y registros, la entrada de datos, la edición de datos, las actualizaciones y los informes. El software también se encarga del almacenamiento de datos, las copias de seguridad y los informes, el control de acceso múltiple y la seguridad. La sólida seguridad de las bases de datos es especialmente importante hoy en día, ya que el robo de información se vuelve más frecuente. En ocasiones, el software de base de datos también se denomina "sistema de administración de bases de datos" (DBMS).
+
+El software de base de datos simplifica la gestión de la información al permitirles a los usuarios almacenar datos en una forma estructurada y luego, acceder a ellos. Por lo general, tiene una interfaz gráfica para ayudar a crear y administrar los datos y, en algunos casos, los usuarios pueden crear sus propias bases de datos mediante el software de base de datos.
+
+## ¿Qué es un sistema de administración de base de datos (DBMS)?
+
+Una base de datos generalmente requiere un programa completo de software de base de datos, que se conoce como sistema de administración de bases de datos (DBMS). Un DBMS sirve como una interfaz entre la base de datos y sus usuarios o programas finales, lo que permite a los usuarios recuperar, actualizar y administrar cómo se organiza y optimiza la información. Un DBMS también facilita la supervisión y el control de las bases de datos, lo que permite una variedad de operaciones administrativas, como la supervisión del rendimiento, el ajuste, las copias de seguridad y la recuperación.
+
+Algunos ejemplos de software de bases de datos o DBMS populares incluyen MySQL, Microsoft Access, Microsoft SQL Server, FileMaker Pro, Oracle Database y dBASE.
+
+![image](https://user-images.githubusercontent.com/72580574/205499701-b70f34d4-7fe5-41d4-8ce9-aecf6159dfd4.png)
+
+
+
+
 
 ---
 
