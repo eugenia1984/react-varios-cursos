@@ -19,7 +19,10 @@ Características
 - 3 :
 ¿Qué es SQL?
 Usos
-- 4 - Modelo entidad relación
+- 4 :
+Modelo entidad relación
+Cardinalidad
+Diagrama Físico (tablas, campos y registros)
 - 5 - Tipos de datos MySQL
 - 6 - Componentes SQL
 - 7 -  Trabajar con varias tablas
@@ -210,6 +213,55 @@ Los usos de SQL incluyen la modificación de las estructuras de tablas e índice
 ---
 
 ## :star:  4 - Modelo entidad relación
+
+El modelo entidad relación es un concepto para diseñar Base de datos que posteriormente serán implementadas a través de un SGBD (MySql). Este modelo se representa a través de diagramas y está formado por varios elementos, de los cuales el principal es la entidad. El tipo de diagrama utilizado para realizar el modelado Entidad-Relación es el DER (Diagrama Entidad Relación), el cual pertenece al lenguaje de modelado universal (UML: Universal Modeling Languaje)
+
+Se define una entidad (o instancia) como una unidad de una base de datos que contiene información. Esta unidad es una representación dentro de la base de datos de un objeto, persona, empresa... etc, que puede ser real o abstracto, y como tal posee ciertos atributos que la diferencian del resto de entidades. Así, por ejemplo, en una base de datos de un establecimiento educativo, una entidad podría ser los alumnos, otra las materias, otra los profesores. Cada una de estas entidades tendría ciertos atributos propios. Así, los alumnos tendrían atributos como nombre, edad, apellido.
+
+## Entidades
+
+Los atributos definen o identifican las características propias y por lo general únicas de una entidad
+
+##  Entidad + atributos
+
+En una base de datos compleja pueden existir entidades relacionadas entre sí por diversos parámetros o atributos, de tal modo que la existencia de una puede ir ligada a la existencia de otra. Así, las entidades pueden ser fuertes (existen por si mismas) o débiles (su existencia depende de que exista otra entidad). Las relaciones entre entidades suelen describirse en el esquema de la estructura de la base de datos e incluso pueden agruparse entre sí para formar conjuntos de entidades.
+
+El modelo Entidad-Relación es de hecho uno de los más importantes a la hora de diseñar e implementar una base de datos con éxito. Mediante este modelo se relacionan una o varias entidades por sus atributos, que pueden ser comunes o no a varias de ellas.
+
+### Cardinalidad 
+
+Las relaciones tienen una característica denominada cardinalidad, la cual indica el sentido y la cantidad de “relaciones” existentes entre una entidad y otra. Estas pueden ser de los siguientes tipos:
+
+- **Relación uno a muchos (1-n)**: En el siguiente ejemplo se ve que un alumno puede tener muchos autos (n) y a su vez muchos autos pueden ser de un alumno.
+
+ 
+
+- **Relación uno a uno (1-1)**: En el siguiente ejemplo se ve que un alumno puede tener una sola libreta, y esa libreta puede pertenecer a ese único alumno.
+
+ 
+
+- **Relación muchos a muchos (n-n)**: En el siguiente ejemplo se ve que un alumno puede estar asignada a muchas materias, y las materias pueden tener muchos alumnos.
+
+ 
+
+El siguiente diagrama permite entender de forma rápida y sencilla todas las tablas de nuestra base de datos.
+
+![image](https://user-images.githubusercontent.com/72580574/205500038-28c7ebdb-e6df-44c5-b88e-3e9f24c08863.png)
+
+## Diagrama Físico (tablas, campos y registros)
+
+
+Una tabla es una colección de datos con la misma estructura. Si se disponen los datos en una columna, esa columna siempre tiene el mismo tipo de datos, por ejemplo, un número de documento, un nombre, etc.
+
+
+Cada tabla consta, si vamos a relacionarlo con el tema anterior podemos decir que una tabla es una entidad, de un cierto número de campos, en cada uno de los cuales se guarda un dato, que puede ser numérico, alfanumérico, fecha, etc.
+
+Un **campo** es cada una de las columnas de la tabla y el nombre de la columna es el nombre del campo, relacionándolo con el tema anterior, un campo es un atributo.
+
+Un **registro** es cada una de las filas de la tabla, y está formado por el dato de cada uno de los campos almacenados en una misma operación.
+
+![image](https://user-images.githubusercontent.com/72580574/205500082-4b189181-ce63-450c-b1dd-00ffd8a82d06.png)
+
 
 
 ---
