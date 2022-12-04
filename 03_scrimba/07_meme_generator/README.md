@@ -808,4 +808,36 @@ Y lo usamos:
 
 ![image](https://user-images.githubusercontent.com/72580574/205512439-dd07f250-0388-4877-b05c-5865aafff89b.png)
 
+
+### RADIO BUTTONS
+
+- Deben tener el **type=radio** y un **id**.
+
+- En mi estado para poder verlos voy a agregar **employment**
+
+![image](https://user-images.githubusercontent.com/72580574/205512615-2512640a-b511-4c15-b59c-bcc090f74459.png)
+
+- Debo agregar la **prop** **name** que deben coincidir con como lo llamo en el estado.
+
+![image](https://user-images.githubusercontent.com/72580574/205512696-02a51cd0-5b1b-4bc4-bfa3-0c7b8f88e33c.png)
+
+![image](https://user-images.githubusercontent.com/72580574/205512711-5f54be41-addc-41c9-b670-582d9942f0f4.png)
+
+- Cada input de tipo radio va a tener su propio **value** unico, voy a darle de value lo mismo que tiene de id.
+
+- Y para estar escuchando el evento agrego ** onChange={handleChange}**
+
+![image](https://user-images.githubusercontent.com/72580574/205512864-fc4de5e6-1bcd-4dcd-9d25-b9d2d1285a22.png)
+
+- Para controlar la propiedad checked es distinto al textarea, en este caso lo tengo que comparar con el value:
+
+```JSX
+checked={formData.employment === "unemployed"}
+````
+
+- Dejo un input de ejemplo:
+
+![image](https://user-images.githubusercontent.com/72580574/205512998-8ca0465b-9f4f-4b79-9bb3-44361f144c96.png)
+
+ 
 ---
