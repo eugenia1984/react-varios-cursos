@@ -353,6 +353,7 @@ Ventajas y desventajas de una Base de Datos.
 ¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
 Tipo de bases de datos
 Tipos de Clientes de Base de datos
+¿Qué es el software de base de datos?
 - 2 - ¿Qué es MySQL?
 - 3 - ¿Qué es SQL?
 - 4 - Modelo entidad relación
