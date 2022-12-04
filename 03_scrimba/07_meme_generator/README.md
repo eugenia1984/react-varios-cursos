@@ -690,6 +690,42 @@ Modificamos el codigo:
 
 ![image](https://user-images.githubusercontent.com/72580574/205509926-f4f4fb4b-bcae-43bd-91b0-69740241828e.png)
 
+- ¿Y si en vez de un solo input con le nombre tengo otro más con el apellido ?
+
+Podría pensar en agregar un nuevo estado para el apellido y en el mismo handleCahnge me vuelvo a setear, o para tenerlo separado me armo dos handleChange, uno para cada input.
+
+![image](https://user-images.githubusercontent.com/72580574/205510181-387bc551-6b12-4bd5-af2a-58aceaa43735.png)
+
+
+En tema es que si tengo mucho más input esto se va poniendo cada vez más largo, entonces ¿que conviene? Manejarlo con un **object**, entonces tenemos una solo función **setter**.
+
+```JSX
+const [formData, setFormData ] = useState(
+    {
+      firstName: "",
+      lastName:"",
+    })
+ ```
+ 
+ En cada **input** debo agregar un **name** para poder indentificarlos, por buena practica le pongo el mismo nombre que la key del objeto, entonces:
+ 
+ ```name="firstName"```` y  ```name="lastName"````
+ 
+ Tengo que ver el estado previo de los valores en los name de mis input, para solo actualizar el que se modifica.
+ 
+ Como *event.target.name* es una variable, lo pongo entre [] para tratarlo ocmo tal y no tener errores.
+ 
+ ```JSX
+ function handleChange(event) {
+    setFormData(prevFormData => {
+      return {
+          ...prevFormData,
+          [event.target.name]: event.target.value
+      }
+    })
+  ```
+ 
+ ![image](https://user-images.githubusercontent.com/72580574/205510983-6e61325e-f00a-4b5d-a10f-175b4bb6706c.png)
 
 
 :tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/xenodochial-boyd-9sbouq)
