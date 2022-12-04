@@ -359,7 +359,9 @@ Tipos de Clientes de Base de datos
 - 2 :
 ¿Qué es MySQL?
 Características
-- 3 - ¿Qué es SQL?
+- 3 :
+¿Qué es SQL?
+Usos
 - 4 - Modelo entidad relación
 - 5 - Tipos de datos MySQL
 - 6 - Componentes SQL
