@@ -378,7 +378,10 @@ Comandos
 Operadores
 Funciones
 Consultas
-- 7 -  Trabajar con varias tablas
+- 7 :
+Trabajar con varias tablas
+Constraints o restricciones
+Joins
 ```
 
 ---
