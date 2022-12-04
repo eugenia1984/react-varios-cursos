@@ -5,14 +5,26 @@
 ## :book: Temas
 
 ```
-- 1 - ¿Qué es firestore?
-- 2 - Estructura de firestore
-- 3 - Crear Base de datos en firebase
+- 1 : Firestore
+1.1 - ¿Qué es firestore?
+1.2 - Configuración de Firestore en un proyecto JavaScriptv
+1.3  - Caracteristicas
+- 2: Estructura de firestore
+2.1 - Modelo de datos de Cloud Firestore
+2.2 - Documentos
+2.3 - Colecciones
+2.4 - Referencias
+2.5 - Datos jerárquicos
+2.6 -  Subcolecciones
+- 3 : Crear Base de datos en firebase
+3.1 - Pasos para crear una Base de datos en Firebase
 ```
 
 ---
 
-## :star: 1 - ¿Qué es firestore?
+## :star2: 1 - Firestore
+
+## :star: 1.1 - ¿Qué es firestore?
 
 ![image](https://user-images.githubusercontent.com/72580574/202919469-eff2fd9e-e14b-4af3-9a9f-1018714fd6a3.png)
 
@@ -36,14 +48,14 @@ Una de las grandes ventajas de elegir Firestore, para su base de datos es la pot
 
 En resumen, Firestore es una gran opción para aplicaciones tanto pequeñas como grandes. **Para aplicaciones pequeñas es potente, porque podemos hacer mucho sin mucha configuración y crear proyectos rápidamente con ellos. Firestore es muy adecuado, para proyectos grandes debido a su escalabilidad**.
 
-### Configuración de Firestore en un proyecto JavaScript
+### :star: 1.2 - Configuración de Firestore en un proyecto JavaScript
 
 Vamos a utilizar el SDK de Firestore para JavaScript. A lo largo de esta hoja de trucos, cubriremos cómo utilizar Firestore dentro del contexto de un proyecto de JavaScript. A pesar de esto, los conceptos que cubriremos aquí son fácilmente transferibles a cualquiera de las librerías cliente de Firestore disponibles.
 
 Para empezar con Firestore, nos dirigiremos a la consola de Firebase. Puedes visitarla yendo a *firebase.google.com*. Tendrás que tener una cuenta de Google para iniciar sesión.
 
 
-### Caracteristicas:
+### :star:  1.3 - Caracteristicas:
 
 1. Base de datos de documentos sin servidor que se escala fácilmente para ajustarse a cualquier demanda, sin necesidad de mantenimiento.
  
@@ -60,7 +72,7 @@ La sincronización en directo integrada y el modo sin conexión facilitan el des
 
 ## :star:  2 - Estructura de firestore
 
-### ☑️ Modelo de datos de Cloud Firestore
+### ☑️ 2.1 - Modelo de datos de Cloud Firestore
 
 Cloud Firestore **es una base de datos NoSQL orientada a los documentos**. A diferencia de una base de datos SQL, no hay tablas ni filas; En su lugar, **almacenas los datos en documentos, que se organizan en colecciones**.
 
@@ -70,7 +82,7 @@ Todos los **documentos** se deben almacenar en **colecciones**, y pueden contene
 
 Las colecciones y los documentos se crean de manera implícita en Cloud Firestore; solo debes asignar datos a un documento dentro de una colección. Si la colección o el documento no existen, Cloud Firestore los crea.
 
-### ☑️ Documentos
+### ☑️ 2.2 - Documentos
 
 En Cloud Firestore, la unidad de almacenamiento es el documento. **Un documento es un registro que usa pocos recursos y contiene campos con valores asignados**. Cada documento se identifica con un nombre.
 
@@ -107,7 +119,7 @@ born : 1815
 Tal vez te parezca que los documentos son muy similares a JSON; de hecho, básicamente son JSON. Existen algunas diferencias (por ejemplo, **los documentos admiten tipos de datos adicionales y su tamaño se limita a 1 MB**), pero en general, **puedes tratar los documentos como registros JSON livianos**.
 
 
-### ☑️ Colecciones
+### ☑️  2.3 - Colecciones
 
 - **Los documentos viven en colecciones, que simplemente son contenedores de documentos**. 
 
@@ -141,7 +153,7 @@ born : 1912
 - No es necesario "crear" ni "borrar" las colecciones. Cuando se crea el primer documento de una colección, esta pasa a existir. Si borras todos los documentos de una colección, esta deja de existir.
 
 
-### ☑️ Referencias
+### ☑️ 2.4 -  Referencias
 
 Cada documento de Cloud Firestore se identifica de forma única por su ubicación dentro de la base de datos. El ejemplo anterior muestra un documento alovelace en la colección users. Para hacer referencia a esta ubicación en tu código, puedes crear una referencia a ella.
 
@@ -152,7 +164,7 @@ Una referencia es un objeto liviano que simplemente apunta a una ubicación en l
 Nota: Las referencias a colecciones y las referencias a documentos son dos tipos distintos de referencias que permiten ejecutar diferentes operaciones. Por ejemplo, podrías usar una referencia a una colección para consultar los documentos de la colección y podrías usar una referencia a un documento para leer o escribir en un documento individual.
 
 
-### ☑️ Datos jerárquicos
+### ☑️ 2.5 - Datos jerárquicos
 
 - Para comprender cómo funcionan las estructuras de datos jerárquicas en Cloud Firestore, considera el siguiente ejemplo de una app de chat con mensajes y salas de chat.
 
@@ -173,7 +185,7 @@ class roomB
 
  
 
-### ☑️ Subcolecciones
+### ☑️ 2.6 - Subcolecciones
 
 - La mejor manera de almacenar mensajes en este caso es usar subcolecciones. **Una subcolección es una colección asociada con un documento específico**.
 
@@ -206,9 +218,9 @@ class roomB
 
 ---
 
-## :star: 3 - Crear Base de datos en firebase
+## :star2: 3 - Crear Base de datos en firebase
 
-### Pasos para crear una Base de datos en Firebase
+### :star: 3.1 - Pasos para crear una Base de datos en Firebase
 
 1. Deberemos crear un proyecto
 ![image](https://user-images.githubusercontent.com/72580574/202920177-dfc085e3-7a27-484b-a22d-b53a6be496db.png)
