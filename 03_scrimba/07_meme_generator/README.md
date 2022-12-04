@@ -858,4 +858,6 @@ Como no tnego un valor que sea **""** como inicializo el estafo, voy a agregar c
 
 ## SUBMIT
  
+ - En HTML en la etiqueta ```<form >``` tenemos el **method** POST / GET y la **action**, pero en React tenemos ``` <form onSubmit={handleSubmit}>```
+ 
 ---
