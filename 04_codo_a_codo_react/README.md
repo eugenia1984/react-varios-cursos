@@ -327,6 +327,36 @@ Temas:
 - Git avanzado
 - Git Flow
 ```
+
+
+## <img src="https://img.icons8.com/officel/32/000000/react.png"/> SECCIÓN BACK END : Unidad 1
+
+Temas:
+
+```
+- Que es una base de datos
+- Que es Mysql
+- Que es SQL
+- Modelo entidad relación
+- Tipos de datos
+- Componentes SQL
+- Trabajar con varias tablas
+```
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_backend.md)
+
+
+Temas:
+```
+- 1 - Que es una base de datos
+- 2 - ¿Qué es MySQL?
+- 3 - ¿Qué es SQL?
+- 4 - Modelo entidad relación
+- 5 - Tipos de datos MySQL
+- 6 - Componentes SQL
+- 7 -  Trabajar con varias tablas
+```
+
 ---
 ---
 
