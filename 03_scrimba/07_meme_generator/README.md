@@ -550,3 +550,8 @@ Directamente utilizo un map para que me devuelva un nuevo array de square y con 
 
 ---
 
+## :star: Conditional Rendering - Mini Chalenge
+
+:tv: -> [Codigo y demo en CodeSandBox.io](https://codesandbox.io/s/youthful-engelbart-d616uf)
+
+---
