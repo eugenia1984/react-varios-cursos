@@ -529,6 +529,15 @@ Directamente utilizo un map para que me devuelva un nuevo array de square y con 
 ![image](https://user-images.githubusercontent.com/72580574/205382487-7be6ddf2-4e62-4644-9eb8-b6608921f15b.png)
 
 
+---
+
+## :star: Volviendo al mini challenge de Jokes con mapping
+
+:tv: -> [Aca se puede ver en CodeSandBox.io](https://codesandbox.io/s/joke-mapping)
+
+- Cree un estado **isShown** que es **boolean**
+
+- Agrego un botòn que cambia el valor entre true y false
 
 ---
 
