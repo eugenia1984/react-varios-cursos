@@ -839,5 +839,23 @@ checked={formData.employment === "unemployed"}
 
 ![image](https://user-images.githubusercontent.com/72580574/205512998-8ca0465b-9f4f-4b79-9bb3-44361f144c96.png)
 
+ ## SELECT & OPTIONS
+ 
+ - Vamos a seleccionar el color favorito
+ 
+ - Primero lo agregamos en el estado
+ ![image](https://user-images.githubusercontent.com/72580574/205513172-25c0863c-5106-4c07-8c8a-a36f62d06eae.png)
+
+- Después agregamos el **select** como componente
+
+Como no tnego un valor que sea **""** como inicializo el estafo, voy a agregar como primera opcion:
+
+```JSX
+<option value="">--Choose--</option>
+```
+
+![image](https://user-images.githubusercontent.com/72580574/205513359-5ff0895d-b859-429a-8bf5-770f3f590c2f.png)
+
+## SUBMIT
  
 ---
