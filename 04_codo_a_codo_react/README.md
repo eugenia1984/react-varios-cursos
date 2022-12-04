@@ -334,9 +334,19 @@ Temas:
 
 Temas:
 ```
-- Flujo de trabajo
-- Git avanzado
-- Git Flow
+- 1 : Flujo de trabajo
+1.1 - Ramas
+- 2: Git avanzado
+2.1 - Funcionamiento
+2.2 - Opciones comunes
+- 3: Git Flow
+3.1 - ¿Qué es Gitflow?
+3.2 - Inicio
+3.3 Funcionamiento
+3.3.1 - Ramas principales y de desarrollo
+3.3.2 -  Ramas de función
+3.3.3 -  Ramas de publicación
+3.3.4 - Ramas de corrección
 ```
 
 
@@ -392,7 +402,7 @@ Temas:
 - 7 : Varias Tablas
 7.1 - Trabajar con varias tablas
 7.2 - Constraints o restricciones
-7. 3 Joins
+7.3 Joins
 ```
 
 ---
