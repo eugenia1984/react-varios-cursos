@@ -631,6 +631,67 @@ Volvienod al mini challenge de los chistes mapeados con el array, vemos que al h
 
 - Practicamos con un solo input
 
+```JSX
+import React, { useState } from "react";
+
+export default function Fomr() {
+  const [ firstName, setFirtName ] = useState("")
+
+  function handleCahnge(event) {
+    console.log(event)
+  }
+  return (
+    <form>
+      <input 
+        type="text" 
+        placeholder="First Name" 
+        onChange={handleCahnge}
+      />
+    </form>
+  );
+}
+```
+
+Y al consologear el **event**:
+
+```
+SyntheticBaseEvent {_reactName: "onChange", _targetInst: null, type: "change", nativeEvent: InputEvent, target: HTMLInputElement…}
+_reactName: "onChange"
+_targetInst: null
+type: "change"
+nativeEvent: InputEvent
+target: 
+<input type="text" placeholder="First Name"></input>
+currentTarget: null
+eventPhase: 3
+bubbles: true
+cancelable: false
+timeStamp: 53269.39999997616
+defaultPrevented: false
+isTrusted: true
+isDefaultPrevented: ƒ functionThatReturnsFalse() {}
+isPropagationStopped: ƒ functionThatReturnsFalse() {}
+preventDefault: ƒ preventDefault() {}
+stopPropagation: ƒ stopPropagation() {}
+persist: ƒ persist() {}
+isPersistent: ƒ functionThatReturnsTrue() {}
+<constructor>: "SyntheticBaseEvent"
+```
+
+-> De todos estos el que me importa es **target** si conologeo: **event.target**:
+
+```JSX
+<input type="text" placeholder="First Name"></input>
+```
+
+Es el objeto del DOM que va a ser trigger en el evento, lo va a lanzar, me va a ir leyendo la información que voy poniendo en el input.
+
+Modificamos el codigo:
+
+![image](https://user-images.githubusercontent.com/72580574/205509926-f4f4fb4b-bcae-43bd-91b0-69740241828e.png)
+
+
+
 :tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/xenodochial-boyd-9sbouq)
 
 ---
