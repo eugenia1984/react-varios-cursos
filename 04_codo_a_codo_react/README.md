@@ -356,7 +356,9 @@ Tipo de bases de datos
 Tipos de Clientes de Base de datos
 ¿Qué es el software de base de datos?
 ¿Qué es un sistema de administración de base de datos (DBMS)?
-- 2 - ¿Qué es MySQL?
+- 2 :
+¿Qué es MySQL?
+Características
 - 3 - ¿Qué es SQL?
 - 4 - Modelo entidad relación
 - 5 - Tipos de datos MySQL
