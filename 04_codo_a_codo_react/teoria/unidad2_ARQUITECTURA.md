@@ -5,16 +5,26 @@
 ## :book: Temas:
 
 ```
-- 1 - Flujo de trabajo
-- 2 - Git avanzado
-- 3 - Git Flow
+- 1 : Flujo de trabajo
+1.1 - Ramas
+- 2: Git avanzado
+2.1 - Funcionamiento
+2.2 - Opciones comunes
+- 3: Git Flow
+3.1 - ¿Qué es Gitflow?
+3.2 - Inicio
+3.3 Funcionamiento
+3.3.1 - Ramas principales y de desarrollo
+3.3.2 -  Ramas de función
+3.3.3 -  Ramas de publicación
+3.3.4 - Ramas de corrección
 ```
 
 ---
 
 ## :star:  1 - Flujo de trabajo
 
-### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> Ramas
+### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> 1.1 - Ramas
 
 La creación de ramas es una función disponible en la mayoría de los **sistemas de control de versiones** actuales. La creación de ramas en otros sistemas de control de versiones puede tanto llevar mucho tiempo como ocupar mucho espacio de almacenamiento. **En Git, las ramas son parte del proceso de desarrollo del dia a dia**. Las ramas de Git **son un puntero eficaz para las instantáneas de tus cambios**. Cuando quieres añadir una nueva función o solucionar un error, independientemente de su tamaño, generas una nueva rama para alojar estos cambios. Esto **hace que resulte más complicado que el código inestable se fusione con el código base principal, y te da la oportunidad de limpiar tu historial futuro antes de fusionarlo con la rama principal**. Con git, la gestión de ramas se hace a través del comando ```git branch```, las ramas de Git son una parte integral del flujo de trabajo diario.
 
@@ -25,7 +35,7 @@ La creación de ramas es una función disponible en la mayoría de los **sistema
 
 ## :star: 2 - Git avanzado
 
-### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/>  Funcionamiento
+### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/>  2.1 - Funcionamiento
 
 Una rama representa una línea independiente de desarrollo. 
 
@@ -37,7 +47,7 @@ Las nuevas confirmaciones se registran en el historial de la rama actual, lo que
 
 El comando ```git branch``` te permite crear, enumerar, cambiar el nombre y eliminar ramas. No te permite cambiar entre ramas o volver a unir un historial bifurcado. Por este motivo, git branch está estrechamente relacionado con los comandos ```git checkout``` y ```git merge```.
 
-### <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/30/null/external-command-line-mobile-app-development-flaticons-lineal-color-flat-icons-4.png"/> Opciones comunes
+### <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/30/null/external-command-line-mobile-app-development-flaticons-lineal-color-flat-icons-4.png"/> 2.2 -  Opciones comunes
 
 - El comando principal, sin parámetros, permite listar todas las ramas del repositorio ->  ```git branch```
 
@@ -55,22 +65,22 @@ El comando ```git branch``` te permite crear, enumerar, cambiar el nombre y elim
 
 Gitflow **es un flujo de trabajo de Git heredado que fue en origen una estrategia innovadora y revolucionaria para gestionar ramas de Git** . Gitflow ha perdido popularidad en beneficio de los flujos de trabajo basados en troncos, que ahora se consideran prácticas recomendadas para el desarrollo continuo de software y las prácticas de DevOps. Además, puede ser difícil utilizar Gitflow con CI/CD. Esta entrada presenta el uso de Gitflow con fines de historial.
 
-### <img src="https://img.icons8.com/color/30/null/tree-structure.png"/> ¿Qué es Gitflow?
+### 3.1 - <img src="https://img.icons8.com/color/30/null/tree-structure.png"/> ¿Qué es Gitflow?
 
 Gitflow **es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales**. Fue Vincent Driessen en nvie quien lo publicó por primera vez y quien lo popularizó. **En comparación con el desarrollo basado en troncos, Gitflow tiene diversas ramas de más duración y mayores confirmaciones**. Según este modelo, **los desarrolladores crean una rama de función y retrasan su fusión con la rama principal del tronco hasta que la función está completa**. Estas ramas de función de larga duración requieren más colaboración para la fusión y tienen mayor riesgo de desviarse de la rama troncal. También pueden introducir actualizaciones conflictivas.
 
 Gitflow puede utilizarse en proyectos que tienen un ciclo de publicación programado, así como para la práctica recomendada de DevOps de entrega continua. Este flujo de trabajo no añade ningún concepto o comando nuevo, aparte de los que se necesitan para el flujo de trabajo de ramas de función. Lo que hace es asignar funciones muy específicas a las distintas ramas y definir cómo y cuándo deben estas interactuar. Además de las ramas de función, utiliza ramas individuales para preparar, mantener y registrar publicaciones. Por supuesto, también puedes aprovechar todas las ventajas que aporta el flujo de trabajo de ramas de función: solicitudes de incorporación de cambios, experimentos aislados y una colaboración más eficaz.
 
 
-### <img src="https://img.icons8.com/color/30/null/tree-structure.png"/> Inicio
+### <img src="https://img.icons8.com/color/30/null/tree-structure.png"/> 3.2 - Inicio
 
 En realidad, Gitflow es una especie de idea abstracta de un flujo de trabajo de Git. Esto quiere decir que ordena qué tipo de ramas se deben configurar y cómo fusionarlas. El conjunto de herramientas de git-flow es una herramienta de línea de comandos propiamente dicha que tiene un proceso de instalación. El proceso de instalación de git-flow es sencillo. Los paquetes de git-flow están disponibles en varios sistemas operativos. En Windows, tendrás que descargar e instalar git-flow. Después de instalar git-flow, puedes utilizarlo en tu proyecto ejecutando git flow init. Git-flow es un contenedor para Git. El comando git flow init es una prolongación del comando predeterminado git init y no cambia nada de tu repositorio aparte de crear ramas.
 
-### <img src="https://img.icons8.com/color/30/null/tree-structure.png"/> Funcionamiento
+### <img src="https://img.icons8.com/color/30/null/tree-structure.png"/> 3.3 - Funcionamiento
 
 ![image](https://user-images.githubusercontent.com/72580574/204104221-e170e4bd-c568-4c14-ac16-b3c4bebcefa6.png)
 
-### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> Ramas principales y de desarrollo
+### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> 3.3.1 - Ramas principales y de desarrollo
 
 En lugar de una única rama main, este flujo de trabajo utiliza dos ramas para registrar el historial del proyecto. La rama main o principal almacena el historial de publicación oficial y la rama develop o de desarrollo sirve como rama de integración para las funciones. Asimismo, conviene etiquetar todas las confirmaciones de la rama main con un número de versión.
 
@@ -110,7 +120,7 @@ $ git branch
 main
 ```
 
-###  <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> Ramas de función
+###  <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> 3.3.2 - Ramas de función
 
 Todas las funciones nuevas deben residir en su propia rama, que se puede enviar al repositorio central para copia de seguridad/colaboración. Sin embargo, en lugar de ramificarse de main, las ramas feature utilizan la rama develop como rama primaria. Cuando una función está terminada, se vuelve a fusionar en develop. Las funciones no deben interactuar nunca directamente con main.
 
@@ -160,7 +170,7 @@ git flow feature finish feature_branch
 ```
 
 
-### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> Ramas de publicación
+### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> 3.3.3 -  Ramas de publicación
 
 ![image](https://user-images.githubusercontent.com/72580574/204104361-8cae9e84-35f2-4729-a4c5-7d1e52c47f0f.png)
 
@@ -209,7 +219,7 @@ git flow release finish '0.1.0'
 ```
 
 
-### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> Ramas de corrección
+### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/null/external-branch-plants-flaticons-flat-flat-icons-2.png"/> 3.3.4 - Ramas de corrección
 
 ![image](https://user-images.githubusercontent.com/72580574/204104418-1c637de1-3723-4542-9749-67ad4c629203.png)
 
