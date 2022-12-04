@@ -359,40 +359,40 @@ Temas:
 
 Temas:
 ```
-- 1 :
-Que es una base de datos
-Ventajas y desventajas de una Base de Datos. 
-¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
-Tipo de bases de datos
-Tipos de Clientes de Base de datos
-¿Qué es el software de base de datos?
-¿Qué es un sistema de administración de base de datos (DBMS)?
-- 2 :
-¿Qué es MySQL?
-Características
-- 3 :
-¿Qué es SQL?
-Usos
-- 4 :
-Modelo entidad relación
-Cardinalidad
-Diagrama Físico (tablas, campos y registros)
-- 5 :
-Tipos de datos MySQL
-Datos numéricos (enteros y decimales)
-Datos alfanuméricos (char, varchar, text, blob)
-Datos de fecha y hora ( date, datetime, time, year)
-Atributos de los campos ( NULL, NOT NULL, DEFAULT, PRIMARY KEY Y AUTO_INCREMENT, UNIQUE)
-- 6 :
-Componentes SQL
-Comandos
-Operadores
-Funciones
-Consultas
-- 7 :
-Trabajar con varias tablas
-Constraints o restricciones
-Joins
+- 1 : Base de datos
+1.1- Que es una base de datos
+1.2 - Ventajas y desventajas de una Base de Datos. 
+1.3 - ¿Cuál es la diferencia entre una base de datos y una hoja de cálculo?
+1.4 - Tipo de bases de datos
+1.5 - Tipos de Clientes de Base de datos
+1.6 - ¿Qué es el software de base de datos?
+1.7 - ¿Qué es un sistema de administración de base de datos (DBMS)?
+- 2 : MySQL
+2.1 - ¿Qué es MySQL?
+2.2 - Características
+- 3 : SQL
+3.1 -¿Qué es SQL?
+3.2 - Usos
+- 4 : Modelo entidad relación
+4.1 - Modelo entidad relación
+4.2 - Cardinalidad
+4. 3 - Diagrama Físico (tablas, campos y registros)
+- 5 : Tipos de datos MySQL
+5.1 - Tipos de datos MySQL
+5.2 - Datos numéricos (enteros y decimales)
+5.3 - Datos alfanuméricos (char, varchar, text, blob)
+5.4 - Datos de fecha y hora ( date, datetime, time, year)
+5.5 - Atributos de los campos ( NULL, NOT NULL, DEFAULT, PRIMARY KEY Y AUTO_INCREMENT, UNIQUE)
+- 6 : SQL
+6.1 - Componentes SQL
+6.2 - Comandos
+6.3 - Operadores
+6.4 - Funciones
+6.5 - Consultas
+- 7 : Varias Tablas
+7.1 - Trabajar con varias tablas
+7.2 - Constraints o restricciones
+7. 3 Joins
 ```
 
 ---
