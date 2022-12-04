@@ -362,7 +362,10 @@ Características
 - 3 :
 ¿Qué es SQL?
 Usos
-- 4 - Modelo entidad relación
+- 4 :
+Modelo entidad relación
+Cardinalidad
+Diagrama Físico (tablas, campos y registros)
 - 5 - Tipos de datos MySQL
 - 6 - Componentes SQL
 - 7 -  Trabajar con varias tablas
