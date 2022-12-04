@@ -550,7 +550,12 @@ Directamente utilizo un map para que me devuelva un nuevo array de square y con 
 
 ---
 
-## :star: Conditional Rendering - Mini Chalenge
+## :star: Conditional Rendering - Mini Challenge
+
+Se muestra la etiqueta ```<h1>``` sólo si hay mensajes sin leer.
+
+![image](https://user-images.githubusercontent.com/72580574/205507288-266179eb-8bbd-4a2d-88dc-231da2127f4e.png)
+
 
 :tv: -> [Codigo y demo en CodeSandBox.io](https://codesandbox.io/s/youthful-engelbart-d616uf)
 
