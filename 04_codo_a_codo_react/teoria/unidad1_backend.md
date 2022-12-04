@@ -29,7 +29,12 @@ Datos numéricos (enteros y decimales)
 Datos alfanuméricos (char, varchar, text, blob)
 Datos de fecha y hora ( date, datetime, time, year)
 Atributos de los campos ( NULL, NOT NULL, DEFAULT, PRIMARY KEY Y AUTO_INCREMENT, UNIQUE)
-- 6 - Componentes SQL
+- 6 :
+Componentes SQL
+Comandos
+Operadores
+Funciones
+Consultas
 - 7 -  Trabajar con varias tablas
 ```
 
@@ -547,6 +552,292 @@ Los intentos por agregar un nuevo registro que contenga un valor ya existente en
 
 ## :star:  6 - Componentes SQL
 
+## Componentes SQL
+
+El lenguaje de consulta estructurado (SQL) está compuesto por comandos, clausulas, operadores y funciones de agregado. Estos elementos se combinan en las instrucciones para crear, actualizar y manipular las bases de datos.
+
+
+## Comandos
+
+Los principales tipos de comandos SQL son los siguientes:
+
+- **Los DDL (Data Definition Languaje)**: que permiten crear y definir nuevas bases de datos, campos e índices.
+
+- **Los DML (Data Manipulation Languaje)**: que permiten generar consultas para ordenar, filtrar y extraer datos de la base de datos.
+
+### Lenguaje de definición de datos (DDL)
+
+El lenguaje de definición de datos (en inglés Data Definition Languaje), es el que se encarga de la modificación de la estructura de los objetos de la base de datos. Incluye órdenes para modificar, borrar o definir las tablas en las que se almacenan los datos. Existen cuatro operaciones básicas: CREATE, ALTER, DROP Y TRUNCATE.
+
+**DDL**
+
+| Comando | Descripción |
+| ------- | ----------- | 
+| CREATE | Utilizado para crear nuevas tablas, campos e indicies |
+| DROP | Empleado para eliminar tablas e índices |
+| ALTER | Utilizado para modificar las tablas agregando campos o cambiando la definición de los campos |
+
+- **CREATE**: Este comando crea un objeto dentro del gestor de base de datos, puede ser una base de datos, una tabla.
+
+Ejemplos:
+
+```SQL
+# Con el siguiente comando crea una base de datos.
+CREATE DATABASE cac2021;
+
+# Con el siguiente comando se crea una tabla en la base de datos.
+CREATE TABLE alumnos2021
+(
+Nombre VARCHAR(25),
+Apellido VARCHAR(25),
+Edad INT,
+Curso VARCHAR(25)
+)
+```
+
+- **DROP**: 
+Este comando elimina un objeto de la base de datos. Puede ser una tabla, una base de datos.
+
+Ejemplo:
+
+```SQL
+# Con el siguiente comando se elimina la tabla alumnos2021
+DROP TABLE alumnos2021;
+```
+ 
+
+- **ALTER**: Este comando permite modificar la estructura de un objeto. Se pueden agregar/quitar campos de una tabla, modificar el tipo de un campo.
+
+```SQL
+# Con el siguiente comando se agrega una columna a la base de datos “comision” del tipo INT.
+ALTER TABLE alumnos2021 ADD comisión INT;
+
+# Con el siguiente comando se elimina un campo
+ALTER TABLE alumnos2021 DROP comision;
+```
+
+#### Lenguaje de manipulación de datos DML (Data Manipulation Languaje)
+
+Un lenguaje de manipulación de datos (Data Manipulation Languaje) proporcionado por el sistema de gestión de base de datos permite a los usuarios llevar a cabo las tareas de consulta o manipulación de los datos, organizados por el modelo de datos adecuado
+
+**DML**
+
+| Comando | Descripción |
+| ------- | ----------- |
+| SELECT | Utilizado para consultar registros de la base de datos que satisfagan un criterio determinado. |
+| INSERT | Utilizado para cargar lotes de datos en la base de datos en una única operación. |
+| UPDATE | Utilizado para modificar los valores de los campos y registros especificados utilizado para modificar las tablas agregando campos o cambiando la definición de los campos |
+| DELETE | Utilizado para eliminar registros de una tabla |
+
+- **INSERT**: Una sentencia INSERT de SQL agrega uno o más registros a una (y solo una) tabla en una base de datos relacional.
+
+Ejemplo forma básica:
+
+```SQL
+INSERT INTO alumnos2021 (Nombre, Apellido, Edad, Curso) VALUES ('marcos', 'sanchez', '10', '2169');
+```
+
+Las cantidades de columnas y valores deben ser iguales. Si una columna no se especifica, le será asignado el valor por omisión. Los valores especificados por la sentencia INSERT deberán satisfacer todas las restricciones aplicables. Si ocurre un error de sintaxis o si alguna de las restricciones es violada, no se agregará la fila y devuelve ERROR.
+
+Ejemplo forma sin especificar campos:
+```SQL
+INSERT INTO alumnos2021 VALUES (‘alejandro’,’gutierrez’,’21’,’2162);
+```
+
+- **UPDATE**: Una sentencia UPDATE de SQL es utilizada para modificar los valores de un conjunto de registros existentes en una tabla.
+
+Ejemplos:
+
+```SQL
+# el siguiente ejemplo, actualiza todos los campos de la tabla comision
+UPDATE alumnos2021 SET Curso = ‘2164’;
+```
+
+- **DELETE**: Una sentencia DELETE de SQL es utilizada para eliminar uno o más registros existentes en una tabla de una base de datos.
+
+Ejemplos:
+
+```SQL
+# el siguiente ejemplo, elimina todos los campos de la tabla comision
+DELETE FROM alumnos2021;
+```
+
+Tanto para para los comandos UPDATE y DELETE, se necesitan clausulas específicas para que no se actualicen o eliminen todos los registros.
+
+### Clausulas
+
+Las clausulas son condiciones de modificación utilizadas para definir los datos que desea seleccionar o manipular
+
+| Comando | Descripción |
+| ------- | ----------- |
+| FROM | Utilizada para especificar la tabla de la cual se van a seleccionar los registros. |
+| WHERE | Utilizada para determinar los registros seleccionados en la cláusula  |
+| ORDER BY | Utilizada para ordenar los registros seleccionados de acuerdo con un orden específico. |
+| GROUP BY | Utilizada para separar los registros seleccionados en grupos específicos. |
+
+## Operadores
+
+### Operadores lógicos
+
+| Operador | Descripción |
+| -------- | ----------- |
+| AND | Es el “y” lógico. Evalua dos condiciones y devuelve un valor de verdad solo si ambas son ciertas |
+| OR | Es el “o” lógico. Evalua dos condiciones y devuelve un valor de verdad si alguna de las dos es ciertas |
+| NOT | Negación lógica. Devuelve el valor contrario de la expresion |
+
+### Operadores comparación.
+
+| Operador | Descripción |
+| -------- | ----------- |
+| < | Menor que |
+| > | Mayor que |
+| <> | Distinto de |
+| <= | Menor o igual que |
+| >= | Mayor o igual que |
+| BETWEEN | Intervalo |
+| LIKE | Comparación |
+| IN | Especificar |
+
+## Funciones
+
+Las funciones se usan dentro de una clausula SELECT en grupos de registros para devolver un único valor que se aplica a un grupo de registros
+
+| Comando | Descripción |
+| ------- | ----------- |
+| AVG | Utilizada para calcular el promedio de los valores de un campo determinado |
+| COUNT | Utilizada para devolver el número de registros de la selección |
+| SUM | Utilizada para devolver la suma de todos los valores de un campo determinado |
+| MAX | Utilizada para devolver el valor más alto de un campo especifico |
+| MIN | Utilizada para devolver el valor más bajo de un campo especifico |
+
+
+## Consultas
+
+Consultas: sentencia SELECT
+
+La sentencia SELECT “selecciona” los campos que conformaran la consulta, es decir, que establece los campos que se visualizaran o compondrán la consulta.
+
+El parámetro “listas_campo” este compuesto por uno o más nombres de campos, separados por comas, pudiéndose especificar también el nombre de la tabla a la cual pertenecen, seguido de un punto y del nombre del campo correspondiente.
+
+Si se desea seleccionar todos los campos de una tabla, se puede utilizar el asterisco (*) para indicarlo.
+
+Ejemplos:
+
+SELECT * FROM alumnos2021;
+
+SELECT Nombre, Apellido FROM alumnos2021;
+
+Una sentencia SELECT no puede escribirse sin las clausula FROM.
+
+Una clausula es una extensión de un mandato que complementa a una sentencia o instrucción, pudiendo complementar también a otras sentencias.
+
+En este caso, la cláusula FROM permite indicar en que tablas o en qué consultas (queries) se encuentran los campos especificados en las sentencias SELECT.
+
+Clausula WHERE
+
+La cláusula WHERE es opcional, y permite seleccionar qué registros aparecerán en la consulta (si no se especifica aparecerán todos los registros).
+
+Para indicar este conjunto de registros se hace uso de criterios o condiciones, que no es más que una comparación del contenido de un campo con un determinado valor (este valor puede ser constante (valor predeterminado), el contenido de un campo, una variable, un control, etc.).
+
+Ejemplo:
+
+SELECT * FROM alumnos2021 WHERE Nombre = ‘marcos’;
+
+El ejemplo anterior selecciona todos los campos de la tabla alumnos2021, pero los registros de todos los alumnos que se llamen ‘marcos’.
+
+Ejemplo:
+
+SELECT * FROM alumnos2021 WHERE Nombre = ‘marcos’ OR Nombre = ‘juan’;
+
+El ejemplo anterior selecciona todos los campos de la tabla alumnos2021, pero los registros de todos los alumnos que se llamen ‘marcos’ o ‘juan’;
+
+Ejemplo:
+
+SELECT * FROM alumnos2021 WHERE Edad >=18;
+
+El ejemplo anterior selecciona todos los campos de la tabla alumnos2021, pero los registros que la edad sea mayor o igual a 18.
+
+Ejemplo:
+
+SELECT * FROM alumnos2021 WHERE Edad>=18 AND Edad<=45
+Selecciona todos los alumnos con edades comprendidas entre los 18 y los 45 años.
+
+Ordenar los registros.
+
+Se puede especificar el orden en que se desean recuperar los registros de las tablas mediante la cláusula ORDER BY.
+
+Ejemplo:
+
+SELECT nombre FROM alumnos2021 ORDER BY nombre;
+
+También se pueden ordenar los registros por más de un campo.
+
+SELECT Nombre, edad FROM alumnos2021 ORDER BY nombre;
+
+Y se puede especificar el orden de los registros, ascendente mediante la cláusula (ASC-se toma este valor por defecto) o descendente (DESC)
+
+SELECT nombre, edad FROM alumnos2021 ORDER BY nombre DESC;
+
+ 
+
+Operador LIKE
+
+Se utiliza para comparar
+
+SELECT * FROM alumno2021 WHERE Nombre LIKE 'al%'
+Selecciona los alumnos cuyo nombre comience con los caracteres 'al'.
+
+
+SELECT * FROM alumnos2021 WHERE apellidos LIKE ‘%ez';
+Selecciona los alumnos cuyos apellidos terminen con los caracteres 'ez'.
+
+
+SELECT * FROM alumnos2021 WHERE apellidos LIKE ‘%zamo%'
+Selecciona los alumnos cuyos apellidos contengan, en cualquier posición, los caracteres 'zamo'.
+
+Eliminar Registros específicos
+
+Para eliminar los registros de una tabla usamos el comando DELETE
+
+DELETE FROM alumnos2021;
+
+La ejecución del comando indicado en la línea anterior borra TODOS los registros de la tabla.
+
+Si queremos eliminar uno o varios registros debemos indicar cuál o cuáles, para ello utilizamos el comando DELETE junto con la cláusula WHERE con la cual establecemos la condición que deben cumplir los registros a borrar. Por ejemplo, queremos eliminar aquel registro cuyo nombre de alumno es 'Leonardo':
+
+DELETE FROM alumnos2021 WHERE nombre='marcos';
+
+Si solicitamos el borrado de un registro que no existe, es decir, ningún registro cumple con la condición especificada, no se borrarán registros.
+
+Actualizar registros específicos
+
+Para modificar uno o varios datos de uno o varios registros utilizamos UPDATE (actualizar).
+
+Por ejemplo, en nuestra tabla alumnos2021, queremos cambiar los valores de todas las comisiones, por "2180":
+
+UPDATE usuarios SET comision='2180';
+
+Utilizamos UPDATE junto al nombre de la tabla y SET junto con el campo a modificar y su nuevo valor.
+
+El cambio afectará a todos los registros.
+
+Podemos modificar algunos registros, para ello debemos establecer condiciones de selección con WHERE.
+
+Por ejemplo, queremos cambiar el valor correspondiente a la clave de nuestro usuario llamado
+
+'marcos', queremos como nueva comisión '2164', necesitamos una condición WHERE que afecte solamente a este registro:
+
+UPDATE alumnos2021 set comisión='2164' WHERE nombre='marcos';
+
+Si no encuentra registros que cumplan con la condición del WHERE, ningún registro es afectado.
+
+Las condiciones no son obligatorias, pero si omitimos la cláusula "where", la actualización afectará a todos los registros.
+
+También se puede actualizar varios campos en una sola instrucción:
+
+UPDATE alumnos2021 SET nombre='miguel', comisión='2168' WHERE nombre='marcos';
+
+Para ello colocamos UPDATE, el nombre de la tabla, SET junto al nombre del campo y el nuevo valor y separado por coma, el otro nombre del campo con su nuevo valor.
 
 ---
 
