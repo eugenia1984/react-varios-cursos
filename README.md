@@ -22,13 +22,13 @@ Here I will gather the courses made of **React**
 
 ## Stack of technologies?  🛠️
 
--<img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
+<img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
 
--<img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
+<img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
 
--<img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
+<img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
 
--<img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
+<img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
 
 
 ---
