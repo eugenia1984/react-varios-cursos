@@ -895,6 +895,16 @@ Consignas:
 
 4. Cuando se haga el submit del form, si el usuario checkea el checkbox **newsletter** que tenga un console.log con el mensaje "Thanks for singing up for our newsletter!".
 
+![image](https://user-images.githubusercontent.com/72580574/206872779-4b21b949-06b0-4686-a602-74e9c49d13f0.png)
+
+![image](https://user-images.githubusercontent.com/72580574/206872792-0ae080b6-13ab-4c63-8069-379afe52444c.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/206872824-2da3f624-c206-4739-96d5-37eec1b23bc1.png)
+
+
+
+
 :tv: ->  [CodeSandBox.io](https://codesandbox.io/s/great-bessie-bpiyvx)
 
 ---
