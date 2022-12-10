@@ -98,7 +98,26 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) practicando **conditional rendering** con el operador **&&**, se muestra la etiqueta ```<h1>``` sólo si hay mensajes sin leer. Y también modifico el mensaje de tenes un mensaje a tenes X mensajes sin leer, dependiendo de si tiene 1 o más mensajes sin leer.
 
-:tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://github.com/eugenia1984/react-varios-cursos/blob/main/03_scrimba/)
+:tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/youthful-engelbart-d616uf)
+
+
+## 15to MiniProyecto : otro formulario
+
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator)  practicando **formularios**
+
+Consignas:
+
+1. Crear un estado del objeto para que guarde 4 valores.
+
+2. Crear una sola función handleChange que pueda manejar el estado de todos los inputs y los setee correctamente.
+
+3. Cuando el usuario haga click en **Sing up**, vea si el password y la confirmación metcheen, si es así hacer un console.log con el mensaje "Sucessfully singed up", si no que el mensaje diga "PAssword to not match".
+
+4. Cuando se haga el submit del form, si el usuario checkea el checkbox **newsletter** que tenga un console.log con el mensaje "Thanks for singing up for our newsletter!".
+
+:tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/great-bessie-bpiyvx)
+
+---
 
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
 
