@@ -951,5 +951,9 @@ function handleChange(event) {
 
 - Logramos que lo que ponamos en los input se vean como texto:
 
-![Uploading image.png…]()
+
+
+![image](https://user-images.githubusercontent.com/72580574/206873975-3e26b346-4f86-4d57-a2ca-d4a7e64b9737.png)
+
+---
 
