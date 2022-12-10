@@ -908,3 +908,48 @@ Consignas:
 :tv: ->  [CodeSandBox.io](https://codesandbox.io/s/great-bessie-bpiyvx)
 
 ---
+
+## :star: Volvemos al Meme generator
+
+- Agregamos estilos a la imagen pra poder ponerle los textos:
+
+```JSX
+<div className="meme">
+        <img src={meme.randomImage} alt="meme" className="meme-img"/>
+        <h2 className="meme-text top">One does not simply</h2>
+        <h2 className="meme-text bottom">Walk into Mordor</h2>
+      </div>
+```
+
+- Seguimos con los input del form, le agregamos...
+
+... la propiedad **name**: ``` name="topText" ``` y ``` name="bottomText" ``` 
+
+... la propiedad **Value**: ``` value={ meme.topText } ``` y   ``` value={ meme.bottomText } ```
+
+... para poder escuchar el evento cuando cambia: ``` onChange={ handleChange} ``` y creamos la función **handleChange()**
+
+```JSX
+function handleChange(event) {
+    const { name, value } = event.target;
+    setMeme( prevMeme => ({
+      ...prevMeme,
+      [name] : value
+    }))
+  }
+  ```
+  
+ - Cambio el texto top y bottom que tenía harcodeado para que sea dinámico:
+
+```JSX
+ <div className="meme">
+        <img src={meme.randomImage} alt="meme" className="meme-img"/>
+        <h2 className="meme-text top">{meme.topText}</h2>
+        <h2 className="meme-text bottom">{meme.bottomText}</h2>
+      </div>
+```
+
+- Logramos que lo que ponamos en los input se vean como texto:
+
+![Uploading image.png…]()
+
