@@ -262,6 +262,15 @@ En un checkbox vemos la propiedad **checked** para determinar si debe guardarse 
 
 Agregamos un **onSubmit** **handler** que generalmente está dentro de un **button** que va a ser trigger en la función que trerá la data.
 
+
+17. ¿Qué es un **side effect** en React? ¿Algún ejemplo?
+
+18. ¿ Qué no es un side effect en React ? ¿ Algún ejemplo ?
+
+19. ¿ Cuando React corre la función useEffect? ¿Cuando React no corre la función useEffect ?
+
+20. ¿cómo escplicamos que es el array de dependencia?
+
 ---
 
 ## :star: useState
@@ -1030,6 +1039,127 @@ export default function App() {
 
 2- Maneja el **state** por nosotros entre los ciclos de renderizado (por ejemplo state values son recordados de un renderizado al otro). Esto gracias al hook **useState**.
 
-3- Mantiene la UI actualizada cada vez que el camio ocurre.
+3- Mantiene la UI actualizada cada vez que el cambio ocurre.
+
+
+- ¿ Qué es lo que React no puede manejar por si mismo ?
+
+-(out)side effects! Todo lo que viva por fuera de REact, como por ejemplo:
+
+-localStorage
+
+-API / database que interactuem
+
+-suscripciones (como web sockets)
+
+-sincronizar dos estados internos diferentes que tengan su  propio estado
+
+-Basicamente todo lo que React no tenga a cargo
+
+
+-> Volviendo al ejemplo de la API si el fetch esta en el level alto no lo podemos controlar, entonces React nos brinda el **useEffect**, lo que nos permite **sincronizar el estado de REact con los sistemas fuera de React, como el llamado a la API**
+
+:tv: -> [Documetnacion de React de useEffect](https://reactjs.org/docs/hooks-effect.html)
+
+-> Vamos a modificar el codigo de llamado  la APi para utilizar useEffect:
+
+- **useEffect** recibe dos parámetros...
+
+... 1er parámetros: es obligatorio, una **callback function**, en general se ve como un arrow function, es donde va a ir el codigo que realiza el side effect, en nuestro caso el fetch, que va a ir modificando el estado y provoca la re renderización.
+
+... 2do parámetro: es opcional, pero si no esta es casi igual que no tener el useEffect, es llamado **dependency arra++ (**array de dependencia**).
+
+Lo que si nos garantiza el useEffect, es que luego que React renderiza lo que tiene en el **return** es que v a aejecutar el **useEffect**
+
+```JSX
+import React from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = React.useState({})
+    
+    console.log("Component rendered")
+    
+        
+    // side effects
+    React.useEffect(function() {
+        fetch("https://swapi.dev/api/people/1")
+            .then(res => res.json())
+            // .then(data => setStarWarsData(data))
+    }, ???)
+    
+    return (
+        <div>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+        </div>
+    )
+}
+```
+
+-> Pero todavía seguimos en el **loop infinito**, debemos pasar el **segundo parámetro**.
+
+Este segundo parámetro es llamado **array de dependencia**.
+
+Aunque es opcional, **siempre va**, va a ser un array que a a contener valores, y cuando esos valores se modifique se va a ejecutar el useEffect, asi limita la cantidad de veces que se ejecuta el useEffect y no cada vez que se re renderice la UI.
+
+Si le ponemos **[]**, solo se va a renderizar la primera vez que se ejecute, si quiero ver que se ejecute cada vez que se modifique entre los [] debo indicar que **State** va a estar mirando.
+
+Otro ejemplo en código, con un simple contador:
+
+```JSX
+import React, { useState } from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = useState({})
+    const [count, setCount] = useState(0)
+    
+    console.log("Component rendered")
+    
+    // side effects
+    React.useEffect(function() {
+        console.log("Effect ran")
+        // fetch("https://swapi.dev/api/people/1")
+        //     .then(res => res.json())
+        //     .then(data => console.log(data))
+    }, [1]) // [0] compared to [1]
+    
+    return (
+        <div>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+            <h2>The count is {count}</h2>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>Add</button>
+        </div>
+    )
+}
+```
+
+-> hay que agregar el **useEffect** :
+
+```JSX
+import React from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = React.useState({})
+    const [count, setCount] = React.useState(0)
+    
+    console.log("Component rendered")
+    
+    /**
+     * Challenge: re-write the useEffect
+     * It should run any time `count` changes
+     * For now, just console.log("Effect function ran")
+     */
+    React.useEffect(() => {
+        console.log("Effect function ran")
+    }, [count])
+    
+    return (
+        <div>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+            <h2>The count is {count}</h2>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>Add</button>
+        </div>
+    )
+}
+```
 
 ---
