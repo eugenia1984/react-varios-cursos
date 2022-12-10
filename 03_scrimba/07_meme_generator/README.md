@@ -240,6 +240,27 @@ function App() {
 }
 ```
 
+
+12. En una app de JavaScritp vanilla ¿en qué parte del formulario se reune toda la información que se completó en el mismo?
+
+Justo antes que se hace el submit, se va por cada uno de los elementos y se reune la información.
+
+13. En una app de React ¿ Cuándo se junta la información que se completó en un formulario?
+
+Mientras el formulario se va completando. Toda la data se guarda en local state.
+
+14. ¿ Qué atributo del formulario (value, name, onChange, etc) debe coincidir con la propiedad name que se tiene en el state para ese input?
+
+**name** property.
+
+15. ¿ Cuál es la diferencia entre guardar la data de un checkbox element a otros de los elementos del formulario?
+
+En un checkbox vemos la propiedad **checked** para determinar si debe guardarse en el estado. Todos los demás elementos ven la propiedad **value**.
+
+16. ¿Cómo vemos unu form submit? ¿Cómo hacemos le trigger en el form submit?
+
+Agregamos un **onSubmit** **handler** que generalmente está dentro de un **button** que va a ser trigger en la función que trerá la data.
+
 ---
 
 ## :star: useState
@@ -610,7 +631,7 @@ Volvienod al mini challenge de los chistes mapeados con el array, vemos que al h
 ![image](https://user-images.githubusercontent.com/72580574/205507695-b87efb2a-6d75-4071-a2a3-4bc6b9d868a0.png)
 
 
-:tv: -> [COdeSandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
+:tv: -> [CodeSandBox.io](https://codesandbox.io/s/joke-mapping-d7ztuj)
 
 ---
 ---
@@ -861,3 +882,16 @@ Como no tnego un valor que sea **""** como inicializo el estafo, voy a agregar c
  - En HTML en la etiqueta ```<form >``` tenemos el **method** POST / GET y la **action**, pero en React tenemos ``` <form onSubmit={handleSubmit}>```
  
 ---
+
+## 15to MiniProyecto : otro formulario
+
+Consignas:
+
+1. Crear un estado del objeto para que guarde 4 valores.
+
+2. Crear una sola función handleChange que pueda manejar el estado de todos los inputs y los setee correctamente.
+
+3. Cuando el usuario haga click en **Sing up**, vea si el password y la confirmación metcheen, si es así hacer un console.log con el mensaje "Sucessfully singed up", si no que el mensaje diga "PAssword to not match".
+
+4. Cuando se haga el submit del form, si el usuario checkea el checkbox **newsletter** que tenga un console.log con el mensaje "Thanks for singing up for our newsletter!".
+
