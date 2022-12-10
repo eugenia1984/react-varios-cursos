@@ -14,6 +14,7 @@
 - State
 - Conditional rendering
 - Forms
+- Llamados a APIs
 - Side effects
 ```
 
@@ -957,3 +958,70 @@ function handleChange(event) {
 
 ---
 
+
+## :star2:  Llamados a APIs
+
+Tenemos dos intancias:
+
+- **GET** la **Data**, con **fetch** o **axios**
+
+- Guardar esa data en un **State**
+
+#### Ejemplo en código
+
+
+Uso la información de una API de StarWars con un **fetch**, a la **respuesta** la paso a **JSON**
+
+```JSX
+import React from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = React.useState({})
+    
+    // console.log("Component rendered") 
+    // se hace infinitamente porque cada vez que se renderiza llama al fetch y se re renderiza, y asi un loop infinito
+    
+    fetch("https://swapi.dev/api/people/1")
+        .then(res => res.json())
+        .then(data => setStarWarsData(data))
+    
+    return (
+        <div>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+        </div>
+    )
+}
+```
+
+
+Para salir del loop:
+
+```JSX
+import React from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = React.useState({})
+    
+    console.log("Component rendered") 
+    
+    fetch("https://swapi.dev/api/people/1")
+        .then(res => res.json())
+        .then(data => console.log(data))
+    
+    return (
+        <div>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+        </div>
+    )
+}
+```
+
+- Tenemos que aprender a cómo manejar los **sideEffects** en React
+
+![image](https://user-images.githubusercontent.com/72580574/206874985-298d6a8d-b32e-43de-a733-22407c6251aa.png)
+
+---
+
+## :star: Side Effects
+
+---
