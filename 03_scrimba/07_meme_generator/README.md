@@ -883,7 +883,7 @@ Como no tnego un valor que sea **""** como inicializo el estafo, voy a agregar c
  
 ---
 
-## 15to MiniProyecto : otro formulario
+## :star: 15to MiniProyecto : otro formulario
 
 Consignas:
 
