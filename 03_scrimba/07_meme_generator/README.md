@@ -15,7 +15,7 @@
 - Conditional rendering
 - Forms
 - Llamados a APIs
-- Side effects
+- Side effects (useEffect)
 ```
 
 :tv: -> [link al diseño en Figma](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0%3A1&t=d6jKjjGA1qYGBk71-0)
@@ -1022,6 +1022,14 @@ export default function App() {
 
 ---
 
-## :star: Side Effects
+## :star: Side Effects (useEffect)
+
+- ¿ Cuáles son las principales tareas de Reac ?
+
+1- Trabaja con el **DOM/browser** para renderizar una **UI** (**user interface**) a la página. Con esto nos ayudamos de **JSX**.
+
+2- Maneja el **state** por nosotros entre los ciclos de renderizado (por ejemplo state values son recordados de un renderizado al otro). Esto gracias al hook **useState**.
+
+3- Mantiene la UI actualizada cada vez que el camio ocurre.
 
 ---
