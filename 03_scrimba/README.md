@@ -94,14 +94,14 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 :tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
 
 
-## 14to Mini Proyecto : 
+## 14to Mini Proyecto : Mesaje con conditional rendering
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) practicando **conditional rendering** con el operador **&&**, se muestra la etiqueta ```<h1>``` sólo si hay mensajes sin leer. Y también modifico el mensaje de tenes un mensaje a tenes X mensajes sin leer, dependiendo de si tiene 1 o más mensajes sin leer.
 
 :tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/youthful-engelbart-d616uf)
 
 
-## 15to MiniProyecto : otro formulario
+## 15to MiniProyecto : formulario
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator)  practicando **formularios**
 
