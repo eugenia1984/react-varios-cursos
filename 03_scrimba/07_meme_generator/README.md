@@ -458,7 +458,7 @@ Lo que tenemos que hacer es pasar el **state** al **componente padre** que que p
 
 ![image](https://user-images.githubusercontent.com/72580574/205363364-c64ae0be-cdae-4672-a28a-8a9a3f0c77d7.png)
 
-- Mientras la app s ehaga más compleja vamos a necesitar que el estado esté en el nivel superior y vaya pasandolo como en cascada, pero se hace muy engorroso si hay muchos hijos /nietos/bisnietos, en ese caso tenemos el**context** y **Redux**
+- Mientras la app se haga más compleja vamos a necesitar que el estado esté en el nivel superior y vaya pasandolo como en cascada, pero se hace muy engorroso si hay muchos hijos /nietos/bisnietos, en ese caso tenemos el**context** y **Redux**
  
 ![image](https://user-images.githubusercontent.com/72580574/205363413-de4710db-e0a3-40fa-951e-7bca50935dce.png)
 
