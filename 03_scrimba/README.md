@@ -78,11 +78,18 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) practicando el hook **useStatate** arme un contador que sume y reste, para poder modificar más de una vez el estado.
 
+
+![contador](https://user-images.githubusercontent.com/72580574/206909601-cc845e38-e6aa-4a9f-b35f-9147a6b8e368.png)
+
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/damp-mountain-pzmv2h)
+
 
 ### 12do Mini Proyecto: Yes / No question
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) practicando el hook **useStatate**, los **operadores ternarios** y una función **callback*** para modificar el estado teneindo en cuenta el estado previo, modifico la respuesta a una pregunta al hacer click: Yes -> No -> Yes -> No ...
+
+![Yes / No question](https://user-images.githubusercontent.com/72580574/206909292-2f3f438d-a861-4ae1-9812-338289f3b744.png)
+
 
 :tv: -> [Acá se puede ver este otro mini proyecto para utilizar useState en codigo con SandBox.io](https://codesandbox.io/s/vigorous-moore-hez2zv)
 
@@ -91,17 +98,23 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) se muestra una card utilizando los datos de un objeto, para simplificar el llamado a las key de los objetos utilizo **desestructuración** y también **spread operator**
 
+![Card con datos de un objeto](https://user-images.githubusercontent.com/72580574/206909141-527a3051-fb99-414d-96a8-e8c08c617189.png)
+
+
 :tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/interesting-feynman-e0u5e9)
 
 
-## 14to Mini Proyecto : Mesaje con conditional rendering
+## 14to Mini Proyecto : Mensaje con conditional rendering
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator) practicando **conditional rendering** con el operador **&&**, se muestra la etiqueta ```<h1>``` sólo si hay mensajes sin leer. Y también modifico el mensaje de tenes un mensaje a tenes X mensajes sin leer, dependiendo de si tiene 1 o más mensajes sin leer.
+
+![Mensaje con conditional rendering](https://user-images.githubusercontent.com/72580574/206908215-38597bc8-1cc0-474c-9cab-6d8989430da4.png)
+
 
 :tv: ->  [Acá se puede ver este otro mini proyecto en codigo con SandBox.io](https://codesandbox.io/s/youthful-engelbart-d616uf)
 
 
-## 15to MiniProyecto : formulario
+## 15to MiniProyecto : formulario de login
 
 En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator)  practicando **formularios**
 
@@ -114,6 +127,9 @@ Consignas:
 3. Cuando el usuario haga click en **Sing up**, vea si el password y la confirmación metcheen, si es así hacer un console.log con el mensaje "Sucessfully singed up", si no que el mensaje diga "PAssword to not match".
 
 4. Cuando se haga el submit del form, si el usuario checkea el checkbox **newsletter** que tenga un console.log con el mensaje "Thanks for singing up for our newsletter!".
+
+![mini proyecto formulario de login](https://user-images.githubusercontent.com/72580574/206907711-b480c09f-7967-448b-a5b8-16124d95573f.png)
+
 
 :tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/great-bessie-bpiyvx)
 
