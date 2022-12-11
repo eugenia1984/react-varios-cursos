@@ -1302,7 +1302,9 @@ Consignas:
 ## :star: Volvemos al Meme Generator
 
 
-- Ahora queremos traer los datos desde una API, sin usar el archivo memesData.js
+- Ahora queremos traer los datos desde una API, sin usar el archivo memesData.js y usamos async y await en la llamda a la API.
+
+:tv: -> [Aca esta en la Demo](https://react-scrimba-meme.netlify.app/)
 
 ---
 
