@@ -1238,7 +1238,7 @@ export default function App() {
 
 ## useEffect usando dependencias
 
-Ahora queremos que al hacer click en el sigueinte personado el estado aumente de 1 en 1 y muestre los datos del proximo personaje,
+Ahora queremos que al hacer click en el siguiente personado el estado aumente de 1 en 1 y muestre los datos del proximo personaje,
 
 ```JSX
 import React, { useState}  from "react"
