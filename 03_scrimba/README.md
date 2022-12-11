@@ -167,7 +167,8 @@ En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/m
 
 ![image](https://user-images.githubusercontent.com/72580574/206915671-c78cc590-69bd-4f46-a3fa-d9018e9c1e7c.png)
 
-:tv: -> [Codigo en CodeSandBox.io] (https://codesandbox.io/s/nice-hooks-d09q9o)
+:tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/nice-hooks-d09q9o)
+
 ---
 
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
