@@ -1279,6 +1279,21 @@ export default function App() {
 
 ---
 
+
+## :star: Practica con useState y useEffect
+
+Consignas:
+
+1. Crear un state llamado **show** con el valor por default de **true**
+
+2. Cuando el boton es clickeado que se togglee a **show**
+
+3. Solo mostrar ```<WindowTracker />``` si **show=true**.
+
+:tv: -> [Aca esta en codigo CodeSandBox,io](https://codesandbox.io/s/nice-hooks-d09q9o)
+
+
+---
 ## :star: Volvemos al Meme Generator
 
 
@@ -1286,4 +1301,5 @@ export default function App() {
 
 ---
 
-- 
+
+
