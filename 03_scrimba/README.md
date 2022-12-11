@@ -248,6 +248,8 @@ Volviendo al primer proyecto, vamos a implementarle el efecto **light / dark mod
 
 :computer: -> [Este es el repositorio del 1er y 4to proyecto](https://github.com/eugenia1984/scrimba-project1/blob/main/README.md)
 
+:tv: -> [Aca se ve en demo](https://scrimba-proyect4.netlify.app/)
+
 
 ## :star: 5to Proyecto: un clone de notas
 
