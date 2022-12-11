@@ -1076,7 +1076,7 @@ export default function App() {
 
 -> Volviendo al ejemplo de la API si el fetch esta en el level alto no lo podemos controlar, entonces React nos brinda el **useEffect**, lo que nos permite **sincronizar el estado de REact con los sistemas fuera de React, como el llamado a la API**
 
-:tv: -> [Documetnacion de React de useEffect](https://reactjs.org/docs/hooks-effect.html)
+:tv: -> [Documentacion de React de useEffect](https://reactjs.org/docs/hooks-effect.html)
 
 -> Vamos a modificar el codigo de llamado  la APi para utilizar useEffect:
 
