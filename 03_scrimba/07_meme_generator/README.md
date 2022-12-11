@@ -1235,4 +1235,55 @@ export default function App() {
 }
 ```
 
+
+## useEffect usando dependencias
+
+Ahora queremos que al hacer click en el sigueinte personado el estado aumente de 1 en 1 y muestre los datos del proximo personaje,
+
+```JSX
+import React, { useState}  from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = useState({})
+    const [count, setCount] = useState(1)
+    
+    /**
+     * Challenge: Combine `count` with the request URL
+     * so pressing the "Get Next Character" button will
+     * get a new character from the Star Wars API.
+     * Remember: don't forget to consider the dependencies
+     * array!
+     */
+    
+    React.useEffect(function() {
+        console.log("Effect ran")
+        fetch(`https://swapi.dev/api/people/${count}`)
+            .then(res => res.json())
+            .then(data => setStarWarsData(data))
+    }, [count])
+    
+    return (
+        <div>
+            <h2>The count is {count}</h2>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>Get Next Character</button>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+        </div>
+    )
+}
+```
+
+![datos del primer personaje](https://user-images.githubusercontent.com/72580574/206904111-8883cdd7-0201-4bbc-8609-632afd341931.png)
+
+![datos del segundo personaje](https://user-images.githubusercontent.com/72580574/206904181-34d902f2-ed61-4c20-a7f7-19c3035f445e.png)
+
+
 ---
+
+## :star: Volvemos al Meme Generator
+
+
+- Ahora queremos traer los datos desde una API, sin usar el archivo memesData.js
+
+---
+
+- 
