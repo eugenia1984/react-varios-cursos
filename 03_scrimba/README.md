@@ -161,6 +161,13 @@ Consignas:
 
 :tv: -> [Codigo en CodeSandBox.io](https://codesandbox.io/s/great-bessie-bpiyvx)
 
+## 16 Mini Proyecto : useEffect y función cleanup
+
+En [07_meme_generator](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba/07_meme_generator)  practicando useEffect y función cleanup
+
+![image](https://user-images.githubusercontent.com/72580574/206915671-c78cc590-69bd-4f46-a3fa-d9018e9c1e7c.png)
+
+:tv: -> [Codigo en CodeSandBox.io] (https://codesandbox.io/s/nice-hooks-d09q9o)
 ---
 
 ##  <img src="https://img.icons8.com/dusk/50/null/untested.png"/> Proyectos
