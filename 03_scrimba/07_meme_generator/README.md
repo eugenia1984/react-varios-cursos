@@ -15,7 +15,7 @@
 - Conditional rendering
 - Forms
 - Llamados a APIs
-- Side effects (useEffect)
+- Side effects (useEffect useEffect cleanup)
 ```
 
 :tv: -> [link al diseño en Figma](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0%3A1&t=d6jKjjGA1qYGBk71-0)
@@ -1289,6 +1289,11 @@ Consignas:
 2. Cuando el boton es clickeado que se togglee a **show**
 
 3. Solo mostrar ```<WindowTracker />``` si **show=true**.
+
+- Vemos el concepto de **useEffect cleanup**
+
+![image](https://user-images.githubusercontent.com/72580574/206915530-09c98a81-88a9-469d-82d8-0702690a27cb.png)
+
 
 :tv: -> [Aca esta en codigo CodeSandBox,io](https://codesandbox.io/s/nice-hooks-d09q9o)
 
