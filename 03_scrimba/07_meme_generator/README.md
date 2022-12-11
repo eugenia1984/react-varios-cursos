@@ -262,14 +262,31 @@ En un checkbox vemos la propiedad **checked** para determinar si debe guardarse 
 
 Agregamos un **onSubmit** **handler** que generalmente está dentro de un **button** que va a ser trigger en la función que trerá la data.
 
-
 17. ¿Qué es un **side effect** en React? ¿Algún ejemplo?
+
+Es cualquier código que quieras correr y React no lo maneja, es de un sistema externo como : API, local storage, suscriciones web sockets, dos estados en react que dben sincronizrse entre ellos.
 
 18. ¿ Qué no es un side effect en React ? ¿ Algún ejemplo ?
 
+Todo de lo que está a cargo React.
+
+Ejemplos: mantener el state (estado) entre un renderizado y el otro, mantener sincronizada la UI con la data, renderizar los elementos del DOM. 
+
 19. ¿ Cuando React corre la función useEffect? ¿Cuando React no corre la función useEffect ?
 
+La corre cuando ...
+
+... el componente se carga.
+
+... en cada re renderizado del componente (sin tener el dependency array).
+
+No se corre cuando el value del array dependency no cambia entre renderizados.
+
 20. ¿cómo escplicamos que es el array de dependencia?
+
+Es el segundo parametro de la función useEffect.
+
+Una forma de que rEact sepa si debe renderizar nuevamente o no la función effect.
 
 ---
 
@@ -1151,6 +1168,62 @@ export default function App() {
     React.useEffect(() => {
         console.log("Effect function ran")
     }, [count])
+    
+    return (
+        <div>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+            <h2>The count is {count}</h2>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>Add</button>
+        </div>
+    )
+}
+```
+
+---
+
+## :star: Volviendo a la app del contador y el llamado a la API de StarWars para ver el useEffect
+
+```JSX
+import React. { useState, useEffect } from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = useState({})
+    const [count, setCount] = useState(0)
+    
+    useEffect(function() {
+        fetch("https://swapi.dev/api/people/1")
+            .then(res => res.json())
+            .then(data => setStarWarsData(data))
+    }, [count])
+    
+    return (
+        <div>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+            <h2>The count is {count}</h2>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>Add</button>
+        </div>
+    )
+}
+```
+
+Hay que seguir arreglando el codigo, porque asi como lo tenemos si hacemos click en el boton Add se va a volver a hacer la llamada a la APi, solo que como la información es la misma no vemos cambios. Esto pasa porque en el **Array de dependencia** tenemos el state de count.
+
+Entonces ¿ Cómo debería ser nuestro useEffect ?
+
+Dejamos vacío el array de dependecia
+
+```JSX
+import React. { useState, useEffect } from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = useState({})
+    const [count, setCount] = useState(0)
+    
+    useEffect(function() {
+        fetch("https://swapi.dev/api/people/1")
+            .then(res => res.json())
+            .then(data => setStarWarsData(data))
+    }, [])
     
     return (
         <div>
