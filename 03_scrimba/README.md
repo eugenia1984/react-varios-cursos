@@ -246,7 +246,7 @@ Volviendo al primer proyecto, vamos a implementarle el efecto **light / dark mod
 
 ![Light / Dark mode](https://user-images.githubusercontent.com/72580574/206916963-6b118d0b-9ce8-4946-81a5-9b4a52d4764b.png)
 
-:computer: -> [Este es el repositorio dle 1er y 4to proyecto](https://github.com/eugenia1984/scrimba-project1/blob/main/README.md)
+:computer: -> [Este es el repositorio del 1er y 4to proyecto](https://github.com/eugenia1984/scrimba-project1/blob/main/README.md)
 
 
 ## :star: 5to Proyecto: un clone de notas
