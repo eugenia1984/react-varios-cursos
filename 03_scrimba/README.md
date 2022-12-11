@@ -238,6 +238,23 @@ Temas que se ven:
 
 :tv: -> [Aca se ve en Demo](https://react-scrimba-meme.netlify.app/)
 
+
+## :star: 4to Proyecto : Light / Dark mode
+
+Volviendo al primer proyecto, vamos a implementarle el efecto **light / dark mode**.
+
+![Light / Dark mode](https://user-images.githubusercontent.com/72580574/206916963-6b118d0b-9ce8-4946-81a5-9b4a52d4764b.png)
+
+
+## :star: 5to Proyecto: un clone de notas
+
+![image](https://user-images.githubusercontent.com/72580574/206916979-844a5599-bbf5-4a8b-82d9-73a7a9a636bf.png)
+
+## :star: 6yo Proyecto : TEnzies
+
+![image](https://user-images.githubusercontent.com/72580574/206916991-8b468050-aef1-483c-9e85-999f743d42aa.png)
+
+
 ---
 ---
 
