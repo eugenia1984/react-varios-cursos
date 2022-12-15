@@ -12,7 +12,7 @@ Here I will gather the courses made of **React**
 
 - [2 - Tutorial: Introduction to React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react) : I created a tic-tac-toe from [https://reactjs.org/tutorial/tutorial.html](https://reactjs.org/tutorial/tutorial.html)
 
-- [3 - React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba): [Proyect 1: static SPA](https://github.com/eugenia1984/scrimba-project1), [Proyect 2: a clone of the experiences at Airbnb](https://github.com/eugenia1984/scrimba-project2) and a lots of mini projects to learn REact.
+- [3 - React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba): [Proyect 1: static SPA](https://github.com/eugenia1984/scrimba-project1), [Proyect 2: a clone of the experiences at Airbnb](https://github.com/eugenia1984/scrimba-project2), [Proyect 3 : Meme generator](https://github.com/eugenia1984/scrimba-proyect3) and a lots of mini projects to learn React.
 
 - [4 - React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
@@ -68,7 +68,7 @@ Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 
 - [2 - Tutorial: Introducción a React](https://github.com/eugenia1984/react-varios-cursos/tree/main/02_tutorial_introduccion_a_react): cree un juego de Ta-Te-Ti desde  [https://reactjs.org/tutorial/tutorial.html](https://reactjs.org/tutorial/tutorial.html)
 
-- [3 - React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba): [Proyecto 1: una SPA estática](https://github.com/eugenia1984/scrimba-project1), [Proyecto 2: un clone de la parte de experiencias de Airbnb](https://github.com/eugenia1984/scrimba-project2) y muchos otros mino proyectos para ir aprnediendo.
+- [3 - React con Scrimba](https://github.com/eugenia1984/react-varios-cursos/tree/main/03_scrimba): [Proyecto 1: una SPA estática](https://github.com/eugenia1984/scrimba-project1), [Proyecto 2: un clone de la parte de experiencias de Airbnb](https://github.com/eugenia1984/scrimba-project2), [Proyecto 3 : Generador de Memes](https://github.com/eugenia1984/scrimba-proyect3) y muchos otros mino proyectos para ir aprnediendo.
 
 
 - [4 - React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
