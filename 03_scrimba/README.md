@@ -257,6 +257,9 @@ Volviendo al primer proyecto, vamos a implementarle el efecto **light / dark mod
 
 :tv: -> [Aca pueden ver el repositorio del proyecto](https://github.com/eugenia1984/scrimba-project5)
 
+![image](https://user-images.githubusercontent.com/72580574/207923083-960c0db5-0a05-4331-94d7-5bb19d71439f.png)
+
+
 ## :star: 6to Proyecto : Tenzies
 
 ![image](https://user-images.githubusercontent.com/72580574/206916991-8b468050-aef1-483c-9e85-999f743d42aa.png)
