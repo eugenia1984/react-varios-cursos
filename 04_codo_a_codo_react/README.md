@@ -38,6 +38,14 @@
 ---
 ---
 
+
+:computer: Trabajo final
+
+En equipo realizamos un e-commerce, que se puede ver [en este link](https://github.com/eugenia1984/reacteam)
+
+---
+---
+
 ## :book: Contenido que hay en TEORIA
 
 ---
