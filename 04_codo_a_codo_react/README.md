@@ -46,6 +46,26 @@ En equipo realizamos un e-commerce, que se puede ver [en este link](https://gith
 ---
 ---
 
+
+## ¿ Qué temas vimos ?
+
+![image](https://user-images.githubusercontent.com/72580574/208551366-60b0ef5c-59a5-4aa6-b6cc-098c4cb27ba9.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/208551379-cfc86031-cfc8-4368-bd02-2c56b63de1de.png)
+
+![image](https://user-images.githubusercontent.com/72580574/208551439-bff1cc7c-7d72-4803-96e3-4a514183f48c.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/208551463-6a0719ca-684b-45be-b4da-9bc8006bf924.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/208551485-19c538b3-20b8-4606-b098-a93d0e795f0c.png)
+
+
+---
+---
+
 ## :book: Contenido que hay en TEORIA
 
 ---
