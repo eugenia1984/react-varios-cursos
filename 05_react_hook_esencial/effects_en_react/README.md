@@ -229,6 +229,16 @@ useEffect( () => {
 
 ## :star: 5 - Reemplazar componentDidUpdate con React Hook
 
+En un **componente de clase**, tengo:
+
+```JSX
+componentDidUpdate() {
+    this.setData();
+  }
+  ```
+  
+  Lo tengo que reemplazar por un **hook** en un **componente funcional**.
+
 ---
 
 ## :star: 6 - Reemplazar componentWillUnmount con React Hooks
