@@ -130,6 +130,28 @@ Si encuentra un item con valor 1 lo cambia, sino muestra lo que esta.
 
 ## 8 - Agregar o eliminar valores del estado con React Hooks
 
+Volviendo al array de objetos, para poder **agregar valores**, voy nuevamente a utilizar el **spread operator** para tener los mismos elementos del array que tenia y le sumo uno nuevo.
+
+```JSX
+const cambio = () => {
+  setOpciones( [...opciones, { 
+    name: `Opcion ${opciones.length + 1}`, 
+    value: opciones.length + 1
+   } 
+  ] )
+}
+```
+
+Y para **eliminar un elemento**, voy a filtrar los items y el que tenga el valor de 1 va a ser eliminado.
+
+```JSX
+const cambio = () => {
+  const actualizado = opciones.filter( item => item.value !== 1)
+  setOpciones(actualizado)
+}
+```
+
+
 ----
 
 ## 9 - Reglas básicas para gestionar React Hooks
