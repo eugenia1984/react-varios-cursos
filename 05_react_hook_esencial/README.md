@@ -8,8 +8,26 @@ Curso de **LinkedIn Learning** de **Carlos Solis**: **React Hooks esencial**. Ap
 
 ---
 
-## Tecnología
+## <img src="https://img.icons8.com/plasticine/40/null/react.png"/> Tecnología
 
 - **React**
+
+---
+
+## :book: Temas
+
+1. Primeros pasos
+
+2. React Hooks para gestionar el estado
+
+3. React Hooks para gestionar Effects
+
+4 . Utilizando los principales React Hooks
+
+5. Creación de Hooks personalizados
+
+---
+
+## Certificado
 
 ---
