@@ -56,13 +56,13 @@ En vez de crear una función que se va a activar or algún evento, como por ejem
 
 ---
 
-## 5 - Propiedades múltiples en el estado con hooks
+## :star: 5 - Propiedades múltiples en el estado con hooks
 
 Puedo tener más de una propiedad, con su setter y su useState(). De este modo puedo tener múltiples propiedades, así por ejemplo puedo tener un loading, isLoading cuando voy a hacer un llamado a la API, y de este modo con renderizado condicional si isLoading es true, puedo mostrar un spinner y una vez que isLoading sea false muestrolos datos traidos de la API, en paralelo voy a tener otra propiedad del estado que me guardará la información traida de la API para renderizar en la UI.
 
 ---
 
-## 6 - Compatir estado con subcomponentes
+## :star: 6 - Compatir estado con subcomponentes
 
 Se pueden pasar a los componentes hijos mediante las **props** del componente padre que tiene al invocar al componente hijo.
 
@@ -70,7 +70,7 @@ Si dentro del componente padre hacemos una modificación del estado, se verá re
 
 ---
 
-## 7 - Modificar datos parciales con React Hooks
+## :star:  7 - Modificar datos parciales con React Hooks
 
 Una vez definido el estado necesitaremos modificarlo. Dentro del estado podemos tener distintos tipos de datos, como por ejemplo: string, number, objeto, array, etc.
 
@@ -128,7 +128,7 @@ Si encuentra un item con valor 1 lo cambia, sino muestra lo que esta.
 
 ---
 
-## 8 - Agregar o eliminar valores del estado con React Hooks
+## :star: 8 - Agregar o eliminar valores del estado con React Hooks
 
 Volviendo al array de objetos, para poder **agregar valores**, voy nuevamente a utilizar el **spread operator** para tener los mismos elementos del array que tenia y le sumo uno nuevo.
 
@@ -154,7 +154,7 @@ const cambio = () => {
 
 ----
 
-## 9 - Reglas básicas para gestionar React Hooks
+## :star: 9 - Reglas básicas para gestionar React Hooks
 
 
 Hacemos lladas al estado ocn **useState**.
