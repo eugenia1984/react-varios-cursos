@@ -139,7 +139,42 @@ export default function Contador() {
 
 ---
 
-## :star: 4 - Reemplazar componentDodMount con React Hooks
+## :star: 4 - Reemplazar componentDidMount con React Hooks
+
+En base a este **componente de clase** con el método **componenteDidMount()**:
+
+```JSX
+import React, { Component } from "react";
+
+class App extends Component {
+    
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      data: "test"
+    }
+  }
+
+  getData() {}
+
+  componenteDidMount() {
+    this.getData();
+  }
+
+  render() {
+    return (
+      <div>
+      {this.state.data}
+      </div>
+    )
+  }
+}
+
+export default App;
+```
+
+Se va a cambiar a un **componente funcional** para manejarlo con un **hook**
 
 ---
 
