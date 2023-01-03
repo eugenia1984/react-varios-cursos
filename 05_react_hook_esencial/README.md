@@ -22,7 +22,7 @@ Curso de **LinkedIn Learning** de **Carlos Solis**: **React Hooks esencial**. Ap
 
 3. React Hooks para gestionar Effects
 
-4 . Utilizando los principales React Hooks
+4. Utilizando los principales React Hooks
 
 5. Creación de Hooks personalizados
 
