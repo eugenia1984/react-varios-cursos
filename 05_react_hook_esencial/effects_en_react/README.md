@@ -174,7 +174,56 @@ class App extends Component {
 export default App;
 ```
 
-Se va a cambiar a un **componente funcional** para manejarlo con un **hook**
+Se va a cambiar a un **componente funcional** para manejarlo con un **hook**.
+
+Con el hook **useState** creo unas propiedades y tengo el método **cambiarEstado** que modifica el valor de una de las propiedades del estado.
+
+Hay un **boton** que invoca al método** y dentro del DOM renderizo la infomración del título, en cada click le voy a cambiar el estado y agregar un punto al texto.
+
+Si quiero reemplaar el **componentDidMount** debo ejecutarlo **una única vez** en el momento en que **Se monta (se inicializa)** el componente.
+
+Necesito un **useEffect** para saber cuantas veces hicimos click en el boton y modificamos el estado.
+
+Pero... como está ahora **el useEffect se ejecuta muchas veces**, no una unica vez:
+
+```JSX
+import React, { useEffect, useState } from "react";
+
+export default function MiComponenteHook() {
+  
+  const [ conteo, setConteo ] = useState(1);
+  const [ opcion, setOpcion ] = useState({ titulo: "Mi texto", valor: 1});
+  
+  useEffect( () => {
+    document.title = `Conteo : ${conteo}`;
+  })
+  
+  const cambiarEstado = () => {
+    setConteo( conteo + 1);
+    setOpcion( {
+      ...opcion,
+      titulo: opcion.titulo + "."
+    })
+  };
+  
+  return (
+    <div className="container">
+      <button onClick={cambiarEstado}>Cambiar Estado</button>
+      <h1>{opcion.titulo}</h1>
+    </div>
+  );
+}
+```
+
+Lo que voy a hacer es agregar el **array de dependencia**:
+
+```JSX
+useEffect( () => {
+  document.title = `Conteo : ${conteo}`;
+}, [])
+```
+
+:computer: -> [aca esta el codigo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/effects_en_react/MiComponenteHook.jsx)
 
 ---
 
