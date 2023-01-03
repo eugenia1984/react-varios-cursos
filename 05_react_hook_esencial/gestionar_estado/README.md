@@ -46,23 +46,85 @@ Siempre antes recoardar que hay que importar el useState:
 import { useState } from "react";
 ```
 
--> Todos los **hooks** comienzan con **use...***
+-> Todos los **hooks** comienzan con **use...**
 
 ---
 
 ## :star: 4 - Invocar hooks directamente desde el render
 
+En vez de crear una función que se va a activar or algún evento, como por ejemplo el onClick, directamente dentro dle onClick creo una función anónima y ahi dentro ya tendré el setValue() para actualizar el estado. De este modo se hace todo directo en el return, sin tener que invocar a otra función definida anteriormente.
+
 ---
 
 ## 5 - Propiedades múltiples en el estado con hooks
+
+Puedo tener más de una propiedad, con su setter y su useState(). De este modo puedo tener múltiples propiedades, así por ejemplo puedo tener un loading, isLoading cuando voy a hacer un llamado a la API, y de este modo con renderizado condicional si isLoading es true, puedo mostrar un spinner y una vez que isLoading sea false muestrolos datos traidos de la API, en paralelo voy a tener otra propiedad del estado que me guardará la información traida de la API para renderizar en la UI.
 
 ---
 
 ## 6 - Compatir estado con subcomponentes
 
+Se pueden pasar a los componentes hijos mediante las **props** del componente padre que tiene al invocar al componente hijo.
+
+Si dentro del componente padre hacemos una modificación del estado, se verá reflejado en los componentes hijos que renderizan estos estados.
+
 ---
 
 ## 7 - Modificar datos parciales con React Hooks
+
+Una vez definido el estado necesitaremos modificarlo. Dentro del estado podemos tener distintos tipos de datos, como por ejemplo: string, number, objeto, array, etc.
+
+- Para **actualizar estados de objetos** se puede utilizar el **spread operator**, asi llamamos a todas las propiedades del objeto, y solo actualizamos el que necesitamos. Ejemplo en codigo:
+
+
+```JSX
+const [ direccion, setDireccion ] = useState({
+  pais: "USA",
+  estado: "Arizona",
+  ciudad: "Springfield
+})
+
+const cambio = () => {
+  setDireccion({
+    ...direccion,
+    estado: "Ohio"
+  })
+}
+```
+
+De este modo solo actualizo el estado, el pais y la ciudad mantienen su valor.
+
+
+- Si tenemos un **array de objetos**, se debe iterar sobre el array. Ejemplo en codigo:
+
+```JSX
+const [ opciones, setOpciones ] = useState([
+  {
+    name: "Opcion 1",
+    value: 1
+  },
+  {
+    name: "Opcion 2",
+    value: 2
+  },
+  {
+    name: "Opcion 3",
+    value: 3
+  }
+])
+
+
+const cambio = () => {
+  const nuevoItem = {
+    name: "Nuevo item",
+    value: 1
+  }
+  
+  const actualizado = opciones.map( (item) => item.value === 1 ? nuevoItem: item)
+}
+```
+
+Si encuentra un item con valor 1 lo cambia, sino muestra lo que esta.
 
 ---
 
