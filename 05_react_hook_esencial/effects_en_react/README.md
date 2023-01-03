@@ -76,7 +76,7 @@ export default function MiComponenteCambios() {
 }
 ```
 
-:computer: -> [aca esta en codigo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/effects_en_react/MiCOmponenteCambios.jsx)
+:computer: -> [aca esta en codigo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/effects_en_react/MiComponenteCambios.jsx)
 
 - Un **error**, algo que **no** debe hacerse en el código.
 ```JSX
@@ -92,6 +92,50 @@ Voy a entrar en un loop infinito, se comienza a aumentar sin parar el valor del 
 ---
 
 ## :star: 3 - Vincular Effects con propiedades especificas del estado
+
+Tengo un **array de dependencia** en el **useEffect++, por lo que solo se va a ejecutar cuando tenga un cambio en el **valor** de **opción**, por loq ue solo se llamará al hacer click e invocar el metodoDos.
+
+```JSX
+import React, { useEffect,  useState } from "react";
+
+export default function Contador() {
+  
+  const [ conteo, setConteo ] = useState(1);
+  const [ opcion, setOpcion ] = useState({ 
+    titulo:"texto", 
+    valor: 1
+  });
+  
+  useEffect( () => {
+    conosle.log("Test");
+    // setConteo(conteo + 1);
+  }, [opcion.valor])
+  
+  const metodoUno = () => {
+     setOpcion( { 
+       ...opcion,
+       titulo: "opcion.titulo + "."
+     })
+  }
+  
+  const metodoDos = () => {
+    setOpcion( { 
+       ...opcion,
+       valor: "opcion.valor + 1
+     })
+  }
+  
+  return (
+    <div>
+      <button onClick={metodoUno}>Primer evento </button>
+      <button onClick={metodoDos}>Segundo evento </button>
+    </div>
+  )
+}
+```
+
+:computer: -> [Ver el codigo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/effects_en_react/Contador.jsx)
+
 
 ---
 
