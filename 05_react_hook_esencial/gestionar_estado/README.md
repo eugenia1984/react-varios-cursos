@@ -156,5 +156,20 @@ const cambio = () => {
 
 ## 9 - Reglas básicas para gestionar React Hooks
 
+
+Hacemos lladas al estado ocn **useState**.
+
+Tenemos reglas generales apra trabajar con hooks:
+
+1. Los hooks comienzan con el nombre **use**
+
+2. Los hooks los podemos utilizar unicamente dentro de funciones, dentro de una función de React, dentro de un componente funcional.
+
+3. Hay que utilizar los hooks dentro de la raiz del componente, o sea al inicio, no dentro de una función, asi puede ser invocado en todo momento. Es como cuando se declara la variable al principio.
+
+4. Se puede interactuar con los elementos a través del **useState**, no se puede modificar el valor directamente, se hace mediante el setter y el getter. Ya que siempre se rige con una única fuente de verdad.
+
+
+
 ---
 
