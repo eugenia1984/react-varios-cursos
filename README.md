@@ -16,7 +16,9 @@ Here I will gather the courses made of **React**
 
 - [4 - React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
-- [5 - ReactJS Essential Training - LinkeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
+- [5 - React Hook esencial](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial) a LinkedIn Learning course of Carlos Solis.
+
+- [6 - ReactJS Essential Training - LinkeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
 
 ---
 
@@ -73,7 +75,9 @@ Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 
 - [4 - React con Codo a Codo](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react)
 
-- [5 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): temas vistos: Introduccion a los elementos de React, Componentes, Los estados en el Componente Arbol, Manejando formularios en React, React Asincronismo, React Router, React Testing and Deployment y en [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada.
+- [5 - React Hook esencial](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial) un curso de LinkedIn Learning de  Carlos Solis.
+
+- [6 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): temas vistos: Introduccion a los elementos de React, Componentes, Los estados en el Componente Arbol, Manejando formularios en React, React Asincronismo, React Router, React Testing and Deployment y en [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada.
 
 ---
 
