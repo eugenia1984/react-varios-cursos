@@ -20,7 +20,7 @@ Curso de **LinkedIn Learning** de **Carlos Solis**: **React Hooks esencial**. Ap
 
 2. [**React Hooks para gestionar el estado**](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial/gestionar_estado)
 
-3. React Hooks para gestionar Effects
+3. [**React Hooks para gestionar Effects**](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial/effects_en_react)
 
 4. Utilizando los principales React Hooks
 
