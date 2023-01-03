@@ -16,7 +16,7 @@ Curso de **LinkedIn Learning** de **Carlos Solis**: **React Hooks esencial**. Ap
 
 ## :book: Temas
 
-1. Primeros pasos
+1. [**Primeros pasos**](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial/primeros_pasos)
 
 2. React Hooks para gestionar el estado
 
