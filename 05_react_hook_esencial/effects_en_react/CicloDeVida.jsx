@@ -15,6 +15,10 @@ class App extends Component {
   componenteDidMount() {
     this.getData();
   }
+    
+  componentDidUpdate() {
+    this.setData();
+  } 
 
   render() {
     return (
