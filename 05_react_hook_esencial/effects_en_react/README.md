@@ -324,6 +324,35 @@ export default function ComponentWillMount() {
 
 ## :star: 7 - Actualización de datos con el Hooks de Effects
 
+
+Ejemplo de codigo con un carrito de compra que tiene elementos y al seleccinarlos se agregan al carrito.
+
+```JSX
+import React, { useEffect, useState } from "react";
+
+export default function MiCOmponente() {
+
+  const [ lista, setLista ] = useState( [
+    { nombre: "leche", status: 0, precio: 4 },
+    { nombre: "fruta" , status:0 , precio: 5 },
+    { nombre: "vinagre" , status:0 , precio: 3 },
+    { nombre: "cafe" , status:0 , precio: 10 }
+  ]);
+  
+  const [ seleccionados, setSeleccionados ] = useState();
+  
+  const agregarALista = (e) => {
+    const nuevaLista = lista.map( (producto) => 
+      producto.nombre === e.target.value ? { ...producto, status: (e.target.checked)? 1 : 0} : producto
+    );
+
+    setLista(nuevaLista);
+  };
+  
+  return (
+  );
+} 
+```
 ---
 
 ## :star: 8 - Importar datos externos con useEffect
