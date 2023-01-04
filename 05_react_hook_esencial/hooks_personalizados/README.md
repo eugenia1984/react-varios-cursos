@@ -59,6 +59,17 @@ En el momento que dejamos de utilizar el hook tenemos una fuga de memoria porque
 
 ## :star: 4 - Prevenir fugas de memoria en tus Hooks
 
+Con la propiedad de **cleanup** que tiene el useEffect podemso evitar esa fuga de memoria.
+
+```JSX
+useEffect( () => {
+  document.addEventListener("mouseover", checkMousePosition);
+
+  return () =>  document.removeEventListener("mouseover", checkMousePosition);
+}, [])
+```
+
+Asi eliminamos de la memoria el puntero checkMousePosition.
 
 ---
 
