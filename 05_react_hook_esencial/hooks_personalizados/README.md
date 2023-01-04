@@ -24,7 +24,14 @@ Para poder usarlo...
 
 ---
 
-## :star: 2 - Utilizar Hooks de react dentro de tus propios hooks
+## :star: 2 - Utilizar Hooks de React dentro de tus propios hooks
+
+
+Dentro de los Hook personalizados (que me permiten realizar tareas en momentos específicos) me van a permitir utilizar los Hooks de React dentro.
+
+- Los hooks siempre **deben ser llaamdos a un nivel de raiz**
+
+- Los hooks siempre **deben ser llamado dentro de una función de React**.
 
 ---
 
