@@ -264,6 +264,8 @@ Puede ser una forma muy intensiva, se puede ejecutar muchas veces, hay que tener
 ## :star: 6 - Reemplazar componentWillUnmount con React Hooks
 
 
+El **componentWillUnmount** se ejecuta en el momento en que se va a **remover el componente**, es útil para hacer limpieza de cualquier proceso que tengamos ejecutando dentro del componente, para evitar fugas de memoria. Puede ser reemplazado utilizando el **useEffect**.
+
 ---
 
 ## :star: 7 - Actualización de datos con el Hooks de Effects
