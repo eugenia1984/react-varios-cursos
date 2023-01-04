@@ -395,4 +395,33 @@ Si tendria las dos cosas en **agregarALista**, entonces siempre estaría un prod
 
 ## :star: 8 - Importar datos externos con useEffect
 
+En el proyecto dentro de ```public > data > lista.json``` armo un json para tomar los datos desde ahí, son los mismos datos que teníamos antes:
+
+lista.json
+```JSON
+[
+  { 
+    nombre: "leche", 
+    status: 0, 
+    precio: 4 
+  },
+  { 
+    nombre: "fruta" , 
+    status:0 , 
+    precio: 5 
+  },
+  { 
+    nombre: "vinagre" , 
+    status:0 , 
+    precio: 3 
+   },
+   { 
+      nombre: "cafe" , 
+      status:0 , 
+      precio: 10 
+   }
+]
+```
+
+
 ---
