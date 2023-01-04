@@ -4,7 +4,9 @@ import MiComponente from "/MiComponente";
 export default function Contenedor() {
   return (
     <div>
-      <MiComponente />
+      <MiContexto.Provider>
+        <MiComponente />
+      </MiContexto.Provider>
     </div>
   )
 }
