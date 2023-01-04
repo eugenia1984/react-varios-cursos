@@ -1,9 +1,28 @@
 import React, { useEffect, useState } from "react";
 
 export default function MiComponenteDatosExternos() {
-
   // vamos a importar los initial values de una fuente externa
   const [ lista, setLista ] = useState( []);
+  
+  // para cuando se monte el componente
+  useEffect( () => {
+    const URL = "data/lista.json";
+    
+    // traigo los datos del JSON
+    const fetchData = async () => {
+      try {
+        const response = await fetch(URL);
+        // lo tomamos de formato json y procesamos
+        const json = await response.json();
+        // seteo los datos
+        setLista(json);
+        
+      } catch (error) {
+        console.log("Error: ", error);
+      }
+    }
+    fetchData();
+  }, [])
   
   // para cuando se cambie la lista se usara este useEffect
   useEffect( () => {
