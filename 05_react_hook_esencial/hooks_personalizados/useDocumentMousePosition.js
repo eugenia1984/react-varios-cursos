@@ -11,6 +11,8 @@ const useDocumentMousePosition = () => {
   // se ejecuta en el momenot de inicializar el hook
   useEffect( () => {
     document.addEventListener("mouseover", checkMousePosition);
+    
+    return () =>  document.removeEventListener("mouseover", checkMousePosition);
   }, [])
   
   return isMouseOnRange;
