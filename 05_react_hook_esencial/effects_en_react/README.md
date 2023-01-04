@@ -401,27 +401,30 @@ lista.json
 ```JSON
 [
   { 
-    nombre: "leche", 
-    status: 0, 
-    precio: 4 
+    "nombre": "leche", 
+    "status": 0, 
+    "precio": 4 
   },
   { 
-    nombre: "fruta" , 
-    status:0 , 
-    precio: 5 
+    "nombre": "fruta" , 
+    "status":0 , 
+    "precio": 5 
   },
   { 
-    nombre: "vinagre" , 
-    status:0 , 
-    precio: 3 
+    "nombre": "vinagre" , 
+    "status":0 , 
+    "precio": 3 
    },
    { 
-      nombre: "cafe" , 
-      status:0 , 
-      precio: 10 
+      "nombre": "cafe" , 
+      "status":0 , 
+      "precio": 10 
    }
 ]
 ```
 
+Con todas las propiedades netre " ".
+
+:computer: -> [aca esta la lista](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/effects_en_react/lista.json)
 
 ---
