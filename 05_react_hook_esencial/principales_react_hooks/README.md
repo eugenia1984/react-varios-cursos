@@ -147,10 +147,25 @@ export default function SubComponente(props) {
 
 ## :star:  3 - Utilizar useReducer
 
-Un hook especial que nos permite trabajr el estado de la aplicacion mientras utilizamos un patron similar al de REdux.
+Un hook especial que nos permite trabajr el estado de la aplicacion mientras utilizamos un patron similar al de Redux.
 
 
 :computer: -> [se puede ver el codigo aca en ContenedorConUseReducer.jsx](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/principales_react_hooks/ContenedorConUseReducer.jsx)
+
+-> Me importo el **useReducer**
+
+-> Defino un **METODO** para utilizar, en este caso **reducer**
+
+-> Crear el **REDUCER**, para lo que tengo la constante **estado** y **dispatch** para poder enviar los eventos al reducer para poder ejecutar diferentes tareas). Esto lo igualo a **useReducer** que recibe dos argumentos...
+
+... que vamos a ejecutar cada vez que se active el dispatch, en este caso le método **reducer** creado
+
+... el valor que va a tener el estado por defecto
+
+Cuando ejecutamos le reducer analizamos la accion que nos piden, acorde al type y su nombre, se realizan distintos procesos, asi si es **seleccionar** status cambia a 1 y si es **desSeleccionar** status pasa a 0.
+
+
+Al hacer click en el botton, con el onClick se va a despachar la accion con type seleccionar.
 
 ---
 
