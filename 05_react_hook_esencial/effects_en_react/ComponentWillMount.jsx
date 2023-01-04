@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+export { unmountComponentAtNode, render } from "react-dom";
 
-export default function ComponentDidMount() {
+export default function ComponentWillMount() {
   
   const [ conteo, setConteo ] = useState(1);
   const [ opcion, setOpcion ] = useState({ titulo: "Mi texto", valor: 1});
@@ -17,8 +18,9 @@ export default function ComponentDidMount() {
   
   // cuando se desmonta
   useEffect( () => {
-    document.title = `Conteo didUpdate : ${conteo}`;
+    console.log("Componente agregado")
     return () => {
+        console.log("Componente eliminado")
     }
   }, [])
   
@@ -30,9 +32,14 @@ export default function ComponentDidMount() {
     })
   };
   
+  const eliminar = () => {
+    unmountComponentAtNode(document.getElementById("root"));
+  };
+  
   return (
     <div className="container">
       <button onClick={cambiarEstado}>Cambiar Estado</button>
+      <button onClick={eliminar}Eliminar Componente</button>
       <h1>{opcion.titulo}</h1>
     </div>
   );
