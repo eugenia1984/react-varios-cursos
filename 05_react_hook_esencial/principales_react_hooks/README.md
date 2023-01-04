@@ -147,6 +147,11 @@ export default function SubComponente(props) {
 
 ## :star:  3 - Utilizar useReducer
 
+Un hook especial que nos permite trabajr el estado de la aplicacion mientras utilizamos un patron similar al de REdux.
+
+
+:computer: -> [se puede ver el codigo aca en ContenedorConUseReducer.jsx](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/principales_react_hooks/ContenedorConUseReducer.jsx)
+
 ---
 
 ## :star: 4 - Utilizar useReducer en conjunto con context
