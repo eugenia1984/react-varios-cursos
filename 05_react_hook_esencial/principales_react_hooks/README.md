@@ -245,6 +245,16 @@ const context = useContext(Contexto);
 
 ## :star: 5 - Utilizar useMemo y callback
 
+Permite hacer las apps más eficientes a través de la **memorización**.
+
+Si tenemos una aplicación, la cual ejecuta varios procesos, en mi [ejemplo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/principales_react_hooks/ComponenteUseMemo.jsx) se ejecuta **fxLenta** que es una funcion lenta.
+
+```JSX
+const granNumero = useMemo( () => {
+    retunr fxLenta()
+  }, []);
+  ```
+  
 ---
 
 ## :star: 6 - Utilizar useRef
