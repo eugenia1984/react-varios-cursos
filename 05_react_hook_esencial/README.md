@@ -77,7 +77,18 @@ Curso de **LinkedIn Learning** de **Carlos Solis**: **React Hooks esencial**. Ap
 ⭐ 6 - Utilizar useRef
 
 
-5. Creación de Hooks personalizados
+5. [**Creación de Hooks personalizados**](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial/hooks_personalizados)
+
+⭐ 1 - Sintaxis de un Hook personalizado
+ 
+⭐ 2 - Utilizar Hooks de react dentro de tus propios hooks
+
+⭐ 3 - Detectar eventos dentro de tu hook personalizado
+
+⭐ 4 - Prevenir fugas de memoria en tus Hooks
+
+⭐ 5 - Integrar tus Hooks personalizados dentro de un componente
+ 
 
 ---
 
