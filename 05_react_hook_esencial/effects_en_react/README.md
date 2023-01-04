@@ -1,4 +1,4 @@
-# :book: React Hooks Esential (LinkedIn Learning)
+# :book: React Hooks Esencial (LinkedIn Learning)
 
 ---
 
