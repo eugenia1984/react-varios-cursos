@@ -259,8 +259,8 @@ const granNumero = useMemo( () => {
 
 ## :star: 6 - Utilizar useRef
 
-Con el **hook useRef**.
+Con el **hook useRef**. Con el useRef se alamacena el valor pero se ve cuando hay un cambio de estado
 
-:computer: -> [aca esta el codigo de ejemplpo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/principales_react_hooks/MiComponenteConUseRef.jsx)
+:computer: -> [aca esta el codigo de ejemplo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/principales_react_hooks/MiComponenteConUseRef.jsx)
 
 ---
