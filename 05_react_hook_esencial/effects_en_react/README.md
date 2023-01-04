@@ -223,11 +223,6 @@ useEffect( () => {
 }, [])
 ```
 
-:computer: -> [aca esta el codigo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/effects_en_react/MiComponenteHook.jsx)
-
----
-
-## :star: 5 - Reemplazar componentDidUpdate con React Hook
 
 En un **componente de clase**, tengo:
 
@@ -238,14 +233,40 @@ componentDidUpdate() {
   ```
   
   Lo tengo que reemplazar por un **hook** en un **componente funcional**.
+  
+:computer: -> [aca esta el codigo](https://github.com/eugenia1984/react-varios-cursos/blob/main/05_react_hook_esencial/effects_en_react/MiComponenteHook.jsx)
+
+---
+
+## :star: 5 - Reemplazar componentDidUpdate con React Hook
+
+
+El **componentDidUpdate** se ejecuta cada vez que se realiza una **actualización** dentro de los elementos del componente.
+
+Tomando el mismo ejemplo anterior, modificando el **useEffect**:
+
+```JSX
+useEffect( () => {
+  document.title = `Primer conteo : ${conteo}`;
+}, [])
+
+// como  componentDidUpdate, se ejecuta cada vez que hay una actualizacion del estado
+// porque no tiene el dependecy array
+useEffect( () => {
+  document.title = `Conteo : ${conteo}`;
+})
+```
+
+Puede ser una forma muy intensiva, se puede ejecutar muchas veces, hay que tener cuidado cuando se utiliza asi.
 
 ---
 
 ## :star: 6 - Reemplazar componentWillUnmount con React Hooks
 
+
 ---
 
-## :star 7 - Actualización de datos con el Hooks de Effects
+## :star: 7 - Actualización de datos con el Hooks de Effects
 
 ---
 
