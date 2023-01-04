@@ -94,4 +94,7 @@ Curso de **LinkedIn Learning** de **Carlos Solis**: **React Hooks esencial**. Ap
 
 ## Certificado
 
+
+![image](https://user-images.githubusercontent.com/72580574/210638325-b108644d-6434-4340-a005-01021ec6ee1e.png)
+
 ---
