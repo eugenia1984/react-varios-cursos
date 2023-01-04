@@ -75,4 +75,27 @@ Asi eliminamos de la memoria el puntero checkMousePosition.
 
 ## :star: 5 - Integrar tus Hooks personalizados dentro de un componente
 
+Dependiendo de si esta activado o no, voy a tener cierta clase, que cambiara el color.
+
+
+```JSX
+import React from "react";
+import useDocumentMousePosition from "./hooks/useDocumentMousePosition";
+
+function App() {
+  
+  const estaActivado = useDocumentMousePosition();
+  
+  return (
+    <div className="container>
+      <div className={`${estaActivado ? "green" : "red"} `}>
+        <h1>Detectar posicion del mouse</h1>
+      </div>
+    </div>
+   )
+}
+
+export default App;
+```
+
 ---
