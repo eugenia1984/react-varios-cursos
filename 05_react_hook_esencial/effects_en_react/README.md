@@ -330,7 +330,7 @@ Ejemplo de codigo con un carrito de compra que tiene elementos y al seleccinarlo
 ```JSX
 import React, { useEffect, useState } from "react";
 
-export default function MiCOmponente() {
+export default function MiComponenteActualizar() {
 
   const [ lista, setLista ] = useState( [
     { nombre: "leche", status: 0, precio: 4 },
@@ -338,6 +338,12 @@ export default function MiCOmponente() {
     { nombre: "vinagre" , status:0 , precio: 3 },
     { nombre: "cafe" , status:0 , precio: 10 }
   ]);
+  
+  // para cuando se cambie la lista se usara este useEffect
+  useEffect( () => {
+    // actualizar la lista del carrito de compras
+    actualizarCarritoDeCompra();
+  }, [lista])
   
   const [ seleccionados, setSeleccionados ] = useState();
   
@@ -349,10 +355,42 @@ export default function MiCOmponente() {
     setLista(nuevaLista);
   };
   
+  const actualizarCarritoCompra = () => {
+    const nuevoCarrito = lista
+      .filter( (producto) => producto.status === 1)
+      .map( (producto) => producto.nombre);
+    
+    setSeleccionados(nuevoCarrito);
+    
+    
+  }
+  
+  const listaOpciones = lista.map( ({ nombre, precio }) => {
+    <li 
+      key={nombre.replace(" ", "").toLowerCase()} 
+      onChange={agregarLista}
+      className?"list-group-item"
+    > 
+        <input type="checkbox" value={nombre}/> ${precio} {nombre}
+    </li>
+  })
+  
   return (
+    <div className="container">
+      <ul className="list-group> {listaOpciones} </ul>
+      <div className="alert alert-warning" role="alert">
+        {seleccionados.map( (tag, 1) => [1 < 0 && ", " , <>{tag}</>])}
+      </div>
+      <div></div>
+    </div>
   );
 } 
 ```
+
+Con el useEffect primero se hace el cambio de la lista y luego se procesan los valores.
+
+Si tendria las dos cosas en **agregarALista**, entonces siempre estaría un producto atrasada.
+
 ---
 
 ## :star: 8 - Importar datos externos con useEffect
