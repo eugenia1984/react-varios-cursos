@@ -37,9 +37,28 @@ Dentro de los Hook personalizados (que me permiten realizar tareas en momentos e
 
 ## :star:  3 - Detectar eventos dentro de tu hook personalizado
 
+En el  **useEffect** escucho la posicion dle mouse:
+
+```JSX
+ useEffect( () => {
+  document.addEventListener("mouseover", checkMousePosition);
+}, [])
+```
+  
+Invocando a:
+  
+```JSX
+const checkMousePosition = (event) => {
+  setIsMouseOnRange(event?.pageY < 150);
+}
+```
+
+En el momento que dejamos de utilizar el hook tenemos una fuga de memoria porque no removemos el eventListener.
+  
 ---
 
 ## :star: 4 - Prevenir fugas de memoria en tus Hooks
+
 
 ---
 
