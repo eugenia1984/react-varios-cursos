@@ -61,6 +61,87 @@ Y a el **Contenedor** agrego:
 
 El contexto nos ayuda a reducir el **Drop drilling** de React.
 
+Teniedo:
+
+```JSX
+import React from "react";
+import MiComponente from "./MiComponente";
+
+export default function Contenedor() {
+  const data = {
+    nombrecomun: "sardina común",
+    reino: "Animal",
+    familia: "clupeidae",
+    genero: "Sardina",
+    especie: "Sardina pilchardus
+  }
+  
+  return (
+    <div className="container">
+   
+        <MiComponente data={data}/>
+    
+    </div>
+  )
+}
+```
+
+MiCoponente.jsx:
+```JSX
+import React, { useContext} from "react";
+import { MiContexto } from "./Contenedor",
+import SubComponente from "./SubComponente";
+
+export default function MiComponente(props) {
+  const animal = props.animal;
+  
+  return (
+    <>
+      <SubComponente data={data} />
+    </>
+  )
+}
+```
+
+
+Si tengo que ir pasando de componente padre a hijos y mas inferiores, se vuelve un inconveneinte, para eso tengo el **contexto**, no voy a tener que ir pasando todo entre propr, directamente al poner el Provider van a estar disponible para los hijos, nietos, bisnietos, etc, sin tneer que pasarlos como props, se manda como **value** y va a estar disponible para todos los subcomponentes.
+
+Entonces tendría:
+
+MiComponente:
+```JSX
+export default function MiComponente(props) {
+  const animal = useContext(MiContexto);
+  
+  return (
+    <div className="col-12 col-md-4 mt-5>
+      <div className="card border rounded overflow-hidden card_icon p-2" >
+        <h3 className="card-title border-bottom"> {animal.nombreComun} </h3>
+        <SubComponente  />
+       </div>
+    </div>
+  )
+}
+```
+
+SubComponente:
+```JSX
+import React, { useContext } from "react";
+import { MiContexto } from "./Contenedor";
+
+export default function SubComponente(props) {
+  const animal = useContext(MiContexto);
+  
+  return (
+    <p className="card-text">
+      <strong>Reino:</strong> {animal.reino} <br />
+      <strong>Familia:</strong> {animal.familia} <br />
+      <strong>Género:</strong> {animal.genero} <br />
+      <strong>Especie:</strong> {animal.especie} <br />
+    </p>
+  )
+}
+```
 
 ---
 
