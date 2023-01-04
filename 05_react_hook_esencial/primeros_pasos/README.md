@@ -2,10 +2,10 @@
 
 ---
 
-## :star2: 1 - Primeros pasos
+## :star2:  Primeros pasos
 
 
-### :star: ¿ Que son y como trabajan los React Hooks ?
+### :star: 1 - ¿ Que son y como trabajan los React Hooks ?
 
 Antes estaban los componentes de clases y los componentes funcionales (stateless, solo mostraban información), era el componente de clase el que manejaba todo el ciclo de vida.
 
