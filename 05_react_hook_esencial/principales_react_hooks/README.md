@@ -167,9 +167,79 @@ Cuando ejecutamos le reducer analizamos la accion que nos piden, acorde al type 
 
 Al hacer click en el botton, con el onClick se va a despachar la accion con type seleccionar.
 
+
+El **reducer** es parecido la **useState** en el sentido que nos permite crear un estado, pero a la vez nos permite lanzar un dispatch.
+
 ---
 
 ## :star: 4 - Utilizar useReducer en conjunto con context
+
+Modificando el return, en vez de pasar **data** en el Context.Provider paso un **objeto** con el **estado** y el **dispatch**, asi enviamos le valor del estado y la posiblidad de modificarlo(con el dispatch).
+
+```JSX
+return (
+    <div className="container">
+      <MiContexto.provider value={ { estado, dispatch}} >
+          <MiComponente />
+      </MiContexto.Provider >
+
+      <button 
+        className="mt-4"
+        onClick={ () => { dispatch({type:"seleccionar"})} }
+       >
+        Cambiar estado
+      </button>
+    </div>
+  )
+  ```
+  
+Y en ```<MiComponente />```  va a recibir **dispatch** y **estado**
+
+```JSX
+import React, { useContext } from "react";
+import { MiContexto } from "./Contenedor";
+import SubComponente from "./SubComponente";
+
+export default function MiComponente() {
+  const animal = useContext(MiContexto)
+  
+  return (
+    <div>
+      <h3>{animal.estado.nombreComun}</h3>
+      <SubComponente />
+    </div>
+  )
+}
+```
+  
+Y en el SubComponente:
+
+```JSX
+import React, { useContext } from "react";
+import { MiContexto } from "./Contenedor";
+
+export default function SubComponente(props) {
+const context = useContext(Contexto);
+  const animal = context.estado
+  
+  return (
+    <p className="card-text">
+      <strong>Reino:</strong> {animal.reino} <br />
+      <strong>Familia:</strong> {animal.familia} <br />
+      <strong>Género:</strong> {animal.genero} <br />
+      <strong>Especie:</strong> {animal.especie} <br />
+    </p>
+    {
+      animal.status === 1 &&
+      <div
+        onClick={() => context.dispatch({ type:"desSeleccionar"})}
+        className="alert alert-danger mt-3 text-center" role="alert" >
+        Seleccionado
+      </div>
+    }
+  )
+}
+```
 
 ---
 
