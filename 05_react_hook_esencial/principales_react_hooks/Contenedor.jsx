@@ -4,7 +4,7 @@ import MiComponente from "/MiComponente";
 export default function Contenedor() {
   return (
     <div>
-      <MiContexto.Provider>
+      <MiContexto.Provider value={10}>
         <MiComponente />
       </MiContexto.Provider>
     </div>
