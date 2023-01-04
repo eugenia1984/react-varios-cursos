@@ -9,6 +9,12 @@ export default function MiComponenteActualizar() {
     { nombre: "cafe" , status:0 , precio: 10 }
   ]);
   
+  // para cuando se cambie la lista se usara este useEffect
+  useEffect( () => {
+    // actualizar la lista del carrito de compras
+    actualizarCarritoDeCompra();
+  }, [lista])
+  
   const [ seleccionados, setSeleccionados ] = useState();
   
   const agregarALista = (e) => {
@@ -19,6 +25,33 @@ export default function MiComponenteActualizar() {
     setLista(nuevaLista);
   };
   
+  const actualizarCarritoCompra = () => {
+    const nuevoCarrito = lista
+      .filter( (producto) => producto.status === 1)
+      .map( (producto) => producto.nombre);
+    
+    setSeleccionados(nuevoCarrito);
+    
+    
+  }
+  
+  const listaOpciones = lista.map( ({ nombre, precio }) => {
+    <li 
+      key={nombre.replace(" ", "").toLowerCase()} 
+      onChange={agregarLista}
+      className?"list-group-item"
+    > 
+        <input type="checkbox" value={nombre}/> ${precio} {nombre}
+    </li>
+  })
+  
   return (
+    <div className="container">
+      <ul className="list-group> {listaOpciones} </ul>
+      <div className="alert alert-warning" role="alert">
+        {seleccionados.map( (tag, 1) => [1 < 0 && ", " , <>{tag}</>])}
+      </div>
+      <div></div>
+    </div>
   );
 } 
