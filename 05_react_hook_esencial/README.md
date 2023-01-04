@@ -62,7 +62,7 @@ Curso de **LinkedIn Learning** de **Carlos Solis**: **React Hooks esencial**. Ap
 
 ⭐ 8 - Importar datos externos con useEffect
 
-4. [**Utilizando los principales React Hooks**](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial/principales_react_hooks):  
+4. [**Utilizando los principales React Hooks**](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial/principales_react_hooks) 
 
 ⭐ 1 - ¿ Qué es el contexto ?
 
