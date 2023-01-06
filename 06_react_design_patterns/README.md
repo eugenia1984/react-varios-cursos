@@ -24,7 +24,7 @@
 
 ---
 
-## Tecnología
+## Tecnología 🛠️
 
 - React
 
