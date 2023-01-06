@@ -1,4 +1,119 @@
-# React Design PAtterns - 01 Introduction
+# React Design Patterns - 02 - Layout Components
+
+---
+
+## :star: ¿Que son los layout components ?
+
+Principalmente ordenen como se muestran otros componentes en la web.
+
+- Un ejemplo  es el de la pantalla dividida, donde se van a ver varios componentes distribuidos en distintas secciones.
+
+- Otro ejemplo es una lista de items
+
+- Modales
+
+Ejemplo:
+
+
+Pasamos de esto: 
+```JSX
+<div style={...}>
+  <h1>Component Code...>/h1>
+</div>
+```
+
+A esto, separando al componente de como va a ser desplegado, para que sea mas reutilizable.
+```JSX
+<div style={...}>
+  {children}
+</div>
+
+<>
+  <h1>Component Code...>/h1>
+</>
+```
+
+- Los componentes no deberían saber qué van a renderizar.
+
+---
+
+## :star: Split-screen components
+
+:computer: -> [Ejemplo de codigo en **01-02**]([)](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/01-02)
+
+-> Se utiliza**styled- components**
+
+[App.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-02/App.js):
+
+```JSX
+
+import { SplitScreen } from './SplitScreen';
+
+const LeftHandComponent = () => {
+	return <h1 style={{ backgroundColor: 'green' }}>Left!</h1>;
+}
+
+const RightHandComponent = () => {
+	return <p style={{ backgroundColor: 'red' }}>Right!</p>;
+}
+
+function App() {
+	return (
+		<SplitScreen
+			left={LeftHandComponent}
+			right={RightHandComponent} />
+	);
+}
+
+export default App;
+```
+
+
+[SplitScreen.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-02/SplitScreen.js):
+
+```JSX
+import styled from 'styled-components';
+
+const Container = styled.div`
+	display: flex;
+`;
+
+const Pane = styled.div`
+	flex: 1;
+`;
+
+export const SplitScreen = ({
+	left: Left,
+	right: Right,
+}) => {
+	return (
+		<Container>
+			<Pane>
+				<Left />
+			</Pane>
+			<Pane>
+				<Right />
+			</Pane>
+		</Container>
+	);
+})
+```
+
+---
+
+## :star: Split-screen components improvment
+
+---
+
+## :star: List and list items
+
+---
+
+## :star: Creando distintas tipos de listas
+
+---
+
+## :star: Componentes modales
 
 ---
 
