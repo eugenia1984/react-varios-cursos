@@ -110,6 +110,60 @@ Y queda asi:
 
 ## :star: Split-screen components improvment
 
+Aplicamos algunas modificaciones para hacerlo más **developer fliendly**.
+
+Agregamos más propiedades a **SliptScreen**.
+
+[**Ejemplo de codigo en 01-03**](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/01-03)
+
+[App.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-03/App.js)
+```JSX
+import { SplitScreen } from "./SplitScreen";
+
+const LeftHandComponent = ({ name }) => {
+  return <h1 style={{ backgroundColor: "green" }}>{name}</h1>;
+};
+
+const RightHandComponent = ({ message }) => {
+  return <p style={{ backgroundColor: "red" }}>{message}!</p>;
+};
+
+function App() {
+  return (
+    <SplitScreen leftWeight={1} rightWeight={3}>
+      <LeftHandComponent name="Shaun" />
+      <RightHandComponent message="Hello" />
+    </SplitScreen>
+  );
+}
+
+export default App;
+```
+
+[SplitScreen.js]([)](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-03/SplitScreen.js)
+```JSX
+import styled from "styled-components";
+
+const Container = styled.div`
+  display: flex;
+`;
+
+const Pane = styled.div`
+  flex: ${(props) => props.weight};
+`;
+
+export const SplitScreen = ({ children, leftWeight = 1, rightWeight = 1 }) => {
+  const [left, right] = children;
+  return (
+    <Container>
+      <Pane weight={leftWeight}>{left}</Pane>
+      <Pane weight={rightWeight}>{right}</Pane>
+    </Container>
+  );
+};
+```
+
+
 ---
 
 ## :star: List and list items
