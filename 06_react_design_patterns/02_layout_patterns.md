@@ -167,11 +167,13 @@ Si le dejo 1 de prorp al leftWeight y le dejo 3 de prorp al rightWeight voy a te
 
 <img width="600" alt="split component improvment" src="https://user-images.githubusercontent.com/72580574/211026455-0753409c-df42-4f6c-ab32-0504cab0a081.png">
 
-
+De tenerlos como props lo psamos a tenerlo como **childrens**.
 
 ---
 
 ## :star: List and list items
+
+Todo el código en [**01-04**](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/01-04)
 
 ---
 
