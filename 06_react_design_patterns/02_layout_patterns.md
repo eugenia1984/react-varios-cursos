@@ -185,7 +185,7 @@ Para tener los datos de las listas voy a crear las constantes **people** y **pro
 
 [people.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/people/people.js) que tiene al array de objetos de personas.
 
-
+- [RegularList.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/RegularList.js) que recibe por **props** a **items** , **resourceName** y **itemComponent**(aca vamos a determinar que componene utilizamos, asi se puede reutilizar tanto para **people** como para **products**). 
 
 ---
 
