@@ -60,8 +60,8 @@ const RightHandComponent = () => {
 function App() {
   return (
 	<SplitScreen
-		left={LeftHandComponent}
-		right={RightHandComponent} />
+	   left={LeftHandComponent}
+	   right={RightHandComponent} />
    );
 }
 
