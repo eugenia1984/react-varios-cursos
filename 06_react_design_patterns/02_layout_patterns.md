@@ -177,7 +177,15 @@ Todo el código en [**01-04**](https://github.com/eugenia1984/react-varios-curso
 
 Para tener los datos de las listas voy a crear las constantes **people** y **products** que van a ser **arrays de objetos**.
 
-Tengo la carpeta ```people``` con los archivos que muestran **name** y **age** [SmallPersonListItem.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/people/SmallPersonListItem.js) y [LargePersonListItem.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/people/LargePersonListItem.js) que muestran: **name**, **age**, **hairColor** y **hobbies**. Y además tengo [people.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/people/people.js) que tiene al array de objetos de personas.
+- Tengo la carpeta ```people``` con los archivos:
+
+[SmallPersonListItem.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/people/SmallPersonListItem.js) que muestrn **name** y **age** , al recibir a **person** como **props** 
+
+[LargePersonListItem.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/people/LargePersonListItem.js) que muestran: **name**, **age**, **hairColor** y **hobbies**. 
+
+[people.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-04/people/people.js) que tiene al array de objetos de personas.
+
+
 
 ---
 
