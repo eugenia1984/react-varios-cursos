@@ -10,21 +10,22 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 
 1. [**Introduccion**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01_introduction.md)
 
-2. Componentes Layouts
+2. [**Layout patterns**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/02_layout_patterns.md)
 
-3. Componentes containers
+3. Componentes Layouts
 
-4. Componentes controlados y descontrolados
+4. Componentes containers
 
-5. Componentes de orden superior
+5. Componentes controlados y descontrolados
 
-6. Custom Hooks Patterns
+6. Componentes de orden superior
 
-7. Prograamción Funcional y React
+7. Custom Hooks Patterns
 
-8. Conclusión
+8. Prograamción Funcional y React
 
-14. Protocolos
+9. Conclusión
+
 
 ---
 
