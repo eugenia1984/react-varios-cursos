@@ -140,7 +140,7 @@ function App() {
 export default App;
 ```
 
-[SplitScreen.js]([)](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-03/SplitScreen.js)
+[SplitScreen.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-03/SplitScreen.js)
 ```JSX
 import styled from "styled-components";
 
