@@ -12,7 +12,7 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 
 2. [**Layout patterns**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/02_layout_patterns.md)
 
-3. Componentes Layouts
+3. [**Componentes Layouts**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/03_container_components.md)
 
 4. Componentes containers
 
