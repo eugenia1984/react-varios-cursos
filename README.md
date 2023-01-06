@@ -18,7 +18,7 @@ Here I will gather the courses made of **React**
 
 - [5 - React Hook esencial](https://github.com/eugenia1984/react-varios-cursos/tree/main/05_react_hook_esencial) a LinkedIn Learning course of Carlos Solis.
 
-- [6- React Design Patterns - - LinkDeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns): Introduction, Layout Components, Container Components, Controlled and Uncontrolles Components, Hight-Order Components, Custom Hook Patterns, Functional Programming and React, Conclusion.
+- [6- React Design Patterns - - LinkdeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns): Introduction, Layout Components, Container Components, Controlled and Uncontrolles Components, Hight-Order Components, Custom Hook Patterns, Functional Programming and React, Conclusion.
 
 - [7 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
 
