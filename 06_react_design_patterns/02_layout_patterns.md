@@ -99,6 +99,13 @@ export const SplitScreen = ({
 })
 ```
 
+Y queda asi:
+
+<img width="600" alt="split-screen" src="https://user-images.githubusercontent.com/72580574/211024605-30636ecd-d406-452a-b423-b8b78b52ccae.png">
+
+
+
+
 ---
 
 ## :star: Split-screen components improvment
