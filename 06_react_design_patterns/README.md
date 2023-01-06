@@ -6,17 +6,19 @@
 
 1. Introduccion
 
-2. Componentes containers
+2. Componentes Layouts
 
-3. Componentes controlados y descontrolados
+3. Componentes containers
 
-4. Componentes de orden superior
+4. Componentes controlados y descontrolados
 
-5. Custom Hooks Patterns
+5. Componentes de orden superior
 
-6. Prograamción Funcional y React
+6. Custom Hooks Patterns
 
-7. Conclusión
+7. Prograamción Funcional y React
+
+8. Conclusión
 
 14. Protocolos
 
