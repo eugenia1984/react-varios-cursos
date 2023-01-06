@@ -41,7 +41,7 @@ A esto, separando al componente de como va a ser desplegado, para que sea mas re
 
 :computer: -> [Ejemplo de codigo en **01-02**]([)](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/01-02)
 
--> Se utiliza**styled- components**
+-> Se utiliza **styled- components**
 
 [App.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-02/App.js):
 
@@ -50,19 +50,19 @@ A esto, separando al componente de como va a ser desplegado, para que sea mas re
 import { SplitScreen } from './SplitScreen';
 
 const LeftHandComponent = () => {
-	return <h1 style={{ backgroundColor: 'green' }}>Left!</h1>;
+    return <h1 style={{ backgroundColor: 'green' }}>Left!</h1>;
 }
 
 const RightHandComponent = () => {
-	return <p style={{ backgroundColor: 'red' }}>Right!</p>;
+    return <p style={{ backgroundColor: 'red' }}>Right!</p>;
 }
 
 function App() {
-	return (
-		<SplitScreen
-			left={LeftHandComponent}
-			right={RightHandComponent} />
-	);
+  return (
+	<SplitScreen
+		left={LeftHandComponent}
+		right={RightHandComponent} />
+   );
 }
 
 export default App;
@@ -75,27 +75,27 @@ export default App;
 import styled from 'styled-components';
 
 const Container = styled.div`
-	display: flex;
+   display: flex;
 `;
 
 const Pane = styled.div`
-	flex: 1;
+   flex: 1;
 `;
 
 export const SplitScreen = ({
-	left: Left,
-	right: Right,
+   left: Left,
+   right: Right,
 }) => {
-	return (
-		<Container>
-			<Pane>
-				<Left />
-			</Pane>
-			<Pane>
-				<Right />
-			</Pane>
-		</Container>
-	);
+   return (
+	<Container>
+  	   <Pane>
+	      <Left />
+	   </Pane>
+	   <Pane>
+	      <Right />
+	   </Pane>
+         </Container>
+      );
 })
 ```
 
