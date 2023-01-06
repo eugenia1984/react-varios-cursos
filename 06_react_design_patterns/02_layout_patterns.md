@@ -163,6 +163,11 @@ export const SplitScreen = ({ children, leftWeight = 1, rightWeight = 1 }) => {
 };
 ```
 
+Si le dejo 1 de prorp al leftWeight y le dejo 3 de prorp al rightWeight voy a tener distribuido asi:
+
+<img width="600" alt="split component improvment" src="https://user-images.githubusercontent.com/72580574/211026455-0753409c-df42-4f6c-ab32-0504cab0a081.png">
+
+
 
 ---
 
