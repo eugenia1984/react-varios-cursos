@@ -34,3 +34,10 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 - React
 
 ---
+
+## Github del curso
+
+[**https://github.com/LinkedInLearning/react-design-patterns-2895130**](https://github.com/LinkedInLearning/react-design-patterns-2895130)
+
+---
+
