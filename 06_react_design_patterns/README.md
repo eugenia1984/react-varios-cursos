@@ -8,7 +8,7 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 
 ## :book: Temas
 
-1. Introduccion
+1. [**Introduccion**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01_introduction.md)
 
 2. Componentes Layouts
 
