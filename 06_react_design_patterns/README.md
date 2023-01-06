@@ -2,6 +2,10 @@
 
 ---
 
+Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
+
+---
+
 ## :book: Temas
 
 1. Introduccion
