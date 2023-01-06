@@ -195,6 +195,19 @@ Para tener los datos de las listas voy a crear las constantes **people** y **pro
 
 ## :star: Creando distintas tipos de listas
 
+Todo el código en [**01-05**](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/01-05)
+
+- Dentro de ```products```, tengo...
+
+... [SmallProductListItem.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-05/products/SmallProductListItem.js), que recibe por **prop** el **product**, y muestra: **name** y **price**.
+
+... [LargeProductListItem.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-05/products/LargeProductListItem.js), que recibe por **prop** el **product**, y muestra: **name** ,**price**, **Description** y **rating**.
+
+
+... [products.js]([)](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-05/products/products.js), con el array de objetos de produtos
+
+... [NumberedList.js](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/01-05/NumberedList.js) envuelve a ```<ItemComponent/>``` con el **index** del **map()**.
+
 ---
 
 ## :star: Componentes modales
