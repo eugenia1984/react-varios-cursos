@@ -14,7 +14,7 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 
 3. [**Componentes Layouts**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/03_container_components.md)
 
-4. Componentes containers
+4. [**Componentes containers**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/04_components_containers.md)
 
 5. Componentes controlados y descontrolados
 
