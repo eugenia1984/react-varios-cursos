@@ -43,5 +43,6 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 
 ## Certificado
 
-[CertificateOfCompletion_React Design Patterns.pdf](https://github.com/eugenia1984/react-varios-cursos/files/10406353/CertificateOfCompletion_React.Design.Patterns.pdf)
+
+<img width="1083" alt="certificate" src="https://user-images.githubusercontent.com/72580574/212189884-ea3b88b8-afdc-47b6-9f33-2259e70e9893.png">
 
