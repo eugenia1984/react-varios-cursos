@@ -20,9 +20,9 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 
 6. [**Componentes de orden superior**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/06.-componentes-de-orden-superior.md)
 
-7. Custom Hooks Patterns
+7. [**Custom Hooks Patterns**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/07-custom-hook-patterns.md)
 
-8. Prograamción Funcional y React
+8. [**Programación Funcional y React**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/08-programacion-funcional-y-react.md)
 
 9. Conclusión
 
