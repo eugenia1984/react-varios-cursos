@@ -20,7 +20,9 @@ Here I will gather the courses made of **React**
 
 - [6- React Design Patterns - - LinkdeIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns): Introduction, Layout Components, Container Components, Controlled and Uncontrolles Components, Hight-Order Components, Custom Hook Patterns, Functional Programming and React, Conclusion.
 
-- [7 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
+- [7 - React : Testing and debugging](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging)
+
+- [8 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
 
 ---
 
@@ -81,7 +83,9 @@ Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 
 - [6- React Design Patterns - - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns): 1. Introduccion, 2. Componentes Layouts, 3. Componentes containers, 4. Componentes controlados y descontrolados, 5. Componentes de orden superior, 6. Custom Hooks Patterns, 7. Prograamción Funcional y React, 8. Conclusión
 
-- [7 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): temas vistos: Introduccion a los elementos de React, Componentes, Los estados en el Componente Arbol, Manejando formularios en React, React Asincronismo, React Router, React Testing and Deployment y en [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada.
+- [7 - React : Testing and debugging](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging)
+
+- [8 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): temas vistos: Introduccion a los elementos de React, Componentes, Los estados en el Componente Arbol, Manejando formularios en React, React Asincronismo, React Router, React Testing and Deployment y en [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada.
 
 ---
 
