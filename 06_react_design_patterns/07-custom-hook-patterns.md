@@ -2,6 +2,6 @@
 
 ---
 
-## 7 = Custom Hooks Patterns
+## 7 - Custom Hooks Patterns
 
 ---
