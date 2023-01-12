@@ -18,7 +18,7 @@ Curso de **LinkedIn Learning** : " React Design Patterns" de **Shaun Wassel**
 
 5. [**Componentes controlados y descontrolados**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/05_componentes_controlados_y_descontrolados.md)
 
-6. Componentes de orden superior
+6. [**Componentes de orden superior**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/06.-componentes-de-orden-superior.md)
 
 7. Custom Hooks Patterns
 
