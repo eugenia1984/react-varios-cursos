@@ -113,7 +113,13 @@ export const ProductInfo = ({ product }) => {
 
 ```
 
-En vez de ahora utilizar la información desde **people.js** tengo el array de object de personas y **products.js** el array de objetos de productos, voy a tomar los datos ahora desde **Server.js**, para **Cargar la data desde el servidor**. Este archivo va a estar en el **root** del proyecto, por **fuera de src**.
+En vez de ahora utilizar la información desde **people.js** tengo el array de object de personas y **products.js** el array de objetos de productos, voy a tomar los datos ahora desde [**Server.js**](https://github.com/eugenia1984/react-varios-cursos/blob/main/06_react_design_patterns/02-02/Server.js), para **Cargar la data desde el servidor**. Este archivo va a estar en el **root** del proyecto, por **fuera de src**.
+
+Y para correr el server: ```node server.js```, simplemente ejecutamos ```server``` y a continuación el nombre del archivo, y asi estará nuestro servidor ya corriendo en el puerto 8080(por como lo configuramos).
+
+Y por consola se va a leer el conole.log ```Server is listening on port 8080```
+
+:computer: -> [todo el curso esta aca en **02-02**](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/02-02)
 
 ---
 
