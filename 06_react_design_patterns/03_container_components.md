@@ -258,6 +258,14 @@ const { name, age, hairColor, hobbies } = user || {};
 
 ## :star: UserLoader component
 
+Todavía hay cosas por mejorar en el CurrentUserLoader...
+
+... está en un modo bastante restrictivo, carga un solo usuario y lo pasa a los children, y ese user se carga desde el server.
+
+Vamos a modificarlo para que en vez de cargar a **currentUser**, sea capaz de cargar a cualquier usuario que quiera por su **id**.
+
+En vez de modificar a **CurrentUserLoader** se crea un nuevo componente ```<UserLoader /> ```
+
 ---
 
 ## :star: ResourceLoader component
