@@ -266,6 +266,94 @@ Vamos a modificarlo para que en vez de cargar a **currentUser**, sea capaz de ca
 
 En vez de modificar a **CurrentUserLoader** se crea un nuevo componente ```<UserLoader /> ```
 
+Se van a traer la data del server desde **`/users/${userId}`** asi se puede filtrar por **id**.
+
+Va a estar recibiendo como **prop** a **userId** que lo voy a usar como el id en la URL param y ademas va a estar en el dependency array, asi cuando cambie el id va a cambiar el usuario a mostrar.
+
+UserLoader.js:
+```JSX
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+
+export const UserLoader = ({ userId, children }) => {
+  const [user, setUser] = useState(null);
+
+  // load the data from the server
+  useEffect(() => {
+    // anonymous asynct function
+    (async () => {
+      // store the data od the current user
+      const response = await axios.get(`/users/${userId}`);
+      setUser(response.data);
+    })();
+  }, [userId]);
+
+  return (
+    <>
+      {React.children.map(children, (child) => {
+        if (React.isValidElement(child)) {
+          // we pass the user state
+          return React.cloneElement(child, { user });
+        }
+
+        // if it´s not valid
+        return child;
+      })}
+    </>
+  );
+};
+```
+
+Lo que hay que hacer ahora es agregar **id** a los **users**(el array de objectos users) y a **currentUser** en el **server.js**.
+
+Lo mismo voy a hacer con el array de objetos productos (**products**).
+
+Y ahora vamso a utilizar a **UserLoader** dentro de **App.js**
+
+```JSX
+import React from "react";
+import { UserLoader } from "./UserLoader";
+import { UserInfo } from "./UserInfo";
+
+function App() {
+  return (
+      <UserLoader userId="234">
+        <UserInfo />
+      </UserLoader>
+  );
+}
+
+export default App;
+```
+
+Hay que reiniciar el servidor y se va a ver el user con id **234**.
+
+Si quiero mostrar más de un user, acorde la id:
+
+```JSX
+import React from "react";
+import { UserLoader } from "./UserLoader";
+import { UserInfo } from "./UserInfo";
+
+function App() {
+  return (
+    <>
+      <UserLoader userId="123">
+        <UserInfo />
+      </UserLoader>
+      <UserLoader userId="234">
+        <UserInfo />
+      </UserLoader>
+      <UserLoader userId="345">
+        <UserInfo />
+      </UserLoader>
+    </>
+  );
+}
+
+export default App;
+```
+
 ---
 
 ## :star: ResourceLoader component
