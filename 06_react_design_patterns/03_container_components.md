@@ -225,6 +225,32 @@ Aunque no vea **props**  el **CurrentUserLoader** le va a pasar al **UserInfo** 
   );
   ```
 
+Y en **UserInfo** tenía que por default se cargaba inicialmente null, entonces agrego un ternario en el return:
+```JSX
+import React from "react";
+
+export const UserInfo = ({ user }) => {
+  const { name, age, hairColor, hobbies } = user || {};
+  return user ? (
+    <>
+      <h3>{name}</h3>
+      <p>Age: {age} years</p>
+      <p>Hair Color: {hairColor}</p>
+      <h3>Hobbies:</h3>
+      <ul>
+        {hobbies.map((hobby) => (
+          <li key={hobby}>{hobby}</li>
+        ))}
+      </ul>
+    </>
+  ): <p>Loading...</p>
+};
+```
+
+Y además agrego un default value (objeto vacio):
+```JSX
+const { name, age, hairColor, hobbies } = user || {};
+```
 
 ---
 
