@@ -379,6 +379,8 @@ function App() {
 export default App;
 ```
 
+:computer: -> [En **02-04** está todo le código](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/02-04)
+
 ---
 
 ## :star: ResourceLoader component
