@@ -125,6 +125,27 @@ Y por consola se va a leer el conole.log ```Server is listening on port 8080```
 
 ## :star: CurrentUserLoader component
 
+Para que el **Front End** se comunique con el **Back End**, en el archivo **package.json** hay que agregar:
+
+```
+{
+  "name": "react-design-patterns
+",
+"version": "0.1.0",
+"proxy": "https://localhost:8080/",
+"dependencies": {
+  }
+}
+```
+
+**"proxy": "https://localhost:8080/"**
+
+Vamos a crear un **Componente Contenedor**(llamado **CurrentUserLoader.js**) que se va a encargar de **cargar la data del user** y la va a psar al  componente **UserInfo**.
+
+**CurrentUserLoader.js** va a recibir como **prop** a **children**. 
+
+Vamos a necesitar usar los **hooks**: **useState** y **useEffect**.
+
 ---
 
 ## :star: UserLoader component
