@@ -252,6 +252,8 @@ Y además agrego un default value (objeto vacio):
 const { name, age, hairColor, hobbies } = user || {};
 ```
 
+:computer: -> [En **02-03** está todo el código completo](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/02-03)
+
 ---
 
 ## :star: UserLoader component
