@@ -385,6 +385,93 @@ export default App;
 
 ## :star: ResourceLoader component
 
+Ahora en vez de tener un componente contenedor que cargue un tipo específico de recurso (el **user**, tendria que tener otro para que cargue a **products**), vamos a tener una genérico, para poder cargar cualquier recurso, para lo que vamos a crear un nuevo componente llamado ```<ResourceLoader />```
+
+- En vez de tener **useId** vamos a tener dos props:
+
+... una será la **URL**(**resourceURL**), de donde obtendremos la data dle servidor.
+
+...la otra será  **resourceName**, algo similar a lo visto anteriormente en el curso cuando se crea el listado de distintos componentes.
+
+- Hay que cambiar el nombre del estado de **user** para que sea más genérico, se va a lalmar **state**.
+
+- En vez de tener la URL harcodeada en el get al axios:
+```JSX
+useEffect(() => {
+  (async () => {
+    const response = await axios.get(resourceURL);
+    setState(response.data);
+  })();
+}, [resourceURL]);
+```
+
+- Modificamos dentro del map en vez de pasar **user** como props, se va a pasar una prop con el nombre que iguale al **resourceName** y el valor actual del **state**:
+```JSX
+return (
+  <>
+    {React.children.map(children, (child) => {
+      if (React.isValidElement(child)) {
+        // we pass the user state
+        return React.cloneElement(child, { [resourceName]: state });
+      }
+
+      // if it´s not valid
+      return child;
+    })}
+  </>
+);
+```
+  
+- En **App.js**:
+```JSX
+import React from "react";
+import { UserInfo } from "./UserInfo";
+import { ResourceLoader } from "./ResourceLoader";
+
+const userIds = ["123", "234", "345"];
+
+function App() {
+  return (
+    <>
+      <ResourceLoader resourceURL="/users/123" resourceName="user">
+        <UserInfo />
+      </ResourceLoader>
+    </>
+  );
+}
+
+export default App;
+```
+
+Y si quiero mostrar un user y un product:
+
+```JSX
+import React from "react";
+import { UserInfo } from "./UserInfo";
+import { ProductInfo } from "./ProductInfo";
+import { ResourceLoader } from "./ResourceLoader";
+
+const userIds = ["123", "234", "345"];
+
+function App() {
+  return (
+    <>
+      <ResourceLoader resourceURL="/users/123" resourceName="user">
+        <UserInfo />
+      </ResourceLoader>
+      <ResourceLoader resourceURL="/products/1234" resourceName="product">
+        <ProductInfo />
+      </ResourceLoader>
+    </>
+  );
+}
+
+export default App;
+```
+
+-> Y va a faltar hacer los cambios en **ProductInfo** para que sea con un renderizado flexible, como hicimos en **UserInfo**.
+
+
 ---
 
 ## :star: DataSource component
