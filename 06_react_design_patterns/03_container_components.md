@@ -308,7 +308,7 @@ Lo que hay que hacer ahora es agregar **id** a los **users**(el array de objecto
 
 Lo mismo voy a hacer con el array de objetos productos (**products**).
 
-Y ahora vamso a utilizar a **UserLoader** dentro de **App.js**
+Y ahora vamos a utilizar a **UserLoader** dentro de **App.js**
 
 ```JSX
 import React from "react";
@@ -348,6 +348,31 @@ function App() {
         <UserInfo />
       </UserLoader>
     </>
+  );
+}
+
+export default App;
+```
+
+
+También puedo hacer que el id se vargue dinámicamente, mapeando un array de ids, asi tengo un solo ```<UserLoader>``` y no tres.
+
+```JSX
+import React from "react";
+
+import { UserLoader } from "./UserLoader";
+import { UserInfo } from "./UserInfo";
+
+const userIds = ["123", "234", "345"];
+
+function App() {
+  return (
+    <UserLoader userId="123">
+      {userId.map((user) => (
+        <UserInfo userId={user} />
+      ))}
+      <UserInfo />
+    </UserLoader>
   );
 }
 
