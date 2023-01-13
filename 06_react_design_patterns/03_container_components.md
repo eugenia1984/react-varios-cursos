@@ -471,6 +471,9 @@ export default App;
 
 -> Y va a faltar hacer los cambios en **ProductInfo** para que sea con un renderizado flexible, como hicimos en **UserInfo**.
 
+## De este modo se evita tener el useEffect muy similar repetido en muchos lados, en cambio utilizamos uno solo que recibe por parametros los datos y se puede reutilizar
+
+:computer: -> [En **02-05** esta todo el codigo](https://github.com/eugenia1984/react-varios-cursos/tree/main/06_react_design_patterns/02-05)
 
 ---
 
