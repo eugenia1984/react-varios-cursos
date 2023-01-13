@@ -146,6 +146,86 @@ Vamos a crear un **Componente Contenedor**(llamado **CurrentUserLoader.js**) que
 
 Vamos a necesitar usar los **hooks**: **useState** y **useEffect**.
 
+-> Para en el **useEffect** traer la información desde el **server** voy a utilizar **AXIOS**, por lo que lo instalo por consola: ```npm install axios```
+
+**CurrentUserLoader.js**:
+```JSX
+"react";
+import axios from "axios";
+
+export const CurrentUserLoader = ({ children }) => {
+  const [user, setUser] = useState(null);
+
+  // load the data from the server
+  useEffect(() => {
+    // anonymous asynct function
+    (async () => {
+      // store the data od the current user
+      const response = await axios.get("/current-user");
+      const currentUser = response.data;
+      setUser(currentUser);
+    })();
+  }, []);
+};
+```
+
+Ahora falta pasar el estado actual hacia los childrens.
+
+Modifico **App.js**:
+```JSX
+import React from "react";
+import {CurrentUserLoader} from "./CurrentUserLoader";
+import {UserInfo} from "./UserInfo";
+
+function App() {
+  return (
+    <CurrentUserLoader>
+      <UserInfo />
+    </CurrentUserLoader>
+  );
+}
+
+export default App;
+```
+
+Al tener:
+```
+<CurrentUserLoader>
+  <UserInfo />
+</CurrentUserLoader>
+```
+Aunque no vea **props**  el **CurrentUserLoader** le va a pasar al **UserInfo** la data, solo por sel **children**, y ¿ cómo hacemos esto? 
+
+-> Volviendo al **useEffect** del **CurrentUserLoader**
+
+```JSX
+// load the data from the server
+  useEffect(() => {
+    // anonymous asynct function
+    (async () => {
+      // store the data od the current user
+      const response = await axios.get("/current-user");
+      const currentUser = response.data;
+      setUser(currentUser);
+    })();
+  }, []);
+
+  return (
+    <>
+      {React.children.map(children, (child) => {
+        if (React.isValidElement(child)) {
+          // we pass the user state
+          return React.cloneElement(child, { user });
+        }
+
+        // if it´s not valid
+        return child;
+      })}
+    </>
+  );
+  ```
+
+
 ---
 
 ## :star: UserLoader component
