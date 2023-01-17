@@ -39,7 +39,7 @@ Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, 
 
 ### :book: Temas
 
-- 1 -Setting up
+- [**1 -Setting up**](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging/01_setting-up)
 
 - 2 - Testing with Jest
 
