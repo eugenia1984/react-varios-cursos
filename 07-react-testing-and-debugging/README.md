@@ -48,3 +48,10 @@ Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, 
 - 4 - ESLint and Types
 
 ---
+
+
+## Archivos de practica
+
+En la carpeta [**resources**](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging/resources) estan los archivos base para las practicas del curso.
+
+---
