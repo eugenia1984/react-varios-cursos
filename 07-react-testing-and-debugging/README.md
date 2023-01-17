@@ -13,21 +13,21 @@ Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, 
 
 ---
 
-### Objetivos de aprendizaje
+### <img src="https://img.icons8.com/emoji/48/null/bullseye.png"/> Objetivos de aprendizaje
 
-- Configuración para pruebas y depuración de React
+- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Configuración para pruebas y depuración de React
 
-- Prueba con Jest Snapshot 
+- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Prueba con Jest Snapshot 
 
-- Depuración con Chrome y extensiones de Chorme
+- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Depuración con Chrome y extensiones de Chorme
 
-- Optimización del código React con ESLint
+- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Optimización del código React con ESLint
 
-- Comprobación de tipos.
+- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Comprobación de tipos.
 
 ---
 
-### ¿ Que conocimientos tengo que tener para el curso?
+### <img src="https://img.icons8.com/color/48/null/open-book--v1.png"/> ¿ Que conocimientos tengo que tener para el curso?
 
 - Experiencia en React con: componentes, props, modulos.
 
@@ -39,12 +39,12 @@ Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, 
 
 ### :book: Temas
 
-- Setting up
+- 1 -Setting up
 
-- Testing with Jest
+- 2 - Testing with Jest
 
-- DEbugging with Chrome and Extensions
+- 3 - Debugging with Chrome and Extensions
 
-- ESLint and Types
+- 4 - ESLint and Types
 
 ---
