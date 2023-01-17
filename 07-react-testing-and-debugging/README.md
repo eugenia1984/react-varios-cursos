@@ -1,4 +1,4 @@
-# :star2: React : Testing and debigging (LinkedIn Learning)
+# :star2: React : Testing and debugging (LinkedIn Learning)
 
 ---
 
