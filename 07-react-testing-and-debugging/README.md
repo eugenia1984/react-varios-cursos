@@ -8,7 +8,7 @@ Rastrear errores en React ouede ser un desafío. Si bien las herramientas básic
 
 Este curso cubre esas herramientas, así como consejos y técnicas para ayudar a encontrar, diagnosticar y solucionar problemas en las aplicaciones.
 
-Mirando el curso, se aprende cómo probar el código de **react** con **Jest**, depurar con Chrome, verificar el tipo con flujo y optimizar el cósigo con **ESLint**.
+Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, depurar con Chrome, verificar el tipo con flujo y optimizar el cósigo con **ESLint**.
 
 
 ---
