@@ -52,6 +52,16 @@ Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, 
 
 ## Archivos de practica
 
-En la carpeta [**resources**](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging/resources) estan los archivos base para las practicas del curso.
+En la carpeta [**resources**](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging/resources) estan los archivos base para las practicas del curso, una aplicación creada con **Create-react-app**
+
+Se ve en Desktop:
+
+![image](https://user-images.githubusercontent.com/72580574/213008767-aba55428-1c45-4a4e-b641-52d7fa3d1488.png)
+
+Se ve en Mobile:
+
+![image](https://user-images.githubusercontent.com/72580574/213008924-cedc7828-2498-43ce-8093-ca46b61c4b4c.png)
+
+
 
 ---
