@@ -26,3 +26,25 @@ Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, 
 - Comprobación de tipos.
 
 ---
+
+### ¿ Que conocimientos tengo que tener para el curso?
+
+- Experiencia en React con: componentes, props, modulos.
+
+- Experiencia con JavaSCript
+
+- Estar familiarizado con los comandos de la terminal (con npm)
+
+---
+
+### :book: Temas
+
+- Setting up
+
+- Testing with Jest
+
+- DEbugging with Chrome and Extensions
+
+- ESLint and Types
+
+---
