@@ -15,15 +15,15 @@ Mirando el curso, se aprende cómo probar el código de **React** con **Jest**, 
 
 ### <img src="https://img.icons8.com/emoji/48/null/bullseye.png"/> Objetivos de aprendizaje
 
-- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Configuración para pruebas y depuración de React
+<img src="https://img.icons8.com/emoji/20/null/bullseye.png"/> Configuración para pruebas y depuración de React
 
-- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Prueba con Jest Snapshot 
+<img src="https://img.icons8.com/emoji/20/null/bullseye.png"/> Prueba con Jest Snapshot 
 
-- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Depuración con Chrome y extensiones de Chorme
+<img src="https://img.icons8.com/emoji/20/null/bullseye.png"/> Depuración con Chrome y extensiones de Chorme
 
-- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Optimización del código React con ESLint
+<img src="https://img.icons8.com/emoji/20/null/bullseye.png"/> Optimización del código React con ESLint
 
-- <img src="https://img.icons8.com/emoji/28/null/bullseye.png"/> Comprobación de tipos.
+<img src="https://img.icons8.com/emoji/20/null/bullseye.png"/> Comprobación de tipos.
 
 ---
 
