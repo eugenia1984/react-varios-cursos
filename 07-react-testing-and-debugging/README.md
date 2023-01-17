@@ -2,4 +2,4 @@
 
 ---
 
-Curso de LinkedIn Learning **React : Testing and debigging**
+Curso de LinkedIn Learning **React : Testing and debugging**
