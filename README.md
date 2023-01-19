@@ -22,7 +22,9 @@ Here I will gather the courses made of **React**
 
 - [7 - React : Testing and debugging](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging)
 
-- [8 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
+- [ 8 - ESLint: Integrating with your workflow - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/08-eslint-integrating-with-your-workflow)
+
+- [9 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
 
 ---
 
@@ -85,7 +87,10 @@ Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 
 - [7 - React : Testing and debugging](https://github.com/eugenia1984/react-varios-cursos/tree/main/07-react-testing-and-debugging)
 
-- [8 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): temas vistos: Introduccion a los elementos de React, Componentes, Los estados en el Componente Arbol, Manejando formularios en React, React Asincronismo, React Router, React Testing and Deployment y en [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada.
+- [ 8 - ESLint: Integrating with your workflow - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/08-eslint-integrating-with-your-workflow)
+
+
+- [9 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): temas vistos: Introduccion a los elementos de React, Componentes, Los estados en el Componente Arbol, Manejando formularios en React, React Asincronismo, React Router, React Testing and Deployment y en [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada.
 
 ---
 
