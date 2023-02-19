@@ -1,4 +1,4 @@
-# :star: Codo a Coco :star: React (FEb2023 - Jul 2023)
+# :star: Codo a Coco :star: React (Feb2023 - Jul 2023)
 
 ---
 
