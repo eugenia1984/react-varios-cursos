@@ -2,7 +2,7 @@
 
 ---
 
-##:book: Clases
+## :book: Clases
 
 - Clase 1
 
