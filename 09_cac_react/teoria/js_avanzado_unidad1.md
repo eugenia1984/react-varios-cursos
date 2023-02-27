@@ -71,45 +71,46 @@ Estos elementos meta se encontrarán en el `<head>` del código de la web.
   
   ### <img src="https://img.icons8.com/office/40/null/console.png"/> ¿Qué son los lenguajes de scripting?
 
-Los lenguajes de scripting son una popular familia de lenguajes de programación que se pueden utilizar para satisfacer rápidamente las exigencias más comunes. Los lenguajes de scripting antiguos se utilizaban más bien para aplicaciones muy concretas o como lenguajes pegamento, es decir, para pegar sistemas ya existentes. Con la aparición de la World Wide Web, se establecieron una serie de lenguajes de scripting para la utilización en servidores web. Puesto que los lenguajes de scripting simplifican el procesamiento de texto, son perfectos para la creación dinámica de páginas HTML.
+Los lenguajes de scripting son una popular familia de lenguajes de programación que se pueden utilizar para satisfacer rápidamente las exigencias más comunes. Los lenguajes de scripting antiguos se utilizaban más bien para aplicaciones muy concretas o como lenguajes pegamento, es decir, para pegar sistemas ya existentes. Con la aparición de la World Wide Web, se establecieron una serie de **lenguajes de scripting para la utilización en servidores web**. Puesto que los lenguajes de scripting **simplifican el procesamiento de texto**, son perfectos para la creación dinámica de páginas HTML.
 
-Hoy en día, los lenguajes de scripting suponen un tercio de los lenguajes de programación más utilizados en todo el mundo. JavaScript es prácticamente el único lenguaje de scripting que se ejecuta en el navegador en el lado del cliente, pero también los lenguajes del lado del servidor PHP, Python, Ruby y Perl son lenguajes de scripting.
+Hoy en día, los lenguajes de scripting suponen **un tercio de los lenguajes de programación más utilizados en todo el mundo**. **JavaScript** es prácticamente el único lenguaje de scripting que **se ejecuta en el navegador en el lado del cliente**, pero también los lenguajes del lado del servidor PHP, Python, Ruby y Perl son lenguajes de scripting.
 
-`<script>`: define tanto un script interno como un enlace hacia un script externo. El lenguaje de programación es JavaScript
+- `<script>`: define tanto un script interno como un enlace hacia un script externo. El lenguaje de programación es JavaScript
   
-## CSS
+  
+## <img src="https://img.icons8.com/stickers/60/null/css3.png"/> CSS
 
-CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.
+CSS son las siglas en inglés para **«hojas de estilo en cascada»** (**Cascading Style Sheets**). Básicamente, es un lenguaje que** maneja el diseño y presentación de las páginas web**, es decir, **cómo lucen** cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.
 
-Se les denomina hojas de estilo «en cascada» porque puedes tener varias hojas y una de ellas con las propiedades heredadas (o «en cascada») de otras.
+Se les denomina hojas de estilo «en cascada» porque **puedes tener varias hojas y una de ellas con las propiedades heredadas (o «en cascada») de otras**.
 
 Para muchas personas una simple plantilla de blog es suficiente. Sin embargo, cuando quieras personalizar la apariencia de un sitio necesitarás implementar CSS que, en conjunto con un buen CMS, te ayudará a potenciar el alcance de tu contenido.
 
-#### ¿Para qué sirve CSS?
+#### <img src="https://img.icons8.com/nolan/40/css-filetype.png"/> ¿Para qué sirve CSS?
 
-Con CSS puedes crear reglas para decirle a tu sitio web cómo quieres mostrar la información y puedes guardar los comandos para elementos de estilo (como fuentes, colores, tamaños, etc.) separados de los que configuran el contenido.
+Con CSS **puedes crear reglas para decirle a tu sitio web cómo quieres mostrar la información** y puedes **guardar los comandos para elementos de estilo** (como fuentes, colores, tamaños, etc.) **separados de los que configuran el contenido**.
 
 A través de esta herramienta puedes crear formatos específicos útiles para comunicar tus ideas y crear experiencias agradables para los usuarios del sitio web.
 
-#### Diferencia entre HTML y CSS
+#### <img src="https://img.icons8.com/nolan/40/html-filetype.png"/> <img src="https://img.icons8.com/nolan/40/css-filetype.png"/> Diferencia entre HTML y CSS
 
-HTML es un lenguaje de programación utilizado para dar estructura al contenido de un sitio web. Sus siglas en inglés significan «lenguaje de marcas de hipertexto» (HyperText Markup Language), y hacen referencia al código que define el significado de las instrucciones dadas a una plataforma computacional.
+**HTML** es un **lenguaje de marcado(no programación) utilizado para dar estructura al contenido de un sitio web**. Sus siglas en inglés significan **«lenguaje de marcas de hipertexto»** (**HyperText Markup Language**), y hacen referencia al **código que define el significado de las instrucciones dadas a una plataforma computacional**.
 
-Estas instrucciones representan todos los enlaces (o hipertextos) que vinculan los contenidos de un sitio, por lo que HTML es la base de cualquier página web. En este lenguaje es posible incluir toda la información referente al contenido un sitio, así como las imágenes, audios y estilos del mismo; sin embargo, su uso para estas tareas conlleva una mayor complejidad en el código fuente.
+Estas instrucciones representan todos los **enlaces** (o **hipertextos**) que vinculan los contenidos de un sitio, por lo que HTML es la base de cualquier página web. En este lenguaje es posible incluir toda la información referente al contenido un sitio, así como las imágenes, audios y estilos del mismo; sin embargo, su uso para estas tareas conlleva una mayor complejidad en el código fuente.
 
-Para hacer más eficiente el uso de HTML, se han diseñado otros lenguajes computacionales para facilitar la gestión de los datos relacionados con el diseño visual de las plataformas. CSS es uno de los lenguajes más importantes utilizados para ordenar las instrucciones referentes a la apariencia de un sitio y presentar los contenidos de una página de forma atractiva.
+Para hacer más eficiente el uso de HTML, se han diseñado otros lenguajes computacionales para facilitar la gestión de los datos **relacionados con el diseño visual de las plataformas**. **CSS** es uno de los lenguajes más importantes utilizados para ordenar las instrucciones referentes a la **apariencia de un sitio** y presentar los contenidos de una página de forma atractiva.
 
-De este modo, HTML se emplea para estructurar el contenido de un sitio, mientras que CSS se usa para estructurar su presentación.
+De este modo, **HTML** se emplea para **estructurar el contenido de un sitio**, mientras que **CSS** se usa para **estructurar su presentación**.
 
-#### DOM
+#### <img src="https://img.icons8.com/doodle/40/null/large-tree.png"/> DOM
 
-DOM es una abreviatura de Document Object Model. En español podríamos traducirlo por Modelo de Objeto de Documento, aunque en a veces nos hemos referido al DOM habitualmente con el nombre de jerarquía de objetos del navegador, porque realmente es una estructura jerárquica donde existen varios objetos y unos dependen de otros.
+**DOM** es una abreviatura de **Document Object Model**. En español podríamos traducirlo por **Modelo de Objeto de Documento**, aunque en a veces nos hemos referido al DOM habitualmente con el nombre de **jerarquía de objetos del navegador**, porque realmente es una estructura jerárquica donde existen varios objetos y unos dependen de otros.
 
-Los objetos del DOM modelizan tanto la ventana del navegador como el historial, el documento o página web, y todos los elementos que pueda tener dentro la propia página, como párrafos, divisiones, tablas, formularios y sus campos, etc. A través del DOM se puede acceder, por medio de Javascript, a cualquiera de estos elementos, es decir a sus correspondientes objetos para alterar sus propiedades o invocar a sus métodos. Con todo, a través del DOM, queda disponible para los programadores de Javascript, cualquier elemento de la página, para modificarlos, suprimirlos, crear nuevos elementos y colocarlos en la página, etc.
+Los objetos del DOM modelizan tanto la **ventana del navegador** como el **historial**, el documento o página web, y **todos los elementos que pueda tener dentro la propia página**, como párrafos, divisiones, tablas, formularios y sus campos, etc. A través del DOM **se puede acceder, por medio de Javascript, a cualquiera de estos elementos, es decir a sus correspondientes objetos para alterar sus propiedades o invocar a sus métodos**. Con todo, a través del DOM, queda disponible para los programadores de Javascript, cualquier elemento de la página, para modificarlos, suprimirlos, crear nuevos elementos y colocarlos en la página, etc.
 
-El DOM está definido y administrado por el W3C, por lo que los distintos navegadores simplemente aplican las especificaciones del World Wide Web Consortium, para dar soporte al DOM en sus aplicaciones. El DOM no sólo permite modificar páginas web en HTML, sino también documentos XML.
+El DOM está definido y administrado por el **W3C**, por lo que los distintos navegadores simplemente aplican las especificaciones del **World Wide Web Consortium**, para dar soporte al DOM en sus aplicaciones. **El DOM no sólo permite modificar páginas web en HTML, sino también documentos XML**.
 
-A lo largo de la historia de los navegadores, se han ido aplicando en mayor o menor manera las características del DOM. A medida que se sucedían versiones de los navegadores también se iba dando un mayor soporte a las especificaciones del DOM, en lo que se han llamado los niveles del DOM. El primero que empezó a disponibilizar por medio de objetos los componentes de la página fue Netscape 2.0, que incorporaba lo que se llama el DOM nivel 0. Actualmente, la última especificación publicada es DOM nivel 4.
+A lo largo de la historia de los navegadores, se han ido aplicando en mayor o menor manera las características del DOM. A medida que se sucedían versiones de los navegadores también se iba dando un mayor soporte a las especificaciones del DOM, en lo que se han llamado los niveles del DOM. El primero que empezó a disponibilizar por medio de objetos los componentes de la página fue **Netscape 2.0**, que incorporaba lo que se llama el DOM nivel 0. Actualmente, la última especificación publicada es **DOM nivel 4**.
 
 Es importante destacar ahora que, dado que los niveles del DOM cambian de versión a versión del navegador y que las especificaciones se han entendido de manera distinta por las distintas organizaciones creadoras de los navegadores, se ha producido un marco donde trabajar con los objetos de la página difiere de un navegador a otro.
 
@@ -120,23 +121,23 @@ Es importante destacar ahora que, dado que los niveles del DOM cambian de versi�
 
 ## :star: 2 - Funcionamiento REACT
 
-### ¿Cómo llega React a la performance que tanta fama le trae?
+### <img src="https://img.icons8.com/officel/40/null/react.png"/>  ¿Cómo llega React a la performance que tanta fama le trae?
 
-React.js está construido en torno a hacer funciones, que toman las actualizaciones de estado de la página y que se traduzcan en una representación virtual de la página resultante. Siempre que React es informado de un cambio de estado, vuelve a ejecutar esas funciones para determinar una nueva representación virtual de la página, a continuación, se traduce automáticamente ese resultado en los cambios del DOM necesarios para reflejar la nueva presentación de la página.
+React.js está construido en torno a **hacer funciones, que toman las actualizaciones de estado de la página y que se traduzcan en una representación virtual de la página resultante**. Siempre que React **es informado de un cambio de estado**, **vuelve a ejecutar esas funciones para determinar una nueva representación virtual de la página, a continuación, se traduce automáticamente ese resultado en los cambios del DOM necesarios para reflejar la nueva presentación de la página**.
 
-A primera vista, esto suena como que fuera más lento que el enfoque JavaScript habitual de actualización de cada elemento, según sea necesario. Detrás de escena, sin embargo, React.js hace justamente eso: tiene un algoritmo muy eficiente para determinar las diferencias entre la representación virtual de la página actual y la nueva. A partir de esas diferencias, hace el conjunto mínimo de cambios necesarios en el DOM.
+A primera vista, esto suena como que fuera más lento que el enfoque JavaScript habitual de actualización de cada elemento, según sea necesario. Detrás de escena, sin embargo, React.js hace justamente eso: **tiene un algoritmo muy eficiente para determinar las diferencias entre la representación virtual de la página actual y la nueva**. A partir de esas diferencias, **hace el conjunto mínimo de cambios necesarios en el DOM**.
 
-Pues utiliza un concepto llamado el DOM virtual que hace selectivamente sub-árboles de los nodos sobre la base de cambios de estado, desarrollando esto, con la menor cantidad de manipulación DOM posible, con el fin de mantener los componentes actualizados, estructurando sus datos.
+Pues utiliza un concepto llamado el **DOM virtual** que hace selectivamente sub-árboles de los nodos sobre la base de cambios de estado, desarrollando esto, con la menor cantidad de manipulación DOM posible, con el fin de mantener los componentes actualizados, estructurando sus datos.
 
-### ¿Cómo funciona el DOM virtual?
+### <img src="https://img.icons8.com/officel/40/null/react.png"/> ¿Cómo funciona el DOM virtual?
 
 Imagina que tienes un objeto que es un modelo en torno a una persona. Tienes todas las propiedades relevantes de una persona que podría tener, y refleja el estado actual de la persona. Esto es básicamente lo que React hace con el DOM.
 
 Ahora piensa, si tomamos ese objeto y le hacemos algunos cambios. Se ha añadido un bigote, unos bíceps y otros cambios. En React, cuando aplicamos estos cambios, dos cosas ocurren:
 
-– En primer lugar, React ejecuta un algoritmo de “diffing”, que identifica lo que ha cambiado.
+– En primer lugar, React ejecuta un algoritmo de **“diffing”**, que identifica lo que ha cambiado.
 
-– El segundo paso es la reconciliación, donde se actualiza el DOM con los resultados de diff.
+– El segundo paso es la **reconciliació**n, donde se actualiza el DOM con los resultados de diff.
 
 La que hace React, ante estos cambios, en lugar de tomar a la persona real y reconstruirla desde cero, sólo cambiaría la cara y los brazos. Esto significa que si usted tenía el texto en una entrada y una actualización se llevó a cabo, siempre y cuando nodo padre de la entrada no estaba programado para la actualización, el texto se quedaría sin ser cambiado.
 
@@ -147,23 +148,25 @@ La que hace React, ante estos cambios, en lugar de tomar a la persona real y rec
 
 ## :star: 3 -  Node
 
-Node.js, es un entorno en tiempo de ejecución multiplataforma para la capa del servidor (en el lado del servidor) basado en JavaScript.
+<img src="https://img.icons8.com/color/100/null/nodejs.png"/> 
 
-Node.js es un entorno controlado por eventos diseñado para crear aplicaciones escalables, permitiéndote establecer y gestionar múltiples conexiones al mismo tiempo. Gracias a esta característica, no tienes que preocuparte con el bloqueo de procesos, debido a que no hay bloqueos.
+Node.js, es **un entorno en tiempo de ejecución multiplataforma para la capa del servidor (en el lado del servidor) basado en JavaScript**.
 
-### Características principales de Node.js
+Node.js es **un entorno controlado por eventos diseñado para crear aplicaciones escalables, permitiéndote establecer y gestionar múltiples conexiones al mismo tiempo**. Gracias a esta característica, no tienes que preocuparte con el bloqueo de procesos, debido a que **no hay bloqueos**.
+
+### <img src="https://img.icons8.com/color/40/null/nodejs.png"/>  Características principales de Node.js
 
 Node.js se ha hecho popular en los últimos años gracias a las siguientes características:
 
-- **Velocidad**: Node.js está construido sobre el motor de JavaScript V8 de Google Chrome, por eso su biblioteca es muy rápida en la ejecución de código.
+- **Velocidad**: Node.js está construido sobre el** motor de JavaScript V8 de Google Chrome**, por eso su biblioteca es muy rápida en la ejecución de código.
 
-- **Sin búfer**: Las aplicaciones de Node.js generan los datos en trozos (chunks), nunca los almacenan en búfer.
+- **Sin búfer**: Las aplicaciones de Node.js generan los datos en trozos (**chunks**), nunca los almacenan en búfer.
 
-- **Asíncrono y controlado por eventos**: Como hemos dicho anteriormente, las APIs de la biblioteca de Node.js son asíncronas, sin bloqueo. Un servidor basado en Node.js no espera que una API devuelva datos. El servidor pasa a la siguiente API después de llamarla, y un mecanismo de notificación de eventos ayuda al servidor a obtener una respuesta de la llamada a la API anterior.
+- **Asíncrono y controlado por eventos**: Como hemos dicho anteriormente, las APIs de la biblioteca de Node.js son asíncronas, **sin bloqueo**. Un servidor basado en Node.js no espera que una API devuelva datos. El servidor pasa a la siguiente API después de llamarla, y un **mecanismo de notificación de eventos** ayuda al servidor a obtener una respuesta de la llamada a la API anterior. -> El ejemplo de JonMircha del mozo, el **Event loop**
 
-### Arquitectura de Node.js y su funcionamiento
+### <img src="https://img.icons8.com/color/40/null/nodejs.png"/>  Arquitectura de Node.js y su funcionamiento
 
-Node.js utiliza la arquitectura «Single Threaded Event Loop» para manejar múltiples clientes al mismo tiempo. Para entender en qué se diferencia de otros tiempos de ejecución, tenemos que entender cómo se manejan los clientes concurrentes multihilo en lenguajes como Java.
+Node.js utiliza la **arquitectura «Single Threaded Event Loop»** para **manejar múltiples clientes al mismo tiempo**. Para entender en qué se diferencia de otros tiempos de ejecución, tenemos que entender cómo se manejan los clientes concurrentes multihilo en lenguajes como Java.
 
 En un modelo de solicitud-respuesta multihilo, varios clientes envían una solicitud y el servidor procesa cada una de ellas antes de devolver la respuesta. Sin embargo, se utilizan múltiples hilos para procesar las llamadas concurrentes. Estos hilos se definen en un pool de hilos, y cada vez que llega una petición, se asigna un hilo individual para manejarla.
 
@@ -171,11 +174,11 @@ En un modelo de solicitud-respuesta multihilo, varios clientes envían una solic
 ![image](https://user-images.githubusercontent.com/72580574/221642021-f658e4ec-e5c6-4719-9a42-25c2c74b6d6e.png)
 
 
-###  ¿Es Node.js un lenguaje de programación?
+### <img src="https://img.icons8.com/color/40/null/nodejs.png"/>   ¿Es Node.js un lenguaje de programación?
 
-Node.js no es un lenguaje de programación. Más bien, es un entorno de ejecución que se utiliza para ejecutar JavaScript fuera del navegador.
+**Node.js no es un lenguaje de programación. Más bien, es un entorno de ejecución que se utiliza para ejecutar JavaScript fuera del navegador**.
 
-Node.js tampoco es un framework (una plataforma para desarrollar aplicaciones de software). El tiempo de ejecución de Node.js se construye sobre un lenguaje de programación -en este caso, JavaScript- y ayuda a la ejecución de los propios frameworks.
+Node.js **tampoco es un framework** (una plataforma para desarrollar aplicaciones de software). El tiempo de ejecución de Node.js se construye sobre un lenguaje de programación -en este caso, JavaScript- y ayuda a la ejecución de los propios frameworks.
 
 **En resumen, Node.js no es un lenguaje de programación ni un marco de trabajo; es un entorno para ellos.**
 
@@ -184,27 +187,39 @@ Node.js tampoco es un framework (una plataforma para desarrollar aplicaciones de
 
 ## :star: 4 -  VSC
 
-Visual Studio Code. Es un editor de código fuente desarrollado por Microsoft para Windows , Linux y macOS . Incluye soporte para depuración , control de Git integrado, resaltado de sintaxis , finalización de código inteligente , fragmentos de código y refactorización de código . También es personalizable, de modo que los usuarios pueden cambiar el tema del editor, los métodos abreviados de teclado y las preferencias. Es gratuito y de código abierto.
+<img src="https://img.icons8.com/color/100/null/visual-studio-code-2019.png"/> 
 
-Visual Studio Code fue anunciado el 29 de abril de 2015 por Microsoft en la conferencia Build de 2015. Una versión preliminar fue lanzada poco después. El 18 de noviembre de 2015, Visual Studio Code fue lanzado bajo la licencia MIT y su código fuente fue publicado en GitHub . También se anunció el soporte de extensión. El 14 de abril de 2016, Visual Studio Code graduó la etapa de vista previa pública y se lanzó a la web.
+**Visual Studio Code** :
 
-El código combina la interfaz de usuario optimizada de un editor moderno con asistencia y navegación de código enriquecido y una experiencia de depuración integrada, sin la necesidad de un IDE completo. Visual Studio Code, cuenta con herramientas de Debug hasta opciones para actualización en tiempo real de nuestro código en la vista del navegador y compilación en vivo de los lenguajes que lo requieran (por ejemplo en el caso de SASS a CSS). Además de las extensiones, tendremos la posibilidad de optar por otros themes o bien configurarlo a nuestro gusto. Para modificar el esquema de colores y los iconos
+- Es un **editor de código fuente** desarrollado por **Microsoft** para **Windows**, **Linux** y **macOS**(multiplataforma). 
 
-Se puede utilizar como lenguajes de programación.
+- Incluye soporte para **depuración**, **control de Git integrado**, **resaltado de sintaxis**, **finalización de código inteligente**, **fragmentos de código** y **refactorización de código**. 
+
+- Es **personalizable**, de modo que los usuarios pueden cambiar el tema del editor, los métodos abreviados de teclado y las preferencias. 
+
+- Es **gratuito** y **de código abierto**.
+
+Visual Studio Code fue anunciado el **29 de abril de 2015** por Microsoft en la conferencia Build de 2015. Una versión preliminar fue lanzada poco después. El 18 de noviembre de 2015, Visual Studio Code fue lanzado bajo la licencia MIT y su código fuente fue publicado en GitHub . También se anunció el soporte de extensión. El 14 de abril de 2016, Visual Studio Code graduó la etapa de vista previa pública y se lanzó a la web.
+
+**El código combina la interfaz de usuario optimizada de un editor moderno con asistencia y navegación de código enriquecido y una experiencia de depuración integrada, sin la necesidad de un IDE completo**. Visual Studio Code, cuenta con **herramientas de Debug** hasta opciones para actualización en tiempo real de nuestro código en la vista del navegador y **compilación en vivo de los lenguajes que lo requieran** (por ejemplo en el caso de SASS a CSS). Además de las extensiones, tendremos la posibilidad de optar por otros themes o bien configurarlo a nuestro gusto. Para modificar el esquema de colores y los iconos
+
+#### Se puede utilizar como lenguajes de programación.
 
 Visual Studio Code es una herramienta que tiene soporte nativo para gran variedad de lenguajes, entre ellos podemos destacar los principales del desarrollo Web: HTML, CSS, y JavaScript, entre otros.
 
-Posibilidad de configurar la interfaz a nuestro gusto. De esta forma, podremos tener más de un código visible al mismo tiempo, las carpetas de nuestro proyecto y también acceso a la terminal o un detalle de problemas, entre otras posibilidades.
+- **Posibilidad de configurar la interfaz a nuestro gusto**: De esta forma, podremos tener más de un código visible al mismo tiempo, las carpetas de nuestro proyecto y también acceso a la terminal o un detalle de problemas, entre otras posibilidades.
 
-Existencia de una amplísima gama de temas o estilos visuales para Visual Studio Code, que hacen el trabajo con el software más agradable a la vista.
+- Existencia de una **amplísima gama de temas o estilos visuales** para Visual Studio Code, que hacen el trabajo con el software más agradable a la vista.
 
-Goza de un soporte técnico formidable pues debido a su frecuente uso por la comunidad de desarrolladores, se puede encontrar fácilmente documentación y ayuda en foros y sitios relacionados.
+- Goza de un **soporte técnico** formidable pues debido a su frecuente uso por la comunidad de desarrolladores, se puede encontrar fácilmente documentación y ayuda en foros y sitios relacionados.
 
 
 
 ---
 
 ## :star: 5 -  Git
+
+<img src="https://img.icons8.com/color/100/null/git.png"/>
 
 Los sistemas de control de versiones son programas que tienen como objetivo controlar los cambios en el desarrollo de cualquier tipo de software, permitiendo conocer el estado actual de un proyecto, los cambios que se le han realizado a cualquiera de sus piezas, las personas que intervinieron en ellos, etc.
 
@@ -213,7 +228,7 @@ Los sistemas de control de versiones son programas que tienen como objetivo cont
 Para conocer uno de los sistemas de control de versiones existentes que en la actualidad se ha popularizado hasta convertirse casi en un standard, gracias al sitio Github. Se trata de Git, el sistema de control de versiones más conocido y usado actualmente, que es el motor de Github. Al terminar esta lectura entenderás que es Git y qué es Github, dos cosas distintas que a veces resultan confusas de entender por las personas que están dando sus primeros pasos en el mundo del desarrollo.
 
  
-### Necesidad de un control de versiones
+###  <img src="https://img.icons8.com/color/40/null/git.png"/> Necesidad de un control de versiones
 
 El control de versiones es una de las tareas fundamentales para la administración de un proyecto de desarrollo de software en general. Surge de la necesidad de mantener y llevar control del código que vamos programando, conservando sus distintos estados. Es absolutamente necesario para el trabajo en equipo, pero resulta útil incluso a desarrolladores independientes.
 
@@ -251,7 +266,7 @@ En definitiva, con estos sistemas podemos crear y mantener repositorios de softw
 
  
 
-### Alternativas y variantes de sistemas de control de versiones
+### <img src="https://img.icons8.com/color/40/null/git.png"/> Alternativas y variantes de sistemas de control de versiones
 
 Comenzaron a aparecer los sistemas de control del versionado del software allá por los años setenta, aunque al principio eran bastante elementales. Para hacerse una idea, en los primeros sistemas existía una restricción por la que sólo una persona podía estar a la vez tocando el mismo código. Es posible imaginarse que cosas semejantes provocaban retraso en los equipos de trabajo, por ello, a lo largo de los años fueron surgiendo nuevos sistemas de control de versiones, siempre evolucionando con el objetivo de resolver las necesidades de los equipos de desarrollo.
 
@@ -285,7 +300,7 @@ De todos modos, en términos comparativos nos podemos quedar con la mayor ventaj
 
  
 
-#### Sobre Git
+### <img src="https://img.icons8.com/color/40/null/git.png"/> Sobre Git
 
 Como ya hemos dicho, Git es un sistema de control de versiones distribuido. Git fue impulsado por Linus Torvalds y el equipo de desarrollo del Kernel de Linux. Ellos estaban usando otro sistema de control de versiones de código abierto, que ya por aquel entonces era distribuido. Todo iba bien hasta que los gestores de aquel sistema de control de versiones lo convirtieron en un software propietario. Lógicamente, no era compatible estar construyendo un sistema de código abierto, tan representativo como el núcleo de Linux, y estar pagando por usar un sistema de control de versiones propietario. Por ello, el mismo equipo de desarrollo del Kernel de Linux se tomó la tarea de construir desde cero un sistema de versionado de software, también distribuido, que aportase lo mejor de los sistemas existentes hasta el momento.
 
@@ -306,7 +321,7 @@ Para usar Git debes instalarlo en tu sistema. Hay unas instrucciones distintas d
 ## :star:  6 -  Conceptos e instalación
 
 
-### Conceptos rápidos sobre Git y GitHub
+### <img src="https://img.icons8.com/color/40/null/git.png"/> Conceptos rápidos sobre Git y GitHub
 
 Antes de estudiar a fondo Git y comenzar a practicar, hay que cubrir algunas cuestiones que existen cuando se comienza a trabajar con un sistema de control de versiones. Se trata de algunas claves rápidas sobre las características de Git, el flujo de trabajo y algunas diferencias con GitHub.
 
@@ -348,7 +363,7 @@ Este esquema podemos considerarlo como la base del trabajo con Git, aunque luego
 
  
 
-### Instalar Git
+### <img src="https://img.icons8.com/color/40/null/git.png"/> Instalar Git
 
 Tener Git instalado en local es condición indispensable para trabajar con el sistema de control de versiones. El proceso para instalar Git es bien sencillo porque no difiere de la instalación de cualquier otro software que hayas hecho.
 
@@ -360,7 +375,7 @@ Te tienes que descargar la versión de tu sistema operativo en la página oficia
 Lo instalas como cualquier otro software. Si estás en Windows tendrás un asistente al que harás "siguiente, siguiente" hasta acabar el proceso. Puedes ver este vídeo que aclara algunos puntos sobre la instalación.
 
 
-### Para usuarios Windows, ¿Git Bash?
+### <img src="https://img.icons8.com/color/40/null/git.png"/> Para usuarios Windows, ¿Git Bash?
 
 El único sitio donde puedes tener dudas es en el paso que te dice si quieres instalarlo como comando en la línea de comandos de tu consola o si simplemente quieres el "git bash".
 
@@ -380,7 +395,7 @@ Git Bash es la línea de comandos de Git para Windows, que además te permite la
 Es indiferente si instalas Git en la línea de comandos del Windows o si lo instalas solamente en el Git Bash. Simplemente escoge la que te sea más cómoda.
 
  
-#### Primera configuración de Git, primeros comandos que debes lanzar
+#### <img src="https://img.icons8.com/color/40/null/git.png"/> Primera configuración de Git, primeros comandos que debes lanzar
 
 Antes que nada, inmediatamente después de instalar Git, lo primero que deberías hacer es lanzar un par de comandos de configuración.
 
