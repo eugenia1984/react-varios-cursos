@@ -185,9 +185,7 @@ Node.js **tampoco es un framework** (una plataforma para desarrollar aplicacione
 
 ---
 
-## :star: 4 -  VSC
-
-<img src="https://img.icons8.com/color/100/null/visual-studio-code-2019.png"/> 
+## :star: 4 -  VSC <img src="https://img.icons8.com/color/60/null/visual-studio-code-2019.png"/> 
 
 **Visual Studio Code** :
 
@@ -217,9 +215,7 @@ Visual Studio Code es una herramienta que tiene soporte nativo para gran varieda
 
 ---
 
-## :star: 5 -  Git
-
-<img src="https://img.icons8.com/color/100/null/git.png"/>
+## :star: 5 -  Git <img src="https://img.icons8.com/color/60/null/git.png"/>
 
 Los sistemas de control de versiones son programas que tienen como objetivo controlar los cambios en el desarrollo de cualquier tipo de software, permitiendo conocer el estado actual de un proyecto, los cambios que se le han realizado a cualquiera de sus piezas, las personas que intervinieron en ellos, etc.
 
