@@ -4,5 +4,9 @@
 
 ## :book: Temas :book:
 
+- En la carpeta [**clases**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/clases) está la teoría vista en cada encuentro.
+
+- En la carpeta [**teoría**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/teoria) está toda la teoría brindada en la plataforma del aula virtual de Codo a Codo.
+
 ---
 
