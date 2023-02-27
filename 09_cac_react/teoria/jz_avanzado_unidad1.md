@@ -118,6 +118,29 @@ Es importante destacar ahora que, dado que los niveles del DOM cambian de versi�
 
 ## :star: 2 - Funcionamiento REACT
 
+### ¿Cómo llega React a la performance que tanta fama le trae?
+
+React.js está construido en torno a hacer funciones, que toman las actualizaciones de estado de la página y que se traduzcan en una representación virtual de la página resultante. Siempre que React es informado de un cambio de estado, vuelve a ejecutar esas funciones para determinar una nueva representación virtual de la página, a continuación, se traduce automáticamente ese resultado en los cambios del DOM necesarios para reflejar la nueva presentación de la página.
+
+A primera vista, esto suena como que fuera más lento que el enfoque JavaScript habitual de actualización de cada elemento, según sea necesario. Detrás de escena, sin embargo, React.js hace justamente eso: tiene un algoritmo muy eficiente para determinar las diferencias entre la representación virtual de la página actual y la nueva. A partir de esas diferencias, hace el conjunto mínimo de cambios necesarios en el DOM.
+
+Pues utiliza un concepto llamado el DOM virtual que hace selectivamente sub-árboles de los nodos sobre la base de cambios de estado, desarrollando esto, con la menor cantidad de manipulación DOM posible, con el fin de mantener los componentes actualizados, estructurando sus datos.
+
+### ¿Cómo funciona el DOM virtual?
+
+Imagina que tienes un objeto que es un modelo en torno a una persona. Tienes todas las propiedades relevantes de una persona que podría tener, y refleja el estado actual de la persona. Esto es básicamente lo que React hace con el DOM.
+
+Ahora piensa, si tomamos ese objeto y le hacemos algunos cambios. Se ha añadido un bigote, unos bíceps y otros cambios. En React, cuando aplicamos estos cambios, dos cosas ocurren:
+
+– En primer lugar, React ejecuta un algoritmo de “diffing”, que identifica lo que ha cambiado.
+
+– El segundo paso es la reconciliación, donde se actualiza el DOM con los resultados de diff.
+
+La que hace React, ante estos cambios, en lugar de tomar a la persona real y reconstruirla desde cero, sólo cambiaría la cara y los brazos. Esto significa que si usted tenía el texto en una entrada y una actualización se llevó a cabo, siempre y cuando nodo padre de la entrada no estaba programado para la actualización, el texto se quedaría sin ser cambiado.
+
+![image](https://user-images.githubusercontent.com/72580574/221641665-232dd70d-9ce4-472d-b989-b038ec44e1b7.png)
+
+
 ---
 
 ## :star: 3 -  Node
