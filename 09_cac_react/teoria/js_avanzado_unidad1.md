@@ -22,40 +22,42 @@
 
 React Js es una Biblioteca para desarrollo web, por lo tanto, debemos contar con conocimientos mínimos sobre los lenguajes que el navegador web interpreta (HTM, CSS, Js).
 
-## HTML:
+## <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/50/null/external-html-computer-programming-icons-flaticons-lineal-color-flat-icons-2.png"/> HTML:
 
-HTML es un lenguaje de etiquetas, con el cual podremos armar la estructura para nuestras páginas web.
+**HTML** es un **lenguaje de etiquetas**, con el cual podremos armar la **estructura** para nuestras páginas web.
 
 ![image](https://user-images.githubusercontent.com/72580574/221640747-1f69d4f9-9895-4304-9b6f-1c02483a81e9.png)
 
 
-## HTML5:
+## <img src="https://img.icons8.com/color/48/null/html-5--v1.png"/> HTML5:
 
-Todo lo que se ve en Internet está programado con un código interno, y cuando ingresas a una web, a tu navegador le llega este código, y lo traduce de forma visual para que veas lo que el creador de la web ha diseñado que puedas ver. Este código es el que decide la estructura de una página web, colocando sus diferentes elementos en los puntos correspondientes, y un fallo dentro del mismo hará que no se vea bien.
+Todo lo que se ve en Internet **está programado con un código interno**, y cuando ingresas a una web, a tu navegador le llega este código, y **lo traduce de forma visual** para que veas lo que el creador de la web ha diseñado que puedas ver. Este código es el que decide la **estructura de una página web**, colocando sus diferentes elementos en los puntos correspondientes, y un fallo dentro del mismo hará que no se vea bien.
 
-Estos códigos se les llama lenguajes de programación, y el lenguaje que se utiliza en la World Wide Web, el ecosistema de páginas de Internet, es el HTML. Su nombre son las siglas de HyperText Markup Language, que significa literalmente Lenguaje de marcado de hipertexto. Es el estándar con el que están programadas todas las webs.
+Estos códigos se les llama **lenguajes de programación**, y el lenguaje que se utiliza en la World Wide Web, el ecosistema de páginas de Internet, es el **HTML**(OJO  HTML no es un lenguaje de programación, es un lenguaje de MARCADO). Su nombre son las siglas de **HyperText Markup Language**, que significa literalmente **Lenguaje de marcado de hipertexto**. Es el estándar con el que están programadas todas las webs.
 
-Pero Internet evoluciona, y el contenido que se sube a las webs también cambia con los años, lo que quiere decir que estos lenguajes pueden quedar obsoletos y necesitan ser actualizados. En 1999 se lanzó el estándar HTML4, y como imaginas, las páginas web ahora no tienen nada que ver con lo que eran entonces en cuanto a sus contenidos, y por eso desde hace unos años se está implementando el nuevo estándar HTML5.
+Pero Internet evoluciona, y el contenido que se sube a las webs también cambia con los años, lo que quiere decir que estos lenguajes pueden quedar obsoletos y necesitan ser actualizados. En **1999** se lanzó el estándar **HTML4**, y como imaginas, las páginas web ahora no tienen nada que ver con lo que eran entonces en cuanto a sus contenidos, y por eso desde hace unos años se está implementando el nuevo estándar **HTML5**.
 
-Por lo tanto, el HTML5 es la última versión del estándar HTML que se utiliza para crear las páginas web que estás visitando, e incorpora algunas novedades interesantes. Una de las notables, es darle cobertura a la reproducción de contenido multimedia, de forma que ya no tengas que ir a recursos de terceros como el obsoleto Flash Player.
+Por lo tanto, el **HTML5 es la última versión del estándar HTML que se utiliza para crear las páginas web que estás visitando**, e incorpora algunas novedades interesantes. Una de las notables, es darle cobertura a la **reproducción de contenido multimedia**, de forma que ya no tengas que ir a recursos de terceros como el obsoleto Flash Player.
+
 
 #### ¿Qué cambia en HTML5?
 
-Este nuevo estándar no tiene una cantidad asombrosa de novedades, pero las que tiene son absolutamente revolucionarias. La más destacada es la posibilidad de añadir archivos multimedia a la web, como vídeos o audios, y que estos no tengas que insertarlos utilizando otros plug-ins. Todo está incluido dentro del código.
+Este nuevo estándar no tiene una cantidad asombrosa de novedades, pero las que tiene son absolutamente revolucionarias. La más destacada es la posibilidad de **añadir archivos multimedia a la web**, como **vídeos** o **audios**, y que estos no tengas que insertarlos utilizando otros plug-ins. Todo está incluido dentro del código.
 
-También se han añadido etiquetas que permiten crear animaciones en 2D, con una etiqueta de canvas y una API que permiten que puedas dibujar elementos en dos dimensiones y animarlos en la web. También se pueden añadir eventos para el teclado, ratón o mandos, que permiten poder utilizarlos para interactuar con una página.
+También se han añadido etiquetas que permiten **crear animaciones en 2D**, con una etiqueta de **canvas** y una **API** que permiten que puedas dibujar elementos en dos dimensiones y animarlos en la web. También se pueden **añadir eventos para el teclado**, **ratón** o **mandos**, que permiten poder utilizarlos **para interactuar con una página**.
 
-Relacionado con lo anterior, también se pueden programar aplicaciones web en HTML5, lo que quiere decir que las páginas pueden ser apps, y no necesitarás instalar una app independiente en el PC o móvil, ya que podrás usarlo igual desde el navegador. También se pueden crear videojuegos con este método, lo que se complementa con poder utilizar teclado, ratón o mando.
+Relacionado con lo anterior, también se pueden programar aplicaciones web en HTML5, lo que quiere decir que **las páginas pueden ser apps**, y no necesitarás instalar una app independiente en el PC o móvil, ya que podrás usarlo igual desde el navegador. También se pueden crear videojuegos con este método, lo que se complementa con poder utilizar teclado, ratón o mando.
 
-También se han añadido opciones de geolocalización, de forma que una web puede detectar la ubicación de los usuarios que acceden a ella. Con ello, se pueden ofrecer opciones de idiomas dependiendo del país desde el que entras, o la posibilidad de derivarte a la página específica de un país.
+También se han añadido **opciones de geolocalización**, de forma que una web puede detectar la ubicación de los usuarios que acceden a ella. Con ello, se pueden **ofrecer opciones de idiomas dependiendo del país desde el que entras**, o la posibilidad de **derivarte a la página específica de un país**.
 
-#### Metadatos del Documento
 
-Los Metadatos son elementos HTML que muestran información sobre la propia página web que los contiene.
+#### <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/40/null/external-meta-internet-marketing-service-flaticons-flat-flat-icons.png"/>  Metadatos del Documento
 
-Son usados por los buscadores para definir la información principal de nuestra web (temática, descripción), por lo que será muy importante que lo tengamos correctamente configurados.
+Los Metadatos **son elementos HTML que muestran información sobre la propia página web que los contiene**.
 
-Estos elementos meta se encontrarán en el head del código de la web.
+Son **usados por los buscadores para definir la información principal de nuestra web** (temática, descripción), por lo que será muy importante que lo tengamos correctamente configurados. Ajudan al **SEO**.
+
+Estos elementos meta se encontrarán en el `<head>` del código de la web.
 
 - `<title>`: define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página.
 
@@ -67,7 +69,7 @@ Estos elementos meta se encontrarán en el head del código de la web.
 
 - ANSI: es el formato estándar de codificación de archivos utilizados en el Bloc de notas.
   
-  ### ¿Qué son los lenguajes de scripting?
+  ### <img src="https://img.icons8.com/office/40/null/console.png"/> ¿Qué son los lenguajes de scripting?
 
 Los lenguajes de scripting son una popular familia de lenguajes de programación que se pueden utilizar para satisfacer rápidamente las exigencias más comunes. Los lenguajes de scripting antiguos se utilizaban más bien para aplicaciones muy concretas o como lenguajes pegamento, es decir, para pegar sistemas ya existentes. Con la aparición de la World Wide Web, se establecieron una serie de lenguajes de scripting para la utilización en servidores web. Puesto que los lenguajes de scripting simplifican el procesamiento de texto, son perfectos para la creación dinámica de páginas HTML.
 
