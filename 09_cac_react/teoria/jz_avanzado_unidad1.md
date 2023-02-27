@@ -145,6 +145,39 @@ La que hace React, ante estos cambios, en lugar de tomar a la persona real y rec
 
 ## :star: 3 -  Node
 
+Node.js, es un entorno en tiempo de ejecución multiplataforma para la capa del servidor (en el lado del servidor) basado en JavaScript.
+
+Node.js es un entorno controlado por eventos diseñado para crear aplicaciones escalables, permitiéndote establecer y gestionar múltiples conexiones al mismo tiempo. Gracias a esta característica, no tienes que preocuparte con el bloqueo de procesos, debido a que no hay bloqueos.
+
+### Características principales de Node.js
+
+Node.js se ha hecho popular en los últimos años gracias a las siguientes características:
+
+- **Velocidad**: Node.js está construido sobre el motor de JavaScript V8 de Google Chrome, por eso su biblioteca es muy rápida en la ejecución de código.
+
+- **Sin búfer**: Las aplicaciones de Node.js generan los datos en trozos (chunks), nunca los almacenan en búfer.
+
+- **Asíncrono y controlado por eventos**: Como hemos dicho anteriormente, las APIs de la biblioteca de Node.js son asíncronas, sin bloqueo. Un servidor basado en Node.js no espera que una API devuelva datos. El servidor pasa a la siguiente API después de llamarla, y un mecanismo de notificación de eventos ayuda al servidor a obtener una respuesta de la llamada a la API anterior.
+
+### Arquitectura de Node.js y su funcionamiento
+
+Node.js utiliza la arquitectura «Single Threaded Event Loop» para manejar múltiples clientes al mismo tiempo. Para entender en qué se diferencia de otros tiempos de ejecución, tenemos que entender cómo se manejan los clientes concurrentes multihilo en lenguajes como Java.
+
+En un modelo de solicitud-respuesta multihilo, varios clientes envían una solicitud y el servidor procesa cada una de ellas antes de devolver la respuesta. Sin embargo, se utilizan múltiples hilos para procesar las llamadas concurrentes. Estos hilos se definen en un pool de hilos, y cada vez que llega una petición, se asigna un hilo individual para manejarla.
+
+
+![image](https://user-images.githubusercontent.com/72580574/221642021-f658e4ec-e5c6-4719-9a42-25c2c74b6d6e.png)
+
+
+###  ¿Es Node.js un lenguaje de programación?
+
+Node.js no es un lenguaje de programación. Más bien, es un entorno de ejecución que se utiliza para ejecutar JavaScript fuera del navegador.
+
+Node.js tampoco es un framework (una plataforma para desarrollar aplicaciones de software). El tiempo de ejecución de Node.js se construye sobre un lenguaje de programación -en este caso, JavaScript- y ayuda a la ejecución de los propios frameworks.
+
+**En resumen, Node.js no es un lenguaje de programación ni un marco de trabajo; es un entorno para ellos.**
+
+
 ---
 
 ## :star: 4 -  VSC
