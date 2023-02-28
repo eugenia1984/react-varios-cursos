@@ -1,6 +1,62 @@
 # :star: Clase 01 - 27 Feb
 
 ---
+
+
+## PRESENTACIÓN DEL DOCENTE
+
+- Docente: Flores Gisela - Mail de contacto: gi.flores@bue.edu.ar
+
+- Tutor: Germán
+
+---
+
+## ¿QUÉ ES CODO A CODO?
+
+- Codo a Codo 4.0 es un Programa de enseñanza en Programación Gratuita y
+100% virtual que forma a sus alumnos para que puedan unirse a las empresas
+más innovadoras del Mundo IT. Sus cursos están dirigidos a cualquier persona
+que ya posea conocimientos de programación y desee incursionar en el mundo
+de la programación web.
+
+- Su objetivo es brindar las herramientas necesarias para que el alumno pueda
+insertarse laboralmente en el mundo tecnológico y/o mejorar sus posibilidades
+laborales, conseguir empleo o comenzar su propio emprendimiento. Además,
+desde el programa Codo a Codo buscamos utilizar la tecnología como una
+herramienta de cambio y progreso para nuestros alumnos y alumnas.
+
+- Sitio Oficial : https://www.buenosaires.gob.ar/educacion/codo-codo
+
+---
+
+## OFERTA DE CAPACITACIÓN
+
+- **Full Stack Python**: Un lenguaje de Programación multiparadigma, que se tipea
+dinámicamente y es de tendencia creciente en el mercado.
+
+- **Full Stack Java**: Un lenguaje orientado a objetos concurrentes y tipeados estático.
+
+
+- **Full Stack PHP**: Un lenguaje que se adapta especialmente al desarrollo web.
+
+- **Full Stack Desarrollo Web**: Ideal para quienes ya tienen algún conocimiento o
+experiencia en desarrollo de sitios web.
+
+
+- **Ciencia de Datos**: análisis de datos y Big data desde el punto de vista del
+desarrollo y procesamiento de información.
+
+- **Testing Automatizado y Q/A**: capacitación para los que deseen desempeñarse
+en un rol de evaluador de proyectos informáticos.
+
+- **Diseño UX/UI**: Ideal para cualquier persona que desee aprender los fundamentos
+básicos del diseño orientado a web.
+
+
+---
+
+
+---
 ---
 
 # :stars: PRÁCTICA INICIAL HTML CSS BOOTSTRAP
