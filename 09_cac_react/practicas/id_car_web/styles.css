@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color-primary: #13005A;
+  --bg-color-secondary: #00337C;
+  --bg-color-shadow: #ff0000;
+  --bg-color-light: #1C82AD;
+  --text-color-green: #03C988;
+  --text-color-white: #ebdede;
+}
+
+body {
+  background-color: var(--bg-color-primary);
+}
+
+h1,
+footer p {
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+
+/* Generales */
+.tx-white {
+  color: var(--text-color-white);
+}
+
+.tx-green {
+  color: var(--text-color-green);
+}
+
+/* Main */
+main {
+  min-height: 80vh;
+}
+
+.id-car {
+  background-color: var(--bg-color-secondary);
+  padding: 1rem;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  box-shadow: -7px 7px var(--bg-color-shadow);
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img-perfil {
+  height: 520px;
+  margin: 1rem 10%;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+@media screen and (max-width: 985px ) {
+  .img-perfil {
+    height: 400px;
+  } 
+}
+
+.img-perfil:hover {
+  filter: grayscale(0.25);
+  -webkit-filter: grayscale(0.25);
+}
+
+.tx-about {
+  line-height: 1.8;
+  font-size: 18px;
+  padding: 0 1.50rem 0.50rem;
+}
+
+/* Footer */
+footer a {
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+footer a:hover {
+  letter-spacing: 3px;
+  color: var(--text-color);
+  background-color: var(--text-color-white);
+  padding: 6px 12px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
