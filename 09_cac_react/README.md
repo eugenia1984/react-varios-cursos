@@ -8,5 +8,7 @@
 
 - En la carpeta [**teoría**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/teoria) está toda la teoría brindada en la plataforma del aula virtual de Codo a Codo.
 
+- En la carpeta [**practicas**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/practicas) verás algunas primeras prácticas.
+
 ---
 
