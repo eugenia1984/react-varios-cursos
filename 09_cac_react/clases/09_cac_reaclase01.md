@@ -262,6 +262,10 @@ pautas a cumplir que iremos viendo durante la cursada. El mismo se armará
 en grupos y será obligatorio. Acá les muestro algunos trabajos anteriores:
 
 
+![image](https://user-images.githubusercontent.com/72580574/221984277-52947749-0be8-428f-be37-96219732f3b6.png)
+
+
+
 #### ASISTENCIA
 
 Es requerimiento de la cursada la asistencia a las clases sincrónicas, en la
