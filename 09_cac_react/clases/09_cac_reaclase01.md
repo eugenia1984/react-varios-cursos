@@ -55,6 +55,23 @@ básicos del diseño orientado a web.
 
 ---
 
+## ¿QUÉ SIGNIFICA SER FULLSTACK?
+
+Ser un programador fullstack es tener un perfil técnico muy completo.
+Capaz de manejar cada uno de los aspectos relacionados con la creación y el
+mantenimiento de una aplicación web.
+
+Además de ser un programador multiusos que dentro del desarrollo de un proyecto
+puede ser responsable del montaje de los servidores o el diseño de la interfaz.
+Es fundamental que tenga conocimientos en desarrollo Front-End y Back-End.
+Como desarrollador Front-end debería dominar, al menos, las siguientes tecnologías:
+HTML, CSS, JavaScript, React.
+
+Como desarrollador Back-end debería tener conocimientos en algún lenguaje de
+programación (Python, JavaScript, PHP, etc.), algún framework y base de datos.
+
+FullStack apunta a que podamos hacer un aplicativo Web con funcionalidad de
+principio a fin, que tengamos los conocimientos mínimos como para entender cómo llevar adelante este trabajo.
 
 ---
 ---
