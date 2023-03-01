@@ -11,3 +11,21 @@ Hay que centrarse en el usuario, facilitarles la navegación, todo con acceso fa
 ![image](https://user-images.githubusercontent.com/72580574/222155889-b3e8d9de-ee9d-44cf-8554-da5b6c6e9bd4.png)
 
 ---
+
+## MaterialUI
+
+[https://m3.material.io/](https://m3.material.io/)
+
+Es una **guía de diseño**, tanto para desktop como para mobile.
+
+Tiene los componentes, tiene guias de como deben ser los botones(lisos, sin degrade, con bordes redondeados, con texto corto, ontraste entre texto y fondo, con paddings). Ya tiene considerado todo lo referido a accesibilidad
+
+Está la sección de **color system** que tiene todo lo referido al color y el impacto.
+
+Como desarrollador debemos llevar la idea del cliente al diseño, ellos vienen con un rejunte de cosas que le gustan, y debemos pasarlo a algo accesible.
+
+## Psicología del color
+
+La **psicología del color**
+
+---
