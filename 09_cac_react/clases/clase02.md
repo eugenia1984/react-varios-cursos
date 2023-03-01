@@ -37,4 +37,8 @@ La **psicología del color**
 
 ![image](https://user-images.githubusercontent.com/72580574/222168411-39249db7-2e2e-4bfc-a3b5-ef9e919fa52b.png)
 
+-> Solo dos colores en un situo, con sus distintas saturaciones
+
+-> Solo una familia tipográfica, varia en su font-size, si font-weight, etc. Se puede obtener fuentes desde: [https://fonts.google.com/](https://fonts.google.com/)
+
 ---
