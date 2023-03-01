@@ -511,3 +511,116 @@ formas-
 
 ---
 ---
+
+
+## TEORÍA DEL DISEÑO WEB
+
+### Material tomado de Profesores
+
+### Da Costa | Padovano
+
+### Adaptación Flores Gisela
+
+
+## :star: Percepción Visual
+
+
+### Gestalt
+
+La psicología de la Gestalt es una teoría de la percepción surgida en Alemania a principios del siglo XX que alude a los modos de percepción de la forma de aquello que vemos. Nuestro cerebro decodifica la información que recibimos a través de diversas
+asociaciones que se producen en el momento de la percepción.
+
+#### Principios de la Psicología de la Gestalt
+
+#### :star: Ley de relación figura-fondo
+
+• Figura: es un elemento que existe en un espacio o “campo” destacándose en su interrelación con otros elementos.
+
+• Fondo: Todo aquello que no es figura, es la parte del campo que contiene elementos interrelacionados que sostienen a la figura que por su contraste tienden a desaparecer.
+
+El ojo reconoce una figura sobre un fondo, sin embargo figura y fondo pueden funcionar como fondo y figura respectivamente, dependiendo mucho de la percepción de los mismos. En este caso se habla de una relación reversible o ambigua. Un ejemplo claro de un autor que haya realizado imágenes con estas características es
+Escher.
+
+• Relación figura-fondo bien definida: La imagen puede destacarse claramente del fondo.
+
+• Relación figura-fondo indefinida: También conocido como "mímesis". En este caso se produce una confusión que no permite diferenciar claramente la figura del fondo.
+
+
+#### :star: Ley de Cierre
+
+Nuestra mente añade los elementos faltantes para completar una figura. Las formas abiertas o inconclusas provocan incomodidad y existe una tendencia a completar con la imaginación aquello que falta.
+
+![image](https://user-images.githubusercontent.com/72580574/222194185-c71216c4-57e8-404a-b16f-3eb108bf6623.png)
+
+#### :star: Ley de la Semejanza
+
+Nuestra mente agrupa los elementos similares en una entidad. De este modo, dos elementos de forma similar rodeados de elementos cuyas formas difieren a éstos, serán asociados. La semejanza puede darse a través de las variantes de la forma, el tamaño, el color, la textura, el tono de los elementos y la dirección de las formas.
+
+![image](https://user-images.githubusercontent.com/72580574/222194363-4f665b42-a718-450f-b510-61284eba8953.png)
+
+
+#### :star:  Ley de la Proximidad
+
+El agrupamiento parcial o secuencial de elementos por nuestra mente.
+
+![image](https://user-images.githubusercontent.com/72580574/222194439-b65d5693-791c-42a2-b91b-47e6e74055b1.png)
+
+
+#### :star:  Ley de Simetría
+
+Las imágenes simétricas son percibidas como iguales, como un solo elemento, en la distancia. Aun sabiendo que la mitad de nuestro cuerpo no es exactamente igual a la otra mitad, al dividirlo, percibiremos dos partes simétricas ya que responden a un mismo patrón de formas.
+
+
+#### :star:  Ley de Continuidad
+
+La mente continúa un patrón, aun después de que el mismo desaparezca.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222194672-8174bc71-d1ec-40a1-921c-d19992d1179b.png)
+
+
+#### :star:  Ley de Pregnancia
+
+Cuando una figura es pregnante, por su forma, tamaño, color, valor, direccionalidad, movimiento, textura, nos referimos al grado en que una figura es percibida con mayor rapidez por el ojo humano. Aquello que capte nuestra atención en primer orden, tendrá mayor pregnancia que el resto de las formas de la composición. Supongamos que, en el caso de la pregnancia por tamaño, colocamos 5 objetos sobre la mesa, cuatro de ellos pequeños y uno de ellos enorme en comparación a éstos. Cuando nuestra vista se dirija a estos, hemos de ver en primera instancia al más pregnante, en este caso, el único de gran tamaño.
+
+![image](https://user-images.githubusercontent.com/72580574/222195020-6c2d0212-c37c-403e-a3ec-bbbd841b0837.png)
+
+
+Todas estas leyes responden al modo de percibir del ojo humano, a través del cual el cerebro decodifica la información visual. Constituye el modo en que percibimos
+constantemente. Actúa sobre nosotros, y nosotros actuamos en relación también a
+ello.
+
+En cuanto al manejo de los códigos visuales, tanto para su estudio como su empleo en la creación de mensajes comunicacionales, es importante tener en cuenta las
+relaciones entre el campo y la figura, dónde además de las características formales la ubicación de los elementos también es generador de sensaciones e interpretado por nuestro cerebro. De este modo, si delimitamos una imagen a través de un encuadre, ubicando uno de sus elementos en la parte central del campo, éste dará sensación de quietud y atraerá al espectador. Sin embargo, si el mismo objeto es ubicado en la parte superior central del campo, la sensación generada será de tensión.
+
+
+### La sintaxis visual o sistemas de ordenamiento
+
+Algunos de estos elementos sintácticos de la imagen o principios del diseño visual, son los siguientes:
+
+• Alineamiento
+
+• Balance
+
+• Contraste
+
+• Énfasis
+
+• Espacio negativo (o contra forma).
+
+• Movimiento
+
+• Proporción
+
+• Proximidad
+
+• Repetición
+
+• Ritmo
+
+• Unidad
+
+
+
+---
+---
