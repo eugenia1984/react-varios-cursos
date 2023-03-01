@@ -328,3 +328,186 @@ C+M+Y+N (Cyan - Magenta - Yellow - Neutral)
 
 
 ---
+---
+
+## :stars: PERCEPCIÓN VISUAL :stars:
+
+### Material tomado del Departamento de Ingeniería Tecnicatura en Desarrollo Web
+
+Profesores da Costa | Padovano
+
+Adaptación Gisela Flores
+
+
+### PSICOLOGÍA GESTALT
+
+La psicología de la Gestalt es una teoría de la percepción surgida en Alemania a principios del siglo XX que alude a los modos de percepción de la forma de aquello que vemos.
+
+Nuestro cerebro decodifica la información que recibimos a través de diversas asociaciones que se producen en el momento de la percepción.
+
+## :star: LEY DE RELACION FIGURA - FONDO
+
+![image](https://user-images.githubusercontent.com/72580574/222188660-f80c4ef8-832b-42db-9765-aa0607f60561.png)
+
+- El ojo reconoce una figura sobre un fondo
+
+- Figura y fondo pueden funcionar como fondo y figura respectivamente (Figura-fondo reversible).
+
+- Un ejemplo claro de un autor que haya realizado imágenes con estas características es Escher.
+
+### TIPOS DE RELACIÓN FIGURA-FONDO
+
+- Figura simple / Fondo simple
+
+- Figura compleja / Fondo simple
+
+- Figura simple / Fondo complejo
+
+- Figura compleja / Fondo complejo
+
+- Figura - Fondo reversible
+
+![image](https://user-images.githubusercontent.com/72580574/222188980-42ded8a7-8853-4224-98e0-ba06adecd0ee.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189037-f6c70c90-5365-4f01-8c74-06f82745a222.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189106-cad78436-e133-4151-a240-3be126a05139.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189162-c234074b-7e99-4cc4-ad1b-e25dc3867bb1.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189228-3bb4fe68-c089-411d-9cc1-bd8d381d4bd0.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189340-f9f90f4d-3873-4570-99c4-395e1b2db2ce.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189399-41aab766-fa62-4c2c-884d-6f6d6ac167aa.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189462-06b40e6b-e4ca-4fd5-b898-a85339bfb279.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189526-1f31a0d3-ce04-4e8d-9cfa-270b75ce5fa3.png)
+
+## :star: LEY DE CIERRE
+
+- Nuestra mente añade los elementos faltantes para completar una figura.
+
+- Las formas abiertas o inconclusas provocan incomodidad y existe una tendencia a completar con la imaginación aquello que falta.
+
+![image](https://user-images.githubusercontent.com/72580574/222189800-d2b6bb58-1d7c-4fda-a877-0669026ed701.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189894-f3107601-b0a5-43b8-af08-7f51d2bff1bc.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222189993-87ded0d9-c508-4229-8956-ff5cb6489c63.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222190061-fed01391-0df2-4eac-a785-7b97826ec0b2.png)
+
+
+## :star: LEY DE SEMEJANZA
+
+- Nuestra mente agrupa los elementos similares en una entidad.
+
+- Dos o más elementos de forma similar rodeados de elementos cuyas formas difieren a éstos, serán asociados.
+
+- Forma, Tamaño, Color, Textura, Tono de los elementos y la dirección de las
+formas-
+
+![image](https://user-images.githubusercontent.com/72580574/222190270-78b0d47e-1404-401b-9cbe-66b060a65f58.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222190313-74140dc0-8eec-41ac-b384-7e6e84ba0184.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222190380-f3ed2609-6253-43ae-adb5-cba333bce0d6.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222190437-99d3a877-c34b-4631-9280-07b043e07a11.png)
+
+
+## :star: LEY DE PROXIMIDAD
+
+- El agrupamiento parcial o secuencial de elementos por nuestra mente por cercanía en el espacio entre si.
+
+![image](https://user-images.githubusercontent.com/72580574/222190588-a15a6bc3-d05f-4096-9949-ee92c70ca795.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222190652-d690c036-ac04-4c5c-b868-3da0a9de5683.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222190706-39d13b0f-8c82-4b3f-bb46-e63afcd71607.png)
+
+
+
+## :star: LEY DE SIMETRÍA
+
+- Las imágenes simétricas son percibidas como iguales, como un solo elemento, en la distancia.
+
+- Aún sabiendo que la mitad de nuestro cuerpo no es exactamente igual a la otra mitad, al dividirlo, percibiremos dos partes simétricas ya que responden a un mismo patrón de formas.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222191019-e920bac5-c6b2-4759-b0a3-2965a00a3cde.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222191099-4cc2a0a3-2348-4a0d-bce2-db978ff54adb.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222191151-4fa87c23-bd18-41b1-bf33-05d67cd850d3.png)
+
+
+## :star: LEY DE CONTINUIDAD
+
+- La mente continúa un patrón, aun después de que el mismo desaparezca
+
+![image](https://user-images.githubusercontent.com/72580574/222191298-aa32792f-abc2-41bc-b647-f140d5de2ac9.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222191342-1db811a0-2e64-424e-b1fe-05e94aa08682.png)
+
+
+## :star: LEY DE PREGNANCIA
+
+- Cuando una figura es pregnante, por su forma, tamaño, color - valor, direccionalidad, movimiento, textura, nos referimos al grado en que una figura es percibida con mayor rapidez por el ojo humano.
+
+- Aquello que capte nuestra atención en primer orden, tendrá mayor pregnancia que el resto de las formas de la composición.
+
+
+
+![image](https://user-images.githubusercontent.com/72580574/222191678-89856ca6-96e1-4786-9ee2-012347175bab.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222191744-242a3c7d-e0ec-4c77-8efb-638d343d1418.png)
+
+
+### Percibimos totalidades ¿Si o No?
+
+**Sgeun un estduio de una unviersdiad inlgesa, no ipmotra el odren en el que las letars etsan esrcitas, la uncia csoa ipormtnate es que la pmrirea y la utlima lerta esetn ecsritas en la psiocion corcreta. El rsteo peuden etsar tatolemnte mal y aun pordas lerelo sin pobrleams.**
+
+**Etso es prouqe no lemeos cada lerta por si msima snio la paalbra en un tdoo.**
+
+
+![image](https://user-images.githubusercontent.com/72580574/222192045-88dc05db-9a7d-40bc-a8d9-8c915d6574b9.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222192120-884d8b30-8c68-4e0a-99a5-4f42a9c163e3.png)
+
+
+[https://www.helenhard.no](https://www.helenhard.no)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222192189-fa5bf370-8f57-45b2-8e48-8c370c7ef31a.png)
+
+
+
+[https://www.tilde.io](https://www.tilde.io)
+
+![image](https://user-images.githubusercontent.com/72580574/222192408-8a90fbf3-6608-48e8-9ea5-7e4735ba5dd9.png)
+
+
+[https://www.burgerking.com.ar/](https://www.burgerking.com.ar/)
+
+![image](https://user-images.githubusercontent.com/72580574/222192612-3e3d972a-8b8a-4343-b004-e3e2e92c162d.png)
+
+
+[https://www.netlify.com/](https://www.netlify.com/)
+
+![image](https://user-images.githubusercontent.com/72580574/222192813-27d24fe2-5e19-4ad6-9e63-184fe02d1878.png)
+
+
+---
+---
