@@ -28,4 +28,13 @@ Como desarrollador debemos llevar la idea del cliente al diseño, ellos vienen c
 
 La **psicología del color**
 
+- contraste: asi resalta el mansaje principal, el fondo no cambia el color, el fondo es blanco o negro y el color esta en las cosas de relevancia. Las marcas tienen su **branding** y aprovechar ese contraste.
+
+- complementarios
+
+[Paleta de colores](https://color.adobe.com/es/create/color-wheel)
+
+
+![image](https://user-images.githubusercontent.com/72580574/222168411-39249db7-2e2e-4bfc-a3b5-ef9e919fa52b.png)
+
 ---
