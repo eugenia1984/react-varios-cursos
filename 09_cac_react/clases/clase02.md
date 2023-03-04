@@ -89,11 +89,31 @@ Pero... si quiero que la atención esté en la imagen, no debo usar degradado.
 
 Ejemplo:
 
-![image](https://user-images.githubusercontent.com/72580574/222178814-24e84317-8ac2-43c4-9dd4-0d32ca21ad05.png)
+![image](https://user-images.githubusercontent.com/72580574/222904714-aba0fb49-38d9-46d2-8aa1-8320cc8b682c.png)
+
 
 ... logo muy claro, se pierde con el fondo
 
 ... el CTA del image header esta ok
+
+
+![image](https://user-images.githubusercontent.com/72580574/222904731-73a89f20-83a7-4eee-a9e5-dbd290f65982.png)
+
+![image](https://user-images.githubusercontent.com/72580574/222904739-a91117c3-6f3f-463b-adac-68689b2fc3f3.png)
+
+
+---
+
+![image](https://user-images.githubusercontent.com/72580574/222904775-2c2f70fe-66ad-40af-bc3f-dbe456e1eb79.png)
+
+---
+
+![image](https://user-images.githubusercontent.com/72580574/222904831-2efaa6e0-f687-4cc0-8018-4ecadf5ed23c.png)
+
+---
+
+![image](https://user-images.githubusercontent.com/72580574/222904919-05a2c95b-90ce-4f8e-830e-2d42d071fbbd.png)
+
 
 
 ---
