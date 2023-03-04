@@ -770,13 +770,9 @@ formas-
 ---
 
 
-## TEORÍA DEL DISEÑO WEB
+## :stars: TEORÍA DEL DISEÑO WEB :stars: 
 
-### Material tomado de Profesores
-
-### Da Costa | Padovano
-
-### Adaptación Flores Gisela
+### Material tomado de Profesores:  Da Costa | Padovano - Adaptación Flores Gisela
 
 
 ## :star: Percepción Visual
