@@ -124,7 +124,7 @@ Ejemplo:
 ---
 ---
 
-## :starts:  La Psicología del Color - VICTOR MANUEL JARA MONGELOS :stars:
+## :stars:  La Psicología del Color - VICTOR MANUEL JARA MONGELOS :stars:
 
 ### La Psicología del Color
 
