@@ -624,3 +624,204 @@ Algunos de estos elementos sintácticos de la imagen o principios del diseño vi
 
 ---
 ---
+
+# :star: PSICOLOGÍA DE LA TIPOGRAFÍA QUE ES, IMPORTANCIA Y USOS :star:
+
+
+**La psicología de la tipografía** es algo que no podemos dejar al azar al momento de elegir la fuente para nuestro proyecto de diseño. Al igual que los colores, las tipografías también trasmiten emociones y sensaciones.
+
+En varias ocasiones hemos hablado de las diferentes [emociones que transmiten los colores](https://gtechdesign.net/es/blog/psicologia-de-los-colores-y-su-uso-en-diseno-y-branding) y de la importancia de su elección para [nuestros logos](https://gtechdesign.net/es/blog/psicologia-aplicada-en-diseno-de-logo). Pero, ¿qué hay de la tipografía? ¿Existe la psicología de la tipografía? ¿Eres de los que piensa que da igual leer un artículo en **Arial** que en **Times New Roman**? ¿Que la letra de los paquetes no influye en la elección de tus galletas o barras de chocolate?
+
+## ¿Qué es?
+
+En pocas palabras, podemos definir **la psicología de la tipografía** como el estudio que analiza las diferentes fuentes que impactan en los pensamientos, sentimientos y comportamientos; ya que las personas tienen pensamientos, sentimientos y, suelen asociarlos, muy a menudo, con o a través de diferentes tipos de letra, y el diseñador debe comprender esas diferentes asociaciones y respuestas emocionales, para poder sacar ventaja.
+
+## Importancia
+
+Una de las razones más poderosas por las que nosotros como diseñadores deberíamos utilizar con más frecuencia la psicología tipográfica es para impulsar aún más nuestros diseños, ya que es una técnica que le da un montón de control sobre cómo nuestro público objetivo percibe y recibe nuestras piezas visuales.
+
+Por todo esto debemos conocer y poner especial cuidado en la elección de la tipografía que vayamos a utilizar. Y es que no podremos usar el mismo tipo de fuente si queremos reflejar que nuestro proyecto es tradicional que si queremos transmitir que es moderno. Así que conozcamos cómo se agrupan las fuentes según la psicología de la tipografía:
+
+**Ten en cuenta lo que transmites al elegir una tipografía para tu marca, tu web, o cualquier comunicación que realice tu empresa.**
+
+## Psicología de la tipografía
+
+![image](https://user-images.githubusercontent.com/72580574/222902364-1b713b44-c5c9-45da-abe1-4868c488d23d.png)
+
+
+### :stars:  Serif
+
+La fuente serif es la más clásica del grupo; cuando usa una fuente serif en tus diseños, le dice a tu audiencia que usted es una compañía establecida y tradicional en la que pueden confiar.
+
+Dentro de las serif nos encontramos con gran variedad de fuentes, como las romanas antiguas, las romanas modernas o las egipcias. Todas ellas con diferentes estilos de serifas, pero con serifas siempre. Este tipo de letra es muy apropiado para la lectura de textos largos. Crean una línea imaginaria bajo el texto que ayuda a guiar al ojo.
+
+Creative Cloud te ofrece toda nuestra colección de herramientas creativas para escritorio, como Photoshop, Illustrator, InDesign y Premiere Pro.
+
+Las solemos percibir como tradicionales, serias, respetables, institucionales o corporativas. Algunos ejemplos son: **Book Antigua**, **Courier**, **Garamond**, **Times New Roman** y **Palatino**.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222902443-5290c89d-2b71-4307-81bb-163bae9126d6.png)
+
+
+### Asociaciones y respuestas emocionales:
+
+- Confianza
+
+- Respeto
+
+- Autoridad
+
+- Formalidad
+
+### Dirigida a marcas e industrias:
+
+- Compañías financieras
+
+- Derecho
+
+- Firmas
+
+- Compañías de seguros
+
+- Consultores
+
+## :stars: Sans Serif
+
+Estas clases de fuentes generalmente se consideran geniales, elegantes y modernas. Debido a su importancia en el mundo tecnológico, las fuentes sans serif también están fuertemente asociadas con la vanguardia y la tipografía comercial ya que son buenas para la impresión de etiquetas y embalajes.
+
+Son perfectas para textos cortos pero muy grandes, carteles y titulares. Están especialmente indicadas para visualizaciones en pantallas, quedando legibles en tamaños pequeños (siempre que no sean demasiado largos) y limpias en los grandes. Según la psicología de la tipografía transmiten modernidad, seguridad, alegría y en ciertas ocasiones neutralidad o minimalismo.
+
+Algunas de las fuentes más conocidas de esta familia: **Arial**, **Bauhaus**, **Tahoma**, **Verdana** o **Helvética**.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222902642-db4091a8-c865-4712-b2aa-573bffbb7ffd.png)
+
+
+### Asociaciones y respuestas emocionales:
+
+- Sencilla
+
+- Moderna
+
+- Confiable
+
+- Sofisticada
+
+- Centrada en la tecnología
+
+- De vanguardia
+
+### Dirigida a marcas e industrias:
+
+- Empresas tecnológicas
+
+- Marcas de moda
+
+
+## :stars: Manuscritas o Script
+
+Son fuentes que parecen estar escritas en cursiva o ser caligrafía. Se suelen utilizar para títulos o firmas solamente, ya que sus trazos más finos pueden llegar a desaparecer y hacer que pierda legibilidad el texto.
+
+Como curiosidad, el primer carácter de imprenta usado en Europa fue de esta familia, la Gótica, que imita la escritura a mano de los monjes.
+
+
+Teniendo en cuenta la psicología de la tipografía, estas fuentes transmiten elegancia, afecto y creatividad.
+
+Algunos ejemplos son la **Gótica**, **Brush**, **Vivaldi** y **Edwardian Script**.
+
+![image](https://user-images.githubusercontent.com/72580574/222903012-f4a61a54-ada5-4201-bff9-9b84e373b603.png)
+
+### Asociaciones y respuestas emocionales:
+
+- Elegante
+
+- Sofisticada
+
+- Lujosa
+
+- Creativa
+
+- Feliz
+
+- Tradicional
+
+- Personal
+
+- Caprichosa
+
+### Dirigida a marcas e industrias:
+
+- Marcas de alimentos y bebidas
+
+- Logotipos de moda
+
+- Marcas enfocadas en niños
+
+## :stars:  Modernas - Decorativas
+
+Son tipografías que no se ajustan a ninguna de las clasificaciones anteriores y que casi siempre se han creado con un fin específico, donde la legibilidad no se ha tenido demasiado en cuenta.
+
+Esta familia, por la variedad de categorías que tiene, es la que más puede llegar a atraer. Y es que la forma de las letras puede sugerir una época y dentro de la psicología de la tipografía es la que más personalidad aporta.
+
+Algunas fuentes de las más conocidas son **Esténcil**, **Art Nouveau**, **Pop Art** o **Grunge**.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222903222-01a7f32b-d481-43b0-b214-2bd5a85833e2.png)
+
+## Usos
+
+Aunque no lo creas, los productos alimentarios son algunos donde más puede influir la tipografía. Algunos tipos de letra parecen más apetitosos que otros, apelando a nuestros deseos con sus formas curvilíneas y profundidad.
+
+![image](https://user-images.githubusercontent.com/72580574/222903274-3af9ef18-6ca6-4d01-a2c3-224f8931da6b.png)
+
+¡Pero ojo! Esos son los estilos asociados con opciones de alimentos menos saludables y más procesados.
+
+Y es que instintivamente asociamos los tipos de letra de forma redondeada y robusta con sabores dulces, especialmente si el color usado es rojo.
+
+Mientras, las formas más anguladas se asocian con sabores más agridulces. Las marcas alimentarias no son las únicas que se preocupan por la tipografía. Hay una serie de asociaciones que las firmas y negocios deben tener en cuenta si quieren llegar al consumidor. 
+
+![image](https://user-images.githubusercontent.com/72580574/222903297-5516d872-587b-400c-8a90-4c84e96058ba.png)
+
+#### Aquí te presentamos algunas de ellas:
+
+- Tu cerebro confunde el proceso de lectura con respecto a lo que estás leyendo, por lo que un tipo de letra fácil de leer probablemente te convencerá de que esos muebles que acabas de comprar serán más fáciles de ensamblar.
+
+- Un tipo de letra más difícil de leer se sentirá como si la tarea en cuestión requiere más habilidades. Así, si se trata del menú de un restaurante, es probable que asumas que el chef es más talentoso.
+
+- Estilos como el Didot, con contraste y líneas finas se asocia con la calidad, lo caro y la elegancia. No es casualidad que haya sido la elegida para cabeceras de revistas como la Vogue y la Harpers Bazzar, asociadas con la moda...
+
+![image](https://user-images.githubusercontent.com/72580574/222903323-5f01fe4e-2e3a-48bb-96b0-ce425a663d70.png)
+
+- Por otro lado, los estilos en negrita y redondeados con poco contraste generan la idea de barato.
+
+- Confías en un tipo de letra según el contexto en el que lo veas. En un experimento con The New York Times, el tipo Baskerville se consideró más creíble que Helvetica o Comic Sans, pero Helvetica está clasificada como la más confiable de las tres en una señal de tráfico. Comic Sans puntúa como la más creíble para anunciar fiesta escolar.
+
+- Los estilos con letras minúsculas grandes y circulares, como "o" y "a", se consideran idealistas, optimistas y abiertos. Los ejemplos son Lubalin Graph y Avant Garde.
+
+### Tipografía y política
+
+Los tipos de letras también pueden ser muy políticas. De hecho, la misma psicología que aplica para las compañías que venden productos puede aplicarse también a la venda de ideas políticas y estilos de vida.
+
+Un ejemplo efectivo que destaca como un cambio muy estratégico nos remite a la primera campaña de Barack Obama.
+
+En 2008, el panorama político tipográfico en Estados Unidos consistía en tipos tradicionales que habían existido durante siglos. Pero Obama se separó de esto, utilizando un trazo simple, audaz y claro.
+
+![image](https://user-images.githubusercontent.com/72580574/222903362-98a49253-8fab-4b20-a477-97ddc8290a9f.png)
+
+
+Ese tipo de letra de Obama es **Gotham**, diseñado por Tobias Frere-Jones, un gran fan de la arquitectura de mediados del siglo XX en Nueva York.
+
+Es lo que se conoce como una fuente sans-serif o de "palo seco", pues no tiene los "remates" o "gracias" (en inglés, serif) típicos de fuentes como la **Times New Roman** o la **Didot**.
+
+#### ¿Pero fue efectiva?
+
+"Al utilizar un estilo de tipo tan diferente, la campaña de Obama comunicó el cambio y el pensamiento progresivo, y la sensación de avanzar en muchos niveles... No fue de élite, aunque una fuente serif puede sugerir academia y prestigio literario, la fuente sans serif de Obama fue un todo incluido".
+
+*Usos vía Word of Mouth de BBC Radio 4.
+
+### Conclusión:
+
+Independientemente de cuál sea el objetivo final de tu diseño, comprender el impacto de las diversas fuentes tipográficas dentro de tu audiencia te ayudará a alcanzar ese objetivo, ya que cada diseño tiene un target específico, y elegir las fuentes que inspirarán la respuesta emocional correcta en tu audiencia, lo capacitará para alcanzar el resultado adecuado.
+
+---
+---
