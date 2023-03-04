@@ -99,6 +99,243 @@ Ejemplo:
 ---
 ---
 
+## :star: [Copia de la infografía del color](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/Copia%20de%20infografia-teoria-del-color.jpg)
+
+---
+---
+
+## :starts:  La Psicología del Color - VICTOR MANUEL JARA MONGELOS :stars:
+
+### La Psicología del Color
+
+Siempre ha existido una relación íntima entre los colores y el ser humano. Hay textos que los relacionan con estados de ánimo, la suerte e incluso la astrología y los signos zodiacales.
+
+En Psychology of colour, la socióloga y psicóloga alemana Eva Heller (1948-2008) ofreció un nuevo enfoque para la interpretación
+del color en nuestras vidas. Su investigación propone que los colores y los sentimientos no se combinan de manera accidental, sino que actúan según el contexto y la historia individual de cada uno a través del tiempo. Más que ser sólo un fenómeno óptico, también son fenómenos sociales.
+
+En “Psicología del Color”, Heller incluyó el blanco y el negro (frecuentemente descartados como colores propiamente dichos) por su importancia cultural, así como el dorado y el plateado, lo que nos da una suma de trece colores que actúan en la psicología de las personas.
+
+Sin más preámbulo, les dejamos una breve explicación de cada color y algún dato relevante de interés para entender su historia e impacto en nuestras mentes.
+
+###  Azul, el color preferido del mundo
+
+![image](https://user-images.githubusercontent.com/72580574/222903826-47c001c4-f865-4dba-ae41-df2feeee6381.png)
+
+
+El color de la lejanía, la fidelidad y la inmensidad (debido al mar y al cielo). A causa de la perspectiva y la ilusión de espacio lo
+percibimos como el más alejado de todos.
+
+Esta cualidad lo ha vinculado a la fidelidad (pues sólo la distancia puede poner a prueba la lealtad) y a las personalidades serenas (debido a que la temperatura con que se identifica al azul es el frío). En el estudio de Heller, cuantitativamente hay un gran porcentaje de gente que gusta del color azul en alguno de sus ciento once tonos (es el color que más personas señalan como favorito).
+
+Curiosidades: En países como Alemania e Inglaterra “estar azul” (bleu/blue) quiere decir estar triste. La expresión “sangre azul” se deriva de la edad media: los privilegiados no trabajaban por lo que su piel era muy tersa y dejaba ver sus venas “azules” a diferencia de la piel curtida y mate de los ciervos.
+
+
+### Al principio fue el rojo
+
+![image](https://user-images.githubusercontent.com/72580574/222903862-0f85ce4f-b884-4a1e-a85e-a1a2ca2095a8.png)
+ 
+El primer color en recibir nombre fue el rojo. Se cree que en casi todas las culturas las primeras palabras que existieron denominaban al día y la noche, y en seguida la experiencia de la sangre y el fuego dieron nombre al rojo.
+
+![image](https://user-images.githubusercontent.com/72580574/222903891-32fca429-7317-4134-a8b7-46b02803f95a.png)
+
+
+El color de las pasiones y emociones intensas transmite calidez y energía por excelencia. Representa el amor, la furia, el
+descontento y la alegría. Su poderoso simbolismo hizo que lo escogieran para abanderar movimientos como el comunismo, socialismo, jacobinismo o el nazismo y su efectividad lo ha hecho omnipresente en la publicidad.
+
+![image](https://user-images.githubusercontent.com/72580574/222903916-c3072bb6-2dea-4a56-972b-649ccacdf51d.png)
+
+Dato curioso: Carlomagno designó al rojo como el color imperial y hasta el año 814, sólo la nobleza y el clero lo podían usar.
+
+
+### Las contradicciones del amarillo
+
+![image](https://user-images.githubusercontent.com/72580574/222903943-e2608578-e4ab-4f2d-af94-bbe1fd9ea9b6.png)
+
+Por una parte, iluminación y entendimiento, optimismo y alegría. Por otro lado envidia, celos y animales venenosos.
+
+La luz solar se percibe amarilla (aunque propiamente no tiene color), las connotaciones asociadas a este astro suelen ser positivas o
+felices y en varias culturas el amarillo es divino, reservado para deidades y sus representantes terrenales. Por otra parte hay significativas asociaciones negativas: la inseguridad y la avaricia se representan con amarillo, la bilis de los enojos es literalmente un líquido amarillo que nos hace sentir furia.
+
+![image](https://user-images.githubusercontent.com/72580574/222903960-592d4abc-0a76-42dd-8390-27b008e00a1d.png)
+
+Datos curiosos: En inglés la palabra yellow también quiere decir “cobarde” y los franceses llaman “casa amarilla” a los manicomios. El Smile-Button (carita feliz amarilla) es uno de los símbolos más populares que representa el optimismo.
+
+![image](https://user-images.githubusercontent.com/72580574/222903988-ecc22145-421f-4b6b-9ad2-d3c2e1424c67.png)
+
+### El verde fértil y sagrado
+
+![image](https://user-images.githubusercontent.com/72580574/222904019-a5ebffe6-cdef-4ed4-8cf6-7479602abd43.png)
+
+
+La ideología acerca de la naturaleza parte del verde una y otra vez. Símbolo de la vida y la salud en el sentido más amplio, el verde también se usa para representar la primavera, los negocios florecientes y la fertilidad por su natural vínculo visual con las plantas de todo tipo.
+
+![image](https://user-images.githubusercontent.com/72580574/222904036-45b1bbe8-4cd1-472a-9e86-1b9af1505c06.png)
+
+En el islam es un color sagrado, basta decir que el color preferido de Mahoma (570-632) era el verde y que la más valiosa reliquia del islamismo (la bandera santa bordada en oro) es verde. Con esta bandera el profeta logró la conquista de La Meca.
+
+![image](https://user-images.githubusercontent.com/72580574/222904061-ef0585ab-fcf1-4f39-8c96-11f1fa5c2292.png)
+
+Datos curiosos: Es el único color que representa a una nación: Irlanda. Muchos monstruos en la ficción occidental suelen ser verdes por la asociación con el veneno, el enojo (verde de ira), los trastornos o la podredumbre.
+
+
+Desde el enfoque de Eva Heller, en la percepción y entendimiento de los colores, como en la apropiación y usos que les damos, intervienen consideraciones instintivas (la mayoría de la gente reacciona de manera similar y “natural” a los colores) pero también histórica y socio-cultural, pues la interpretación de los colores en la ropa, en el arte o en los productos tiene que ver con el contexto.
+
+Continuemos con la correspondencia entre colores y sentimientos, simbolismos y actitudes.
+
+### El poder, la elegancia y la muerte visten de negro
+
+Dependiendo de la teoría que se utilice, el negro es considerado un color o la ausencia del mismo. Más allá de esto, la importancia y significado que le damos no se comparan con ningún otro color.
+
+![image](https://user-images.githubusercontent.com/72580574/222904117-788782e7-3d29-410e-b158-2e37ed431361.png)
+
+El negro representa la negación y el fin de las cosas, la ilegalidad e incluso la violencia, pero a la vez es ampliamente usado por la juventud; es el favorito de los diseñadores y también enfunda las pasarelas de moda. Quien viste de negro no necesita de otros colores para llamar la atención, sólo de su personalidad.
+
+Coco Chanel decía: **"Tres cosas necesita una mujerKuna falda negra, un pullover negro y el brazo de un hombre al que quiera".**
+
+![image](https://user-images.githubusercontent.com/72580574/222904156-d4a005c2-3c5c-4bb3-b8a6-d1bf329ec556.png)
+
+Dato Curioso: en la Europa del siglo XIX, las novias se casaban de negro, pues el mismo vestido sería empleado en muchas otras ocasiones formales.
+
+![image](https://user-images.githubusercontent.com/72580574/222904185-e77f2dce-3635-4276-aa15-a840d665fc63.png)
+
+### La espiritualidad y los comienzos son blancos
+
+Según el simbolismo tradicional, el blanco es un color perfecto. La luz, el comienzo y la resurrección casi siempre se representan con él, como también la limpieza y el equilibrio cuerpo-mente-espíritu.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222904226-6c1151bd-3047-43f5-adb4-93245271f8b4.png)
+
+Se piensa que el inicio de las cosas es blanco, por eso envolvemos a los bebés y a las novias con este color, que aparece en muchas otras ceremonias de iniciación.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222904235-8a6538f6-fb71-4211-abdf-96222c0d8c79.png)
+
+La espiritualidad e incluso los fantasmas son blancos en nuestro ideario, siempre vacíos y ligeros, puros y limpios; también el tinte es fundamental en las artes visuales porque provee de luz al cuadro, a la fotografía o al dibujo.
+
+Dato curioso: los esquimales llaman “muerte blanca” a la congelación repentina. Los alimentos que se ven blancos suelen estar muy procesados para obtener este color, el azúcar, el pan de sándwich y el arroz blanco son ejemplo de ello.
+
+![image](https://user-images.githubusercontent.com/72580574/222904244-e593f0a0-3bf9-495c-ae41-e3e1337458cb.png)
+
+### Anaranjado exótico y subestimado
+
+![image](https://user-images.githubusercontent.com/72580574/222904263-66f93aad-5b97-4a9d-983a-80c2b6dd078f.png)
+
+Su nombre proviene de un fruto que alguna vez fue muy exótico y difícil de adquirir; de ahí la idea que las cosas naranjas o “anaranjadas” son llamativas, extrovertidas e incitantes.
+
+![image](https://user-images.githubusercontent.com/72580574/222904289-1b48de36-ef2b-4817-b567-5ba1b0d68a22.png)
+
+A pesar de esta amable percepción, la idea general que tenemos de las personas que usan naranja para vestirse es la de exhibicionistas o faltos de atención, a diferencia del negro, que marca distancia, el naranja parece ser una invitación declarada. También se asocia a un sabor intenso que puede gustar unos momentos, pero que al cabo de un tiempo resulta empalagoso.
+
+Dato curioso: hay muchos establecimientos de comida rápida que manejan el anaranjado con doble intención. Atrae la atención y despierta el apetito, pero después de un rato molesta y obliga a irseKno hay mejor fórmula para el negocio de la fast-food.
+
+![image](https://user-images.githubusercontent.com/72580574/222904307-f728b5e9-bf29-4d15-bb4b-a9cb4b8bbb03.png)
+
+### El morado de la realeza, la magia, el feminismo y el movimiento gay
+
+![image](https://user-images.githubusercontent.com/72580574/222904328-98a8c954-a763-424b-8aed-03d6a3d95d78.png)
+
+
+Durante siglos, obtener este color era tan difícil que sólo personas con gran poder económico podían vestir alguna prenda morada (la capa antigua del Papa era morada, un lujo inimaginable para ese tiempo); había que moler insectos y flores a fuego lento, dejar secar por días y mezclar con otros materiales caros para obtener apenas unos gramos de tinte violeta.
+
+![image](https://user-images.githubusercontent.com/72580574/222904356-36e674b2-83de-417a-a97d-14c983abf10e.png)
+
+
+La vanidad y la sexualidad pecaminosa se asocian frecuentemente a este color. En el ideario simbólico del morado existe una dualidad: se une lo masculino y lo femenino. Por eso el morado ha servido para representar el movimiento homosexual y otras causas de igualdad de derechos
+como el feminismo.
+
+Dato curioso: se cree que los chakras son zonas del cuerpo que albergan una parte del arcoíris y del aura de las personas. El chakra donde se unen entendimiento y sentimientos es el que corresponde al cerebro y su color es el violeta.
+
+Para finalizar la correspondencia entre tonos y simbolismos, aquí están los 5 colores restantes analizados por Eva Heller con el fin de establecer una conexión entre el contexto socio-cultural y la percepción que tenemos de ellos.
+
+Los colores son parte fundamental en la experiencia visual de nuestro mundo.
+
+Valoremos y disfrutemos del sentido de la vista, que es nuestra ventana al mundo de las formas y los tonos, así como de las sombras y los matices.
+
+
+### Dulce y delicado rosa
+
+Su nombre proviene de una flor a la cual están asociadas cualidades típicamente femeninas; el encanto y la amabilidad que se convierten en la fortaleza de los débiles.
+
+![image](https://user-images.githubusercontent.com/72580574/222904409-569302aa-69b9-47f4-b8a7-3153ed2df291.png)
+
+
+En nuestra cabeza, las imágenes rosas suelen ser suaves, pequeñas, tiernas o infantiles. También las expresiones eróticas delicadas y los
+desnudos artísticos suelen ser asociados al rosa, por su cuidado y ternura, aunque un exceso de este color puede resultar fastidioso y vincularse a valores conservadores que pueden ser tildados de aburridos o cursis.
+
+![image](https://user-images.githubusercontent.com/72580574/222904420-169dbf08-4ce1-40df-8d63-5bc5edb9073a.png)
+
+Dato curioso: El diario The Financial Times (dirigido a hombres de negocios y empresarios), así como la revista deportiva italiana Gazetta dello Sport (leído casi exclusivamente por hombres) son impresos en papel rosa a pesar de ser identificado como un color “típicamente femenino.
+
+### Oro: el materialismo y la arrogancia deseada
+
+![image](https://user-images.githubusercontent.com/72580574/222904457-a26241d8-bbf1-4438-b1a0-c6a83063855a.png)
+
+
+Poca gente lo nombra como su color favorito, pero en contraste, muchos objetos deseados tienen el común denominador de ser dorados.
+
+![image](https://user-images.githubusercontent.com/72580574/222904468-f0d10a66-745f-4e25-8976-f18e9e73a813.png)
+
+
+Oro y dinero son conceptos inseparables; una supuesta felicidad comprada es a lo que nos remite este color y las posesiones que portan su brillo. La fama, el lujo y sobre todo la idea del privilegio (el oro es un material muy escaso y codiciado) es lo que alquimistas, buscadores de tesoros y personajes codiciosos persiguieron y aún persiguen por el mundo.
+
+
+![image](https://user-images.githubusercontent.com/72580574/222904474-d921408e-55c7-4265-b4b2-0585a0750b02.png)
+
+Dato curioso: El mundo de la publicidad ha privilegiado al color oro poniéndolo en envases, papeles de cigarrillos y cajas de regalo, para envolver productos pretenciosos y con connotaciones sociales de status.
+
+### Luna plateada, hermosa y lejana
+
+![image](https://user-images.githubusercontent.com/72580574/222904502-c24c1bc9-21d5-4163-a453-da23d2b05f4d.png)
+
+
+
+A pesar de ser asociado al dinamismo y la modernidad (desde la revolución industrial), existe la recurrente idea de que este color representa al “segundo lugar” por excelencia (después del oro).
+
+![image](https://user-images.githubusercontent.com/72580574/222904511-31a33fe3-d07f-4513-808f-022237037245.png)
+ 
+Es el color del dinero “vil”, en contraste con la calidez que el dinero dorado simboliza. También es el elemento (astrológico) correspondiente a la luna, se asocia con lo bello y elegante, pero que nunca deja de ser frío y difícil de alcanzar, características propias del  satélite de la tierra.
+
+Dato curioso: No existen artículos de plata pura, porque en estado natural, la plata es demasiado blanda y debe mezclarse con otros metales que le den dureza para crear los artefactos, cubiertos y accesorios de lujo que usamos ocasionalmente.
+
+### Café: Un color poco apreciado, pero que está en todas partes
+
+La predilección por el color café como favorito es escasa, a pesar de ser estar presente en muchos objetos de nuestra vida y existir en más de 95 tonos diferentes.
+
+![image](https://user-images.githubusercontent.com/72580574/222904558-283d3f70-a6d1-40c8-92bc-fa4c128d291e.png)
+
+
+Se asocia con lo viejo, los sabores fuertes e incluso con los materiales robustos o espacios acogedoras (por la madera). En 
+contraste, es ampliamente aceptado en el mundo de la moda, pues las posibilidades de equilibrio visual que ofrece al estar combinado con otros colores, lo hacen básico en prendas y accesorios.
+
+![image](https://user-images.githubusercontent.com/72580574/222904573-8a00ba83-ac89-4ee8-ae32-95388545ec06.png)
+
+
+Dato curioso: El tono bronceado en la piel (café) llegó a ser un ideal de belleza después de la Segunda Guerra Mundial, pues la mayoría de la gente en Europa trabajaba en fábricas y tener la piel bronceada significaba que podías “permitirte” unas vacaciones ocasionales.
+
+
+### Gris artístico, olvidado y hasta cruel
+
+![image](https://user-images.githubusercontent.com/72580574/222904602-6176676a-c354-44cc-a18a-fac7632f931a.png)
+
+
+Los tests psicológicos suelen asociar al color gris con el olvido, la vejez o lo viejo. En nuestro actual mundo audiovisual, lleno de
+brillantes colores y fluorescentes llamadas de atención a la retina, el gris parece ser un color sin lugar.
+
+![image](https://user-images.githubusercontent.com/72580574/222904616-b44577d5-e0eb-4931-9305-bbff186db6df.png)
+
+
+Pero alejado del consumismo y la publicidad, en el mundo artístico, el gris tiene un lugar muy especial gracias a diversas técnicas pictóricas, plásticas y fotográficas que basan parte de su belleza en el hecho de alejarse de los colores llamativos y concentrarse
+en un mundo mono crómico (un solo color) que se mueve entre el blanco, el negro y sus intermedios.
+
+![image](https://user-images.githubusercontent.com/72580574/222904663-1afdf81e-b5ab-4e12-bad3-f2f546a1fb38.png)
+
+
+Dato curioso: En algunas doctrinas espirituales hay una jerarquía para las almas perdidas según su vestimenta. Los que esperan ser
+redimidos andan en mortaja blanca, los diablos son negros y los que visten de gris (también con piel gris) son los seres del limbo, atrapados en el intermedio de todo.
+
+---
+----
+
 ## :stars: Teoría del color :stars:
 
 
