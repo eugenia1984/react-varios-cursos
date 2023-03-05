@@ -2,7 +2,7 @@
 
 ---
 
-## :book: Temas :book:
+## :book: ¿Qué vas a encontrar? :book:
 
 - En la carpeta [**clases**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/clases) está la teoría vista en cada encuentro.
 
@@ -12,3 +12,9 @@
 
 ---
 
+## :book: Ejes temáticos
+
+![image](https://user-images.githubusercontent.com/72580574/222940110-5fd8e3a0-cbf0-4983-8607-b59602d29d13.png)
+
+
+---
