@@ -1168,3 +1168,438 @@ Componentes
 
 ---
 ---
+
+## :star: HCI (Human Computer Interaction), usabilidad y su relación con el diseño de interacción. :star:
+
+![image](https://user-images.githubusercontent.com/72580574/223571764-229d9612-939e-4290-a17a-08711d8d0c53.png)
+
+La Interacción Persona-Ordenador del inglés Human Computer Interaction (HCI) «es una disciplina relacionada con el diseño, evaluación, desarrollo y estudio de los fenómenos que rodean los sistemas informáticos para uso humano», ACM SIGCHI.
+
+El objetivo del HCI es crear software usable, seguro y funcional.
+
+La usabilidad tiene como objetivo crear sistemas:
+
+* Eficientes
+
+* Efectivos
+
+* Seguros
+
+* Útiles
+
+* Fáciles de aprender
+
+* Fáciles de recordar
+
+Experiencia de usuario del inglés User Experience (UX) se preocupa de aspectos más amplios y subjetivos: satisfacción, diversión, entretenimiento, motivación, estética, creatividad o emociones.
+
+###  ¿Cómo asegurar la usabilidad?
+
+La usabilidad es un trabajo a largo plazo que forma parte del control total de la calidad, que puede cambiar la cultura de la empresa que la acoge. La usabilidad no es imagen corporativa, no es un informe que se lee y se guarda o algo que incumba sólo a un departamento. La usabilidad no es un extra en el desarrollo de productos y servicios.
+
+La usabilidad es estratégica y debe trabajar desde el corazón de las operaciones de negocio. La usabilidad está en el corazón de la excelencia.
+
+Aseguras la usabilidad de un producto si:
+
+* Incorporas a los usuarios en todo el proceso de desarrollo.
+
+* Tu proceso de desarrollo es iterativo.
+
+* Estableces medidas cuantitativas al inicio del proyecto.
+
+* Haces test de usabilidad.
+
+* Trabajas en equipos multidisciplinares.
+
+###  Palabras clave:
+
+- Actor: Es un papel de cualquier entidad externa al software que interactúa con él. Pueden ser usuarios, máquinas u otros sistemas de software.
+
+- Casos de uso: Representan funcionalidades del software iniciadas por un actor o por otro caso de uso.
+
+- Evaluación: Evaluar un sistema implica recoger datos de requisitos de usuario en una actividad particular para un entorno de trabajo.
+
+- Escenario: Historia ficticia y personalizada con personajes, eventos, productos y entornos. Ayudan a explorar ideas y las ramificaciones de las decisiones de diseño.
+
+- Tarea: Descripción de lo que la gente hace. Estas descripciones predicen y evalúan la dificultad de un sistema.
+
+---
+
+### Diseño accesible
+
+Principios y pautas del diseño accesible según las WCAG 2.0
+
+La accesibilidad o el diseño accesible en internet, es simple y llanamente diseñar tu contenido para que sea interoperable (cualquier usuario pueda acceder
+independientemente del navegador o sistema operativo) e independiente del dispositivo (cualquier usuario pueda acceder tanto si usa un ratón, un teclado, etc.).
+
+Es aún muy frecuente que la accesibilidad esté mal asociada a algo:
+
+* Difícil y complicado.
+
+* Que afecta a muy pocos.
+
+* Con coste elevado.
+
+* Sólo para ciegos.
+
+* Poco estético o diseños sólo de texto.
+
+Las pautas de verificación WCAG 2.0 del W3C son el referente mundial y se rigen por  estos cuatro principios de diseño accesible aplicables a cualquier tecnología:
+
+#### 1: Perceptible - La información y los componentes de interfaz deben presentarse a los usuarios de manera que puedan ser percibidos.
+
+Las pautas para cumplir este principio:
+
+* 1.1 - Todo el contenido no textual debe disponer de alternativas en formato texto.
+
+* 1.2 - Proporciona alternativas al contenido tempo-dependiente: audio, vídeo o multimedia.
+
+* 1.3 - Crea contenido que pueda presentarse de diferentes formas sin perder información o estructura.
+
+* 1.4 - La presentación debe resultar lo más fácil de percibir para las personas con discapacidad.
+
+#### 2: Operable - Los componentes de la interfaz de usuario y navegación deben ser operables.
+
+Las pautas para cumplir este principio:
+
+* 2.1 - Todas las funcionalidades deben ser accesibles mediante un teclado.
+
+* 2.2 - Proporciona a los usuarios tiempo suficiente para leer y usar el contenido.
+
+* 2.3 - Evita contenidos que puedan provocar transtornos en los usuarios.
+
+* 2.4 - Facilita a los usuarios ayuda a la navegación, localización del contenido y posición.
+
+####  3: Comprensible - La información y las operaciones de la interfaz de usuario deben ser comprensibles.
+
+Las pautas para cumplir este principio:
+
+* 3.1 - El contenido textual debe ser legible y comprensible.
+
+* 3.2 - Presenta el contenido y su comportamiento de forma predecible.
+
+* 3.3 - Ayuda a los usuarios a prevenir y corregir los errores.
+
+#### 4: Robusto - El contenido y el código deben ser compatibles para que sean interpretados por una amplia variedad de agentes de usuario.
+
+Es el principio sobre el que se asienta todo lo demás y contiene una única pauta: 
+
+4.1 - Asegura la compatibilidad con los agentes de usuario actuales y futuros.
+
+Un agente de usuario en una aplicación para acceder a las páginas web.
+
+---
+
+## Diseño centrado en el usuario
+
+Implicar al usuario en el proceso de desarrollo de software
+
+Diseño Centrado en el Usuario (DCU) no es lo mismo que diseñar pensando en el usuario. DCU es diseñar y evaluar con usuarios para los que se está creando el producto.
+
+La evaluación debe ser hecha en todos los estados del proceso de diseño, y tan temprano como sea posible.
+
+El estándar ISO 13407 "Human centred design for interactive systems", provee de un marco teórico para el desarrollo de actividades centradas en el usuario. Desarrolla prototipos y éstos son probados, cambiados o sustituidos con el feedback de los usuarios reales.
+
+DCU produce software:
+
+* Más fácil de usar y entender.
+
+* Mejora la calidad de vida de los usuarios e incrementa la satisfacción.
+
+* Incrementa la productividad y eficacia operacional de los usuarios y por lo tanto los de la organización.
+
+* El proceso permite identificar problemas en un estado en el cual aún es barato y posible hacer cambios.
+
+### Principios
+
+- Balance apropiado de funciones: Son tus usuarios los que deciden si tu producto es fácil de usar, y si quieren utilizarlo o no.
+
+- Usuarios activos: La incorporación de usuarios en el proceso productivo, aumenta el uso del producto.
+
+- Desarrollo iterativo: Mejora mediante múltiples repeticiones con retroalimentación cíclica.
+
+- Grupos de diseño multidisciplinar: Hay que involucrar varias partes y diferentes perspectivas.
+
+## Diseño con estándares
+
+El fin de la caducidad en internet
+
+La creación de varias versiones de marcado y código no estándar, cada una en función del comportamiento no estándar de un determinado navegador, es la causa de la perpetua obsolescencia que inunda muchos sitios en internet.
+
+Además de las secuencias de comandos propietarias, los programadores diseñan marcado de presentación que duplica el ancho de banda necesario para ver u ofrecer una página al tiempo que reduce su accesibilidad para motores de búsqueda, navegadores y dispositivos no tradicionales.
+
+Las tecnologías creadas por el World Wide Web Consortium (W3C) permiten que se puedan diseñar y crear sitios con un funcionamiento duradero, aunque cambien los estándares y navegadores.
+
+Los estándares permiten:
+
+* Tener mayor control sobre el diseño visual.
+
+* Desarrollar comportamientos sofisticados que funcionen en diferentes navegadores.
+
+* Cumplir las normas y directrices de accesibilidad sin sacrificar el aspecto visual, el rendimiento o la sofisticación.
+
+* Admitir varios navegadores sin preocuparse de crear diferentes versiones.
+
+* Admitir dispositivos no tradicionales, desde inalámbricos a teléfonos móviles compatibles.
+
+* Conseguir sofisticadas versiones impresas de cualquier página sin crear versiones "aptas para impresión".
+
+* Separar estilo de estructura y comportamiento.
+
+* Realizar la transición entre el lenguaje del pasado HTML, al marcado basado en XML
+
+* Garantizar que los sitios diseñados de esta forma funcionarán en los futuros navegadores y dispositivos.
+
+### ¿Qué es el W3C?
+
+Creado en 1994, el W3C trabaja con especificaciones y directrices con la intención de promover la evolución de la web. Su director Tim Berners-Lee inventó la web en 1989.
+
+Entre las especificaciones desarrolladas por el W3C destacan el HTML, CSS, XHTML y el modelo de objetos de documento DOM entre otras muchas.
+
+
+### ¿Qué es ECMA?
+
+Entre otros organismos de estándares podemos destacar el European Computer Manufacturers Association, fundada en 1961.
+
+Son responsables entre otros del lenguaje ECMAScript, que familiarmente se denomina JavaScript estándar.
+
+###  Estándares HCI
+
+Los estándares HCI están relacionados con la usabilidad y se pueden categorizar en:
+
+1. El uso del producto
+
+2. La interfaz de usuario y el diseño de iteración.
+
+3. El proceso utilizado para desarrollar un producto.
+
+4. La capacidad de una organización de aplicar diseño centrado en el usuario
+
+
+###  ¿Qué es la compatibilidad directa?
+
+Es la que permite que cualquier documento que se publique en internet funcione en diferentes navegadores, plataformas y dispositivos, presentes y futuros.
+
+Los tres componentes - estructura, presentación y comportamiento - son la trinidad de los estándares.
+
+
+---
+
+## Diseño de la información
+
+### La arquitectura de los contenidos
+ 
+En un edificio, cada elemento, mueble o localización sirve a unos propósitos, los sitios web y el software en general, tienen arquitecturas intangibles que se construyen con  contenidos. Igual que los edificios, nos hacen reaccionar y sólo las percibimos cuando algo falla.
+
+La invisibilidad de esta arquitectura que llamamos de información es el mayor problema para justificar a veces su existencia e importancia.
+
+### Arquitectura de la información
+
+Es la disciplina encargada de planificar, analizar, organizar la disposición y presentación de los contenidos en los sistemas de información interactivos.
+
+Las labores de un arquitecto de información incluyen:
+
+* Estructurar, etiquetar y planificar la navegación.
+
+* Estructurar el diseño de la información para facilitar las tareas.
+
+* Gestionar la información.
+
+* Diseñar buscadores.
+
+Diseño gráfico, diseño de iteración, redacción de contenidos o experiencia de usuario no es arquitectura de información. Aunque todas estas disciplinas se solapan e influyen en un proyecto de diseño de software.
+
+### ¿Por qué es importante?
+
+Para calcular su importancia hay que considerar los costes y el valor del contenido, la formación a trabajadores-clientes, o la construcción y mantenimiento de un sistema.
+
+No es distinto a otras áreas de negocio, como el marketing, la ingeniería o los recursos humanos.
+
+---
+
+##  Diseño de interfaz
+
+### Interfaz no es sólo lo que se ve en la pantalla
+
+En tecnología se denomina interfaz a muchas cosas, pero es la interfaz gráfica de usuario el concepto aquí tratado. De forma abreviada en inglés, también se le denomina Graphic User Interface (GUI), o User interface (UI).
+
+La primera interfaz gráfica de usuario fue diseñada por Xerox en los años 70. Pero no fue hasta los 80 cuando Apple las hizo mundialmente populares en sus ordenadores, posteriormente fueron copiadas por Microsoft con sus "windows".
+
+En un software bien diseñado, los elementos que componen la interfaz, son funcionalmente independientes y están conectados de forma indirecta al programa.
+
+Algunos componentes básicos
+
+1. Puntero: en un símbolo de pantalla que te permite mover o seleccionar objetos y comandos.
+
+2. Periféricos de puntero: como el ratón del ordenador.
+
+3. Iconos: Pequeñas imágenes que representan comandos, documentos o ventanas.
+
+4. Escritorio: área de la pantalla que representa una mesa de trabajo.
+
+5. Ventanas: conocidas en inglés como Windows. Sirven para dividir la pantalla en diferentes secciones.
+
+6. Menús: La mayoría de las interfaz de usuario te permiten ejecutar comandos seleccionando opciones en ellos.
+
+---
+
+## Diseño orientado a objetos
+
+Comunicar gráficamente diseño de software
+
+El software siempre cumple unos requisitos. Para comunicar los requisitos entre las partes responsables de un proyecto, se pueden utilizar lenguajes naturales.
+
+Los lenguajes de programación como SQL, Java o XML, también se utilizan para comunicar los detalles de un sistema.
+
+Los lenguajes de modelado son el puente entre los requisitos y el desarrollo del sistema. 
+
+El Unified Modeling Language (UML) es un lenguaje visual de modelado y comunicación, que se usa para especificar, visualizar, construir y documentar software.
+
+### Ejemplo de gráfico UML
+
+![image](https://user-images.githubusercontent.com/72580574/223573288-69e59a51-6465-4d42-b9a3-37b1dda0b4a2.png)
+
+### Objetivos del UML
+
+* Fácil de usar.
+
+* Expresivo.
+
+* Simple.
+
+* Preciso.
+
+* Extensible.
+
+* Independiente de la implementación.
+
+* Independiente del proceso.
+
+Para que los desarrolladores contaran con modelos precisos se creó el sub-lenguaje Object Constrain Language (OCL), para añadir condiciones a los elementos del modelo que debe cumplir para considerarlo correcto.
+
+UML es independiente del proceso de desarrollo utilizado, pero sus autores promueven el uso de un proceso dirigido por los casos de uso, centrado en la arquitectura, iterativo e incremental.
+
+---
+
+### Diseño de procesos: operaciones de negocio
+
+El diseño de un producto y su proceso de creación no pueden separarse, especialmente en los servicios, donde el proceso es el servicio.
+
+Un producto y su proceso de desarrollo son conceptos entrelazados, donde el diseño de los procesos es crítico para asegurar la satisfacción de los clientes.
+
+Cuando uno dice que es diseñador, la mayoría asume que te dedicas a mejorar el aspecto de un producto. Pero DISEÑAR es una actividad mucho más amplia. No hay una definición universal, pero también es diseño «el proceso por el que los requisitos funcionales de los usuarios se cumplen, configurando los recursos y actividades que componen un producto o servicio».
+
+Diseñar es tomar decisiones. Diseñar es planificar recursos para convertirlos en productos o servicios. Diseñar es especificar objetivos de:
+
+* Producto: ¿qué atributos percibe el consumidor de utilidad?
+
+* Proceso: ¿cómo podemos reproducir de forma sistemática características esenciales?
+
+### Fases de un proceso de diseño
+
+![image](https://user-images.githubusercontent.com/72580574/223573453-70545011-f6fb-456e-a73a-49e1716d293d.png)
+
+Un producto y su proceso interactúan de forma estrecha cuando:
+
+* Parte del servicio del producto es la experiencia del cliente.
+
+* El diseño y el proceso productivo afecta a las características del producto.
+
+* El diseño del producto determina los procesos necesarios para producirlo.
+
+Cuanto más tarde aparezca el diseño en las operaciones de negocio, más difícil y costoso es mejorar un producto o servicio.
+
+![image](https://user-images.githubusercontent.com/72580574/223573500-e7444453-d0c0-4480-bbac-b2420c5f874f.png)
+
+---
+
+## Diseño en paralelo
+
+#### Mejora los resultados del proceso de diseño
+
+Se puede confiar que un diseño sea bueno desde el principio y que al emplear un desarrollo de iteración mejore, o puedes asegurar los resultados si desde el principio aplicas un diseño en paralelo.
+
+En un proceso de diseño en paralelo se crean diferentes bocetos realizados o no por un mismo diseñador. Para mantener el presupuesto ajustado, todas las versiones paralelas deben crearse de forma rápida y económica. No es necesario completar todas las funciones o detalles del producto, sólo las más importantes para el proyecto. Tampoco es necesario detallar excesivamente el diseño, basta con unos sencillos prototipos.
+
+#### Proceso de diseño en paralelo
+
+Una vez realizadas las opciones de diseño (mínimo de 3 y máximo de 5), hay que
+comprobarlas con test de usabilidad, en donde cada usuario participante DEBE probar
+todas las opciones creadas.
+
+Con cada participante se debe alterar el orden de los diseños, para evitar que se
+transfieran experiencias previas durante el test. Al final es fundamental que los
+participantes del test hagan una comparativa de las opciones testadas.
+
+
+Finalmente hay que crear un único diseño que combine lo mejor de cada opción. El test
+no debe ser una competición para identificar un único diseño ganador, siempre todas las
+opciones tienen algo de bueno.
+
+En 1996 Jakob Nielsen y Jan Maurits Faber publicaron Improving System Usability
+Through Parallel Design donde evaluaban tres procesos de diseño:
+
+* Si de 4 alternativas simplemente se escogía la mejor y luego se aplicaba un diseño
+de iteración, la usabilidad mejoraba un 56% más que la media de los cuatro diseños
+originales.
+
+* Si se combinan los diseños en uno nuevo se mejoraba su usabilidad un +70% más
+que la media de los cuatro diseños originales.
+
+* Si se aplica un proceso de iteración al diseño combinado en la primera repetición la
+mejora de la usabilidad era de un 152% más que la media de los cuatro diseños
+originales.
+
+En 2010 la universidad de Stanford publicó Parallel prototyping leads to better design
+results, more divergence, and increased self-efficacy. En este estudio el objetivo era
+aumentar el CTR (click-through rate) de las campañas publicitarias en internet.
+Los anuncios creados mediante diseño en paralelo conseguían durante los primeros 5
+días de campaña un 67% de mejores resultados. Los anuncios diseñados en paralelo
+conseguían un CTR de 0.055% en comparación al CTR de 0.033% de los anuncios no
+creados así.
+
+En una campaña de 15 días los diseños en paralelo obtenían un 12% de mejores
+resultados: un CTR de 0.045% comparados con un CTR de 0.040%
+Las conclusiones son siempre las mismas, tanto si empleamos el proceso para
+desarrollar un software o diseñar un anuncio publicitario: el diseño en paralelo genera
+mejores resultados.
+
+---
+
+### Diseño visual, diseño gráfico
+
+¿Una simple cuestión de gusto?
+
+«La estética no me interesa, no sé lo que es. Lo bonito es una apelación burguesa que
+está vacía de sentido. Puedo comprender la coherencia de signos, la armonía de
+parámetros. La estética es un juicio cultural sin valor porque no es intemporal. No es
+más que la herramienta que sirve a la moda, al consumo, al "me gusta, no me gusta". La
+belleza de un objeto es su competencia para expresar un mensaje y una función. No
+trabajo en lo bello, intento trabajar en lo bueno.» Philippe Starck
+Diseño gráfico es un término anterior a diseño visual y define a quienes crean
+composiciones con imágenes y tipografía para comunicar un mensaje. Su origen se
+remonta al descubrimiento de la escritura, pero es sólo a finales del XIX cuando se
+convierte en una disciplina independiente.
+
+Algunas aplicaciones son: publicaciones, libros, productos de márketing, multimedia
+(títulos de películas, anuncios, tv), identidad corporativa (logotipos, tarjetas de visita,
+papelería), diseño de embases o signos de información.
+
+Algunos diseñadores no son «artistas» ya que no crean los gráficos, ilustraciones o
+fotografías que utilizan. Otros diseñadores gráficos no trabajan con texto, es el caso de
+ilustradores o artistas digitales. Y otros hacen de todo: impresión, web, maquetación,
+ilustración...
+
+Me gusta, no me gusta
+
+Las decisiones en diseño visual no se pueden sustentar en gustos.
+Un buen diseñador gráfico debe responder de su trabajo contestando a preguntas
+concretas ¿cómo refuerza el diseño la estructura? ¿Cómo clarifica las opciones de los
+usuarios? ¿Por qué ese color refuerza el mensaje?
+Los artistas pueden ignorar la parte de negocio de su trabajo, los diseñadores no.
+
+Material extraído de:
+http://www.albertolacalle.com/index.htm
+
+---
+---
