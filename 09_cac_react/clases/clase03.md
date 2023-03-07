@@ -20,6 +20,9 @@ Los links son
 
 - Productos, van a ser los recuadros con los productos, en vez de tenerlos en cajas lo podria tener en un slider con las flechas a los costados que me indica que tiene una continuacion, me interactua con el carousel, que me va a mostrar mas productos, y el usuario lo maneja
 
+La Gestalt habla de la CONTINUIDAD, por eso en el carousel se le pone un pre y un post sobreado, asi el usuario tiene esa sensacion de continuidad.
+
+
 - Locales
 
 - Contacto, va a ser el formulario de contacto, que antes va a tener mi nueva seccion de Conocenos o Nosotros.
