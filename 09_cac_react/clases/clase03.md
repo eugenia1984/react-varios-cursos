@@ -1603,3 +1603,372 @@ http://www.albertolacalle.com/index.htm
 
 ---
 ---
+
+
+## :star: PROTOTIPADO :star:
+
+
+### Lev Manovich - La visualización de datos como nueva abstracción y antisublime
+
+#### Visualización y mapeado
+
+La visualización de datos dinámicos es, junto con la interfaz de usuario gráfico, las bases
+de datos, el espacio navegable y la simulación, una de las formas culturales realmente
+nuevas que los ordenadores han hecho posible. Sin duda, los devotos de Edward Tufte
+recordarán que ya en el siglo dieciocho, se podían encontrar ejemplos de representación
+gráfica de datos cuantitativos, pero el uso del medio informático ha hecho que estas
+representaciones pasen de ser la excepción a convertirse en la norma. Asimismo, ha
+posibilitado toda una serie de nuevas técnicas de visualización y de usos para éstas. Por
+medio del ordenador podemos visualizar conjuntos de datos mucho mayores; crear
+visualizaciones dinámicas (es decir, animadas e interactivas), introducir datos en tiempo
+real y basar la representación gráfica de datos en su análisis matemático, utilizando toda
+una variedad de métodos, desde la estadística clásica a la minería de datos, para mapear
+un tipo de representación sobre otro (por ejemplo, las imágenes sobre los sonidos, los
+sonidos sobre los espacios en tres dimensiones, etc.)
+
+Desde que Descartes introdujo un sistema para cuantificar el espacio en el siglo diecisiete,
+la representación gráfica de funciones se ha convertido en la piedra angular de las
+matemáticas. En las últimas décadas, el uso de ordenadores para la visualización ha
+permitido desarrollar nuevos paradigmas científicos, como las teorías del caos y la
+complejidad y la vida artificial. También constituye la base del nuevo campo de la
+visualización científica. La medicina moderna depende de la visualización del cuerpo y
+su funcionamiento y la biología moderna depende de la visualización del ADN y las
+proteínas. Pero aunque las ciencias puras y aplicadas contemporáneas -desde las matemáticas
+y la física a la biología y la medicina- dependen en gran medida de la visualización, en
+la esfera cultural, la visualización se ha utilizado, hasta hace muy poco, a una escala mucho
+más reducida, limitándose a gráficos y tablas en dos dimensiones en las secciones financieras
+del periódico, o en ocasionales visualizaciones televisivas en tres dimensiones para ilustrar
+la trayectoria de una estación espacial o de un misil.
+
+Utilizaré el término visualización para las situaciones en las que unos datos cuantificados,
+que no son visuales en sí mismos, el resultado de sensores meteorológicos, la conducta
+del mercado de valores, el conjunto de direcciones que describen la trayectoria de un
+mensaje a través de una red de ordenadores, etc., se transforman en representaciones
+visuales(19
+
+El concepto de mapeado se parece mucho al de visualización pero vale la pena diferenciarlos.
+Al representar todos los datos utilizando el mismo código numérico, los ordenadores
+facilitan el mapeado de una representación sobre otra: una imagen en escala de grises
+sobre una superficie en tres dimensiones, una onda sonora sobre una imagen (pensemos
+en los visualizadores de programas de reproducción de música como iTunes), etc.. Así
+pues, la visualización se puede entender como un subconjunto particular del mapeado en
+el que una serie de datos se mapea sobre una imagen.
+
+Los humanos vivimos en un espacio de cuatro dimensiones, por lo que nos resulta difícil
+imaginar datos en más de cuatro dimensiones: tres dimensiones de espacio (X, Y, Z) y el
+tiempo, por esta razón la cultura humana prácticamente no utiliza nunca más de cuatro
+dimensiones en sus representaciones. Sin embargo, muy a menudo, los conjuntos de datos
+que queremos representar tienen más de cuatro dimensiones. En tales ocasiones, los
+diseñadores y sus clientes tienen que elegir qué dimensiones utilizarán y cuáles omitirán,
+así como el modo de mapear las dimensiones seleccionadas.
+
+En esto consiste la nueva política del mapeado de la cultura informática. ¿Quién ostenta
+el poder de decidir qué mapeado utilizar, qué dimensiones se seleccionan; qué tipo de
+interfaz se ofrece al usuario? Estas nuevas preguntas sobre el mapeado de datos son tan
+importantes ahora como las preguntas más tradicionales sobre la política de la representación
+mediática que tanto se han planteado desde la crítica cultural (la de a quién se representa
+y a quién se omite). De forma más precisa, estas nuevas preguntas sobre la política de la
+representación de datos cuantificados, se dan en paralelo a otras preguntas sobre el
+contenido de las representaciones mediáticas icónicas y narrativas. En este último caso,
+normalmente nos enfrentamos a imágenes visuales de gente, países y etnias, en el primer
+de los casos se suele tratar de animaciones abstractas en tres dimensiones y tablas, gráficos
+u otros tipos de representación visual tridimensional de datos cuantificados.
+
+---
+
+(1 )Por supuesto, si pensamos también en la animación por ordenador en 3D como un tipo de visualización de datos,
+ya que al fin y al cabo la representación en 3D se construye a partir de un conjunto de datos que describen los
+polígonos de los objetos de cada escena, o a partir de funciones matemáticas que describen sus superficies, el papel
+que juega la visualización de datos es mucho mayor. La animación en 3D se utiliza de forma habitual en la industria,
+la ciencia y la cultura popular. Pero no creo que debamos aceptar este argumento, dado que las imágenes diseñadas
+en 3D por ordenador se ajustan a las técnicas perspectivas occidentales tradicionales de representación del espacio
+y, por tanto, desde el punto de vista de su apariencia visual no constituyen un fenómeno nuevo.
+
+---
+
+
+### Modernismo de datos
+
+Mapear un conjunto de datos sobre otro, o un medio sobre otro, es una de las operaciones
+más comunes de la cultura informática y también es algo común en el arte de nuevos
+medios.2 Uno de los proyectos de mapeado más tempranos, que recibió una atención
+enorme y que se encuentra en la intersección de la ciencia y el arte (ya que parece funcionar
+bien en ambos contextos) fue el “live wire” (1995) de Natalie Jeremijenko. Jeremijenko
+trabajó en Xerox PARC a principios de los noventa creando una escultura funcional de
+alambre que reacciona en tiempo real a la conducta de la red: cuando hay más tráfico esto
+hace que el alambre vibre con más fuerza. En los últimos años, el mapeado de datos se
+ha establecido como una de las áreas más importantes e interesantes en el arte con nuevos
+medios, y ha atraído la energía de algunos de los mejores integrantes del campo. No es
+casualidad que de los diez proyectos de Net Art que se incluyeron en la Whitney Biennial
+del 2002, aproximadamente la mitad presentaran diferentes tipos de mapeados: un mapeado
+visual del espacio de las direcciones de Internet (Jevbratt); un modelo tridimensional y
+navegable de la Tierra que representaba un rango de información acerca de ésta en múltiples
+capas (Klima); otro modelo en tres dimensiones que ilustraba el algoritmo que se utiliza
+para hacer búsquedas en el genoma (Fry); o varios diagramas que mostraban relaciones
+de poder corporativo en los Estados Unidos (John On & Futurefarmers)(3)
+
+
+Permítanme comentar con más detalle un par de proyectos artísticos bien conocidos de
+visualización de datos. En su proyecto 1:1 Lisa Jevbratt creó una base de datos dinámica
+que contenía las direcciones IP de todos los servidores de la World Wide Web, con cinco
+formas diferentes de visualizar esta información(4) . Como apunta la descripción del proyecto de Jevbratt
+
+---
+
+(2) La mayoría de mapeados, tanto en la ciencia como en el arte, van desde un medio no-visual a un medio visual.
+¿Es posible crear mapeados que circulen en la dirección opuesta?
+
+(3) http://artport.whitney.org/exhibitions/index.shtml.
+
+---
+
+
+Cuando se navega por la red a través de esta base de datos, se experimenta una
+red diferente de la que experimentamos cuando usamos los “mapas de carretera”
+que nos proporcionan los buscadores y los portales. En lugar de anuncios,
+pornografía o fotos de animales de compañía, esta red consiste en una enorme
+cantidad de información no accesible, sedes sin desarrollar y mensajes crípticos
+que iban dirigidos a otras personas.[ ...]. Las interfaces/visualizaciones, no son
+mapas de la red, sino que en cierto sentido, son la red. Son super-realistas y,
+sin embargo, funcionan de un manera en la que las imágenes no podrían
+funcionar en ningún otro entorno ni tiempo. Son un nuevo tipo de imagen de
+la red y un nuevo tipo de imagen.
+
+En un proyecto del 2001, Mapping the Web Informe, Jevbratt: continuó trabajando con
+bases de datos y herramientas para la recolección y la visualización de datos; de nuevo
+se centró en la red como el repositorio de datos más interesante del que disponemos hoy
+en día5. Para este proyecto Jevbratt desarrolló un tipo de programa especial que permitía
+crear con facilidad, mediante menús, webcrawlers y visualizaciones de los datos reunidos
+(un crawler es un programa informático que se mueve de forma automática de página web
+en página web reuniendo datos de cada una de ellas). Jevbratt invitó a una serie de artistas
+a que utilizaran este programa para crear sus propios crawlers y para visualizar los datos
+reunidos de varias formas diferentes. Este proyecto ejemplifica una nueva función del
+artista, como diseñador de entornos de software que después dejan a disposición de los
+demás.
+
+Alex Gallaway /RSG collective utilizan un enfoque parecido en su proyecto de visualización
+de redes Carnivore (2002). Al igual que Jevbratt, el RSG collective creó un sistema de
+programas que después puso a disposición de otros artistas. La apariencia física de
+Carnivore era una mezcla entre una caja de vigilancia telefónica sin nada de particular,
+como las que se utilizan en los GDR, y una escultura modernista, que al conectarse en un
+
+---
+4 http://www.c5corp.com/1to1/
+5 http://dma.sjsu.edu/jevbratt/lifelike/
+---
+
+punto de la red, interceptaba todos los datos que pasaban a través de ella. En sí mismo,
+esto no constituye una obra de arte, ya que existen toda una serie de programas informáticos
+comerciales que llevan a cabo funciones parecidas. Por ejemplo, Etherpeek 4.1, es un
+analista de LAN que capta paquetes de redes Ethernet o AirPort a las que esté conectado
+y utiliza descodificadores para descomponer esos paquetes en sus campos constituyentes.
+Puede descodificar protocolos de red FTP, HTTP, POP, IMAP, Telnet, Napster y cientos
+de otros. Lleva a cabo análisis estadísticos de paquetes captados en tiempo real y puede
+reconstruir mensajes de correo electrónico completos a partir de los paquetes captados.
+Como suele suceder con los programas diseñados por artistas, Carnivore sólo ofrece una
+pequeña parte de las prestaciones de sus equivalentes comerciales, como Etherpeek. Lo
+que sí ofrece es la arquitectura abierta que permite que otros artistas escriban sus propios
+clientes de visualización, para mostrar la información de formas diferentes. Algunos de
+los mejores artistas que trabajan en la red han escrito clientes de visualización para
+Carnivore. El resultado es un menú de formas rico y diverso, dirigido por los datos de la
+red.
+
+Después de comentar algunos ejemplos clásicos de arte de visualización de datos, me
+gustaría proponer ahora una interpretación particular de esta actividad, comparándola con
+la abstracción de principios del siglo veinte. En las primeras décadas del siglo veinte, los
+artistas modernos mapearon el caos visual de la experiencia metropolitana en imágenes
+geométricas simples. Podríamos decir que los artistas de visualización de datos, han
+transformado el caos informativo de los paquetes de datos que se movían a través de la
+red, en formas claras y ordenadas.
+Podemos establecer además otro paralelismo. El modernismo redujo lo particular a
+esquemas platónicos (pensemos, por ejemplo, en el modo en que Mondrian abstrajo de
+forma sistemática la imagen de un árbol en una serie de pinturas). La visualización de
+datos lleva a cabo una reducción parecida, ya que nos permite ver los patrones y estructuras
+que subyacen en conjuntos de datos aparentemente arbitrarios.
+Este paralelismo debe ser inmediatamente matizado, apuntando a una diferencia crucial.
+En cierto sentido, la abstracción modernista era anti-visual, reducía la diversidad de la
+experiencia visual cotidiana a estructuras muy mínimas y repetitivas (Mondrian vuelve
+a ser un buen ejemplo), la visualización de datos suele utilizar la estrategia contraria: los
+mismos conjuntos de datos dan lugar a variaciones de imágenes infinitas (pensemos en
+los muchos plug-ins disponibles para utilizar con programas de reproducción de música
+
+como iTunes, o en los clientes de Carnivore). Así pues, la visualización de datos se mueve
+desde lo concreto hacia lo abstracto para volver de nuevo a lo concreto. Los datos
+cuantitativos se reducen a sus patrones y estructuras, pero éstas después explotan en
+muchas imágenes visuales ricas y concretas.
+Otra diferencia importante es una cualidad nueva de la visualización de datos que podríamos
+llamar reversibilidad. Una vez que Mondrian, Delaunay, Picasso y otros pintores modernos
+reducían en sus cuadros la realidad sensible y concreta a esquemas abstractos, el espectador
+no podía recuperar esta realidad haciendo clic en el cuadro. En otras palabras, esta reducción
+sólo operaba en un sentido. Pero en el caso de muchas imágenes de visualización de datos,
+el usuario puede interactuar con la visualización para obtener más información sobre los
+datos que generaron la imagen, evocar otras representaciones de esos datos o, simplemente,
+acceder a ellos directamente. Un buen ejemplo de esto fue una visualización elegante y
+evocadora realizada por uno de los maestros de la visualización de datos: Anemone, de
+Benjamin Fry6
+
+. Esta visualización presenta una estructura de aspecto orgánico en continuo
+crecimiento que está dirigida por la estructura de una página web en particular y las
+estadísticas de acceso de ésta. En la vista predeterminada, no hay ninguna etiqueta ni texto
+que acompañe la visualización, por lo que una imagen fija de ésta podría pasar a primera
+vista por una típica pintura abstracta moderna, en el género de la “abstracción orgánica”.
+Sin embargo, en cualquier momento, el usuario puede hacer clic en cualquier parte de la
+estructura móvil para revelar las etiquetas que explican qué es lo que representa esa parte
+(en este caso, un directorio específico de la página web). Así que lo que podría confundirse
+por el resultado puro de la imaginación del artista, es en realidad un mapa de datos preciso.
+En otras palabras, la visualización es “reversible”, permite que el usuario regrese a los
+datos que dieron lugar a la visualización.
+
+### Belleza significativa: el mapeado de datos como anti-sublime
+
+Además de relacionar la visualización de datos con la abstracción modernista, permítanme
+ahora abocetar otra interpretación que la conectará con otro concepto de la historia cultural
+moderna: lo sublime. Teniendo en cuenta la frecuencia, y quizás la excesiva facilidad, con
+la que se invoca lo sublime en relación a varios fenómenos espectaculares de la cultura
+contemporánea, pasaré inmediatamente a negar este término.
+
+
+---
+
+6 http://acg.media.mit.edu/people/fry/anemone/
+
+---
+
+Mi argumento es el siguiente: los proyectos de visualización de datos suelen prometer la
+representación de fenómenos que se encuentran más allá de la escala sensorial humana
+de forma que queden a nuestro alcance, que sean visibles y tangibles. Así pues, no es
+casualidad que los ejemplos más admirados de visualizaciones de datos (especialmente
+de los que se usan en ciencia), muestren estructuras a escala super-humana en el espacio
+y el tiempo: Internet, objetos astronómicos, formaciones geológicas que se desarrollan
+con el tiempo, patrones climáticos globales, etc. Esta promesa hace que la cartografía de
+datos aparezca como el opuesto exacto del arte romántico ocupado de lo sublime. A
+diferencia de éste, el arte de visualización de datos se ocupa de lo anti-sublime. Mientras
+que los artistas románticos pensaban en ciertos fenómenos y efectos como no-representables,
+como algo que estaba más allá de los límites de los sentidos humanos y la razón, los
+artistas de visualización de datos aspiran justo a lo contrario: a cartografiar estos fenómenos
+en una representación cuya escala sea comparable a la escala de la percepción y cognición
+humana. Por ejemplo, 1:1, de Jevbratt reduce el cyberespacio -que normalmente se imagina
+como algo vasto o incluso infinito- a una sola imagen que cabe dentro del marco de un
+buscador. Asimismo, los clientes gráficos de Carnivore, transforman otro fenómeno
+invisible y “desordenado”, el flujo de paquetes de datos a través de la red, pertenecientes
+a diferentes mensajes y archivos, en imágenes ordenadas y armónicas. Lo macro y lo
+micro, lo infinito y lo sin fin, quedan mapeados en objetos visuales manejables que encajan
+en un solo marco de buscador.
+
+Además de relacionar la visualización de datos con la abstracción modernista y el concepto
+romántico de lo sublime, hay otra forma en la que la lógica de la visualización de datos
+se asocia al arte moderno. El deseo de hacer que aquello que normalmente se encuentra
+más allá de la escala sensorial humana sea visible y manejable, aproxima la visualización
+de datos a la ciencia moderna. Su materia, es decir, los datos, la sitúa en el paradigma del
+arte moderno. A principios del siglo veinte, el arte había abandonado una de sus funciones
+fundamentales, por no decir su función fundamental, la de representar al ser humano. En
+lugar de ello, la mayoría de artistas se desplazaron hacia otros problemas, como la
+abstracción, los materiales y objetos industriales (Duchamp y los minimalistas), las
+imágenes mediáticas (el arte pop), la figura del artista mismo (la performance y el videoarte)
+y hoy en día, los datos. Por supuesto, se podría decir que la visualización de datos representa
+al ser humano de forma indirecta, al hacer visibles sus actividades (por lo general sus
+movimientos por la Red). Sin embargo, los sujetos de los proyectos de visualización de
+datos suelen ser estructuras objetivas (como la tipología de Internet) en lugar de huellas
+directas de actividades humanas.
+
+### El problema de la motivación
+
+Como ya apunté al principio, es posible pensar en la visualización como un ejemplo particular
+de una operación más amplia que los ordenadores saben hacer muy bien: el mapeado. La
+relativa sencillez con la que podemos utilizar ordenadores para convertir cualquier conjunto
+de datos en cualquier medio en algo diferente crea todo tipo de posibilidades, pero también
+una nueva responsabilidad cultural.
+
+Este problema se puede re-formular haciendo alusión a la oposición entre las elecciones
+arbitrarias y las motivadas en el mapeo. Dado que los ordenadores nos permiten mapear
+fácilmente cualquier conjunto de datos en cualquier otro, a menudo me pregunto por qué un
+artista ha elegido un mapeo en particular cuando tenía a su disposición opciones casi infinitas.
+Hasta las mejores obras que utilizan el mapeo adolecen de este problema fundamental. Este
+es el “lado oscuro” de la operación de mapeado y de los medio informáticos en general: su
+ansiedad existencial pre-instalada. Al permitirnos mapear cualquier cosa en cualquier otra,
+construir un número infinito de diferentes interfaces con un objeto mediático, seguir trayectorias
+infinitas a través de ese objeto, y demás, el medio informático hace que estas opciones parezcan
+arbitrarias, a no ser que el artista utilice una estrategia específica para motivar sus elecciones.
+Pensemos en un ejemplo de este problema. Uno de los más destacados edificios de las dos
+últimas décadas es el Museo Judío de Berlín, de Daniel Libeskind. El arquitecto confeccionó
+un mapa que mostraba las direcciones de los judíos que vivían en el barrio del museo antes
+de la II Guerra Mundial, conectó estos puntos y después proyectó la red resultante sobre la
+superficie del edificio. La intersecciones entre la proyección de la red y el diseño se convirtieron
+en ventanas irregulares. Al atravesar las paredes y el techo a diferentes ángulos, las ventanas
+apuntan a muchas referencias visuales: la estrecha mirilla de un tanque; las ventanas de una
+catedral medieval; las formas de las pinturas cubistas, abstractas o suprematistas de las
+primeras décadas del veinte. Al igual que sucede con los paseos en audio de Janet Cardiff,
+lo virtual se convierte aquí en una poderosa fuerza que re-forma lo físico. En el Museo Judío,
+el pasado atraviesa el presente de forma literal. En lugar de ser algo efímero, aquí el espacio
+de los datos se materializa, convirtiéndose en una especie de escultura monumental.
+Pero cuando visité el museo aún vacío en 1999, había un problema que no se me iba de
+la cabeza: el problema de la motivación. Por un lado, el procedimiento de Libeskind de
+encontrar las direcciones, confeccionar un mapa y conectar todas las líneas, parecía muy
+racional, casi un trabajo científico. Por otro, por lo que sé, Libeskind no dice nada sobre
+por qué proyectó la red de esta forma y no de otra. Así que el hecho de que haya recolectado
+y organizado tan minuciosamente estos datos, para al final “arrojarlos” de forma arbitraria
+sobre el edificio, me parece contradictorio. Creo que este ejemplo sirve para ilustrar bien
+el problema básico del paradigma del mapeado. Dado que normalmente hay infinitas
+formas de mapear un conjunto de datos sobre otro, los mapeados particulares que elije el
+artista muchas veces no están motivados, por lo que la obra parece arbitraria. Siempre se
+nos dice que cuando el arte es bueno “la forma y el contenido forman un solo todo” y que
+“el contenido motiva la forma”. Quizás en las “buenas” obras de arte de datos, el mapeado
+utilizado guarda alguna relación con el contenido y el contexto de los datos, o quizás éste
+sea un criterio anticuado que hay que reemplazar por otro nuevo.
+Una manera de abordar el problema de la motivación es poner de relieve, en lugar de
+ocultar, el carácter arbitrario del mapeado elegido. En lugar de tratar de ser siempre
+racional, el arte de visualización de datos podría elaborar su propio método a partir de la
+irracionalidad7
+
+. Por supuesto, esa fue la estrategia dominante de los Surrealistas. En los
+sesenta, los surrealistas tardíos, los Situacionistas, desarrollaron una serie de métodos para
+lo que llamaban dérive. El objetivo de la dérive era una especie de extrañamiento (ostranenie)
+espacial: dejar que el habitante de la ciudad experimentara la ciudad de una forma nueva,
+politizando así su percepción del hábitat. Uno de estos métodos consistía en navegar por
+París utilizando un mapa de Londres. Este es el tipo de poesía y elegancia conceptual que
+encuentro a faltar en muchos proyectos de mapeado en el arte con nuevos medios. Casi
+siempre, estos proyectos se dejan llevar por el impulso racional de dotar de sentido a
+nuestro mundo, un mundo complejo en el que muchos procesos y fuerzas son invisibles
+y están fuera de nuestro alcance. La estrategia más típica, consiste en tomar un conjunto
+de datos: el tráfico por Internet, los indicadores de mercado, las recomendaciones de libros
+de amazon.com, o el tiempo atmosférico, y mapearlo de algún modo. Esta estrategia ya
+no recuerda a la estética surrealista, sino a un paradigma bien diferente de la vanguardia
+de izquierdas de la década de 1920. Un impulso parecido de “leer” las relaciones sociales
+subyacentes a partir de la realidad visible, se encontraba tras la obra de muchos artistas
+de izquierdas en los veinte, incluyendo el héroe de mi libro The Language of New Media:
+7
+Leído a “contra corriente”, cualquier sistema descriptivo o de mapeado que consista en datos cuantitativos: un
+directorio de teléfonos, la ruta de un mensaje de correo electrónico, etc.– adquiere calidades tanto grotescas como
+poéticas. Los artistas conceptuales supieron explorar esto muy bien, y los artistas de visualización de datos podrían
+aprender de sus investigaciones.
+
+Dziga Vertov8
+
+. La película de 1929 de Vertov El hombre de la cámara es un valiente
+intento de configurar una epistemología visual, de reinterpretar las imágenes casi siempre
+banales y aparentemente insignificantes de la vida diaria, como el resultado de una lucha
+entre lo viejo y lo nuevo.
+
+Por importantes que sean los proyectos con nuevos medios de mapeado de datos, parecería
+que les falta algo. Aunque al arte moderno trató de hacer el papel de una “epistemología
+de datos”, entrando así en competición con la ciencia y los medios de masas para explicarnos
+los patrones que subyacían bajo los datos que nos rodeaban, también jugó un papel más
+singular: el de mostrarnos otras realidades inmersas en la nuestra, mostrarnos la ambigüedad
+que siempre está presente en nuestra percepción y experiencia, mostrarnos aquello de lo
+que normalmente no nos percatamos, a lo que no prestamos atención. Las formas de
+“representación” tradicionales, la literatura, la pintura, la fotografía o el cine, jugaron muy
+bien este papel. En mi opinión, el verdadero desafío para el arte de datos no versa sobre
+cómo mapear unos datos abstractos e impersonales sobre algo significativo y bello, los
+economistas, los diseñadores gráficos y los científicos ya hacen esto muy bien. Un desafío
+más interesante y finalmente quizás más importante consiste en averiguar cómo representar
+la experiencia personal y subjetiva de una persona que vive en una sociedad de datos. Si
+la interacción diaria con volúmenes de datos y mensajes numerosos forma parte de nuestra
+nueva “subjetividad-de-datos,” ¿Cómo podríamos representar esta experiencia de una
+nueva forma? ¿Cómo pueden representar los nuevos medios la ambigüedad, la alteridad
+y la multidimensionalidad de nuestra experiencia, para ir más allá de las técnicas modernas
+ya conocidas y “normalizadas” del montaje, el surrealismo, el absurdo, etc.? En síntesis,
+el lugar de esforzarse por buscar un ideal anti-sublime, los artistas de visualización de
+datos deberían recordar que el arte tiene una licencia única para representar la subjetividad
+humana, incluida una dimensión de ésta fundamentalmente nueva, la de estar “inmersa”
+en datos.
+
