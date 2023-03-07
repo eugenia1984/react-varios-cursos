@@ -678,4 +678,493 @@ McGraw-Hill, 7ma Edición.
 ---
 ---
 
+## :star: DISEÑO DE LA INTERFAZ DE USUARIO VISUALIZACIÓN E INTERFACES :star:
 
+![image](https://user-images.githubusercontent.com/72580574/223567377-93c1d2f5-f0d4-4596-9c20-47efc484e1ec.png)
+
+### USABILIDAD ASPECTOS DOMINANTES
+
+“Para producir tecnología que se adapte a los seres humanos, es necesario estudiar a éstos.” Norman
+
+- Identificación de: REGLAS DORADAS
+
+- Definición de: MECANISMOS DE INTERACCIÓN (GUI)
+
+### REGLAS DORADAS*
+
+- Dejar el control al usuario
+
+- Reducir la carga de memoria
+
+- Interfaz consistente.
+
+*Acuñadas por Theo Mandel
+
+### DEJAR EL CONTROL AL USUARIO
+
+- **Principio 1**: Definir modos de interacción de manera que no se obligue al usuario a realizar acciones innecesarias o no deseadas.
+
+![image](https://user-images.githubusercontent.com/72580574/223567627-305ec7fd-49ff-4d3f-aadf-2c2f0f1f0455.png)
+
+
+- **Principio 2**: Dar una interacción flexible.
+
+![image](https://user-images.githubusercontent.com/72580574/223567710-8aa37687-c2b6-4c28-b693-d5eb8e7225e9.png)
+
+
+- **Principio 3**: Permitir que la interacción del usuario sea interrumpible y también reversible.
+
+![image](https://user-images.githubusercontent.com/72580574/223567779-518c1560-3cb6-41bf-bff2-97d03276cf17.png)
+
+
+
+- **Principio 5**: Ocultar los tecnicismos internos al usuario ocasional.
+
+
+
+- **Principio 6**: Diseñar la interacción directa con objetos que aparezcan en la pantalla.
+
+![image](https://user-images.githubusercontent.com/72580574/223567927-37b767ca-fcb1-4424-824d-9ed5141ed0a2.png)
+
+
+### REDUCIR LA NECESIDAD DE QUE EL USUARIO MEMORICE
+
+- **Principio 1**: Reducir la demanda de memoria de corto plazo. 
+
+![image](https://user-images.githubusercontent.com/72580574/223568023-10177bc2-8d02-4640-8d59-93fdf0c27480.png)
+
+
+- **Principio 2**: Hacer que lo preestablecido sea significativo.
+
+![image](https://user-images.githubusercontent.com/72580574/223568081-4db1b359-48d6-4034-9790-79e68778ce9b.png)
+
+
+- **Principio 3**: Definir atajos que sean intuitivos.
+
+![image](https://user-images.githubusercontent.com/72580574/223568159-0e285700-728f-4f89-af7a-93680ff262aa.png)
+
+
+- **Principio 4**: La distribución visual de la interfaz debe basarse en una metáfora del mundo real.
+
+![image](https://user-images.githubusercontent.com/72580574/223568231-7a1a251a-4230-46f7-81f0-e322f92409a5.png)
+
+- **Principio 5**: Revelar información de manera progresiva.
+
+![image](https://user-images.githubusercontent.com/72580574/223568330-ce83e992-3d77-4ac2-870d-ef993c2162a7.png)
+
+
+### HACER CONSISTENTE LA INTERFAZ
+
+- **Principio 1**: Permita que el usuario coloque la tarea en curso en un contexto significativo.
+
+![image](https://user-images.githubusercontent.com/72580574/223568416-d548575c-130f-4dae-87f9-06677a6c4292.png)
+
+
+- **Principio 2**: Mantener la consistencia en toda la familia de aplicaciones.
+
+![image](https://user-images.githubusercontent.com/72580574/223568474-369d8537-fc1c-4c27-a621-9d5f0579256e.png)
+
+
+- **Principio 3**: Si los modelos interactivos anteriores han creado expectativas en el suario, no haga cambios a menos de que haya una razón ineludible para ello.
+
+![image](https://user-images.githubusercontent.com/72580574/223568556-96b57a35-4f31-4b73-9c92-4b60c8dd9da9.png)
+
+
+---
+
+##  ANÁLISIS Y DISEÑO DE LA INTERFAZ DE USUARIO
+
+- Análisis y modelos del diseño de la interfaz
+
+• Creación de modelos
+
+- Proceso
+
+• Iterativo
+
+---
+
+##  ANÁLISIS Y MODELOS DEL DISEÑO DE LA INTERFAZ
+
+![image](https://user-images.githubusercontent.com/72580574/223568695-37cfdbe1-32f3-4d12-8ab6-8837f6fb347d.png)
+
+---
+
+## PROCESO DE DISEÑO DE LA INTERFAZ DE USUARIO
+
+![image](https://user-images.githubusercontent.com/72580574/223568754-efdfc1d8-69e4-46a2-b742-8fe1712e97e1.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223568777-0d7be385-aef4-4757-9618-3029ff87911e.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223568802-4b7909ff-1637-4b6d-b58d-bba98fa1b8a6.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223568834-a2d3ec24-3f5b-4e3b-b299-d861711fd36c.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223568870-820af9f4-ce4b-4351-8e09-12ea887c9440.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223568920-a3312466-613a-4dc7-afd5-7797529eb948.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223568996-098d8471-c3e9-4b25-936f-7e16aa78069a.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223569022-af86835b-042b-4e5e-a604-6e4dee257d58.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223569051-4178ab09-5cb8-4001-aa80-2db902cf8a9f.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/223569079-98fb6b91-8b4d-4303-a4eb-2952d3e9fd3b.png)
+
+
+---
+
+##  DISEÑO DE UNA INTERFAZ PARA WEBAPPS
+
+- ¿Dónde estoy?
+
+• Webapp accedida
+
+• Jerarquía del contenido
+
+- ¿Qué puedo hacer ahora?
+
+• Funciones disponibles,
+
+• Vínculos vivos,
+
+• Contenido relevante,
+
+• etcétera
+
+- ¿Dónde he estado,hacia dónde voy?
+
+• Mapa con:
+
+• Lugares visitados
+
+• Trayectorias a realizar
+
+---
+
+##  PRINCIPIOS Y LINEAMIENTOS DEL DISEÑO DE LA INTERFAZ
+
+![image](https://user-images.githubusercontent.com/72580574/223569256-65f6e74c-5691-4c17-814a-236aeba7f8ef.png)
+
+
+---
+
+## PREVISION
+
+Una webapp debe diseñarse de modo que prevea el siguiente movimiento del usuario.
+
+---
+
+## COMUNICACIÓN
+ 
+La interfaz debe comunicar el estado de cualquier actividad iniciada por el usuario.
+
+![image](https://user-images.githubusercontent.com/72580574/223569367-b7185ec8-ca61-4905-9aef-44e71fd896db.png)
+
+
+---
+
+## CONSISTENCIA
+
+El uso de controles de navegación, menús, iconos y estética (color, forma y distribución) debe ser consistente en la webapp.
+
+![image](https://user-images.githubusercontent.com/72580574/223569477-70e2e5d0-7a4b-4802-bcf7-0e5430696017.png)
+
+
+---
+
+## AUTONOMÍA CONTROLADA
+
+La interfaz debe facilitar el movimiento del usuario a través de la webapp, pero lo debe hacer de manera que obligue a respetar las
+convenciones que se hayan establecido para la aplicación.
+
+---
+
+## EFICIENCIA
+
+El diseño de la webapp y su interfaz deben optimizar la eficiencia del trabajo del usuario, no la del desarrollador que la diseña y construye ni del ambiente cliente-servidor que la ejecuta.
+
+![image](https://user-images.githubusercontent.com/72580574/223569680-1babc103-272b-4a77-823a-cfc4967b8981.png)
+
+
+---
+
+## FLEXIBILIDAD
+
+La interfaz debe tener flexibilidad suficiente para permitir que algunos usuarios realicen tareas directamente, y que otros exploren la webapp en forma aleatoria.
+
+![image](https://user-images.githubusercontent.com/72580574/223569665-1d4e5f43-3587-4199-8eeb-8ceeb184f6a6.png)
+
+---
+
+## CENTRARSE
+
+La interfaz de la webapp (y el contenido que presente) debe mantenerse centrada en las tareas en curso del usuario.
+
+---
+
+## LEY DE FITT
+
+“El tiempo para llegar a un objetivo está en función de la distancia que hay hasta él y del tamaño que tenga”. Tognozzi
+
+![image](https://user-images.githubusercontent.com/72580574/223569785-1e5436e4-ede6-42e9-bb48-f283895c0577.png)
+
+
+---
+
+###  OBJETOS DE LA INTERFAZ HUMANA
+
+Se ha desarrollado una vasta biblioteca de objetos reutilizables de interfaces humanas para webapps. Úselas.
+
+![image](https://user-images.githubusercontent.com/72580574/223569894-fd0c68f5-1e37-43f2-ba0e-2b0035a84a3f.png)
+
+---
+
+### REDUCCIÓN DE LA LATENCIA
+
+En vez de hacer que el usuario espere a que termine alguna operación interna (como descargar una imagen gráfica compleja), la webapp debe usar tareas múltiples, de manera que permita que el usuario continúe con su trabajo mientras finaliza la operación.
+
+
+---
+
+## APRENDIZAJE
+
+Una interfaz de webapp debe diseñarse para minimizar el tiempo de aprendizaje y, una vez aprendida, minimizar el que se dedique a reaprender cuando se regrese a la webapp.
+
+---
+
+## METÁFORAS
+
+Una interfaz que use una metáfora de interacción es más fácil de aprender y de usar, en la medida en la que la metáfora sea apropiada para la aplicación y el usuario.
+
+![image](https://user-images.githubusercontent.com/72580574/223570090-eefdbbb3-93c9-4437-91bd-f82c22779349.png)
+
+---
+
+## MANTENER LA INTEGRIDAD DE LOS PRODUCTOS DEL TRABAJO
+
+Un producto del trabajo (por ejemplo, un formato llenado por un usuario o una lista especificada por él) debe guardarse en forma automática, de modo que no se pierda si ocurriera un error.
+
+---
+
+## LEGIBILIDAD
+
+Toda la información presentada en la interfaz debe ser legible para jóvenes y viejos.
+
+---
+
+## DAR SEGUIMIENTO AL ESTADO
+
+Cuando resulte apropiado, debe darse seguimiento al estado de la interacción del usuario y guardarlo, de modo que éste pueda salir y volver más tarde para
+recuperarlo de donde lo haya dejado.
+
+---
+
+## NAVEGACIÓN VISIBLE
+
+Una interfaz de webapp bien diseñada da “la ilusión de que los usuarios están en el mismo lugar, con el trabajo llevado a ellos”. Tognozzi
+
+---
+
+## FLUJO DE TRABAJOS PARA EL DISEÑO DE LA INTERFAZ DE WEBAPP
+
+Revisar información del modelo de requerimientos y refinarla
+
+Esquematizar la distribución de la interfaz
+
+Mapear objetivos de usuario en acciones específicas
+
+Definir tareas de usuario asociadas con cada acción
+
+Guionar imágenes en pantalla para cada acción Refinar distribución y guiones Identificar objetos de interfaz
+
+---
+
+## MAPEO DE OBJETIVOS DE USUARIO EN ACCIONES
+
+![image](https://user-images.githubusercontent.com/72580574/223570389-c5df042f-5351-4eac-88e6-b52144ce4801.png)
+
+
+---
+
+## EVALUACION DEL DISEÑO
+
+![image](https://user-images.githubusercontent.com/72580574/223570445-d3781016-fd52-47a0-a838-271768d1500e.png)
+
+---
+
+## CRITERIOS DE EVALUACIÓN DEL DISEÑO
+
+- Longitud y complejidad del modelo de requerimientos.
+
+• Cantidad de aprendizaje requerido
+
+- Tareas del usuario especificadas y promedio de acciones por tarea.
+
+• Tiempo de interacción de la eficiencia general del sistema
+
+- Acciones, tareas y estados del sistema indicados por el modelo.
+
+• Carga de memoria
+
+- Estilo de la interfaz, herramientas de ayuda y protocolo del manejo de errores.
+
+• Complejidad de la interfaz y grado de aceptación
+
+---
+
+## PATRONES DE DISEÑO DE LA IU
+
+Whole UI: Navegación de Alto Nivel
+
+Distribución de pág.: Apilar Tarjetas
+
+Formato y entrada: Llenar espacios
+
+Tablas: Ordenar Tabla
+
+Manipulación directa de los datos: Migajas de Pan
+
+Navegación: Editar
+
+Búsqueda: Búsqueda Simple
+
+Elementos de pág.: Mago
+
+Comercio electrónico: Carrito de Compras
+
+Varios: Indicador de Avance
+
+---
+
+## WHOLE UI: NAVEGACIÓN DE ALTO NIVEL
+
+Cada nombre de función o contenido representa un vínculo hacia la función o contenido apropiados.
+
+![image](https://user-images.githubusercontent.com/72580574/223570632-ab05efa2-245a-4b13-841a-ba4f0f207995.png)
+
+
+---
+
+## DISTRIBUCIÓN DE PÁG.: APILAR TARJETAS
+
+Un clic en una pestaña hace que aparezca la tarjeta apropiada.
+
+
+![image](https://user-images.githubusercontent.com/72580574/223570718-71dfde27-d07e-46ee-b159-6b8cebc04600.png)
+
+
+---
+
+## FORMATO Y ENTRADA: LLENAR ESPACIOS
+
+Indicador de texto o gráfico que inicia la validación y el procesamiento.
+
+![image](https://user-images.githubusercontent.com/72580574/223570812-ced415bf-c937-4d3a-bda0-6af06873fd93.png)
+
+
+---
+
+## TABLAS: ORDENAR TABLA
+
+Cada encabezado de columna inicia el ordenamiento de todos los registros.
+
+![image](https://user-images.githubusercontent.com/72580574/223570900-348598f5-7b42-444d-ad1b-bfe8fd1d0b47.png)
+
+---
+
+## MANIPULACIÓN DIRECTA DE LOS DATOS: MIGAJAS DE PAN
+
+Cualquiera de las entradas en la pantalla de las migajas de pan puede usarse como un apuntador hacia el vínculo de regreso hacia un nivel más alto de la jerarquía.
+
+![image](https://user-images.githubusercontent.com/72580574/223570992-016e402d-7690-4c33-91b2-3ea62a91c300.png)
+
+---
+
+##  NAVEGACIÓN: EDITAR
+
+Ningún elemento de navegación.
+
+Ayuda al usuario a navegar a través de menús jerárquicos, páginas web y pantallas interactivas.
+
+---
+
+## BÚSQUEDA: BÚSQUEDA SIMPLE
+
+Cada entrada de la lista representa un vínculo de navegación hacia los datos a los que se hace referencia con la entrada.
+
+![image](https://user-images.githubusercontent.com/72580574/223571130-db55ce7b-9e2e-478f-a3c9-399da223246c.png)
+
+---
+
+## ELEMENTOS DE PÁG.: MAGO
+
+Navegación hacia delante y atrás, permite que el usuario vuelva a cada etapa en el proceso mago.
+
+![image](https://user-images.githubusercontent.com/72580574/223571236-5b9c1ada-2861-47fd-b6a6-8f49822aa21d.png)
+
+
+---
+
+##  COMERCIO ELECTRÓNICO: CARRITO DE COMPRAS
+
+Contiene la capacidad de continuar la compra o salir.
+
+![image](https://user-images.githubusercontent.com/72580574/223571314-f847a8b0-9659-4fb6-a5a1-e39c3aef6e68.png)
+
+
+---
+
+##  VARIOS: INDICADOR DE AVANCE
+
+Es frecuente que contenga un botón que permita al usuario hacer una pausa o cancelar el procesamiento.
+
+![image](https://user-images.githubusercontent.com/72580574/223571393-20d1e412-0ee7-4b49-8bd0-e2c200b5f642.png)
+
+
+---
+
+## PATRONES DE DISEÑO WEBAPP
+
+- Centrarse en el diseño
+
+Arquitectura de la información
+
+Navegación
+
+Presentación
+
+Funcionales
+
+- Granularidad del diseño
+
+Arquitectura
+
+Diseño
+
+Componentes
+
+---
+
+### FUENTES
+
+• Pressman, Roger. Ingeniería de Software, enfoque práctico. Capítulos 11 y 12. McGraw-Hill, 7ma Edición.
+
+• Para ver:
+
+• http://www.beoninternet.net/diseno-web-usabilidad-de-la-navegacion-en-tablet-y-movil/
+
+• http://es.slideshare.net/embluemail/usabilidad-mvil-e-interfaces-lionel-fiszman
+
+---
+---
