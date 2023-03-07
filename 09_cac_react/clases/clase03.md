@@ -18,7 +18,7 @@ Los links son
 
 - Home, va a ser el sector de la HERO IMAGE con el texto y el CTA, que dice CONCENOS, pero como no tenemos una seccion de Nosotros queda redundante ya que justo la seccion que sigue es la de los productos.
 
-- Productos, van a ser los recuadros con los productos
+- Productos, van a ser los recuadros con los productos, en vez de tenerlos en cajas lo podria tener en un slider con las flechas a los costados que me indica que tiene una continuacion, me interactua con el carousel, que me va a mostrar mas productos, y el usuario lo maneja
 
 - Locales
 
