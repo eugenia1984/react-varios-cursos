@@ -8,4 +8,5 @@
 
 - [Clase 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase02.md)
 
+- Clase 3
 ---
