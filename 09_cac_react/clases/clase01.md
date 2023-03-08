@@ -353,4 +353,10 @@ NOS VEMOS PRONTO!!!
 
 :computer: -> [Acá pueden ver el código](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/practicas/id_car_web)
 
+**Y luego de ver tood lo referenta a la psicologia dle color, hice un rediseño**
+
+:tv: -> [Este es el **repositorio**](https://github.com/eugenia1984/id-car-web)
+
+:tv: -> [Aca se puede ver online](https://eugenia1984.github.io/id-car-web/)
+
 ---
