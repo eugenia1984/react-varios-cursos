@@ -80,7 +80,7 @@ Armar el prototipo de funcionalidad, ya sea a mano, con Figma o con lo que podam
 ---
 ---
 
-## :star: Diseño Adaptable o Responsive Design
+## :star:Diseño Adaptable o Responsive Design:star:
 
 ![image](https://user-images.githubusercontent.com/72580574/223559516-0150ee2f-849e-492b-bba9-6c1fe8e67bd9.png)
 
@@ -91,7 +91,7 @@ Armar el prototipo de funcionalidad, ya sea a mano, con Figma o con lo que podam
 ![image](https://user-images.githubusercontent.com/72580574/223559958-85049dd0-4709-4319-827a-72935641de65.png)
 
 
-- [**Luke Wroblewski**](Ethan Marcotte http://ethanmarcotte.com/)
+- **Luke Wroblewski**
 
 De responsive web design hacia **mobile first design**
 
@@ -112,7 +112,7 @@ Un **framework de CSS** es una **librería de estilos genéricos** que puede ser
 
 - **Foundation**:
 
--[GRilla de 12 columnas](https://get.foundation/sites/docs-v5/components/grid.html)
+-[Grilla de 12 columnas](https://get.foundation/sites/docs-v5/components/grid.html)
 
 -Mobile First
 
@@ -142,7 +142,7 @@ Un **framework de CSS** es una **librería de estilos genéricos** que puede ser
 ![image](https://user-images.githubusercontent.com/72580574/223561227-7381a1ad-09a8-46f4-bd69-24d01f94ebbf.png)
 
 
-- **Usabilidad**_
+- **Usabilidad**:
 
 -Comprensión global del sitio
 
@@ -1972,3 +1972,92 @@ datos deberían recordar que el arte tiene una licencia única para representar 
 humana, incluida una dimensión de ésta fundamentalmente nueva, la de estar “inmersa”
 en datos.
 
+---
+---
+
+## :star:PAUTAS DE ACCESIBILIDAD AL CONTENIDO EN LA WEB (WCAG)
+
+### GRADOS DE ACCESIBILIDAD
+
+- Prioridad 1: requerimiento básico para que algunos grupos de personas 
+puedan usar los documentos Web. 
+
+- Prioridad 2: importante para eliminar las barreras de acceso a los 
+documentos Web.
+
+- Prioridad 3: mejora la accesibilidad global de los documentos Web.
+
+## NIVELES DE ADECUACIÓN
+
+- "A“: incluye los puntos de verificación de prioridad 1;
+
+- "Doble A“: incluye los puntos de verificación de las prioridades 1 y 2;
+
+- "Triple A“: incluye los puntos de verificación de las prioridades 1, 2 y 3.
+
+## PROCESO DE PUESTA EN MARCHA
+
+ Decidir el grado de accesibilidad.
+
+ Utilizar los puntos de verificación técnica de 
+aspectos de accesibilidad correspondientes a 
+dicho grado.
+
+ Codificar con los aspectos que especifica cada 
+punto de verificación.
+
+## PAUTAS DE ACCESIBILIDAD AL CONTENIDO DE LA WEB 1.0
+
+ Proporcione alternativas equivalentes para el contenido sonoro 
+y visual.
+
+ No se base sólo en el color.
+
+ Utilice marcadores y hojas de estilo y hágalo de forma 
+apropiada.
+
+ Identifique el idioma utilizado.
+
+ Crear tablas que se transformen correctamente.
+
+ Asegúrese de que las páginas que incorporan nuevas 
+tecnologías se transformen correctamente.
+
+ Asegure al usuario el control sobre los cambios de contenidos 
+tempo-sensibles.
+
+
+## PAUTAS DE ACCESIBILIDAD AL CONTENIDO DE LA WEB 1.0
+
+ Asegure la accesibilidad directa de las interfaces de usuario 
+incrustadas.
+
+ Diseñe con independencia del dispositivo.
+
+ Utilice soluciones provisionales.
+
+ Utilice las tecnologías y pautas del W3C.
+
+ Proporcione información de contexto y orientación.
+
+ Proporcione mecanismos claros de navegación.
+
+ Asegúrese de que los documentos sean claros y sencillos.
+
+## ALGUNOS LINKS ÚTILES
+
+ http://www.sidar.org/traducciones/wcag20/es/
+
+ http://inadi.gob.ar/accesibilidad/
+
+ https://www.jefatura.gob.ar/centro-de-referencia-en-accesibilidad-web_p67
+
+ http://www.infoleg.gob.ar/infolegInternet/anexos/175000-179999/175694/norma.html
+
+ http://olgacarreras.blogspot.com.ar/2007/02/wcag-20.html#000introduccion
+
+ http://accesibilidadenlaweb.blogspot.com.ar/2013/03/diez-lectores-de-pantalla-
+gratuitos.html
+
+---
+---
