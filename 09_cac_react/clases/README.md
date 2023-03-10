@@ -12,7 +12,7 @@
 
 - [Clase 3](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase03.md) - 06 Marzo: Prototipado Funcional.
 
-:book: DISEÑO ADAPTABLE O RESPONSIVE DESIGN :stars:   DISEÑO DE APPS WEB Y MOBILE - VISUALIZACIÓN E INTERFACES :stars:  HCI (Human Computer Interaction), usabilidad y su relación con el diseño de interacción :stars: PROTOTIPADO :stars:
+:book: DISEÑO ADAPTABLE O RESPONSIVE DESIGN :stars:   DISEÑO DE APPS WEB Y MOBILE - VISUALIZACIÓN E INTERFACES :stars:  HCI (Human Computer Interaction), usabilidad y su relación con el diseño de interacción :stars: PROTOTIPADO :stars: PAUTAS DE ACCESIBILIDAD :stars:
 
  [Clase 4](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase04.md): 08 MAr
  
