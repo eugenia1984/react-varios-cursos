@@ -2056,8 +2056,7 @@ incrustadas.
 
  http://olgacarreras.blogspot.com.ar/2007/02/wcag-20.html#000introduccion
 
- http://accesibilidadenlaweb.blogspot.com.ar/2013/03/diez-lectores-de-pantalla-
-gratuitos.html
+ http://accesibilidadenlaweb.blogspot.com.ar/2013/03/diez-lectores-de-pantalla-gratuitos.html
 
 ---
 ---
