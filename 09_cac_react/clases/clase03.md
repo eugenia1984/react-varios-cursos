@@ -2060,3 +2060,160 @@ incrustadas.
 
 ---
 ---
+
+## :star:Pauta para Evaluación Heurística de Sitios:star:
+
+
+La heurística es una forma de revisión de sitios web basada en la experiencia de quien 
+realiza la evaluación. Consiste en comprobar diferentes aspectos, desde diseño y 
+navegación hasta operación y utilidad. Este documento explica cómo desarrollarla. 
+
+El resultado de una prueba de este tipo, es un informe emitido por el evaluador en el que 
+describe el problema analizado, las reglas específicas que son afectadas por su 
+comportamiento y cómo podría mejorar el cumplimiento de ellas con un cambio en la 
+interfaz. Añade que si bien esto último no es posible, sí será importante que los problemas 
+conocidos sean reportados con el fin de intentar hacer las modificaciones posibles para 
+aportar a su solución. 
+
+La evaluación a través de este sistema permite la generación de un informe que al menos 
+debería incluir los siguientes aspectos: 
+
+• Descripción de la forma de trabajo: En esta parte de la evaluación se debe dejar 
+constancia de las características del proceso realizado. Entre los elementos 
+concretos a citar se incluyen los siguientes: 
+
+o Fecha y hora de la evaluación; 
+
+o Tipo de conexión a Internet, para descartar problemas debido a la velocidad; 
+
+o Datos generales sobre la forma en que se realiza la evaluación. 
+
+o Información acerca de la forma en que se asignan los puntajes de la 
+evaluación. 
+
+o Información acerca de los principales ítems evaluados. 
+
+• Principales Hallazgos: en esta parte del reporte se hace un resumen de las 
+principales características evaluadas, indicando los aspectos positivos y negativos 
+encontrados. 
+
+• Conclusión Final: en esta parte se entrega la recomendación final respecto de los 
+problemas encontrados y se detallan los elementos positivos encontrados en la 
+evaluación.
+
+## Cómo hacer la evaluación 
+
+Al desarrollar una Evaluación Heurística, es importante que los expertos que la lleven a 
+cabo tengan algún sistema común de evaluación, con el objetivo de homologar y reunir sus 
+comentarios de manera similar. 
+
+Una fórmula para hacerlo es definir una serie de preguntas respecto del sitio web que se 
+evalúa y para cada una de ellas, poner una nota que luego pueda ser tabulada. En este 
+sentido, una escala habitual puede ser la siguiente: 
+
+Esta escala de evaluación va a de 1 a 5 con los siguientes valores: 
+
+1 - Muy malo o no funciona: lo evaluado no realiza la actividad o no muestra el 
+contenido que ofrece. 
+
+2 - Funciona pero no sirve: lo evaluado desarrolla la actividad o muestra un contenido, 
+pero en general, lo recibido por el evaluador no aporta a la experiencia general del 
+sitio. 
+
+3 - Funciona pero debe mejorar: lo evaluado desarrolla la actividad o muestra un 
+contenido relativamente útil, pero podría ser mejor. Al respecto el evaluador debe 
+aportar información para hacer mejoras al sitio. 
+
+4 - Cumple: lo evaluado desarrolla la actividad o muestra un contenido útil. El evaluador 
+debe aportar información para hacer mejoras al sitio. 
+
+5 - Es lo que el usuario busca: lo evaluado desarrolla la actividad o muestra un 
+contenido útil que cumple o excede la expectativa del usuario. 
+
+Dichas notas deben ser puestas a una serie de preguntas que se van generando en torno a las 
+áreas más importantes del sitio web; en todo caso, lo interesante de este tipo de evaluación 
+es que las preguntas se relacionan directamente con lo que se desea evaluar. 
+A modo de ejemplo, a continuación se muestran algunas preguntas para las áreas más 
+relevantes a evaluar de un sitio web: 
+
+## Concepto
+
+Identidad 
+
+• El sitio web entrega información corporativa de la organización 
+
+• Informa datos relevante para quien “no navega (Ej.: Horas de atención) 
+
+• Entrega información para hacer consultas web o no-web (Ej.: Nos. de teléfono) 
+
+Diseño 
+
+• El diseño es consistente en todas las pantallas del sitio? 
+
+• Se adapta adecuadamente a las resoluciones más comunes? 
+
+• Las páginas tienen scroll adecuado?
+
+Tiempo de Acceso 
+
+• Tiempo de acceso de la portada bajo 15” en conexión de baja velocidad? 
+
+• Permite ver lo más importante al principio del despliegue de las páginas?
+
+• Ofrece acceso sólo texto cuando se trata de interfaces gráficas? 
+
+Accesibilidad 
+
+• Existe texto alternativo (Alt) en las imágenes? 
+
+• Cuenta con Flash o Plug-ins y los informa? 
+
+• Tamaño de letras es adecuado? Se pueden agrandar? 
+
+Navegación 
+
+• Los enlaces son claramente visibles? 
+
+• Se notan los enlaces visitados? 
+
+• El menú del sitio es consistente en todo el sitio? 
+
+• Todos los vínculos funcionan? 
+
+Operación
+
+• Presenta fallas de sistema? 
+
+• Se administra el error 404? 
+
+• Existe seguridad adecuada para el tipo de sitio? 
+
+• Si es relevante para el sitio, se explica la seguridad ofrecida?
+
+Utilidad
+
+• Tiene Buscador? Funciona OK? 
+
+• Permite hacer lo mismo o más que lo que se puede hacer la institución física? 
+
+• Permite resolver las dudas básicas que el usuario tenga sobre sus contenidos?
+
+• El sitio genera una experiencia que a uno llevaría a recomendarlo a otros?
+
+Desarrollo del Informe 
+
+Una vez que se ponen las notas a cada una de las preguntas, es espera que el evaluador haga 
+un comentario que fundamente su punto de vista. Gracias a esto, será posible tener su 
+visión acerca del sitio de manera concreta y además, se podrán extraer conclusiones. 
+
+Claramente se buscará reunir en el documento tanto los aspectos positivos como los 
+negativos del sitio evaluado, para cada una de las áreas (es decir, Identidad, Diseño, 
+Tiempo de Acceso, Accesibilidad Navegación, Operación y Utilidad). Con estos 
+comentarios será posible encauzar el trabajo posterior para buscar mejoras en el sitio web.
+
+
+---
+---
+
+
+
