@@ -12,7 +12,7 @@
 
 :computer: -> [ID-CAR-WEB - REPOSITORIO](https://github.com/eugenia1984/id-car-web) y [ID-CAR-WEB - DEPLOY](https://eugenia1984.github.io/id-car-web/)
 
-:computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  REPOSITORIO](https://eugenia1984.github.io/humaya) 
+:computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  DEPLOY](https://eugenia1984.github.io/humaya) 
 
 ---
 
