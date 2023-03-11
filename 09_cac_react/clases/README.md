@@ -6,6 +6,8 @@
 
 - [Clase 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase01.md) - 27 Febero: Presentacion del docente / Que es Codo a Codo / Oferta de capacitacion / Que es ser FullStack / Por que JavaScript con React / Los trabajos mas pedidos / Cuestiones administrativas / Como es la cursada / Asistencia / Canales de comunicacion / Herramientas de desarrollo / Condiciones de aprobacion / :star: Practica inicial HTML - CSS- Bootstrap (ID CARD WEB)
 
+:computer: -> [ID-CAR-WEB - REPOSITORIO](https://github.com/eugenia1984/id-car-web) y [ID-CAR-WEB - DEPLOY](https://eugenia1984.github.io/id-car-web/)
+
 - [Clase 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase02.md) - 01 Marzo : Diseño / Material UI / Psicologia dle color / Prototipado Funcional / Teoria de la Gestalt / Animacion / Landing Page / one Page 
 
 :book: La Psicología del Color - VICTOR MANUEL JARA MONGELOS :stars: TEORIA DEL COLOR :stars: PERCEPCIÓN VISUAL (PSICOLOGÍA GESTALT) :stars: TEORÍA DEL DISEÑO WEB (PERCEPCION VISUAL - GESTALT ) :stars: PSICOLOGÍA DE LA TIPOGRAFÍA QUE ES, IMPORTANCIA Y USOS :stars: 
@@ -18,7 +20,7 @@
  
  -> [PDF guia para armar la web](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/humaya.pdf)
  
- :computer: -> Haciendo click [acá](https://github.com/eugenia1984/humaya) pueden ver el repositorio con mi práctica
+:computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  REPOSITORIO](https://eugenia1984.github.io/humaya) 
  
 - Clase 5: 13 Marzo
 
