@@ -18,6 +18,8 @@
  
  -> [PDF guia para armar la web](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/humaya.pdf)
  
+ :computer: -> Haciendo click [acá](https://github.com/eugenia1984/humaya) pueden ver el repositorio con mi práctica
+ 
 - Clase 5: 13 Marzo
 
 - Clase 6: 15 Marzo
