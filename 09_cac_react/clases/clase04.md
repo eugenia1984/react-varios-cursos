@@ -12,6 +12,17 @@
 
 ---
 
+## Paleta de colores
+
+
+- Con 12 colores:
+
+![image](https://user-images.githubusercontent.com/72580574/224508787-c066ada3-ecdf-4cd3-a834-2d6a9050eaf6.png)
+
+
+- Con 29 colores:
+
+![image](https://user-images.githubusercontent.com/72580574/224508743-67bfa973-c49c-4085-82e8-5ad3577a5dc9.png)
 
 
 ---
