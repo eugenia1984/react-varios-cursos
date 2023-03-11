@@ -14,6 +14,10 @@
 
 :book: DISEÑO ADAPTABLE O RESPONSIVE DESIGN :stars:   DISEÑO DE APPS WEB Y MOBILE - VISUALIZACIÓN E INTERFACES :stars:  HCI (Human Computer Interaction), usabilidad y su relación con el diseño de interacción :stars: PROTOTIPADO :stars: PAUTAS DE ACCESIBILIDAD :stars: Pauta para Evaluación Heurística de Sitios :stars:
 
- [Clase 4](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase04.md): 08 MAr
+ - [Clase 4](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase04.md): 08 Marzo - Seguimos prototipando y realizando el diagrama funcional de la página web de Dulce de leche.
+ 
+- Clase 5: 13 Marzo
+
+- Clase 6: 15 Marzo
  
 ---
