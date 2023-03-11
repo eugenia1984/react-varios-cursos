@@ -20,7 +20,7 @@
  
  -> [PDF guia para armar la web](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/humaya.pdf)
  
-:computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  REPOSITORIO](https://eugenia1984.github.io/humaya) 
+:computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  DEPLOY](https://eugenia1984.github.io/humaya) 
  
 - Clase 5: 13 Marzo
 
