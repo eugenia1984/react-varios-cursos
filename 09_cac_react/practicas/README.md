@@ -1,4 +1,4 @@
-# :cmputer: Prácticas
+# :computer: Prácticas
 
 En esta carpeta se pueden ver algunas de las prácticas realizadas durante la cursada
 
