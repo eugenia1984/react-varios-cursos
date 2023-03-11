@@ -16,7 +16,7 @@
 
  - [Clase 4](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase04.md): 08 Marzo - Seguimos prototipando y realizando el diagrama funcional de la página web de Dulce de leche.
  
- -> [PDF guia para aramar la web](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/humaya.pdf)
+ -> [PDF guia para armar la web](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/humaya.pdf)
  
 - Clase 5: 13 Marzo
 
