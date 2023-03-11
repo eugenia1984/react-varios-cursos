@@ -38,3 +38,10 @@
 :computer: -> [PDF guia para maquetar la web](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/humaya.pdf)
 
 ---
+
+## :star: Repositorio con mi práctica
+
+:computer: -> Haciendo click [acá](https://github.com/eugenia1984/humaya) pueden ver el repositorio con mi práctica
+
+
+---
