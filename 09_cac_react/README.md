@@ -10,6 +10,10 @@
 
 - En la carpeta [**practicas**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/practicas) verás algunas primeras prácticas.
 
+:computer: -> [ID-CAR-WEB - REPOSITORIO](https://github.com/eugenia1984/id-car-web) y [ID-CAR-WEB - DEPLOY](https://eugenia1984.github.io/id-car-web/)
+
+:computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  REPOSITORIO](https://eugenia1984.github.io/humaya) 
+
 ---
 
 ## :book:Ejes temáticos:book:
