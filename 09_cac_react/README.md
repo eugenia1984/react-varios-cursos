@@ -8,7 +8,7 @@
 
 - En la carpeta [**teoría**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/teoria) está toda la teoría brindada en la plataforma del aula virtual de Codo a Codo.
 
-- En la carpeta [**practicas**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/practicas) verás algunas primeras prácticas.
+- En la carpeta [**practicas**](https://github.com/eugenia1984/react-varios-cursos/tree/main/09_cac_react/practicas) verás algunas primeras prácticas. Pero si queres ver todas con el detalle del repositorio y el deploy, te dejo la lista:
 
 :computer: -> [ID-CAR-WEB - REPOSITORIO](https://github.com/eugenia1984/id-car-web) y [ID-CAR-WEB - DEPLOY](https://eugenia1984.github.io/id-car-web/)
 
