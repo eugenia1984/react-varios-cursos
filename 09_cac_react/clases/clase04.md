@@ -19,3 +19,7 @@
 :tv: ->[El repositorio que subió la profe con el esqueleto](https://github.com/GiselaFlores/Esqueleto-HUMAYA) para en base a este completar todo el maquetado de la web y aplicar el css correspondiente, asi la semana que viene le agregamos JavaScript.
 
 ---
+
+:computer: -> [PDF guia para maquetar la web](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/humaya.pdf)
+
+---
