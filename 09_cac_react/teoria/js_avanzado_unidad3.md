@@ -1443,7 +1443,80 @@ Tené en cuenta que muchas de las funciones matemáticas tienen una precisión q
 
 ## :star: 9. Reduce
 
+El método reduce() ejecuta callback una vez por cada elemento presente en el array, excluyendo los huecos del mismo, recibe cuatro argumentos:
+```
+valorAnterior
+valorActual
+indiceActual
+array
+```
+ 
+
+- La primera vez que se llama la función, valorAnterior y valorActual pueden tener uno de dos valores. Si se indicó un valorInicial al llamar a reduce, entonces valorAnterior será igual al valorInicial y valorActual será igual al primer elemento del array. Si no se indicó un valorInicial, entonces valorAnterior será igual al primer valor en el array y valorActual será el segundo.
+
+ 
+
+- Si el array está vacío y no se indicó un valorInicial lanzará un TypeError. Si el array tiene un sólo elemento (sin importar la posición) y no se indicó un valorInicial, o si se indicó un valorInicial pero el arreglo está vacío, se retornará ese único valor sin llamar a la función.
+
+ 
+
+Supongamos que ocurre el siguiente uso de reduce:
+
+```JavaScript 
+[0,1,2,3,4].reduce(function(valorAnterior, valorActual, indice, vector){
+ return valorAnterior + valorActual;
+});
+
+// Primera llamada
+valorAnterior = 0, valorActual = 1, indice = 1
+
+// Segunda llamada
+valorAnterior = 1, valorActual = 2, indice = 2
+
+// Tercera llamada
+valorAnterior = 3, valorActual = 3, indice = 3
+
+// Cuarta llamada
+valorAnterior = 6, valorActual = 4, indice = 4
+
+// el array sobre el que se llama a reduce siempre es el objeto [0,1,2,3,4]
+ 
+// Valor Devuelto: 10
+```
+
+Y si proporcionás un valorInicial, el resultado sería como este:
+
+```JavaScript
+[0,1,2,3,4].reduce(function(valorAnterior, valorActual, indice, vector){
+ return valorAnterior + valorActual;
+}, 10);
+```
+ 
+```JavaScript
+// Primera llamada
+valorAnterior = 10, valorActual = 0, indice = 0
+
+// Segunda llamada
+valorAnterior = 10, valorActual = 1, indice = 1
+
+// Tercera llamada
+valorAnterior = 11, valorActual = 2, indice = 2
+
+// Cuarta llamada
+valorAnterior = 13, valorActual = 3, indice = 3
+
+// Quinta llamada
+valorAnterior = 16, valorActual = 4, indice = 4
+
+// el array sobre el que se llama a reduce siempre es el objeto [0,1,2,3,4]
+
+// Valor Devuelto: 20
+```
+
+
 ---
+---
+
 
 ## :star: 10. Map
 
