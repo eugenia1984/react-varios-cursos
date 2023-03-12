@@ -395,11 +395,127 @@ function masquediez(element, index, array) {
 
 [2, 5, 8, 1, 4].some(masquediez); // false
 [12, 5, 8, 1, 4].some(masquediez); //
+```
 
 ---
+---
+
 
 ## :star: 2. Funciones
 
+En términos generales, **una función es un "subprograma" que puede ser llamado por código externo (o interno en caso de recursión) a la función**. Al igual que el programa en sí mismo, una función se compone de una **secuencia de declaraciones**, que conforman el llamado **cuerpo de la función**. Se pueden **pasar valores a una funció**n, y la función puede **devolver un valor**.
+
+- Una función es un bloque de código que podemos invocar todas las veces que necesitemos.
+
+- Puede realizar una tarea especifica y retornar un valor.
+
+- Nos permite agrupar el código que vayamos a usar muchas veces.
+
+ 
+
+### General
+
+
+Las funciones no son lo mismo que los procedimientos. Una función siempre devuelve un valor, pero un procedimiento, puede o no puede devolver un valor.
+
+
+Para devolver un valor especifico distinto del predeterminado, una función debe tener una **sentencia return**, que especifique el valor a devolver. Una función sin una instrucción return devolverá el valor predeterminado.
+
+ 
+**Los parámetros en la llamada a una función son los argumentos de la función**. **Los argumentos se pasan a las funciones por valor**. Si la función cambia el valor de un argumento, este cambio no se refleja globalmente ni en la llamada de la función. Sin embargo, las referencias a objetos también son valores, y son especiales: si la función cambia las propiedades del objeto referenciado, ese cambio es visible fuera de la función, tal y como se muestra en el siguiente ejemplo:
+
+ 
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> Estructura básica de una Función:
+
+Usamos la palabra **function** para indicarle a Javascript que vamos a escribir una función.
+
+ 
+```JavaScript
+function sumar(a, b) {
+ return a+b;
+}
+```
+ 
+- **nombre**: Definimos un nombre para referirnos a nuestra función al momento de querer invocarla, en este caso el nombre de la función es sumar.
+
+- **parámetro**: escribimos los paréntesis y dentro de ellos los parámetros de la función. Si tiene mas de uno, los podemos separar mediante una coma. Si la función no lleva parámetros , escribimos los paréntesis sin nada adentro.
+
+Dentro de nuestra función podremos acceder a los parámetros como si fueran variables. Es decir, con solo escribir los nombres de los parámetros, podremos trabajar con ellos.
+
+- **cuerpo**: Entre las llaves de apertura y cierre escribimos la lógica de nuestra función, es decir, el código que queremos que se ejecute cada vez que llamemos a la función.
+
+El retorno: es muy común a la hora de escribir una función que necesitemos devolver al exterior el resultado del proceso que estamos haciendo dentro de ella, para esto utilizamos una palabra reservada return.
+
+ 
+
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/>  Funciones declarativas
+
+ 
+
+Son aquellas que se declaran usando la estructura básica. Reciben un nombre formal a través del cual la podemos invocar.
+
+```JavaSCript 
+Function mostrarEdad(edad) {
+ return edad;
+}
+```
+ 
+
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/>  Funciones
+
+### Funciones expresivas:
+
+En la expresión de función, la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará una función anónima.
+
+ 
+```JavaScript
+const nombre = function mostrarEdad(edad) {
+ return edad;
+}
+```
+ 
+
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/>  Invocación de una función
+
+La forma de llamar a una función (invocar) es escribiendo su nombre seguido de apertura y cierre de paréntesis.
+
+```JavaScript 
+nombreFuncion();
+```
+ 
+
+En el caso de que necesitemos guardar el valor que retorna una función, será necesario almacenarlo en una variable, también podemos mostrarlo usando console.log.
+
+ ```JavaScipt
+let edad = nombreFuncion(edad)
+console.log(nombreFuncion(edad))
+```
+ 
+
+Si la función espera argumentos, se los podemos pasar dentro de los paréntesis, es muy importante respetar el orden si hay más de un parámetro debido a que Javascript los asignara en el orden que vayan llegando.
+
+ 
+```JavaScript
+Function mostrarEdad(edad, nombre) {
+ return “mostrar” + nombre + “tienen” + edad;
+}
+
+mostrarEdad(18,”juan”)
+```
+ 
+
+---
+
+-> **Los parámetros son las variables que escribimos cuando definimos la función**.
+
+-> **Los argumentos son los valores que enviamos cuando invocamos la función**.
+
+
+---
 ---
 
 ## :star: 3. Arrows functions
