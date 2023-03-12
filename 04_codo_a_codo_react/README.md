@@ -92,51 +92,10 @@ Temas
 - Promises
 ```
 
----
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [JS avanzado * Unidad 1 - Presentacion y Nivelacion](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/presentacion_nivelacion.md)
-
-Temas:
-```
-- Presentación cursada / instalación herramientas/ nivelación html,css,js
-- Nivelación (conceptos JS) / Git + Github
-- React
-- Node.js
-- Visual Studio Code
-```
-
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [JS Avanzado * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/js-avanzado-2.md)
-
-```
-- Condicionales (if - else , operador ternario, switch)
-- Condicionales anidados
-- Break y Continue
-- Bucles: While y For - For in - For of
-```
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [JS Avanzado * Unidad 3](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad3.md)
-
-Temas:
-```
-- Arrays
-- Funciones
-- Arrows functions
-- Scope
-- Objetos en Javascript
-- Callbacks
-- Objeto String
-- Objeto Math
-- Reduce
-- Map
-- DOM
-- Eventos
-```
 
 ### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Repaso de JS visto en clase](https://github.com/eugenia1984/react-varios-cursos/tree/main/04_codo_a_codo_react/teoria/repaso_js)
 
 ---
-
 
 ##  <img src="https://img.icons8.com/officel/32/000000/react.png"/>  ENTORNO REACT : Unidad 1 y 2
 
@@ -156,32 +115,6 @@ Temas:
 
 ---
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_entorno_react.md)
-
-```
-- Performance de React
-- NPM
-- Dependencies
-- CLI
-- Instalación de React
-```
-
----
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Entorno React * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_entorno_react_2.md)
-
-```
-- Azucar sintactico - clases
-- Let y Const
-- ES6: Template Strings
-- ES7: Elevación de potencia
-- Webpack
-- Babel + Node.js
-- JSX
-```
-
----
-
 ##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> COMPONENTES:  Unidad 1 y 2
 
 Temas:
@@ -197,29 +130,6 @@ Temas:
 - Use Effect
 ```
 
----
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Componentes * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_componentes.md)
-
-Temas:
-```
-- Introduccion
-- Diseño modular
-- Propiedades en React
-- Tipos de Componentes
-```
-
----
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Componentes * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_componentes.md)
-
-Temas:
-```
-- Childrens
-- Introduccion hooks
-- Ciclo de vida
-- useEffect
-```
 
 ---
 
@@ -233,15 +143,6 @@ Temas:
 - Promesas
 ```
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Asincronia * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_asincronia.md)
-
-```
-- Asincronia en Javascrip
-- Set time out
-- Promesas
-```
-
-
 ---
 
 ## <img src="https://img.icons8.com/officel/32/000000/react.png"/> APIS : Unidad 1 y 2
@@ -254,25 +155,6 @@ Temas:
 - Consumo de recursos via llamados a APIs 
 - Organización de APP 
 - Configuración de navegabilidad entre componentes 
-```
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [APIS * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_APIS.md)
-
-```
-- 1 Qué es una api.
-- 2 Flujo de comunicación.
-- 3 Api Rest.
-- 4 Fectch.
-```
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [API * Unidad 2 ](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_APIS.md)
-
-```
-- 1 - ¿Qué es React Router?
-- 2 - Instalación
-- 3 - Configuración de React-Router
-- 4 - Tipos de rutas
-- 5 - UseParams
 ```
 
 
@@ -291,37 +173,6 @@ Temas:
 ```
 
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [EVENTOS * Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_EVENTOS.md)
-
-Temas:
-
-```
-- 1 - Flujo de eventos
-- 2 - Eventos en react
-- 3 - Eventos Sinteticos
-```
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [EVENTOS * Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_EVENTOS.md)
-
-Temas:
-
-```
-- 1 - Principios de diseño en react
-- 2 - Renderizado condicional
-- 3 - Deploy en netlify
-```
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [EVENTOS * Unidad 3](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad3_EVENTOS.md)
-
-Temas:
-
-```
-- 1 - Servicios en la nube
-- 2 - ¿Qué es firebase?
-- 3 - Funciones firebase
-- 4 - ¿Qué es Firestore?
-```
-
 ---
 
 ##  <img src="https://img.icons8.com/officel/32/000000/react.png"/> ARQUITECTURA:  Unidad 1 y 2 
@@ -334,47 +185,6 @@ Temas:
 - Flujo de trabajo
 - Git avanzado
 - Git Flow
-```
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_ARQUITECTURA.md)
-
-
-Temas:
-```
-- 1 : Firestore
-1.1 - ¿Qué es firestore?
-1.2 - Configuración de Firestore en un proyecto JavaScriptv
-1.3  - Caracteristicas
-- 2: Estructura de firestore
-2.1 - Modelo de datos de Cloud Firestore
-2.2 - Documentos
-2.3 - Colecciones
-2.4 - Referencias
-2.5 - Datos jerárquicos
-2.6 -  Subcolecciones
-- 3 : Crear Base de datos en firebase
-3.1 - Pasos para crear una Base de datos en Firebase
-
-```
-
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad2_ARQUITECTURA.md)
-
-
-Temas:
-```
-- 1 : Flujo de trabajo
-1.1 - Ramas
-- 2: Git avanzado
-2.1 - Funcionamiento
-2.2 - Opciones comunes
-- 3: Git Flow
-3.1 - ¿Qué es Gitflow?
-3.2 - Inicio
-3.3 Funcionamiento
-3.3.1 - Ramas principales y de desarrollo
-3.3.2 -  Ramas de función
-3.3.3 -  Ramas de publicación
-3.3.4 - Ramas de corrección
 ```
 
 
@@ -392,7 +202,9 @@ Temas:
 - Trabajar con varias tablas
 ```
 
-### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> [Unidad 1](https://github.com/eugenia1984/react-varios-cursos/blob/main/04_codo_a_codo_react/teoria/unidad1_backend.md)
+---
+
+### <img src="https://img.icons8.com/emoji/24/000000/check-mark-button-emoji.png"/> Unidad 1
 
 
 Temas:
