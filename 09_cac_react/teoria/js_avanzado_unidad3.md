@@ -1103,7 +1103,232 @@ Sin embargo, tenga en cuenta que las callbacks a menudo se utilizan para continu
 
 ## :star: 7. Objeto String
 
+Las cadenas son útiles para almacenar datos que se pueden representar en forma de texto. Algunas de las operaciones más utilizadas en cadenas son verificar su length, para construirlas y concatenarlas usando operadores de cadena + y +=, verificando la existencia o ubicación de subcadenas con indexOf() o extraer subcadenas con el método substring().
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> Crear cadenas
+
+Las cadenas se pueden crear como primitivas, a partir de cadena literales o como objetos, usando el constructor String():
+
+```JavaScript 
+const string1 = "Una cadena primitiva";
+const string2 = 'También una cadena primitiva';
+const string3 = `Otra cadena primitiva más`;
+const string4 = new String("Un objeto String");
+```
+ 
+Las strings primitivas y los objetos string se pueden usar indistintamente en la mayoría de las situaciones.
+
+
+Las cadenas de literales se pueden especificar usando comillas simples o dobles, que se tratan de manera idéntica, o usando el carácter de comilla invertida `. Esta última forma especifica una Plantilla literal: con esta forma puedes interpolar expresiones.
+
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> Acceder a un caracter
+
+Hay dos formas de acceder a un caracter individual en una cadena. 
+
+- La primera es con el método **charAt()**:
+
+```JavaScript
+return 'cat'.charAt(1) // devuelve "a"
+```
+ 
+- La otra forma (introducida en ECMAScript 5) es tratar a la cadena como un objeto similar a un arreglo, donde los caracteres individuales corresponden a un índice numérico:
+
+```JavaScript 
+return 'cat'[1] // devuelve "a"
+```
+ 
+Cuando se usa la notación entre corchetes para acceder a los caracteres, no se puede intentar eliminar o asignar un valor a estas propiedades. Las propiedades involucradas no se pueden escribir ni configurar.
+
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> Comparar cadenas
+
+En C, se usa la función strcmp() para comparar cadenas. En JavaScript, solo usás los operadores menor que y mayor que:
+
+```JavaScript 
+let a = 'a'
+let b = 'b'
+
+if (a < b) { // true
+ console.log(a + ' es menor que ' + b)
+} else if (a > b) {
+ console.log(a + ' es mayor que ' + b)
+} else {
+console.log(a + ' y ' + b + ' son iguales.')
+}
+```
+ 
+
+Podés lograr un resultado similar usando el método ```localeCompare()``` heredado por las instancias de String.
+
+Ten en cuenta que ```a == b``` compara las cadenas en a y b por ser igual en la forma habitual que distingue entre mayúsculas y minúsculas. Si deseas comparar sin tener en cuenta los caracteres en mayúsculas o minúsculas, usa una función similar a esta:
+
+ 
+```JavaScript
+function isEqual(str1, str2) {
+ return str1.toUpperCase() === str2.toUpperCase()
+} // isEqual
+```
+ 
+
+En esta función se utilizan mayúsculas en lugar de minúsculas, debido a problemas con ciertas conversiones de caracteres UTF-8.
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> Primitivas String y objetos String
+
+Tené en cuenta que JavaScript distingue entre objetos String y valores de primitivas string. (Lo mismo ocurre con Booleanos y Números).
+
+ 
+
+Las cadenas literales (denotadas por comillas simples o dobles) y cadenas devueltas de llamadas a String en un contexto que no es de constructor (es decir, llamado sin usar la palabra clave new) son cadenas primitivas. JavaScript automáticamente convierte las primitivas en objetos String, por lo que es posible utilizar métodos del objeto String en cadenas primitivas. En contextos donde se va a invocar a un método en una cadena primitiva o se produce una búsqueda de propiedad, JavaScript ajustará automáticamente la cadena primitiva y llamará al método o realizará la búsqueda de la propiedad.
+
+```JavaScript
+let s_prim = 'foo'
+let s_obj = new String(s_prim)
+
+console.log(typeof s_prim) // Registra "string"
+console.log(typeof s_obj) // Registra "object"
+```
+
+Las primitivas de String y los objetos String también dan diferente resultado cuando se usa ```eval()```. Las primitivas pasadas a eval se tratan como código fuente; Los objetos String se tratan como todos los demás objetos, devuelven el objeto. Por ejemplo:
+
+
+```JavaScript
+let s1 = '2 + 2' // crea una string primitiva
+let s2 = new String('2 + 2') // crea un objeto String
+
+console.log(eval(s1)) // devuelve el número 4
+console.log(eval(s2)) // devuelve la cadena "2 + 2"
+```
+
+Por estas razones, el código se puede romper cuando encuentra objetos String y espera una string primitiva en su lugar, aunque generalmente los programadores no necesitan preocuparse por la distinción.
+
+ 
+Un objeto String siempre se puede convertir a su contraparte primitiva con el método ```valueOf()```.
+
+```JavaScript 
+console.log(eval(s2.valueOf())) // devuelve el número 4
+```
+
+#### Método 1
+
+Puedes usar el operador + para agregar varias cadenas juntas, así:
+
+```JavaScript
+let longString = "Esta es una cadena muy larga que necesita " +
+"que dividimos en varias líneas porque " +
+"de lo contrario, mi código es ilegible."
+```
+
+#### Método 2
+
+Puedes usar el caracter de barra invertida (\) al final de cada línea para indicar que la cadena continúa en la siguiente línea. Asegurate de que no haya ningún espacio ni ningún otro carácter después de la barra invertida (a excepción de un salto de línea) o como sangría; de lo contrario, no funcionará:
+
+```JavaScript
+let longString = "Esta es una cadena muy larga que necesita \
+que dividimos en varias líneas porque \
+de lo contrario, mi código es ilegible."
+```
+
+Ambos métodos anteriores dan como resultado cadenas idénticas.
+
 ---
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> Constructor String()
+
+Crea un nuevo objeto String. Realiza la conversión de tipos cuando se llama como función, en lugar de como constructor, lo cual suele ser más útil.
+
+## Métodos estáticos
+
+```String.fromCharCode(num1 [, ...[, numN]])``` -> Devuelve una cadena creada utilizando la secuencia de valores Unicode especificada.
+
+```String.fromCodePoint(num1 [, ...[, numN]])``` -> Devuelve una cadena creada utilizando la secuencia de puntos de código especificada.
+
+```String.raw()``` -> Devuelve una cadena creada a partir de una plantilla literal sin formato.
+
+### Propiedades de la instancia
+
+```String.prototype.length``` -> Refleja la length de la cadena. Solo lectura.
+
+### Métodos de instancia
+
+```String.prototype.charAt(index)``` -> Devuelve el caracter (exactamente una unidad de código UTF-16) en el index especificado.
+
+```String.prototype.charCodeAt(index)``` -> Devuelve un número que es el valor de la unidad de código UTF-16 en el index dado.
+
+```String.prototype.codePointAt(pos)``` -> Devuelve un número entero no negativo que es el valor del punto de código del punto de código codificado en UTF-16 que comienza en la pos especificada.
+
+```String.prototype.concat(str[, ...strN])``` -> Combina el texto de dos (o más) cadenas y devuelve una nueva cadena.
+
+```String.prototype.includes(searchString [, position])``` -> Determina si la cadena de la llamada contiene searchString.
+
+```String.prototype.endsWith(searchString[, length])``` -> Determina si una cadena termina con los caracteres de la cadena searchString.
+
+```String.prototype.indexOf(searchValue[, fromIndex])``` -> Devuelve el índice dentro del objeto String llamador de la primera aparición de searchValue, o -1 si no lo encontró.
+
+```String.prototype.lastIndexOf(searchValue[, fromIndex])``` -> Devuelve el índice dentro del objeto String llamador de la última aparición de searchValue, o -1 si no lo encontró.
+
+```String.prototype.localeCompare(compareString[, locales[, options]])``` -> Devuelve un número que indica si la cadena de referencia compareString viene antes, después o es equivalente a la cadena dada en el orden de clasificación.
+
+```String.prototype.match(regexp)``` -> Se utiliza para hacer coincidir la expresión regular regexp con una cadena.
+
+```String.prototype.matchAll(regexp)``` -> Devuelve un iterador de todas las coincidencias de regexp.
+
+```String.prototype.normalize([form])``` -> Devuelve la forma de normalización Unicode del valor de la cadena llamada.
+
+```String.prototype.padEnd(targetLength[, padString])``` -> Rellena la cadena actual desde el final con una cadena dada y devuelve una nueva cadena de longitud targetLength.
+
+```String.prototype.padStart(targetLength[, padString])``` -> Rellena la cadena actual desde el principio con una determinada cadena y devuelve una nueva cadena de longitud targetLength.
+
+```String.prototype.repeat(count)``` -> Devuelve una cadena que consta de los elementos del objeto repetidos count veces.
+
+```String.prototype.replace(searchFor, replaceWith)``` -> Se usa para reemplazar ocurrencias de searchFor usando replaceWith. searchFor puede ser una cadena o expresión regular, y replaceWith puede ser una cadena o función.
+
+```String.prototype.replaceAll(searchFor, replaceWith)``` -> Se utiliza para reemplazar todas las apariciones de searchFor usando replaceWith. searchFor puede ser una cadena o expresión regular, y replaceWith puede ser una cadena o función.
+
+```String.prototype.search(regexp)``` -> Busca una coincidencia entre una expresión regular regexp y la cadena llamadora.
+
+```String.prototype.slice(beginIndex[, endIndex])``` -> Extrae una sección de una cadena y devuelve una nueva cadena.
+
+```String.prototype.split([sep[, limit] ])``` -> Devuelve un arreglo de cadenas pobladas al dividir la cadena llamadora en las ocurrencias de la subcadena sep.
+
+```String.prototype.startsWith(searchString[, length])``` -> Determina si la cadena llamadora comienza con los caracteres de la cadena searchString.
+
+```String.prototype.substr()``` -> Devuelve los caracteres en una cadena que comienza en la ubicación especificada hasta el número especificado de caracteres.
+
+```String.prototype.substring(indexStart[, indexEnd])``` -> Devuelve una nueva cadena que contiene caracteres de la cadena llamadora de (o entre) el índice (o indeces) especificados.
+
+```String.prototype.toLocaleLowerCase()``` -> Los caracteres dentro de una cadena se convierten a minúsculas respetando la configuración regional actual.
+
+Para la mayoría de los idiomas, devolverá lo mismo que toLowerCase().
+
+Para la mayoría de los idiomas, devolverá lo mismo que toUpperCase().
+
+```toLowerCase()``` -> Devuelve el valor de la cadena llamadora convertido a minúsculas.
+
+```toString()``` -> Devuelve una cadena que representa el objeto especificado. Redefine el método toString().
+
+```toUpperCase()``` -> Devuelve el valor de la cadena llamadora convertido a mayúsculas.
+
+```trim()``` -> Recorta los espacios en blanco desde el principio y el final de la cadena. Parte del estándar
+
+### ECMAScript 5.
+
+```String.prototype.trimStart()``` -> Recorta los espacios en blanco desde el principio de la cadena.
+
+```String.prototype.trimEnd()``` -> Recorta los espacios en blanco del final de la cadena.
+
+```String.prototype.valueOf()``` -> Devuelve el valor primitivo del objeto especificado. Redefine el método valueOf().
+
+
+
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> 
+
+### <img src="https://img.icons8.com/emoji/48/null/check-mark-button-emoji.png"/> 
+
+---
+---
+
 
 ## :star: 8. Objeto Math
 
