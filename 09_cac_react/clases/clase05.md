@@ -26,6 +26,6 @@ Cada uno sigue maquetando y agregando el CSS necesario para que se vea bien, a f
 
 ## Para ver mi práctica:
 
-[Aca está el repositorio con el cósigo](https://github.com/eugenia1984/listaDeTareas)
+[Aca está el repositorio con el código](https://github.com/eugenia1984/listaDeTareas)
 
 ---
