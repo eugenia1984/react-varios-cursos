@@ -23,3 +23,9 @@ Cada uno sigue maquetando y agregando el CSS necesario para que se vea bien, a f
 [Link de resultado final, de la profesora](https://listadetareasjs-cac.netlify.app/)
 
 ---
+
+## Para ver mi práctica:
+
+[Aca está el repositorio con el cósigo](https://github.com/eugenia1984/listaDeTareas)
+
+---
