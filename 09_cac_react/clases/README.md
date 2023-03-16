@@ -22,8 +22,10 @@
  
 :computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  DEPLOY](https://eugenia1984.github.io/humaya) 
  
-- [Clase 5](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase05.md): 13 Marzo - Lista de tarea con HTML5, CSS3 y JavaScript
+- [Clase 5 y 6](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase05.md): 13 y 15 Marzo - Lista de tarea con HTML5, CSS3 y JavaScript
 
-- Clase 6: 15 Marzo
+- Clase 7: 20 Marzo
+
+- Clase 8: 22 Marzo
  
 ---
