@@ -24,6 +24,8 @@
  
 - [Clase 5 y 6](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase05.md): 13 y 15 Marzo - Lista de tarea con HTML5, CSS3 y JavaScript
 
+:tv: -> [LISTA DE TAREAS - REPO](https://github.com/eugenia1984/listaDeTareas) y [LISTA DE TAREAS - DEPLOY](https://eugenia1984.github.io/listaDeTareas/)
+
 - Clase 7: 20 Marzo
 
 - Clase 8: 22 Marzo
