@@ -26,6 +26,8 @@
 
 :computer: -> [LISTA DE TAREAS - REPO](https://github.com/eugenia1984/listaDeTareas) y [LISTA DE TAREAS - DEPLOY](https://eugenia1984.github.io/listaDeTareas/)
 
+:book: GIT CHEETSEET :stars: LINKS: código ACSSI, Manual de JS, Tutorial de HTML, Tutorial de CSS3, Tutorial de JS, Tutorial de GIT y GitHub :stars:
+
 - Clase 7: 20 Marzo
 
 - Clase 8: 22 Marzo
