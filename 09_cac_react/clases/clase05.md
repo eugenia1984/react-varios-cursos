@@ -171,3 +171,29 @@ Registrar un marcador de repositorio e intercambiar historial de versión
 
 ---
 ---
+
+# :star: MANUALES Y APUNTES:star:
+
+## Links importantes:
+
+- [CÓDIGO ACSII](https://elcodigoascii.com.ar/codigos-ascii/acento-grave-codigo-ascii-96.html)
+
+- [MANUAL DE JS](https://desarrolloweb.com/manuales/manual-javascript.html)
+
+- [TUTORIAL DE HTML](https://www.youtube.com/watch?v=kN1XP-Bef7w)
+
+- [TUTORIAL DE CSS3](https://www.youtube.com/watch?v=OWKXEJN67FE)
+
+- TUTORIAL JS:
+
+-[Nivel JS 1](https://www.youtube.com/watch?v=z95mZVUcJ-E)
+
+-[Nivel JS 2](https://www.youtube.com/watch?v=xOinGb2MZSk)
+
+-[Nivel JS 3](https://www.youtube.com/watch?v=EbMi1Qj4rVE)
+
+- [TUTORIAL DE GIT Y GITHUB](https://www.youtube.com/watch?v=HiXLkL42tMU
+https://www.youtube.com/watch?v=3XlZWpLwvvo)
+
+---
+---
