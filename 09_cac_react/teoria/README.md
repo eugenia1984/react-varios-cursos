@@ -10,4 +10,24 @@
 
 - [**Unidad 3**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/js_avanzado_unidad3.md) : 1. Arrays / 2. Funciones / 3. Arrows functions / 4. Scope / 5. Objetos en Javascript / 6. Callbacks / 7. Objeto String / 8. Objeto Math / 9. Reduce / 10. Map / 11. DOM / 12. Eventos
 
+## Entorno React
+
+- Unidad 1: 1. Performance de react / 2. NPM / 3. Dependencias / 4. CLI / 5. Instalación react
+
+- Unidad 2: 1. Azúcar sintáctico / 2. Webpack / 3. Transpilling / 4. JSX
+
+## Componentes
+
+## Asincronía
+
+## APIs
+
+## Eventos en React
+
+## Arquitectura
+
+## Sección BackEnd
+
+
+
 ---
