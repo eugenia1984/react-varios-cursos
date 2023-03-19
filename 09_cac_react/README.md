@@ -14,6 +14,8 @@
 
 :computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  DEPLOY](https://eugenia1984.github.io/humaya) 
 
+:computer: -> [LISTA DE TAREAS - REPOSITORIO](https://github.com/eugenia1984/listaDeTareas) y [LISTA DE TAREAS - DEPLOY](https://eugenia1984.github.io/listaDeTareas/)
+
 ---
 
 ## :book:Ejes temáticos:book:
