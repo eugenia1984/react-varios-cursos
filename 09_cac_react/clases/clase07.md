@@ -79,3 +79,13 @@ Footer
 
 
 ---
+
+## :computer: Links para ver más sobre métodos:
+
+[https://es.javascript.info/array-methods](https://es.javascript.info/array-methods)
+
+[https://francescricart.com/metodos-javascript/](https://francescricart.com/metodos-javascript/)
+
+[https://tutobasico.com/metodos-arrays-javascript/](https://tutobasico.com/metodos-arrays-javascript/)
+
+---
