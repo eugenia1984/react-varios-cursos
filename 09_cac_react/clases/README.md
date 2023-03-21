@@ -28,7 +28,7 @@
 
 :book: GIT CHEETSEET :stars: LINKS: código ACSSI, Manual de JS, Tutorial de HTML, Tutorial de CSS3, Tutorial de JS, Tutorial de GIT y GitHub :stars:
 
-- Clase 7: 20 Marzo
+- [Clase 7: 20 Marzo](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase07.md): Arrays
 
 - Clase 8: 22 Marzo
  
