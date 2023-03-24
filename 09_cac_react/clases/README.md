@@ -30,7 +30,7 @@
 
 - [Clase 7](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase07.md): 20 Marzo: Arrays (métodos)
 
-- [Clase 8](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase08.md): 22 Marzo: continuamos con JavaScript.
+- [Clase 8](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase08.md): 22 Marzo: continuamos con JavaScript, vemos un poco de **POO**, comenzamos con el proyecto **Calculadora**. :star: Comenzamos con las consignas del **trabajo integrador**.
 
 :computer: Calculadora con HTML5, CSS3 y JavaScript
 
