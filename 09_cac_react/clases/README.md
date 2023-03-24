@@ -34,6 +34,10 @@
 
 :computer: Calculadora con HTML5, CSS3 y JavaScript
 
+- Clase 9: 27 de Marzo
+
+- Clase 10: 29 de Marzo
+
 
  
 ---
