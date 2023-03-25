@@ -22,13 +22,17 @@
 ---
 ---
 
-## Seguimos con JavaScript
+##  :star: Seguimos con JavaScript
 
 - Comenzamos un nuevo proyecto, esta vez una **calculadora**
 
 -> La semana que vieen empezamos con **React**, por eso ahora tenemos el proyecto intermedio de la **calculadora**.
 
-Vemos un poco de **POO** en JavaScript.
+:computer: -> [CALCULADORA - REPOSITORIO](https://github.com/eugenia1984/Calculadora) y [CALCULADORA - DEPLOY](https://eugenia1984.github.io/Calculadora/)
+
+---
+
+## :star: Vemos un poco de POO en JavaScript.
 
 Ejemplo de código:
 
