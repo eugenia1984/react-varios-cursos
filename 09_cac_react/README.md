@@ -16,6 +16,8 @@
 
 :computer: -> [LISTA DE TAREAS - REPOSITORIO](https://github.com/eugenia1984/listaDeTareas) y [LISTA DE TAREAS - DEPLOY](https://eugenia1984.github.io/listaDeTareas/)
 
+:computer: -> [CALCULADORA - REPOSITORIO](https://github.com/eugenia1984/Calculadora) y [CALCULADORA - DEPLOY](https://eugenia1984.github.io/Calculadora/)
+
 ---
 
 ## :book:Ejes temáticos:book:
