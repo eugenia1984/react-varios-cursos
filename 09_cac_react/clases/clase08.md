@@ -28,6 +28,9 @@
 
 -> La semana que vieen empezamos con **React**, por eso ahora tenemos el proyecto intermedio de la **calculadora**.
 
+![image](https://user-images.githubusercontent.com/72580574/227734335-19e0d114-e6bf-4f1a-9d3d-e31186fee92f.png)
+
+
 :computer: -> [CALCULADORA - REPOSITORIO](https://github.com/eugenia1984/Calculadora) y [CALCULADORA - DEPLOY](https://eugenia1984.github.io/Calculadora/)
 
 ---
