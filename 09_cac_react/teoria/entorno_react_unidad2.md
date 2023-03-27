@@ -385,6 +385,7 @@ Puedes poner cualquier expresión de JavaScript dentro de llaves en JSX. Por eje
 
 En el ejemplo a continuación, insertamos el resultado de llamar la función de JavaScript, formatName(user), dentro de un elemento <h1>.
 
+
 ```JSX
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
@@ -417,6 +418,7 @@ Dividimos JSX en varias líneas para facilitar la lectura. Aunque no es necesari
 
 - Esto significa que puedes usar JSX dentro de declaraciones if y bucles for, asignarlo a variables, aceptarlo como argumento, y retornarlo desde dentro de funciones:
 
+
 ```JSX
 function getGreeting(user) {
   if (user) {
@@ -431,7 +433,7 @@ function getGreeting(user) {
 
 Puedes utilizar comillas para especificar strings literales como atributos:
 
-```JSC
+```JSX
 const element = <a href="https://www.codoacodo.com.ar"> link </a>;
 ```
 
@@ -465,7 +467,7 @@ const element = <img src={user.avatarUrl} />;
 Las etiquetas de Javascript pueden contener hijos:
 
  
-```JSC
+```JSX
 const element = (
   <div>
      <h1>Hello!</h1>
