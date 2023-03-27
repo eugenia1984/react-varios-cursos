@@ -36,6 +36,8 @@
 
 - [Clase 9](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 27 Marzo: React (virtual DOM)
 
+:book: Configuración React :book: Sugerencias - ¿Qué es React? - ¿Cómo funciona React? - ¿Cómo arrancamos con React? 
+
 - Clase 10: 29 de Marzo
 
 
