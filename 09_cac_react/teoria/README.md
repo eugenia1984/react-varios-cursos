@@ -14,7 +14,7 @@
 
 - [**Unidad 1**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/entorno_react_unidad1.md): 1. Performance de react / 2. NPM / 3. Dependencias / 4. CLI / 5. Instalación react
 
-- Unidad 2: 1. Azúcar sintáctico / 2. Webpack / 3. Transpilling / 4. JSX
+- [**Unidad 2**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/entorno_react_unidad2.md): 1. Azúcar sintáctico / 2. Webpack / 3. Transpilling / 4. JSX
 
 ## Componentes
 
