@@ -64,7 +64,7 @@ Voy a ir borrando lo que no utilizo.
 ---
 ---
 
-# :book: CONFiGURACIÓN REACT - CAMBIO DE PUERTO 3000
+# :book: CONFIGURACIÓN REACT - CAMBIO DE PUERTO 3000
 
 ## GUÍA CON EL PASO A PASO
 
