@@ -162,7 +162,7 @@ Webpack se define como un empaquetador de módulos (un bundler en la jerga habit
 
 - Servidor de desarrollo
 
-Carga y uso de módulos de todo tipo (AMD, CommonJS o ES2015)
+- Carga y uso de módulos de todo tipo (AMD, CommonJS o ES2015)
 
 Y esto último lo que hace que destaque en especial. Es una herramienta extremadamente útil cuando desarrollas aplicaciones web diseñadas con filosofía modular, es decir, separando el código en módulos que luego se utilizan como dependencias en otros módulos. Una de las cosas que hace realmente bien Webpack es la gestión de esos módulos y de sus dependencias, pero también puede usarse para cuestiones como concatenación de código, minimización y ofuscación, verificación de buenas prácticas (linting), carga bajo demanda de módulos, etc...
 
@@ -383,7 +383,7 @@ Puedes poner cualquier expresión de JavaScript dentro de llaves en JSX. Por eje
 
  
 
-En el ejemplo a continuación, insertamos el resultado de llamar la función de JavaScript, formatName(user), dentro de un elemento <h1>.
+En el ejemplo a continuación, insertamos el resultado de llamar la función de JavaScript, formatName(user), dentro de un elemento `<h1>`.
 
 
 ```JSX
