@@ -164,4 +164,73 @@ LINK: [https://es.reactjs.org](https://es.reactjs.org)
 
 ## :star: ¿Cómo funciona React? 
 
+REACT TIENE UNA ESTRUCTURA PARTICULAR PARA TRABAJAR Y REQUIERE CIERTOS CUIDADOS A LA HORA DE ESCRIBIR CÓDIGO, YA QUE NO ES HTML NI JAVASCRIPT PURO, UTILIZA COMPONENTES Y JSX.
+
+### FUNCIONAMIENTO LÓGICO
+
+#### FORMA DE COMPRENDER COMO TRABAJA
+
+Para poder comprender como funciona REACT vamos a desarrollar un simple ejercicio que nos permitirá ver como es su secuencia lógica de ejecución, para ello deberás cargar un archivo index.html en una carpeta y luego cargar los siguientes links que te permitirán importar REACT para nuestro ejemplo. Recuerda que si presionas el atajo en VSC de ! + TAB, obtendrás un HTML básico.
+
+#### CARGAR LOS SIGUIENTES SCRIPTS EN EL HTML
+
+```
+<SCRIPT CROSSORIGIN SRC="HTTPS://UNPKG.COM/REACT@18/UMD/REACT.DEVELOPMENT.JS" > < /SCRIPT >
+<SCRIPT CROSSORIGIN SRC="HTTPS://UNPKG.COM/REACT-DOM@18/UMD/REACT-DOM.DEVELOPMENT.JS" > < /SCRIPT >
+<SCRIPT SRC="HTTPS://UNPKG.COM/BABEL-STANDALONE@6/BABEL.MIN.JS " > < / SCRIPT >
+```
+
+Asegurate de tener NODE JS instalado.
+
+Cuando los cargues se verá asi:
+
+![image](https://user-images.githubusercontent.com/72580574/228059388-3de808ce-53fd-4368-a022-c52de2f57bab.png)
+
+A continuación vamos a crear un SCRIPT y asignaremos a una variable un TAG.
+
+Pareciera código de JavaScript pero es JSX porque estamos mezclando lo que es XML (del HTML) con código de JAVASCRIPT, pero a pesar de que tenemos importado React no hará nada, ya que para poder ser comprendido vamos a tener que importar el uso BABEL al componente del script.
+
+BABEL se va a encargar de hacer la traducción de un código moderno a lo que un código que sea soportado por cualquier navegador web, es básicamente lo que hace Babel. Vemos como queda!!
+
+
+![image](https://user-images.githubusercontent.com/72580574/228059543-2bde3957-a623-4396-a381-15ec9188f446.png)
+
+
+A continuación vamos a crear un <div> en el HTML con un id="root" y lo llamaremos desde nuestro SCRIPT, para que sea renderizado por lo que agreguemos allí.
+  
+Para ello usaremos un selector y el ReactDOM con el createRoot que serán los encargados de poder tomar el objeto desde DOM.
+  
+  ![image](https://user-images.githubusercontent.com/72580574/228059636-70d0a985-4196-4056-b1dc-8776213ef293.png)
+
+Cuando vayamos a abrir la web desde un navegador veremos que el "hola mundo" ya esta a la vista, pero para hacerlo más dinámico vamos a cargar otra variable con un saludo y haremos que lo muestre utilizando el recurso de JS puro, veamoslo en la práctica:
+  
+  ![image](https://user-images.githubusercontent.com/72580574/228059741-eb3bdad4-8252-4b8e-9ed3-b6ab74b53c9f.png)
+
+  
+  Ahora si!!! con estos pasos ya creaste tu primer archivo en React, y podrás ver reflejado en pantalla lo que se cargo en el script, no es la única forma de trabajar con un archivo en React, a continuación lo haremos cargando los comandos necesario desde el VSC e instalando el mismo junto a otras librerías también. Y ahora si podemos decir que ya tuvimos nuestro tan esperado "HOLA MUNDO".
+  
+  ![image](https://user-images.githubusercontent.com/72580574/228059832-d2d341ee-f69e-469c-bdef-40b39bb380db.png)
+
+  
+  Proba realizar todos los pasos para crear tu primer archivo de REACT, podes agregarle más cosas para que quede mejor, te lo dejamos como desafío.
+  
+Pero antes de menternos con la estructura sólida de REACT y la otra forma de abrir un archivo REACT vamos a ver un poco que es BABEL y la función de NODE JS.
+  
+### NODEJS
+  
+Node fue ideado como un entorno de ejecución de JavaScript orientado a eventos asíncronos especialmente, además fue diseñado para crear aplicaciones network escalables. Permite compilar el código y poder verlo en pantalla.
+  
+Node. js es un entorno de ejecución de un solo hilo, de código abierto y multiplataforma para crear aplicaciones de red y del lado del servidor rápidas y escalables.
+  
+[HTTPS://NODEJS.ORG/ES/ABOUT/](https://nodejs.org/es/about/) 
+
+  
+### BABEL
+  
+Babel es un compilador (o transpilador) para JavaScript. Básicamente permite transformar código escrito con las últimas y novedosas características de JavaScript y transformarlo en un código que sea entendido por navegadores más antiguos. Babel es de código abierto y se utiliza principalmente para convertir el código ECMAScript de JS.
+  
+ [HTTPS://BABELJS.IO/DOCS/EN/](https://babeljs.io/docs/en/)
+  
 ## :star: ¿Cómo arrancamos con React? 
+
+  
