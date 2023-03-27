@@ -34,7 +34,7 @@
 
 :computer: -> [CALCULADORA - REPOSITORIO](https://github.com/eugenia1984/Calculadora) y [CALCULADORA - DEPLOY](https://eugenia1984.github.io/Calculadora/)
 
-- [Clase 9: 27 de Marzo](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 27 Marzo: React (virtual DOM)
+- [Clase 9](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 27 Marzo: React (virtual DOM)
 
 - Clase 10: 29 de Marzo
 
