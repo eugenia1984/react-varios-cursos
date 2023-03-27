@@ -28,15 +28,30 @@ Los componentes se van armando de acorde a lo que voy necesitando.
 
 ## Primer proyecto de React
 
-- Abrimos VSC, ya teniendo instalaod **Nodejs** y **Babel**(`npm install babel` ò `npm i babel-install -DE`).
+- Abrimos VSC, ya teniendo instalaod **Nodejs**(`node -v`) y **Babel**(`npm install babel` ò `npm i babel-install -DE`).
 
 - Abrimos la terminal.
 
 - Creamos el proyecto por línea de comandos. Se puede usar **CDN** o por comando **instalando toda la biblioteca**.
 
-- Se crea con **CRA** `npx create-react-app el-nombre-de-la-app`, no lo van a hacer con **Vite**.
+- Se crea con **CRA** `npx create-react-app el-nombre-de-la-app`, no lo van a hacer con **Vite**. Si da error, volver a repetir el comando hasta que este ok.
 
-- Para poder ver el proyecto tengo que **ir a la carpeta del proyecto**, entrar con `cd` a la carpeta que cree. Una vez en la carpeta `npm start`
+- Para poder ver el proyecto tengo que **ir a la carpeta del proyecto**, entrar con `cd` a la carpeta que cree. Una vez en la carpeta `npm start`. Y se va a abrir en el puerto 30000, salvoq ue este usandose y abre en el proximo puerto disponible.
 
+- La estructura del proyecto inicial, que viene por defecto:
+
+![image](https://user-images.githubusercontent.com/72580574/227970947-4368b2fd-1f0e-47ce-8fa3-8184219712b1.png)
+
+- Dentro de **public** ya viene cosas pre cargadas:
+
+![image](https://user-images.githubusercontent.com/72580574/227971009-48d6b8cd-0a5b-47ac-a03b-c1baf65175c8.png)
+
+En public puedo tener una carpeta de **imagenes**, peor no vamos a tocar mucho, si el `<title>` y lo que no use lo elimino.
+
+- Dentro de **src** también ya viene una estructura por default:
+
+![image](https://user-images.githubusercontent.com/72580574/227971479-24887a18-d68f-4169-8e48-bfc895b8efce.png)
+
+Voy a ir borrando lo que no utilizo.
 
 ---
