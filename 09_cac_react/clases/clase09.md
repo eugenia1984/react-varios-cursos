@@ -25,3 +25,18 @@ Los componentes se van armando de acorde a lo que voy necesitando.
 - Babel: el compilador, como un traductor de JSX.
 
 ---
+
+## Primer proyecto de React
+
+- Abrimos VSC, ya teniendo instalaod **Nodejs** y **Babel**(`npm install babel` ò `npm i babel-install -DE`).
+
+- Abrimos la terminal.
+
+- Creamos el proyecto por línea de comandos. Se puede usar **CDN** o por comando **instalando toda la biblioteca**.
+
+- Se crea con **CRA** `npx create-react-app el-nombre-de-la-app`, no lo van a hacer con **Vite**.
+
+- Para poder ver el proyecto tengo que **ir a la carpeta del proyecto**, entrar con `cd` a la carpeta que cree. Una vez en la carpeta `npm start`
+
+
+---
