@@ -4,9 +4,10 @@
 
 ## Virtual DOM
 
+Con **Vanilla JavaScript** ante el mínimo cambio en un nodo se vuelve a renderizar todo, se carga toda la página. En cambio **React** utiliza el **virtual DOM**, hace como una copia del DOM, y solo va a renderizar lo que cambie, lo que queda igual no va a volver a re renderizar.
+
 ![image](https://user-images.githubusercontent.com/72580574/227961234-e0e0908a-4174-47b0-b4a8-729d5683caa5.png)
 
-Hace como una copia del DOM, y solo va a renderizar lo que cambie, lo que queda igual no va a volver a re renderizar.
 
 ---
 
@@ -63,7 +64,7 @@ Voy a ir borrando lo que no utilizo.
 ---
 ---
 
-# :book: CONFOGURACIÓN REACT - CAMBIO DE PUERTO 3000
+# :book: CONFiGURACIÓN REACT - CAMBIO DE PUERTO 3000
 
 ## GUÍA CON EL PASO A PASO
 
@@ -106,7 +107,60 @@ Y el proyecto se cargará automáticamente en el puerto ingresado listo para tra
 
 ## :star: Sugerencias 
 
+Antes de empezar te recomendamos algunas instalaciones que te servirán para trabajar mucho mejor con React.
+
+- **INSTALACIONES NECESARIAS**:
+
+-Google Chrome
+
+-React Developer Tools
+
+-Redux Devtools
+
+-Visual Studio Code
+
+-Firebase
+
+-Mongo Compass
+
+-Git
+
+-Node
+
+- **EXTENSIONES DE VSC**
+
+-Activitus Ba r
+
+-ES7 React/Redux
+
+-Simple React Snippets
+
+-Auto Close Tag
+
+
 ## :star: ¿Qué es React? 
+
+REACT ES UNA LIBRERÍA QUE NOS PERMITE CREAR APLICACIONES. ESTÁ HECHO PARA TRABAJAR CON TODO TIPO DE APLICACIONES SENCILLAS, INTERMEDIAS O COMPLEJAS, CON ALTO NIVEL DE INTERACTIVIDAD.
+
+Esta librería, al ser declarativa, hace más fácil seguir patrones de diseño y crear interfaces de usuario interactivas.
+
+Es increíblemente eficiente.
+
+Los cambio impacta en el DOM, y se ven reflejados en el HTML, siendo renderizado por React solo en aquellas partes deseadas sin necesidad de recargar por completo la web, el cambio en ese elemento se realiza en el instante sin afectar el resto.
+
+Otro punto fuerte de React es que trabaja de manera predecible porque toda la información fluye en un solo eje como javaScript.
+
+A su vez con React podremos crear componentes, que son pequeñas piezas de código encapsuladas que pueden tener estado o no, y formar estructuras bastantes complejas con pequeños componentes o en pequeñas piezas sencillas y fáciles de mantener.
+
+Con React, también se puede trabajar del lado del servidor y hacer Aplicaciones con Node.
+
+También podemos crear aplicaciones móviles con React Native y también podemos crear aplicaciones de escritorio utilizando Electron y otras tecnologías, todos con el mismo tipo de código.
+
+
+REACT DOCUMENTACIÓN
+
+LINK: [https://es.reactjs.org](https://es.reactjs.org)
+
 
 ## :star: ¿Cómo funciona React? 
 
