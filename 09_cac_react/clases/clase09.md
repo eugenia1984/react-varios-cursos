@@ -2,7 +2,7 @@
 
 ---
 
-## Virtual DOM
+## :star: Virtual DOM
 
 Con **Vanilla JavaScript** ante el mínimo cambio en un nodo se vuelve a renderizar todo, se carga toda la página. En cambio **React** utiliza el **virtual DOM**, hace como una copia del DOM, y solo va a renderizar lo que cambie, lo que queda igual no va a volver a re renderizar.
 
@@ -11,7 +11,7 @@ Con **Vanilla JavaScript** ante el mínimo cambio en un nodo se vuelve a renderi
 
 ---
 
-### Componentes
+### :star: Componentes
 
 Componentes reutilizables, y me permite achicar el problema en prblemas mas chicos, cada uno hara una parte.
 
@@ -19,7 +19,7 @@ Los componentes se van armando de acorde a lo que voy necesitando.
 
 ---
 
-## ¿Que hay que tener pre instalado antes de usar React?
+## :star: ¿Que hay que tener pre instalado antes de usar React?
 
 - Nodejs y npm
 
@@ -33,7 +33,7 @@ VUE y ANGULAR si son Frameworks.
 
 ---
 
-## Primer proyecto de React
+## :star: Primer proyecto de React
 
 - Abrimos VSC, ya teniendo instalaod **Nodejs**(`node -v`) y **Babel**(`npm install babel` ò `npm i babel-install -DE`).
 
@@ -99,6 +99,17 @@ Y el proyecto se cargará automáticamente en el puerto ingresado listo para tra
 
 ![image](https://user-images.githubusercontent.com/72580574/228054785-19b526b8-c3ea-4b1c-bb53-48eb96acaf68.png)
 
+---
+
+Vamos a tener:
+
+- Distintos componentes
+
+- Vamosa ir importando componentes, y trabajar con **atomic desing** de componentes chicos vamos a formar tdo un conjunto.
+
+-> En el **index.html** tengo el **div** con el **id=root**. En mi app voy a aplicarle el método **render** que me va a crear mi **React DOM** y es donde se va a renderizar todo loq eu cree en mi app.
+
+-> Todo componente tiene un **return**, retorna una información, va a tener un **Export**.
 
 ---
 ---
