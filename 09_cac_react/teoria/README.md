@@ -18,6 +18,8 @@
 
 ## Componentes
 
+- Unidad 1: 1. Introducción / 2. Diseño modular / 3. Propiedades en react / 4. Tipos de componentes
+
 ## Asincronía
 
 ## APIs
