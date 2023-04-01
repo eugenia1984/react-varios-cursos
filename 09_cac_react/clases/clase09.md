@@ -64,6 +64,72 @@ Voy a ir borrando lo que no utilizo.
 ---
 ---
 
+
+# ⭐ CLASE 10 - 29 MAR
+
+## Componentes
+
+- Creamos un **componente** Usuarios:
+
+```JSX
+import bootstrap from 'bootstrap';
+
+export default function Usuarios(props) {
+    return (
+      <div>
+{ /*       <h3 style={{backgroundColor : "#6ab150"}}>
+        Nombre: {props.nombre}</h3>
+        <p>Edad: {props.edad}</p>
+    <p>{props.localidad} </p> */}
+
+        <div className="card " style={{width : "18rem"}}>
+        <div className="card-body">
+            <h3 className="card-title">{props.nombre}</h3>
+            <h6 className="card-subtitle mb-2 text-muted">Encargado</h6>
+            <p className="card-text">{props.edad}</p>
+        </div>
+        </div>
+        
+      </div>
+    )
+  }
+```
+
+Si este componente lo invocamos en App lo vemos renderizado.
+
+
+- `rfc` es el atajo para tener una estructura ya armada de un componente
+
+- Hay dos formas de hacer el export:
+
+-Aca ademas tengo el componente armado como funcion explicita:
+
+```JSX
+export default function App() {
+  return (
+    <div>
+    </div>
+  )
+}
+```
+
+-Acá además tengo el componente armado como arrow function guardada en variable:
+```JSX
+const App = () => {
+  return (
+    <div>
+    </div>
+  )
+}
+
+export default App
+```
+
+- Tengo que tener un solo **export** por archivo, ya que debo tener un solo componente, no puedo exportar dos componentes juntos.
+
+---
+---
+
 # :book: CONFIGURACIÓN REACT - CAMBIO DE PUERTO 3000
 
 ## GUÍA CON EL PASO A PASO
@@ -73,7 +139,7 @@ Configuración | Evitar conflictos de puertos
 Profesora Gisela Flores
 ```
 
-### CÓMO MODIFICAR EL NÚMERO DE PUERTO PREDETERMINADO 3000 EN UN PROYECTO REACT
+### ¿CÓMO MODIFICAR EL NÚMERO DE PUERTO PREDETERMINADO 3000 EN UN PROYECTO REACT?
 
 Debido a que json-server se usa para simular la interfaz de back-end, se abre el puerto 3000. Ahora, cuando se inicia el proyecto de reacción, siempre preguntará si el puerto 3000 está ocupado y si se quiere cambiar a otro puerto. En caso que no lo haga se debe determinarlo manualmente cada vez que se abre el proyecto. Para hacer este proceseso debemos realizar los siguientes pasos:
 
@@ -114,7 +180,7 @@ Vamos a tener:
 ---
 ---
 
-# :book: React
+# :book: REACT
 
 ## :star: Sugerencias 
 
@@ -168,9 +234,7 @@ Con React, también se puede trabajar del lado del servidor y hacer Aplicaciones
 También podemos crear aplicaciones móviles con React Native y también podemos crear aplicaciones de escritorio utilizando Electron y otras tecnologías, todos con el mismo tipo de código.
 
 
-REACT DOCUMENTACIÓN
-
-LINK: [https://es.reactjs.org](https://es.reactjs.org)
+REACT DOCUMENTACIÓN - LINK: [https://es.reactjs.org](https://es.reactjs.org)
 
 
 ## :star: ¿Cómo funciona React? 
@@ -236,7 +300,7 @@ Node. js es un entorno de ejecución de un solo hilo, de código abierto y multi
 [HTTPS://NODEJS.ORG/ES/ABOUT/](https://nodejs.org/es/about/) 
 
   
-### BABEL
+### :star: BABEL
   
 Babel es un compilador (o transpilador) para JavaScript. Básicamente permite transformar código escrito con las últimas y novedosas características de JavaScript y transformarlo en un código que sea entendido por navegadores más antiguos. Babel es de código abierto y se utiliza principalmente para convertir el código ECMAScript de JS.
   
@@ -248,7 +312,7 @@ EN REACT VEREMOS DIFERENTES PARTES EN CUANTO A SU SINTAXIS Y LA FORMA EN QUE FUN
   
 PARA COMPRENDER MEJOR PRIMERO VEREMOS COMO SE INSTALA E INICIA.
 
-### INSTALACION
+### :star: INSTALACION
   
 Para comenzar a usar React es necesario tener instalados algunos recursos previamente. Por lo tanto debemos comenzar con la instalación de NODE JS que será la herramienta encargada de compilar lo que creemos desde React para ver los cambios en tiempo real.
   
@@ -260,47 +324,47 @@ Una vez ingresado al link seleccionar la opción y comenzar la instalación, el 
   
 Veremos el proceso de instalación:
   
-  ![image](https://user-images.githubusercontent.com/72580574/228061193-c6ad827f-a42a-4bc1-92d6-840a4b31e879.png)
+![image](https://user-images.githubusercontent.com/72580574/228061193-c6ad827f-a42a-4bc1-92d6-840a4b31e879.png)
 
   
-  Descargará el paquete y luego pedirá los permisos de instalación, deberás poner que si a todo y seleccionar donde instalar.
+Descargará el paquete y luego pedirá los permisos de instalación, deberás poner que si a todo y seleccionar donde instalar.
   
 En caso que quieras verificar si lo tenes instalado de algún otro proyecto, puedes abrir un cuadro CMD en windows y colocar el comando NODE --VERSION y de esa forma verás la versión instalada:
   
-  ![image](https://user-images.githubusercontent.com/72580574/228061275-70694c04-4126-41c8-8487-f323394d7328.png)
+![image](https://user-images.githubusercontent.com/72580574/228061275-70694c04-4126-41c8-8487-f323394d7328.png)
 
-  Para comenzar abrir un proyecto en React lo que debemos hacer es tener en cuenta que debemos primero abrir el VISUAL STUDIO CODE, que previamente debe estar instalado (en la página 2 podrás ver las recomendaciones para el uso de React en VSC), luego abriremos la terminal y comenzaremos con la mágia!! veamos los pasos:
+Para comenzar abrir un proyecto en React lo que debemos hacer es tener en cuenta que debemos primero abrir el VISUAL STUDIO CODE, que previamente debe estar instalado (en la página 2 podrás ver las recomendaciones para el uso de React en VSC), luego abriremos la terminal y comenzaremos con la mágia!! veamos los pasos:
   
- - **INSTALADOR VISUAL STUDIO CODE**: LINK: [HTTPS://CODE.VISUALSTUDIO.COM/](https://code.visualstudio.com/) 
+- **INSTALADOR VISUAL STUDIO CODE**: LINK: [HTTPS://CODE.VISUALSTUDIO.COM/](https://code.visualstudio.com/) 
   
   
- Luego de instalar o abrir el VSC debemos ir al menú de arriba y colocar en TERMINAL, y del desplegable seleccionar NEW TERMINAL:
+Luego de instalar o abrir el VSC debemos ir al menú de arriba y colocar en TERMINAL, y del desplegable seleccionar NEW TERMINAL:
   
-  ![image](https://user-images.githubusercontent.com/72580574/228061661-1a586cdb-ccf1-43e4-bc2d-117e6bf014d1.png)
-
-  
-  Cuando hagamos ese proceso nos saldrá en la parte de abajo la terminal para poder comenzar con la linea de comandos:
-  
-  ![image](https://user-images.githubusercontent.com/72580574/228061720-013ca92d-ce2f-409d-b7c1-522eb4aee0f7.png)
-
-  Una vez habilitada la terminal, haremos los pasos necesarios para crear la carpeta o movernos hasta donde está la carpeta que alojará nuestro proyecto, recuerda que el comando para dicha gestione es:
-  
- ```CD``` PARA INGRESAR A LA CARPETAS
-  
-  Una vez dentro de la carpeta destino comenzaremos con el proceso de instalación de react para comenzar el proyecto, y para ello usaremos la linea de comando:
-  
-  ```NPX CREATE-REACT-APP NOMBREDELPROYECTO```
-  
-  Luego de dar ENTER, comenzará el proceso de instalación de React, este puede demorar unos minutos, podremos apreciar que está trabajando ya que en la consola veremos lo siguiente:
-  
-  ![image](https://user-images.githubusercontent.com/72580574/228062202-825f743f-43bb-4e71-b48f-0140a8239121.png)
+![image](https://user-images.githubusercontent.com/72580574/228061661-1a586cdb-ccf1-43e4-bc2d-117e6bf014d1.png)
 
   
-  Cuando todo esté completo nos mostrará los posibles comandos para comenzar a trabajar:
+Cuando hagamos ese proceso nos saldrá en la parte de abajo la terminal para poder comenzar con la linea de comandos:
   
-  ![image](https://user-images.githubusercontent.com/72580574/228062285-766af9c1-9dec-4426-ac6a-0212f3d859fa.png)
+![image](https://user-images.githubusercontent.com/72580574/228061720-013ca92d-ce2f-409d-b7c1-522eb4aee0f7.png)
 
-  Es necesario ingresar a la carpeta que fue creada para el proyecto y luego realizar el
+Una vez habilitada la terminal, haremos los pasos necesarios para crear la carpeta o movernos hasta donde está la carpeta que alojará nuestro proyecto, recuerda que el comando para dicha gestione es:
+  
+```CD``` PARA INGRESAR A LA CARPETAS
+  
+Una vez dentro de la carpeta destino comenzaremos con el proceso de instalación de react para comenzar el proyecto, y para ello usaremos la linea de comando:
+  
+```NPX CREATE-REACT-APP NOMBREDELPROYECTO```
+  
+Luego de dar ENTER, comenzará el proceso de instalación de React, este puede demorar unos minutos, podremos apreciar que está trabajando ya que en la consola veremos lo siguiente:
+  
+![image](https://user-images.githubusercontent.com/72580574/228062202-825f743f-43bb-4e71-b48f-0140a8239121.png)
+
+  
+Cuando todo esté completo nos mostrará los posibles comandos para comenzar a trabajar:
+  
+![image](https://user-images.githubusercontent.com/72580574/228062285-766af9c1-9dec-4426-ac6a-0212f3d859fa.png)
+
+Es necesario ingresar a la carpeta que fue creada para el proyecto y luego realizar el
 otro comando, también se puede ir al explorador de windows donde se creó la
 carpeta y arrastrarla al VSC.
 
@@ -309,83 +373,83 @@ carpeta y arrastrarla al VSC.
   
 ```NPM START```
   
- Por DEFAULT react se abre en el puerto 3000, en caso de tener conflicto con el puerto por alguna otra ejecución el mismo sistema de VSC nos informara indicándonos si queremos cambiar de puerto.
+Por DEFAULT react se abre en el puerto 3000, en caso de tener conflicto con el puerto por alguna otra ejecución el mismo sistema de VSC nos informara indicándonos si queremos cambiar de puerto.
   
 En caso de querer hacer el cambio manualmente pueden consultar los pasos en la guia sugerida de la página 2.
   
-  Listo!!! una vez completados todos los pasos, se nos abrirá en el navegador predeterminado una pestaña con http://localhost:3000/ que nos mostrará que React ya esta funcionando.
+Listo!!! una vez completados todos los pasos, se nos abrirá en el navegador predeterminado una pestaña con http://localhost:3000/ que nos mostrará que React ya esta funcionando.
   
-  ![image](https://user-images.githubusercontent.com/72580574/228063317-85a332a3-6367-4427-9755-9dbcbdcb18d9.png)
+![image](https://user-images.githubusercontent.com/72580574/228063317-85a332a3-6367-4427-9755-9dbcbdcb18d9.png)
 
   
-  Ahora si !!! vamos a ver las partes que trae este proceso dentro de VSC.
+Ahora si !!! vamos a ver las partes que trae este proceso dentro de VSC.
 
 Para comenzar a usar React es necesario entender las partes que trae la instalación y como están divididas las mismas.
   
 Para comenzar marcaremos cuales son y las iremos desarrollando paso a paso, ya que son varias.
   
-  ![image](https://user-images.githubusercontent.com/72580574/228063402-28652fb1-6041-4498-aa95-b03ca8c6a436.png)
+![image](https://user-images.githubusercontent.com/72580574/228063402-28652fb1-6041-4498-aa95-b03ca8c6a436.png)
 
   
-  ## NODE MODULE
+## :star: NODE MODULE
   
-  Esta carpeta contiene todos los archivos que REACT necesita para poder funcionar, la misma no debe ser modificada para evitar inconvenientes.
+Esta carpeta contiene todos los archivos que REACT necesita para poder funcionar, la misma no debe ser modificada para evitar inconvenientes.
   
-  ![image](https://user-images.githubusercontent.com/72580574/228063515-3bd9a2b8-ec07-4931-a33b-f2f9fece45a6.png)
+![image](https://user-images.githubusercontent.com/72580574/228063515-3bd9a2b8-ec07-4931-a33b-f2f9fece45a6.png)
 
   
-  ## PUBLIC
+## :star: PUBLIC
   
-  En está carpeta se almacenan los archivos de uso común y el index.html que da inicio a react. En esta carpeta se deben guardar los ficheros de acceso público de toda la app, como por ejemplo la carpeta img que contiene las imágenes del sitio, carpetas de alguna template usada etc.
+En está carpeta se almacenan los archivos de uso común y el index.html que da inicio a react. En esta carpeta se deben guardar los ficheros de acceso público de toda la app, como por ejemplo la carpeta img que contiene las imágenes del sitio, carpetas de alguna template usada etc.
   
-  ![image](https://user-images.githubusercontent.com/72580574/228063632-5acd5725-7fff-46f1-94d4-c588fcec0345.png)
+![image](https://user-images.githubusercontent.com/72580574/228063632-5acd5725-7fff-46f1-94d4-c588fcec0345.png)
 
   
-  Dentro del index.html podremos apreciar lo siguiente:
+Dentro del index.html podremos apreciar lo siguiente:
   
-  ![image](https://user-images.githubusercontent.com/72580574/228063698-f08becae-4de0-4f16-b5d9-88d5c6413e69.png)
+![image](https://user-images.githubusercontent.com/72580574/228063698-f08becae-4de0-4f16-b5d9-88d5c6413e69.png)
 
   
-  No contiene ningún tipo de código cargado, lo único que presenta son las etiquetas habituales de inicio de de HTML5 y un componente en el body que será el encargado de recibir lo que desarrollemos del lado de REACT para ser mostrado.
+No contiene ningún tipo de código cargado, lo único que presenta son las etiquetas habituales de inicio de de HTML5 y un componente en el body que será el encargado de recibir lo que desarrollemos del lado de REACT para ser mostrado.
   
- ``` <DIV ID="ROOT" > </DIV>```
+``` <DIV ID="ROOT" > </DIV>```
   
 Para comprender mejor, REACT tomará ese contenedor y procederá a renderizar el mismo y eso se debe a que esta siendo seleccionado por el archivo index.js por medio de los nodos del DOM.
   
-  ![image](https://user-images.githubusercontent.com/72580574/228063941-b5d0f5a6-0148-451b-be28-37213e5517cb.png)
+![image](https://user-images.githubusercontent.com/72580574/228063941-b5d0f5a6-0148-451b-be28-37213e5517cb.png)
 
   
-  Si miramos en detalle, podremos ver que el contenedor es seleccionado por su ID y guardado en una variable ROOT, la cual es renderizada y a la cual se le aplica todo lo que el componente `<APP />`traiga del lado de REACT. Más adelante veremos con detalle este proceso.
+Si miramos en detalle, podremos ver que el contenedor es seleccionado por su ID y guardado en una variable ROOT, la cual es renderizada y a la cual se le aplica todo lo que el componente `<APP />`traiga del lado de REACT. Más adelante veremos con detalle este proceso.
   
-  ### SRC
+### :star: SRC
   
-  En está carpeta se almacenan los archivos del componente principal APP, a su vez allí podremos cargar nuevas hojas de JS para trabajar con los diferentes componentes de nuestro sitio.
+En está carpeta se almacenan los archivos del componente principal APP, a su vez allí podremos cargar nuevas hojas de JS para trabajar con los diferentes componentes de nuestro sitio.
   
-  ![image](https://user-images.githubusercontent.com/72580574/228064116-a7232a31-af36-43b6-bde5-f241fba227c5.png)
+![image](https://user-images.githubusercontent.com/72580574/228064116-a7232a31-af36-43b6-bde5-f241fba227c5.png)
 
-  Es importante destacar que el archivo APP.JS es el principal componente que almacena los cambios del sitio.
+Es importante destacar que el archivo APP.JS es el principal componente que almacena los cambios del sitio.
   
 Al comenzar el proyecto este trae la presentación de REACT que vimos anteriormente a la hora colocar el NPX START.
   
 En el mismo se podrán apreciar el logo, los textos y el formato inicial. Para poder comenzar a trabajar es necesario eliminarlos y dejar solamente el div principal.
   
-  ![image](https://user-images.githubusercontent.com/72580574/228064207-e68a9f22-6bdf-4c7f-8764-78e790e19300.png)
+![image](https://user-images.githubusercontent.com/72580574/228064207-e68a9f22-6bdf-4c7f-8764-78e790e19300.png)
 
   
-  ## GITIGNORE
+##  :star: GITIGNORE
   
-  Son todos los archivos innecesarios a la hora de crear un repositorio del proyecto y que al figurar ahí no serán subidos.
-  
-  ![image](https://user-images.githubusercontent.com/72580574/228064284-fdf24f75-3f0e-45e3-b7a9-c1e9b6795dbf.png)
+Son todos los archivos innecesarios a la hora de crear un repositorio del proyecto y que al figurar ahí no serán subidos.
+ 
+![image](https://user-images.githubusercontent.com/72580574/228064284-fdf24f75-3f0e-45e3-b7a9-c1e9b6795dbf.png)
 
   
-  ## PACKAGE JSON
+## :star: PACKAGE JSON
   
- En este paquete se almacena la información necesaria JSON para que REACT funcione, también sobre esta pestaña se puede configurar un puerto especifico en caso de no querer o poder usar el PORT 3000 que viene por defecto. Para ello se modifica la linea START por la siguiente:
+n este paquete se almacena la información necesaria JSON para que REACT funcione, también sobre esta pestaña se puede configurar un puerto especifico en caso de no querer o poder usar el PORT 3000 que viene por defecto. Para ello se modifica la linea START por la siguiente:
   
 `"START": "SET PORT=3001 && REACT - SCRIPTS START",`
   
-  ![image](https://user-images.githubusercontent.com/72580574/228064474-4ed9b42b-18b6-4e22-9296-5162dec448b1.png)
+![image](https://user-images.githubusercontent.com/72580574/228064474-4ed9b42b-18b6-4e22-9296-5162dec448b1.png)
   
-  ---
-  ---
+---
+---
