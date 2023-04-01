@@ -163,6 +163,44 @@ Entonces dentro del componente no tengo que poner props.:
 
 ![image](https://user-images.githubusercontent.com/72580574/229316487-12720b70-67de-425d-8a50-363f1afe1a6a.png)
 
+---
+
+### Estilos
+
+Se pueden agregar como **estilos en linea**(no es la forma recomendada):
+
+```<h3 style={{backgroundColor: "red"}}>Hola </h3> ````
+
+Los atributos de CSS se escriben en camelCase, ya no se separan con -.
+
+Es un objeto, cada atributo s la key y el valor es el value, si tengo más de uno separo con ,.
+
+Ejemplo:
+
+![image](https://user-images.githubusercontent.com/72580574/229316691-9a46b3b7-3bd1-4914-8312-ebe605894bd9.png)
+
+
+
+- Pero es mejor tener aparte una **hoja de estilos**, en JSX no podemos usar **class** ya que es una palabra reservada de JavaScript, usamos **className**.
+
+También hay otras librerías para manejar estilso como: React-Bootstrap, Styled Components, MUI, Tailwind, Chakra, etc.
+
+
+Si por ejemplo me copio un componente de Bootstrap, en vez de React-Bootrstrap voy a tener que hacer cambios:
+
+![image](https://user-images.githubusercontent.com/72580574/229317076-e92125ff-fb70-4bc8-91c9-16262e6fc92f.png)
+
+
+- Fijarme que todas las etiquetas esten cerradas, es decir si tengo uan etiqueta `<img />` la debo cerrar
+
+- A lo que tenga class le cambio a **className**
+
+- Si tengo estilo en linea debo encerrarlo entre {} y adentro paarlo a un objeto con las {} y las propiedades en camelCase
+
+
+Y me quedaría asi:
+
+![image](https://user-images.githubusercontent.com/72580574/229317234-c5732df9-2018-4643-94f1-6864dd08f464.png)
 
 ---
 ---
