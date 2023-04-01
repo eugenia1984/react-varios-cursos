@@ -38,8 +38,11 @@
 
 :book: Configuración React :stars: Sugerencias - ¿Qué es React? - ¿Cómo funciona React? - ¿Cómo arrancamos con React? 
 
-- [Clase 10](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 29 de Marzo
+- [Clase 10](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 29 de Marzo: Componentes
 
+Clase 11
+
+Clase 12
 
  
 ---
