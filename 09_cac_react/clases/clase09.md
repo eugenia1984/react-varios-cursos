@@ -161,6 +161,8 @@ Entonces dentro del componente no tengo que poner props.:
 
 ![image](https://user-images.githubusercontent.com/72580574/229316441-d269843a-c882-437d-a92a-d0fff6a9f469.png)
 
+![image](https://user-images.githubusercontent.com/72580574/229316487-12720b70-67de-425d-8a50-363f1afe1a6a.png)
+
 
 ---
 ---
