@@ -369,7 +369,7 @@ otro comando, también se puede ir al explorador de windows donde se creó la
 carpeta y arrastrarla al VSC.
 
   
-````CD NOMBREDELPROYECTO```
+```CD NOMBREDELPROYECTO```
   
 ```NPM START```
   
