@@ -127,6 +127,41 @@ export default App
 
 - Tengo que tener un solo **export** por archivo, ya que debo tener un solo componente, no puedo exportar dos componentes juntos.
 
+- Los componentes reciben **props**:
+
+```JSX
+<Usuario nombre="Maria Eugenia" edad=38 />
+```
+
+Para usarlo dentro del componente tengo dos formas:
+
+-> Lo recibo como parametro en mi componente: 
+```JSX
+(props)
+```
+
+Y lo uso dentro del componente:
+```JSX
+{props.edad} {props.nombre}
+```
+
+- Otra forma es **desestructurar** para no tener que estar poneindo props.;
+
+Asi desestructurado lo paso como parametro:
+
+```JSX
+({ edad, nombre})
+```
+
+Entonces dentro del componente no tengo que poner props.:
+
+```JSX
+{edad} {nombe}
+```
+
+![image](https://user-images.githubusercontent.com/72580574/229316441-d269843a-c882-437d-a92a-d0fff6a9f469.png)
+
+
 ---
 ---
 
