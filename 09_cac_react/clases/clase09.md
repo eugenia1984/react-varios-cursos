@@ -1,4 +1,4 @@
-# :star: CLASE 09 - 27 MAR
+# :star: CLASE 09 - 27 MAR: virtual DOM, componentes, primer proyecto en React
 
 ---
 
