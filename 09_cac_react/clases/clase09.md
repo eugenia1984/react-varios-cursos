@@ -228,8 +228,24 @@ Por ahora loq ue debemos ir pensando:
 
 - Hay distintas ramas: **master**, **develop** y todas las sub ramas de develop que van a ser **feature**/**bugfix**/**version**.
 
+- branch **develop**
 
 ![image](https://user-images.githubusercontent.com/72580574/230115004-7ebcab68-e1b6-499c-8b5d-d7493423865e.png)
+
+
+- branch **feature** o **bugfix**: feature/#1-crear-header bugfix/#2-ajusto-cuit
+
+![image](https://user-images.githubusercontent.com/72580574/230116388-5f08ec91-69f9-4903-8003-4f11edd63be1.png)
+
+- **realease**: aca voy cambiando el numero de version: release/1.0.0 - release/1.1.0
+
+![image](https://user-images.githubusercontent.com/72580574/230117334-8e29653f-f851-4e9a-b7e9-0d0c062d6515.png)
+
+- **hotfix**: una vez que se hizo el deploy hay algo que por mas que se testeo no funciona. Hay un bug urgente que hay que solucionar ya. Un parche momentaneo para que funcione bien la app. Es deseable no tener hotfix, es un **parche sobre la linea de producción**.
+
+![image](https://user-images.githubusercontent.com/72580574/230117954-1c802dee-b741-4260-a7b7-10c0b166ef87.png)
+
+
 
 ---
 ---
