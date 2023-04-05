@@ -210,6 +210,7 @@ Y me quedaría asi:
 
 :computer: -> [repositorio de la profesora](https://github.com/GiselaFlores/mascomponentes/tree/master/src/componentes)
 
+- Vemos la **consigna del proyecto final**
 
 ---
 ---
