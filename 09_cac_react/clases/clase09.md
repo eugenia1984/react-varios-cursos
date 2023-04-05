@@ -146,7 +146,7 @@ Y lo uso dentro del componente:
 {props.edad} {props.nombre}
 ```
 
-- Otra forma es **desestructurar** para no tener que estar poneindo props.;
+- Otra forma es **desestructurar** para no tener que estar poniendo props.;
 
 Asi desestructurado lo paso como parametro:
 
