@@ -65,9 +65,9 @@ Voy a ir borrando lo que no utilizo.
 ---
 
 
-# ⭐ CLASE 10 - 29 MAR
+# ⭐ CLASE 10 - 29 MAR : componentes, props, estilos
 
-## Componentes
+## :star:  Componentes
 
 - Creamos un **componente** Usuarios:
 
@@ -114,6 +114,7 @@ export default function App() {
 ```
 
 -Acá además tengo el componente armado como arrow function guardada en variable:
+
 ```JSX
 const App = () => {
   return (
@@ -165,7 +166,7 @@ Entonces dentro del componente no tengo que poner props.:
 
 ---
 
-### Estilos
+### :star: Estilos
 
 Se pueden agregar como **estilos en linea**(no es la forma recomendada):
 
