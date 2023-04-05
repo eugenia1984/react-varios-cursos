@@ -38,7 +38,7 @@
 
 :book: Configuración React :stars: Sugerencias - ¿Qué es React? - ¿Cómo funciona React? - ¿Cómo arrancamos con React? 
 
-- Clase 11
+- Clase 11: 05 de Abril
 
 - Clase 12
 
