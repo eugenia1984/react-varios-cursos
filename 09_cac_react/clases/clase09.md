@@ -206,6 +206,14 @@ Y me quedaría asi:
 ---
 ---
 
+# ⭐ CLASE 11 - 05 APR : componentes
+
+:computer: -> [repositorio de la profesora](https://github.com/GiselaFlores/mascomponentes/tree/master/src/componentes)
+
+
+---
+---
+
 # :book: CONFIGURACIÓN REACT - CAMBIO DE PUERTO 3000
 
 ## GUÍA CON EL PASO A PASO
