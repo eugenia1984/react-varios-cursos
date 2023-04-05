@@ -206,11 +206,30 @@ Y me quedaría asi:
 ---
 ---
 
-# ⭐ CLASE 11 - 05 APR : componentes
+# ⭐ CLASE 11 - 05 APR : consigna trabajo final, git flow
 
 :computer: -> [repositorio de la profesora](https://github.com/GiselaFlores/mascomponentes/tree/master/src/componentes)
 
-- Vemos la **consigna del proyecto final**
+- Vemos la **consigna del proyecto final**: 26 de Abril es el primer punto de control, tenemos que tener en Figma el **diseño de la interfaz**. De ahi viene el **prototipado funcional**(funcionalidades) y de ahi la **codificación**
+
+Por ahora loq ue debemos ir pensando:
+
+- Repositorio
+
+- Representante del grupo
+
+- Tema elegido
+
+- Maquetado visual : Figma, Canva, en hoja scaneada, como podamos armarlo.
+
+---
+
+## Git flow
+
+- Hay distintas ramas: **master**, **develop** y todas las sub ramas de develop que van a ser **feature**/**bugfix**/**version**.
+
+
+![image](https://user-images.githubusercontent.com/72580574/230115004-7ebcab68-e1b6-499c-8b5d-d7493423865e.png)
 
 ---
 ---
