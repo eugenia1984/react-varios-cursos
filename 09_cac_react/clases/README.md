@@ -34,7 +34,7 @@
 
 :computer: -> [CALCULADORA - REPOSITORIO](https://github.com/eugenia1984/Calculadora) y [CALCULADORA - DEPLOY](https://eugenia1984.github.io/Calculadora/)
 
-- [Clase 9, 10 y 11](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 27 y 29 Marzo / 05 Abril: React (virtual DOM). Componentes y props. Estilos
+- [Clase 9, 10 y 11](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 27 y 29 Marzo / 05 Abril: React (virtual DOM). Componentes y props. Estilos. :star: Consigna del trabajo final. :star: Git flow
 
 :book: Configuración React :stars: Sugerencias - ¿Qué es React? - ¿Cómo funciona React? - ¿Cómo arrancamos con React? 
 
