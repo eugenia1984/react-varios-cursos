@@ -212,7 +212,7 @@ Y me quedaría asi:
 
 - Vemos la **consigna del proyecto final**: 26 de Abril es el primer punto de control, tenemos que tener en Figma el **diseño de la interfaz**. De ahi viene el **prototipado funcional**(funcionalidades) y de ahi la **codificación**
 
-Por ahora loq ue debemos ir pensando:
+Por ahora lo que debemos ir pensando:
 
 - Repositorio
 
