@@ -170,7 +170,7 @@ Entonces dentro del componente no tengo que poner props.:
 
 Se pueden agregar como **estilos en linea**(no es la forma recomendada):
 
-```<h3 style={{backgroundColor: "red"}}>Hola </h3> ````
+```<h3 style={{backgroundColor: "red"}}>Hola </h3> ```
 
 Los atributos de CSS se escriben en camelCase, ya no se separan con -.
 
