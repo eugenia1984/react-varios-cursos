@@ -228,6 +228,9 @@ Por ahora lo que debemos ir pensando:
 
 - Hay distintas ramas: **master**, **develop** y todas las sub ramas de develop que van a ser **feature**/**bugfix**/**version**.
 
+![image](https://user-images.githubusercontent.com/72580574/230686682-14c21429-e2a9-4727-a0a4-8f5f10b6ea3d.png)
+
+
 - branch **develop**
 
 ![image](https://user-images.githubusercontent.com/72580574/230115004-7ebcab68-e1b6-499c-8b5d-d7493423865e.png)
