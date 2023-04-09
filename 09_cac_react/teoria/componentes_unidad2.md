@@ -332,5 +332,26 @@ Es importante hacer esta limpieza ya que si alguna petición pendiente se comple
 ---
 
 ## :star: 4 - useEffect
+ 
+
+
+Este React hook, useEffect, nos permite ejecutar y controlar efectos colaterales, como pueden ser peticiones a servicios, subscribirse a eventos, modificar el DOM o cualquier funcionalidad que no pueda ejecutarse en el cuerpo de nuestro componente función porque no pertenece al flujo lineal del mismo.
+
+### Flujo de useEffect
+
+La función effectFn se ejecuta después de que el navegador ya ha pintado el componente en pantalla por primera vez (montar). También por defecto después de cada posterior repintado (actualizar). Este comportamiento descrito tiene el mismo propósito que los métodos componentDidMount y componentDidUpdate.
+
+El tercer propósito en useEffect se le llama limpieza, el cual lo podemos comparar con componentDidUnmount. En el primer pintado (montar) la función de limpieza no se ejecuta, solo se ejecuta en la fase de actualizar. Es decir, se ejecuta después de cada repintando, pero antes del que el cuerpo de useEffect se ejecute.
+
+MONTAR -> ACTUALIZAR -> DESMONTAR
+
+
+ACTUALIZAR: renderizar -> React actualiza el DOM -> pintar en el navegador -> actualizar Effects
+
+
+useEffect recibe un segundo parámetro, deps, el cual es un Array con la lista de dependencias que permiten decidir si ejecutar el efecto colateral o no, después de cada repintado. Sirve bastante para mejorar el rendimiento si no queremos que después de cada repintado se ejecute effectFn.
+
+Si te das cuenta, se ha usado la palabra pintado en lugar de renderizado. Esto se debe a que efectivamente el efecto se ejecuta después de que los cambios ya estén pintados en el navegador web. El renderizado involucra al Virtual DOM, y React decide en que momento es conveniente actualizar el DOM, pero el pintado sucede un poco después de lo anterior. Aclaremos que aunque se actualice el DOM, el navegador debe calcular estilos y el layout de los elementos para posteriormente realizar el pintado de los pixeles.
+
 
 ---
