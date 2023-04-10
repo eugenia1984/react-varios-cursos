@@ -38,7 +38,7 @@
 
 :book: Configuración React :stars: Sugerencias - ¿Qué es React? - ¿Cómo funciona React? - ¿Cómo arrancamos con React? 
 
-- Clase 12
+- [Clase 12](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase12.md): 12 de Abril. :star: Recursos para el trabajo final :star: Proyecto memes
 
 - Clase 13
 
