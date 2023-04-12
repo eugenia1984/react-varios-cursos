@@ -56,6 +56,10 @@ Y ahi [documentación]([)](https://html2canvas.hertzen.com/documentation), es un
 
 ## :star: PROYECTO MEMES
 
-- Para tener los datos del meme, vamos a  tener que trabajar con `<Form>` y vamos a tener **Eventos**.
+- El usuario va a ir eligiendo el color, la imagen, el texto.
+
+- Para tener los datos del meme, vamos a  tener que trabajar con `<Form>` con un `<input />` para introducir un texto, un `<select />` para que elija las imagenes. Vamos a tener **eventos**, que me van a ir seteando los **States**, asi vamos viendo los cambios del usuario, por ejemplo que me cambia el texto, o la imagen. Todo esto para recolectar información del usuario y poder armar el meme.
+
+
 
 ---
