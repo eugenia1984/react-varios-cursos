@@ -60,14 +60,21 @@ Y ahi [documentación]([)](https://html2canvas.hertzen.com/documentation), es un
 
 - Para tener los datos del meme, vamos a  tener que trabajar con `<Form>` con un `<input />` para introducir un texto, un `<select />` para que elija las imagenes. Vamos a tener **eventos**, que me van a ir seteando los **states**, asi vamos viendo los cambios del usuario, por ejemplo que me cambia el texto, o la imagen. Todo esto para recolectar información del usuario y poder armar el meme.
 
-##:star: HOOK USESTATE
+---
+
+## :star: HOOK USESTATE
 
 La **Estructura** es: `const [ variable, setVariable] = useState(estadoInicial)`
 
 Todo lo que **sea modificable** tendrá su **state**.
 
+---
+
 - Dentro de `<App />` vamos a ir llamando a nuestros **componentes** que van a estar dentro de la carpeta **components** que van a tener el nombre del archivo con UpperCamelCase y con la extension **.jsx**, el nombre del archivo debe coincidir con el nombre del componente.
 
+---
+
+## :star: Creación de componentes:
 
 - Atajo para crear el componente con el VSC:
 
@@ -95,6 +102,10 @@ const ImgMeme = ({props}) => {
 
 export default ImgMeme
 ```
+
+---
+
+## :star: CODIGO DE PROYECTO MEME:
 
 - Como queda el codigo:
 
@@ -189,13 +200,7 @@ Y dentro de **public** / **index.html** debo agregar para poder usar las clases 
 
 - Tengo las memes en: **public** / **memes** :
 
-[1.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/1.jpg)
-
-[2.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/2.jpg)
-
-[3.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/3.jpg)
-
-[4.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/4.jpg)
+[1.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/1.jpg), [2.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/2.jpg), [3.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/3.jpg), [4.jpg](https://github.com/GiselaFlores/editormemes/blob/master/public/memes/4.jpg)
 
 ---
 
