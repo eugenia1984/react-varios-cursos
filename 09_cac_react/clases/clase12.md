@@ -58,8 +58,40 @@ Y ahi [documentación]([)](https://html2canvas.hertzen.com/documentation), es un
 
 - El usuario va a ir eligiendo el color, la imagen, el texto.
 
-- Para tener los datos del meme, vamos a  tener que trabajar con `<Form>` con un `<input />` para introducir un texto, un `<select />` para que elija las imagenes. Vamos a tener **eventos**, que me van a ir seteando los **States**, asi vamos viendo los cambios del usuario, por ejemplo que me cambia el texto, o la imagen. Todo esto para recolectar información del usuario y poder armar el meme.
+- Para tener los datos del meme, vamos a  tener que trabajar con `<Form>` con un `<input />` para introducir un texto, un `<select />` para que elija las imagenes. Vamos a tener **eventos**, que me van a ir seteando los **states**, asi vamos viendo los cambios del usuario, por ejemplo que me cambia el texto, o la imagen. Todo esto para recolectar información del usuario y poder armar el meme.
+
+##:star: HOOK USESTATE
+
+La **Estructura** es: `const [ variable, setVariable] = useState(estadoInicial)`
+
+Todo lo que **sea modificable** tendrá su **state**.
+
+- Dentro de `<App />` vamos a ir llamando a nuestros **componentes** que van a estar dentro de la carpeta **components** que van a tener el nombre del archivo con UpperCamelCase y con la extension **.jsx**, el nombre del archivo debe coincidir con el nombre del componente.
 
 
+- Atajo para crear el componente con el VSC:
+
+![image](https://user-images.githubusercontent.com/72580574/231541733-f3e49f69-bbcf-435c-927f-b50120c8c3be.png)
+
+
+Se puede crear como una función explicita o como arrow function:
+
+```JSX
+export function ImgMeme({props}) {
+  return (
+    <h1>{props}</h1>
+  )
+}
+```
+
+```JSX
+const ImgMeme = ({props}) => {
+  return (
+    <h1>{props}</h1>
+  )
+}
+
+export default ImgMeme
+```
 
 ---
