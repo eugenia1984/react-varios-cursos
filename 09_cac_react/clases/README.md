@@ -40,6 +40,8 @@
 
 - [Clase 12](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase12.md): 12 de Abril. :star: Recursos para el trabajo final :star: hook **useState** y evento **onChange** :star: Proyecto memes
 
+:computer: -> CREADOR DE MEMES - REPOSITORIO Y CREADOR DE MEMES - DEPLOY
+
 - Clase 13: 
 
 - Clase 14:
