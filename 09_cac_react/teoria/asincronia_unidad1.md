@@ -4,7 +4,7 @@
 
 ## :book: Temas
 
-- 1 - Asincronia en Javascrip
+- 1 - Asincronia en Javascript
 
 - 2 - Set time out
 
@@ -12,7 +12,7 @@
 
 ---
 
-## :star: 1 - Asincronia en Javascrip
+## :star: 1 - Asincronia en Javascript
 
 ---
 
