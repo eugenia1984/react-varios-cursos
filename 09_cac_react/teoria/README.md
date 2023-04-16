@@ -32,6 +32,7 @@
 
 ## Asincronía
 
+:book: Temas: Asincronia en Javascrip / Set time out / Promesas
 
 ## APIs
 
