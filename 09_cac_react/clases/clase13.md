@@ -176,3 +176,12 @@ export default ComponenteUno;
 ```
 
 ---
+---
+
+# :star: CLASE 13 - 17 ABRIL
+
+- Seguimos con el generador de memes
+
+
+---
+---
