@@ -42,7 +42,7 @@
 
 :computer: -> [CREADOR DE MEMES - REPOSITORIO](https://github.com/eugenia1984/MemeCreator) Y CREADOR DE MEMES - DEPLOY
 
-- [Clase 13](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril 
+- [Clase 13](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril   :star: Proyecto memes :star: React-Router-DOM
 
 - Clase 14:
 
