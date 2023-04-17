@@ -28,6 +28,21 @@ const Descargado = () => {
 export default Descargado;
 ```
 
+También funciona así, con `const MySwal = withReactContent(Swal)` como constante fuera del componente funcional, para cuando no necesito que esté ligado al componente de React:
+
+```JSX
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
+
+const Descargado = () => {    
+    Swal.fire('Hace tu meme favorito y acepta las cookies')
+}
+
+export default Descargado;
+```
+
 Y en **App.js** tengo:
 
 ```JSX
@@ -46,6 +61,12 @@ function App() {
 
 export default App;
 ```
+
+- Y asi en el primer render de la app se ve el cartel:
+
+![image](https://user-images.githubusercontent.com/72580574/232357121-24fb0f43-2167-4fd6-b31e-f56be0ea6be5.png)
+
+
 
 ---
 
