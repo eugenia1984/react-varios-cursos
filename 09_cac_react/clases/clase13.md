@@ -66,6 +66,9 @@ export default App;
 
 ![image](https://user-images.githubusercontent.com/72580574/232357121-24fb0f43-2167-4fd6-b31e-f56be0ea6be5.png)
 
+- De nuevo usamos el **hook**: **useState** para ir modificando el estado de la opción elegida y poder ir cambindo la imagen del meme.
+
+Al hacer el `<onChange>` en el `<Select>` es que voy a ir cambiando la elección, gracias al **value** es la imagen que se va a ver.
 
 
 ---
