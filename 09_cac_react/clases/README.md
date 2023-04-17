@@ -38,11 +38,11 @@
 
 :book: Configuración React :stars: Sugerencias - ¿Qué es React? - ¿Cómo funciona React? - ¿Cómo arrancamos con React? 
 
-- [Clase 12](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase12.md): 12 de Abril. :star: Recursos para el trabajo final :star: hook **useState** y evento **onChange** :star: Proyecto memes
+- [Clase 12](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase12.md): 10 de Abril. :star: Recursos para el trabajo final :star: hook **useState** y evento **onChange** :star: Proyecto memes
 
 :computer: -> [CREADOR DE MEMES - REPOSITORIO](https://github.com/eugenia1984/MemeCreator) Y CREADOR DE MEMES - DEPLOY
 
-- Clase 13: 
+- [Clase 13](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril 
 
 - Clase 14:
 
