@@ -2,10 +2,57 @@
 
 ---
 
+## :star: Proyecto Memes
+
+
+- [https://www.grabient.com/](https://www.grabient.com/) para hacer un formo con colores en gradiente. Elegimos uno y simplemente copiamos el código, por ejemplo:
+
+```CSS
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 52%, #FFCC70 100%);
+```
+
+- Además de **React** usamos **SweetAlert2** y **html2canva**.
+
+Dentro de la carpeta de **componentes** creamos un nuevo componente `<Descargado.js >` para probar el **SweetAlert2**:
+
+```JSX
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const Descargado = () => {
+    const MySwal = withReactContent(Swal)
+    Swal.fire('Hace tu meme favorito y acepta las cookies')
+}
+
+export default Descargado;
+```
+
+Y en **App.js** tengo:
+
+```JSX
+import './App.css';
+import Descargado from './Componentes/Descargado';
+import Imgmeme from './Componentes/Imgmeme';
+
+function App() {
+  return (
+    <div className="App">
+      <Descargado/>
+      <Imgmeme />
+    </div>
+  );
+}
+
+export default App;
+```
+
+---
+
 ## :star: React-Router-DOM
 
 
-## ¿cómo ordene el proyecto ?
+## ¿Cómo ordene el proyecto ?
 
 - **package.json**:
 
