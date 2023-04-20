@@ -182,6 +182,41 @@ export default ComponenteUno;
 
 - Seguimos con el generador de memes
 
+- Seguimos con html2canvas para poder exportar el meme.
+
+Tenemos que hacer ciertos cambios:
+
+-No necesitamos exportar todo el **body** sino solo la parte del meme, para eso le damos un **id** a la `<figure>` que es el que tiene el meme generado.
+
+-No necesito tener un hijo adentro.
+
+-Hay que personalizar a que carpeta se exporta, como se llama el archivo y que extensión va a tener.
+
+-Canva trae un metodo **toDataURL** donde le aclaro el acceso a al información.
+
+-Creamos uan etiqueta `<a>` para generar un download y se ejecute al hacer el click. La guardamos en la variable **link**, lo creo con **.createElement**. Y le aplico el método de descargas con el método **.download** y le indico como quiero que se descargue, le asigno un **nombre** al archivo y le agrego la extensión, por ejemplo: **meme.png**
+
+-Ahora debo decirle de donde lo descarga `link.href`, le paso una ruta, entonces como no es una URL para redirigir a un lugar, el anchor me va a descargar el meme.
+
+- La clase que viene vemos el **useEffect** y el fetch a las APIS, para modificar, en vez de usar imagenes que tengo yo, las voy a traer de una API.
+
+- Un ejemplo de un trabajo de un compañero que ya curso:
+
+
+Se pueden agregar texto en dos lados, se puede elegir el color del texto y el tamaño.
+
+![image](https://user-images.githubusercontent.com/72580574/233364145-523ab834-a27f-478e-ab94-8058c9af0443.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/233364183-4d5d380e-5ebc-41ba-b882-453f0e0f5904.png)
+
+
+Otro ejemplo:
+
+![image](https://user-images.githubusercontent.com/72580574/233364396-ec7088a5-044d-4a5b-afa1-05adef8c5aa6.png)
+
+
+![image](https://user-images.githubusercontent.com/72580574/233364634-068e0c08-66e9-4281-a8a8-985d89077048.png)
 
 ---
 ---
