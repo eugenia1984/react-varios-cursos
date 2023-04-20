@@ -225,4 +225,35 @@ Otro ejemplo:
 
 ## React-Router-DOM
 
+Para poder navegar y cambiar los componentes que se van renderizando, puedo tener un Header y Footer que siempre se ven en todas las rutas y voy a ir cambiando lo dle medio, acorde a donde quiero ir.
+
+Deja de ser un One Page y tiene varias paginas.
+
+1. Con `npm i react-router-dom` lo instalamos
+
+2. Se puede tener el `<Browser Router>` en el archivo index.js donde voy a envolver a mi `<App>`. Primero siempre voy a tner que **importar** para poder usarlo: `import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'`. Pero los componentes `<Routes>` y `<Route>` pueden estar dentro del compoennte `<App>` porque tal vez tengo el header y el footer que quiero que se renderice siempre (template) y solo me cambie lo del medio.
+
+```JSX
+<BrowserRouter>
+    <App />
+</BroswerRouter>    
+```
+
+3. Vamos a ir creando el **paginado** de la navegación de mi App, inclusive puedo tener **rutas hijas**. `<Routes>` es el **componente padre que tiene todas las rutas**, `<Route>` es cada ruta en si y `<Link>` es un link.
+
+
+```JSX
+<App>
+    <Header/>
+        <Routes>
+            <Route path='/' element={<Home />}>
+            <Route path='/about' element={<About />} >
+        </ Routes>
+    <Footer />
+<App />
+```
+
+
+---
+
 ---
