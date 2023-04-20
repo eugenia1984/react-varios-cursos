@@ -52,6 +52,26 @@ useEffect( () => {
 }, [])
 ```
 
-En general va de la mano dle **useState** porque lo que quiero es justamente modificar el estado.
+- Tiene un **Callback**
+
+- Tiene un **dependency array**, si esta el array de dependencia vacía, solo se ejecuta al momento de montar el componente. Si ese array de dependencia, adentro tiene variables, se va a ejecutar al montar el componente y cada vez que cambie el valor de esa variable.
+
+Ejemplo en codig:
+
+```JSX
+import React, { useState, useEffect } from 'react'
+
+const API = () => {
+  const [users, setUsers ] = useState([])
+  
+  useEffect(() => {
+    fetch('https://reques.in/api/users')
+  }, [])
+}
+```
+
+
+
+En general va de la mano del **useState** porque lo que quiero es justamente modificar el estado.
 
 ---
