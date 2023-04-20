@@ -248,12 +248,56 @@ Deja de ser un One Page y tiene varias paginas.
         <Routes>
             <Route path='/' element={<Home />}>
             <Route path='/about' element={<About />} >
+            <Route path='/products' element={<Products />} >
+            <Route path='/contact' element={<Contact />} >
         </ Routes>
     <Footer />
 <App />
 ```
 
+Entonces cuando voy a...
 
----
+...localhost:3000/ veo Home
+
+...localhost:3000/about veo Header + About + Footer
+
+...localhost:3000/products veo Header + Products + Footer
+
+...localhost:3000/contact veo Header + Contact + Footer
+
+```
+-----------------------------------
+              HEADER
+ HOME - ABOUT - PRODUCTS - CONTACT
+------------------------------------
+ 
+  Aca se va a ir renderizando
+  acorde a la seccion que elijo
+------------------------------------
+               FOOTER
+------------------------------------
+```
+
+## `<Link>`
+
+
+
+
+```JSX
+<App>
+    <Header>
+        <nav>
+            <Link to='/'>Home<Link />
+        </nav>
+    </Header>
+        <Routes>
+            <Route path='/' element={<Home />}>
+            <Route path='/about' element={<About />} >
+            <Route path='/products' element={<Products />} >
+            <Route path='/contact' element={<Contact />} >
+        </ Routes>
+    <Footer />
+<App />
+```
 
 ---
