@@ -178,7 +178,7 @@ export default ComponenteUno;
 ---
 ---
 
-# :star: CLASE 13 - 17 ABRIL
+# :star: CLASE 14 - 17 ABRIL
 
 - Seguimos con el generador de memes
 
