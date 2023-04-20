@@ -58,6 +58,7 @@ useEffect( () => {
 
 Ejemplo en codig:
 
+**Api.jsx**
 ```JSX
 import React, { useState, useEffect } from 'react'
 
@@ -65,11 +66,29 @@ const API = () => {
   const [users, setUsers ] = useState([])
   
   useEffect(() => {
-    fetch('https://reques.in/api/users')
+    fetch('https://reqres.in/api/users')
+      .then(data => data.json()) // para convertir la data en JSON
+      .then( json => setUsers(json.data)) // paso la info a la variable de estado
   }, [])
+  
+  console.log(users) // para ver por consola lo que tengo
+  
+  return (
+    <div>
+      <h2>Usuarios</h2>
+      <ul>
+        {
+          users.map(user => (
+            <li key={user.id}><img src={user.avatar}/>{user.first_name}{user.last_name}{user.email}</li>
+          ))
+        }
+      <ul>
+    </div>
+  )
 }
 ```
 
+Y luego en mi **App.jsx** importo `<Api>` y lo muestro.
 
 
 En general va de la mano del **useState** porque lo que quiero es justamente modificar el estado.
