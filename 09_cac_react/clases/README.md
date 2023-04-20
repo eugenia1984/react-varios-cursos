@@ -42,7 +42,7 @@
 
 :computer: -> [CREADOR DE MEMES - REPOSITORIO](https://github.com/eugenia1984/MemeCreator) Y CREADOR DE MEMES - DEPLOY
 
-- [Clase 13, 14 y 15](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril :star: Proyecto memes  / 17 Abril :star: seguimos con el proyeto generador de memes./ 19 Abril: :star: React-Router-DOM
+- [Clase 13, 14 y 15](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril :star: Proyecto memes  / 17 Abril :star: seguimos con el proyeto generador de memes / 19 Abril: :star: React-Router-DOM
 
 - [Clase 16: 19 de Abril](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): asincronismo, API, useEffect
 
