@@ -93,4 +93,12 @@ Y luego en mi **App.jsx** importo `<Api>` y lo muestro.
 
 En general va de la mano del **useState** porque lo que quiero es justamente modificar el estado.
 
+
+---
+---
+
+# :star: CLASE 17 - 24 ABRIL :star:
+
+Seguimos con el proyecto de la búsqueda de películas.
+
 ---
