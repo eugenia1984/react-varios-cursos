@@ -2,7 +2,7 @@
 
 ---
 
-## Asincronismo
+## :book: Asincronismo
 
 **setTimeOut** para ejecutar algo luego de transcurrido determinado tiempo.
 
@@ -12,11 +12,11 @@
 
 ---
 
-[jsbin](https://jsbin.com/?html,output) para ver el tema del asincronismo
+:book: [jsbin](https://jsbin.com/?html,output) para ver el tema del asincronismo
 
 ---
 
-## API
+## :book:  API
 
 Puedo usar las que existen o puedo crearme mi propia API.
 
@@ -41,7 +41,7 @@ La respuesta viene junto a un codigo -> **200** es el ok
 
 ---
 
-## Hook useEffect
+## :book: Hook useEffect
 
 ¿Cómo es la sintaxis del useEffect?
 
@@ -99,6 +99,7 @@ En general va de la mano del **useState** porque lo que quiero es justamente mod
 
 # :star: CLASE 17 - 24 ABRIL :star:
 
-Seguimos con el proyecto de la búsqueda de películas.
+:tv: Empezamos con proyecto de la búsqueda de películas.
+
 
 ---
