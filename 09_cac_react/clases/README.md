@@ -40,11 +40,13 @@
 
 - [Clase 12](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase12.md): 10 de Abril. :star: Recursos para el trabajo final :star: hook **useState** y evento **onChange** :star: Proyecto memes
 
-:computer: -> [CREADOR DE MEMES - REPOSITORIO](https://github.com/eugenia1984/MemeCreator) Y CREADOR DE MEMES - DEPLOY
+:computer: -> [CREADOR DE MEMES - REPOSITORIO](https://github.com/eugenia1984/MemeCreator) Y [CREADOR DE MEMES - DEPLOY](https://meme-creator-cac.netlify.app/)
 
 - [Clase 13, 14 y 15](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril :star: Proyecto memes  / 17 Abril :star: seguimos con el proyeto generador de memes / 19 Abril: :star: React-Router-DOM
 
 - [Clase 16 y 17](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): 19 de Abril: asincronismo, API, useEffect / 24 de Abril: Proyecto buscador de películas, con el **useEffect**, haciendo un **Fetch** y agregando **paginado**.
+
+:computer: -> BUSCADOR DE PELICULAS - REPOSITORIO y BUSCADOR DE PELICULAS - DEPLOY 
 
 - Clase 18:
 
