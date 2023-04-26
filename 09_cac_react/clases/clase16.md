@@ -288,8 +288,3 @@ body {
 ---
 ---
 
-## :star:CLASE 18 - 24 ABRIL - ASINCRONISMO
-
-### Seguimos con la app de peliculas
-
----
