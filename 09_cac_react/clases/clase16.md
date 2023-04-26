@@ -285,6 +285,17 @@ body {
 }
 ```
 
+:computer: -> [Documentacion de la API](https://www.themoviedb.org/documentation/api?language=es-es) y [para developers](https://developers.themoviedb.org/)
+
+---
+
+## PETICIONES - PROMESAS
+
+
+Son **peticiones** que se hacen a un servidor, el cual me va a dar una **Response**(respuesta) con un **Status**, el **200** es **ok**, hay otros estados que me indican que tengo un **error**(que manejo con el **catch**)
+
+
+
 ---
 ---
 
