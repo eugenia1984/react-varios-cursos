@@ -295,7 +295,7 @@ body {
 
 Son **peticiones** que se hacen a un servidor, el cual me va a dar una **Response**(respuesta) con un **Status**, el **200** es **ok**, hay otros estados que me indican que tengo un **error**, manejamos el **400** y el **401** y con SweetAlert2 aviso con un cartel de alerta. y si tengo algún otor error, lo manejo con el **catch** y también aviso al usuario con el sweetAlert2.
 
-
+Como estoy haciendo un FETCH a la API, va a estar ESPERANDO la RESPUESTA, por eso se utiliza el **async-await**, otro modo es con el **.then()**.
 
 ---
 ---
