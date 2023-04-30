@@ -26,7 +26,7 @@
 
 :computer: -> [LISTA DE TAREAS - REPO](https://github.com/eugenia1984/listaDeTareas) y [LISTA DE TAREAS - DEPLOY](https://eugenia1984.github.io/listaDeTareas/)
 
-:book: GIT CHEETSEET :stars: LINKS: código ACSSI, Manual de JS, Tutorial de HTML, Tutorial de CSS3, Tutorial de JS, Tutorial de GIT y GitHub :stars:
+:book: GIT CHEETSHEET :stars: LINKS: código ACSSI, Manual de JS, Tutorial de HTML, Tutorial de CSS3, Tutorial de JS, Tutorial de GIT y GitHub :stars:
 
 - [Clase 7](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase07.md): 20 Marzo: Arrays (métodos)
 
