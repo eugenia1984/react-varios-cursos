@@ -300,3 +300,59 @@ Como estoy haciendo un FETCH a la API, va a estar ESPERANDO la RESPUESTA, por es
 ---
 ---
 
+:star: CLASE 18 - 26 ABRIL
+
+- 13 Y 14 DE JUNIO ES LA **FERIA DE APRENDIZAJE A LO LARGO DE LA VIDA**, está la entrega de diplomas, los poryectos, etc. La profe va a estar el 14 de Junio que es miércoles, asi que ese día no va a haber clases, si le cambian el día si hay clases.
+
+- Seguimos con el proyecto de las películas con la API de THE MOVIE DB.
+
+- Elegimos trabajar con el **get** `movie/popular`, las más populares en base al ranking(no implica que sean las más nuevas)
+
+![image](https://user-images.githubusercontent.com/72580574/235377741-c48b311d-0cbe-4ac7-a086-0746048254c7.png)
+
+1. Hacemos el fetch para traer la información de la API
+
+2. Utilizamso el **try-catch**, en el **try** hacemos todo lo que está ok y en el **catch** manejar el error.
+
+3. Para manejar el **Asincronísmo** utilizamos el **async-await**(debo tener un solo **async** y varios **await**).
+
+
+---
+
+## :stars: librerias externas para trabajar con React
+
+Links:
+
+-**TAILWIND**:
+
+- [https://tailwindui.com/](https://tailwindui.com/)
+
+- [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation)
+
+- [https://tailwindui.com/components/marketing/sections/pricing](https://tailwindui.com/components/marketing/sections/pricing)
+
+- [https://tailwindcomponents.com/cheatsheet/](https://tailwindcomponents.com/cheatsheet/)
+
+- [https://www.tailwindshades.com/](https://www.tailwindshades.com/) 
+
+-[**HEADLESS UI**](https://headlessui.com/)
+
+-[**HERO ICONS**](https://heroicons.com/)
+
+
+-[**REACT BOOTSTRAP**](https://react-bootstrap.github.io/)
+
+-[**MATERIAL UI**](https://mui.com/)
+
+-[**CHAKRA UI**](https://chakra-ui.com/)
+
+---
+
+## :computer: Ejemplo de la profe
+
+[https://github.com/GiselaFlores/tailwindcss](https://github.com/GiselaFlores/tailwindcss)
+
+
+---
+---
+
