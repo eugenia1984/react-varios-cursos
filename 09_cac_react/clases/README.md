@@ -44,7 +44,7 @@
 
 - [Clase 13, 14 y 15](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril :star: Proyecto memes  / 17 Abril :star: seguimos con el proyeto generador de memes / 19 Abril: :star: React-Router-DOM
 
-- [Clase 16, 17y 18](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): 19 de Abril: asincronismo, API, useEffect / :star: 24 de Abril: Proyecto buscador de películas, con el **useEffect**, haciendo un **Fetch** y agregando **paginado**  / :star: 26 Abril
+- [Clase 16, 17y 18](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): 19 de Abril: asincronismo, API, useEffect / :star: 24 de Abril: Proyecto buscador de películas, con el **useEffect**, haciendo un **Fetch** y agregando **paginado**  / :star: 26 Abril: seguimos con el buscador de peliculas
 
 :computer: -> BUSCADOR DE PELICULAS - REPOSITORIO y BUSCADOR DE PELICULAS - DEPLOY 
 
@@ -52,5 +52,25 @@
 - Clase 19:
 
 - Clase 20:
+
+- Clase 21:
+
+- Clase 22:
+
+- Clase 23:
+
+- Clase 24:
+
+- Clase 25:
+
+- Clase 26:
+
+- Clase 27:
+
+- Clase 28:
+
+- Clase 29:
+
+- Clase 30:
  
 ---
