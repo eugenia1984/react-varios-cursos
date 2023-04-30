@@ -41,7 +41,9 @@
 
 :book: Temas: Concepto de API / Paradigma de intercambio de datos / Consumo de recursos via llamados a APIs  / Organización de APP  / Configuración de navegabilidad entre componentes
 
-- [**Unidad 1**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/api_unidad1.md): 1 Qué es una api / 2 Flujo de comunicación. / 3 Api Rest / 4 Fectch
+- [**Unidad 1**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/api_unidad1.md): 1 - ¿Qué es una API? / 2 - Flujo de comunicación. / 3 -  Api Rest / 4 - Fetch
+
+- [**Unidad 2**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/api_unidad2.md): 1 - ¿Qué es React Router? / 2 - Instalación / 3 - Configuración de React-Router / 4 - Tipos de rutas / 5 - UseParams
 
 ## Eventos en React
 
