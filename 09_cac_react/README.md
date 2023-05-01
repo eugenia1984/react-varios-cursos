@@ -29,13 +29,11 @@
 
 :computer: ->  [CREADOR DE MEMES - REPOSITORIO](https://github.com/eugenia1984/MemeCreator) y [CREADOR DE MEMES - DEPLOY](https://meme-creator-cac.netlify.app/)
 
-![image](https://user-images.githubusercontent.com/72580574/235460590-909cac75-a97b-4733-a9f6-bb0748c6c33e.png)
-
 <img src="https://user-images.githubusercontent.com/72580574/235460590-909cac75-a97b-4733-a9f6-bb0748c6c33e.png" alt="creador de memes" width=300 >
 
 :computer: -> [100 PELICULAS MÁS POPULARES - REPOSITORIO](https://github.com/eugenia1984/paginacion-peliculas)
 
-![image](https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png)
+<img src="https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png" alt="las 100 peliculas mas populares" width=300 >
 
 
 ---
