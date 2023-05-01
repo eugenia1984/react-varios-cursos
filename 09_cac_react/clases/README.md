@@ -42,12 +42,15 @@
 
 :computer: -> [CREADOR DE MEMES - REPOSITORIO](https://github.com/eugenia1984/MemeCreator) Y [CREADOR DE MEMES - DEPLOY](https://meme-creator-cac.netlify.app/)
 
+<img src="https://user-images.githubusercontent.com/72580574/235460590-909cac75-a97b-4733-a9f6-bb0748c6c33e.png" alt="creador de memes" width=300 >
+
 - [Clase 13, 14 y 15](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase13.md): 12 de Abril :star: Proyecto memes  / 17 Abril :star: seguimos con el proyeto generador de memes / 19 Abril: :star: React-Router-DOM
 
 - [Clase 16, 17y 18](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): 19 de Abril: asincronismo, API, useEffect / :star: 24 de Abril: Proyecto buscador de películas, con el **useEffect**, haciendo un **Fetch** y agregando **paginado**  / :star: 26 Abril: seguimos con el buscador de peliculas
 
 :computer: -> [**BUSCADOR DE PELICULAS - REPOSITORIO**](https://github.com/eugenia1984/paginacion-peliculas) y BUSCADOR DE PELICULAS - DEPLOY 
 
+<img src="https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png" alt="las 100 peliculas mas populares" width=300 >
 
 - Clase 19:
 
