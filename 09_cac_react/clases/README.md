@@ -46,7 +46,7 @@
 
 - [Clase 16, 17y 18](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): 19 de Abril: asincronismo, API, useEffect / :star: 24 de Abril: Proyecto buscador de películas, con el **useEffect**, haciendo un **Fetch** y agregando **paginado**  / :star: 26 Abril: seguimos con el buscador de peliculas
 
-:computer: -> BUSCADOR DE PELICULAS - REPOSITORIO y BUSCADOR DE PELICULAS - DEPLOY 
+:computer: -> [**BUSCADOR DE PELICULAS - REPOSITORIO**](https://github.com/eugenia1984/paginacion-peliculas) y BUSCADOR DE PELICULAS - DEPLOY 
 
 
 - Clase 19:
