@@ -52,23 +52,23 @@
 
 <img src="https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png" alt="las 100 peliculas mas populares" width=300 >
 
-- Clase 19:
+- Clase 19: 3 de Mayo
 
-- Clase 20:
+- Clase 20: 8 de Mayo
 
-- Clase 21:
+- Clase 21: 10 de Mayo 
 
-- Clase 22:
+- Clase 22: 15 de Mayo
 
-- Clase 23:
+- Clase 23: 17 de Mayo
 
-- Clase 24:
+- Clase 24: 22 de Mayo
 
-- Clase 25:
+- Clase 25: 24 de Mayo
 
-- Clase 26:
+- Clase 26: 19 de Mayo
 
-- Clase 27:
+- Clase 27: 31 de Mayo
 
 - Clase 28:
 
