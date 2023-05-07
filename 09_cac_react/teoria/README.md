@@ -50,7 +50,7 @@
 
 :book: Temas:  Introducción. Concepto de eventos / Sistema de Eventos en React JS / Diseño de componentes orientados a eventos / Organización de los eventos, creación de interacciones persistentes entre componentes / Desarrollo de implementaciones. Profundizacion acerca de renderizado condicional y sus implicancias, diagnóstico y solución de problemas en el rendering.
 
-- **Unidad 1**: 1-Flujo de eventos / 2-Eventos en react / 3-Eventos Sinteticos
+- [**Unidad 1**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/eventos_en_react_unidad1.md): 1-Flujo de eventos / 2-Eventos en react / 3-Eventos Sinteticos
 
 ## Arquitectura
 
