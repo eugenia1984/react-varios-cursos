@@ -46,8 +46,6 @@
 <img src="https://user-images.githubusercontent.com/72580574/236696188-97d98eb7-c189-40e4-af7e-903075672af5.png" alt="creador de memes" width=300 >
 
 
-
-
 - [Clase 9, 10 y 11](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 27 y 29 Marzo / 05 Abril: React (virtual DOM). Componentes y props. Estilos. :star: Consigna del trabajo final. :star: Git flow
 
 :book: Configuración React :stars: Sugerencias - ¿Qué es React? - ¿Cómo funciona React? - ¿Cómo arrancamos con React? 
@@ -62,7 +60,7 @@
 
 - [Clase 16, 17y 18](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): 19 de Abril: asincronismo, API, useEffect / :star: 24 de Abril: Proyecto buscador de películas, con el **useEffect**, haciendo un **Fetch** y agregando **paginado**  / :star: 26 Abril: seguimos con el buscador de peliculas
 
-:computer: -> [**BUSCADOR DE PELICULAS - REPOSITORIO**](https://github.com/eugenia1984/paginacion-peliculas) y BUSCADOR DE PELICULAS - DEPLOY 
+:computer: -> [**BUSCADOR DE PELICULAS - REPOSITORIO**](https://github.com/eugenia1984/paginacion-peliculas) y [BUSCADOR DE PELICULAS - DEPLOY](https://100-most-popular-movies.netlify.app/) 
 
 <img src="https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png" alt="las 100 peliculas mas populares" width=300 >
 
