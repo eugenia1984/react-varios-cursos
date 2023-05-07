@@ -45,8 +45,12 @@
 
 - [**Unidad 2**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/api_unidad2.md): 1 - ¿Qué es React Router? / 2 - Instalación / 3 - Configuración de React-Router / 4 - Tipos de rutas / 5 - UseParams
 
+
 ## Eventos en React
 
+:book: Temas:  Introducción. Concepto de eventos / Sistema de Eventos en React JS / Diseño de componentes orientados a eventos / Organización de los eventos, creación de interacciones persistentes entre componentes / Desarrollo de implementaciones. Profundizacion acerca de renderizado condicional y sus implicancias, diagnóstico y solución de problemas en el rendering.
+
+- **Unidad 1**: 1-Flujo de eventos / 2-Eventos en react / 3-Eventos Sinteticos
 
 ## Arquitectura
 
