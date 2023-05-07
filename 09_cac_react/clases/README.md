@@ -22,9 +22,18 @@
  
 :computer: -> [HUMAYA-  REPOSITORIO](https://github.com/eugenia1984/humaya) Y [HUMAYA-  DEPLOY](https://eugenia1984.github.io/humaya) 
  
+ <img src="https://user-images.githubusercontent.com/72580574/236696320-fc595de7-afac-4ca7-894c-bd1ea6b574ad.png" alt="creador de memes" width=300 >
+ 
+
+
 - [Clase 5 y 6](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase05.md): 13 y 15 Marzo - Lista de tarea con HTML5, CSS3 y JavaScript
 
 :computer: -> [LISTA DE TAREAS - REPO](https://github.com/eugenia1984/listaDeTareas) y [LISTA DE TAREAS - DEPLOY](https://eugenia1984.github.io/listaDeTareas/)
+
+
+<img src="https://user-images.githubusercontent.com/72580574/236696243-ce36550c-bd1e-4404-8660-e6e2434eee34.png" alt="creador de memes" width=300 >
+
+
 
 :book: GIT CHEETSHEET :stars: LINKS: código ACSSI, Manual de JS, Tutorial de HTML, Tutorial de CSS3, Tutorial de JS, Tutorial de GIT y GitHub :stars:
 
@@ -33,6 +42,11 @@
 - [Clase 8](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase08.md): 22 Marzo: continuamos con JavaScript, vemos un poco de **POO**, comenzamos con el proyecto **Calculadora**. :star: Comenzamos con las consignas del **trabajo integrador**.
 
 :computer: -> [CALCULADORA - REPOSITORIO](https://github.com/eugenia1984/Calculadora) y [CALCULADORA - DEPLOY](https://eugenia1984.github.io/Calculadora/)
+
+<img src="https://user-images.githubusercontent.com/72580574/236696188-97d98eb7-c189-40e4-af7e-903075672af5.png" alt="creador de memes" width=300 >
+
+
+
 
 - [Clase 9, 10 y 11](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase09.md): 27 y 29 Marzo / 05 Abril: React (virtual DOM). Componentes y props. Estilos. :star: Consigna del trabajo final. :star: Git flow
 
