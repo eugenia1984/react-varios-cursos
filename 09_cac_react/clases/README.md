@@ -66,7 +66,7 @@
 
 - Clase 19: 3 de Mayo
 
-- [Clase 20 Y 21](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase20.md): 8 de Mayo: empezamos con el **Proyecto Pokemones** / :star: 10 de Mayo: seguimos con el **Proyecto Pokemones** 
+- [Clase 20 Y 21](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase20.md): 8 de Mayo: empezamos con el **Proyecto Pokemones** / :star: 10 de Mayo: seguimos con el **Proyecto Pokemones**, emos **axios** para los llamados a la API (podemos implementarlo en el proyecto de los Pokemones) 
 
 :computer: -> POKEMONES REPOSITORIO - POKEMONES DEPLOY
 
