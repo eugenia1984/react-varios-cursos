@@ -25,7 +25,7 @@
 const axios = require('axios').default;
 ```
 
-2. Ejempplo:
+2. Ejemplo:
 
 ```JSX
 const axios = require('axios');
