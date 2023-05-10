@@ -60,7 +60,7 @@
 
 - [Clase 16, 17y 18](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase16.md): 19 de Abril: asincronismo, API, useEffect / :star: 24 de Abril: Proyecto buscador de películas, con el **useEffect**, haciendo un **Fetch** y agregando **paginado**  / :star: 26 Abril: seguimos con el buscador de peliculas
 
-:computer: -> [**BUSCADOR DE PELICULAS - REPOSITORIO**](https://github.com/eugenia1984/paginacion-peliculas) y [BUSCADOR DE PELICULAS - DEPLOY](https://100-most-popular-movies.netlify.app/) 
+:computer: -> [**BUSCADOR DE PELICULAS - REPOSITORIO**](https://github.com/eugenia1984/paginacion-peliculas) y [**BUSCADOR DE PELICULAS - DEPLOY**](https://100-most-popular-movies.netlify.app/) 
 
 <img src="https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png" alt="las 100 peliculas mas populares" width=300 >
 
@@ -68,7 +68,7 @@
 
 - [Clase 20](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase20.md): 8 de Mayo: empezamos con el **Proyecto Pokemones** / :star: Clase 21: 10 de Mayo: seguimos con el **Proyecto Pokemones** 
 
-:computer: -> POKEMONES
+:computer: -> POKEMONES REPOSITORIO - POKEMONES DEPLOY
 
 - Clase 22: 15 de Mayo
 
