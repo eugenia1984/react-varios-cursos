@@ -64,9 +64,460 @@ React siempre nos va a dejar pequeñas pistas cada vez que ocurra un error dentr
 
 ## :star: Renderizado condicional
 
+
+ 
+
+
+
+ 
+
+
+
+
+En React, puedes crear distintos componentes que encapsulan el comportamiento que necesitas. Entonces, puedes renderizar solamente algunos de ellos, dependiendo del estado de tu aplicación.
+
+El **renderizado condicional*" en React funciona de la misma forma que lo hacen las condiciones en JavaScript. Usa operadores de JavaScript como if o el operador condicional para crear elementos representando el estado actual, y deja que React actualice la interfaz de usuario para emparejarlos.
+
+
+Considera estos dos componentes:
+
+```JSX
+function UserGreeting(props) {
+
+  return <h1>Welcome back!</h1>;
+
+}
+
+function GuestGreeting(props) {
+
+  return <h1>Please sign up.</h1>;
+
+}
+```
+
+
+- Vamos a crear un componente Greeting que muestra cualquiera de estos componentes dependiendo si el usuario ha iniciado sesión:
+
+```JSX
+function Greeting(props) {
+
+   const isLoggedIn = props.isLoggedIn;
+
+   if (isLoggedIn) {
+
+     return <UserGreeting />;
+
+    }
+
+   return <GuestGreeting />;
+
+ }
+
+ReactDOM.render(
+
+// Intentar cambiando isLoggedIn={true}:
+
+<Greeting isLoggedIn={false} />,
+
+document.getElementById('root')
+
+);
+```
+
+
+Este ejemplo renderiza un saludo diferente según el valor del prop isLoggedIn.
+
+ 
+
+### Variables de elementos
+
+
+Puedes usar variables para almacenar elementos. Esto puede ayudarte para renderizar condicionalmente una parte del componente mientras el resto del resultado no cambia.
+
+
+Considera estos dos componentes nuevos que representan botones de cierre e inicio de sesión:
+
+
+```JSX
+function LoginButton(props) {
+
+  return (
+
+    <button onClick={props.onClick}>
+
+      Login
+
+    </button>
+
+  );
+
+}
+
+function LogoutButton(props) {
+
+  return (
+
+    <button onClick={props.onClick}>
+
+      Logout
+
+    </button>
+
+  );
+
+}
+```
+
+
+
+En el siguiente ejemplo, crearemos un componente con estado llamado LoginControl.
+
+
+El componente va a renderizar `<LoginButton />` o `<LogoutButton /> ` dependiendo de su estado actual. También va a renderizar un `<Greeting /> ` del ejemplo anterior:
+
+ 
+```JSX
+class LoginControl extends React.Component {
+
+   constructor(props) {
+
+      super(props);
+
+      this.handleLoginClick = this.handleLoginClick.bind(this);
+
+      this.handleLogoutClick = this.handleLogoutClick.bind(this);
+
+      this.state = {isLoggedIn: false};
+
+  }
+
+handleLoginClick() {
+
+   this.setState({isLoggedIn: true});
+
+}
+
+handleLogoutClick() {
+
+    this.setState({isLoggedIn: false});
+
+}
+
+render() {
+
+    const isLoggedIn = this.state.isLoggedIn;
+
+    let button;
+
+    if (isLoggedIn) {
+
+        button = <LogoutButton onClick={this.handleLogoutClick} />;
+
+    } else {
+
+       button = <LoginButton onClick={this.handleLoginClick} />;
+
+   }
+
+return (
+
+  <div>
+
+      <Greeting isLoggedIn={isLoggedIn} />
+
+        {button}
+
+    </div>
+
+  );
+
+ }
+
+}
+
+ReactDOM.render(
+
+<LoginControl />,
+
+document.getElementById('root')
+
+);
+```
+
+
+
+
+ 
+
+Si bien declarar una variable y usar una sentencia if es una buena forma de renderizar condicionalmente un componente, a veces podrías querer usar una sintaxis más corta. Hay algunas formas de hacer condiciones en una línea en JSX, explicadas a continuación.
+
+ 
+
+## If en una línea con operador lógico &&
+
+
+Puedes incluir expresiones en JSX envolviéndolas en llaves. Esto incluye el operador lógico && de JavaScript. Puede ser útil para incluir condicionalmente un elemento:
+
+ 
+```JSX
+function Mailbox(props) {
+
+    const unreadMessages = props.unreadMessages;
+
+    return (
+
+       <div>
+
+         <h1>Hello!</h1>
+
+         {unreadMessages.length > 0 &&
+
+         <h2>
+
+            You have {unreadMessages.length} unread messages.
+
+         </h2>
+
+     }
+
+    </div>
+
+  );
+
+}
+
+ 
+
+const messages = ['React', 'Re: React', 'Re:Re: React'];
+
+ReactDOM.render(
+
+    <Mailbox unreadMessages={messages} />,
+
+document.getElementById('root')
+
+);
+```
+ 
+
+Esto funciona porque en JavaScript, true && expresión siempre evalúa a expresión, y false && expresión siempre evalúa a false.
+
+
+Por eso, si la condición es true, el elemento justo después de && aparecerá en el resultado. Si es false, React lo ignorará.
+
+
+Ten en cuenta que retornar expresiones falsas hará que el elemento después de ’&&’ sea omitido pero retornará el valor falso. En el ejemplo de abajo, ’ 0 ’ será retornado por el método de renderizado.
+
+
+```JSX
+render() {
+
+  const count = 0;
+
+  return (
+
+    <div>
+
+       {count && <h1>Messages: {count}</h1>}
+
+    </div>
+
+  );
+
+}
+```
+
+
+## If-Else en una línea con operador condicional
+
+
+Otro método para el renderizado condicional de elementos en una línea es usar el operador condicional condición ? true : false de JavaScript.
+
+
+En el siguiente ejemplo, lo usaremos para renderizar de forma condicional un pequeño bloque de texto.
+
+ 
+```JSX
+render() {
+
+  const isLoggedIn = this.state.isLoggedIn;
+
+  return (
+
+    <div>
+
+       The user is <b>{isLoggedIn ? 'currently' : 'not'}</b> logged in.
+
+    </div>
+
+  );
+
+}
+```
+
+
+También puede usarse para expresiones más grandes, aunque es menos obvio lo que está pasando:
+
+ 
+```JSX
+render() {
+
+  const isLoggedIn = this.state.isLoggedIn;
+
+  return (
+
+     <div>
+
+       {isLoggedIn
+
+        ? <LogoutButton onClick={this.handleLogoutClick} />
+
+      : <LoginButton onClick={this.handleLoginClick} />
+
+     }
+
+  </div>
+
+ );
+
+}
+```
+
+
+Al igual que en JavaScript, depende de ti elegir un estilo apropiado según lo que tú y tu equipo consideren más legible. Recuerda también que cuando las condiciones se vuelven demasiado complejas, puede ser un buen momento para extraer un componente.
+
+ 
+
+## Evitar que el componente se renderice
+
+
+En casos excepcionales, es posible que desees que un componente se oculte a sí mismo aunque haya sido renderizado por otro componente. Para hacer esto, devuelve null en lugar del resultado de renderizado.
+
+
+En el siguiente ejemplo, el `<WarningBanner />` se renderiza dependiendo del valor del prop llamado warn. Si el valor del prop es false, entonces el componente no se renderiza:
+
+ 
+```JSX
+function WarningBanner(props) {
+
+  if (!props.warn) {
+
+     return null;
+
+   }
+
+  return (
+
+     <div className="warning">
+
+        Warning!
+
+      </div>
+
+   );
+
+}
+```
+ 
+
+```JSX
+class Page extends React.Component {
+
+  constructor(props) {
+
+     super(props);
+
+     this.state = {showWarning: true};
+
+      this.handleToggleClick = this.handleToggleClick.bind(this);
+
+  }
+
+handleToggleClick() {
+
+    this.setState(state => ({
+
+         showWarning: !state.showWarning
+
+   }));
+
+}
+
+render() {
+
+  return (
+
+     <div>
+
+         <WarningBanner warn={this.state.showWarning} />
+
+         <button onClick={this.handleToggleClick}>
+
+          {this.state.showWarning ? 'Hide' : 'Show'}
+
+    </button>
+
+   </div>
+
+  );
+
+ }
+
+}
+
+ 
+
+ReactDOM.render(
+
+   <Page />,
+
+   document.getElementById('root')
+
+);
+```
+
+
+El devolver null desde el método render de un componente no influye en la activación de los métodos del ciclo de vida del componente. Por ejemplo componentDidUpdate seguirá siendo llamado.
+
 ---
 
 ## :star: Deploy en netlify
+
+
+Netlify es una plataforma que nace para automatizar proyectos webs estáticos. Aúna las tareas de integración continua y despliegue de infraestructura web en un solo flujo de ejecución
+
+El desarrollo web se caracteriza por, entre otras cosas, el cambio continuo en los diseños. Constantemente se añaden nuevos elementos o se modifican los ya añadidos. Es muy importante poder ver en todo momento qué aspecto tiene o ha tenido nuestra web.
+
+Otra de las claves es la gestión de la infraestructura. No sólo vale centrarse en el diseño de la web, si no que también esta debe prepararse para ser ejecutada en un entorno de producción determinado. Esta tarea aparentemente sencilla, a menudo se convierte en un proceso tedioso: debemos contratar un hosting donde alojar la web, registrar un nombre de dominio y finalmente subir los archivos, normalmente a través de FTP.
+
+Con Netlify el proceso de despliegue se convierte en algo muy sencillo: únicamente hay que enlazar la herramienta a un repositorio Git donde se encuentren los archivos que componen la página web y crear un deploy que provocará que la aplicación se compile y se despliegue automáticamente en una determinada URL.
+
+Su potencia viene dada por su capacidad de despliegue continuo. Todos los cambios que se hayan realizado en la aplicación web constituyen versiones desplegadas de la misma, a las que se puede tener acceso en cualquier momento. Si la versión actual de la web no nos convence, podemos dejarla en un estado en el que se encontraba anteriormente.
+
+## Despliegue continuo
+
+Tras tener listo el código en el repositorio correspondiente (github), creamos una cuenta gratuita en Netlify para poder tener acceso a sus herramientas y hacer un despliegue continuo de nuestro proyecto. Existen distintos planes de pago con distintas características que se pueden consultar aquí. En nuestro caso escogemos el gratuito, ya que se adapta de manera holgada al objetivo del tutorial.
+
+Siguiendo con el desarrollo, crear la cuenta es tan fácil como registrarnos con nuestra cuenta de GitHub, GitLab, Bitbucket o con nuestro correo. Debemos dar permisos a Netlify para acceder a nuestra cuenta GitHub e introducir el nombre de usuario y el tipo de proyecto que se va a desplegar: un portfolio, una tienda virtual, un blog, etc.
+
+
+Luego debemos dar la autorización a netlify:
+
+Seguimos con otras configuraciones del tipo de cuenta:
+
+Luego nos pide que importemos un proyecto (recomendamos el proyecto que vienen trabajando en github), para poder vincularlo.
+
+
+Luego nos va pidiendo una serie de pasos para vincular nuestra cuenta de netlify con los repositorios de github:
+
+Elegimos la rama en la cual esta nuestro proyecto y seleccionamos “Deploy Site”.
+
+Esperamos unos minutos hasta que haga el proceso.
+
+
+Una vez terminado el proceso, accedemos al link “permanlink” para ver nuestro proyecto
+
+
 
 ---
 
