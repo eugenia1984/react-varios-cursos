@@ -52,6 +52,13 @@
 
 - [**Unidad 1**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/eventos_en_react_unidad1.md): 1-Flujo de eventos / 2-Eventos en react / 3-Eventos Sinteticos
 
+- [**Unidad 2**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/eventos_en_react_unidad2.md) : 1 - Principios de diseño en react / 2 - Renderizado condicional / 3 - Deploy en Netlify
+
+
+
+
+
+
 ## Arquitectura
 
 
