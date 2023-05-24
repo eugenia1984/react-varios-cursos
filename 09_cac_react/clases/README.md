@@ -64,19 +64,21 @@
 
 <img src="https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png" alt="las 100 peliculas mas populares" width=300 >
 
-- Clase 19: 3 de Mayo
+- Clase 19: 3 de Mayo: vemos **Tailwind**
+
+:computer: ->
 
 - [Clase 20 Y 21](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase20.md): 8 de Mayo: empezamos con el **Proyecto Pokemones** / :star: 10 de Mayo: seguimos con el **Proyecto Pokemones**, usamos **axios** para los llamados a la API (podemos implementarlo en el proyecto de los Pokemones) 
 
 :computer: -> POKEMONES REPOSITORIO - POKEMONES DEPLOY
 
-- Clase 22: 15 de Mayo
+- Clase 22: 15 de Mayo -> no tuvimos clases, la profe se enfermó.
 
 - Clase 23: 17 de Mayo
 
 - Clase 24: 22 de Mayo
 
-- Clase 25: 24 de Mayo
+- Clase 25: 24 de Mayo -> no tuvimos clases, a la profe se le corto la luz
 
 - Clase 26: 19 de Mayo
 
