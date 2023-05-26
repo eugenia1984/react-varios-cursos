@@ -1,4 +1,4 @@
-# : star: ARQUITECTURA
+# :star: ARQUITECTURA
 
 ---
 
