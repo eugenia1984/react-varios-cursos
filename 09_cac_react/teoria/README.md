@@ -60,6 +60,10 @@
 
 ## Arquitectura
 
+:book: Temas: ¿Qué es firestore? / Estructura de firestore /Crear Base de datos en firebase
+
+
+- [**Contenidos teóricos**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/arquitectura_contenidos_teoricos.md): ¿Qué es firestore? / Estructura de firestore /Crear Base de datos en firebase
 
 ## Sección BackEnd
 
