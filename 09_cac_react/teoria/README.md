@@ -65,7 +65,7 @@
 
 - [**Contenidos teóricos - Unidad 1**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/arquitectura_contenidos_teoricos.md): ¿Qué es firestore? / Estructura de firestore /Crear Base de datos en firebase
 
-- [**Contenidos teóricos - Unidad2**]](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/arquitectura_contenidos_teoricos2.md):  Flujo de trabajo / Git avanzado / Git Flow
+- [**Contenidos teóricos - Unidad2**](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/arquitectura_contenidos_teoricos2.md):  Flujo de trabajo / Git avanzado / Git Flow
 
 ## Sección BackEnd
 
