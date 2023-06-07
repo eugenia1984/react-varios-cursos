@@ -66,7 +66,6 @@
 
 - [Clase 19](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase19.md): 3 de Mayo: Librerías externas para trabajar con React, vemos **Tailwind**, **Bootstrap**, **MUI** y otras librerías.
 
-:computer: ->
 
 - [Clase 20 Y 21](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase20.md): 8 de Mayo: empezamos con el **Proyecto Pokemones** / :star: 10 de Mayo: seguimos con el **Proyecto Pokemones**, usamos **axios** para los llamados a la API (podemos implementarlo en el proyecto de los Pokemones) 
 
