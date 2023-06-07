@@ -21,7 +21,7 @@
 
 ## :computer: Pasos para instalar Tailwind
 
-- Se puede instalar con **npm** o por ***CDN**
+- Se puede instalar con **npm** o por **CDN**
 
 - Con npm: una vez cre **creamos el proyecto**, `npm install -D tailwindcss` y `npx tailwindcss init`, para crear el archivo en el que vamos a configurar Tailwind, el archivo se llama: **tailwind.config.js**, en este archivo debemos agregar: 
 
@@ -44,6 +44,49 @@ Si uso TS agrego **ts** y **tsx**, si trabajo con JavaScript no la agrego.
 
 Hay que ver porque hay componentes que usan otras librerias como: **heroicons**(iconos) y **headlessui**(componentes para integraarse con Tailwind, tiene: menu, listbox, combobox, switch, modal, popover, radio groups, etc). Lo instalamos con `npm install @heroicons/react` y  `npm install @headlessui/react`
 
+
+## OJO SI LO INICIALIZO CON VITE ES DISTINTO
+
+1. CREO EL PROYECTO:
+
+```
+npm create vite@latest my-project -- --template react
+cd my-project
+```
+
+2. INSTALO TAILWIND
+
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+3. EN **tailwind.config.js**:
+
+```JavaScript
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+
+5. EN INDEX.CSS:
+
+```CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+6. CORRO MI PROYECTO CON  `npm run dev`
 
 ---
 
