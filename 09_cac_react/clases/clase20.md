@@ -14,6 +14,8 @@ Y al hacer click en una card se ve el detalle:
 
 ![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/320811d5-b089-4e56-814d-7db63293d5fd)
 
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/2f2a43c3-903c-4820-a2c5-ddf9c49076a9)
+
 ---
 
 # :star: CLASE 21 - 10 Mayo
