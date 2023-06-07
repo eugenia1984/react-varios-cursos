@@ -73,15 +73,19 @@
 
 - Clase 22: 15 de Mayo -> no tuvimos clases, la profe se enfermó.
 
-- Clase 23: 17 de Mayo
+- Clase 22: 17 de Mayo
 
-- Clase 24: 22 de Mayo
+- Clase 23: 22 de Mayo
 
-- Clase 25: 24 de Mayo -> no tuvimos clases, a la profe se le corto la luz
+- Clase 24: 24 de Mayo -> no tuvimos clases, a la profe se le corto la luz
 
-- Clase 26: 19 de Mayo
+- Clase 24: 19 de Mayo
 
-- Clase 27: 31 de Mayo
+- Clase 25: 31 de Mayo
+
+- Clase 26:
+
+- Clase 28:
 
 - Clase 28:
 
