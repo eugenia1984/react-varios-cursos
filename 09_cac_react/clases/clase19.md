@@ -42,7 +42,7 @@ Si uso TS agrego **ts** y **tsx**, si trabajo con JavaScript no la agrego.
 
 - Empezamos el proceso CLI build: `npx tailwind -i ./src/input.css -o ./dist/output.css --watch`
 
-Hay que ver porque hay comoponentes que usan otras librerias como: **heroicons**(iconos) y **headlessui**(componentes para integraarse con Tailwind, tiene: menu, listbox, combobox, switch, modal, popover, radio groups, etc). Lo instalamos con `npm install @heroicons/react` y  `npm install @headlessui/react`
+Hay que ver porque hay componentes que usan otras librerias como: **heroicons**(iconos) y **headlessui**(componentes para integraarse con Tailwind, tiene: menu, listbox, combobox, switch, modal, popover, radio groups, etc). Lo instalamos con `npm install @heroicons/react` y  `npm install @headlessui/react`
 
 
 ---
