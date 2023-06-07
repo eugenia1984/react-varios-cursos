@@ -2,6 +2,18 @@
 
 - Nos dividimos en 3 grupos para hacer un **fetch** a la **API** de **Pokemons**: [https://pokeapi.co/](https://pokeapi.co/) para mostrar todas las cards de los pokemones con la mínima información, y al ver más ver el detalle del pokemon.
  
+ La profe nos mostro esta web [https://www.pokemon.com/el/pokedex](https://www.pokemon.com/el/pokedex)
+ 
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/86b88b2a-6b90-4243-976b-1c1d6445e0e4)
+
+ Se pueden ordenar, ejemplo de por numero inferior:
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/79c1b2e0-85ff-47d4-87b9-576010bc2e78)
+
+Y al hacer click en una card se ve el detalle:
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/320811d5-b089-4e56-814d-7db63293d5fd)
+
 ---
 
 # :star: CLASE 21 - 10 Mayo
