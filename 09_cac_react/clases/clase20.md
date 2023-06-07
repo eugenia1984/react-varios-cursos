@@ -6,6 +6,11 @@
  
 ![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/86b88b2a-6b90-4243-976b-1c1d6445e0e4)
 
+Se muestran 12 y abajo hay un boton para cargar mas(esto con el scroll)
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/c6ecace2-ab09-4925-a1d2-154393b99865)
+
+
  Se pueden ordenar, ejemplo de por numero inferior:
 
 ![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/79c1b2e0-85ff-47d4-87b9-576010bc2e78)
@@ -15,6 +20,8 @@ Y al hacer click en una card se ve el detalle:
 ![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/320811d5-b089-4e56-814d-7db63293d5fd)
 
 ![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/2f2a43c3-903c-4820-a2c5-ddf9c49076a9)
+
+Aca donde esta la evolucion, si le doy click a la card vooy a ir al detalle de ese pokemon
 
 ---
 
