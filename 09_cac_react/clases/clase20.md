@@ -4,7 +4,8 @@
  
  La profe nos mostro esta web [https://www.pokemon.com/el/pokedex](https://www.pokemon.com/el/pokedex)
  
-![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/86b88b2a-6b90-4243-976b-1c1d6445e0e4)
+ <img src="https://github.com/eugenia1984/react-varios-cursos/assets/72580574/86b88b2a-6b90-4243-976b-1c1d6445e0e4" width="600" alt="pokedex" />
+
 
 Se muestran 12 y abajo hay un boton para cargar mas(esto con el scroll)
 
