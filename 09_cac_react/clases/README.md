@@ -64,7 +64,7 @@
 
 <img src="https://user-images.githubusercontent.com/72580574/235460701-a012a485-0bd6-4ce2-befa-39868d93d100.png" alt="las 100 peliculas mas populares" width=300 >
 
-- Clase 19: 3 de Mayo: vemos **Tailwind**, **Bootstrap** y **MUI**, las librerías para trabajar los estilos en React.
+- [Clase 19](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase19.md): 3 de Mayo: vemos **Tailwind**, **Bootstrap** y **MUI**, las librerías para trabajar los estilos en React.
 
 :computer: ->
 
