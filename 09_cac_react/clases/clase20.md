@@ -99,7 +99,7 @@ async function getUser() {
 ---
 
 
-##:computer: [Repositorio de ejemplo de la profe](https://github.com/GiselaFlores/axios-asincronismo)
+## :computer: [Repositorio de ejemplo de la profe](https://github.com/GiselaFlores/axios-asincronismo)
 
 ```JSX
 import axios from "axios";
