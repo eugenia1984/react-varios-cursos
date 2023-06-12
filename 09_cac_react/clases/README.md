@@ -73,7 +73,7 @@
 
 - Clase 22: 15 de Mayo -> no tuvimos clases, la profe se enfermó.
 
-- [Clase 22]((https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase22.md)): 17 de Mayo: **useContext**
+- [Clase 22](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase22.md): 17 de Mayo: **useContext**
 
 - Clase 23: 22 de Mayo
 
