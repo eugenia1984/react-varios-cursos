@@ -116,7 +116,7 @@ Ejemplo de un contador, tiene las sigueintes partes:
 
 - **view** -> la parte visible del sitio, la **UI**(USER INTERFACE)
 
--> Cuando el usuario hace un **click** va a **incrementar** y va a ejecutar un **aCTION** que DISPARA(**DISPATCH**) un **REDUCER** y se va a ACTUALIZAR(**UPDATE**) el **STORE**
+-> Cuando el usuario hace un **click** va a **incrementar** y va a ejecutar un **ACTION** que DISPARA(**DISPATCH**) un **REDUCER** y se va a ACTUALIZAR(**UPDATE**) el **STORE**
 
 **dispatch** -> todas las funciones que llevan información, las encargadas de enviar datos entre la UI y las ACTIONS
 
