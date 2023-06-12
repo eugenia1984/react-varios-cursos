@@ -132,3 +132,8 @@ Ejemplo de un contador, tiene las sigueintes partes:
 
 
 ---
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/195825bf-3064-4440-bdfa-3bf99598a71c)
+
+
+---
