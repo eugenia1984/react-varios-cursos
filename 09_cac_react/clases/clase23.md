@@ -127,3 +127,8 @@ Ejemplo de un contador, tiene las sigueintes partes:
 **STORE** -> tiene todos los estados compartidos de la aplicación, sin tener que hacer drop drilling de props.
 
 ---
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/cb623c94-8464-4c1d-aa3f-d5be7b4484ed)
+
+
+---
