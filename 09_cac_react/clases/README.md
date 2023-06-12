@@ -75,7 +75,7 @@
 
 - [Clase 22](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase22.md): 17 de Mayo: **useContext**
 
-- Clase 23: 22 de Mayo
+- [Clase 23](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase23.md): 22 de Mayo: **Redux** y **Redux thunk**
 
 - Clase 24: 24 de Mayo -> no tuvimos clases, a la profe se le corto la luz
 
@@ -83,14 +83,14 @@
 
 - Clase 25: 31 de Mayo
 
-- Clase 26:
+- Clase 26: 5 de Junio -> no tuvimos claes pir **ley Micaela**
+
+- Clase 26: 7 de Junio -> No tuvimos clase por Feria
+
+- Clase 26: 12 de Junio
+
+- Clase 27:
 
 - Clase 28:
-
-- Clase 28:
-
-- Clase 29:
-
-- Clase 30:
  
 ---
