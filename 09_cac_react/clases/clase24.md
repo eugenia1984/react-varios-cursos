@@ -162,3 +162,9 @@ export default UserList
 
 
 ---
+
+## :computer: Para practicar
+
+Usar el ejercicio de las peliculas, las 100 mas populares, y agregarle axios y Redux.
+
+---
