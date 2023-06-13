@@ -79,7 +79,7 @@
 
 - Clase 24: 24 de Mayo -> no tuvimos clases, a la profe se le corto la luz
 
-- [Clase 24](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase24.md): 29 de Mayo
+- [Clase 24](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase24.md): 29 de Mayo: Hablamos del TP final - Retomamos el ejecicio de asuncronismo con fetch que muestra los usuarios, implementando **Redux**.
 
 - Clase 25: 31 de Mayo
 
