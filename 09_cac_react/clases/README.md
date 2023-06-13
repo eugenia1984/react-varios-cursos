@@ -81,7 +81,7 @@
 
 - [Clase 24](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase24.md): 29 de Mayo: Hablamos del TP final - Retomamos el ejecicio de asuncronismo con fetch que muestra los usuarios, implementando **Redux**.
 
-- Clase 25: 31 de Mayo
+- [Clase 25](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase25.md): 31 de Mayo: Back End - funcionalidades y comenzamos con FireBase
 
 - Clase 26: 5 de Junio -> no tuvimos claes pir **ley Micaela**
 
