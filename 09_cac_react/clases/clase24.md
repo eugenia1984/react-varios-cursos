@@ -155,3 +155,10 @@ export default UserList
 ```
 
 ---
+
+## Queda asi
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/e853d476-7a49-441e-92ae-df5ec3392228)
+
+
+---
