@@ -1,4 +1,4 @@
-# CLASE 25 - 31 MAYO
+# :star: CLASE 25 - 31 MAYO
 
 ---
 
@@ -21,7 +21,7 @@ También se maneja la **Seguridad de la información**(Ciber seguridad), la **tr
 
 - **relacionales**: por tablas(con **PK**-los datos que son unicos e irrepetibles- y **FK**-las relaciones entre las claes y las tablas para comunicarse-), estructuras complejas y robustas, como los bancos. necesitan mucha seguridad y robustez. Ejemplos: **MYSQL, ORACLE, POSTGRESQL**.
 
-- **no relacionales**: más flexibles, por documentos como en Mongo. Ejemplo: **MONGODB, CASSANDRA**
+- **no relacionales**: más flexibles, por documentos como en Mongo. Tene un comportamiento más cercano a una API que a una base de datos relacional. La documentación es basada en JSON. Ejemplo: **MONGODB, CASSANDRA**
 
 
 ![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/21049b69-0724-4c7f-abeb-1a591e037db3)
@@ -29,5 +29,11 @@ También se maneja la **Seguridad de la información**(Ciber seguridad), la **tr
 -> **request**(petición) a la base de datos.
 
 -> **SQL** structure query language. **MyQSL** es el motor que trabaja con consultas sql.
+
+---
+
+## :computer: FIREBASE
+
+Es una base NO RELACIONAL de GOOGLE.
 
 ---
