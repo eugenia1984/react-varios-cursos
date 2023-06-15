@@ -152,3 +152,27 @@ Es muy util usar **fragment** para que sea más accesible (tener en ceunta el vo
 
 
 ---
+
+Las funciones viven unicamente durante el tiempo que son ejecutadas.
+
+Mientras el componente se esta montando se carga toda la UI y se renderiza (muestra en pantalla), si el usuario realiza alguna interaccion voy a tener una re - renderización, y si luego se ve otro componente, este se va a **Desmontar** y va a **montar** el nuevo componente. Siempre que se* **Actualiza** se **redibuja**.
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/37d2603e-a1f8-49ce-9cf6-9aa1a3c13535)
+
+-> cada evento que ocurra cmpliendo ciertas características invocará el completo de la función una vez por cada re-render.
+
+Para saber que debe renderizar React busca ciertas condiciones específicas:
+
+- **cambio en las props**: `<Title text="newText" />`
+
+- **cambio en el estado**:
+
+```JSX
+this.setState({count: 2}) // class
+setCount(2) // function
+```
+
+- **Eventos de modificación de estados**, al ocurrir eventos, programáticamente modificaremos el estado, lo cual detona los dos promeros puntos.
+
+---
+
