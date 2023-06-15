@@ -80,8 +80,52 @@ Hay 2 tipos o representaciones de componentes, en la actualidad se utiliza la re
 
 Ñas propiedades son la forma que tiene React para pasar **parámetros de un componente superior a sus childrens**.
 
-Es la manera de implementar el **flujo de datos undireccional^^.
+Es la manera de implementar el **flujo de datos undireccional**.
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/3b51282b-5907-4153-9874-1d6dd6c10703)
 
 Si alguna es una función, el child component puede llamarla para provocar **efectos secundarios** en el parent.
+
+## ¿Como se definen las propiedades?
+
+- En COMPONENTES FUNCIONALES: recibimos como parametros dentro de la funcion:
+
+```JSX
+({name}) => <p>{name}<p>
+```
+
+
+```JSX
+(props) => <p>{props.name}<p>
+```
+
+- En COMPONENTES DE CLASE: recibimos propiedades por `this.props` (acceso a objeto props)
+
+---
+
+## :computer: PROPS
+
+Nuestras props se encuentran encerradas entre {}. Las {} son importantes, porque es la manera con la que se escapa un codigo JSX, permitiendo colocar dentro sentencias JavaScript 'nativo'.
+
+Aquello que devuelvan esas sentencias se volcará como contenido en la vista.
+
+---
+
+## :computer: Garbage collecor
+
+Esto deriva de la manera en la que ocurren las cosas en JS. Al terminar la ejecución de addOne(num), a y b serán puestas a disposición del garbage collector.
+
+```JavaScript
+function addOne(number) {
+ let a = Number(number)
+ let b = 1 +b
+ return b
+}
+
+let number = 2
+console.log(addOne(number))
+```
+
+**Stackbliz** -> como el codesands
 
 ---
