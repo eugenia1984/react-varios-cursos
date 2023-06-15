@@ -129,3 +129,26 @@ console.log(addOne(number))
 **Stackbliz** -> como el codesands
 
 ---
+
+## :computer: Ejemplo de codigo con fragment
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/f6be6e47-20b0-48ef-90c7-b8ee6f969fa4)
+
+Es muy util usar **fragment** para que sea más accesible (tener en ceunta el voice over), y no estoy inundada de `<divs>`
+
+---
+
+## :computer: JSX
+
+**class** -> **className** la clase de HTML
+
+**for** -> **htmlFor** en los formularios
+
+---
+
+## :computer: Ejemplo de componente de clase
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/2dc2471a-0422-4860-b451-2f813cc71fec)
+
+
+---
