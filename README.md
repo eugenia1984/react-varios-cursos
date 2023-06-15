@@ -28,17 +28,19 @@ Here I will gather the courses made of **React**
 
 - [10 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): Introduction to React elements, Components, States in the Component Tree, Handling forms in React, React Asynchronism, React Router, React Testing and Deployment and in  [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) is the application created.
 
+- [11 - React - Ayi Group](https://github.com/eugenia1984/react-varios-cursos/tree/main/11_react_ayi_group)
+
 ---
 
 ## Stack of technologies?  🛠️
 
-<img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
+- <img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
 
-<img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
+- <img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
 
-<img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
+- <img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
 
-<img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
+- <img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React**.
 
 
 ---
@@ -95,6 +97,8 @@ Aca juntare los cursos realizados en *Udemy* y *LinkedIn Learning* de **React**
 
 - [10 - ReactJS Essential Training - LinkedIn Learning](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training): temas vistos: Introduccion a los elementos de React, Componentes, Los estados en el Componente Arbol, Manejando formularios en React, React Asincronismo, React Router, React Testing and Deployment y en [my-app](https://github.com/eugenia1984/react-varios-cursos/tree/main/react_js_essential_training/exercises/my-app) esta la aplicación creada.
 
+- [11 - React - Ayi Group](https://github.com/eugenia1984/react-varios-cursos/tree/main/11_react_ayi_group), curso perteneciente al Tehnology Bootcamp AyiWoman
+ 
 ---
 
 
