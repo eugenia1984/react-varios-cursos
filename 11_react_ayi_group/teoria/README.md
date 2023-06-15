@@ -111,7 +111,7 @@ Aquello que devuelvan esas sentencias se volcará como contenido en la vista.
 
 ---
 
-## :computer: Garbage collecor
+## :computer: Garbage collector
 
 Esto deriva de la manera en la que ocurren las cosas en JS. Al terminar la ejecución de addOne(num), a y b serán puestas a disposición del garbage collector.
 
