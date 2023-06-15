@@ -32,4 +32,4 @@ Esta función retorna de forma condicional uno u otro tipo de expresión JSX, se
 
 ---
 
-## :computer
+## :computer:
