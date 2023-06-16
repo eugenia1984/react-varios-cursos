@@ -201,3 +201,7 @@ Ejemplo de codigo:
 ![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/9cd57621-e6f5-4601-9c56-389b385bf811)
 
 ---
+
+-> Todo lo que está dentro de los **Componentes** son **children**
+
+---
