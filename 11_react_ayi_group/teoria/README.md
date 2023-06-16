@@ -176,3 +176,28 @@ setCount(2) // function
 
 ---
 
+## :computer: hook
+
+Empiezan todos con **use**
+
+---
+
+## :computer: Hook: useState
+
+Nos permite persistir estados en variables.
+
+`const [name, setName] = useState('')`
+
+-> name es la variable persistida del estado
+
+-> setName es como actualizo el estado
+
+-> useState() es el valor inciial dle estado
+
+
+Ejemplo de codigo:
+
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/9cd57621-e6f5-4601-9c56-389b385bf811)
+
+---
