@@ -1,4 +1,4 @@
-# Curso de AYIWOMAN echnology Bootcamp - React de Ayi Group
+# :computer: Curso de AYIWOMAN echnology Bootcamp - React de Ayi Group
 
 ---
 
@@ -6,6 +6,6 @@
 
 - Fueron 9 clases destinadas a React.
 
-- En **teoria** esta todos los temas vistos
+- En [**teoria**](https://github.com/eugenia1984/react-varios-cursos/tree/main/11_react_ayi_group/teoria) esta todos los temas vistos
 
 ---
