@@ -87,10 +87,12 @@
 
 - Clase 26: 7 de Junio -> No tuvimos clase por Feria
 
-- Clase 26: 12 de Junio
+- [Clase 26: 12 de Junio](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/clases/clase26.md): FireBase
 
-- Clase 27:
+- Clase 27: 14 Junio
 
-- Clase 28:
+- Clase 28: 19 Junio
+
+- Clase 29: 21 Junio
  
 ---
