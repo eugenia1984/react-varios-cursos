@@ -73,7 +73,7 @@
 
 - [Bases de datos - Unidad1](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/back_end_base_de_datos.md): Que es una base de datos / Que es Mysql / Que es SQL / Modelo entidad relación / Tipos de datos / Componentes SQL / Trabajar con varias tablas
 
-- Base de Datos - Unidad 2: MySQL: Insert / Select / Update / Delete / Uniones / Subconsultas / Funciones
+- [Base de Datos - Unidad 2](https://github.com/eugenia1984/react-varios-cursos/blob/main/09_cac_react/teoria/back_end_base_de_datos2.md): MySQL: Insert / Select / Update / Delete / Uniones / Subconsultas / Funciones
 
 - Base de datos - Unidad 3: MongoDB: ¿Qué es Mongo DB? / Limitaciones BD relacionales / Base de datos NOSQL / SQL vs NOSQL
   
