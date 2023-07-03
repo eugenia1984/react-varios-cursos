@@ -30,7 +30,7 @@ Scrum es un marco de trabajo para el desarrollo y el mantenimiento de productos 
 
 ---
 
-### Definición de Scrum
+### :computer: Definición de Scrum
 
 Scrum (n): Es un marco de trabajo a través del cual las personas pueden abordar problemas complejos adaptativos, a la vez que se entregan productos de forma eficiente y creativa con el máximo valor.
 
@@ -56,7 +56,7 @@ Las estrategias específicas para usar el marco de trabajo Scrum son diversas y 
 
 ---
 
-### Usos de Scrum
+### :computer: Usos de Scrum
 
 Scrum inicialmente fue desarrollado para gestionar y desarrollar productos. A partir de la década de 1990s, Scrum se ha utilizado extensivamente en todo el mundo, para:
 
@@ -85,7 +85,7 @@ trabajo complejo, como por ejemplo, los tipos identificados anteriormente.
 
 ---
 
-### Teoría de Scrum
+### :computer: Teoría de Scrum
 
 Scrum se basa en la teoría de control de procesos empírica o empirismo. El empirismo asegura que el conocimiento procede de la experiencia y en poder tomar decisiones basándose en lo conocido. Scrum emplea un enfoque iterativo e incremental para optimizar la predictibilidad y el control del riesgo.
 
@@ -124,7 +124,7 @@ Scrum prescribe cuatro eventos formales, contenidos dentro del Sprint, para la i
 
 ---
 
-### Los Valores de Scrum
+### :computer: Los Valores de Scrum
 
 Cuando los valores del compromiso, coraje, focalización y apertura, son incorporados y vividos por el equipo Scrum, los pilares Scrum como son la transparencia, inspección y adaptación se materializan y fomentan la confianza en todo el mundo. Los miembros del Equipo Scrum (Scrum Teams) aprenden y exploran estos valores a medida que van trabajando en los Eventos (Events), Roles (Roles) y Artefactos (Artifacts) de Scrum.
 
@@ -238,7 +238,7 @@ El Scrum Master sirve a la organización de varias formas, incluyendo:
 
 ---
 
-###  Eventos en Scrum (Scrum Events)
+### :computer:  Eventos en Scrum (Scrum Events)
 
 En Scrum existen diferentes eventos predefinidos con el fin de crear regularidad y minimizar la necesidad de reuniones no definidas en Scrum. Todos los eventos son compartimientos o periodos de tiempo limitado (time-boxes), de tal modo que todos tienen una duración máxima. Una vez que comienza un Sprint, su duración es fija y no puede acortarse o alargarse. Los otros eventos pueden terminar siempre que se alcance el objetivo del evento, asegurando que se emplee una cantidad apropiada de tiempo sin permitir desperdicio en el proceso.
 
@@ -351,6 +351,9 @@ Los Scrum Diarios (Daily Scrums) mejoran la comunicación, eliminan la necesidad
 
 ---
 
+## :star- Técnicas Sprint Review y Reuniones Retrospectivas
+
+
 ### Revisión del Sprint (Sprint Review)
 
 Al final del Sprint se lleva a cabo una Revisión de Sprint (Sprint Review) para inspeccionar el Incremento y adaptar la Pila del Producto (Product Backlog) si fuese necesario. Durante la Revisión de Sprint (Sprint Review), el Equipo Scrum y los interesados colaboran acerca de lo que se hizo durante el Sprint. Basándose en esto y en cualquier cambio a la Pila del Producto (Product Backlog) durante el Sprint, los asistentes colaboran para determinar las siguientes cosas que podrían hacerse para optimizar el valor. Se trata de una reunión informal, no una reunión de seguimiento, y la presentación del Incremento tiene como objetivo facilitar la retroalimentación de información y fomentar la colaboración.
@@ -404,32 +407,124 @@ Al final de la Retrospectiva del Sprint (Sprint Retrospective) el Equipo Scrum d
  
 
 
----
 
-## :star: Principal problemática de gestión de proyectos
-
----
-
-## :star: Comprender y gestionar un contexto complejo
-
----
-
-## :star: Contexto iterativo e incremental de trabajo
-
----
-
-## :star: Comprendiendo los principios y valores
 
 ---
 
 ## :star: Elementos constitutivos de Scrum, eventos
 
+### Los Artefactos en Scrum (Scrum Artifacts)
+
+Los artefactos de Scrum representan el trabajo o el valor en diversas formas que son útiles para proporcionar transparencia y oportunidades para la inspección y adaptación. Los artefactos definidos por Scrum están diseñados específicamente para maximizar la transparencia de la información clave, necesaria para asegurar que todos tengan el mismo entendimiento del artefacto.
+
+#### Pila del Producto (Product Backlog)
+
+La Pila del Producto (Product Backlog) es una lista ordenada de todo lo conocido que podría ser necesario en el producto y es la única fuente de requisitos para cualquier cambio a realizarse en el producto. El Propietario del Producto (Product Owner) es el responsable de la Pila del Producto (Product Backlog), incluyendo su contenido, disponibilidad y ordenación.
+
+Una Pila del Producto (Product Backlog) nunca está completa. El desarrollo más temprano de la misma solo refleja los requisitos conocidos y mejor entendidos al principio. La Pila del Producto (Product Backlog) evoluciona a medida de que el producto y el entorno en el que se usará también lo hacen. La Pila del Producto (Product Backlog) es dinámica; cambia constantemente para identificar lo que el producto necesita para ser adecuado, competitivo y útil. Mientras el producto exista, su Pila del Producto (Product Backlog) también existe.
+
+La Pila del Producto (Product Backlog) enumera todas las características, funcionalidades, requisitos, mejoras y correcciones que constituyen cambios a realizarse sobre el producto para entregas futuras. Los elementos de la Pila del Producto (Product Backlog) tienen como atributos la descripción, el orden, la estimación y el valor. Los elementos de La Pila de Producto (Product Backlog) muchas veces incluyen descripciones de las pruebas que demostrarán la completitud de tales elementos cuando estén “Terminados”.
+
+
+A medida que un producto es utilizado y se incrementa su valor y el mercado proporciona retroalimentación, la Pila del Producto (Product Backlog) se convierte en una lista más larga y exhaustiva. Los requisitos nunca dejan de cambiar así que la Pila del Producto (Product Backlog) es un artefacto vivo. Los cambios en los requisitos de negocio, las condiciones del mercado o la tecnología podrían causar cambios en la Pila del Producto (Product Backlog).
+
+A menudo, varios Equipos Scrum trabajan juntos en el mismo producto. Para describir el trabajo a realizar sobre el producto se utiliza una única Pila del Producto (Product Backlog). En ese caso podría emplearse un atributo de la Pila del Producto (Product Backlog) para agrupar los elementos.
+
+El refinamiento (refinement) de la Pila del Producto (Product Backlog) es el acto de añadir detalle, estimaciones y orden a los elementos de la Pila del Producto (Product Backlog). Se trata de un proceso continuo en el cual El Propietario del Producto (Product Owner) y el Equipo de Desarrollo (Development Team) colaboran acerca de los detalles de los elementos de la Pila del Producto (Product Backlog). Durante el refinamiento de la Pila del Producto (Product Backlog), se examinan y revisan sus elementos. El Equipo Scrum decide cómo y cuándo se hace el refinamiento. Este usualmente consume no más del 10% de la capacidad del Equipo de Desarrollo (Development Team). Sin embargo, los elementos de la Pila del Producto (Product Backlog) pueden actualizarse en cualquier momento por El Propietario del Producto (Product Owner) o a criterio suyo.
+
+
+#### eguimiento del Progreso hacia los Objetivos
+
+En cualquier momento es posible sumar el trabajo total restante para alcanzar el objetivo. El Propietario del Producto (Product Owner) hace seguimiento de este trabajo restante total al menos en cada Revisión de Sprint (Sprint Review). El Propietario del Producto (Product Owner) compara esta cantidad con el trabajo restante en Revisiones de Sprint previas, para evaluar el progreso hacia la finalización del trabajo proyectado en el tiempo deseado para el objetivo. Esta información se muestra de forma transparente a todos los interesados.
+
+ 
+Varias prácticas de proyección de tendencias se han utilizado para predecir el progreso, como trabajo pendiente (Burn Down), trabajo completado (Burn Up) y el flujo acumulado (Cumulative Flow). Estas han probado ser útiles. Sin embargo, no reemplazan la importancia del empirismo. En entornos complejos se desconoce lo que ocurrirá. Solo lo que ya ha ocurrido puede utilizarse para la toma de decisiones con miras al futuro.
+
 ---
 
 ## :star: La planificación del sprint 0
 
+
+### Pila del Sprint (Sprint Backlog)
+
+La Pila del Sprint (Sprint Backlog) es el conjunto de los elementos de la Pila del Producto (Product Backlog) seleccionados para el Sprint, más un plan para entregar el Incremento de producto y conseguir el objetivo del Sprint. La Pila del Sprint (Sprint Backlog) es una predicción hecha por el Equipo de Desarrollo (Development Team) acerca de qué funcionalidad formará parte del próximo Incremento y del trabajo necesario para entregar esa funcionalidad en un
+
+Incremento “Terminado”.
+
+
+La Pila del Sprint (Sprint Backlog) hace visible todo el trabajo que el Equipo de Desarrollo identifica como necesario para alcanzar el Objetivo del Sprint. Para asegurar el mejoramiento continuo, la Pila del Sprint (Sprint Backlog) incluye al menos una mejora de procesos de alta prioridad identificada en la Retrospectiva inmediatamente anterior.
+
+ 
+La Pila del Sprint (Sprint Backlog) es un plan con un nivel de detalle suficiente como para que los cambios en el progreso se puedan entender en el Scrum Diario (Daily Scrum). El Equipo de Desarrollo (Development Team) modifica la Pila del Sprint (Sprint Backlog) durante el Sprint y
+
+esta Pila del Sprint (Sprint Backlog) emerge a lo largo del Sprint. Esto ocurre a medida que el Equipo de Desarrollo (Development Team) trabaja en lo planeado y aprende más acerca del trabajo necesario para conseguir el objetivo del Sprint.
+
+Cuando se requiere nuevo trabajo, el Equipo de Desarrollo (Development Team) lo adiciona a la Pila del Sprint (Sprint Backlog). A medida que el trabajo se ejecuta o se completa se va actualizando la estimación de trabajo restante. Cuando algún elemento del plan se considera innecesario, es eliminado. Solo el Equipo de Desarrollo (Development Team) puede cambiar su Pila del Sprint (Sprint Backlog) durante un Sprint. La Pila del Sprint (Sprint Backlog) es una imagen visible en tiempo real del trabajo que el Equipo de Desarrollo (Development Team) planea llevar a cabo durante el Sprint y pertenece únicamente al Equipo de Desarrollo (Development Team).
+
+
+### Seguimiento del Progreso del Sprint
+
+En cualquier momento durante un Sprint es posible sumar el trabajo restante total en los elementos de la Pila del Sprint (Sprint Backlog). El Equipo de Desarrollo (Development Team) hace seguimiento de este trabajo restante total al menos en cada Scrum Diario (Daily Scrum) para proyectar la posibilidad de conseguir el objetivo del Sprint. Haciendo seguimiento del trabajo restante a lo largo del Sprint el Equipo de Desarrollo (Development Team) puede gestionar su progreso.
+
 ---
 
-## :star- Técnicas Sprint Review y Reuniones Retrospectivas
+## :star: Contexto iterativo e incremental de trabajo
+
+### Incremento (Increment)
+
+El Incremento es la suma de todos los elementos de la Pila del Producto (Product Backlog) completados durante un Sprint y el valor de los incrementos de todos los Sprints anteriores. Al final de un Sprint el nuevo Incremento debe estar “Terminado”, lo cual significa que está en
+
+condiciones de ser utilizado y que cumple la Definición de “Terminado” del Equipo Scrum.Un incremento es un cuerpo de trabajo inspeccionable y terminado que respalda el empirismo al final del Sprint. El incremento es un paso hacia una visión o meta. El incremento debe estar en condiciones de utilizarse sin importar si el Propietario del Producto (Product Owner), decide liberarlo o no.
+
+ 
+---
+
+### Transparencia de los Artefactos
+
+Scrum se basa en la transparencia. Las decisiones para optimizar el valor y controlar el riesgo se toman basadas en el estado percibido de los artefactos. En la medida en que la transparencia sea completa, estas decisiones tienen unas bases sólidas. En la medida en que los artefactos no son completamente transparentes, estas decisiones pueden ser erróneas, el valor puede disminuir y el riesgo puede aumentar.
+
+ 
+
+El Scrum Master debe trabajar con el Propietario del Producto (Product Owner), el Equipo de Desarrollo (Development Team) y otras partes involucradas para entender si los artefactos son completamente transparentes. Hay prácticas para hacer frente a la falta de transparencia; el Scrum Master debe ayudar a todos a aplicar las prácticas más apropiadas si no hay una transparencia completa. Un Scrum Master puede detectar la falta de transparencia
+
+inspeccionando los artefactos, reconociendo patrones, escuchando atentamente lo que se dice y detectando diferencias entre los resultados esperados y los reales. La labor del Scrum Master es trabajar con el Equipo Scrum y la organización para mejorar la transparencia de los artefactos. Este trabajo usualmente incluye aprendizaje, convicción y cambio. La transparencia no ocurre de la noche a la mañana, sino que es un camino.
 
 ---
+
+### Definición de Hecho (Done)
+
+Cuando un elemento de la Pila del Producto (Product Backlog) o un Incremento se describe como “Terminado”, todo el mundo debe entender lo que significa “Terminado” (“Done”) . Aunque esto puede variar significativamente para cada Equipo Scrum (Scrum Team), los miembros del equipo deben tener un entendimiento compartido de lo que significa que el trabajo esté completado para asegurar la transparencia. Esta es la definición de “Terminado” (“Done”) para el Equipo Scrum (Scrum Team), y se utiliza para evaluar cuándo se ha completado el trabajo sobre el Incremento de producto.
+
+Esta misma definición guía al Equipo de Desarrollo (Development Team) en saber cuántos elementos de la Pila del Producto (Product Backlog) puede seleccionar durante la Planificación del Sprint (Sprint Planning). El propósito de cada Sprint es entregar Incrementos de funcionalidad que potencialmente se puedan poner en producción y que se ajustan a la Definición de “Terminado” (“Done”) actual del Equipo Scrum (Scrum Team).
+
+ 
+Los Equipos de Desarrollo (Development Team) entregan un Incremento de funcionalidad de producto en cada Sprint. Este Incremento es utilizable, de modo que el Propietario del Producto (Product Owner) podría elegir liberarlo inmediatamente. Si la definición de “Terminado” (“Done”) para un incremento es parte de las convenciones, estándares o guías de la organización de desarrollo, al menos todos los Equipos Scrum (Scrum Team) deben seguirla. Si “Terminado” (“Done”) para un incremento no es una convención de la organización de desarrollo, el Equipo de Desarrollo (Development Team) del Equipo Scrum (Scrum Team) debe especificar una definición de “Terminado” (“Done”) apropiada para el producto. Si hay múltiples Equipos Scrum (Scrum Teams) trabajando en la entrega del sistema o producto, los equipos de desarrolladores en todos los Equipos Scrum (Scrum Teams) deben definir en conjunto la definición de “Terminado”, (“Done”).
+
+Cada Incremento se integra con todos los Incrementos anteriores y es probado de manera exhaustiva, asegurando que todos los Incrementos funcionan en conjunto.
+
+A medida que los Equipos Scrum maduran, se espera que su definición de “Terminado” (“Done”) amplíe para incluir criterios más rigurosos para una mayor calidad. El uso de las nuevas definiciones puede descubrir trabajo por hacer en los incrementos previamente “Terminados” (“Done”) . Cualquier producto o sistema debería tener una definición de “Terminado” (“Done”) que es un estándar para cualquier trabajo realizado sobre él.
+
+ 
+
+
+---
+
+### Nota Final
+
+Scrum es gratuito . Los roles, eventos, artefactos, y reglas de Scrum son inmutables y aunque es posible implementar solo partes de Scrum, el resultado no es Scrum.
+
+Scrum solo existe como un todo y funciona bien como contenedor para otras técnicas, metodologías y prácticas.
+
+---
+
+### Historia
+
+Ken Schwaber y Jeff Sutherland trabajaron en Scrum desde 1995, cuando conjuntamente presentaron en la conferencia OOPSLA en 1995. Esta presentación documentó principalmente el aprendizaje que Ken y Jeff habían obtenido a lo largo de los años y hicieron público la primera definición formal de Scrum.
+
+ 
+
+La Guía de Scrum documenta Scrum tal y como ha sido desarrollado, evolucionado, y mantenido por más de veinte años por Jeff Sutherland y Ken Schwaber. Otras fuentes proporcionan patrones, procesos e ideas que complementan al marco de trabajo Scrum. Estas pueden incrementar productividad, valor, creatividad y satisfacción con los resultados.
+
+---
+
+
