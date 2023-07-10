@@ -96,3 +96,15 @@
 - Clase 29: 21 Junio
  
 ---
+
+## :book: 2 exámenes integradores:
+
+### 1er examen
+
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/3b09c2f7-cf13-49b4-b5eb-ff4aff4da989)
+
+
+### 2do examen
+
+---
