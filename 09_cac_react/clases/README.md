@@ -107,4 +107,7 @@
 
 ### 2do examen
 
+
+![image](https://github.com/eugenia1984/react-varios-cursos/assets/72580574/b1a3e476-67c7-442f-ab08-3e628885f283)
+
 ---
