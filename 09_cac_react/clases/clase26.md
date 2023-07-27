@@ -26,4 +26,7 @@ Para cada campo le tengo que pponer: **nombre**, el **tipo de dato** que almacen
 
 Puedo tener **Documentos** con **distinta cantidad de campos** o inclusive con **distintos campos**. Si por ejemplo llamo al valor **precio** y no esta declarado en todos, solo me trae los que los tienen, no me va a dar errores.
 
+-> Para agregar una **colección**, hay que ponerle un nombre. Loego agregamos el **docuemnto** y adentro ya puedo ingresar los datos.
+
+
 ---
