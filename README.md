@@ -1,6 +1,4 @@
-( ENGLISH )
-
-# <img src="https://img.icons8.com/bubbles/50/null/react.png"/> React 
+# <img src="https://img.icons8.com/bubbles/40/null/react.png"/> React 
 
 Here I will gather the courses made of **React**
 
@@ -50,7 +48,9 @@ Here I will gather the courses made of **React**
 ## Please: 🎁
 
 * Share this proyect with others 📢
-* Invite a beer 🍺 or a coffee ☕  to someone of the team. 
+  
+* Invite a beer 🍺 or a coffee ☕  to someone of the team.
+  
 * Thanks a lot 🤓.
 
 
