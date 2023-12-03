@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello React</title>
+</head>
+
+<body>
+    <div id="app">
+    </div>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Ejemplo 1 -->
+    <!-- <script type="text/babel">
+        const itElm = React.createElement('i', null, 'React!')
+        const elm = React.createElement('h1', {id: 'heading'}, 'Hello', itElm)
+        REactDOM.render(elm, document.querySelector('#app2'))
+    </script> -->
+
+    <!-- Ejemplo 2 - usando JSX -->
+    <!-- <script type="text/babel">
+        const styles = { 
+            color: 'green', 
+            fontSize: '20px'
+        }
+        const elm = (
+            <>
+                <h1 
+                    id="heading" 
+                    className="heading-green" 
+                    style={styles}>Hello <i>React</i> {console.log('1+1 = ', 1+1)}</h1>
+                <button disabled>Button 1 - disabled</button>
+                <button disabled={false}>Button 2</button>
+                <button>Button 3</button>
+            </>
+        )
+        REactDOM.render(elm, document.querySelector('#app2'))
+    </script> -->
+
+    <script type="text/babel">
+        {/* Class Component - without Hook, with lifecycle*/ }
+        class MyHeading extends React.Component {
+            render() {
+                return (
+                    <header>
+                        {/* Example of Conditional rendering*/}
+                        <h1>Hello {this.props.name === 'React' ?
+                            <i>{this.props.name}</i>
+                            : this.props.name}!!</h1>
+                    </header>
+                )
+            }
+        }
+        {/* Default props in class component */ }
+        MyHeading.defaultProps = {
+            name: 'World'
+        }
+
+        {/* Functional Component - with hooks */ }
+        {/* Functional Component with props and default value */ }
+        function MyButton({ bg = 'green' }) {
+            const style = {
+                backgroundColor: bg,
+                border: 'none',
+                padding: '15px 32px',
+                color: '#ffffff',
+                cursor: 'pointer',
+                margin: '15px',
+                borderRadius: '7px'
+            }
+
+            {/* React Sintetic event */}
+            const handleClick = (e) => {
+                console.log('button click', e)
+                console.log('target', e.target)
+                e.stopPropagation()
+            }
+            {/* The UI that will be rendering */ }
+            return (
+                <button
+                    style={style}
+                    onClick={handleClick}>
+                    Click me
+                </button>
+            )
+        }
+
+        {/* Component Composition - a parent component with child components */ }
+        function App() {
+            return (
+                <div onClick={e => console.log('App Click')}>
+                    <MyHeading />
+                    <MyButton />
+                    {/* Component with props*/}
+                    <MyButton bg="Red" />
+                </div>
+            )
+        }
+        ReactDOM.render(<App />, document.querySelector('#app'))
+    </script>
+</body>
+
+</html>
