@@ -16,9 +16,11 @@
 
 ## <img width="48" height="48" src="https://img.icons8.com/doodle/48/question-mark--v1.png" alt="question mark"/> What you will find?
 
-- 01-hello-react: A basic rendeingof React using a single html file
+- **01-hello-react**: A basic rendeing of React using a single html file
 
-- 02-hello-react
+- **02-hello-react**: A basic app with a heading and a form, using webpack configuration
+
+- **03-react-component-app**
 
 ---
 
@@ -104,5 +106,26 @@ Spinach      $2
 ## Atomic Design
 
 atoms -> molecules -> organism -> tamplates -> page
+
+### Benefits:
+
+- Improved Scalability and maintainability
+
+- Enhanced reusability
+
+- Improved consistency
+
+
+### The five levels of Atomic Design
+
+- **Atoms**: basic building blocks of the design system (buttons, inputs, icons)
+
+- **Molecule**: combinations of atoms (form fields, header navigation)
+
+- **Organism**: groups of molecules that function together as a unit (header, footer, sidebars)
+
+- **Templates**: page-level structures that place organism within a layout
+
+- **Pages**: complete, fucntional pages build using templates and organism
 
 ---
