@@ -60,6 +60,24 @@
             name: 'World'
         }
 
+        {/* State in Class components */}
+        class CounterButton extends React.Component {
+            constructor(props) {
+                super(props)
+                this.state = {
+                    count: 0 // initial valur
+                }
+            }
+            // Event handler 
+            incrementCount = (e) => {
+                this.setState({count: this.state.count + 1})
+            }
+
+            render() {
+                return <button onClick={ this.incrementCount}>Clicked: {this.state.count}</button>
+            }
+        }
+
         {/* Functional Component - with hooks */ }
         {/* Functional Component with props and default value */ }
         function MyButton({ bg = 'green' }) {
@@ -97,6 +115,8 @@
                     <MyButton />
                     {/* Component with props*/}
                     <MyButton bg="Red" />
+                    <hr />
+                    <CounterButton />
                 </div>
             )
         }

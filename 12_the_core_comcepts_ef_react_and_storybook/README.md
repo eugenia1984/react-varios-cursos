@@ -21,3 +21,88 @@
 - 02-hello-react
 
 ---
+
+## Concepts
+
+### State
+
+
+The DATA FLOW is UNIDIRECTIONAL
+
+```
+state -> view -> action
+ |                  |
+ --------------------
+```
+
+- Functional components used to call stateless, but with the hook, the **functional components** manage the **state**
+
+---
+
+# Component driven development
+
+Create the **UI**(User Interface) from **components**, thinking in the minumum representation, same as the BackEnd think in Micro services, here we think in **component**:
+
+- **Fundational components**: button, input, link, image, etc
+
+- **Composable components**: form, list, hero (compose with the fundational components)
+
+- **Pages**: Home Page, Pricing, Profile
+
+- **Web Apps**
+
+Example:
+
+```
+Search...
+
+ --
+|  | Only show products in stock
+ --
+
+  Name      Price
+     Fruits
+Apple        $1
+Dragonfruit  $1 
+Passionfruit $2
+     Vegetables
+Spinach      $2         
+```
+
+5 components:
+
+1. **FilterableProductTable**: SearchBar + ProductTable
+
+2. **SearchBar**: input search + check-box
+
+3. **ProductTable**: ProductCategory Row + Product Row
+
+4. **ProductCategoryRow**: the heading of each category
+
+5. **ProductRow**: the product with the price
+
+### Benefits
+
+- Faster development: each component will have less code
+
+- Better maintenance: for developer and testing
+
+- Communication: between the software developer team, product managers and designers (mocks in components)
+
+- Reusability: it can include more cases
+
+- Releases: it can be release independent
+
+- Documentation: of the use cases of each component
+
+---
+
+[Thinking in React](https://react.dev/learn/thinking-in-react)
+
+---
+
+## Atomic Design
+
+atoms -> molecules -> organism -> tamplates -> page
+
+---
