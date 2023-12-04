@@ -10,7 +10,9 @@
 
 - <img width="28" height="28" src="https://img.icons8.com/color/28/javascript--v1.png" alt="javascript"/> JavaScript
 
-- <img width="28" height="28" src="https://img.icons8.com/office/28/react.png" alt="react"/> React
+- <img width="28" height="28" src="https://img.icons8.com/office/28/react.png" alt="react"/> React, react hooks: **useState**, **useRef**
+
+- Storybook
 
 ---
 
@@ -18,15 +20,15 @@
 
 - **01-hello-react**: A basic rendeing of React using a single html file
 
-- **02-hello-react**: A basic app with a heading and a form, using webpack configuration
+- **02-hello-react-webpack**: A basic app with a heading and a form, using webpack configuration
 
-- **03-react-component-app**
+- **03-react-component-app**: A basic app with create-react-app(nowadays it's recomend it to use **Vite** instead). Using **Storybook**.
 
 ---
 
-## Concepts
+## CONCEPTS
 
-### State
+### 1 - State
 
 
 The DATA FLOW is UNIDIRECTIONAL
@@ -41,7 +43,7 @@ state -> view -> action
 
 ---
 
-# Component driven development
+### 2 - Component driven development
 
 Create the **UI**(User Interface) from **components**, thinking in the minumum representation, same as the BackEnd think in Micro services, here we think in **component**:
 
@@ -103,7 +105,7 @@ Spinach      $2
 
 ---
 
-## Atomic Design
+### 3 - Atomic Design
 
 atoms -> molecules -> organism -> tamplates -> page
 

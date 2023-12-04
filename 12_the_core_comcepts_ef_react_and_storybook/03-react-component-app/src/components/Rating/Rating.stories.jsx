@@ -1,13 +1,13 @@
-import Rating from "./Rating";
+import Rating from './Rating'
 
 export default {
-  title: "Example/Rating",
-  component: Rating,
-};
+  title: 'Components/Rating',
+  component: Rating
+}
 
-const Template = (args) => <Rating {...args} />;
+const Template = (args) => <Rating {...args} />
 
-export const FiveStars = Template.bind({});
+export const FiveStars = Template.bind({})
 FiveStars.args = {
-  number: 5,
-};
+  number: 5
+}

@@ -1,5 +1,12 @@
-[![CI](https://github.com/balrubaye/react-components-app/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/balrubaye/react-components-app/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/balrubaye/react-components-app/branch/master/graph/badge.svg?token=9SYUOWJEEP)](https://codecov.io/gh/balrubaye/react-components-app)
+# STORYBOX
+
+
+A sandbox to build UI components in isolation, where we can mock the diferens **states** of the compoents (**styorys**), also provide testing and documentation
+
+`npm run storybook`
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

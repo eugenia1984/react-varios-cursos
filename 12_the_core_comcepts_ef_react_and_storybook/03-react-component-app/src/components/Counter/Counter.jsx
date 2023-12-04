@@ -7,11 +7,14 @@ export default function Counter({ color }) {
 
   const handleOnClick = (evtType) => {
     if (evtType === "ADD") {
+      console.log('Add button click')
       setCount(count+1);
       return;
     }
+    console.log('Substract button click')
     setCount(count-1);
   };
+
   return (
     <>
       <span style={{ color }}>Counter: {count}</span> <br />
