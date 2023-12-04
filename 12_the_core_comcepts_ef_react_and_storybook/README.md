@@ -22,7 +22,7 @@
 
 - **02-hello-react-webpack**: A basic app with a heading and a form, using webpack configuration
 
-- **03-react-component-app**: A basic app with create-react-app(nowadays it's recomend it to use **Vite** instead). Using **Storybook**.
+- **03-react-component-app**: A basic app with create-react-app(nowadays it's recomend it to use **Vite** instead). Using **Storybook** and **TailwindCSS** for styling.
 
 ---
 

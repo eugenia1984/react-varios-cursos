@@ -1,9 +1,47 @@
-# STORYBOX
+# STORYBOOK
 
 
-A sandbox to build UI components in isolation, where we can mock the diferens **states** of the compoents (**styorys**), also provide testing and documentation
+A sandbox to build UI components in isolation, where we can mock the diferens **states** of the components (**styorys**), also provide testing and documentation
 
-`npm run storybook`
+```BASH
+npm run storybook
+```
+
+---
+
+# TAILWIND CSS
+
+It's utility first, with lots of classes to style the compoennts.
+
+
+1. To install as a developer dependency(`-D`):
+
+```BASH
+npm install -D tailwindcss postcss autoprefixer
+```
+
+2. Run Tailwind CLI:
+```BASH
+npx tailwindcss init -p
+```
+
+And now we have the **postcss.config-js** and the **tailwind.config.js**
+
+3. At **index.css**:
+
+```CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+4. Inside `.storybook/preview.js` we add:
+
+```JavaScript
+import '../src/index.css';
+```
+
+5. Now we are able to use the `className` with the TailwindCSS clases.
 
 ---
 
