@@ -143,7 +143,368 @@ It's a CI/CD in GitHub
 
 2. We have a task `Actions` and a`Workflow`
 
+3. All the configuration at: `.github/workflows/cy.yml`
+
+4. At GitHub / Actions we can add a new **badge** and add in the README.md file.
+
+5. Publish Storybook with VTRs. In the repository, in the `secret` we need to add the **token**
+
+
+```
+name: CI workflow
+
+# Events
+on:push
+
+# List of jobs
+job:
+  test:
+    # runner
+    # the virtual enviroment where the pipiline run
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    # Job steps
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with: 
+          fetch-depth: 0 # fetch full history
+
+      - name: Set up Node.js ${{ matrix.node-version}}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version}}
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run the test ¬code coverage
+        run: npm test  -- --coverage
+
+      - name: Upload code coverage to Codecov
+        uses: codecov/codecov-actions@v2
+
+      - name: Publish to Chromatic
+        uses: chrmaui/action@v1
+        with:
+          projectToken: ${{secrets.CHROMATIC_ROJECT_TOKEN}}  
+      
+```
+
 ---
+
+## React Tools & Recomendations
+
+
+### What is need for the best Backend for React?
+
+To create a fully functional application, developers need a robust backend system that handles data storage, processing and communication between the frontend and the server.
+
+- **Node.js**:
+
+Advantages:
+
+-Single language for both Frontend and Backend
+
+-High performance
+
+-Larafe ecosystem
+
+-Strong community support
+
+-Scalability
+
+Disadvantages:
+
+-Limited CPU-intensive task
+
+-Callback hell
+
+-Learning curve
+
+
+- **django** for Python:
+
+Advantages:
+
+-Batteries-included philosophy
+
+-Scalability
+
+-Strong security
+
+-Large community
+
+-Excellent documentation
+
+
+Disadvantages:
+
+-Monolitic architecture vs micro services
+
+-Less flexibility
+
+-Learning curves
+
+- **Ruby on Rails**:
+
+Advantages:
+
+-Rapid development
+
+-DRY and Convention over Configuration
+
+-Active Record ORM
+
+-Large Ecosystem
+
+-Strong community
+
+Disadvantages:
+
+-Performance
+
+-Learning curve
+
+-Declining populatiry
+
+-Less suitable for microserices (monolitic architecture)
+
+- **NEXT.js**
+
+Advantages:
+
+-Server-side rendering (SSR): improving initial page performance
+
+-Static site generatio (SSG): pre rendr the page, better performance
+
+-Automatic code splitting: small bundles
+
+-API routes
+
+-Fast refresh
+
+-Incremental static regeneration (ISR): update static content with need to rebuild the hole application
+
+Disadvantages:
+
+-Learning curve
+
+-Limited customization
+
+-Complexity
+
+-SSR and SSG limitations
+
+- **ASP.NET Core**
+
+Advantages:
+
+-High performance
+
+-Cross-platform
+
+-Modular architecture
+
+-Built-in dependency injection
+
+-Strong security
+
+-Large ecosystem
+
+Disadvantages:
+
+-Learnign curve
+
+-Less popular in the web community
+
+-Licensing costs
+
+-Pottentially lower community engagement
+
+- **Firebase** (by Google):
+
+Advantages:
+
+-Real-tim database
+
+-Authentication
+
+-Storage
+
+-Hosting
+
+-Serverless architecture
+
+-Cloud Functions
+
+Disadvantages:
+
+-Vendor lock-in
+
+-Limited query capabilities
+
+-Cost
+
+-Less control
+
+-Scalability challenge
+
+- **Spring**:
+
+Advantages:
+
+-Rapid development
+
+-Embedded web server
+
+.Standalone applications
+
+-Wide range of integrations
+
+-Spring ecosystem
+
+-Microservices support
+
+Disadvantages:
+
+-Learning curve
+
+-Memory consumtion
+
+-Slower start up
+
+-Complexity
+
+
+-> Additional BAckend options:
+
+- Gatsby
+
+- Prisma: open source database
+
+- Strapi
+
+- GraphQL
+
+---
+
+## CHAT GPT
+
+Like a seasoned coder, ChatGPT knows the syntax, the rules and even some meat coding tricks.
+
+But navigating the landscape of AI in programming can be tricky.
+
+1. https://chat.openai.com/
+
+2. Sign in if you are a user
+
+3. The interface is a simple chat box where you can type your queries or paste code snippets.
+
+4. Now let's take a look at a few practical examples.
+
+- **Example 1**: uppose you've written a python function, but you're not quite sure if it's the most efficient way to solve the problem. Here's what you could ask.
+
+``Hey, I've written this function to sort a list in Python. Can you suggest any improvements?``
+
+Then paste your function.
+
+
+- **Example 2**: Stuck on an error message. No problem. Asked ChatGPT to help you out and seeing the type error unsupported operand type error in my python code.
+
+``What does this mean?``
+
+Paste your code next and hit send.
+
+- **Example 3**: ChatGPT is also great for learning new coding concepts. You can ask, could you explain what a dictionary is in Python and provide an example of how to use it? But perhaps you want to practice coding problems for an upcoming interview.
+
+Simply type in your practice problem.
+
+``Can you help me solve this problem?``
+
+Write a function in Java that checks if a string is a palindrome.
+
+Remember ChatGPT is versatile and adaptable.
+
+Feel free to ask any coding or programming related questions you have.
+
+The more you interact, the more you'll discover how much this AI can enhance your coding skills.
+
+
+
+- **Example 4**: Having got our feet wet with ChatGPT, it's time to dive deeper and see how this tool can assist us with more advanced programming tasks. Ever wished you had a coding buddy to bounce ideas off or to help brainstorm solutions? Well, ChatGPT can play that role.
+
+Let's say you're designing a complex algorithm and you're unsure about the logic flow.
+
+Pose your problem as a question to ChatGPT like so, and try to design a recommendation algorithm for a movie app.
+
+I'm considering using collaborative filtering.
+
+Can you outline the steps I might need to take?
+
+ChatGPT can even be used for learning and understanding new programming languages.
+
+- **Example 5**: Let's say you're familiar with Python but want to pick up JavaScript. ``You can ask, Can you show me how to write a Hello World program in JavaScript?``
+
+- **Example 6**: Or perhaps you're trying to grasp a tricky concept in a new language as and learning. Ruby But I'm struggling to understand mixins. ``Can you explain how they work and provide an example?``
+
+- **Example 7**: ChatGPT also excels in helping with data analysis and visualization tasks. For instance, you could ask, I have a dataset in a Pandas data frame and I want to visualize the data distribution.
+
+``Can you suggest an appropriate Seaborn plot and how to create it?``
+
+Moreover, don't forget that ChatGPT can be of immense help in software debugging. If you have a piece of code that isn't working as expected, share it with ChatGPT and ask.
+
+``This JavaScript function isn't returning the expected output. Can you spot any errors?``
+
+- **Example 8**: In essence, ChatGPT can act as a full fledged AI programming assistant, aiding in complex tasks and helping you to become a more efficient and confident coder.
+
+- **Example 9**: Now that we're more familiar with the vast potential of ChatGPT as a programming assistant, it's essential to be aware of the precautions to ensure smooth sailing.
+
+Let's delve into some common pitfalls and how to avoid them.
+
+Firstly, while ChatGPT can provide impressive insights and solutions, it's critical to remember that it's not infallible.
+
+Always double check the solutions and suggestions it provides, especially for complex tasks.
+
+For instance, if ChatGPT suggests a code optimization, verify it by saying Can you provide the pros and cons of this optimized solution compared to my original code?
+
+Secondly, while ChatGPT is a powerful tool for learning new programming languages or concepts, it's best used as a supplement rather than a substitute for comprehensive learning resources.
+
+For example, after asking about a new concept, verify and expand your understanding by cross referencing with trusted educational resources.
+
+Next, remember that even though ChatGPT can provide assistance with coding problems, it's still an AI model and doesn't fully understand your specific project requirements.
+
+When you ask for help with code, provide as much context as possible to get the most accurate and helpful response.
+
+Lastly, never share sensitive data or confidential code with ChatGPT.
+
+While OpenAI has strict privacy policies, it's best practice to avoid discussing proprietary information or data.
+
+Please help me understand why this python function to connect to my company's private database isn't working.
+
+This is a big no no.
+
+Instead abstract out the sensitive parts and then ask your question By being mindful of these points, you can make your journey with ChatGPT a productive and enjoyable one.
+
+We've navigated the landscape of using ChatGPT for coding and programming, revealing its potential as a versatile coding assistant from simple tasks to complex problem solving.
+
+ChatGPT is there to aid and guide you.
+
+But remember, while it's a powerful tool, it isn't infallible.
+
+Always use a responsibly, ethically, and in conjunction with your coding skills.
+
+The AI is transforming the coding world and as programmers we have front row seats to this exciting development.
+
+Thank you for tuning in.
+
+Keep learning and happy coding.
+
+
 ---
 
 ### Getting Started with Create React App

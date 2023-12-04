@@ -18,6 +18,8 @@ job:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with: 
+          fetch-depth: 0 # fetch full history
 
       - name: Set up Node.js ${{ matrix.node-version}}
         uses: actions/setup-node@v1
@@ -27,6 +29,14 @@ job:
       - name: Install dependencies
         run: npm install
 
-      - name: Run the test
-        run: npm test  
+      - name: Run the test ¬code coverage
+        run: npm test  -- --coverage
+
+      - name: Upload code coverage to Codecov
+        uses: codecov/codecov-actions@v2
+
+      - name: Publish to Chromatic
+        uses: chrmaui/action@v1
+        with:
+          projectToken: ${{secrets.CHROMATIC_ROJECT_TOKEN}}  
       
