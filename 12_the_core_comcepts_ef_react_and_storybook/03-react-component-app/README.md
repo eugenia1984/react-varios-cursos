@@ -115,6 +115,35 @@ npx chromatic --project-token=chpt_5cb12d78311591f
 You will need to put your token. Now chromatic will generate the steps. And now at `package.json` we can see a nw `script`: `chromatic`
 
 ---
+
+## CI/CD
+
+CI/CD: Continuous Integration / Continuous Development
+
+- **Continuous Integration**: Pipeline with: `code -> build -> test`
+
+- **Continuous Delivery**: Pipeline with: `code -> build -> test -> release -> deploy`
+
+### Benefits
+
+- Improve Software Quality, because we already have test
+
+- Improve Developer Productivity
+
+- Improve Feedback
+
+- Faster Releases & Updates
+
+
+### GitHub Actions
+
+It's a CI/CD in GitHub
+
+1. We need to have a `repository`
+
+2. We have a task `Actions` and a`Workflow`
+
+---
 ---
 
 ### Getting Started with Create React App
