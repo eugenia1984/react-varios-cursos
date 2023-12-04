@@ -14,6 +14,8 @@
 
 - Storybook
 
+- For **testing**: **Jest**, **React** (testing library), **User-event** (APIs to replicate the interactive with the DOM), **Accessibility Addon** (for accessibility).
+
 ---
 
 ## <img width="48" height="48" src="https://img.icons8.com/doodle/48/question-mark--v1.png" alt="question mark"/> What you will find?
@@ -129,5 +131,68 @@ atoms -> molecules -> organism -> tamplates -> page
 - **Templates**: page-level structures that place organism within a layout
 
 - **Pages**: complete, fucntional pages build using templates and organism
+
+---
+
+## 4 - STORYBOOK
+
+
+A sandbox to build UI components in isolation, where we can mock the diferens **states** of the components (**styorys**), also provide testing and documentation
+
+```BASH
+npm run storybook
+```
+
+---
+
+## 5 - TAILWINDCSS
+
+It's utility first, with lots of classes to style the compoennts.
+
+
+1. To install as a developer dependency(`-D`):
+
+```BASH
+npm install -D tailwindcss postcss autoprefixer
+```
+
+2. Run Tailwind CLI:
+```BASH
+npx tailwindcss init -p
+```
+
+And now we have the **postcss.config-js** and the **tailwind.config.js**
+
+3. At **index.css**:
+
+```CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+4. Inside `.storybook/preview.js` we add:
+
+```JavaScript
+import '../src/index.css';
+```
+
+5. Now we are able to use the `className` with the TailwindCSS clases.
+
+---
+
+## 6 - TESTING
+
+- **unit testing**: testing a piece of code in isolation, when we test a component.
+
+We are going to use the `test` **script**.
+
+### Testing libraries
+
+- Jest
+
+- React: testing library
+
+- User-event: APIs to replicate the interactive with the DOM
 
 ---

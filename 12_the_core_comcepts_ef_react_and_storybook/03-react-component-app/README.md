@@ -45,6 +45,55 @@ import '../src/index.css';
 
 ---
 
+# TESTING
+
+- **unit testing**: testing a piece of code in isolation, when we test a component.
+
+We are going to use the `test` **script**.
+
+### Testing libraries
+
+- Jest
+
+- React: testing library
+
+- User-event: APIs to replicate the interactive with the DOM
+
+- Test example at **Button** component
+
+
+1. To run the test:
+```BASH
+npm run test
+```
+
+2. To check if we are covering all the scenarios
+```BASH
+npm run test -- --coverage
+```
+
+3. Install **Addon**:
+
+```BASH
+npm install @storybook/addon-ally -D
+```
+
+And inside `.storybook/main.js` we now can see:
+
+```JavaScript
+addons: [
+  "@storybook/addon-links",
+  "@storybook/addon-essentials",
+  "@storybook/addon-interactions",
+  "@storybook/preset-create-react-app",
+  "@storybook/addon-a11y",
+],
+```
+
+And check the **Accessibility** and when we run `npm run storybook` we have **Accessibility Addon**
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
