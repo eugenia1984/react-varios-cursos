@@ -46,6 +46,18 @@ Here I will gather the courses made of **React**
 
 - **TailwindCSS**
 
+- For **testing**: 
+
+-**Jest**
+
+-**React** (testing library)
+
+-**User-event** (APIs to replicate the interactive with the DOM)
+
+-**Accessibility Addon** (for accessibility)
+
+-**VRT** (Visual Regression Test) with **Chromatic**.
+
 ---
  
 

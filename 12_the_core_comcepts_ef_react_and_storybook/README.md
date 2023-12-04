@@ -14,7 +14,7 @@
 
 - Storybook
 
-- For **testing**: **Jest**, **React** (testing library), **User-event** (APIs to replicate the interactive with the DOM), **Accessibility Addon** (for accessibility).
+- For **testing**: **Jest**, **React** (testing library), **User-event** (APIs to replicate the interactive with the DOM), **Accessibility Addon** (for accessibility). **VRT** (Visual Regression Test) with **Chromatic**.
 
 ---
 

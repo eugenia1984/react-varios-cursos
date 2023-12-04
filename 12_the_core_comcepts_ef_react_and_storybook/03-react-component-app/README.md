@@ -92,6 +92,8 @@ addons: [
 
 And check the **Accessibility** and when we run `npm run storybook` we have **Accessibility Addon**
 
+## VRT (Visual Regression Test) with Chromatic
+
 ---
 
 # Getting Started with Create React App
