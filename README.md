@@ -56,7 +56,7 @@ Here I will gather the courses made of **React**
 
 -**Accessibility Addon** (for accessibility)
 
--**VRT** (Visual Regression Test) with **Chromatic**.
+-**VRT** (Visual Regression Test) with [**Chromatic**](https://www.chromatic.com/).
 
 ---
  

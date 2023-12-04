@@ -94,6 +94,26 @@ And check the **Accessibility** and when we run `npm run storybook` we have **Ac
 
 ## VRT (Visual Regression Test) with Chromatic
 
+[**Chromatic**](https://www.chromatic.com/)
+
+1. Link with **GitHub** account
+
+2. Choose from GitHub
+
+3. In terminal to get the Chromatic package:
+
+```BASH
+npm install --save-dev chromatic
+```
+
+4. Publish your Storybook. On the command line, publish to Chromatic’s secure CDN for the first time with the following command:
+
+```BASH
+npx chromatic --project-token=chpt_5cb12d78311591f
+```
+
+You will need to put your token. Now chromatic will generate the steps. And now at `package.json` we can see a nw `script`: `chromatic`
+
 ---
 ---
 
