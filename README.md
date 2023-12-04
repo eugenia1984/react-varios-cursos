@@ -42,15 +42,15 @@ Here I will gather the courses made of **React**
 
 - <img src="https://img.icons8.com/bubbles/30/null/react.png"/>**React** and **react-icons**
 
-- **Storybook**
+- [**Storybook**](https://storybook.js.org/)
 
-- **TailwindCSS**
+- [**TailwindCSS**](https://tailwindcss.com/)
 
 - For **testing**: 
 
 -**Jest**
 
--**React** (testing library)
+**React**: [**Testing library**](https://testing-library.com/docs/react-testing-library/intro/)
 
 -**User-event** (APIs to replicate the interactive with the DOM)
 
